@@ -1,0 +1,59 @@
+name: Update EDINET investment radar
+
+on:
+  workflow_dispatch:
+    inputs:
+      days:
+        description: Backfill days
+        required: false
+        default: "90"
+  schedule:
+    - cron: "30 0 * * 1-5"
+    - cron: "30 3 * * 1-5"
+    - cron: "30 6 * * 1-5"
+    - cron: "0 9 * * 1-5"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: edinet-radar-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Check API key
+        id: key
+        env:
+          EDINET_API_KEY: ${{ secrets.EDINET_API_KEY }}
+        run: |
+          if [ -n "$EDINET_API_KEY" ]; then
+            echo "configured=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "configured=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::EDINET_API_KEY is not configured"
+          fi
+      - name: Update data
+        if: steps.key.outputs.configured == 'true'
+        env:
+          EDINET_API_KEY: ${{ secrets.EDINET_API_KEY }}
+        run: python scripts/update.py --days "${{ github.event.inputs.days || '7' }}"
+      - name: Test
+        if: steps.key.outputs.configured == 'true'
+        run: pytest -q
+      - name: Commit generated JSON
+        if: steps.key.outputs.configured == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data
+          git diff --cached --quiet || git commit -m "data: update EDINET radar"
+          git push

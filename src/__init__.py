@@ -1,0 +1,1 @@
+"""EDINET Investment Radar."""
