@@ -40,7 +40,7 @@ jobs:
       - name: Check API key
         id: key
         env:
-          EDINET_API_KEY: ${{ secrets.EDINET_API_KEY }}
+          EDINET_API_KEY: ${{ secrets.EDINET_API_KEY || secrets.EDINET }}
         run: |
           if [ -n "$EDINET_API_KEY" ]; then
             echo "configured=true" >> "$GITHUB_OUTPUT"
@@ -51,7 +51,7 @@ jobs:
       - name: Update data
         if: steps.key.outputs.configured == 'true'
         env:
-          EDINET_API_KEY: ${{ secrets.EDINET_API_KEY }}
+          EDINET_API_KEY: ${{ secrets.EDINET_API_KEY || secrets.EDINET }}
         run: python scripts/update.py --days "${{ github.event.inputs.days || '7' }}"
       - name: Test
         if: steps.key.outputs.configured == 'true'
