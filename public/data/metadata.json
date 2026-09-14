@@ -1,8 +1,16 @@
 {
-  "status": "initial_sync_pending",
-  "updatedAt": null,
-  "filingCount": 0,
+  "status": "ready",
+  "updatedAt": "2026-09-14T14:09:24+09:00",
+  "filingCount": 3970,
   "stockCount": 0,
-  "benchmark": {"ticker": "1306.T", "label": "TOPIX連動ETF（1306）"},
-  "message": "EDINET APIの初回同期を待っています。"
+  "syncedDays": 90,
+  "lastSyncAt": "2026-09-14 05:09:23",
+  "benchmark": {
+    "ticker": "1306.T",
+    "label": "TOPIX連動ETF（1306）"
+  },
+  "sources": [
+    "金融庁 EDINET API v2",
+    "Yahoo Finance / yfinance"
+  ]
 }
