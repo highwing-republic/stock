@@ -29,6 +29,13 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
+      - name: Restore private SQLite cache
+        uses: actions/cache@v4
+        with:
+          path: data/investment_radar.db
+          key: edinet-radar-db-${{ github.run_id }}
+          restore-keys: |
+            edinet-radar-db-
       - run: pip install -r requirements.txt
       - name: Check API key
         id: key

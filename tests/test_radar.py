@@ -38,7 +38,7 @@ def test_metrics_and_signal():
     prices = [{"trade_date":(start+timedelta(days=i)).isoformat(), "adj_close":100+i, "volume":100} for i in range(35)]
     bench = [{"trade_date":x["trade_date"], "adj_close":100, "volume":100} for x in prices]
     metrics = event_metrics("2026-01-11T10:00:00", prices, bench)
-    assert metrics["return5d"] == 4.59
+    assert metrics["return5d"] == 5.5
     assert metrics["volumeRatio"] == 1.0
     score, reasons, unreacted = signal("initial", 2.0, False, 3.0, 6.0, 2.0)
     assert score == 95 and unreacted and "株価未反応" in reasons

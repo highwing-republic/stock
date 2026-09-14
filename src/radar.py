@@ -269,7 +269,7 @@ def update_prices(conn: sqlite3.Connection) -> tuple[int, list[str]]:
 def event_metrics(submit_datetime: str, stock: list[dict], benchmark: list[dict]) -> dict[str, Any]:
     event = submit_datetime[:10]
     stock = sorted((x for x in stock if x.get("adj_close") is not None), key=lambda x: x["trade_date"])
-    before, after = [x for x in stock if x["trade_date"] < event], [x for x in stock if x["trade_date"] >= event]
+    before, after = [x for x in stock if x["trade_date"] < event], [x for x in stock if x["trade_date"] > event]
     empty = {k: None for k in ("return1d","return5d","return20d","returnCurrent","volumeRatio","marketExcessReturn")}
     if not before: return empty
     base = float(before[-1]["adj_close"])
@@ -282,7 +282,7 @@ def event_metrics(submit_datetime: str, stock: list[dict], benchmark: list[dict]
     if pre_vol and post_vol and sum(pre_vol):
         result["volumeRatio"] = round((sum(post_vol)/len(post_vol))/(sum(pre_vol)/len(pre_vol)), 2)
     bbefore = [x for x in benchmark if x["trade_date"] < event and x.get("adj_close") is not None]
-    bafter = [x for x in benchmark if x["trade_date"] >= event and x.get("adj_close") is not None]
+    bafter = [x for x in benchmark if x["trade_date"] > event and x.get("adj_close") is not None]
     if bbefore and bafter and result["return5d"] is not None:
         target = bafter[min(4, len(bafter)-1)]["adj_close"]
         breturn = (float(target)/float(bbefore[-1]["adj_close"])-1)*100
