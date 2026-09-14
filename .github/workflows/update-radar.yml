@@ -55,7 +55,7 @@ jobs:
         run: python scripts/update.py --days "${{ github.event.inputs.days || '7' }}"
       - name: Test
         if: steps.key.outputs.configured == 'true'
-        run: pytest -q
+        run: python -m pytest -q
       - name: Commit generated JSON
         if: steps.key.outputs.configured == 'true'
         run: |
