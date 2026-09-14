@@ -58,12 +58,9 @@ def security_code_to_ticker(value: object) -> tuple[str | None, str | None]:
 def _decode(data: bytes) -> str:
     if data.startswith((b"\xff\xfe", b"\xfe\xff")):
         return data.decode("utf-16")
-    for encoding in ("cp932", "utf-8-sig", "utf-16"):
-        try:
-            return data.decode(encoding)
-        except UnicodeDecodeError:
-            continue
-    return data.decode("utf-8", errors="replace")
+    if data.startswith(b"\xef\xbb\xbf"):
+        return data.decode("utf-8-sig", errors="replace")
+    return data.decode("cp932", errors="replace")
 
 
 def parse_code_list_zip(content: bytes) -> list[dict[str, Any]]:
@@ -71,7 +68,15 @@ def parse_code_list_zip(content: bytes) -> list[dict[str, Any]]:
         name = next((x for x in archive.namelist() if x.lower().endswith(".csv")), None)
         if not name:
             raise ValueError("EDINET code list ZIP has no CSV")
-        reader = csv.DictReader(io.StringIO(_decode(archive.read(name))))
+        lines = _decode(archive.read(name)).splitlines()
+        header_index = next(
+            (index for index, line in enumerate(lines)
+             if "ＥＤＩＮＥＴコード" in line or "EDINETコード" in line),
+            None,
+        )
+        if header_index is None:
+            raise ValueError("EDINET code list CSV header was not found")
+        reader = csv.DictReader(lines[header_index:])
         items = []
         for row in reader:
             clean = {re.sub(r"[\s　]", "", k or ""): str(v or "").strip() for k, v in row.items()}
@@ -195,6 +200,12 @@ def update_issuer_master(conn: sqlite3.Connection, session=None) -> int:
       VALUES(:edinet_code,:company_name,:security_code,:ticker,CURRENT_TIMESTAMP)
       ON CONFLICT(edinet_code) DO UPDATE SET company_name=excluded.company_name,
       security_code=excluded.security_code,ticker=excluded.ticker,updated_at=CURRENT_TIMESTAMP""", rows)
+    conn.execute("""UPDATE filings SET
+      issuer_name=(SELECT company_name FROM issuer_master m WHERE m.edinet_code=filings.issuer_edinet_code),
+      security_code=(SELECT security_code FROM issuer_master m WHERE m.edinet_code=filings.issuer_edinet_code),
+      ticker=(SELECT ticker FROM issuer_master m WHERE m.edinet_code=filings.issuer_edinet_code),
+      updated_at=CURRENT_TIMESTAMP
+      WHERE EXISTS(SELECT 1 FROM issuer_master m WHERE m.edinet_code=filings.issuer_edinet_code)""")
     conn.commit()
     return len(rows)
 

@@ -19,7 +19,7 @@ def test_classification_and_filter():
 
 def test_mapper_uses_first_four_digits():
     assert security_code_to_ticker("72030") == ("7203", "7203.T")
-    content = zipped("EdinetcodeDlInfo.csv", "ＥＤＩＮＥＴコード,提出者名,証券コード\nE02144,トヨタ自動車株式会社,72030\n", "cp932")
+    content = zipped("EdinetcodeDlInfo.csv", "ダウンロード実行日,2026年09月14日現在,件数,1件\nＥＤＩＮＥＴコード,提出者名,証券コード\nE02144,トヨタ自動車株式会社,72030\n", "cp932")
     assert parse_code_list_zip(content)[0]["ticker"] == "7203.T"
 
 def test_csv_parser_keeps_partial_values():
