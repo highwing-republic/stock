@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T00:43:48+09:00",
+  "updatedAt": "2026-09-15T14:15:30+09:00",
   "company": {
     "securityCode": "9416",
     "ticker": "9416.T",
@@ -19,22 +19,23 @@
       "holdingChange": null,
       "purpose": "投資収益の獲得を目的として発行者の株式を保有する純投資",
       "importantProposal": true,
-      "priceChange": null,
-      "volumeRatio": 0.73,
-      "marketExcessReturn": null,
-      "signalScore": 50,
+      "priceChange": 1.91,
+      "volumeRatio": 0.82,
+      "marketExcessReturn": 3.59,
+      "signalScore": 60,
       "signalReasons": [
         "新規大量保有",
-        "重要提案行為あり"
+        "重要提案行為あり",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": 0.19,
-        "return5d": null,
+        "return5d": 1.91,
         "return20d": null,
-        "returnCurrent": -0.86,
-        "volumeRatio": 0.73,
-        "marketExcessReturn": null
+        "returnCurrent": 2.2,
+        "volumeRatio": 0.82,
+        "marketExcessReturn": 3.59
       }
     },
     {
@@ -50,22 +51,23 @@
       "holdingChange": 1.09,
       "purpose": "投資収益の獲得を主たる目的として発行者の株式を保有するものである。 / 投資収益の獲得を目的として発行者の株式を保有する純投資",
       "importantProposal": true,
-      "priceChange": null,
-      "volumeRatio": 0.73,
-      "marketExcessReturn": null,
-      "signalScore": 40,
+      "priceChange": 1.91,
+      "volumeRatio": 0.82,
+      "marketExcessReturn": 3.59,
+      "signalScore": 50,
       "signalReasons": [
         "1pt以上買い増し",
-        "重要提案行為あり"
+        "重要提案行為あり",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": 0.19,
-        "return5d": null,
+        "return5d": 1.91,
         "return20d": null,
-        "returnCurrent": -0.86,
-        "volumeRatio": 0.73,
-        "marketExcessReturn": null
+        "returnCurrent": 2.2,
+        "volumeRatio": 0.82,
+        "marketExcessReturn": 3.59
       }
     },
     {
@@ -81,9 +83,9 @@
       "holdingChange": -1.04,
       "purpose": "投資収益の獲得を目的として発行者の株式を保有する純投資",
       "importantProposal": true,
-      "priceChange": null,
-      "volumeRatio": 0.73,
-      "marketExcessReturn": null,
+      "priceChange": 1.91,
+      "volumeRatio": 0.82,
+      "marketExcessReturn": 3.59,
       "signalScore": 0,
       "signalReasons": [
         "重要提案行為あり",
@@ -92,11 +94,11 @@
       "stockUnreacted": false,
       "metrics": {
         "return1d": 0.19,
-        "return5d": null,
+        "return5d": 1.91,
         "return20d": null,
-        "returnCurrent": -0.86,
-        "volumeRatio": 0.73,
-        "marketExcessReturn": null
+        "returnCurrent": 2.2,
+        "volumeRatio": 0.82,
+        "marketExcessReturn": 3.59
       }
     }
   ],
@@ -2767,9 +2769,19 @@
       "open": 1040.0,
       "high": 1066.0,
       "low": 1040.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1066.0,
+      "adj_close": 1066.0,
       "volume": 372300
+    },
+    {
+      "ticker": "9416.T",
+      "trade_date": "2026-09-15",
+      "open": 1068.0,
+      "high": 1075.0,
+      "low": 1065.0,
+      "close": 1069.0,
+      "adj_close": 1069.0,
+      "volume": 274100
     }
   ],
   "benchmark": [
@@ -5442,6 +5454,16 @@
       "close": null,
       "adj_close": null,
       "volume": 19467220
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-15",
+      "open": 423.1000061035156,
+      "high": 423.29998779296875,
+      "low": 419.6000061035156,
+      "close": 420.29998779296875,
+      "adj_close": 420.29998779296875,
+      "volume": 9769360
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

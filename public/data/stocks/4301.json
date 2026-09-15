@@ -1,11 +1,39 @@
 {
-  "updatedAt": "2026-09-15T00:43:48+09:00",
+  "updatedAt": "2026-09-15T14:15:30+09:00",
   "company": {
     "securityCode": "4301",
     "ticker": "4301.T",
     "name": "株式会社アミューズ"
   },
   "events": [
+    {
+      "docId": "S100Z1Y6",
+      "ticker": "4301.T",
+      "securityCode": "4301",
+      "companyName": "株式会社アミューズ",
+      "submitDatetime": "2026-09-15 13:26",
+      "filerName": "光通信株式会社",
+      "reportType": "change",
+      "holdingRatio": 7.21,
+      "previousHoldingRatio": 7.17,
+      "holdingChange": 0.04,
+      "purpose": "純投資",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 0.48,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YUWK",
       "ticker": "4301.T",
@@ -33,7 +61,7 @@
         "return1d": 2.57,
         "return5d": -0.52,
         "return20d": -3.36,
-        "returnCurrent": -3.99,
+        "returnCurrent": -2.15,
         "volumeRatio": 2.02,
         "marketExcessReturn": 1.87
       }
@@ -2706,9 +2734,19 @@
       "open": 1830.0,
       "high": 1857.0,
       "low": 1830.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1856.0,
+      "adj_close": 1856.0,
       "volume": 15300
+    },
+    {
+      "ticker": "4301.T",
+      "trade_date": "2026-09-15",
+      "open": 1836.0,
+      "high": 1869.0,
+      "low": 1836.0,
+      "close": 1865.0,
+      "adj_close": 1865.0,
+      "volume": 7000
     }
   ],
   "benchmark": [
@@ -5381,6 +5419,16 @@
       "close": null,
       "adj_close": null,
       "volume": 19467220
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-15",
+      "open": 423.1000061035156,
+      "high": 423.29998779296875,
+      "low": 419.6000061035156,
+      "close": 420.29998779296875,
+      "adj_close": 420.29998779296875,
+      "volume": 9769360
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

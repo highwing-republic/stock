@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T00:43:48+09:00",
+  "updatedAt": "2026-09-15T14:15:30+09:00",
   "company": {
     "securityCode": "6349",
     "ticker": "6349.T",
@@ -20,7 +20,7 @@
       "purpose": "提出者は、長期的投資者として、状況に応じて発行者を含む投資対象会社と、企業統治、重要な戦略上の決断、及び資本政策について話し合いをしたり、アイデアの提供を行ったりする可能性がある。最終的な目的は株主としての利益享受の増進のため発行者と協働することにある。提出者は、最終手段として、金融商品取引法施行令第14条の8の2第1項に定める重要提案行為等を発行者に対して正式に行うことを検討する可能性がある。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.45,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [
@@ -29,11 +29,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": 0.46,
         "return5d": null,
         "return20d": null,
         "returnCurrent": 0.57,
-        "volumeRatio": null,
+        "volumeRatio": 0.45,
         "marketExcessReturn": null
       }
     },
@@ -2765,9 +2765,19 @@
       "open": 1950.0,
       "high": 1975.0,
       "low": 1937.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1945.0,
+      "adj_close": 1945.0,
       "volume": 96800
+    },
+    {
+      "ticker": "6349.T",
+      "trade_date": "2026-09-15",
+      "open": 1943.0,
+      "high": 1947.0,
+      "low": 1936.0,
+      "close": 1947.0,
+      "adj_close": 1947.0,
+      "volume": 46500
     }
   ],
   "benchmark": [
@@ -5440,6 +5450,16 @@
       "close": null,
       "adj_close": null,
       "volume": 19467220
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-15",
+      "open": 423.1000061035156,
+      "high": 423.29998779296875,
+      "low": 419.6000061035156,
+      "close": 420.29998779296875,
+      "adj_close": 420.29998779296875,
+      "volume": 9769360
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

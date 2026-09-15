@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T00:43:48+09:00",
+  "updatedAt": "2026-09-15T14:15:30+09:00",
   "company": {
     "securityCode": "7749",
     "ticker": "7749.T",
@@ -20,17 +20,20 @@
       "purpose": "純投資（投資一任契約その他契約に係る顧客の資産運用）。なお、重要提案行為等については、提出者は報告義務の発生日時点において、企業価値の向上を目的として、株券等の大量保有の状況の開示に関する内閣府令第16条第4号（発行者以外の者による発行者の株券の取得であって、当該取得後に、発行者以外の者が所有することとなる議決権が過半数を超えることとなるもの）に関する事項について発行者に対して提案を行っている。また、提出者は報告義務の発生日時点において、企業価値の向上を目的として、今後12カ月の間に、株券等の大量保有の状況の開示に関する内閣府令第16条第1号（資本政策に関する重要な変更）に関する事項について発行者に対して提案を行う予定である。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 3.17,
       "marketExcessReturn": null,
-      "signalScore": 0,
-      "signalReasons": [],
+      "signalScore": 15,
+      "signalReasons": [
+        "出来高2倍以上",
+        "出来高3倍以上"
+      ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": -1.34,
         "return5d": null,
         "return20d": null,
         "returnCurrent": -1.47,
-        "volumeRatio": null,
+        "volumeRatio": 3.17,
         "marketExcessReturn": null
       }
     },
@@ -2732,9 +2735,19 @@
       "open": 2877.0,
       "high": 2930.0,
       "low": 2853.0,
-      "close": null,
-      "adj_close": null,
+      "close": 2881.0,
+      "adj_close": 2881.0,
       "volume": 9000
+    },
+    {
+      "ticker": "7749.T",
+      "trade_date": "2026-09-15",
+      "open": 2860.0,
+      "high": 2892.0,
+      "low": 2860.0,
+      "close": 2877.0,
+      "adj_close": 2877.0,
+      "volume": 2200
     }
   ],
   "benchmark": [
@@ -5407,6 +5420,16 @@
       "close": null,
       "adj_close": null,
       "volume": 19467220
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-15",
+      "open": 423.1000061035156,
+      "high": 423.29998779296875,
+      "low": 419.6000061035156,
+      "close": 420.29998779296875,
+      "adj_close": 420.29998779296875,
+      "volume": 9769360
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

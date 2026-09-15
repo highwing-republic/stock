@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T00:43:48+09:00",
+  "updatedAt": "2026-09-15T14:15:30+09:00",
   "company": {
     "securityCode": "6897",
     "ticker": "6897.T",
@@ -19,22 +19,23 @@
       "holdingChange": 1.45,
       "purpose": "株主総利回りの最大化が達成されることを期待して保有します。発行者が2026年8月31日に公表した『新 中期経営計画2026-2030』の資本政策（PBR1倍以上、総還元性向75～100%）の着実な履行を期待するとともに、発行者に対する第三者からの買収提案については、全株主が公平に支配権プレミアムを享受できる取引を支持し、既存株主の利益を毀損し、特定の株主を差別的に取扱い、又はそれらに類する手続や取引には反対し、あらゆる手続（株主総会での議決権行使を含みますが、それに限られません。）をとります。",
       "importantProposal": true,
-      "priceChange": null,
-      "volumeRatio": 0.54,
-      "marketExcessReturn": null,
-      "signalScore": 40,
+      "priceChange": -0.77,
+      "volumeRatio": 0.45,
+      "marketExcessReturn": 0.91,
+      "signalScore": 50,
       "signalReasons": [
         "1pt以上買い増し",
-        "重要提案行為あり"
+        "重要提案行為あり",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": 6.66,
-        "return5d": null,
+        "return5d": -0.77,
         "return20d": null,
-        "returnCurrent": -0.46,
-        "volumeRatio": 0.54,
-        "marketExcessReturn": null
+        "returnCurrent": 0.0,
+        "volumeRatio": 0.45,
+        "marketExcessReturn": 0.91
       }
     },
     {
@@ -63,7 +64,7 @@
         "return1d": -7.98,
         "return5d": -5.84,
         "return20d": null,
-        "returnCurrent": -8.4,
+        "returnCurrent": -7.98,
         "volumeRatio": 2.06,
         "marketExcessReturn": -5.42
       }
@@ -97,7 +98,7 @@
         "return1d": -7.98,
         "return5d": -5.84,
         "return20d": null,
-        "returnCurrent": -8.4,
+        "returnCurrent": -7.98,
         "volumeRatio": 2.06,
         "marketExcessReturn": -5.42
       }
@@ -129,7 +130,7 @@
         "return1d": 3.54,
         "return5d": 1.62,
         "return20d": null,
-        "returnCurrent": -5.16,
+        "returnCurrent": -4.72,
         "volumeRatio": 38.57,
         "marketExcessReturn": 4.23
       }
@@ -163,7 +164,7 @@
         "return1d": 3.54,
         "return5d": 1.62,
         "return20d": null,
-        "returnCurrent": -5.16,
+        "returnCurrent": -4.72,
         "volumeRatio": 38.57,
         "marketExcessReturn": 4.23
       }
@@ -2836,9 +2837,19 @@
       "open": 643.0,
       "high": 647.0,
       "low": 640.0,
-      "close": null,
-      "adj_close": null,
+      "close": 641.0,
+      "adj_close": 641.0,
       "volume": 14300
+    },
+    {
+      "ticker": "6897.T",
+      "trade_date": "2026-09-15",
+      "open": 638.0,
+      "high": 647.0,
+      "low": 638.0,
+      "close": 646.0,
+      "adj_close": 646.0,
+      "volume": 12600
     }
   ],
   "benchmark": [
@@ -5511,6 +5522,16 @@
       "close": null,
       "adj_close": null,
       "volume": 19467220
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-15",
+      "open": 423.1000061035156,
+      "high": 423.29998779296875,
+      "low": 419.6000061035156,
+      "close": 420.29998779296875,
+      "adj_close": 420.29998779296875,
+      "volume": 9769360
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

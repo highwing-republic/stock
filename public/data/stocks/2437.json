@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T00:43:48+09:00",
+  "updatedAt": "2026-09-15T14:15:30+09:00",
   "company": {
     "securityCode": "2437",
     "ticker": "2437.T",
@@ -19,9 +19,9 @@
       "holdingChange": -0.98,
       "purpose": "証券業務に係る商品在庫として保有している。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.23,
-      "marketExcessReturn": null,
+      "priceChange": -4.81,
+      "volumeRatio": 0.22,
+      "marketExcessReturn": -3.13,
       "signalScore": 0,
       "signalReasons": [
         "保有割合減少"
@@ -29,11 +29,11 @@
       "stockUnreacted": false,
       "metrics": {
         "return1d": -3.88,
-        "return5d": null,
+        "return5d": -4.81,
         "return20d": null,
-        "returnCurrent": -5.43,
-        "volumeRatio": 0.23,
-        "marketExcessReturn": null
+        "returnCurrent": -5.75,
+        "volumeRatio": 0.22,
+        "marketExcessReturn": -3.13
       }
     },
     {
@@ -59,7 +59,7 @@
         "return1d": -3.89,
         "return5d": -6.76,
         "return20d": 0.17,
-        "returnCurrent": 2.87,
+        "returnCurrent": 2.53,
         "volumeRatio": 1.06,
         "marketExcessReturn": -4.01
       }
@@ -2732,9 +2732,19 @@
       "open": 607.0,
       "high": 618.0,
       "low": 601.0,
-      "close": null,
-      "adj_close": null,
+      "close": 613.0,
+      "adj_close": 613.0,
       "volume": 22000
+    },
+    {
+      "ticker": "2437.T",
+      "trade_date": "2026-09-15",
+      "open": 606.0,
+      "high": 610.0,
+      "low": 602.0,
+      "close": 607.0,
+      "adj_close": 607.0,
+      "volume": 7500
     }
   ],
   "benchmark": [
@@ -5407,6 +5417,16 @@
       "close": null,
       "adj_close": null,
       "volume": 19467220
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-15",
+      "open": 423.1000061035156,
+      "high": 423.29998779296875,
+      "low": 419.6000061035156,
+      "close": 420.29998779296875,
+      "adj_close": 420.29998779296875,
+      "volume": 9769360
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T00:43:48+09:00",
+  "updatedAt": "2026-09-15T14:15:30+09:00",
   "company": {
     "securityCode": "7974",
     "ticker": "7974.T",
@@ -19,21 +19,22 @@
       "holdingChange": null,
       "purpose": "顧客である日本国外の投資信託のための純投資 / 顧客である機関投資家のための通常の業務としての純投資",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 1.05,
-      "marketExcessReturn": null,
-      "signalScore": 30,
+      "priceChange": -6.46,
+      "volumeRatio": 1.03,
+      "marketExcessReturn": -4.78,
+      "signalScore": 40,
       "signalReasons": [
-        "新規大量保有"
+        "新規大量保有",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": -1.01,
-        "return5d": null,
+        "return5d": -6.46,
         "return20d": null,
-        "returnCurrent": -8.44,
-        "volumeRatio": 1.05,
-        "marketExcessReturn": null
+        "returnCurrent": -7.99,
+        "volumeRatio": 1.03,
+        "marketExcessReturn": -4.78
       }
     }
   ],
@@ -2704,9 +2705,19 @@
       "open": 8193.0,
       "high": 8318.0,
       "low": 8134.0,
-      "close": null,
-      "adj_close": null,
+      "close": 8268.0,
+      "adj_close": 8268.0,
       "volume": 9454300
+    },
+    {
+      "ticker": "7974.T",
+      "trade_date": "2026-09-15",
+      "open": 8473.0,
+      "high": 8473.0,
+      "low": 8133.0,
+      "close": 8133.0,
+      "adj_close": 8133.0,
+      "volume": 5330700
     }
   ],
   "benchmark": [
@@ -5379,6 +5390,16 @@
       "close": null,
       "adj_close": null,
       "volume": 19467220
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-15",
+      "open": 423.1000061035156,
+      "high": 423.29998779296875,
+      "low": 419.6000061035156,
+      "close": 420.29998779296875,
+      "adj_close": 420.29998779296875,
+      "volume": 9769360
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

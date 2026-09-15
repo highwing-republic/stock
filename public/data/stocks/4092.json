@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T00:43:48+09:00",
+  "updatedAt": "2026-09-15T14:15:30+09:00",
   "company": {
     "securityCode": "4092",
     "ticker": "4092.T",
@@ -62,7 +62,7 @@
       "metrics": {
         "return1d": -4.68,
         "return5d": -4.32,
-        "return20d": null,
+        "return20d": -3.96,
         "returnCurrent": -3.96,
         "volumeRatio": 0.53,
         "marketExcessReturn": -2.21
@@ -93,7 +93,7 @@
       "metrics": {
         "return1d": 4.5,
         "return5d": -2.52,
-        "return20d": null,
+        "return20d": -5.23,
         "returnCurrent": -3.78,
         "volumeRatio": 0.55,
         "marketExcessReturn": 0.47
@@ -3205,9 +3205,19 @@
       "open": 5350.0,
       "high": 5350.0,
       "low": 5140.0,
-      "close": null,
-      "adj_close": null,
+      "close": 5260.0,
+      "adj_close": 5260.0,
       "volume": 123300
+    },
+    {
+      "ticker": "4092.T",
+      "trade_date": "2026-09-15",
+      "open": 5250.0,
+      "high": 5420.0,
+      "low": 5190.0,
+      "close": 5340.0,
+      "adj_close": 5340.0,
+      "volume": 204500
     }
   ],
   "benchmark": [
@@ -5880,6 +5890,16 @@
       "close": null,
       "adj_close": null,
       "volume": 19467220
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-15",
+      "open": 423.1000061035156,
+      "high": 423.29998779296875,
+      "low": 419.6000061035156,
+      "close": 420.29998779296875,
+      "adj_close": 420.29998779296875,
+      "volume": 9769360
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

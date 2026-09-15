@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-09-15T00:43:48+09:00",
+  "updatedAt": "2026-09-15T14:15:30+09:00",
   "company": {
     "securityCode": "7604",
     "ticker": "7604.T",
     "name": "株式会社梅の花グループ"
   },
   "events": [
+    {
+      "docId": "S100Z1KB",
+      "ticker": "7604.T",
+      "securityCode": "7604",
+      "companyName": "株式会社梅の花グループ",
+      "submitDatetime": "2026-09-15 11:57",
+      "filerName": "梅野　久美恵",
+      "reportType": "correction",
+      "holdingRatio": 8.68,
+      "previousHoldingRatio": 9.89,
+      "holdingChange": -1.21,
+      "purpose": "発行会社の創業者の妻であり、安定株主として保有。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -0.33,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YZ47",
       "ticker": "7604.T",
@@ -20,7 +50,7 @@
       "purpose": "発行会社の創業者の妻であり、安定株主として保有。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": 0.91,
+      "volumeRatio": 1.04,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [
@@ -31,8 +61,8 @@
         "return1d": -0.22,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -0.66,
-        "volumeRatio": 0.91,
+        "returnCurrent": -0.11,
+        "volumeRatio": 1.04,
         "marketExcessReturn": null
       }
     }
@@ -2704,9 +2734,19 @@
       "open": 905.0,
       "high": 913.0,
       "low": 898.0,
-      "close": null,
-      "adj_close": null,
+      "close": 912.0,
+      "adj_close": 912.0,
       "volume": 15200
+    },
+    {
+      "ticker": "7604.T",
+      "trade_date": "2026-09-15",
+      "open": 912.0,
+      "high": 912.0,
+      "low": 906.0,
+      "close": 909.0,
+      "adj_close": 909.0,
+      "volume": 1700
     }
   ],
   "benchmark": [
@@ -5379,6 +5419,16 @@
       "close": null,
       "adj_close": null,
       "volume": 19467220
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-15",
+      "open": 423.1000061035156,
+      "high": 423.29998779296875,
+      "low": 419.6000061035156,
+      "close": 420.29998779296875,
+      "adj_close": 420.29998779296875,
+      "volume": 9769360
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

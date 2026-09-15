@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-09-15T00:43:48+09:00",
+  "updatedAt": "2026-09-15T14:15:30+09:00",
   "company": {
     "securityCode": "5480",
     "ticker": "5480.T",
     "name": "株式会社システムエグゼ"
   },
   "events": [
+    {
+      "docId": "S100Z1WE",
+      "ticker": "5480.T",
+      "securityCode": "5480",
+      "companyName": "株式会社システムエグゼ",
+      "submitDatetime": "2026-09-15 09:53",
+      "filerName": "後藤　清孝",
+      "reportType": "correction",
+      "holdingRatio": 5.55,
+      "previousHoldingRatio": 5.73,
+      "holdingChange": -0.18,
+      "purpose": "発行者の取締役であり、安定株主として保有しています。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 0.0,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z0L5",
       "ticker": "5480.T",
@@ -19,19 +49,19 @@
       "holdingChange": null,
       "purpose": "発行者の取締役であり、安定株主として保有しています。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.84,
-      "marketExcessReturn": null,
+      "priceChange": -1.29,
+      "volumeRatio": 0.81,
+      "marketExcessReturn": 0.39,
       "signalScore": 0,
       "signalReasons": [],
       "stockUnreacted": false,
       "metrics": {
         "return1d": -0.92,
-        "return5d": null,
+        "return5d": -1.29,
         "return20d": null,
-        "returnCurrent": -2.77,
-        "volumeRatio": 0.84,
-        "marketExcessReturn": null
+        "returnCurrent": -1.29,
+        "volumeRatio": 0.81,
+        "marketExcessReturn": 0.39
       }
     }
   ],
@@ -2702,9 +2732,19 @@
       "open": 5250.0,
       "high": 5340.0,
       "low": 5220.0,
-      "close": null,
-      "adj_close": null,
+      "close": 5340.0,
+      "adj_close": 5340.0,
       "volume": 50500
+    },
+    {
+      "ticker": "5480.T",
+      "trade_date": "2026-09-15",
+      "open": 5300.0,
+      "high": 5380.0,
+      "low": 5300.0,
+      "close": 5340.0,
+      "adj_close": 5340.0,
+      "volume": 26700
     }
   ],
   "benchmark": [
@@ -5377,6 +5417,16 @@
       "close": null,
       "adj_close": null,
       "volume": 19467220
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-15",
+      "open": 423.1000061035156,
+      "high": 423.29998779296875,
+      "low": 419.6000061035156,
+      "close": 420.29998779296875,
+      "adj_close": 420.29998779296875,
+      "volume": 9769360
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T00:43:48+09:00",
+  "updatedAt": "2026-09-15T14:15:30+09:00",
   "company": {
     "securityCode": "2533",
     "ticker": "2533.T",
@@ -19,9 +19,9 @@
       "holdingChange": -1.3,
       "purpose": "・発行会社の要請に応え、かつ発行会社との取引関係の強化を図るもの / ・信託財産として運用その他の信託目的に従い保有するもの / ・投資信託または投資一任契約に基づき投資権限を有するもの",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.89,
-      "marketExcessReturn": null,
+      "priceChange": 1.3,
+      "volumeRatio": 0.8,
+      "marketExcessReturn": 2.98,
       "signalScore": 0,
       "signalReasons": [
         "保有割合減少"
@@ -29,11 +29,11 @@
       "stockUnreacted": false,
       "metrics": {
         "return1d": 0.22,
-        "return5d": null,
+        "return5d": 1.3,
         "return20d": null,
-        "returnCurrent": 1.09,
-        "volumeRatio": 0.89,
-        "marketExcessReturn": null
+        "returnCurrent": 1.52,
+        "volumeRatio": 0.8,
+        "marketExcessReturn": 2.98
       }
     }
   ],
@@ -2704,9 +2704,19 @@
       "open": 464.0,
       "high": 472.0,
       "low": 462.0,
-      "close": null,
-      "adj_close": null,
+      "close": 466.0,
+      "adj_close": 466.0,
       "volume": 68800
+    },
+    {
+      "ticker": "2533.T",
+      "trade_date": "2026-09-15",
+      "open": 464.0,
+      "high": 470.0,
+      "low": 464.0,
+      "close": 467.0,
+      "adj_close": 467.0,
+      "volume": 75000
     }
   ],
   "benchmark": [
@@ -5379,6 +5389,16 @@
       "close": null,
       "adj_close": null,
       "volume": 19467220
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-15",
+      "open": 423.1000061035156,
+      "high": 423.29998779296875,
+      "low": 419.6000061035156,
+      "close": 420.29998779296875,
+      "adj_close": 420.29998779296875,
+      "volume": 9769360
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

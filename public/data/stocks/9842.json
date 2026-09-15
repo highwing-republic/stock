@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T00:43:48+09:00",
+  "updatedAt": "2026-09-15T14:15:30+09:00",
   "company": {
     "securityCode": "9842",
     "ticker": "9842.T",
@@ -19,9 +19,9 @@
       "holdingChange": -2.59,
       "purpose": "当該有価証券は、グループの資産運用および管理機能に関連して保有されているものです。 / 当該有価証券は、当社の投資運用および資産管理機能に関連して保有されています。 / 信託契約および投資一任契約に基づき顧客資産を運用する目的で保有。当該証券の名義は当社ではなく、顧客指定のカストディアンバンクの名義となります。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.4,
-      "marketExcessReturn": null,
+      "priceChange": 1.12,
+      "volumeRatio": 0.37,
+      "marketExcessReturn": 2.8,
       "signalScore": 0,
       "signalReasons": [
         "保有割合減少",
@@ -30,11 +30,11 @@
       "stockUnreacted": false,
       "metrics": {
         "return1d": 0.7,
-        "return5d": null,
+        "return5d": 1.12,
         "return20d": null,
-        "returnCurrent": -0.37,
-        "volumeRatio": 0.4,
-        "marketExcessReturn": null
+        "returnCurrent": 0.7,
+        "volumeRatio": 0.37,
+        "marketExcessReturn": 2.8
       }
     },
     {
@@ -62,7 +62,7 @@
         "return1d": 2.63,
         "return5d": 2.25,
         "return20d": 1.28,
-        "returnCurrent": 0.9,
+        "returnCurrent": 1.98,
         "volumeRatio": 0.89,
         "marketExcessReturn": -0.63
       }
@@ -2735,9 +2735,19 @@
       "open": 1873.0,
       "high": 1890.0,
       "low": 1871.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1889.0,
+      "adj_close": 1889.0,
       "volume": 98700
+    },
+    {
+      "ticker": "9842.T",
+      "trade_date": "2026-09-15",
+      "open": 1889.0,
+      "high": 1895.0,
+      "low": 1880.0,
+      "close": 1881.0,
+      "adj_close": 1881.0,
+      "volume": 56100
     }
   ],
   "benchmark": [
@@ -5410,6 +5420,16 @@
       "close": null,
       "adj_close": null,
       "volume": 19467220
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-15",
+      "open": 423.1000061035156,
+      "high": 423.29998779296875,
+      "low": 419.6000061035156,
+      "close": 420.29998779296875,
+      "adj_close": 420.29998779296875,
+      "volume": 9769360
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T00:43:48+09:00",
+  "updatedAt": "2026-09-15T14:15:30+09:00",
   "company": {
     "securityCode": "4318",
     "ticker": "4318.T",
@@ -19,19 +19,19 @@
       "holdingChange": 0.0,
       "purpose": "当該有価証券は、グループの資産運用および管理機能に関連して保有されているものです。 / 当該有価証券は、当社の投資運用および資産管理機能に関連して保有されています。 / 信託契約および投資一任契約に基づき顧客資産を運用する目的で保有。当該証券の名義は当社ではなく、顧客指定のカストディアンバンクの名義となります。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 1.16,
-      "marketExcessReturn": null,
+      "priceChange": -0.47,
+      "volumeRatio": 1.06,
+      "marketExcessReturn": 1.21,
       "signalScore": 0,
       "signalReasons": [],
       "stockUnreacted": false,
       "metrics": {
         "return1d": -3.54,
-        "return5d": null,
+        "return5d": -0.47,
         "return20d": null,
-        "returnCurrent": -3.07,
-        "volumeRatio": 1.16,
-        "marketExcessReturn": null
+        "returnCurrent": 0.35,
+        "volumeRatio": 1.06,
+        "marketExcessReturn": 1.21
       }
     },
     {
@@ -57,7 +57,7 @@
         "return1d": -2.06,
         "return5d": -2.75,
         "return20d": 6.19,
-        "returnCurrent": 12.93,
+        "returnCurrent": 16.92,
         "volumeRatio": 0.82,
         "marketExcessReturn": 0.0
       }
@@ -88,7 +88,7 @@
         "return1d": -2.06,
         "return5d": -2.75,
         "return20d": 6.19,
-        "returnCurrent": 12.93,
+        "returnCurrent": 16.92,
         "volumeRatio": 0.82,
         "marketExcessReturn": 0.0
       }
@@ -119,7 +119,7 @@
         "return1d": -2.06,
         "return5d": -2.75,
         "return20d": 6.19,
-        "returnCurrent": 12.93,
+        "returnCurrent": 16.92,
         "volumeRatio": 0.82,
         "marketExcessReturn": 0.0
       }
@@ -150,7 +150,7 @@
         "return1d": -2.06,
         "return5d": -2.75,
         "return20d": 6.19,
-        "returnCurrent": 12.93,
+        "returnCurrent": 16.92,
         "volumeRatio": 0.82,
         "marketExcessReturn": 0.0
       }
@@ -181,7 +181,7 @@
         "return1d": -2.06,
         "return5d": -2.75,
         "return20d": 6.19,
-        "returnCurrent": 12.93,
+        "returnCurrent": 16.92,
         "volumeRatio": 0.82,
         "marketExcessReturn": 0.0
       }
@@ -2854,9 +2854,19 @@
       "open": 819.0,
       "high": 843.0,
       "low": 816.0,
-      "close": null,
-      "adj_close": null,
+      "close": 843.0,
+      "adj_close": 843.0,
       "volume": 68600
+    },
+    {
+      "ticker": "4318.T",
+      "trade_date": "2026-09-15",
+      "open": 843.0,
+      "high": 857.0,
+      "low": 843.0,
+      "close": 850.0,
+      "adj_close": 850.0,
+      "volume": 37700
     }
   ],
   "benchmark": [
@@ -5529,6 +5539,16 @@
       "close": null,
       "adj_close": null,
       "volume": 19467220
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-15",
+      "open": 423.1000061035156,
+      "high": 423.29998779296875,
+      "low": 419.6000061035156,
+      "close": 420.29998779296875,
+      "adj_close": 420.29998779296875,
+      "volume": 9769360
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

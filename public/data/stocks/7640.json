@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T00:43:48+09:00",
+  "updatedAt": "2026-09-15T14:15:30+09:00",
   "company": {
     "securityCode": "7640",
     "ticker": "7640.T",
@@ -19,22 +19,23 @@
       "holdingChange": 14955.87,
       "purpose": "発行会社の創業者にして取締役会長であり、同社の経営権を確保するために保有しております。 / 発行会社の取締役会長である清水秀雄の資産管理会社であり、安定株主として保有しております。 / 発行会社の取締役会長である清水秀雄の配偶者であり、安定株主として保有しております。 / 発行会社の代表取締役社長であり安定株主として保有、及び株式会社ヒーズの筆頭株主、並びに株式会社ＤａＩの代表取締役社長でもあります。 / 発行者の代表取締役が代表を務める法人として、発行者との関係維持および資本政策の一環として、取得請求権の行使（転換）により取得した普通株式を当面の間保有するため",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.84,
-      "marketExcessReturn": null,
-      "signalScore": 30,
+      "priceChange": -5.1,
+      "volumeRatio": 0.75,
+      "marketExcessReturn": -3.42,
+      "signalScore": 40,
       "signalReasons": [
         "1pt以上買い増し",
-        "2pt以上買い増し"
+        "2pt以上買い増し",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": -0.51,
-        "return5d": null,
+        "return5d": -5.1,
         "return20d": null,
         "returnCurrent": -5.1,
-        "volumeRatio": 0.84,
-        "marketExcessReturn": null
+        "volumeRatio": 0.75,
+        "marketExcessReturn": -3.42
       }
     },
     {
@@ -2737,9 +2738,19 @@
       "open": 188.0,
       "high": 189.0,
       "low": 185.0,
-      "close": null,
-      "adj_close": null,
+      "close": 186.0,
+      "adj_close": 186.0,
       "volume": 13100
+    },
+    {
+      "ticker": "7640.T",
+      "trade_date": "2026-09-15",
+      "open": 187.0,
+      "high": 189.0,
+      "low": 186.0,
+      "close": 186.0,
+      "adj_close": 186.0,
+      "volume": 11400
     }
   ],
   "benchmark": [
@@ -5412,6 +5423,16 @@
       "close": null,
       "adj_close": null,
       "volume": 19467220
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-15",
+      "open": 423.1000061035156,
+      "high": 423.29998779296875,
+      "low": 419.6000061035156,
+      "close": 420.29998779296875,
+      "adj_close": 420.29998779296875,
+      "volume": 9769360
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

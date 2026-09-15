@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T00:43:48+09:00",
+  "updatedAt": "2026-09-15T14:15:30+09:00",
   "company": {
     "securityCode": "6118",
     "ticker": "6118.T",
@@ -19,21 +19,22 @@
       "holdingChange": 1.09,
       "purpose": "・発行会社の要請に応え、かつ発行会社との取引関係の強化を図るもの / ・ディーリング(短期売買)目的で保有するもの・レンディングその他取引に基づく一時的保有 / ・信託財産として運用その他の信託目的に従い保有するもの / ・投資信託または投資一任契約に基づき投資権限を有するもの",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 1.49,
-      "marketExcessReturn": null,
-      "signalScore": 20,
+      "priceChange": -0.8,
+      "volumeRatio": 1.51,
+      "marketExcessReturn": 0.88,
+      "signalScore": 30,
       "signalReasons": [
-        "1pt以上買い増し"
+        "1pt以上買い増し",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": 2.32,
-        "return5d": null,
+        "return5d": -0.8,
         "return20d": null,
-        "returnCurrent": -1.6,
-        "volumeRatio": 1.49,
-        "marketExcessReturn": null
+        "returnCurrent": -0.24,
+        "volumeRatio": 1.51,
+        "marketExcessReturn": 0.88
       }
     }
   ],
@@ -2704,9 +2705,19 @@
       "open": 1235.0,
       "high": 1246.0,
       "low": 1219.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1240.0,
+      "adj_close": 1240.0,
       "volume": 349300
+    },
+    {
+      "ticker": "6118.T",
+      "trade_date": "2026-09-15",
+      "open": 1239.0,
+      "high": 1258.0,
+      "low": 1231.0,
+      "close": 1247.0,
+      "adj_close": 1247.0,
+      "volume": 151400
     }
   ],
   "benchmark": [
@@ -5379,6 +5390,16 @@
       "close": null,
       "adj_close": null,
       "volume": 19467220
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-15",
+      "open": 423.1000061035156,
+      "high": 423.29998779296875,
+      "low": 419.6000061035156,
+      "close": 420.29998779296875,
+      "adj_close": 420.29998779296875,
+      "volume": 9769360
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

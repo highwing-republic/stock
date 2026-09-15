@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T00:43:48+09:00",
+  "updatedAt": "2026-09-15T14:15:30+09:00",
   "company": {
     "securityCode": "4709",
     "ticker": "4709.T",
@@ -19,9 +19,9 @@
       "holdingChange": -1.13,
       "purpose": "・発行会社の要請に応え、かつ発行会社との取引関係の強化を図るもの・信託財産として運用その他の信託目的に従い保有するもの / ・投資信託または投資一任契約に基づき投資権限を有するもの",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.82,
-      "marketExcessReturn": null,
+      "priceChange": -0.74,
+      "volumeRatio": 0.8,
+      "marketExcessReturn": 0.94,
       "signalScore": 0,
       "signalReasons": [
         "保有割合減少"
@@ -29,11 +29,11 @@
       "stockUnreacted": false,
       "metrics": {
         "return1d": -3.15,
-        "return5d": null,
+        "return5d": -0.74,
         "return20d": null,
-        "returnCurrent": -2.78,
-        "volumeRatio": 0.82,
-        "marketExcessReturn": null
+        "returnCurrent": -0.46,
+        "volumeRatio": 0.8,
+        "marketExcessReturn": 0.94
       }
     }
   ],
@@ -2704,9 +2704,19 @@
       "open": 1050.0,
       "high": 1074.0,
       "low": 1050.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1073.0,
+      "adj_close": 1073.0,
       "volume": 39300
+    },
+    {
+      "ticker": "4709.T",
+      "trade_date": "2026-09-15",
+      "open": 1075.0,
+      "high": 1085.0,
+      "low": 1072.0,
+      "close": 1076.0,
+      "adj_close": 1076.0,
+      "volume": 21000
     }
   ],
   "benchmark": [
@@ -5379,6 +5389,16 @@
       "close": null,
       "adj_close": null,
       "volume": 19467220
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-15",
+      "open": 423.1000061035156,
+      "high": 423.29998779296875,
+      "low": 419.6000061035156,
+      "close": 420.29998779296875,
+      "adj_close": 420.29998779296875,
+      "volume": 9769360
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"
