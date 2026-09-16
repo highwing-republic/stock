@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T23:14:50+09:00",
+  "updatedAt": "2026-09-16T14:07:41+09:00",
   "company": {
     "securityCode": "6218",
     "ticker": "6218.T",
@@ -19,21 +19,22 @@
       "holdingChange": 1.02,
       "purpose": "エンシュウ株式会社と取引関係にある企業が、エンシュウ株式会社株式の取得をすることにより、相互間の親睦関係の増進に寄与するため",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.44,
-      "marketExcessReturn": null,
-      "signalScore": 20,
+      "priceChange": -1.06,
+      "volumeRatio": 0.39,
+      "marketExcessReturn": -1.32,
+      "signalScore": 30,
       "signalReasons": [
-        "1pt以上買い増し"
+        "1pt以上買い増し",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": 0.15,
-        "return5d": null,
+        "return5d": -1.06,
         "return20d": null,
-        "returnCurrent": -2.11,
-        "volumeRatio": 0.44,
-        "marketExcessReturn": null
+        "returnCurrent": -1.06,
+        "volumeRatio": 0.39,
+        "marketExcessReturn": -1.32
       }
     }
   ],
@@ -2717,6 +2718,16 @@
       "close": 648.0,
       "adj_close": 648.0,
       "volume": 2700
+    },
+    {
+      "ticker": "6218.T",
+      "trade_date": "2026-09-16",
+      "open": 650.0,
+      "high": 659.0,
+      "low": 650.0,
+      "close": 655.0,
+      "adj_close": 655.0,
+      "volume": 900
     }
   ],
   "benchmark": [
@@ -5399,6 +5410,16 @@
       "close": 421.29998779296875,
       "adj_close": 421.29998779296875,
       "volume": 13404630
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-16",
+      "open": 422.8999938964844,
+      "high": 424.70001220703125,
+      "low": 422.1000061035156,
+      "close": 423.29998779296875,
+      "adj_close": 423.29998779296875,
+      "volume": 8165190
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

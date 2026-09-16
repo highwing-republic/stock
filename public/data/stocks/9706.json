@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T23:14:50+09:00",
+  "updatedAt": "2026-09-16T14:07:41+09:00",
   "company": {
     "securityCode": "9706",
     "ticker": "9706.T",
@@ -19,9 +19,9 @@
       "holdingChange": -1.34,
       "purpose": "政策投資",
       "importantProposal": true,
-      "priceChange": null,
-      "volumeRatio": 1.07,
-      "marketExcessReturn": null,
+      "priceChange": -2.82,
+      "volumeRatio": 0.95,
+      "marketExcessReturn": -3.08,
       "signalScore": 0,
       "signalReasons": [
         "重要提案行為あり",
@@ -30,11 +30,11 @@
       "stockUnreacted": false,
       "metrics": {
         "return1d": -0.66,
-        "return5d": null,
+        "return5d": -2.82,
         "return20d": null,
-        "returnCurrent": -2.21,
-        "volumeRatio": 1.07,
-        "marketExcessReturn": null
+        "returnCurrent": -2.82,
+        "volumeRatio": 0.95,
+        "marketExcessReturn": -3.08
       }
     },
     {
@@ -62,7 +62,7 @@
         "return1d": -3.26,
         "return5d": 1.27,
         "return20d": 11.8,
-        "returnCurrent": 13.73,
+        "returnCurrent": 13.02,
         "volumeRatio": 1.0,
         "marketExcessReturn": 1.18
       }
@@ -2748,6 +2748,16 @@
       "close": 5475.0,
       "adj_close": 5475.0,
       "volume": 556100
+    },
+    {
+      "ticker": "9706.T",
+      "trade_date": "2026-09-16",
+      "open": 5480.0,
+      "high": 5494.0,
+      "low": 5427.0,
+      "close": 5441.0,
+      "adj_close": 5441.0,
+      "volume": 405500
     }
   ],
   "benchmark": [
@@ -5430,6 +5440,16 @@
       "close": 421.29998779296875,
       "adj_close": 421.29998779296875,
       "volume": 13404630
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-16",
+      "open": 422.8999938964844,
+      "high": 424.70001220703125,
+      "low": 422.1000061035156,
+      "close": 423.29998779296875,
+      "adj_close": 423.29998779296875,
+      "volume": 8165190
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

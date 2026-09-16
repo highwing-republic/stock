@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-09-15T23:14:50+09:00",
+  "updatedAt": "2026-09-16T14:07:41+09:00",
   "company": {
     "securityCode": "7821",
     "ticker": "7821.T",
     "name": "前田工繊株式会社"
   },
   "events": [
+    {
+      "docId": "S100Z1D2",
+      "ticker": "7821.T",
+      "securityCode": "7821",
+      "companyName": "前田工繊株式会社",
+      "submitDatetime": "2026-09-16 09:11",
+      "filerName": "前田尚宏",
+      "reportType": "change",
+      "holdingRatio": 21.9,
+      "previousHoldingRatio": 21.89,
+      "holdingChange": 0.01,
+      "purpose": "発行会社の創業者の長男であり、経営参加を目的とした安定株主として保有しております。 / 発行会社の役員前田尚宏が出資する会社であり、役員の経営参加を助成する目的で保有しております。",
+      "importantProposal": true,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 20,
+      "signalReasons": [
+        "重要提案行為あり"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 1.23,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YRCZ",
       "ticker": "7821.T",
@@ -31,7 +61,7 @@
         "return1d": 0.16,
         "return5d": 7.88,
         "return20d": 10.43,
-        "returnCurrent": 5.98,
+        "returnCurrent": 7.28,
         "volumeRatio": 1.31,
         "marketExcessReturn": 9.69
       }
@@ -62,7 +92,7 @@
         "return1d": -0.97,
         "return5d": 0.85,
         "return20d": 8.05,
-        "returnCurrent": 12.13,
+        "returnCurrent": 13.51,
         "volumeRatio": 1.0,
         "marketExcessReturn": 1.61
       }
@@ -2748,6 +2778,16 @@
       "close": 1950.0,
       "adj_close": 1950.0,
       "volume": 127500
+    },
+    {
+      "ticker": "7821.T",
+      "trade_date": "2026-09-16",
+      "open": 1970.0,
+      "high": 2005.0,
+      "low": 1965.0,
+      "close": 1974.0,
+      "adj_close": 1974.0,
+      "volume": 78600
     }
   ],
   "benchmark": [
@@ -5430,6 +5470,16 @@
       "close": 421.29998779296875,
       "adj_close": 421.29998779296875,
       "volume": 13404630
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-16",
+      "open": 422.8999938964844,
+      "high": 424.70001220703125,
+      "low": 422.1000061035156,
+      "close": 423.29998779296875,
+      "adj_close": 423.29998779296875,
+      "volume": 8165190
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"
