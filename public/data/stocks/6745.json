@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-09-16T23:05:15+09:00",
+  "updatedAt": "2026-09-17T14:09:39+09:00",
   "company": {
     "securityCode": "6745",
     "ticker": "6745.T",
     "name": "ホーチキ株式会社"
   },
   "events": [
+    {
+      "docId": "S100Z2V1",
+      "ticker": "6745.T",
+      "securityCode": "6745",
+      "companyName": "ホーチキ株式会社",
+      "submitDatetime": "2026-09-17 10:46",
+      "filerName": "ニューバーガー・バーマン株式会社",
+      "reportType": "change",
+      "holdingRatio": 8.16,
+      "previousHoldingRatio": 6.85,
+      "holdingChange": 1.31,
+      "purpose": "ファンド及び投資一任契約に基づく運用を目的として保有するもの。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 20,
+      "signalReasons": [
+        "1pt以上買い増し"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 1.04,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YU4T",
       "ticker": "6745.T",
@@ -31,7 +61,7 @@
         "return1d": 1.04,
         "return5d": 2.67,
         "return20d": -5.79,
-        "returnCurrent": -4.8,
+        "returnCurrent": -3.81,
         "volumeRatio": 0.8,
         "marketExcessReturn": -1.25
       }
@@ -61,7 +91,7 @@
         "return1d": -0.74,
         "return5d": -4.64,
         "return20d": -9.09,
-        "returnCurrent": -5.09,
+        "returnCurrent": -4.1,
         "volumeRatio": 0.53,
         "marketExcessReturn": -1.89
       }
@@ -2757,6 +2787,16 @@
       "close": 1922.0,
       "adj_close": 1922.0,
       "volume": 152400
+    },
+    {
+      "ticker": "6745.T",
+      "trade_date": "2026-09-17",
+      "open": 1930.0,
+      "high": 1961.0,
+      "low": 1922.0,
+      "close": 1942.0,
+      "adj_close": 1942.0,
+      "volume": 84200
     }
   ],
   "benchmark": [
@@ -5449,6 +5489,16 @@
       "close": 423.8999938964844,
       "adj_close": 423.8999938964844,
       "volume": 11640410
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-17",
+      "open": 426.70001220703125,
+      "high": 428.8999938964844,
+      "low": 425.3999938964844,
+      "close": 426.6000061035156,
+      "adj_close": 426.6000061035156,
+      "volume": 8255160
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"
