@@ -1,11 +1,42 @@
 {
-  "updatedAt": "2026-09-17T23:10:24+09:00",
+  "updatedAt": "2026-09-18T14:02:54+09:00",
   "company": {
     "securityCode": "7719",
     "ticker": "7719.T",
     "name": "株式会社東京衡機"
   },
   "events": [
+    {
+      "docId": "S100Z2YW",
+      "ticker": "7719.T",
+      "securityCode": "7719",
+      "companyName": "株式会社東京衡機",
+      "submitDatetime": "2026-09-18 12:11",
+      "filerName": "Ｄｒｅａｍ　Ｂｒｉｄｇｅ株式会社",
+      "reportType": "correction",
+      "holdingRatio": 16.14,
+      "previousHoldingRatio": 30.0,
+      "holdingChange": -13.86,
+      "purpose": "純投資",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少",
+        "大幅売却"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 1.76,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z2C7",
       "ticker": "7719.T",
@@ -20,7 +51,7 @@
       "purpose": "純投資",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": 0.41,
+      "volumeRatio": 0.34,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [
@@ -33,8 +64,8 @@
         "return1d": -9.03,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -7.58,
-        "volumeRatio": 0.41,
+        "returnCurrent": -5.96,
+        "volumeRatio": 0.34,
         "marketExcessReturn": null
       }
     }
@@ -2739,6 +2770,16 @@
       "close": 512.0,
       "adj_close": 512.0,
       "volume": 151200
+    },
+    {
+      "ticker": "7719.T",
+      "trade_date": "2026-09-18",
+      "open": 510.0,
+      "high": 522.0,
+      "low": 505.0,
+      "close": 521.0,
+      "adj_close": 521.0,
+      "volume": 121900
     }
   ],
   "benchmark": [
@@ -5441,6 +5482,16 @@
       "close": 427.3999938964844,
       "adj_close": 427.3999938964844,
       "volume": 12062040
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-18",
+      "open": 429.1000061035156,
+      "high": 429.1000061035156,
+      "low": 424.1000061035156,
+      "close": 427.3999938964844,
+      "adj_close": 427.3999938964844,
+      "volume": 8239500
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

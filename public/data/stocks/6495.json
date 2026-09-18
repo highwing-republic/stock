@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-09-17T23:10:24+09:00",
+  "updatedAt": "2026-09-18T14:02:54+09:00",
   "company": {
     "securityCode": "6495",
     "ticker": "6495.T",
     "name": "株式会社宮入バルブ製作所"
   },
   "events": [
+    {
+      "docId": "S100Z2DT",
+      "ticker": "6495.T",
+      "securityCode": "6495",
+      "companyName": "株式会社宮入バルブ製作所",
+      "submitDatetime": "2026-09-18 12:07",
+      "filerName": "東海東京証券株式会社",
+      "reportType": "change",
+      "holdingRatio": 13.65,
+      "previousHoldingRatio": 14.67,
+      "holdingChange": -1.02,
+      "purpose": "証券業務に係る商品在庫として保有している。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 0.0,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z0Y5",
       "ticker": "6495.T",
@@ -19,9 +49,9 @@
       "holdingChange": -1.45,
       "purpose": "証券業務に係る商品在庫として保有している。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 2.51,
-      "marketExcessReturn": null,
+      "priceChange": 0.0,
+      "volumeRatio": 2.14,
+      "marketExcessReturn": -1.11,
       "signalScore": 0,
       "signalReasons": [
         "出来高2倍以上",
@@ -30,11 +60,11 @@
       "stockUnreacted": false,
       "metrics": {
         "return1d": 0.0,
-        "return5d": null,
+        "return5d": 0.0,
         "return20d": null,
         "returnCurrent": 0.0,
-        "volumeRatio": 2.51,
-        "marketExcessReturn": null
+        "volumeRatio": 2.14,
+        "marketExcessReturn": -1.11
       }
     },
     {
@@ -91,7 +121,7 @@
       "metrics": {
         "return1d": -0.81,
         "return5d": -3.25,
-        "return20d": null,
+        "return20d": -10.57,
         "returnCurrent": -10.57,
         "volumeRatio": 0.67,
         "marketExcessReturn": -5.43
@@ -2830,6 +2860,16 @@
       "close": 110.0,
       "adj_close": 110.0,
       "volume": 606000
+    },
+    {
+      "ticker": "6495.T",
+      "trade_date": "2026-09-18",
+      "open": 110.0,
+      "high": 111.0,
+      "low": 109.0,
+      "close": 110.0,
+      "adj_close": 110.0,
+      "volume": 163600
     }
   ],
   "benchmark": [
@@ -5532,6 +5572,16 @@
       "close": 427.3999938964844,
       "adj_close": 427.3999938964844,
       "volume": 12062040
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-18",
+      "open": 429.1000061035156,
+      "high": 429.1000061035156,
+      "low": 424.1000061035156,
+      "close": 427.3999938964844,
+      "adj_close": 427.3999938964844,
+      "volume": 8239500
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

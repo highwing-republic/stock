@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T23:10:24+09:00",
+  "updatedAt": "2026-09-18T14:02:54+09:00",
   "company": {
     "securityCode": "7634",
     "ticker": "7634.T",
@@ -20,17 +20,19 @@
       "purpose": "純投資",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": 1.96,
+      "volumeRatio": 2.03,
       "marketExcessReturn": null,
-      "signalScore": 0,
-      "signalReasons": [],
+      "signalScore": 10,
+      "signalReasons": [
+        "出来高2倍以上"
+      ],
       "stockUnreacted": false,
       "metrics": {
         "return1d": 1.19,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 2.19,
-        "volumeRatio": 1.96,
+        "returnCurrent": 2.58,
+        "volumeRatio": 2.03,
         "marketExcessReturn": null
       }
     }
@@ -2735,6 +2737,16 @@
       "close": 5140.0,
       "adj_close": 5140.0,
       "volume": 300
+    },
+    {
+      "ticker": "7634.T",
+      "trade_date": "2026-09-18",
+      "open": 5140.0,
+      "high": 5160.0,
+      "low": 5140.0,
+      "close": 5160.0,
+      "adj_close": 5160.0,
+      "volume": 500
     }
   ],
   "benchmark": [
@@ -5437,6 +5449,16 @@
       "close": 427.3999938964844,
       "adj_close": 427.3999938964844,
       "volume": 12062040
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-18",
+      "open": 429.1000061035156,
+      "high": 429.1000061035156,
+      "low": 424.1000061035156,
+      "close": 427.3999938964844,
+      "adj_close": 427.3999938964844,
+      "volume": 8239500
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"
