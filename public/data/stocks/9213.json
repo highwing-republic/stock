@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T22:24:55+09:00",
+  "updatedAt": "2026-09-21T14:18:36+09:00",
   "company": {
     "securityCode": "9213",
     "ticker": "9213.T",
@@ -20,17 +20,19 @@
       "purpose": "純投資及び状況に応じて重要提案行為等を行うこと。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": 0.17,
+      "volumeRatio": 2.25,
       "marketExcessReturn": null,
-      "signalScore": 0,
-      "signalReasons": [],
+      "signalScore": 10,
+      "signalReasons": [
+        "出来高2倍以上"
+      ],
       "stockUnreacted": false,
       "metrics": {
         "return1d": -5.04,
         "return5d": null,
         "return20d": null,
         "returnCurrent": -1.43,
-        "volumeRatio": 0.17,
+        "volumeRatio": 2.25,
         "marketExcessReturn": null
       }
     },
@@ -47,21 +49,22 @@
       "holdingChange": 1.77,
       "purpose": "純投資及び状況に応じて重要提案行為等を行うこと。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.13,
-      "marketExcessReturn": null,
-      "signalScore": 20,
+      "priceChange": -1.43,
+      "volumeRatio": 1.78,
+      "marketExcessReturn": -2.28,
+      "signalScore": 30,
       "signalReasons": [
-        "1pt以上買い増し"
+        "1pt以上買い増し",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": 0.0,
-        "return5d": null,
+        "return5d": -1.43,
         "return20d": null,
         "returnCurrent": -1.43,
-        "volumeRatio": 0.13,
-        "marketExcessReturn": null
+        "volumeRatio": 1.78,
+        "marketExcessReturn": -2.28
       }
     }
   ],
@@ -2765,6 +2768,16 @@
       "close": 1037.0,
       "adj_close": 1037.0,
       "volume": 0
+    },
+    {
+      "ticker": "9213.T",
+      "trade_date": "2026-09-18",
+      "open": 1037.0,
+      "high": 1037.0,
+      "low": 1037.0,
+      "close": 1037.0,
+      "adj_close": 1037.0,
+      "volume": 28100
     }
   ],
   "benchmark": [
