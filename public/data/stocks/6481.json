@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-09-23T23:08:23+09:00",
+  "updatedAt": "2026-09-24T14:12:47+09:00",
   "company": {
     "securityCode": "6481",
     "ticker": "6481.T",
     "name": "ＴＨＫ株式会社"
   },
   "events": [
+    {
+      "docId": "S100Z2O7",
+      "ticker": "6481.T",
+      "securityCode": "6481",
+      "companyName": "ＴＨＫ株式会社",
+      "submitDatetime": "2026-09-24 10:25",
+      "filerName": "三井住友トラスト・アセットマネジメント株式会社",
+      "reportType": "change",
+      "holdingRatio": 3.8,
+      "previousHoldingRatio": 5.12,
+      "holdingChange": -1.32,
+      "purpose": "投資信託契約、投資一任契約に基づく運用を目的として保有するもの。 / 証券投資信託及び投資一任契約において、株券等の取得・処分の権限を有するもの。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -0.16,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z0FM",
       "ticker": "6481.T",
@@ -32,7 +62,7 @@
         "return1d": -4.69,
         "return5d": -7.39,
         "return20d": null,
-        "returnCurrent": -1.2,
+        "returnCurrent": -1.35,
         "volumeRatio": 1.05,
         "marketExcessReturn": -6.41
       }
@@ -63,7 +93,7 @@
         "return1d": -2.89,
         "return5d": -13.49,
         "return20d": -1.77,
-        "returnCurrent": -11.14,
+        "returnCurrent": -11.28,
         "volumeRatio": 1.81,
         "marketExcessReturn": -11.68
       }
@@ -2779,6 +2809,16 @@
       "close": 6272.0,
       "adj_close": 6272.0,
       "volume": 2393000
+    },
+    {
+      "ticker": "6481.T",
+      "trade_date": "2026-09-24",
+      "open": 6322.0,
+      "high": 6330.0,
+      "low": 6188.0,
+      "close": 6262.0,
+      "adj_close": 6262.0,
+      "volume": 550300
     }
   ],
   "benchmark": [
@@ -5491,6 +5531,16 @@
       "close": 426.29998779296875,
       "adj_close": 426.29998779296875,
       "volume": 15096840
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-24",
+      "open": 427.5,
+      "high": 428.5,
+      "low": 425.8999938964844,
+      "close": 426.6000061035156,
+      "adj_close": 426.6000061035156,
+      "volume": 9093790
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

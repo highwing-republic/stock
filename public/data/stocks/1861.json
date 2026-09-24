@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-09-23T23:08:23+09:00",
+  "updatedAt": "2026-09-24T14:12:47+09:00",
   "company": {
     "securityCode": "1861",
     "ticker": "1861.T",
     "name": "株式会社　熊谷組"
   },
   "events": [
+    {
+      "docId": "S100Z2NY",
+      "ticker": "1861.T",
+      "securityCode": "1861",
+      "companyName": "株式会社　熊谷組",
+      "submitDatetime": "2026-09-24 10:25",
+      "filerName": "三井住友トラスト・アセットマネジメント株式会社",
+      "reportType": "change",
+      "holdingRatio": 7.59,
+      "previousHoldingRatio": 8.94,
+      "holdingChange": -1.35,
+      "purpose": "投資信託契約、投資一任契約に基づく運用を目的として保有するもの。 / 証券投資信託及び投資一任契約において、株券等の取得・処分の権限を有するもの。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -0.45,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z0EZ",
       "ticker": "1861.T",
@@ -32,7 +62,7 @@
         "return1d": 0.7,
         "return5d": 0.23,
         "return20d": null,
-        "returnCurrent": 2.79,
+        "returnCurrent": 2.32,
         "volumeRatio": 0.69,
         "marketExcessReturn": 1.21
       }
@@ -63,7 +93,7 @@
         "return1d": -9.66,
         "return5d": -8.12,
         "return20d": -9.31,
-        "returnCurrent": -7.14,
+        "returnCurrent": -7.56,
         "volumeRatio": 2.98,
         "marketExcessReturn": -11.0
       }
@@ -94,7 +124,7 @@
         "return1d": 0.42,
         "return5d": 4.34,
         "return20d": -0.35,
-        "returnCurrent": -7.14,
+        "returnCurrent": -7.56,
         "volumeRatio": 1.18,
         "marketExcessReturn": 3.66
       }
@@ -126,7 +156,7 @@
         "return1d": 0.42,
         "return5d": 4.34,
         "return20d": -0.35,
-        "returnCurrent": -7.14,
+        "returnCurrent": -7.56,
         "volumeRatio": 1.18,
         "marketExcessReturn": 3.66
       }
@@ -2842,6 +2872,16 @@
       "close": 1327.0,
       "adj_close": 1327.0,
       "volume": 911300
+    },
+    {
+      "ticker": "1861.T",
+      "trade_date": "2026-09-24",
+      "open": 1332.0,
+      "high": 1332.0,
+      "low": 1319.0,
+      "close": 1321.0,
+      "adj_close": 1321.0,
+      "volume": 359900
     }
   ],
   "benchmark": [
@@ -5554,6 +5594,16 @@
       "close": 426.29998779296875,
       "adj_close": 426.29998779296875,
       "volume": 15096840
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-24",
+      "open": 427.5,
+      "high": 428.5,
+      "low": 425.8999938964844,
+      "close": 426.6000061035156,
+      "adj_close": 426.6000061035156,
+      "volume": 9093790
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T23:08:23+09:00",
+  "updatedAt": "2026-09-24T14:12:47+09:00",
   "company": {
     "securityCode": "2978",
     "ticker": "2978.T",
@@ -7,13 +7,13 @@
   },
   "events": [
     {
-      "docId": "S100Z387",
+      "docId": "S100Z3CM",
       "ticker": "2978.T",
       "securityCode": "2978",
       "companyName": "株式会社ツクルバ",
-      "submitDatetime": "2026-09-18 10:55",
+      "submitDatetime": "2026-09-24 10:30",
       "filerName": "中村真広",
-      "reportType": "change",
+      "reportType": "correction",
       "holdingRatio": 7.2,
       "previousHoldingRatio": 7.2,
       "holdingChange": 0.0,
@@ -29,8 +29,36 @@
         "return1d": null,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -0.91,
+        "returnCurrent": -2.46,
         "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
+    {
+      "docId": "S100Z387",
+      "ticker": "2978.T",
+      "securityCode": "2978",
+      "companyName": "株式会社ツクルバ",
+      "submitDatetime": "2026-09-18 10:55",
+      "filerName": "中村真広",
+      "reportType": "change",
+      "holdingRatio": 7.2,
+      "previousHoldingRatio": 7.2,
+      "holdingChange": 0.0,
+      "purpose": "発行会社の創業者であり、安定株主として長期保有するためであります。 / 発行会社の創業者の出資会社であり、安定株主として長期保有するためであります。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": 1.98,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": -3.35,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -3.35,
+        "volumeRatio": 1.98,
         "marketExcessReturn": null
       }
     }
@@ -2725,6 +2753,16 @@
       "close": 325.0,
       "adj_close": 325.0,
       "volume": 9900
+    },
+    {
+      "ticker": "2978.T",
+      "trade_date": "2026-09-24",
+      "open": 322.0,
+      "high": 325.0,
+      "low": 313.0,
+      "close": 317.0,
+      "adj_close": 317.0,
+      "volume": 10000
     }
   ],
   "benchmark": [
@@ -5437,6 +5475,16 @@
       "close": 426.29998779296875,
       "adj_close": 426.29998779296875,
       "volume": 15096840
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-24",
+      "open": 427.5,
+      "high": 428.5,
+      "low": 425.8999938964844,
+      "close": 426.6000061035156,
+      "adj_close": 426.6000061035156,
+      "volume": 9093790
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

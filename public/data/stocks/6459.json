@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T23:08:23+09:00",
+  "updatedAt": "2026-09-24T14:12:47+09:00",
   "company": {
     "securityCode": "6459",
     "ticker": "6459.T",
@@ -20,7 +20,7 @@
       "purpose": "経営全般の安定をはかるために保有しております。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.43,
       "marketExcessReturn": null,
       "signalScore": 30,
       "signalReasons": [
@@ -29,11 +29,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": 0.9,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -0.6,
-        "volumeRatio": null,
+        "returnCurrent": 0.9,
+        "volumeRatio": 0.43,
         "marketExcessReturn": null
       }
     },
@@ -51,7 +51,7 @@
       "purpose": "経営全般の安定をはかるために保有しております。 / 死亡による遺産分割協議にともない売却",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.43,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [
@@ -59,11 +59,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": 0.9,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -0.6,
-        "volumeRatio": null,
+        "returnCurrent": 0.9,
+        "volumeRatio": 0.43,
         "marketExcessReturn": null
       }
     },
@@ -81,7 +81,7 @@
       "purpose": "経営全般の安定をはかるために保有しております。 / 当該会社の創業者として経営全般の安定をはかる目的で保有しております。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.43,
       "marketExcessReturn": null,
       "signalScore": 30,
       "signalReasons": [
@@ -90,11 +90,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": 0.9,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -0.6,
-        "volumeRatio": null,
+        "returnCurrent": 0.9,
+        "volumeRatio": 0.43,
         "marketExcessReturn": null
       }
     },
@@ -111,9 +111,9 @@
       "holdingChange": 4.97,
       "purpose": "経営全般の安定をはかるために保有しております。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.6,
-      "marketExcessReturn": null,
+      "priceChange": 4.2,
+      "volumeRatio": 0.56,
+      "marketExcessReturn": 2.56,
       "signalScore": 30,
       "signalReasons": [
         "1pt以上買い増し",
@@ -122,11 +122,11 @@
       "stockUnreacted": false,
       "metrics": {
         "return1d": 0.68,
-        "return5d": null,
+        "return5d": 4.2,
         "return20d": null,
-        "returnCurrent": 2.66,
-        "volumeRatio": 0.6,
-        "marketExcessReturn": null
+        "returnCurrent": 4.2,
+        "volumeRatio": 0.56,
+        "marketExcessReturn": 2.56
       }
     },
     {
@@ -142,9 +142,9 @@
       "holdingChange": -0.01,
       "purpose": "経営全般の安定をはかるために保有しております。 / 死亡による遺産分割協議にともない売却",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.6,
-      "marketExcessReturn": null,
+      "priceChange": 4.2,
+      "volumeRatio": 0.56,
+      "marketExcessReturn": 2.56,
       "signalScore": 0,
       "signalReasons": [
         "保有割合減少"
@@ -152,11 +152,11 @@
       "stockUnreacted": false,
       "metrics": {
         "return1d": 0.68,
-        "return5d": null,
+        "return5d": 4.2,
         "return20d": null,
-        "returnCurrent": 2.66,
-        "volumeRatio": 0.6,
-        "marketExcessReturn": null
+        "returnCurrent": 4.2,
+        "volumeRatio": 0.56,
+        "marketExcessReturn": 2.56
       }
     },
     {
@@ -172,9 +172,9 @@
       "holdingChange": 7.27,
       "purpose": "経営全般の安定をはかるために保有しております。 / 当該会社の創業者として経営全般の安定をはかる目的で保有しております。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.6,
-      "marketExcessReturn": null,
+      "priceChange": 4.2,
+      "volumeRatio": 0.56,
+      "marketExcessReturn": 2.56,
       "signalScore": 30,
       "signalReasons": [
         "1pt以上買い増し",
@@ -183,11 +183,11 @@
       "stockUnreacted": false,
       "metrics": {
         "return1d": 0.68,
-        "return5d": null,
+        "return5d": 4.2,
         "return20d": null,
-        "returnCurrent": 2.66,
-        "volumeRatio": 0.6,
-        "marketExcessReturn": null
+        "returnCurrent": 4.2,
+        "volumeRatio": 0.56,
+        "marketExcessReturn": 2.56
       }
     }
   ],
@@ -2901,6 +2901,16 @@
       "close": 1662.0,
       "adj_close": 1662.0,
       "volume": 125900
+    },
+    {
+      "ticker": "6459.T",
+      "trade_date": "2026-09-24",
+      "open": 1663.0,
+      "high": 1691.0,
+      "low": 1663.0,
+      "close": 1687.0,
+      "adj_close": 1687.0,
+      "volume": 52200
     }
   ],
   "benchmark": [
@@ -5613,6 +5623,16 @@
       "close": 426.29998779296875,
       "adj_close": 426.29998779296875,
       "volume": 15096840
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-24",
+      "open": 427.5,
+      "high": 428.5,
+      "low": 425.8999938964844,
+      "close": 426.6000061035156,
+      "adj_close": 426.6000061035156,
+      "volume": 9093790
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

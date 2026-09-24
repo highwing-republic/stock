@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-09-23T23:08:23+09:00",
+  "updatedAt": "2026-09-24T14:12:47+09:00",
   "company": {
     "securityCode": "6849",
     "ticker": "6849.T",
     "name": "日本光電工業株式会社"
   },
   "events": [
+    {
+      "docId": "S100Z2OR",
+      "ticker": "6849.T",
+      "securityCode": "6849",
+      "companyName": "日本光電工業株式会社",
+      "submitDatetime": "2026-09-24 10:23",
+      "filerName": "三井住友信託銀行株式会社",
+      "reportType": "change",
+      "holdingRatio": 4.46,
+      "previousHoldingRatio": 6.08,
+      "holdingChange": -1.62,
+      "purpose": "－ / 投資信託契約、投資一任契約に基づく運用を目的として保有するもの。 / 証券投資信託及び投資一任契約において、株券等の取得・処分の権限を有するもの。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 1.67,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z2WG",
       "ticker": "6849.T",
@@ -20,21 +50,20 @@
       "purpose": "純投資（投資一任契約に基づく顧客の資産運用および投資信託約款に基づく資産運用目的） / 純投資（顧客および投資信託等の資産運用目的） / 純投資（投資信託等の資産運用目的）",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": 3.74,
+      "volumeRatio": 2.08,
       "marketExcessReturn": null,
-      "signalScore": 45,
+      "signalScore": 40,
       "signalReasons": [
         "新規大量保有",
-        "出来高2倍以上",
-        "出来高3倍以上"
+        "出来高2倍以上"
       ],
       "stockUnreacted": false,
       "metrics": {
         "return1d": 1.6,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 1.6,
-        "volumeRatio": 3.74,
+        "returnCurrent": 3.3,
+        "volumeRatio": 2.08,
         "marketExcessReturn": null
       }
     },
@@ -52,7 +81,7 @@
       "purpose": "純投資(リミテッドパートナーシップ契約及び投資事業有限責任組合契約に基づく運用)として保有するもの。なお、提出者は、発行者の持続的な会社成長と企業価値向上に向け、同社経営陣との信頼関係に基づく対話を通じて、経営戦略推進や組織強化の加速に向け実行支援を行う。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": 1.7,
+      "volumeRatio": 1.38,
       "marketExcessReturn": null,
       "signalScore": 30,
       "signalReasons": [
@@ -63,8 +92,8 @@
         "return1d": 0.22,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 1.83,
-        "volumeRatio": 1.7,
+        "returnCurrent": 3.53,
+        "volumeRatio": 1.38,
         "marketExcessReturn": null
       }
     },
@@ -93,7 +122,7 @@
         "return1d": -3.73,
         "return5d": -2.08,
         "return20d": -3.33,
-        "returnCurrent": 4.72,
+        "returnCurrent": 6.47,
         "volumeRatio": 1.19,
         "marketExcessReturn": 0.31
       }
@@ -124,7 +153,7 @@
         "return1d": 0.43,
         "return5d": 2.57,
         "return20d": 12.58,
-        "returnCurrent": 15.01,
+        "returnCurrent": 16.93,
         "volumeRatio": 0.96,
         "marketExcessReturn": 2.48
       }
@@ -2840,6 +2869,16 @@
       "close": 1586.5,
       "adj_close": 1586.5,
       "volume": 2665100
+    },
+    {
+      "ticker": "6849.T",
+      "trade_date": "2026-09-24",
+      "open": 1586.5,
+      "high": 1617.5,
+      "low": 1586.5,
+      "close": 1613.0,
+      "adj_close": 1613.0,
+      "volume": 307200
     }
   ],
   "benchmark": [
@@ -5552,6 +5591,16 @@
       "close": 426.29998779296875,
       "adj_close": 426.29998779296875,
       "volume": 15096840
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-24",
+      "open": 427.5,
+      "high": 428.5,
+      "low": 425.8999938964844,
+      "close": 426.6000061035156,
+      "adj_close": 426.6000061035156,
+      "volume": 9093790
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

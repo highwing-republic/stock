@@ -1,11 +1,42 @@
 {
-  "updatedAt": "2026-09-23T23:08:23+09:00",
+  "updatedAt": "2026-09-24T14:12:47+09:00",
   "company": {
     "securityCode": "1332",
     "ticker": "1332.T",
     "name": "株式会社ニッスイ"
   },
   "events": [
+    {
+      "docId": "S100Z3FI",
+      "ticker": "1332.T",
+      "securityCode": "1332",
+      "companyName": "株式会社ニッスイ",
+      "submitDatetime": "2026-09-24 09:00",
+      "filerName": "野村證券株式会社",
+      "reportType": "change",
+      "holdingRatio": 11.94,
+      "previousHoldingRatio": 10.92,
+      "holdingChange": 1.02,
+      "purpose": "証券業務に係る商品在庫、及び累積投資業務の運営目的として保有している。 / 証券業務に係わる商品在庫として保有している。 / 信託財産の運用として保有している。",
+      "importantProposal": true,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 40,
+      "signalReasons": [
+        "1pt以上買い増し",
+        "重要提案行為あり"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -0.43,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YTYX",
       "ticker": "1332.T",
@@ -31,7 +62,7 @@
         "return1d": -2.8,
         "return5d": 0.76,
         "return20d": 3.24,
-        "returnCurrent": -6.85,
+        "returnCurrent": -7.25,
         "volumeRatio": 1.31,
         "marketExcessReturn": -4.12
       }
@@ -2747,6 +2778,16 @@
       "close": 1163.0,
       "adj_close": 1163.0,
       "volume": 3429000
+    },
+    {
+      "ticker": "1332.T",
+      "trade_date": "2026-09-24",
+      "open": 1160.5,
+      "high": 1166.5,
+      "low": 1150.5,
+      "close": 1158.0,
+      "adj_close": 1158.0,
+      "volume": 1073300
     }
   ],
   "benchmark": [
@@ -5459,6 +5500,16 @@
       "close": 426.29998779296875,
       "adj_close": 426.29998779296875,
       "volume": 15096840
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-24",
+      "open": 427.5,
+      "high": 428.5,
+      "low": 425.8999938964844,
+      "close": 426.6000061035156,
+      "adj_close": 426.6000061035156,
+      "volume": 9093790
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-09-23T23:08:23+09:00",
+  "updatedAt": "2026-09-24T14:12:47+09:00",
   "company": {
     "securityCode": "7932",
     "ticker": "7932.T",
     "name": "株式会社ニッピ"
   },
   "events": [
+    {
+      "docId": "S100Z3LH",
+      "ticker": "7932.T",
+      "securityCode": "7932",
+      "companyName": "株式会社ニッピ",
+      "submitDatetime": "2026-09-24 13:06",
+      "filerName": "株式会社リーガルコーポレーション",
+      "reportType": "change",
+      "holdingRatio": 11.31,
+      "previousHoldingRatio": 12.31,
+      "holdingChange": -1.0,
+      "purpose": "発行会社は当社の株主であり、同社グループは重要な取引先であるので、重要なパートナーとして保有するものである。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -0.26,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YP0V",
       "ticker": "7932.T",
@@ -32,7 +62,7 @@
         "return1d": -0.97,
         "return5d": -2.02,
         "return20d": -2.35,
-        "returnCurrent": -6.56,
+        "returnCurrent": -6.8,
         "volumeRatio": 0.76,
         "marketExcessReturn": -0.64
       }
@@ -60,7 +90,7 @@
         "return1d": 0.25,
         "return5d": -0.25,
         "return20d": -1.56,
-        "returnCurrent": -5.41,
+        "returnCurrent": -5.66,
         "volumeRatio": 0.89,
         "marketExcessReturn": 1.11
       }
@@ -2776,6 +2806,16 @@
       "close": 11540.0,
       "adj_close": 11540.0,
       "volume": 3000
+    },
+    {
+      "ticker": "7932.T",
+      "trade_date": "2026-09-24",
+      "open": 11500.0,
+      "high": 11560.0,
+      "low": 11480.0,
+      "close": 11510.0,
+      "adj_close": 11510.0,
+      "volume": 6400
     }
   ],
   "benchmark": [
@@ -5488,6 +5528,16 @@
       "close": 426.29998779296875,
       "adj_close": 426.29998779296875,
       "volume": 15096840
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-24",
+      "open": 427.5,
+      "high": 428.5,
+      "low": 425.8999938964844,
+      "close": 426.6000061035156,
+      "adj_close": 426.6000061035156,
+      "volume": 9093790
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

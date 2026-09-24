@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-09-23T23:08:23+09:00",
+  "updatedAt": "2026-09-24T14:12:47+09:00",
   "company": {
     "securityCode": "7701",
     "ticker": "7701.T",
     "name": "株式会社　島津製作所"
   },
   "events": [
+    {
+      "docId": "S100Z2J2",
+      "ticker": "7701.T",
+      "securityCode": "7701",
+      "companyName": "株式会社　島津製作所",
+      "submitDatetime": "2026-09-24 11:10",
+      "filerName": "株式会社三菱ＵＦＪフィナンシャル・グループ",
+      "reportType": "change",
+      "holdingRatio": 6.57,
+      "previousHoldingRatio": 7.57,
+      "holdingChange": -1.0,
+      "purpose": "政策投資 / 政策投資・純投資 / 純投資 / 商品有価証券等として保有するもの",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 0.25,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YWDW",
       "ticker": "7701.T",
@@ -31,7 +61,7 @@
         "return1d": -4.21,
         "return5d": -0.89,
         "return20d": -9.05,
-        "returnCurrent": -5.49,
+        "returnCurrent": -5.25,
         "volumeRatio": 0.65,
         "marketExcessReturn": 1.22
       }
@@ -61,7 +91,7 @@
         "return1d": -1.81,
         "return5d": 0.65,
         "return20d": -1.76,
-        "returnCurrent": -5.19,
+        "returnCurrent": -4.95,
         "volumeRatio": 0.6,
         "marketExcessReturn": 2.01
       }
@@ -92,7 +122,7 @@
         "return1d": -0.47,
         "return5d": 6.17,
         "return20d": 7.45,
-        "returnCurrent": 2.61,
+        "returnCurrent": 2.87,
         "volumeRatio": 0.43,
         "marketExcessReturn": 8.03
       }
@@ -2808,6 +2838,16 @@
       "close": 3928.0,
       "adj_close": 3928.0,
       "volume": 1900200
+    },
+    {
+      "ticker": "7701.T",
+      "trade_date": "2026-09-24",
+      "open": 3950.0,
+      "high": 4018.0,
+      "low": 3930.0,
+      "close": 3938.0,
+      "adj_close": 3938.0,
+      "volume": 514700
     }
   ],
   "benchmark": [
@@ -5520,6 +5560,16 @@
       "close": 426.29998779296875,
       "adj_close": 426.29998779296875,
       "volume": 15096840
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-24",
+      "open": 427.5,
+      "high": 428.5,
+      "low": 425.8999938964844,
+      "close": 426.6000061035156,
+      "adj_close": 426.6000061035156,
+      "volume": 9093790
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

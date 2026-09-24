@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-09-23T23:08:23+09:00",
+  "updatedAt": "2026-09-24T14:12:47+09:00",
   "company": {
     "securityCode": "5411",
     "ticker": "5411.T",
     "name": "ＪＦＥホールディングス株式会社"
   },
   "events": [
+    {
+      "docId": "S100Z34R",
+      "ticker": "5411.T",
+      "securityCode": "5411",
+      "companyName": "ＪＦＥホールディングス株式会社",
+      "submitDatetime": "2026-09-24 13:27",
+      "filerName": "野村證券株式会社",
+      "reportType": "change",
+      "holdingRatio": 7.65,
+      "previousHoldingRatio": 7.74,
+      "holdingChange": -0.09,
+      "purpose": "証券業務に係る商品在庫、及び累積投資業務の運営目的として保有している。 / 証券業務に係わる商品在庫として保有している。 / 信託財産の運用として保有している。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -1.99,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z0O7",
       "ticker": "5411.T",
@@ -32,7 +62,7 @@
         "return1d": -0.63,
         "return5d": -0.33,
         "return20d": null,
-        "returnCurrent": 2.62,
+        "returnCurrent": 0.57,
         "volumeRatio": 0.55,
         "marketExcessReturn": 0.65
       }
@@ -63,7 +93,7 @@
         "return1d": -0.87,
         "return5d": -3.63,
         "return20d": null,
-        "returnCurrent": -0.29,
+        "returnCurrent": -2.28,
         "volumeRatio": 0.59,
         "marketExcessReturn": -1.87
       }
@@ -91,7 +121,7 @@
         "return1d": 1.0,
         "return5d": 5.74,
         "return20d": 5.71,
-        "returnCurrent": 10.93,
+        "returnCurrent": 8.72,
         "volumeRatio": 1.14,
         "marketExcessReturn": 4.51
       }
@@ -2807,6 +2837,16 @@
       "close": 1883.0,
       "adj_close": 1883.0,
       "volume": 6800000
+    },
+    {
+      "ticker": "5411.T",
+      "trade_date": "2026-09-24",
+      "open": 1875.5,
+      "high": 1877.0,
+      "low": 1842.0,
+      "close": 1845.5,
+      "adj_close": 1845.5,
+      "volume": 3505200
     }
   ],
   "benchmark": [
@@ -5519,6 +5559,16 @@
       "close": 426.29998779296875,
       "adj_close": 426.29998779296875,
       "volume": 15096840
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-24",
+      "open": 427.5,
+      "high": 428.5,
+      "low": 425.8999938964844,
+      "close": 426.6000061035156,
+      "adj_close": 426.6000061035156,
+      "volume": 9093790
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-09-23T23:08:23+09:00",
+  "updatedAt": "2026-09-24T14:12:47+09:00",
   "company": {
     "securityCode": "3405",
     "ticker": "3405.T",
     "name": "株式会社クラレ"
   },
   "events": [
+    {
+      "docId": "S100Z2O1",
+      "ticker": "3405.T",
+      "securityCode": "3405",
+      "companyName": "株式会社クラレ",
+      "submitDatetime": "2026-09-24 10:25",
+      "filerName": "三井住友トラスト・アセットマネジメント株式会社",
+      "reportType": "change",
+      "holdingRatio": 5.34,
+      "previousHoldingRatio": 5.44,
+      "holdingChange": -0.1,
+      "purpose": "投資信託契約、投資一任契約に基づく運用を目的として保有するもの。 / 証券投資信託及び投資一任契約において、株券等の取得・処分の権限を有するもの。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 2.01,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YREK",
       "ticker": "3405.T",
@@ -31,7 +61,7 @@
         "return1d": 1.72,
         "return5d": 4.26,
         "return20d": 2.31,
-        "returnCurrent": -0.62,
+        "returnCurrent": 1.38,
         "volumeRatio": 0.88,
         "marketExcessReturn": 3.03
       }
@@ -59,7 +89,7 @@
         "return1d": -1.3,
         "return5d": -1.8,
         "return20d": 5.36,
-        "returnCurrent": 2.08,
+        "returnCurrent": 4.14,
         "volumeRatio": 0.61,
         "marketExcessReturn": -0.44
       }
@@ -2775,6 +2805,16 @@
       "close": 1763.0,
       "adj_close": 1763.0,
       "volume": 4440900
+    },
+    {
+      "ticker": "3405.T",
+      "trade_date": "2026-09-24",
+      "open": 1790.5,
+      "high": 1802.0,
+      "low": 1777.0,
+      "close": 1798.5,
+      "adj_close": 1798.5,
+      "volume": 915900
     }
   ],
   "benchmark": [
@@ -5487,6 +5527,16 @@
       "close": 426.29998779296875,
       "adj_close": 426.29998779296875,
       "volume": 15096840
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-24",
+      "open": 427.5,
+      "high": 428.5,
+      "low": 425.8999938964844,
+      "close": 426.6000061035156,
+      "adj_close": 426.6000061035156,
+      "volume": 9093790
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-09-23T23:08:23+09:00",
+  "updatedAt": "2026-09-24T14:12:47+09:00",
   "company": {
     "securityCode": "8022",
     "ticker": "8022.T",
     "name": "美津濃株式会社"
   },
   "events": [
+    {
+      "docId": "S100Z2OP",
+      "ticker": "8022.T",
+      "securityCode": "8022",
+      "companyName": "美津濃株式会社",
+      "submitDatetime": "2026-09-24 10:23",
+      "filerName": "三井住友信託銀行株式会社",
+      "reportType": "initial",
+      "holdingRatio": 5.17,
+      "previousHoldingRatio": null,
+      "holdingChange": null,
+      "purpose": "政策投資として保有するもの。 / 投資信託契約、投資一任契約に基づく運用を目的として保有するもの。 / 証券投資信託及び投資一任契約において、株券等の取得・処分の権限を有するもの。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 30,
+      "signalReasons": [
+        "新規大量保有"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 1.86,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YYF3",
       "ticker": "8022.T",
@@ -31,8 +61,8 @@
       "metrics": {
         "return1d": 0.74,
         "return5d": -0.12,
-        "return20d": null,
-        "returnCurrent": -1.35,
+        "return20d": 0.49,
+        "returnCurrent": 0.49,
         "volumeRatio": 0.81,
         "marketExcessReturn": -2.34
       }
@@ -64,7 +94,7 @@
         "return1d": 2.07,
         "return5d": -2.81,
         "return20d": 6.67,
-        "returnCurrent": 19.26,
+        "returnCurrent": 21.48,
         "volumeRatio": 0.81,
         "marketExcessReturn": -4.36
       }
@@ -2780,6 +2810,16 @@
       "close": 4025.0,
       "adj_close": 4025.0,
       "volume": 227800
+    },
+    {
+      "ticker": "8022.T",
+      "trade_date": "2026-09-24",
+      "open": 4025.0,
+      "high": 4120.0,
+      "low": 4020.0,
+      "close": 4100.0,
+      "adj_close": 4100.0,
+      "volume": 86700
     }
   ],
   "benchmark": [
@@ -5492,6 +5532,16 @@
       "close": 426.29998779296875,
       "adj_close": 426.29998779296875,
       "volume": 15096840
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-24",
+      "open": 427.5,
+      "high": 428.5,
+      "low": 425.8999938964844,
+      "close": 426.6000061035156,
+      "adj_close": 426.6000061035156,
+      "volume": 9093790
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

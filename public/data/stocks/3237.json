@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-09-23T23:08:23+09:00",
+  "updatedAt": "2026-09-24T14:12:47+09:00",
   "company": {
     "securityCode": "3237",
     "ticker": "3237.T",
     "name": "株式会社イントランス"
   },
   "events": [
+    {
+      "docId": "S100Z3IV",
+      "ticker": "3237.T",
+      "securityCode": "3237",
+      "companyName": "株式会社イントランス",
+      "submitDatetime": "2026-09-24 12:22",
+      "filerName": "和德投資有限公司",
+      "reportType": "change",
+      "holdingRatio": 9.98,
+      "previousHoldingRatio": 11.56,
+      "holdingChange": -1.58,
+      "purpose": "重要提案行為等",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 1.06,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YRAL",
       "ticker": "3237.T",
@@ -32,7 +62,7 @@
         "return1d": -1.03,
         "return5d": -6.19,
         "return20d": 7.22,
-        "returnCurrent": -3.09,
+        "returnCurrent": -2.06,
         "volumeRatio": 0.25,
         "marketExcessReturn": -7.42
       }
@@ -2748,6 +2778,16 @@
       "close": 94.0,
       "adj_close": 94.0,
       "volume": 1110300
+    },
+    {
+      "ticker": "3237.T",
+      "trade_date": "2026-09-24",
+      "open": 94.0,
+      "high": 96.0,
+      "low": 94.0,
+      "close": 95.0,
+      "adj_close": 95.0,
+      "volume": 87000
     }
   ],
   "benchmark": [
@@ -5460,6 +5500,16 @@
       "close": 426.29998779296875,
       "adj_close": 426.29998779296875,
       "volume": 15096840
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-24",
+      "open": 427.5,
+      "high": 428.5,
+      "low": 425.8999938964844,
+      "close": 426.6000061035156,
+      "adj_close": 426.6000061035156,
+      "volume": 9093790
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"
