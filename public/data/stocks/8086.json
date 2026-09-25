@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-09-24T23:05:41+09:00",
+  "updatedAt": "2026-09-25T14:16:03+09:00",
   "company": {
     "securityCode": "8086",
     "ticker": "8086.T",
     "name": "ニプロ株式会社"
   },
   "events": [
+    {
+      "docId": "S100Z421",
+      "ticker": "8086.T",
+      "securityCode": "8086",
+      "companyName": "ニプロ株式会社",
+      "submitDatetime": "2026-09-25 13:06",
+      "filerName": "野村證券株式会社",
+      "reportType": "change",
+      "holdingRatio": 5.04,
+      "previousHoldingRatio": 6.49,
+      "holdingChange": -1.45,
+      "purpose": "証券業務に係る商品在庫、及び累積投資業務の運営目的として保有している。 / 証券業務に係わる商品在庫として保有している。 / 信託財産の運用として保有している。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 1.11,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z0SJ",
       "ticker": "8086.T",
@@ -31,7 +61,7 @@
         "return1d": -0.68,
         "return5d": -1.6,
         "return20d": null,
-        "returnCurrent": -1.97,
+        "returnCurrent": -0.88,
         "volumeRatio": 1.06,
         "marketExcessReturn": -0.62
       }
@@ -61,7 +91,7 @@
         "return1d": -0.68,
         "return5d": -1.6,
         "return20d": null,
-        "returnCurrent": -1.97,
+        "returnCurrent": -0.88,
         "volumeRatio": 1.06,
         "marketExcessReturn": -0.62
       }
@@ -89,7 +119,7 @@
         "return1d": 0.28,
         "return5d": -1.01,
         "return20d": -7.84,
-        "returnCurrent": -9.29,
+        "returnCurrent": -8.28,
         "volumeRatio": 0.91,
         "marketExcessReturn": -0.36
       }
@@ -119,7 +149,7 @@
         "return1d": 3.56,
         "return5d": -1.89,
         "return20d": -9.73,
-        "returnCurrent": -10.69,
+        "returnCurrent": -9.7,
         "volumeRatio": 1.82,
         "marketExcessReturn": -4.77
       }
@@ -150,7 +180,7 @@
         "return1d": 1.1,
         "return5d": 1.84,
         "return20d": 3.45,
-        "returnCurrent": -7.18,
+        "returnCurrent": -6.15,
         "volumeRatio": 0.76,
         "marketExcessReturn": 3.22
       }
@@ -181,7 +211,7 @@
         "return1d": -1.82,
         "return5d": -2.09,
         "return20d": -2.91,
-        "returnCurrent": -12.51,
+        "returnCurrent": -11.54,
         "volumeRatio": 0.71,
         "marketExcessReturn": -0.23
       }
@@ -2907,6 +2937,16 @@
       "close": 1441.0,
       "adj_close": 1441.0,
       "volume": 669200
+    },
+    {
+      "ticker": "8086.T",
+      "trade_date": "2026-09-25",
+      "open": 1445.0,
+      "high": 1462.0,
+      "low": 1444.5,
+      "close": 1457.0,
+      "adj_close": 1457.0,
+      "volume": 330300
     }
   ],
   "benchmark": [
@@ -5629,6 +5669,16 @@
       "close": 424.79998779296875,
       "adj_close": 424.79998779296875,
       "volume": 15880780
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-25",
+      "open": 427.20001220703125,
+      "high": 430.70001220703125,
+      "low": 426.29998779296875,
+      "close": 430.29998779296875,
+      "adj_close": 430.29998779296875,
+      "volume": 11237430
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

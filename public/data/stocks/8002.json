@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-09-24T23:05:41+09:00",
+  "updatedAt": "2026-09-25T14:16:03+09:00",
   "company": {
     "securityCode": "8002",
     "ticker": "8002.T",
     "name": "丸紅株式会社"
   },
   "events": [
+    {
+      "docId": "S100Z41Z",
+      "ticker": "8002.T",
+      "securityCode": "8002",
+      "companyName": "丸紅株式会社",
+      "submitDatetime": "2026-09-25 13:06",
+      "filerName": "野村證券株式会社",
+      "reportType": "initial",
+      "holdingRatio": 5.03,
+      "previousHoldingRatio": null,
+      "holdingChange": null,
+      "purpose": "証券業務に係る商品在庫、及び累積投資業務の運営目的として保有している。 / 証券業務に係わる商品在庫として保有している。 / 信託財産の運用として保有している。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 30,
+      "signalReasons": [
+        "新規大量保有"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 0.27,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YTXU",
       "ticker": "8002.T",
@@ -31,7 +61,7 @@
         "return1d": 3.33,
         "return5d": 1.4,
         "return20d": 4.34,
-        "returnCurrent": 0.33,
+        "returnCurrent": 0.6,
         "volumeRatio": 0.84,
         "marketExcessReturn": -2.52
       }
@@ -62,7 +92,7 @@
         "return1d": 2.47,
         "return5d": 5.78,
         "return20d": 10.79,
-        "returnCurrent": 4.01,
+        "returnCurrent": 4.29,
         "volumeRatio": 1.34,
         "marketExcessReturn": 5.1
       }
@@ -2788,6 +2818,16 @@
       "close": 4878.0,
       "adj_close": 4878.0,
       "volume": 6899100
+    },
+    {
+      "ticker": "8002.T",
+      "trade_date": "2026-09-25",
+      "open": 4910.0,
+      "high": 4923.0,
+      "low": 4846.0,
+      "close": 4891.0,
+      "adj_close": 4891.0,
+      "volume": 3034000
     }
   ],
   "benchmark": [
@@ -5510,6 +5550,16 @@
       "close": 424.79998779296875,
       "adj_close": 424.79998779296875,
       "volume": 15880780
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-25",
+      "open": 427.20001220703125,
+      "high": 430.70001220703125,
+      "low": 426.29998779296875,
+      "close": 430.29998779296875,
+      "adj_close": 430.29998779296875,
+      "volume": 11237430
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-09-24T23:05:41+09:00",
+  "updatedAt": "2026-09-25T14:16:03+09:00",
   "company": {
     "securityCode": "1861",
     "ticker": "1861.T",
     "name": "株式会社　熊谷組"
   },
   "events": [
+    {
+      "docId": "S100Z3LF",
+      "ticker": "1861.T",
+      "securityCode": "1861",
+      "companyName": "株式会社　熊谷組",
+      "submitDatetime": "2026-09-25 09:39",
+      "filerName": "キャピタル・リサーチ・アンド・マネージメント・カンパニー",
+      "reportType": "change",
+      "holdingRatio": 4.84,
+      "previousHoldingRatio": 6.22,
+      "holdingChange": -1.38,
+      "purpose": "顧客である日本国外の投資信託のための純投資",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -0.38,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z2NY",
       "ticker": "1861.T",
@@ -20,7 +50,7 @@
       "purpose": "投資信託契約、投資一任契約に基づく運用を目的として保有するもの。 / 証券投資信託及び投資一任契約において、株券等の取得・処分の権限を有するもの。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.44,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [
@@ -28,11 +58,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": -0.98,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -0.6,
-        "volumeRatio": null,
+        "returnCurrent": -0.98,
+        "volumeRatio": 0.44,
         "marketExcessReturn": null
       }
     },
@@ -62,7 +92,7 @@
         "return1d": 0.7,
         "return5d": 0.23,
         "return20d": null,
-        "returnCurrent": 2.17,
+        "returnCurrent": 1.78,
         "volumeRatio": 0.69,
         "marketExcessReturn": 1.21
       }
@@ -93,7 +123,7 @@
         "return1d": -9.66,
         "return5d": -8.12,
         "return20d": -9.31,
-        "returnCurrent": -7.7,
+        "returnCurrent": -8.05,
         "volumeRatio": 2.98,
         "marketExcessReturn": -11.0
       }
@@ -124,7 +154,7 @@
         "return1d": 0.42,
         "return5d": 4.34,
         "return20d": -0.35,
-        "returnCurrent": -7.7,
+        "returnCurrent": -8.05,
         "volumeRatio": 1.18,
         "marketExcessReturn": 3.66
       }
@@ -156,7 +186,7 @@
         "return1d": 0.42,
         "return5d": 4.34,
         "return20d": -0.35,
-        "returnCurrent": -7.7,
+        "returnCurrent": -8.05,
         "volumeRatio": 1.18,
         "marketExcessReturn": 3.66
       }
@@ -2882,6 +2912,16 @@
       "close": 1319.0,
       "adj_close": 1319.0,
       "volume": 794300
+    },
+    {
+      "ticker": "1861.T",
+      "trade_date": "2026-09-25",
+      "open": 1321.0,
+      "high": 1324.0,
+      "low": 1310.0,
+      "close": 1314.0,
+      "adj_close": 1314.0,
+      "volume": 382600
     }
   ],
   "benchmark": [
@@ -5604,6 +5644,16 @@
       "close": 424.79998779296875,
       "adj_close": 424.79998779296875,
       "volume": 15880780
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-25",
+      "open": 427.20001220703125,
+      "high": 430.70001220703125,
+      "low": 426.29998779296875,
+      "close": 430.29998779296875,
+      "adj_close": 430.29998779296875,
+      "volume": 11237430
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

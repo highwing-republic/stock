@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-09-24T23:05:41+09:00",
+  "updatedAt": "2026-09-25T14:16:03+09:00",
   "company": {
     "securityCode": "7061",
     "ticker": "7061.T",
     "name": "日本ホスピスホールディングス株式会社"
   },
   "events": [
+    {
+      "docId": "S100Z3YC",
+      "ticker": "7061.T",
+      "securityCode": "7061",
+      "companyName": "日本ホスピスホールディングス株式会社",
+      "submitDatetime": "2026-09-25 11:27",
+      "filerName": "アーカス・インベストメント・リミテッド",
+      "reportType": "change",
+      "holdingRatio": 6.09,
+      "previousHoldingRatio": 5.04,
+      "holdingChange": 1.05,
+      "purpose": "発行者に対して支配を及ぼす意図のない顧客（多数）の消極的投資の為の購入",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 20,
+      "signalReasons": [
+        "1pt以上買い増し"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -1.02,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YZME",
       "ticker": "7061.T",
@@ -29,7 +59,7 @@
         "return1d": 0.21,
         "return5d": -1.67,
         "return20d": null,
-        "returnCurrent": 1.67,
+        "returnCurrent": 0.63,
         "volumeRatio": 0.51,
         "marketExcessReturn": -1.23
       }
@@ -60,7 +90,7 @@
         "return1d": 0.21,
         "return5d": -1.67,
         "return20d": null,
-        "returnCurrent": 1.67,
+        "returnCurrent": 0.63,
         "volumeRatio": 0.51,
         "marketExcessReturn": -1.23
       }
@@ -2786,6 +2816,16 @@
       "close": 488.0,
       "adj_close": 488.0,
       "volume": 31500
+    },
+    {
+      "ticker": "7061.T",
+      "trade_date": "2026-09-25",
+      "open": 488.0,
+      "high": 490.0,
+      "low": 480.0,
+      "close": 483.0,
+      "adj_close": 483.0,
+      "volume": 47900
     }
   ],
   "benchmark": [
@@ -5508,6 +5548,16 @@
       "close": 424.79998779296875,
       "adj_close": 424.79998779296875,
       "volume": 15880780
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-25",
+      "open": 427.20001220703125,
+      "high": 430.70001220703125,
+      "low": 426.29998779296875,
+      "close": 430.29998779296875,
+      "adj_close": 430.29998779296875,
+      "volume": 11237430
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-09-24T23:05:41+09:00",
+  "updatedAt": "2026-09-25T14:16:03+09:00",
   "company": {
     "securityCode": "7199",
     "ticker": "7199.T",
     "name": "プレミアグループ株式会社"
   },
   "events": [
+    {
+      "docId": "S100Z41U",
+      "ticker": "7199.T",
+      "securityCode": "7199",
+      "companyName": "プレミアグループ株式会社",
+      "submitDatetime": "2026-09-25 13:06",
+      "filerName": "野村證券株式会社",
+      "reportType": "change",
+      "holdingRatio": 4.09,
+      "previousHoldingRatio": 5.12,
+      "holdingChange": -1.03,
+      "purpose": "証券業務に係る商品在庫として保有している。 / 証券業務に係わる商品在庫として保有している。 / 信託財産の運用として保有している。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 1.23,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YRWR",
       "ticker": "7199.T",
@@ -31,7 +61,7 @@
         "return1d": -2.61,
         "return5d": -0.72,
         "return20d": 2.56,
-        "returnCurrent": 2.32,
+        "returnCurrent": 3.57,
         "volumeRatio": 0.83,
         "marketExcessReturn": 1.09
       }
@@ -2757,6 +2787,16 @@
       "close": 2118.0,
       "adj_close": 2118.0,
       "volume": 312400
+    },
+    {
+      "ticker": "7199.T",
+      "trade_date": "2026-09-25",
+      "open": 2130.0,
+      "high": 2158.0,
+      "low": 2127.0,
+      "close": 2144.0,
+      "adj_close": 2144.0,
+      "volume": 96800
     }
   ],
   "benchmark": [
@@ -5479,6 +5519,16 @@
       "close": 424.79998779296875,
       "adj_close": 424.79998779296875,
       "volume": 15880780
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-25",
+      "open": 427.20001220703125,
+      "high": 430.70001220703125,
+      "low": 426.29998779296875,
+      "close": 430.29998779296875,
+      "adj_close": 430.29998779296875,
+      "volume": 11237430
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

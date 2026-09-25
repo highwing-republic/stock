@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-09-24T23:05:41+09:00",
+  "updatedAt": "2026-09-25T14:16:03+09:00",
   "company": {
     "securityCode": "3065",
     "ticker": "3065.T",
     "name": "株式会社ライフフーズ"
   },
   "events": [
+    {
+      "docId": "S100Z3O0",
+      "ticker": "3065.T",
+      "securityCode": "3065",
+      "companyName": "株式会社ライフフーズ",
+      "submitDatetime": "2026-09-25 10:32",
+      "filerName": "みずほ信託銀行株式会社",
+      "reportType": "change",
+      "holdingRatio": 4.36,
+      "previousHoldingRatio": 5.38,
+      "holdingChange": -1.02,
+      "purpose": "・信託財産として運用その他の信託目的に従い保有するもの",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 0.0,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z35I",
       "ticker": "3065.T",
@@ -20,7 +50,7 @@
       "purpose": "安定株主として長期保有を目的としております。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": 0.32,
+      "volumeRatio": 0.3,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [],
@@ -30,7 +60,7 @@
         "return5d": null,
         "return20d": null,
         "returnCurrent": -0.06,
-        "volumeRatio": 0.32,
+        "volumeRatio": 0.3,
         "marketExcessReturn": null
       }
     }
@@ -2735,6 +2765,16 @@
       "close": 1588.0,
       "adj_close": 1588.0,
       "volume": 900
+    },
+    {
+      "ticker": "3065.T",
+      "trade_date": "2026-09-25",
+      "open": 1586.0,
+      "high": 1588.0,
+      "low": 1586.0,
+      "close": 1588.0,
+      "adj_close": 1588.0,
+      "volume": 800
     }
   ],
   "benchmark": [
@@ -5457,6 +5497,16 @@
       "close": 424.79998779296875,
       "adj_close": 424.79998779296875,
       "volume": 15880780
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-25",
+      "open": 427.20001220703125,
+      "high": 430.70001220703125,
+      "low": 426.29998779296875,
+      "close": 430.29998779296875,
+      "adj_close": 430.29998779296875,
+      "volume": 11237430
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

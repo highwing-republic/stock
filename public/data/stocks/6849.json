@@ -1,11 +1,42 @@
 {
-  "updatedAt": "2026-09-24T23:05:41+09:00",
+  "updatedAt": "2026-09-25T14:16:03+09:00",
   "company": {
     "securityCode": "6849",
     "ticker": "6849.T",
     "name": "日本光電工業株式会社"
   },
   "events": [
+    {
+      "docId": "S100Z388",
+      "ticker": "6849.T",
+      "securityCode": "6849",
+      "companyName": "日本光電工業株式会社",
+      "submitDatetime": "2026-09-25 10:05",
+      "filerName": "株式会社りそな銀行",
+      "reportType": "change",
+      "holdingRatio": 4.22,
+      "previousHoldingRatio": 6.85,
+      "holdingChange": -2.63,
+      "purpose": "信託業務に係る受託資産として保有 / 投資信託、投資一任契約に基づく運用を目的として保有するもの。 / 政策投資目的での保有",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少",
+        "大幅売却"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 0.75,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z2OR",
       "ticker": "6849.T",
@@ -20,7 +51,7 @@
       "purpose": "－ / 投資信託契約、投資一任契約に基づく運用を目的として保有するもの。 / 証券投資信託及び投資一任契約において、株券等の取得・処分の権限を有するもの。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.35,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [
@@ -28,11 +59,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": 2.11,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 1.36,
-        "volumeRatio": null,
+        "returnCurrent": 2.11,
+        "volumeRatio": 0.35,
         "marketExcessReturn": null
       }
     },
@@ -50,20 +81,19 @@
       "purpose": "純投資（投資一任契約に基づく顧客の資産運用および投資信託約款に基づく資産運用目的） / 純投資（顧客および投資信託等の資産運用目的） / 純投資（投資信託等の資産運用目的）",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": 2.35,
+      "volumeRatio": 1.7,
       "marketExcessReturn": null,
-      "signalScore": 40,
+      "signalScore": 30,
       "signalReasons": [
-        "新規大量保有",
-        "出来高2倍以上"
+        "新規大量保有"
       ],
       "stockUnreacted": false,
       "metrics": {
         "return1d": 1.6,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 2.98,
-        "volumeRatio": 2.35,
+        "returnCurrent": 3.75,
+        "volumeRatio": 1.7,
         "marketExcessReturn": null
       }
     },
@@ -80,9 +110,9 @@
       "holdingChange": null,
       "purpose": "純投資(リミテッドパートナーシップ契約及び投資事業有限責任組合契約に基づく運用)として保有するもの。なお、提出者は、発行者の持続的な会社成長と企業価値向上に向け、同社経営陣との信頼関係に基づく対話を通じて、経営戦略推進や組織強化の加速に向け実行支援を行う。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 1.5,
-      "marketExcessReturn": null,
+      "priceChange": 3.98,
+      "volumeRatio": 1.28,
+      "marketExcessReturn": 2.33,
       "signalScore": 30,
       "signalReasons": [
         "新規大量保有"
@@ -90,11 +120,11 @@
       "stockUnreacted": false,
       "metrics": {
         "return1d": 0.22,
-        "return5d": null,
+        "return5d": 3.98,
         "return20d": null,
-        "returnCurrent": 3.21,
-        "volumeRatio": 1.5,
-        "marketExcessReturn": null
+        "returnCurrent": 3.98,
+        "volumeRatio": 1.28,
+        "marketExcessReturn": 2.33
       }
     },
     {
@@ -122,7 +152,7 @@
         "return1d": -3.73,
         "return5d": -2.08,
         "return20d": -3.33,
-        "returnCurrent": 6.14,
+        "returnCurrent": 6.93,
         "volumeRatio": 1.19,
         "marketExcessReturn": 0.31
       }
@@ -153,7 +183,7 @@
         "return1d": 0.43,
         "return5d": 2.57,
         "return20d": 12.58,
-        "returnCurrent": 16.56,
+        "returnCurrent": 17.43,
         "volumeRatio": 0.96,
         "marketExcessReturn": 2.48
       }
@@ -2879,6 +2909,16 @@
       "close": 1608.0,
       "adj_close": 1608.0,
       "volume": 681300
+    },
+    {
+      "ticker": "6849.T",
+      "trade_date": "2026-09-25",
+      "open": 1616.0,
+      "high": 1624.0,
+      "low": 1610.0,
+      "close": 1620.0,
+      "adj_close": 1620.0,
+      "volume": 292000
     }
   ],
   "benchmark": [
@@ -5601,6 +5641,16 @@
       "close": 424.79998779296875,
       "adj_close": 424.79998779296875,
       "volume": 15880780
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-25",
+      "open": 427.20001220703125,
+      "high": 430.70001220703125,
+      "low": 426.29998779296875,
+      "close": 430.29998779296875,
+      "adj_close": 430.29998779296875,
+      "volume": 11237430
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

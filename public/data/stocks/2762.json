@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-09-24T23:05:41+09:00",
+  "updatedAt": "2026-09-25T14:16:03+09:00",
   "company": {
     "securityCode": "2762",
     "ticker": "2762.T",
     "name": "株式会社ＳＡＮＫＯ　ＭＡＲＫＥＴＩＮＧ　ＦＯＯＤＳ"
   },
   "events": [
+    {
+      "docId": "S100Z3X3",
+      "ticker": "2762.T",
+      "securityCode": "2762",
+      "companyName": "株式会社ＳＡＮＫＯ　ＭＡＲＫＥＴＩＮＧ　ＦＯＯＤＳ",
+      "submitDatetime": "2026-09-25 11:12",
+      "filerName": "Ｅｖｏ　Ｆｕｎｄ",
+      "reportType": "change",
+      "holdingRatio": 25.68,
+      "previousHoldingRatio": 26.55,
+      "holdingChange": -0.87,
+      "purpose": "純投資。特定の状況は想定されていないが、第１提出者は発行者に対しその時々の状況に応じて適切な助言を行う場合がある。 / 純投資（投資一任契約に基づく運用を目的としている。）",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 0.0,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YYIB",
       "ticker": "2762.T",
@@ -30,7 +60,7 @@
       "metrics": {
         "return1d": -1.41,
         "return5d": -1.41,
-        "return20d": null,
+        "return20d": -2.82,
         "returnCurrent": -2.82,
         "volumeRatio": 0.63,
         "marketExcessReturn": -4.0
@@ -2817,6 +2847,16 @@
       "close": 69.0,
       "adj_close": 69.0,
       "volume": 132200
+    },
+    {
+      "ticker": "2762.T",
+      "trade_date": "2026-09-25",
+      "open": 69.0,
+      "high": 69.0,
+      "low": 68.0,
+      "close": 69.0,
+      "adj_close": 69.0,
+      "volume": 36900
     }
   ],
   "benchmark": [
@@ -5539,6 +5579,16 @@
       "close": 424.79998779296875,
       "adj_close": 424.79998779296875,
       "volume": 15880780
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-25",
+      "open": 427.20001220703125,
+      "high": 430.70001220703125,
+      "low": 426.29998779296875,
+      "close": 430.29998779296875,
+      "adj_close": 430.29998779296875,
+      "volume": 11237430
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

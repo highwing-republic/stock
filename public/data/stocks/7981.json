@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-09-24T23:05:41+09:00",
+  "updatedAt": "2026-09-25T14:16:03+09:00",
   "company": {
     "securityCode": "7981",
     "ticker": "7981.T",
     "name": "タカラスタンダード株式会社"
   },
   "events": [
+    {
+      "docId": "S100Z3DP",
+      "ticker": "7981.T",
+      "securityCode": "7981",
+      "companyName": "タカラスタンダード株式会社",
+      "submitDatetime": "2026-09-25 13:22",
+      "filerName": "日本生命保険相互会社",
+      "reportType": "change",
+      "holdingRatio": 5.07,
+      "previousHoldingRatio": 5.17,
+      "holdingChange": -0.1,
+      "purpose": "純投資（収益性を投資判断の基準とする投資） / 証券投資信託委託契約、投資一任契約に基づく有価証券投資",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 1.13,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YRH3",
       "ticker": "7981.T",
@@ -32,7 +62,7 @@
         "return1d": 1.13,
         "return5d": -2.1,
         "return20d": -1.13,
-        "returnCurrent": 0.32,
+        "returnCurrent": 1.45,
         "volumeRatio": 1.87,
         "marketExcessReturn": -0.29
       }
@@ -2758,6 +2788,16 @@
       "close": 3110.0,
       "adj_close": 3110.0,
       "volume": 106200
+    },
+    {
+      "ticker": "7981.T",
+      "trade_date": "2026-09-25",
+      "open": 3135.0,
+      "high": 3155.0,
+      "low": 3110.0,
+      "close": 3145.0,
+      "adj_close": 3145.0,
+      "volume": 67000
     }
   ],
   "benchmark": [
@@ -5480,6 +5520,16 @@
       "close": 424.79998779296875,
       "adj_close": 424.79998779296875,
       "volume": 15880780
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-25",
+      "open": 427.20001220703125,
+      "high": 430.70001220703125,
+      "low": 426.29998779296875,
+      "close": 430.29998779296875,
+      "adj_close": 430.29998779296875,
+      "volume": 11237430
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

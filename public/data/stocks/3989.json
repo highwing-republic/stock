@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T23:05:41+09:00",
+  "updatedAt": "2026-09-25T14:16:03+09:00",
   "company": {
     "securityCode": "3989",
     "ticker": "3989.T",
@@ -20,7 +20,7 @@
       "purpose": "証券業務に係る商品在庫として保有している。 / 証券業務に係わる商品在庫として保有している。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.32,
       "marketExcessReturn": null,
       "signalScore": 30,
       "signalReasons": [
@@ -28,11 +28,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": 0.06,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.0,
-        "volumeRatio": null,
+        "returnCurrent": 0.06,
+        "volumeRatio": 0.32,
         "marketExcessReturn": null
       }
     },
@@ -50,7 +50,7 @@
       "purpose": "証券業務に係る商品在庫として保有している。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.32,
       "marketExcessReturn": null,
       "signalScore": 30,
       "signalReasons": [
@@ -58,11 +58,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": 0.06,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.0,
-        "volumeRatio": null,
+        "returnCurrent": 0.06,
+        "volumeRatio": 0.32,
         "marketExcessReturn": null
       }
     },
@@ -80,7 +80,7 @@
       "purpose": "「投資一任契約」及び「投資信託委託契約」に基づく純投資",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": 1.11,
+      "volumeRatio": 0.72,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [
@@ -91,8 +91,8 @@
         "return1d": 0.0,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.0,
-        "volumeRatio": 1.11,
+        "returnCurrent": 0.06,
+        "volumeRatio": 0.72,
         "marketExcessReturn": null
       }
     },
@@ -110,7 +110,7 @@
       "purpose": "純投資",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": 0.86,
+      "volumeRatio": 0.74,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [],
@@ -119,8 +119,8 @@
         "return1d": 0.0,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.0,
-        "volumeRatio": 0.86,
+        "returnCurrent": 0.06,
+        "volumeRatio": 0.74,
         "marketExcessReturn": null
       }
     }
@@ -2845,6 +2845,16 @@
       "close": 1545.0,
       "adj_close": 1545.0,
       "volume": 622200
+    },
+    {
+      "ticker": "3989.T",
+      "trade_date": "2026-09-25",
+      "open": 1546.0,
+      "high": 1546.0,
+      "low": 1545.0,
+      "close": 1546.0,
+      "adj_close": 1546.0,
+      "volume": 178400
     }
   ],
   "benchmark": [
@@ -5567,6 +5577,16 @@
       "close": 424.79998779296875,
       "adj_close": 424.79998779296875,
       "volume": 15880780
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-25",
+      "open": 427.20001220703125,
+      "high": 430.70001220703125,
+      "low": 426.29998779296875,
+      "close": 430.29998779296875,
+      "adj_close": 430.29998779296875,
+      "volume": 11237430
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

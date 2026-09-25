@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-09-24T23:05:41+09:00",
+  "updatedAt": "2026-09-25T14:16:03+09:00",
   "company": {
     "securityCode": "7033",
     "ticker": "7033.T",
     "name": "株式会社マネジメントソリューションズ"
   },
   "events": [
+    {
+      "docId": "S100Z3C0",
+      "ticker": "7033.T",
+      "securityCode": "7033",
+      "companyName": "株式会社マネジメントソリューションズ",
+      "submitDatetime": "2026-09-25 10:55",
+      "filerName": "野村アセットマネジメント株式会社",
+      "reportType": "change",
+      "holdingRatio": 5.14,
+      "previousHoldingRatio": 5.84,
+      "holdingChange": -0.7,
+      "purpose": "証券業務に係わる商品在庫として保有している。 / － / 信託財産の運用として保有している。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 0.89,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YTPH",
       "ticker": "7033.T",
@@ -31,7 +61,7 @@
         "return1d": 2.09,
         "return5d": 5.42,
         "return20d": 12.78,
-        "returnCurrent": 13.72,
+        "returnCurrent": 14.73,
         "volumeRatio": 1.06,
         "marketExcessReturn": 0.54
       }
@@ -61,7 +91,7 @@
         "return1d": 0.88,
         "return5d": 0.37,
         "return20d": 4.12,
-        "returnCurrent": 15.98,
+        "returnCurrent": 17.01,
         "volumeRatio": 0.41,
         "marketExcessReturn": 1.75
       }
@@ -2787,6 +2817,16 @@
       "close": 1575.0,
       "adj_close": 1575.0,
       "volume": 103500
+    },
+    {
+      "ticker": "7033.T",
+      "trade_date": "2026-09-25",
+      "open": 1571.0,
+      "high": 1596.0,
+      "low": 1553.0,
+      "close": 1589.0,
+      "adj_close": 1589.0,
+      "volume": 41700
     }
   ],
   "benchmark": [
@@ -5509,6 +5549,16 @@
       "close": 424.79998779296875,
       "adj_close": 424.79998779296875,
       "volume": 15880780
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-25",
+      "open": 427.20001220703125,
+      "high": 430.70001220703125,
+      "low": 426.29998779296875,
+      "close": 430.29998779296875,
+      "adj_close": 430.29998779296875,
+      "volume": 11237430
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

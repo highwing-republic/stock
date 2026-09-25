@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-09-24T23:05:41+09:00",
+  "updatedAt": "2026-09-25T14:16:03+09:00",
   "company": {
     "securityCode": "1332",
     "ticker": "1332.T",
     "name": "株式会社ニッスイ"
   },
   "events": [
+    {
+      "docId": "S100Z3TF",
+      "ticker": "1332.T",
+      "securityCode": "1332",
+      "companyName": "株式会社ニッスイ",
+      "submitDatetime": "2026-09-25 09:19",
+      "filerName": "野村證券株式会社",
+      "reportType": "change",
+      "holdingRatio": 12.02,
+      "previousHoldingRatio": 11.94,
+      "holdingChange": 0.08,
+      "purpose": "証券業務に係る商品在庫、及び累積投資業務の運営目的として保有している。 / 証券業務に係わる商品在庫として保有している。 / 信託財産の運用として保有している。",
+      "importantProposal": true,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 20,
+      "signalReasons": [
+        "重要提案行為あり"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -0.22,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z3FI",
       "ticker": "1332.T",
@@ -20,7 +50,7 @@
       "purpose": "証券業務に係る商品在庫、及び累積投資業務の運営目的として保有している。 / 証券業務に係わる商品在庫として保有している。 / 信託財産の運用として保有している。",
       "importantProposal": true,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.58,
       "marketExcessReturn": null,
       "signalScore": 40,
       "signalReasons": [
@@ -29,11 +59,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": -0.77,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -0.56,
-        "volumeRatio": null,
+        "returnCurrent": -0.77,
+        "volumeRatio": 0.58,
         "marketExcessReturn": null
       }
     },
@@ -62,7 +92,7 @@
         "return1d": -2.8,
         "return5d": 0.76,
         "return20d": 3.24,
-        "returnCurrent": -7.37,
+        "returnCurrent": -7.57,
         "volumeRatio": 1.31,
         "marketExcessReturn": -4.12
       }
@@ -2788,6 +2818,16 @@
       "close": 1156.5,
       "adj_close": 1156.5,
       "volume": 2123300
+    },
+    {
+      "ticker": "1332.T",
+      "trade_date": "2026-09-25",
+      "open": 1160.0,
+      "high": 1163.0,
+      "low": 1149.5,
+      "close": 1154.0,
+      "adj_close": 1154.0,
+      "volume": 986100
     }
   ],
   "benchmark": [
@@ -5510,6 +5550,16 @@
       "close": 424.79998779296875,
       "adj_close": 424.79998779296875,
       "volume": 15880780
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-25",
+      "open": 427.20001220703125,
+      "high": 430.70001220703125,
+      "low": 426.29998779296875,
+      "close": 430.29998779296875,
+      "adj_close": 430.29998779296875,
+      "volume": 11237430
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

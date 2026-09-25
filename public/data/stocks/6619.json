@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-09-24T23:05:41+09:00",
+  "updatedAt": "2026-09-25T14:16:03+09:00",
   "company": {
     "securityCode": "6619",
     "ticker": "6619.T",
     "name": "ダブル・スコープ株式会社"
   },
   "events": [
+    {
+      "docId": "S100Z35O",
+      "ticker": "6619.T",
+      "securityCode": "6619",
+      "companyName": "ダブル・スコープ株式会社",
+      "submitDatetime": "2026-09-25 10:35",
+      "filerName": "野村證券株式会社",
+      "reportType": "change",
+      "holdingRatio": 4.25,
+      "previousHoldingRatio": 5.09,
+      "holdingChange": -0.84,
+      "purpose": "証券業務に係る商品在庫として保有している。 / 証券業務に係わる商品在庫として保有している。 / 信託財産の運用として保有している。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -2.58,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YXQK",
       "ticker": "6619.T",
@@ -31,7 +61,7 @@
         "return1d": -0.65,
         "return5d": 3.92,
         "return20d": -1.96,
-        "returnCurrent": 1.31,
+        "returnCurrent": -1.31,
         "volumeRatio": 0.73,
         "marketExcessReturn": 1.74
       }
@@ -2757,6 +2787,16 @@
       "close": 155.0,
       "adj_close": 155.0,
       "volume": 1860700
+    },
+    {
+      "ticker": "6619.T",
+      "trade_date": "2026-09-25",
+      "open": 154.0,
+      "high": 154.0,
+      "low": 151.0,
+      "close": 151.0,
+      "adj_close": 151.0,
+      "volume": 1538100
     }
   ],
   "benchmark": [
@@ -5479,6 +5519,16 @@
       "close": 424.79998779296875,
       "adj_close": 424.79998779296875,
       "volume": 15880780
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-25",
+      "open": 427.20001220703125,
+      "high": 430.70001220703125,
+      "low": 426.29998779296875,
+      "close": 430.29998779296875,
+      "adj_close": 430.29998779296875,
+      "volume": 11237430
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-09-24T23:05:41+09:00",
+  "updatedAt": "2026-09-25T14:16:03+09:00",
   "company": {
     "securityCode": "9706",
     "ticker": "9706.T",
     "name": "日本空港ビルデング株式会社"
   },
   "events": [
+    {
+      "docId": "S100Z3N8",
+      "ticker": "9706.T",
+      "securityCode": "9706",
+      "companyName": "日本空港ビルデング株式会社",
+      "submitDatetime": "2026-09-25 10:22",
+      "filerName": "株式会社みずほ銀行",
+      "reportType": "change",
+      "holdingRatio": 3.3,
+      "previousHoldingRatio": 5.19,
+      "holdingChange": -1.89,
+      "purpose": "・発行会社の要請に応え、かつ発行会社との取引関係の強化を図るもの / ・ディーリング(短期売買)目的で保有するもの・レンディングその他取引に基づく一時的保有 / ・投資信託または投資一任契約に基づき投資権限を有するもの",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 0.56,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z2J8",
       "ticker": "9706.T",
@@ -20,7 +50,7 @@
       "purpose": "政策投資 / 純投資 / 商品有価証券等として保有するもの / 投資一任契約による純投資",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.31,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [
@@ -29,11 +59,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": 0.76,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.2,
-        "volumeRatio": null,
+        "returnCurrent": 0.76,
+        "volumeRatio": 0.31,
         "marketExcessReturn": null
       }
     },
@@ -63,7 +93,7 @@
         "return1d": -0.66,
         "return5d": -2.55,
         "return20d": null,
-        "returnCurrent": -1.25,
+        "returnCurrent": -0.7,
         "volumeRatio": 1.01,
         "marketExcessReturn": -2.95
       }
@@ -93,7 +123,7 @@
         "return1d": -3.26,
         "return5d": 1.27,
         "return20d": 11.8,
-        "returnCurrent": 14.85,
+        "returnCurrent": 15.5,
         "volumeRatio": 1.0,
         "marketExcessReturn": 1.18
       }
@@ -2819,6 +2849,16 @@
       "close": 5529.0,
       "adj_close": 5529.0,
       "volume": 723000
+    },
+    {
+      "ticker": "9706.T",
+      "trade_date": "2026-09-25",
+      "open": 5537.0,
+      "high": 5605.0,
+      "low": 5527.0,
+      "close": 5560.0,
+      "adj_close": 5560.0,
+      "volume": 373600
     }
   ],
   "benchmark": [
@@ -5541,6 +5581,16 @@
       "close": 424.79998779296875,
       "adj_close": 424.79998779296875,
       "volume": 15880780
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-25",
+      "open": 427.20001220703125,
+      "high": 430.70001220703125,
+      "low": 426.29998779296875,
+      "close": 430.29998779296875,
+      "adj_close": 430.29998779296875,
+      "volume": 11237430
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

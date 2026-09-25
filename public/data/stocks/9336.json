@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T23:05:41+09:00",
+  "updatedAt": "2026-09-25T14:16:03+09:00",
   "company": {
     "securityCode": "9336",
     "ticker": "9336.T",
@@ -20,7 +20,7 @@
       "purpose": "当該有価証券は、当社の投資運用および資産管理機能に関連して保有されています。 / 信託契約および投資一任契約に基づき、顧客に代わって投資運用の目的で保有されているものです。有価証券は当社名義ではなく、顧客のカストディ銀行名義で保有されています。 / 当社は自己の投資目的で有価証券を保有していません。記録上の有価証券は関連会社の事務・運営目的のためであり、投資目的ではありません。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.75,
       "marketExcessReturn": null,
       "signalScore": 30,
       "signalReasons": [
@@ -28,11 +28,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": -1.44,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -1.04,
-        "volumeRatio": null,
+        "returnCurrent": -1.44,
+        "volumeRatio": 0.75,
         "marketExcessReturn": null
       }
     },
@@ -50,7 +50,7 @@
       "purpose": "発行者の創業者及びその親族の資産管理会社であり、安定株主として長期保有しております。 / 発行者の創業者かつ代表取締役であり、安定株主として長期保有しております。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": 1.42,
+      "volumeRatio": 1.2,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [],
@@ -59,8 +59,8 @@
         "return1d": 1.86,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.8,
-        "volumeRatio": 1.42,
+        "returnCurrent": 0.4,
+        "volumeRatio": 1.2,
         "marketExcessReturn": null
       }
     }
@@ -2775,6 +2775,16 @@
       "close": 3790.0,
       "adj_close": 3790.0,
       "volume": 203500
+    },
+    {
+      "ticker": "9336.T",
+      "trade_date": "2026-09-25",
+      "open": 3805.0,
+      "high": 3815.0,
+      "low": 3735.0,
+      "close": 3775.0,
+      "adj_close": 3775.0,
+      "volume": 96300
     }
   ],
   "benchmark": [
@@ -5497,6 +5507,16 @@
       "close": 424.79998779296875,
       "adj_close": 424.79998779296875,
       "volume": 15880780
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-25",
+      "open": 427.20001220703125,
+      "high": 430.70001220703125,
+      "low": 426.29998779296875,
+      "close": 430.29998779296875,
+      "adj_close": 430.29998779296875,
+      "volume": 11237430
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

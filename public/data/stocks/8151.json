@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-09-24T23:05:41+09:00",
+  "updatedAt": "2026-09-25T14:16:03+09:00",
   "company": {
     "securityCode": "8151",
     "ticker": "8151.T",
     "name": "株式会社東陽テクニカ"
   },
   "events": [
+    {
+      "docId": "S100Z3CX",
+      "ticker": "8151.T",
+      "securityCode": "8151",
+      "companyName": "株式会社東陽テクニカ",
+      "submitDatetime": "2026-09-25 12:46",
+      "filerName": "ＳＭＢＣ日興証券株式会社",
+      "reportType": "change",
+      "holdingRatio": 6.11,
+      "previousHoldingRatio": 5.11,
+      "holdingChange": 1.0,
+      "purpose": "証券業務に係る一時保有のため / 純投資（投資収益性を重視して行う投資）",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 20,
+      "signalReasons": [
+        "1pt以上買い増し"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 2.33,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z075",
       "ticker": "8151.T",
@@ -32,7 +62,7 @@
         "return1d": 0.32,
         "return5d": -3.15,
         "return20d": null,
-        "returnCurrent": 0.75,
+        "returnCurrent": 3.1,
         "volumeRatio": 0.75,
         "marketExcessReturn": -2.17
       }
@@ -62,7 +92,7 @@
         "return1d": 1.88,
         "return5d": -1.16,
         "return20d": -12.52,
-        "returnCurrent": -8.89,
+        "returnCurrent": -6.77,
         "volumeRatio": 1.6,
         "marketExcessReturn": 1.44
       }
@@ -2788,6 +2818,16 @@
       "close": 1885.0,
       "adj_close": 1885.0,
       "volume": 273600
+    },
+    {
+      "ticker": "8151.T",
+      "trade_date": "2026-09-25",
+      "open": 1900.0,
+      "high": 1934.0,
+      "low": 1887.0,
+      "close": 1929.0,
+      "adj_close": 1929.0,
+      "volume": 160300
     }
   ],
   "benchmark": [
@@ -5510,6 +5550,16 @@
       "close": 424.79998779296875,
       "adj_close": 424.79998779296875,
       "volume": 15880780
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-25",
+      "open": 427.20001220703125,
+      "high": 430.70001220703125,
+      "low": 426.29998779296875,
+      "close": 430.29998779296875,
+      "adj_close": 430.29998779296875,
+      "volume": 11237430
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"
