@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T23:28:18+09:00",
+  "updatedAt": "2026-09-28T14:47:13+09:00",
   "company": {
     "securityCode": "1904",
     "ticker": "1904.T",
@@ -20,17 +20,19 @@
       "purpose": "大成温調株式会社と取引関係にある企業及び個人が同社株式の取得により、相互間の親睦関係の増進に寄与するため。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": 1.41,
+      "volumeRatio": 2.27,
       "marketExcessReturn": null,
-      "signalScore": 0,
-      "signalReasons": [],
+      "signalScore": 10,
+      "signalReasons": [
+        "出来高2倍以上"
+      ],
       "stockUnreacted": false,
       "metrics": {
         "return1d": -1.54,
         "return5d": null,
         "return20d": null,
         "returnCurrent": -0.96,
-        "volumeRatio": 1.41,
+        "volumeRatio": 2.27,
         "marketExcessReturn": null
       }
     }
@@ -2745,6 +2747,16 @@
       "close": 5160.0,
       "adj_close": 5160.0,
       "volume": 12500
+    },
+    {
+      "ticker": "1904.T",
+      "trade_date": "2026-09-28",
+      "open": 5190.0,
+      "high": 5190.0,
+      "low": 5150.0,
+      "close": 5160.0,
+      "adj_close": 5160.0,
+      "volume": 37600
     }
   ],
   "benchmark": [
@@ -5477,6 +5489,16 @@
       "close": 430.29998779296875,
       "adj_close": 430.29998779296875,
       "volume": 15068240
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-28",
+      "open": 431.29998779296875,
+      "high": 432.8999938964844,
+      "low": 429.70001220703125,
+      "close": 430.1000061035156,
+      "adj_close": 430.1000061035156,
+      "volume": 10452630
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

@@ -1,11 +1,39 @@
 {
-  "updatedAt": "2026-09-25T23:28:18+09:00",
+  "updatedAt": "2026-09-28T14:47:13+09:00",
   "company": {
     "securityCode": "3143",
     "ticker": "3143.T",
     "name": "オーウイル株式会社"
   },
   "events": [
+    {
+      "docId": "S100Z3HL",
+      "ticker": "3143.T",
+      "securityCode": "3143",
+      "companyName": "オーウイル株式会社",
+      "submitDatetime": "2026-09-28 13:43",
+      "filerName": "光通信株式会社",
+      "reportType": "change",
+      "holdingRatio": 6.16,
+      "previousHoldingRatio": 6.16,
+      "holdingChange": 0.0,
+      "purpose": "純投資",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 20.55,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z2Y8",
       "ticker": "3143.T",
@@ -20,20 +48,22 @@
       "purpose": "証券業務に係る商品在庫として保有している。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 19.16,
       "marketExcessReturn": null,
-      "signalScore": 30,
+      "signalScore": 45,
       "signalReasons": [
         "1pt以上買い増し",
-        "2pt以上買い増し"
+        "2pt以上買い増し",
+        "出来高2倍以上",
+        "出来高3倍以上"
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": 20.88,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.27,
-        "volumeRatio": null,
+        "returnCurrent": 20.88,
+        "volumeRatio": 19.16,
         "marketExcessReturn": null
       }
     },
@@ -63,7 +93,7 @@
         "return1d": -2.06,
         "return5d": -2.34,
         "return20d": null,
-        "returnCurrent": 0.27,
+        "returnCurrent": 20.88,
         "volumeRatio": 0.62,
         "marketExcessReturn": -0.29
       }
@@ -97,7 +127,7 @@
         "return1d": 4.0,
         "return5d": 1.43,
         "return20d": null,
-        "returnCurrent": 4.29,
+        "returnCurrent": 25.71,
         "volumeRatio": 4.01,
         "marketExcessReturn": 3.19
       }
@@ -2833,6 +2863,16 @@
       "close": 730.0,
       "adj_close": 730.0,
       "volume": 9200
+    },
+    {
+      "ticker": "3143.T",
+      "trade_date": "2026-09-28",
+      "open": 741.0,
+      "high": 880.0,
+      "low": 741.0,
+      "close": 880.0,
+      "adj_close": 880.0,
+      "volume": 252200
     }
   ],
   "benchmark": [
@@ -5565,6 +5605,16 @@
       "close": 430.29998779296875,
       "adj_close": 430.29998779296875,
       "volume": 15068240
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-28",
+      "open": 431.29998779296875,
+      "high": 432.8999938964844,
+      "low": 429.70001220703125,
+      "close": 430.1000061035156,
+      "adj_close": 430.1000061035156,
+      "volume": 10452630
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"
