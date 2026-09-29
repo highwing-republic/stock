@@ -1,0 +1,99 @@
+# JPX400 Watch Radar 閾値設定（docs/watch-radar-spec.md）。コードに閾値を直書きしない。
+calendar:
+  market_close: "15:30"        # この時刻以降の提出は次営業日が Day0
+  extra_holidays: []           # 例: ["2026-11-03"]（ベンチマーク価格が無い先の日付にだけ効く）
+
+universe:
+  min_members: 350
+
+events:
+  consecutive_window_days: 30
+  large_increase_pt: 1.0
+  trigger_types: [NEW_HOLDER, LARGE_INCREASE, CONSECUTIVE_INCREASE]
+  strengthen_types: [NEW_HOLDER, LARGE_INCREASE, CONSECUTIVE_INCREASE, INCREASE]
+
+prices:
+  history_days: 560
+  split_mismatch_pct: 0.02     # 重複日の close 乖離がこれ以上なら全履歴を取り直す
+  adj_mismatch_pct: 0.002      # 調整係数(adj/close)の乖離がこれ以上でも取り直す（配当反映）
+  min_coverage: 0.8
+  max_stale_days: 10           # as_of とベンチマーク最終日の差がこれを超えたら品質ゲート失敗
+  chunk_size: 50
+  overlap_days: 7
+  stale_refetch_days: 30
+
+indicators:
+  min_history_days: 200
+
+price_setup:
+  priority: [BREAKOUT, TREND, RECOVERY]
+  surge_5d_max: 0.15
+  breakout:
+    range_pos60_min: 0.70
+    atr_pct_rank252_max: 0.40
+  recovery:
+    max_drawdown_120_min: 0.15
+    days_since_low60_min: 10
+  trend:
+    dist_52w_high_max: 0.10
+
+episodes:
+  candidate_expiry_days: 20
+  confirm_volume_ratio: 1.5
+  reacted_return: 0.15
+  reacted_excess: 0.10
+  broken_days: 3
+  broken_ma60_buffer: 0.03
+  max_watch_days: 60
+  overextended_return: 0.20
+
+ranking:
+  weekly_size: 5
+  monthly_size: 10
+  weekly_hysteresis: 8
+  monthly_hysteresis: 8
+  backfill_weekly: 2           # 現在期間に加え、未凍結の直近何期間を確定するか
+  backfill_monthly: 1
+  event_points: {NEW_HOLDER: 30, LARGE_INCREASE: 30, CONSECUTIVE_INCREASE: 35, INCREASE: 15}
+  purpose_change_bonus: 5
+  event_cap: 35
+  event_decay_days: 60
+  event_decay_floor: 0.5
+  setup_points: {BREAKOUT: 30, TREND: 25, RECOVERY: 20}
+  setup_top_bonus: 5
+  setup_top_range_pos: 0.9
+  setup_cap: 35
+  status_points: {CONFIRMED: 15, STRENGTHENING: 8, REACTED: 5}
+  improvement_points: 10
+  improvement_days: 5
+  margin_points: 5
+  overextended_penalty: 10
+  monthly_event_bonus: 3
+  monthly_improve_bonus: 5
+  monthly_cap: 110
+
+performance:
+  horizons: [5, 20, 60]
+
+margin:
+  enabled: true
+  min_rows: 2000
+  min_universe_coverage: 0.9
+  keep: 30
+  surge_pct: 0.20
+  drop_pct: 0.10
+  stale_days: 10
+
+pipeline:
+  replay_days: 180
+  benchmark_ticker: "1306.T"
+  edinet_stale_days: 5
+  jpx400_stale_days: 14
+
+export:
+  state_change_days: 10
+  state_change_limit: 50
+  timeline_limit: 60
+  atr_low_rank: 0.40
+  atr_high_rank: 0.80
+  disclaimer: "公開情報を機械的に整理した参考情報であり、将来の株価を示唆・保証するものではありません。投資判断はご自身の責任で行ってください。"
