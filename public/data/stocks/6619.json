@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T02:21:51+09:00",
+  "updatedAt": "2026-09-29T15:03:53+09:00",
   "company": {
     "securityCode": "6619",
     "ticker": "6619.T",
@@ -20,7 +20,7 @@
       "purpose": "証券業務に係る商品在庫として保有している。 / 証券業務に係わる商品在庫として保有している。 / 信託財産の運用として保有している。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.71,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [
@@ -28,11 +28,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": -3.87,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -3.87,
-        "volumeRatio": null,
+        "returnCurrent": -7.74,
+        "volumeRatio": 0.71,
         "marketExcessReturn": null
       }
     },
@@ -61,7 +61,7 @@
         "return1d": -0.65,
         "return5d": 3.92,
         "return20d": -1.96,
-        "returnCurrent": -2.61,
+        "returnCurrent": -6.54,
         "volumeRatio": 0.73,
         "marketExcessReturn": 1.74
       }
@@ -2804,9 +2804,19 @@
       "open": 150.0,
       "high": 151.0,
       "low": 147.0,
-      "close": null,
-      "adj_close": null,
+      "close": 149.0,
+      "adj_close": 149.0,
       "volume": 1686300
+    },
+    {
+      "ticker": "6619.T",
+      "trade_date": "2026-09-29",
+      "open": 148.0,
+      "high": 148.0,
+      "low": 142.0,
+      "close": 143.0,
+      "adj_close": 143.0,
+      "volume": 1472800
     }
   ],
   "benchmark": [
@@ -5549,6 +5559,16 @@
       "close": 428.20001220703125,
       "adj_close": 428.20001220703125,
       "volume": 16360570
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-29",
+      "open": 428.5,
+      "high": 431.5,
+      "low": 423.1000061035156,
+      "close": 423.6000061035156,
+      "adj_close": 423.6000061035156,
+      "volume": 9909160
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

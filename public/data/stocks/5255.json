@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T02:21:51+09:00",
+  "updatedAt": "2026-09-29T15:03:53+09:00",
   "company": {
     "securityCode": "5255",
     "ticker": "5255.T",
@@ -31,7 +31,7 @@
         "return1d": -2.5,
         "return5d": -12.5,
         "return20d": 15.0,
-        "returnCurrent": 0.0,
+        "returnCurrent": -1.25,
         "volumeRatio": 0.86,
         "marketExcessReturn": -10.64
       }
@@ -2774,9 +2774,19 @@
       "open": 79.0,
       "high": 80.0,
       "low": 78.0,
-      "close": null,
-      "adj_close": null,
+      "close": 80.0,
+      "adj_close": 80.0,
       "volume": 184300
+    },
+    {
+      "ticker": "5255.T",
+      "trade_date": "2026-09-29",
+      "open": 80.0,
+      "high": 80.0,
+      "low": 78.0,
+      "close": 79.0,
+      "adj_close": 79.0,
+      "volume": 226200
     }
   ],
   "benchmark": [
@@ -5519,6 +5529,16 @@
       "close": 428.20001220703125,
       "adj_close": 428.20001220703125,
       "volume": 16360570
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-29",
+      "open": 428.5,
+      "high": 431.5,
+      "low": 423.1000061035156,
+      "close": 423.6000061035156,
+      "adj_close": 423.6000061035156,
+      "volume": 9909160
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

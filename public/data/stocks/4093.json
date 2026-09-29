@@ -1,11 +1,39 @@
 {
-  "updatedAt": "2026-09-29T02:21:51+09:00",
+  "updatedAt": "2026-09-29T15:03:53+09:00",
   "company": {
     "securityCode": "4093",
     "ticker": "4093.T",
     "name": "東邦アセチレン株式会社"
   },
   "events": [
+    {
+      "docId": "S100Z3IG",
+      "ticker": "4093.T",
+      "securityCode": "4093",
+      "companyName": "東邦アセチレン株式会社",
+      "submitDatetime": "2026-09-29 14:06",
+      "filerName": "光通信株式会社",
+      "reportType": "change",
+      "holdingRatio": 22.44,
+      "previousHoldingRatio": 22.39,
+      "holdingChange": 0.05,
+      "purpose": "純投資",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -0.23,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z1XQ",
       "ticker": "4093.T",
@@ -19,21 +47,22 @@
       "holdingChange": 1.01,
       "purpose": "純投資",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.37,
-      "marketExcessReturn": null,
-      "signalScore": 20,
+      "priceChange": 1.66,
+      "volumeRatio": 0.49,
+      "marketExcessReturn": 1.73,
+      "signalScore": 30,
       "signalReasons": [
-        "1pt以上買い増し"
+        "1pt以上買い増し",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": 2.85,
-        "return5d": null,
+        "return5d": 1.66,
         "return20d": null,
-        "returnCurrent": 3.56,
-        "volumeRatio": 0.37,
-        "marketExcessReturn": null
+        "returnCurrent": 1.66,
+        "volumeRatio": 0.49,
+        "marketExcessReturn": 1.73
       }
     },
     {
@@ -62,7 +91,7 @@
         "return1d": 1.44,
         "return5d": 2.4,
         "return20d": 2.64,
-        "returnCurrent": 4.81,
+        "returnCurrent": 2.88,
         "volumeRatio": 0.54,
         "marketExcessReturn": 0.85
       }
@@ -2786,7 +2815,7 @@
       "high": 436.0,
       "low": 432.0,
       "close": 433.0,
-      "adj_close": 433.0,
+      "adj_close": 428.0115051269531,
       "volume": 9500
     },
     {
@@ -2796,7 +2825,7 @@
       "high": 436.0,
       "low": 432.0,
       "close": 436.0,
-      "adj_close": 436.0,
+      "adj_close": 430.9769592285156,
       "volume": 6300
     },
     {
@@ -2805,9 +2834,19 @@
       "open": 438.0,
       "high": 438.0,
       "low": 434.0,
-      "close": null,
-      "adj_close": null,
+      "close": 434.0,
+      "adj_close": 429.0,
       "volume": 23900
+    },
+    {
+      "ticker": "4093.T",
+      "trade_date": "2026-09-29",
+      "open": 432.0,
+      "high": 432.0,
+      "low": 423.0,
+      "close": 428.0,
+      "adj_close": 428.0,
+      "volume": 3500
     }
   ],
   "benchmark": [
@@ -5550,6 +5589,16 @@
       "close": 428.20001220703125,
       "adj_close": 428.20001220703125,
       "volume": 16360570
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-29",
+      "open": 428.5,
+      "high": 431.5,
+      "low": 423.1000061035156,
+      "close": 423.6000061035156,
+      "adj_close": 423.6000061035156,
+      "volume": 9909160
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

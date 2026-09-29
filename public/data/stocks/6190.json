@@ -1,11 +1,39 @@
 {
-  "updatedAt": "2026-09-29T02:21:51+09:00",
+  "updatedAt": "2026-09-29T15:03:53+09:00",
   "company": {
     "securityCode": "6190",
     "ticker": "6190.T",
     "name": "株式会社オリバー"
   },
   "events": [
+    {
+      "docId": "S100Z4KL",
+      "ticker": "6190.T",
+      "securityCode": "6190",
+      "companyName": "株式会社オリバー",
+      "submitDatetime": "2026-09-29 10:52",
+      "filerName": "インテグラル・グループ株式会社",
+      "reportType": "correction",
+      "holdingRatio": 18.77,
+      "previousHoldingRatio": null,
+      "holdingChange": null,
+      "purpose": "純投資",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -0.33,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z3GY",
       "ticker": "6190.T",
@@ -20,7 +48,7 @@
       "purpose": "投資（投資一任契約に係る顧客資産の運用）を主な目的とするが、スチュワードシップ責任を果たすため、JPXガイドライン及びコーポレートガバナンス・コードに沿った企業価値向上を目的として、発行者の経営陣、社外取締役その他の関係者との対話及び意見交換を行うことがある。また、継続的なエンゲージメント活動の一環として、ガバナンス、サステナビリティ又は業務・資本効率の改善に関する提言を行う場合があり、状況に応じて発行者の経営陣との積極的な意見交換を行うことがある。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.36,
       "marketExcessReturn": null,
       "signalScore": 30,
       "signalReasons": [
@@ -28,11 +56,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": 0.33,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.0,
-        "volumeRatio": null,
+        "returnCurrent": 0.33,
+        "volumeRatio": 0.36,
         "marketExcessReturn": null
       }
     },
@@ -50,7 +78,7 @@
       "purpose": "純投資",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.36,
       "marketExcessReturn": null,
       "signalScore": 30,
       "signalReasons": [
@@ -58,11 +86,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": 0.33,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.0,
-        "volumeRatio": null,
+        "returnCurrent": 0.33,
+        "volumeRatio": 0.36,
         "marketExcessReturn": null
       }
     },
@@ -80,7 +108,7 @@
       "purpose": "発行会社の代表取締役社長として、中長期的な企業価値の向上を目的に、安定株主として保有しております。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.47,
       "marketExcessReturn": null,
       "signalScore": 30,
       "signalReasons": [
@@ -88,11 +116,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": 0.99,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.33,
-        "volumeRatio": null,
+        "returnCurrent": 0.66,
+        "volumeRatio": 0.47,
         "marketExcessReturn": null
       }
     }
@@ -2764,9 +2792,19 @@
       "open": 310.0,
       "high": 310.0,
       "low": 306.0,
-      "close": null,
-      "adj_close": null,
+      "close": 307.0,
+      "adj_close": 307.0,
       "volume": 4700
+    },
+    {
+      "ticker": "6190.T",
+      "trade_date": "2026-09-29",
+      "open": 310.0,
+      "high": 310.0,
+      "low": 305.0,
+      "close": 306.0,
+      "adj_close": 306.0,
+      "volume": 2800
     }
   ],
   "benchmark": [
@@ -5509,6 +5547,16 @@
       "close": 428.20001220703125,
       "adj_close": 428.20001220703125,
       "volume": 16360570
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-29",
+      "open": 428.5,
+      "high": 431.5,
+      "low": 423.1000061035156,
+      "close": 423.6000061035156,
+      "adj_close": 423.6000061035156,
+      "volume": 9909160
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

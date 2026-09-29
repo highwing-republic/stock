@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-09-29T02:21:51+09:00",
+  "updatedAt": "2026-09-29T15:03:53+09:00",
   "company": {
     "securityCode": "3242",
     "ticker": "3242.T",
     "name": "株式会社アーバネットコーポレーション"
   },
   "events": [
+    {
+      "docId": "S100Z4OG",
+      "ticker": "3242.T",
+      "securityCode": "3242",
+      "companyName": "株式会社アーバネットコーポレーション",
+      "submitDatetime": "2026-09-29 11:07",
+      "filerName": "服部　信治",
+      "reportType": "change",
+      "holdingRatio": 15.84,
+      "previousHoldingRatio": 16.01,
+      "holdingChange": -0.17,
+      "purpose": "発行会社の代表取締役であり、安定株主として長期保有を目的としております。 / 発行会社の代表取締役社長の配偶者であり、安定株主として長期保有を目的としております。 / 安定株主として長期保有を目的としております。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 0.19,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YNYP",
       "ticker": "3242.T",
@@ -29,7 +59,7 @@
         "return1d": -2.61,
         "return5d": -1.4,
         "return20d": 0.8,
-        "returnCurrent": 6.21,
+        "returnCurrent": 6.61,
         "volumeRatio": 1.3,
         "marketExcessReturn": 0.17
       }
@@ -2772,9 +2802,19 @@
       "open": 530.0,
       "high": 531.0,
       "low": 529.0,
-      "close": null,
-      "adj_close": null,
+      "close": 531.0,
+      "adj_close": 531.0,
       "volume": 30800
+    },
+    {
+      "ticker": "3242.T",
+      "trade_date": "2026-09-29",
+      "open": 531.0,
+      "high": 533.0,
+      "low": 528.0,
+      "close": 532.0,
+      "adj_close": 532.0,
+      "volume": 65800
     }
   ],
   "benchmark": [
@@ -5517,6 +5557,16 @@
       "close": 428.20001220703125,
       "adj_close": 428.20001220703125,
       "volume": 16360570
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-29",
+      "open": 428.5,
+      "high": 431.5,
+      "low": 423.1000061035156,
+      "close": 423.6000061035156,
+      "adj_close": 423.6000061035156,
+      "volume": 9909160
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

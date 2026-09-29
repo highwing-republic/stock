@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-09-29T02:21:51+09:00",
+  "updatedAt": "2026-09-29T15:03:53+09:00",
   "company": {
     "securityCode": "7771",
     "ticker": "7771.T",
     "name": "日本精密株式会社"
   },
   "events": [
+    {
+      "docId": "S100Z30O",
+      "ticker": "7771.T",
+      "securityCode": "7771",
+      "companyName": "日本精密株式会社",
+      "submitDatetime": "2026-09-29 09:51",
+      "filerName": "ＫＷＯＮ　ＫＹＯＵＮＧＨＯＯＮ",
+      "reportType": "correction",
+      "holdingRatio": 4.83,
+      "previousHoldingRatio": 5.94,
+      "holdingChange": -1.11,
+      "purpose": "純投資",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -0.77,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z29S",
       "ticker": "7771.T",
@@ -31,7 +61,7 @@
         "return1d": 0.81,
         "return5d": 4.44,
         "return20d": null,
-        "returnCurrent": 4.44,
+        "returnCurrent": 4.03,
         "volumeRatio": 1.79,
         "marketExcessReturn": 2.79
       }
@@ -61,7 +91,7 @@
         "return1d": -0.75,
         "return5d": -6.77,
         "return20d": null,
-        "returnCurrent": -2.63,
+        "returnCurrent": -3.01,
         "volumeRatio": 0.77,
         "marketExcessReturn": -5.79
       }
@@ -91,7 +121,7 @@
         "return1d": -1.12,
         "return5d": -3.35,
         "return20d": null,
-        "returnCurrent": -3.72,
+        "returnCurrent": -4.09,
         "volumeRatio": 0.67,
         "marketExcessReturn": -2.93
       }
@@ -121,7 +151,7 @@
         "return1d": -4.44,
         "return5d": -4.78,
         "return20d": -12.29,
-        "returnCurrent": -11.6,
+        "returnCurrent": -11.95,
         "volumeRatio": 0.78,
         "marketExcessReturn": -7.0
       }
@@ -151,7 +181,7 @@
         "return1d": -4.44,
         "return5d": -4.78,
         "return20d": -12.29,
-        "returnCurrent": -11.6,
+        "returnCurrent": -11.95,
         "volumeRatio": 0.78,
         "marketExcessReturn": -7.0
       }
@@ -2894,9 +2924,19 @@
       "open": 262.0,
       "high": 262.0,
       "low": 259.0,
-      "close": null,
-      "adj_close": null,
+      "close": 260.0,
+      "adj_close": 260.0,
       "volume": 54800
+    },
+    {
+      "ticker": "7771.T",
+      "trade_date": "2026-09-29",
+      "open": 260.0,
+      "high": 261.0,
+      "low": 257.0,
+      "close": 258.0,
+      "adj_close": 258.0,
+      "volume": 51200
     }
   ],
   "benchmark": [
@@ -5639,6 +5679,16 @@
       "close": 428.20001220703125,
       "adj_close": 428.20001220703125,
       "volume": 16360570
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-29",
+      "open": 428.5,
+      "high": 431.5,
+      "low": 423.1000061035156,
+      "close": 423.6000061035156,
+      "adj_close": 423.6000061035156,
+      "volume": 9909160
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T02:21:51+09:00",
+  "updatedAt": "2026-09-29T15:03:53+09:00",
   "company": {
     "securityCode": "1904",
     "ticker": "1904.T",
@@ -20,17 +20,20 @@
       "purpose": "大成温調株式会社と取引関係にある企業及び個人が同社株式の取得により、相互間の親睦関係の増進に寄与するため。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": 1.41,
+      "volumeRatio": 10.01,
       "marketExcessReturn": null,
-      "signalScore": 0,
-      "signalReasons": [],
+      "signalScore": 15,
+      "signalReasons": [
+        "出来高2倍以上",
+        "出来高3倍以上"
+      ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": -1.54,
+        "return1d": -77.29,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -0.96,
-        "volumeRatio": 1.41,
+        "returnCurrent": -75.83,
+        "volumeRatio": 10.01,
         "marketExcessReturn": null
       }
     }
@@ -2729,32 +2732,42 @@
     {
       "ticker": "1904.T",
       "trade_date": "2026-09-24",
-      "open": 5160.0,
-      "high": 5190.0,
-      "low": 5120.0,
-      "close": 5130.0,
-      "adj_close": 5130.0,
-      "volume": 14100
+      "open": 1290.0,
+      "high": 1297.5,
+      "low": 1280.0,
+      "close": 1282.5,
+      "adj_close": 1183.112548828125,
+      "volume": 56400
     },
     {
       "ticker": "1904.T",
       "trade_date": "2026-09-25",
-      "open": 5130.0,
-      "high": 5180.0,
-      "low": 5130.0,
-      "close": 5160.0,
-      "adj_close": 5160.0,
-      "volume": 12500
+      "open": 1282.5,
+      "high": 1295.0,
+      "low": 1282.5,
+      "close": 1290.0,
+      "adj_close": 1190.0313720703125,
+      "volume": 50000
     },
     {
       "ticker": "1904.T",
       "trade_date": "2026-09-28",
-      "open": 5190.0,
-      "high": 5190.0,
-      "low": 5110.0,
-      "close": null,
-      "adj_close": null,
-      "volume": 50100
+      "open": 1297.5,
+      "high": 1297.5,
+      "low": 1277.5,
+      "close": 1277.5,
+      "adj_close": 1178.5,
+      "volume": 200400
+    },
+    {
+      "ticker": "1904.T",
+      "trade_date": "2026-09-29",
+      "open": 1268.0,
+      "high": 1278.0,
+      "low": 1252.0,
+      "close": 1259.0,
+      "adj_close": 1259.0,
+      "volume": 70500
     }
   ],
   "benchmark": [
@@ -5497,6 +5510,16 @@
       "close": 428.20001220703125,
       "adj_close": 428.20001220703125,
       "volume": 16360570
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-29",
+      "open": 428.5,
+      "high": 431.5,
+      "low": 423.1000061035156,
+      "close": 423.6000061035156,
+      "adj_close": 423.6000061035156,
+      "volume": 9909160
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T02:21:51+09:00",
+  "updatedAt": "2026-09-29T15:03:53+09:00",
   "company": {
     "securityCode": "8101",
     "ticker": "8101.T",
@@ -20,19 +20,20 @@
       "purpose": "・発行会社の要請に応え、かつ発行会社との取引関係の強化を図るもの / ・投資信託または投資一任契約に基づき投資権限を有するもの",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 2.03,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [
+        "出来高2倍以上",
         "保有割合減少"
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": -0.08,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.04,
-        "volumeRatio": null,
+        "returnCurrent": -2.04,
+        "volumeRatio": 2.03,
         "marketExcessReturn": null
       }
     }
@@ -2704,9 +2705,19 @@
       "open": 2600.0,
       "high": 2610.0,
       "low": 2594.0,
-      "close": null,
-      "adj_close": null,
+      "close": 2600.0,
+      "adj_close": 2600.0,
       "volume": 85200
+    },
+    {
+      "ticker": "8101.T",
+      "trade_date": "2026-09-29",
+      "open": 2592.0,
+      "high": 2597.0,
+      "low": 2548.0,
+      "close": 2549.0,
+      "adj_close": 2549.0,
+      "volume": 38900
     }
   ],
   "benchmark": [
@@ -5449,6 +5460,16 @@
       "close": 428.20001220703125,
       "adj_close": 428.20001220703125,
       "volume": 16360570
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-29",
+      "open": 428.5,
+      "high": 431.5,
+      "low": 423.1000061035156,
+      "close": 423.6000061035156,
+      "adj_close": 423.6000061035156,
+      "volume": 9909160
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

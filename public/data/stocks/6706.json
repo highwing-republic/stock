@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T02:21:51+09:00",
+  "updatedAt": "2026-09-29T15:03:53+09:00",
   "company": {
     "securityCode": "6706",
     "ticker": "6706.T",
@@ -19,21 +19,22 @@
       "holdingChange": 1.03,
       "purpose": "株式会社Kaihouの投資助言に基づき投資信託の信託財産の運用のため保有。スチュワードシップ・コードに則り建設的な対話により、IR・資本効率・ガバナンスの高度化と企業価値向上を促す。但し、受益者の利益を保全する為に、保有目的を「重要提案行為を行う」に変更する場合がある。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 1.62,
-      "marketExcessReturn": null,
-      "signalScore": 20,
+      "priceChange": -1.05,
+      "volumeRatio": 1.29,
+      "marketExcessReturn": -0.98,
+      "signalScore": 30,
       "signalReasons": [
-        "1pt以上買い増し"
+        "1pt以上買い増し",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": 0.3,
-        "return5d": null,
+        "return5d": -1.05,
         "return20d": null,
-        "returnCurrent": 0.6,
-        "volumeRatio": 1.62,
-        "marketExcessReturn": null
+        "returnCurrent": -1.05,
+        "volumeRatio": 1.29,
+        "marketExcessReturn": -0.98
       }
     },
     {
@@ -49,9 +50,9 @@
       "holdingChange": 1.03,
       "purpose": "株式会社Kaihouの投資助言に基づき投資信託の信託財産の運用のため保有。スチュワードシップ・コードに則り建設的な対話により、IR・資本効率・ガバナンスの高度化と企業価値向上を促す。但し、受益者の利益を保全する為に、保有目的を「重要提案行為を行う」に変更する場合がある。",
       "importantProposal": false,
-      "priceChange": 1.37,
+      "priceChange": -0.14,
       "volumeRatio": 1.33,
-      "marketExcessReturn": -0.28,
+      "marketExcessReturn": -1.79,
       "signalScore": 30,
       "signalReasons": [
         "1pt以上買い増し",
@@ -60,11 +61,11 @@
       "stockUnreacted": true,
       "metrics": {
         "return1d": 0.76,
-        "return5d": 1.37,
+        "return5d": -0.14,
         "return20d": null,
-        "returnCurrent": 1.37,
+        "returnCurrent": -0.3,
         "volumeRatio": 1.33,
-        "marketExcessReturn": -0.28
+        "marketExcessReturn": -1.79
       }
     },
     {
@@ -93,7 +94,7 @@
         "return1d": -1.01,
         "return5d": -5.48,
         "return20d": -6.2,
-        "returnCurrent": -3.75,
+        "returnCurrent": -5.33,
         "volumeRatio": 0.83,
         "marketExcessReturn": -2.88
       }
@@ -123,7 +124,7 @@
         "return1d": 4.7,
         "return5d": 4.03,
         "return20d": 13.91,
-        "returnCurrent": 16.17,
+        "returnCurrent": 14.26,
         "volumeRatio": 1.3,
         "marketExcessReturn": 2.8
       }
@@ -154,7 +155,7 @@
         "return1d": -0.63,
         "return5d": -2.22,
         "return20d": -8.87,
-        "returnCurrent": 5.86,
+        "returnCurrent": 4.12,
         "volumeRatio": 0.86,
         "marketExcessReturn": 0.53
       }
@@ -2878,7 +2879,7 @@
       "high": 3380.0,
       "low": 3310.0,
       "close": 3365.0,
-      "adj_close": 3365.0,
+      "adj_close": 3315.07421875,
       "volume": 32100
     },
     {
@@ -2888,7 +2889,7 @@
       "high": 3385.0,
       "low": 3335.0,
       "close": 3340.0,
-      "adj_close": 3340.0,
+      "adj_close": 3290.445068359375,
       "volume": 18100
     },
     {
@@ -2897,9 +2898,19 @@
       "open": 3355.0,
       "high": 3380.0,
       "low": 3355.0,
-      "close": null,
-      "adj_close": null,
+      "close": 3370.0,
+      "adj_close": 3320.0,
       "volume": 20100
+    },
+    {
+      "ticker": "6706.T",
+      "trade_date": "2026-09-29",
+      "open": 3295.0,
+      "high": 3315.0,
+      "low": 3255.0,
+      "close": 3285.0,
+      "adj_close": 3285.0,
+      "volume": 20000
     }
   ],
   "benchmark": [
@@ -5642,6 +5653,16 @@
       "close": 428.20001220703125,
       "adj_close": 428.20001220703125,
       "volume": 16360570
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-29",
+      "open": 428.5,
+      "high": 431.5,
+      "low": 423.1000061035156,
+      "close": 423.6000061035156,
+      "adj_close": 423.6000061035156,
+      "volume": 9909160
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

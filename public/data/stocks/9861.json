@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T02:21:51+09:00",
+  "updatedAt": "2026-09-29T15:03:53+09:00",
   "company": {
     "securityCode": "9861",
     "ticker": "9861.T",
@@ -20,7 +20,7 @@
       "purpose": "証券業務に係る商品在庫、及び累積投資業務の運営目的として保有している。 / 証券業務に係わる商品在庫として保有している。 / － / 信託財産の運用として保有している。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.65,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [
@@ -28,11 +28,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": 0.94,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -0.88,
-        "volumeRatio": null,
+        "returnCurrent": 0.14,
+        "volumeRatio": 0.65,
         "marketExcessReturn": null
       }
     },
@@ -63,7 +63,7 @@
         "return1d": 2.75,
         "return5d": 12.5,
         "return20d": 14.88,
-        "returnCurrent": 10.97,
+        "returnCurrent": 12.12,
         "volumeRatio": 2.73,
         "marketExcessReturn": 13.88
       }
@@ -2806,9 +2806,19 @@
       "open": 3595.0,
       "high": 3669.0,
       "low": 3581.0,
-      "close": null,
-      "adj_close": null,
+      "close": 3651.0,
+      "adj_close": 3651.0,
       "volume": 447500
+    },
+    {
+      "ticker": "9861.T",
+      "trade_date": "2026-09-29",
+      "open": 3615.0,
+      "high": 3647.0,
+      "low": 3594.0,
+      "close": 3622.0,
+      "adj_close": 3622.0,
+      "volume": 242700
     }
   ],
   "benchmark": [
@@ -5551,6 +5561,16 @@
       "close": 428.20001220703125,
       "adj_close": 428.20001220703125,
       "volume": 16360570
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-29",
+      "open": 428.5,
+      "high": 431.5,
+      "low": 423.1000061035156,
+      "close": 423.6000061035156,
+      "adj_close": 423.6000061035156,
+      "volume": 9909160
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

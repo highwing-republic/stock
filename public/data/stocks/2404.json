@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T02:21:51+09:00",
+  "updatedAt": "2026-09-29T15:03:53+09:00",
   "company": {
     "securityCode": "2404",
     "ticker": "2404.T",
@@ -29,7 +29,7 @@
         "return1d": 0.38,
         "return5d": -0.76,
         "return20d": null,
-        "returnCurrent": 0.38,
+        "returnCurrent": 0.95,
         "volumeRatio": 0.12,
         "marketExcessReturn": 1.0
       }
@@ -59,7 +59,7 @@
         "return1d": 0.19,
         "return5d": -0.38,
         "return20d": null,
-        "returnCurrent": 0.19,
+        "returnCurrent": 0.76,
         "volumeRatio": 0.12,
         "marketExcessReturn": 0.04
       }
@@ -89,7 +89,7 @@
         "return1d": -1.82,
         "return5d": -3.82,
         "return20d": null,
-        "returnCurrent": -3.82,
+        "returnCurrent": -3.27,
         "volumeRatio": 0.67,
         "marketExcessReturn": -3.38
       }
@@ -120,8 +120,8 @@
       "metrics": {
         "return1d": -1.61,
         "return5d": -5.55,
-        "return20d": null,
-        "returnCurrent": -5.37,
+        "return20d": -5.37,
+        "returnCurrent": -4.83,
         "volumeRatio": 3.81,
         "marketExcessReturn": -5.03
       }
@@ -2864,9 +2864,19 @@
       "open": 529.0,
       "high": 531.0,
       "low": 529.0,
-      "close": null,
-      "adj_close": null,
+      "close": 529.0,
+      "adj_close": 529.0,
       "volume": 4400
+    },
+    {
+      "ticker": "2404.T",
+      "trade_date": "2026-09-29",
+      "open": 529.0,
+      "high": 532.0,
+      "low": 529.0,
+      "close": 532.0,
+      "adj_close": 532.0,
+      "volume": 5600
     }
   ],
   "benchmark": [
@@ -5609,6 +5619,16 @@
       "close": 428.20001220703125,
       "adj_close": 428.20001220703125,
       "volume": 16360570
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-29",
+      "open": 428.5,
+      "high": 431.5,
+      "low": 423.1000061035156,
+      "close": 423.6000061035156,
+      "adj_close": 423.6000061035156,
+      "volume": 9909160
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

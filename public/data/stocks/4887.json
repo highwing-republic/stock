@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T02:21:51+09:00",
+  "updatedAt": "2026-09-29T15:03:53+09:00",
   "company": {
     "securityCode": "4887",
     "ticker": "4887.T",
@@ -20,7 +20,7 @@
       "purpose": "提出者は、発行者に対し、企業価値及び株主価値の向上を目的として、資本政策の変更、資本効率の向上、事業構造の見直し、及びコーポレート・ガバナンスの強化等に関する提案（重要提案行為等に該当し得るものを含む。）を行う方針です。これらの提案には、増配、自己株式の取得又は消却等、取締役の構成に関する一般的な見解等が含まれます。これらの提案は、市場環境、経営状況及び発行者との対話の状況等を踏まえ、当該状況に応じて適切と判断される時期に随時行います。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.42,
       "marketExcessReturn": null,
       "signalScore": 20,
       "signalReasons": [
@@ -28,11 +28,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": -0.49,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.0,
-        "volumeRatio": null,
+        "returnCurrent": -0.49,
+        "volumeRatio": 0.42,
         "marketExcessReturn": null
       }
     },
@@ -61,7 +61,7 @@
         "return1d": -1.1,
         "return5d": 1.75,
         "return20d": -2.14,
-        "returnCurrent": -0.86,
+        "returnCurrent": -3.0,
         "volumeRatio": 1.02,
         "marketExcessReturn": 2.56
       }
@@ -2785,7 +2785,7 @@
       "high": 1682.5,
       "low": 1639.5,
       "close": 1667.5,
-      "adj_close": 1667.5,
+      "adj_close": 1639.5418701171875,
       "volume": 779400
     },
     {
@@ -2795,7 +2795,7 @@
       "high": 1684.0,
       "low": 1661.0,
       "close": 1666.5,
-      "adj_close": 1666.5,
+      "adj_close": 1638.55859375,
       "volume": 600800
     },
     {
@@ -2804,9 +2804,19 @@
       "open": 1670.0,
       "high": 1685.0,
       "low": 1668.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1670.0,
+      "adj_close": 1642.0,
       "volume": 558100
+    },
+    {
+      "ticker": "4887.T",
+      "trade_date": "2026-09-29",
+      "open": 1648.5,
+      "high": 1668.5,
+      "low": 1623.0,
+      "close": 1630.5,
+      "adj_close": 1630.5,
+      "volume": 290800
     }
   ],
   "benchmark": [
@@ -5549,6 +5559,16 @@
       "close": 428.20001220703125,
       "adj_close": 428.20001220703125,
       "volume": 16360570
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-29",
+      "open": 428.5,
+      "high": 431.5,
+      "low": 423.1000061035156,
+      "close": 423.6000061035156,
+      "adj_close": 423.6000061035156,
+      "volume": 9909160
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

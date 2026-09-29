@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T02:21:51+09:00",
+  "updatedAt": "2026-09-29T15:03:53+09:00",
   "company": {
     "securityCode": "4880",
     "ticker": "4880.T",
@@ -19,9 +19,9 @@
       "holdingChange": -0.07,
       "purpose": "安定株主として保有",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.91,
-      "marketExcessReturn": null,
+      "priceChange": -1.84,
+      "volumeRatio": 0.96,
+      "marketExcessReturn": -3.48,
       "signalScore": 0,
       "signalReasons": [
         "保有割合減少"
@@ -29,11 +29,11 @@
       "stockUnreacted": false,
       "metrics": {
         "return1d": 1.53,
-        "return5d": null,
+        "return5d": -1.84,
         "return20d": null,
-        "returnCurrent": -0.31,
-        "volumeRatio": 0.91,
-        "marketExcessReturn": null
+        "returnCurrent": -3.99,
+        "volumeRatio": 0.96,
+        "marketExcessReturn": -3.48
       }
     }
   ],
@@ -2774,9 +2774,19 @@
       "open": 326.0,
       "high": 327.0,
       "low": 316.0,
-      "close": null,
-      "adj_close": null,
+      "close": 320.0,
+      "adj_close": 320.0,
       "volume": 78900
+    },
+    {
+      "ticker": "4880.T",
+      "trade_date": "2026-09-29",
+      "open": 321.0,
+      "high": 321.0,
+      "low": 311.0,
+      "close": 313.0,
+      "adj_close": 313.0,
+      "volume": 77700
     }
   ],
   "benchmark": [
@@ -5519,6 +5529,16 @@
       "close": 428.20001220703125,
       "adj_close": 428.20001220703125,
       "volume": 16360570
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-29",
+      "open": 428.5,
+      "high": 431.5,
+      "low": 423.1000061035156,
+      "close": 423.6000061035156,
+      "adj_close": 423.6000061035156,
+      "volume": 9909160
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

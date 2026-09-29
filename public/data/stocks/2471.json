@@ -1,11 +1,39 @@
 {
-  "updatedAt": "2026-09-29T02:21:51+09:00",
+  "updatedAt": "2026-09-29T15:03:53+09:00",
   "company": {
     "securityCode": "2471",
     "ticker": "2471.T",
     "name": "株式会社エスプール"
   },
   "events": [
+    {
+      "docId": "S100Z4AS",
+      "ticker": "2471.T",
+      "securityCode": "2471",
+      "companyName": "株式会社エスプール",
+      "submitDatetime": "2026-09-29 13:58",
+      "filerName": "光通信株式会社",
+      "reportType": "change",
+      "holdingRatio": 24.72,
+      "previousHoldingRatio": 23.99,
+      "holdingChange": 0.73,
+      "purpose": "純投資",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -2.5,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YE2T",
       "ticker": "2471.T",
@@ -32,7 +60,7 @@
         "return1d": 1.63,
         "return5d": 4.07,
         "return20d": 10.57,
-        "returnCurrent": 13.82,
+        "returnCurrent": 10.98,
         "volumeRatio": 0.87,
         "marketExcessReturn": 6.82
       }
@@ -2775,9 +2803,19 @@
       "open": 280.0,
       "high": 281.0,
       "low": 277.0,
-      "close": null,
-      "adj_close": null,
+      "close": 280.0,
+      "adj_close": 280.0,
       "volume": 370600
+    },
+    {
+      "ticker": "2471.T",
+      "trade_date": "2026-09-29",
+      "open": 278.0,
+      "high": 278.0,
+      "low": 272.0,
+      "close": 273.0,
+      "adj_close": 273.0,
+      "volume": 219700
     }
   ],
   "benchmark": [
@@ -5520,6 +5558,16 @@
       "close": 428.20001220703125,
       "adj_close": 428.20001220703125,
       "volume": 16360570
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-29",
+      "open": 428.5,
+      "high": 431.5,
+      "low": 423.1000061035156,
+      "close": 423.6000061035156,
+      "adj_close": 423.6000061035156,
+      "volume": 9909160
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"
