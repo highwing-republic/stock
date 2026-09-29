@@ -10,7 +10,9 @@
   "id": "4613-2026-09-25",
   "overextended": false,
   "setupType": "TREND",
-  "setups": [],
+  "setups": [
+   "TREND"
+  ],
   "startedAt": "2026-09-25",
   "status": "WATCH",
   "statusHistory": [
@@ -56,49 +58,50 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -1.1,
-  "currentPrice": 2770.0,
+  "benchReturn": -0.5,
+  "currentPrice": 2800.5,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 18,
+   "pendingDays": 19,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 3,
+   "pendingDays": 4,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 58,
+   "pendingDays": 59,
    "stockReturn": null
   },
-  "excessReturn": -0.3,
+  "excessReturn": 0.2,
   "initialDate": "2026-09-25",
   "initialPrice": 2808.8,
-  "stockReturn": -1.4
+  "stockReturn": -0.3
  },
  "priceSetup": {
-  "asOf": "2026-09-29",
+  "asOf": "2026-09-28",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.09,
+  "distFrom52wHigh": 0.08,
   "labels": [
+   "20日線の上",
    "60日線の上"
   ],
-  "ma20": 2782.6,
-  "ma200": 2513.9,
-  "ma60": 2761.6,
-  "rangePos60": 0.43,
-  "rel20": -0.6,
-  "rel60": 4.4,
-  "volumeRatio20": 1.1
+  "ma20": 2784.8,
+  "ma200": 2511.4,
+  "ma60": 2758.7,
+  "rangePos60": 0.5,
+  "rel20": -1.1,
+  "rel60": 3.5,
+  "volumeRatio20": 1.07
  },
  "reasons": [
   "新規大量保有 5.1%（キャピタル・リサーチ・アンド・マネージメント・カンパニー）",
-  "52週高値まで9%"
+  "52週高値まで8%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -122,14 +125,7 @@
    "kind": "STATUS",
    "label": "WATCH",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-09-29",
-   "detail": "TREND → なし",
-   "kind": "SETUP",
-   "label": "Price Setup解消",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-09-29T23:43:51+09:00"
+ "updatedAt": "2026-09-30T00:24:18+09:00"
 }

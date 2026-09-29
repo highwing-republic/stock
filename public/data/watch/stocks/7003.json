@@ -5,14 +5,14 @@
   "tradingViewSymbol": "TSE:7003"
  },
  "episode": {
-  "closeReason": "BROKEN",
-  "closedAt": "2026-09-29",
+  "closeReason": null,
+  "closedAt": null,
   "id": "7003-2026-09-16",
   "overextended": false,
   "setupType": "RECOVERY",
   "setups": [],
   "startedAt": "2026-09-16",
-  "status": "CLOSED",
+  "status": "BROKEN",
   "statusHistory": [
    {
     "date": "2026-09-16",
@@ -31,12 +31,6 @@
     "from": "WATCH",
     "reason_code": "BELOW_MA60",
     "to": "BROKEN"
-   },
-   {
-    "date": "2026-09-29",
-    "from": "BROKEN",
-    "reason_code": "BROKEN",
-    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-09-18"
@@ -97,45 +91,45 @@
   }
  ],
  "performance": {
-  "benchReturn": -0.2,
-  "currentPrice": 4153.0,
+  "benchReturn": 0.4,
+  "currentPrice": 4193.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 16,
+   "pendingDays": 17,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 1,
+   "pendingDays": 2,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 56,
+   "pendingDays": 57,
    "stockReturn": null
   },
-  "excessReturn": -4.4,
+  "excessReturn": -4.1,
   "initialDate": "2026-09-18",
   "initialPrice": 4351.9,
-  "stockReturn": -4.6
+  "stockReturn": -3.7
  },
  "priceSetup": {
-  "asOf": "2026-09-29",
+  "asOf": "2026-09-28",
   "atrState": "低ボラ",
   "distFrom52wHigh": 0.5,
   "labels": [
    "20日線が上向き"
   ],
-  "ma20": 4268.3,
-  "ma200": 5360.3,
-  "ma60": 4383.9,
-  "rangePos60": 0.16,
-  "rel20": -3.9,
-  "rel60": -0.3,
-  "volumeRatio20": 0.72
+  "ma20": 4278.9,
+  "ma200": 5371.4,
+  "ma60": 4382.5,
+  "rangePos60": 0.19,
+  "rel20": -1.2,
+  "rel60": 0.4,
+  "volumeRatio20": 0.63
  },
  "reasons": [
   "新規大量保有 5.2%（モルガン・スタンレーＭＵＦＧ証券株式会社）"
@@ -225,14 +219,7 @@
    "kind": "STATUS",
    "label": "BROKEN",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-09-29",
-   "detail": "Price Setupが崩れた",
-   "kind": "STATUS",
-   "label": "CLOSED",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-09-29T23:43:51+09:00"
+ "updatedAt": "2026-09-30T00:24:18+09:00"
 }
