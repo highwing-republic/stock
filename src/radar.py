@@ -7,6 +7,7 @@ import logging
 import re
 import sqlite3
 import time
+import unicodedata
 import zipfile
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
@@ -48,10 +49,12 @@ def connect(path: Path | None = None) -> sqlite3.Connection:
 
 
 def security_code_to_ticker(value: object) -> tuple[str | None, str | None]:
-    digits = re.sub(r"\D", "", str(value or ""))
-    if len(digits) < 4:
+    # 証券コードは英数字（例: 285A0 → 285A）。数字だけ残すと別銘柄に化けるため英大文字も保持する。
+    text = unicodedata.normalize("NFKC", str(value or "")).upper()
+    chars = re.sub(r"[^0-9A-Z]", "", text)
+    if len(chars) < 4 or not chars[0].isdigit():
         return None, None
-    code = digits[:4]
+    code = chars[:4]
     return code, f"{code}.T"
 
 
