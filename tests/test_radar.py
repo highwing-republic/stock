@@ -22,6 +22,12 @@ def test_mapper_uses_first_four_digits():
     content = zipped("EdinetcodeDlInfo.csv", "ダウンロード実行日,2026年09月14日現在,件数,1件\nＥＤＩＮＥＴコード,提出者名,証券コード\nE02144,トヨタ自動車株式会社,72030\n", "cp932")
     assert parse_code_list_zip(content)[0]["ticker"] == "7203.T"
 
+def test_mapper_keeps_alphanumeric_codes():
+    assert security_code_to_ticker("285A0") == ("285A", "285A.T")
+    assert security_code_to_ticker("２８５Ａ０") == ("285A", "285A.T")
+    assert security_code_to_ticker("") == (None, None)
+    assert security_code_to_ticker("ABC") == (None, None)
+
 def test_csv_parser_keeps_partial_values():
     text = "要素ID\t項目名\tコンテキストID\t値\n" \
            "jplvh:RatioOfShareholding\t株券等保有割合\tCurrent\t0.074\n" \
