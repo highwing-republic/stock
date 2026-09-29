@@ -53,6 +53,10 @@ jobs:
         env:
           EDINET_API_KEY: ${{ secrets.EDINET_API_KEY || secrets.EDINET }}
         run: python scripts/update.py --days "${{ github.event.inputs.days || '7' }}"
+      - name: Update watch radar (v2)
+        if: steps.key.outputs.configured == 'true'
+        continue-on-error: true
+        run: python scripts/update_watch.py
       - name: Test
         if: steps.key.outputs.configured == 'true'
         run: python -m pytest -q
@@ -61,6 +65,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/data
+          git add public/data state
           git diff --cached --quiet || git commit -m "data: update EDINET radar"
           git push

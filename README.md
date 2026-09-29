@@ -46,6 +46,24 @@ DBは既定で`data/investment_radar.db`、Web JSONは`public/data/`です。DB�
 Actionsは平日09:30、12:30、15:30、18:00（JST）に更新し、変更されたJSONだけを
 mainへコミットします。手動実行では`days`（既定90）を指定できます。
 
+## v2: JPX400 Watch Radar
+
+大量保有報告（EDINET）とJPX400限定の価格Setupを組み合わせ、週次TOP5・月次TOP10を
+`public/data/watch/`へ出力します。v1のJSON（`public/data/latest.json`等）は変更しません。
+仕様は`docs/watch-radar-spec.md`、閾値はすべて`config/watch.yaml`にあります。
+
+- `src/watch/`: 設定・営業日・イベント正規化・価格/指標・Setup・Episode状態機械・ランキング・成績・出力
+- `scripts/update_watch.py [--as-of YYYY-MM-DD] [--offline]`: v1のDBを読み、JPX400構成・価格・信用残
+  （任意）を更新して計算します。`--offline`はネットワーク取得をせずDBと`state/`だけで再計算します
+- `state/`: 履歴の正本（Git管理）。JPX400 membership、正規化イベント、Episode、Setup履歴、
+  週次/月次ランキング（期間終了後は`final: true`で凍結）、job_runs。SQLiteは再構築可能なキャッシュ
+- Episode・ランキングは`pipeline.replay_days`（既定180日）の日次リプレイで毎回決定的に計算します。
+  同じ入力なら`state/`と公開JSONはバイト単位で同一です（`updatedAt`とjob_runsを除く）
+- 最新営業日の価格カバレッジが`prices.min_coverage`未満、またはJPX400が空の場合は公開JSONとstateを
+  変更しません（job_runsに`failed`を記録）。公開JSONにスコアや推奨表現は含めません
+- 環境変数`DB_PATH` / `WATCH_STATE_DIR` / `WATCH_OUT_DIR`で入出力先を切り替えられます
+- TDnetは取得しません。決算イベントは対象外です
+
 ## テスト
 
 ```bash
