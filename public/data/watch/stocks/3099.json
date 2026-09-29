@@ -1,0 +1,96 @@
+{
+ "company": {
+  "name": "三越伊勢丹ホールディングス",
+  "securityCode": "3099",
+  "tradingViewSymbol": "TSE:3099"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "3099-2026-09-18",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-09-18",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-09-18",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": -0.9,
+   "d20": -5.3,
+   "d5": -1.9,
+   "eventId": "edinet:S100YR7V",
+   "excess5": 0.3
+  },
+  {
+   "d1": 0.1,
+   "d20": null,
+   "d5": 0.7,
+   "eventId": "edinet:S100Z2WD",
+   "excess5": 1.2
+  }
+ ],
+ "margin": {
+  "asOf": "2026-09-28",
+  "buyBalance": 708300,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 1.08,
+  "sellBalance": 658800,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-09-29",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.21,
+  "labels": [
+   "20日線の上"
+  ],
+  "ma20": 1598.2,
+  "ma200": 1532.1,
+  "ma60": 1736.8,
+  "rangePos60": 0.25,
+  "rel20": -6.2,
+  "rel60": -21.8,
+  "volumeRatio20": 0.61
+ },
+ "reasons": [
+  "新規大量保有 5.2%（ブラックロック・ジャパン株式会社）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-07-23",
+   "detail": "6.02% → 4.61%（Ｔ．Ｒｏｗｅ　Ｐｒｉｃｅ　Ａｓｓｏｃｉａｔｅｓ，Ｉｎｃ．）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YR7V"
+  },
+  {
+   "date": "2026-09-17",
+   "detail": "保有割合 5.16%（ブラックロック・ジャパン株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z2WD"
+  },
+  {
+   "date": "2026-09-24",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-09-29T23:43:51+09:00"
+}

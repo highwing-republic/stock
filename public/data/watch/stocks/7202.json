@@ -1,0 +1,87 @@
+{
+ "company": {
+  "name": "いすゞ自動車",
+  "securityCode": "7202",
+  "tradingViewSymbol": "TSE:7202"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "7202-2026-09-25",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-09-25",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-09-25",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": 0.7,
+   "d20": -3.9,
+   "d5": 0.9,
+   "eventId": "edinet:S100YYFQ",
+   "excess5": 1.4
+  },
+  {
+   "d1": -0.3,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z424",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-09-28",
+  "buyBalance": 755700,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 2.08,
+  "sellBalance": 363000,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-09-29",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.26,
+  "labels": [],
+  "ma20": 2158.1,
+  "ma200": 2299.6,
+  "ma60": 2220.5,
+  "rangePos60": 0.03,
+  "rel20": -3.0,
+  "rel60": -3.5,
+  "volumeRatio20": 1.26
+ },
+ "reasons": [
+  "1.3pt買い増し 5.8%→7.1%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-08-27",
+   "detail": "6.24% → 7.69%（伊藤忠自動車投資合同会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YYFQ"
+  },
+  {
+   "date": "2026-09-25",
+   "detail": "5.84% → 7.1%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z424"
+  }
+ ],
+ "updatedAt": "2026-09-29T23:43:51+09:00"
+}

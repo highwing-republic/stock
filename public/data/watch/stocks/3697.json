@@ -1,0 +1,167 @@
+{
+ "company": {
+  "name": "SHIFT",
+  "securityCode": "3697",
+  "tradingViewSymbol": "TSE:3697"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "3697-2026-09-04",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-09-04",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-09-04",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": -2.1,
+   "d20": 5.4,
+   "d5": -4.8,
+   "eventId": "edinet:S100YDQ8",
+   "excess5": -3.3
+  },
+  {
+   "d1": 0.1,
+   "d20": 18.8,
+   "d5": 24.1,
+   "eventId": "edinet:S100YRC0",
+   "excess5": 25.4
+  },
+  {
+   "d1": -2.6,
+   "d20": 4.1,
+   "d5": 4.6,
+   "eventId": "edinet:S100YU82",
+   "excess5": 1.3
+  },
+  {
+   "d1": 5.0,
+   "d20": -5.5,
+   "d5": 2.1,
+   "eventId": "edinet:S100YXIL",
+   "excess5": -0.5
+  },
+  {
+   "d1": 3.0,
+   "d20": null,
+   "d5": -5.1,
+   "eventId": "edinet:S100YZWC",
+   "excess5": -4.0
+  },
+  {
+   "d1": 3.0,
+   "d20": null,
+   "d5": -5.1,
+   "eventId": "edinet:S100Z0BD",
+   "excess5": -4.0
+  },
+  {
+   "d1": 0.5,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z33E",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-09-28",
+  "buyBalance": 9271400,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 3.3,
+  "sellBalance": 2808600,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-09-29",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.41,
+  "labels": [
+   "60日線の上"
+  ],
+  "ma20": 879.3,
+  "ma200": 765.8,
+  "ma60": 841.4,
+  "rangePos60": 0.55,
+  "rel20": -11.4,
+  "rel60": 23.4,
+  "volumeRatio20": 0.75
+ },
+ "reasons": [
+  "0pt買い増し 7.7%→7.7%",
+  "30日以内に2回買い増し"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-06-19",
+   "detail": "8.03% → 7.01%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDQ8"
+  },
+  {
+   "date": "2026-07-22",
+   "detail": "7.01% → 7.73%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YRC0"
+  },
+  {
+   "date": "2026-08-06",
+   "detail": "7.73% → 7.3%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YU82"
+  },
+  {
+   "date": "2026-08-20",
+   "detail": "7.3% → 7.69%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YXIL"
+  },
+  {
+   "date": "2026-09-04",
+   "detail": "5.44% → 5.5%（三井住友トラスト・アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YZWC"
+  },
+  {
+   "date": "2026-09-04",
+   "detail": "7.69% → 7.72%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z0BD"
+  },
+  {
+   "date": "2026-09-14",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-24",
+   "detail": "7.72% → 7.27%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z33E"
+  }
+ ],
+ "updatedAt": "2026-09-29T23:43:51+09:00"
+}

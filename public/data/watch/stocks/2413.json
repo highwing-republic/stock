@@ -1,0 +1,143 @@
+{
+ "company": {
+  "name": "エムスリー",
+  "securityCode": "2413",
+  "tradingViewSymbol": "TSE:2413"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "2413-2026-09-28",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-09-28",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-09-28",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": 6.1,
+   "d20": 11.9,
+   "d5": 10.2,
+   "eventId": "edinet:S100YVP6",
+   "excess5": 9.4
+  },
+  {
+   "d1": 2.2,
+   "d20": 2.8,
+   "d5": 3.2,
+   "eventId": "edinet:S100YWZ9",
+   "excess5": 4.2
+  },
+  {
+   "d1": 1.0,
+   "d20": 1.1,
+   "d5": 1.2,
+   "eventId": "edinet:S100YXJ4",
+   "excess5": -1.4
+  },
+  {
+   "d1": 0.5,
+   "d20": null,
+   "d5": 1.4,
+   "eventId": "edinet:S100Z1ZA",
+   "excess5": -0.7
+  },
+  {
+   "d1": 0.8,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z38Y",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-09-28",
+  "buyBalance": 2957800,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 3.77,
+  "sellBalance": 785100,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-09-25",
+   "id": "2413-2026-09-16",
+   "setupType": "RECOVERY",
+   "startedAt": "2026-09-16"
+  }
+ ],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-09-29",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.35,
+  "labels": [
+   "20日線の上",
+   "20日線が上向き"
+  ],
+  "ma20": 1759.6,
+  "ma200": 1741.3,
+  "ma60": 1789.8,
+  "rangePos60": 0.58,
+  "rel20": 0.5,
+  "rel60": -4.8,
+  "volumeRatio20": 0.94
+ },
+ "reasons": [
+  "1.1pt買い増し 7.4%→8.5%",
+  "30日以内に2回買い増し",
+  "20日線上向き",
+  "TOPIX連動ETF比 +0.5pt（20日）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-08-10",
+   "detail": "保有割合 5.03%（Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YVP6"
+  },
+  {
+   "date": "2026-08-18",
+   "detail": "5.03% → 6.26%（Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YWZ9"
+  },
+  {
+   "date": "2026-08-20",
+   "detail": "6.25% → 6%（野村アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YXJ4"
+  },
+  {
+   "date": "2026-09-15",
+   "detail": "6.26% → 7.4%（Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．）",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z1ZA"
+  },
+  {
+   "date": "2026-09-25",
+   "detail": "7.4% → 8.46%（Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．）",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z38Y"
+  }
+ ],
+ "updatedAt": "2026-09-29T23:43:51+09:00"
+}

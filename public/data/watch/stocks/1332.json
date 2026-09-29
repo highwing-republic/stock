@@ -1,0 +1,102 @@
+{
+ "company": {
+  "name": "ニッスイ",
+  "securityCode": "1332",
+  "tradingViewSymbol": "TSE:1332"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "1332-2026-09-24",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-09-24",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-09-24",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": -2.0,
+   "d20": 2.7,
+   "d5": 0.2,
+   "eventId": "edinet:S100YTYX",
+   "excess5": -3.6
+  },
+  {
+   "d1": -0.6,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z3FI",
+   "excess5": null
+  },
+  {
+   "d1": 0.1,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z3TF",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-09-28",
+  "buyBalance": 594100,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 6.95,
+  "sellBalance": 85500,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-09-29",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.27,
+  "labels": [],
+  "ma20": 1189.8,
+  "ma200": 1262.3,
+  "ma60": 1235.7,
+  "rangePos60": 0.01,
+  "rel20": -11.6,
+  "rel60": -14.1,
+  "volumeRatio20": 1.09
+ },
+ "reasons": [
+  "0.1pt買い増し 11.9%→12%",
+  "30日以内に2回買い増し"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-08-04",
+   "detail": "10.84% → 10.92%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YTYX"
+  },
+  {
+   "date": "2026-09-24",
+   "detail": "10.92% → 11.94%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z3FI"
+  },
+  {
+   "date": "2026-09-25",
+   "detail": "11.94% → 12.02%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z3TF"
+  }
+ ],
+ "updatedAt": "2026-09-29T23:43:51+09:00"
+}

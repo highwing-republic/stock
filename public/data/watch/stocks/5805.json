@@ -1,0 +1,154 @@
+{
+ "company": {
+  "name": "SWCC",
+  "securityCode": "5805",
+  "tradingViewSymbol": "TSE:5805"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "5805-2026-09-25",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-09-25",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-09-25",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": 4.4,
+   "d20": 26.9,
+   "d5": 0.3,
+   "eventId": "edinet:S100YR15",
+   "excess5": 1.6
+  },
+  {
+   "d1": -0.9,
+   "d20": -7.8,
+   "d5": 4.2,
+   "eventId": "edinet:S100YXQE",
+   "excess5": 2.6
+  },
+  {
+   "d1": 5.4,
+   "d20": -0.5,
+   "d5": 10.9,
+   "eventId": "edinet:S100YY00",
+   "excess5": 8.8
+  },
+  {
+   "d1": 0.8,
+   "d20": -7.5,
+   "d5": -7.7,
+   "eventId": "edinet:S100YYJ3",
+   "excess5": -6.8
+  },
+  {
+   "d1": 0.5,
+   "d20": -6.2,
+   "d5": -7.1,
+   "eventId": "edinet:S100YZ68",
+   "excess5": -6.6
+  },
+  {
+   "d1": 1.0,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z3O8",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-09-28",
+  "buyBalance": 250200,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 17.26,
+  "sellBalance": 14500,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-09-29",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.3,
+  "labels": [
+   "20日線の上",
+   "60日線の上"
+  ],
+  "ma20": 2590.0,
+  "ma200": 2491.9,
+  "ma60": 2432.2,
+  "rangePos60": 0.7,
+  "rel20": -5.3,
+  "rel60": -0.7,
+  "volumeRatio20": 0.62
+ },
+ "reasons": [
+  "新規大量保有 5.1%（アセットマネジメントＯｎｅ株式会社）",
+  "20日線を回復"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-07-22",
+   "detail": "7.5% → 6.45%（三井住友トラスト・アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YR15"
+  },
+  {
+   "date": "2026-08-21",
+   "detail": "9.81% → 9.05%（キャピタル・リサーチ・アンド・マネージメント・カンパニー）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YXQE"
+  },
+  {
+   "date": "2026-08-24",
+   "detail": "保有割合 5.09%（Ｒｏｂｅｃｏ　Ｉｎｓｔｉｔｕｔｉｏｎａｌ　Ａｓｓｅｔ　Ｍａｎａｇｅｍｅｎｔ　Ｂ．Ｖ．）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YY00"
+  },
+  {
+   "date": "2026-08-27",
+   "detail": "2.63% → 6.86%（Ｒｏｂｅｃｏ　Ｉｎｓｔｉｔｕｔｉｏｎａｌ　Ａｓｓｅｔ　Ｍａｎａｇｅｍｅｎｔ　Ｂ．Ｖ．）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YYJ3"
+  },
+  {
+   "date": "2026-08-28",
+   "detail": "5.09% → 6.86%（Ｒｏｂｅｃｏ　Ｉｎｓｔｉｔｕｔｉｏｎａｌ　Ａｓｓｅｔ　Ｍａｎａｇｅｍｅｎｔ　Ｂ．Ｖ．）",
+   "kind": "EVENT",
+   "label": "訂正報告",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YZ68"
+  },
+  {
+   "date": "2026-09-25",
+   "detail": "保有割合 5.11%（アセットマネジメントＯｎｅ株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z3O8"
+  },
+  {
+   "date": "2026-09-29",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-09-29T23:43:51+09:00"
+}

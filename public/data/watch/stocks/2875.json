@@ -1,0 +1,73 @@
+{
+ "company": {
+  "name": "東洋水産",
+  "securityCode": "2875",
+  "tradingViewSymbol": "TSE:2875"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "2875-2026-09-24",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-09-24",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-09-24",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": -0.2,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z338",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-09-28",
+  "buyBalance": 55900,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 3.11,
+  "sellBalance": 18000,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-09-29",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.22,
+  "labels": [],
+  "ma20": 10010.4,
+  "ma200": 10660.5,
+  "ma60": 10369.2,
+  "rangePos60": 0.0,
+  "rel20": -7.4,
+  "rel60": -10.3,
+  "volumeRatio20": 0.92
+ },
+ "reasons": [
+  "1.1pt買い増し 5.1%→6.2%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-09-24",
+   "detail": "5.07% → 6.16%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z338"
+  }
+ ],
+ "updatedAt": "2026-09-29T23:43:51+09:00"
+}

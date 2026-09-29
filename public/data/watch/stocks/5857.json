@@ -1,0 +1,117 @@
+{
+ "company": {
+  "name": "AREホールディングス",
+  "securityCode": "5857",
+  "tradingViewSymbol": "TSE:5857"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "5857-2026-09-04",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-09-04",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-09-04",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": 2.5,
+   "d20": 4.6,
+   "d5": -0.2,
+   "eventId": "edinet:S100YOGO",
+   "excess5": 1.5
+  },
+  {
+   "d1": 6.5,
+   "d20": 22.2,
+   "d5": 18.4,
+   "eventId": "edinet:S100YU3D",
+   "excess5": 13.7
+  },
+  {
+   "d1": -0.4,
+   "d20": null,
+   "d5": -2.6,
+   "eventId": "edinet:S100Z07T",
+   "excess5": -1.5
+  },
+  {
+   "d1": -0.9,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z2Z2",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-09-28",
+  "buyBalance": 673300,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 7.38,
+  "sellBalance": 91200,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-09-29",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.23,
+  "labels": [
+   "60日線の上"
+  ],
+  "ma20": 3672.8,
+  "ma200": 3433.4,
+  "ma60": 3384.7,
+  "rangePos60": 0.51,
+  "rel20": -9.9,
+  "rel60": 20.3,
+  "volumeRatio20": 0.67
+ },
+ "reasons": [
+  "新規大量保有 5.8%（大和アセットマネジメント株式会社）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-07-03",
+   "detail": "6.37% → 5.5%（ＪＰモルガン・アセット・マネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YOGO"
+  },
+  {
+   "date": "2026-08-05",
+   "detail": "5.5% → 5.37%（ＪＰモルガン・アセット・マネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YU3D"
+  },
+  {
+   "date": "2026-09-03",
+   "detail": "5.37% → 6.42%（ＪＰモルガン・アセット・マネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z07T"
+  },
+  {
+   "date": "2026-09-24",
+   "detail": "保有割合 5.76%（大和アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z2Z2"
+  }
+ ],
+ "updatedAt": "2026-09-29T23:43:51+09:00"
+}

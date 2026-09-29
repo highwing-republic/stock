@@ -1,0 +1,108 @@
+{
+ "company": {
+  "name": "沖電気工業",
+  "securityCode": "6703",
+  "tradingViewSymbol": "TSE:6703"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "6703-2026-09-07",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-09-07",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-09-07",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": 3.6,
+   "d20": null,
+   "d5": -4.7,
+   "eventId": "edinet:S100Z02O",
+   "excess5": -2.9
+  },
+  {
+   "d1": 3.6,
+   "d20": null,
+   "d5": -4.7,
+   "eventId": "edinet:S100Z0K7",
+   "excess5": -2.9
+  }
+ ],
+ "margin": {
+  "asOf": "2026-09-28",
+  "buyBalance": 1217000,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 27.85,
+  "sellBalance": 43700,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-09-29",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.35,
+  "labels": [],
+  "ma20": 2722.7,
+  "ma200": 2796.3,
+  "ma60": 2959.0,
+  "rangePos60": 0.04,
+  "rel20": -7.7,
+  "rel60": -28.7,
+  "volumeRatio20": 1.89
+ },
+ "reasons": [
+  "新規大量保有 5.1%（株式会社三菱ＵＦＪフィナンシャル・グループ）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-09-07",
+   "detail": "5.02% → 4.41%（株式会社みずほ銀行）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z0K7"
+  },
+  {
+   "date": "2026-09-07",
+   "detail": "保有割合 5.14%（株式会社三菱ＵＦＪフィナンシャル・グループ）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z02O"
+  },
+  {
+   "date": "2026-09-07",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-16",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-16",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-09-29T23:43:51+09:00"
+}

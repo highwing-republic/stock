@@ -1,0 +1,133 @@
+{
+ "company": {
+  "name": "カルビー",
+  "securityCode": "2229",
+  "tradingViewSymbol": "TSE:2229"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "2229-2026-09-24",
+  "overextended": false,
+  "setupType": "TREND",
+  "setups": [],
+  "startedAt": "2026-09-24",
+  "status": "WATCH",
+  "statusHistory": [
+   {
+    "date": "2026-09-24",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-09-25",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   }
+  ],
+  "watchStartedAt": "2026-09-25"
+ },
+ "eventReactions": [
+  {
+   "d1": 0.3,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z334",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-09-28",
+  "buyBalance": 41300,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 0.48,
+  "sellBalance": 85400,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": -1.1,
+  "currentPrice": 2986.5,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 18,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 3,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 58,
+   "stockReturn": null
+  },
+  "excessReturn": -1.3,
+  "initialDate": "2026-09-25",
+  "initialPrice": 3059.0,
+  "stockReturn": -2.4
+ },
+ "priceSetup": {
+  "asOf": "2026-09-29",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.07,
+  "labels": [],
+  "ma20": 3044.6,
+  "ma200": 2974.6,
+  "ma60": 3017.2,
+  "rangePos60": 0.42,
+  "rel20": -1.5,
+  "rel60": -1.3,
+  "volumeRatio20": 1.7
+ },
+ "reasons": [
+  "新規大量保有 5%（野村證券株式会社）",
+  "52週高値まで7%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-09-24",
+   "detail": "保有割合 5.04%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z334"
+  },
+  {
+   "date": "2026-09-25",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-25",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-25",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-28",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-09-29T23:43:51+09:00"
+}

@@ -1,0 +1,163 @@
+{
+ "company": {
+  "name": "ソシオネクスト",
+  "securityCode": "6526",
+  "tradingViewSymbol": "TSE:6526"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "6526-2026-09-24",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-09-24",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-09-24",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": -2.1,
+   "d20": -23.3,
+   "d5": -0.9,
+   "eventId": "edinet:S100YODH",
+   "excess5": 1.3
+  },
+  {
+   "d1": -1.5,
+   "d20": -2.8,
+   "d5": 5.3,
+   "eventId": "edinet:S100YUKL",
+   "excess5": 2.0
+  },
+  {
+   "d1": 2.9,
+   "d20": 1.6,
+   "d5": 6.5,
+   "eventId": "edinet:S100YXQD",
+   "excess5": 4.9
+  },
+  {
+   "d1": 1.1,
+   "d20": null,
+   "d5": -2.8,
+   "eventId": "edinet:S100YZWE",
+   "excess5": -1.7
+  },
+  {
+   "d1": 15.0,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z2O8",
+   "excess5": null
+  },
+  {
+   "d1": 15.0,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z352",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-09-28",
+  "buyBalance": 5437100,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 4.98,
+  "sellBalance": 1090800,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-09-29",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.38,
+  "labels": [
+   "20日線の上",
+   "20日線が上向き"
+  ],
+  "ma20": 1963.7,
+  "ma200": 2146.1,
+  "ma60": 2149.0,
+  "rangePos60": 0.3,
+  "rel20": 4.2,
+  "rel60": -19.0,
+  "volumeRatio20": 0.99
+ },
+ "reasons": [
+  "0.1pt買い増し 6.9%→6.9%",
+  "30日以内に2回買い増し",
+  "20日線上向き",
+  "TOPIX連動ETF比 +4.2pt（20日）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-07-06",
+   "detail": "6.72% → 5.32%（ブラックロック・ジャパン株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YODH"
+  },
+  {
+   "date": "2026-08-07",
+   "detail": "8.44% → 8.09%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YUKL"
+  },
+  {
+   "date": "2026-08-21",
+   "detail": "8.09% → 8.54%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YXQD"
+  },
+  {
+   "date": "2026-09-04",
+   "detail": "6.78% → 6.89%（三井住友トラスト・アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YZWE"
+  },
+  {
+   "date": "2026-09-24",
+   "detail": "8.54% → 8.69%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z352"
+  },
+  {
+   "date": "2026-09-24",
+   "detail": "6.89% → 6.94%（三井住友トラスト・アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z2O8"
+  },
+  {
+   "date": "2026-09-24",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-24",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-09-29T23:43:51+09:00"
+}

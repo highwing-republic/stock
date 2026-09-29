@@ -1,0 +1,154 @@
+{
+ "company": {
+  "name": "TISI",
+  "securityCode": "3626",
+  "tradingViewSymbol": "TSE:3626"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "3626-2026-09-04",
+  "overextended": false,
+  "setupType": "RECOVERY",
+  "setups": [],
+  "startedAt": "2026-09-04",
+  "status": "WATCH",
+  "statusHistory": [
+   {
+    "date": "2026-09-04",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-09-11",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   }
+  ],
+  "watchStartedAt": "2026-09-11"
+ },
+ "eventReactions": [
+  {
+   "d1": 0.6,
+   "d20": null,
+   "d5": -3.7,
+   "eventId": "edinet:S100Z01Q",
+   "excess5": -2.6
+  }
+ ],
+ "margin": {
+  "asOf": "2026-09-28",
+  "buyBalance": 168300,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 8.72,
+  "sellBalance": 19300,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": 1.4,
+  "currentPrice": 3950.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 11,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": 1.6,
+   "excessReturn": 3.6,
+   "pendingDays": 0,
+   "stockReturn": 5.2
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 51,
+   "stockReturn": null
+  },
+  "excessReturn": 1.5,
+  "initialDate": "2026-09-11",
+  "initialPrice": 3837.8,
+  "stockReturn": 2.9
+ },
+ "priceSetup": {
+  "asOf": "2026-09-29",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.25,
+  "labels": [
+   "20日線の上",
+   "60日レンジ上位16%",
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 3924.2,
+  "ma200": 3761.8,
+  "ma60": 3697.3,
+  "rangePos60": 0.84,
+  "rel20": 4.1,
+  "rel60": 23.8,
+  "volumeRatio20": 2.02
+ },
+ "reasons": [
+  "新規大量保有 5.2%（ファースト・イーグル・インベストメント・マネジメント・エルエルシー）",
+  "60日レンジ上位16%",
+  "20日線を回復",
+  "TOPIX連動ETF比 +4.1pt（20日）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-09-03",
+   "detail": "保有割合 5.25%（ファースト・イーグル・インベストメント・マネジメント・エルエルシー）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z01Q"
+  },
+  {
+   "date": "2026-09-11",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-11",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-11",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-14",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-17",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-29",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-09-29T23:43:51+09:00"
+}

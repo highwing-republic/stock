@@ -1,0 +1,169 @@
+{
+ "company": {
+  "name": "鹿島建設",
+  "securityCode": "1812",
+  "tradingViewSymbol": "TSE:1812"
+ },
+ "episode": {
+  "closeReason": "BROKEN",
+  "closedAt": "2026-09-28",
+  "id": "1812-2026-09-24",
+  "overextended": false,
+  "setupType": "RECOVERY",
+  "setups": [],
+  "startedAt": "2026-09-24",
+  "status": "CLOSED",
+  "statusHistory": [
+   {
+    "date": "2026-09-24",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-09-24",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   },
+   {
+    "date": "2026-09-25",
+    "from": "WATCH",
+    "reason_code": "BELOW_MA60",
+    "to": "BROKEN"
+   },
+   {
+    "date": "2026-09-28",
+    "from": "BROKEN",
+    "reason_code": "BROKEN",
+    "to": "CLOSED"
+   }
+  ],
+  "watchStartedAt": "2026-09-24"
+ },
+ "eventReactions": [
+  {
+   "d1": 1.6,
+   "d20": null,
+   "d5": -0.8,
+   "eventId": "edinet:S100Z08O",
+   "excess5": 1.0
+  },
+  {
+   "d1": 0.1,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z38P",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-09-28",
+  "buyBalance": 1240000,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 6.81,
+  "sellBalance": 182100,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-09-14",
+   "id": "1812-2026-09-07",
+   "setupType": "RECOVERY",
+   "startedAt": "2026-09-07"
+  }
+ ],
+ "performance": {
+  "benchReturn": 0.8,
+  "currentPrice": 4815.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 17,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 2,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 57,
+   "stockReturn": null
+  },
+  "excessReturn": -2.7,
+  "initialDate": "2026-09-24",
+  "initialPrice": 4907.6,
+  "stockReturn": -1.9
+ },
+ "priceSetup": {
+  "asOf": "2026-09-29",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.38,
+  "labels": [
+   "20日線が上向き"
+  ],
+  "ma20": 4880.4,
+  "ma200": 5749.0,
+  "ma60": 5152.1,
+  "rangePos60": 0.15,
+  "rel20": 2.9,
+  "rel60": -18.6,
+  "volumeRatio20": 3.18
+ },
+ "reasons": [
+  "新規大量保有 5.3%（ジェー・ピー・モルガン・セキュリティーズ・ピーエルシー）",
+  "TOPIX連動ETF比 +2.9pt（20日）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-09-04",
+   "detail": "6.23% → 7.46%（ブラックロック・ジャパン株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z08O"
+  },
+  {
+   "date": "2026-09-18",
+   "detail": "保有割合 5.33%（ジェー・ピー・モルガン・セキュリティーズ・ピーエルシー）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z38P"
+  },
+  {
+   "date": "2026-09-24",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-25",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-25",
+   "detail": "60日線を下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-28",
+   "detail": "Price Setupが崩れた",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-09-29T23:43:51+09:00"
+}

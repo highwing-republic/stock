@@ -1,0 +1,80 @@
+{
+ "company": {
+  "name": "東京建物",
+  "securityCode": "8804",
+  "tradingViewSymbol": "TSE:8804"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "8804-2026-09-08",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-09-08",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-09-08",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": 0.2,
+   "d20": null,
+   "d5": 0.0,
+   "eventId": "edinet:S100Z0TW",
+   "excess5": 1.6
+  }
+ ],
+ "margin": {
+  "asOf": "2026-09-28",
+  "buyBalance": 138100,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 1.95,
+  "sellBalance": 70700,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-09-29",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.24,
+  "labels": [],
+  "ma20": 3336.8,
+  "ma200": 3490.6,
+  "ma60": 3372.7,
+  "rangePos60": 0.06,
+  "rel20": -4.4,
+  "rel60": -4.0,
+  "volumeRatio20": 1.19
+ },
+ "reasons": [
+  "1.1pt買い増し 7.9%→9%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-09-07",
+   "detail": "7.94% → 9.03%（三井住友ＤＳアセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z0TW"
+  },
+  {
+   "date": "2026-09-08",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-09-29T23:43:51+09:00"
+}

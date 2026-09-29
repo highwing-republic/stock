@@ -1,0 +1,135 @@
+{
+ "company": {
+  "name": "関西ペイント",
+  "securityCode": "4613",
+  "tradingViewSymbol": "TSE:4613"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "4613-2026-09-25",
+  "overextended": false,
+  "setupType": "TREND",
+  "setups": [],
+  "startedAt": "2026-09-25",
+  "status": "WATCH",
+  "statusHistory": [
+   {
+    "date": "2026-09-25",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-09-25",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   }
+  ],
+  "watchStartedAt": "2026-09-25"
+ },
+ "eventReactions": [
+  {
+   "d1": -0.3,
+   "d20": 1.8,
+   "d5": -4.9,
+   "eventId": "edinet:S100YP14",
+   "excess5": -2.7
+  },
+  {
+   "d1": 0.6,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z3M6",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-09-28",
+  "buyBalance": 118500,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 0.97,
+  "sellBalance": 122700,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": -1.1,
+  "currentPrice": 2770.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 18,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 3,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 58,
+   "stockReturn": null
+  },
+  "excessReturn": -0.3,
+  "initialDate": "2026-09-25",
+  "initialPrice": 2808.8,
+  "stockReturn": -1.4
+ },
+ "priceSetup": {
+  "asOf": "2026-09-29",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.09,
+  "labels": [
+   "60日線の上"
+  ],
+  "ma20": 2782.6,
+  "ma200": 2513.9,
+  "ma60": 2761.6,
+  "rangePos60": 0.43,
+  "rel20": -0.6,
+  "rel60": 4.4,
+  "volumeRatio20": 1.1
+ },
+ "reasons": [
+  "新規大量保有 5.1%（キャピタル・リサーチ・アンド・マネージメント・カンパニー）",
+  "52週高値まで9%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-07-07",
+   "detail": "保有割合 5.12%（みずほ証券株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YP14"
+  },
+  {
+   "date": "2026-09-25",
+   "detail": "保有割合 5.14%（キャピタル・リサーチ・アンド・マネージメント・カンパニー）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z3M6"
+  },
+  {
+   "date": "2026-09-25",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-29",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-09-29T23:43:51+09:00"
+}

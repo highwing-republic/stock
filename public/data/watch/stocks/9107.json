@@ -1,0 +1,166 @@
+{
+ "company": {
+  "name": "川崎汽船",
+  "securityCode": "9107",
+  "tradingViewSymbol": "TSE:9107"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "9107-2026-09-07",
+  "overextended": false,
+  "setupType": "TREND",
+  "setups": [],
+  "startedAt": "2026-09-07",
+  "status": "STRENGTHENING",
+  "statusHistory": [
+   {
+    "date": "2026-09-07",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-09-07",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   },
+   {
+    "date": "2026-09-11",
+    "from": "WATCH",
+    "reason_code": "SETUP_IMPROVED",
+    "to": "STRENGTHENING"
+   }
+  ],
+  "watchStartedAt": "2026-09-07"
+ },
+ "eventReactions": [
+  {
+   "d1": 2.9,
+   "d20": null,
+   "d5": 2.1,
+   "eventId": "edinet:S100Z08Z",
+   "excess5": 3.9
+  }
+ ],
+ "margin": {
+  "asOf": "2026-09-28",
+  "buyBalance": 1810800,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 1.74,
+  "sellBalance": 1038300,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": -1.1,
+  "currentPrice": 3283.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 7,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": -1.6,
+   "excessReturn": 1.7,
+   "pendingDays": 0,
+   "stockReturn": 0.1
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 47,
+   "stockReturn": null
+  },
+  "excessReturn": -1.3,
+  "initialDate": "2026-09-07",
+  "initialPrice": 3364.7,
+  "stockReturn": -2.4
+ },
+ "priceSetup": {
+  "asOf": "2026-09-29",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.07,
+  "labels": [
+   "60日レンジ上位22%",
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 3340.8,
+  "ma200": 2556.7,
+  "ma60": 2980.4,
+  "rangePos60": 0.78,
+  "rel20": 2.6,
+  "rel60": 32.1,
+  "volumeRatio20": 0.95
+ },
+ "reasons": [
+  "新規大量保有 5.1%（ブラックロック・ジャパン株式会社）",
+  "60日レンジ上位22%",
+  "TOPIX連動ETF比 +2.6pt（20日）",
+  "52週高値まで7%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-09-04",
+   "detail": "保有割合 5.11%（ブラックロック・ジャパン株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z08Z"
+  },
+  {
+   "date": "2026-09-07",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-10",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-11",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-11",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-11",
+   "detail": "Price Setupが改善",
+   "kind": "STATUS",
+   "label": "STRENGTHENING",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-25",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-29",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-09-29T23:43:51+09:00"
+}

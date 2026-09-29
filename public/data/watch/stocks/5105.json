@@ -1,0 +1,181 @@
+{
+ "company": {
+  "name": "TOYO TIRE",
+  "securityCode": "5105",
+  "tradingViewSymbol": "TSE:5105"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "5105-2026-09-04",
+  "overextended": false,
+  "setupType": "RECOVERY",
+  "setups": [
+   "RECOVERY"
+  ],
+  "startedAt": "2026-09-04",
+  "status": "WATCH",
+  "statusHistory": [
+   {
+    "date": "2026-09-04",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-09-28",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   }
+  ],
+  "watchStartedAt": "2026-09-28"
+ },
+ "eventReactions": [
+  {
+   "d1": -0.6,
+   "d20": -2.4,
+   "d5": 0.5,
+   "eventId": "edinet:S100YQPZ",
+   "excess5": 3.1
+  },
+  {
+   "d1": -0.5,
+   "d20": null,
+   "d5": 0.5,
+   "eventId": "edinet:S100Z0BH",
+   "excess5": 1.6
+  }
+ ],
+ "margin": {
+  "asOf": "2026-09-28",
+  "buyBalance": 383300,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 16.11,
+  "sellBalance": 23800,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": -0.7,
+  "currentPrice": 3789.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 19,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 4,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 59,
+   "stockReturn": null
+  },
+  "excessReturn": -2.1,
+  "initialDate": "2026-09-28",
+  "initialPrice": 3900.0,
+  "stockReturn": -2.8
+ },
+ "priceSetup": {
+  "asOf": "2026-09-29",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.21,
+  "labels": [
+   "20日線の上",
+   "20日線が上向き"
+  ],
+  "ma20": 3734.3,
+  "ma200": 3950.0,
+  "ma60": 3874.9,
+  "rangePos60": 0.33,
+  "rel20": 0.4,
+  "rel60": -0.7,
+  "volumeRatio20": 0.64
+ },
+ "reasons": [
+  "新規大量保有 5%（アライアンス・バーンスタイン・エル・ピー）",
+  "20日線上向き",
+  "TOPIX連動ETF比 +0.4pt（20日）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-08-17",
+   "detail": "20% → 0%（三菱商事株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YQPZ"
+  },
+  {
+   "date": "2026-09-04",
+   "detail": "保有割合 5.01%（アライアンス・バーンスタイン・エル・ピー）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z0BH"
+  },
+  {
+   "date": "2026-09-07",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-10",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-16",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-17",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-24",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-28",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-28",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-28",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-09-29T23:43:51+09:00"
+}

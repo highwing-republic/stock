@@ -1,0 +1,87 @@
+{
+ "company": {
+  "name": "長谷工コーポレーション",
+  "securityCode": "1808",
+  "tradingViewSymbol": "TSE:1808"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "1808-2026-09-07",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-09-07",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-09-07",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": -0.4,
+   "d20": null,
+   "d5": -4.7,
+   "eventId": "edinet:S100Z0F4",
+   "excess5": -2.9
+  }
+ ],
+ "margin": {
+  "asOf": "2026-09-28",
+  "buyBalance": 249000,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 2.84,
+  "sellBalance": 87600,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-09-29",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.24,
+  "labels": [],
+  "ma20": 2742.3,
+  "ma200": 2848.9,
+  "ma60": 2746.6,
+  "rangePos60": 0.03,
+  "rel20": -7.8,
+  "rel60": -9.4,
+  "volumeRatio20": 0.94
+ },
+ "reasons": [
+  "1.5pt買い増し 6.2%→7.6%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-09-07",
+   "detail": "6.16% → 7.64%（株式会社りそな銀行）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z0F4"
+  },
+  {
+   "date": "2026-09-07",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-09",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-09-29T23:43:51+09:00"
+}

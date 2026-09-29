@@ -1,0 +1,87 @@
+{
+ "company": {
+  "name": "大栄環境",
+  "securityCode": "9336",
+  "tradingViewSymbol": "TSE:9336"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "9336-2026-09-25",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-09-25",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-09-25",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": 2.0,
+   "d20": null,
+   "d5": -0.7,
+   "eventId": "edinet:S100Z2RX",
+   "excess5": -1.7
+  },
+  {
+   "d1": -1.1,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z3DO",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-09-28",
+  "buyBalance": 31600,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 1.92,
+  "sellBalance": 16500,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-09-29",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.16,
+  "labels": [],
+  "ma20": 3757.7,
+  "ma200": 3827.5,
+  "ma60": 3764.9,
+  "rangePos60": 0.11,
+  "rel20": -5.2,
+  "rel60": -5.9,
+  "volumeRatio20": 1.08
+ },
+ "reasons": [
+  "新規大量保有 5.1%（ＦＩＡＭ　ＬＬＣ）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-09-17",
+   "detail": "61.52% → 61.52%（ウイングトワ株式会社）",
+   "kind": "EVENT",
+   "label": "変更報告（増減不明）",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z2RX"
+  },
+  {
+   "date": "2026-09-24",
+   "detail": "保有割合 5.13%（ＦＩＡＭ　ＬＬＣ）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z3DO"
+  }
+ ],
+ "updatedAt": "2026-09-29T23:43:51+09:00"
+}

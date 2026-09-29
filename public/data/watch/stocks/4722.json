@@ -1,0 +1,120 @@
+{
+ "company": {
+  "name": "フューチャー",
+  "securityCode": "4722",
+  "tradingViewSymbol": "TSE:4722"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "4722-2026-09-18",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-09-18",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-09-18",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": -0.1,
+   "d20": -0.0,
+   "d5": -0.1,
+   "eventId": "edinet:S100YTZN",
+   "excess5": -3.4
+  },
+  {
+   "d1": 0.0,
+   "d20": null,
+   "d5": 0.1,
+   "eventId": "edinet:S100Z1LN",
+   "excess5": 0.6
+  },
+  {
+   "d1": 0.0,
+   "d20": null,
+   "d5": 0.1,
+   "eventId": "edinet:S100Z1NT",
+   "excess5": 0.6
+  },
+  {
+   "d1": 0.0,
+   "d20": null,
+   "d5": 0.1,
+   "eventId": "edinet:S100Z2VS",
+   "excess5": 0.6
+  }
+ ],
+ "margin": {
+  "asOf": "2026-09-28",
+  "buyBalance": 83000,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 17.66,
+  "sellBalance": 4700,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-09-29",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.02,
+  "labels": [
+   "60日レンジ上位5%",
+   "60日線の上"
+  ],
+  "ma20": 2433.6,
+  "ma200": 1871.5,
+  "ma60": 2287.5,
+  "rangePos60": 0.95,
+  "rel20": -0.0,
+  "rel60": 56.0,
+  "volumeRatio20": 4.82
+ },
+ "reasons": [
+  "39.5pt買い増し 43.3%→82.9%",
+  "60日レンジ上位5%",
+  "52週高値まで2%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-08-05",
+   "detail": "43.33% → 43.33%（合同会社キーウェスト・ネットワーク）",
+   "kind": "EVENT",
+   "label": "変更報告（増減不明）",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YTZN"
+  },
+  {
+   "date": "2026-09-17",
+   "detail": "82.88% → 82.88%（株式会社キーウェスト・ネットワーク）",
+   "kind": "EVENT",
+   "label": "変更報告（増減不明）",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z1NT"
+  },
+  {
+   "date": "2026-09-17",
+   "detail": "43.33% → 82.88%（株式会社キーウェスト・ネットワーク）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z1LN"
+  },
+  {
+   "date": "2026-09-17",
+   "detail": "43.33% → 43.33%（株式会社キーウェスト・ネットワーク）",
+   "kind": "EVENT",
+   "label": "訂正報告",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z2VS"
+  }
+ ],
+ "updatedAt": "2026-09-29T23:43:51+09:00"
+}

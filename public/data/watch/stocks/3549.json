@@ -1,0 +1,88 @@
+{
+ "company": {
+  "name": "クスリのアオキホールディングス",
+  "securityCode": "3549",
+  "tradingViewSymbol": "TSE:3549"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "3549-2026-09-17",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-09-17",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-09-17",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": 2.0,
+   "d20": -3.7,
+   "d5": -0.4,
+   "eventId": "edinet:S100YXQB",
+   "excess5": -2.5
+  },
+  {
+   "d1": 2.7,
+   "d20": null,
+   "d5": -4.1,
+   "eventId": "edinet:S100Z2D9",
+   "excess5": -5.1
+  }
+ ],
+ "margin": {
+  "asOf": "2026-09-28",
+  "buyBalance": 35000,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 7.0,
+  "sellBalance": 5000,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-09-29",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.22,
+  "labels": [],
+  "ma20": 4038.4,
+  "ma200": 3889.4,
+  "ma60": 3968.9,
+  "rangePos60": 0.3,
+  "rel20": -8.0,
+  "rel60": 1.1,
+  "volumeRatio20": 1.49
+ },
+ "reasons": [
+  "1pt買い増し 15.1%→16.1%",
+  "30日以内に2回買い増し"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-08-24",
+   "detail": "14.05% → 15.1%（Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YXQB"
+  },
+  {
+   "date": "2026-09-16",
+   "detail": "15.1% → 16.14%（Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．）",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z2D9"
+  }
+ ],
+ "updatedAt": "2026-09-29T23:43:51+09:00"
+}

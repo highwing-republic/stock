@@ -1,0 +1,174 @@
+{
+ "company": {
+  "name": "アルバック",
+  "securityCode": "6728",
+  "tradingViewSymbol": "TSE:6728"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "6728-2026-09-03",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-09-03",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-09-03",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": 0.3,
+   "d20": -6.0,
+   "d5": -0.4,
+   "eventId": "edinet:S100YGC7",
+   "excess5": 1.8
+  },
+  {
+   "d1": -3.1,
+   "d20": -14.7,
+   "d5": -0.9,
+   "eventId": "edinet:S100YOJA",
+   "excess5": -0.6
+  },
+  {
+   "d1": 1.9,
+   "d20": -22.7,
+   "d5": -20.2,
+   "eventId": "edinet:S100YRJ8",
+   "excess5": -18.9
+  },
+  {
+   "d1": 7.5,
+   "d20": -19.1,
+   "d5": 4.7,
+   "eventId": "edinet:S100YU0Q",
+   "excess5": 0.0
+  },
+  {
+   "d1": -3.0,
+   "d20": -20.3,
+   "d5": 3.6,
+   "eventId": "edinet:S100YURL",
+   "excess5": 0.3
+  },
+  {
+   "d1": -3.0,
+   "d20": -20.3,
+   "d5": 3.6,
+   "eventId": "edinet:S100YV29",
+   "excess5": 0.3
+  },
+  {
+   "d1": 2.1,
+   "d20": null,
+   "d5": -0.2,
+   "eventId": "edinet:S100YZYU",
+   "excess5": 0.5
+  }
+ ],
+ "margin": {
+  "asOf": "2026-09-28",
+  "buyBalance": 306900,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 6.3,
+  "sellBalance": 48700,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-09-29",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.32,
+  "labels": [
+   "20日線の上"
+  ],
+  "ma20": 7239.8,
+  "ma200": 8685.2,
+  "ma60": 8424.1,
+  "rangePos60": 0.23,
+  "rel20": 2.3,
+  "rel60": -28.3,
+  "volumeRatio20": 0.8
+ },
+ "reasons": [
+  "新規大量保有 6.8%（イーストスプリング・インベストメンツ（シンガポール）リミテッド）",
+  "TOPIX連動ETF比 +2.3pt（20日）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-06-22",
+   "detail": "6.2% → 6.57%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YGC7"
+  },
+  {
+   "date": "2026-07-06",
+   "detail": "6.57% → 6.41%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YOJA"
+  },
+  {
+   "date": "2026-07-23",
+   "detail": "6.96% → 7.07%（日本生命保険相互会社）",
+   "kind": "EVENT",
+   "label": "買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YRJ8"
+  },
+  {
+   "date": "2026-08-05",
+   "detail": "6.08% → 6.47%（ウエリントン・マネージメント・ジャパン・ピーティーイー・リミテッド）",
+   "kind": "EVENT",
+   "label": "買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YU0Q"
+  },
+  {
+   "date": "2026-08-07",
+   "detail": "6.41% → 5.29%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YV29"
+  },
+  {
+   "date": "2026-08-07",
+   "detail": "7.07% → 6.96%（日本生命保険相互会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YURL"
+  },
+  {
+   "date": "2026-09-03",
+   "detail": "保有割合 6.85%（イーストスプリング・インベストメンツ（シンガポール）リミテッド）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YZYU"
+  },
+  {
+   "date": "2026-09-18",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-29",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-09-29T23:43:51+09:00"
+}

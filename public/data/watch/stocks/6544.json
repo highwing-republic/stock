@@ -1,0 +1,108 @@
+{
+ "company": {
+  "name": "ジャパンエレベーターサービスホールディングス",
+  "securityCode": "6544",
+  "tradingViewSymbol": "TSE:6544"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "6544-2026-09-09",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-09-09",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-09-09",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": -1.7,
+   "d20": -6.7,
+   "d5": 2.3,
+   "eventId": "edinet:S100YRDI",
+   "excess5": 3.6
+  },
+  {
+   "d1": -0.3,
+   "d20": null,
+   "d5": 2.9,
+   "eventId": "edinet:S100Z0Q2",
+   "excess5": 3.1
+  }
+ ],
+ "margin": {
+  "asOf": "2026-09-28",
+  "buyBalance": 425300,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 4.87,
+  "sellBalance": 87300,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-09-29",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.27,
+  "labels": [],
+  "ma20": 1496.2,
+  "ma200": 1656.3,
+  "ma60": 1608.9,
+  "rangePos60": 0.07,
+  "rel20": -6.1,
+  "rel60": -19.0,
+  "volumeRatio20": 0.94
+ },
+ "reasons": [
+  "1pt買い増し 5%→6.1%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-07-23",
+   "detail": "5.05% → 5.32%（ＦＭＲ　Ｉｎｖｅｓｔｍｅｎｔ　Ｍａｎａｇｅｍｅｎｔ　（ＵＫ）　Ｌｉｍｉｔｅｄ）",
+   "kind": "EVENT",
+   "label": "買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YRDI"
+  },
+  {
+   "date": "2026-09-09",
+   "detail": "5.04% → 6.08%（グランジャー・ピーク・グローバル・アドバイザーズ・エルエルシー）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z0Q2"
+  },
+  {
+   "date": "2026-09-14",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-15",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-17",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-09-29T23:43:51+09:00"
+}

@@ -1,0 +1,211 @@
+{
+ "company": {
+  "name": "大和証券グループ本社",
+  "securityCode": "8601",
+  "tradingViewSymbol": "TSE:8601"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "8601-2026-09-07",
+  "overextended": false,
+  "setupType": "BREAKOUT",
+  "setups": [],
+  "startedAt": "2026-09-07",
+  "status": "STRENGTHENING",
+  "statusHistory": [
+   {
+    "date": "2026-09-07",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-09-07",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   },
+   {
+    "date": "2026-09-10",
+    "from": "WATCH",
+    "reason_code": "SETUP_IMPROVED",
+    "to": "STRENGTHENING"
+   }
+  ],
+  "watchStartedAt": "2026-09-07"
+ },
+ "eventReactions": [
+  {
+   "d1": -0.0,
+   "d20": null,
+   "d5": -1.3,
+   "eventId": "edinet:S100Z08Y",
+   "excess5": 0.5
+  }
+ ],
+ "margin": {
+  "asOf": "2026-09-28",
+  "buyBalance": 2472100,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 1.67,
+  "sellBalance": 1477700,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": -1.1,
+  "currentPrice": 1786.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 7,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": -1.6,
+   "excessReturn": 1.9,
+   "pendingDays": 0,
+   "stockReturn": 0.3
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 47,
+   "stockReturn": null
+  },
+  "excessReturn": -3.2,
+  "initialDate": "2026-09-07",
+  "initialPrice": 1866.5,
+  "stockReturn": -4.3
+ },
+ "priceSetup": {
+  "asOf": "2026-09-29",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.06,
+  "labels": [
+   "20日線が上向き"
+  ],
+  "ma20": 1839.2,
+  "ma200": 1581.8,
+  "ma60": 1808.2,
+  "rangePos60": 0.62,
+  "rel20": -1.1,
+  "rel60": 9.6,
+  "volumeRatio20": 1.24
+ },
+ "reasons": [
+  "1.1pt買い増し 7.7%→8.7%",
+  "52週高値まで6%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-09-04",
+   "detail": "7.66% → 8.71%（ブラックロック・ジャパン株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z08Y"
+  },
+  {
+   "date": "2026-09-07",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-09",
+   "detail": "BREAKOUT → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-10",
+   "detail": "なし → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-10",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-10",
+   "detail": "Price Setupが改善",
+   "kind": "STATUS",
+   "label": "STRENGTHENING",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-15",
+   "detail": "BREAKOUT → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup変化",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-16",
+   "detail": "TREND → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup変化",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-17",
+   "detail": "BREAKOUT → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-18",
+   "detail": "なし → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-18",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-24",
+   "detail": "BREAKOUT → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-25",
+   "detail": "なし → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-25",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-29",
+   "detail": "BREAKOUT → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-09-29T23:43:51+09:00"
+}

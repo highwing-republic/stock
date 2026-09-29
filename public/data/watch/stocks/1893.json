@@ -1,0 +1,121 @@
+{
+ "company": {
+  "name": "五洋建設",
+  "securityCode": "1893",
+  "tradingViewSymbol": "TSE:1893"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "1893-2026-09-24",
+  "overextended": false,
+  "setupType": "RECOVERY",
+  "setups": [],
+  "startedAt": "2026-09-24",
+  "status": "WATCH",
+  "statusHistory": [
+   {
+    "date": "2026-09-24",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-09-24",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   }
+  ],
+  "watchStartedAt": "2026-09-24"
+ },
+ "eventReactions": [
+  {
+   "d1": -1.5,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z3AG",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-09-28",
+  "buyBalance": 1658500,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 7.56,
+  "sellBalance": 219400,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": 0.1,
+  "currentPrice": 1457.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 17,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 2,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 57,
+   "stockReturn": null
+  },
+  "excessReturn": -5.0,
+  "initialDate": "2026-09-24",
+  "initialPrice": 1531.3,
+  "stockReturn": -4.9
+ },
+ "priceSetup": {
+  "asOf": "2026-09-29",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.33,
+  "labels": [
+   "20日線が上向き"
+  ],
+  "ma20": 1472.0,
+  "ma200": 1646.5,
+  "ma60": 1497.7,
+  "rangePos60": 0.29,
+  "rel20": 2.8,
+  "rel60": -15.1,
+  "volumeRatio20": 0.81
+ },
+ "reasons": [
+  "新規大量保有 5.8%（ＪＰモルガン・アセット・マネジメント株式会社）",
+  "TOPIX連動ETF比 +2.8pt（20日）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-09-18",
+   "detail": "保有割合 5.82%（ＪＰモルガン・アセット・マネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z3AG"
+  },
+  {
+   "date": "2026-09-24",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-25",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-09-29T23:43:51+09:00"
+}

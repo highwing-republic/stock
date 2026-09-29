@@ -1,0 +1,143 @@
+{
+ "company": {
+  "name": "メイテックグループホールディングス",
+  "securityCode": "9744",
+  "tradingViewSymbol": "TSE:9744"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "9744-2026-09-25",
+  "overextended": false,
+  "setupType": "TREND",
+  "setups": [
+   "TREND",
+   "RECOVERY"
+  ],
+  "startedAt": "2026-09-25",
+  "status": "WATCH",
+  "statusHistory": [
+   {
+    "date": "2026-09-25",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-09-25",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   }
+  ],
+  "watchStartedAt": "2026-09-25"
+ },
+ "eventReactions": [
+  {
+   "d1": 0.6,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z3NT",
+   "excess5": null
+  },
+  {
+   "d1": -0.3,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z3Q9",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-09-28",
+  "buyBalance": 178800,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 1.7,
+  "sellBalance": 105400,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": -1.1,
+  "currentPrice": 3368.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 18,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 3,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 58,
+   "stockReturn": null
+  },
+  "excessReturn": -0.4,
+  "initialDate": "2026-09-25",
+  "initialPrice": 3417.8,
+  "stockReturn": -1.5
+ },
+ "priceSetup": {
+  "asOf": "2026-09-29",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.04,
+  "labels": [
+   "20日線の上",
+   "60日レンジ上位16%",
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 3314.2,
+  "ma200": 3189.6,
+  "ma60": 3234.5,
+  "rangePos60": 0.84,
+  "rel20": 2.9,
+  "rel60": 8.7,
+  "volumeRatio20": 1.93
+ },
+ "reasons": [
+  "1.1pt買い増し 5.3%→6.5%",
+  "60日レンジ上位16%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +2.9pt（20日）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-09-25",
+   "detail": "5.22% → 2.73%（オービス・インベストメント・マネジメント・リミテッド）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z3Q9"
+  },
+  {
+   "date": "2026-09-25",
+   "detail": "5.35% → 6.49%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z3NT"
+  },
+  {
+   "date": "2026-09-25",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-25",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-09-29T23:43:51+09:00"
+}

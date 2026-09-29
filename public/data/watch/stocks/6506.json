@@ -1,0 +1,97 @@
+{
+ "company": {
+  "name": "安川電機",
+  "securityCode": "6506",
+  "tradingViewSymbol": "TSE:6506"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "6506-2026-09-25",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-09-25",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-09-25",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": 2.0,
+   "d20": null,
+   "d5": -5.9,
+   "eventId": "edinet:S100Z0K6",
+   "excess5": -4.1
+  },
+  {
+   "d1": -0.6,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z3N3",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-09-28",
+  "buyBalance": 6562600,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 36.6,
+  "sellBalance": 179300,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-09-29",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.42,
+  "labels": [
+   "20日線の上"
+  ],
+  "ma20": 4489.7,
+  "ma200": 5321.4,
+  "ma60": 5167.0,
+  "rangePos60": 0.1,
+  "rel20": -5.6,
+  "rel60": -37.4,
+  "volumeRatio20": 0.84
+ },
+ "reasons": [
+  "新規大量保有 5.6%（株式会社みずほ銀行）",
+  "20日線を回復"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-09-07",
+   "detail": "5.48% → 4.65%（株式会社みずほ銀行）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z0K6"
+  },
+  {
+   "date": "2026-09-25",
+   "detail": "保有割合 5.61%（株式会社みずほ銀行）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z3N3"
+  },
+  {
+   "date": "2026-09-29",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-09-29T23:43:51+09:00"
+}

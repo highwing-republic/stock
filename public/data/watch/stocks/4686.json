@@ -1,0 +1,163 @@
+{
+ "company": {
+  "name": "ジャストシステム",
+  "securityCode": "4686",
+  "tradingViewSymbol": "TSE:4686"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "4686-2026-09-08",
+  "overextended": false,
+  "setupType": "BREAKOUT",
+  "setups": [
+   "BREAKOUT"
+  ],
+  "startedAt": "2026-09-08",
+  "status": "WATCH",
+  "statusHistory": [
+   {
+    "date": "2026-09-08",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-09-08",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   }
+  ],
+  "watchStartedAt": "2026-09-08"
+ },
+ "eventReactions": [
+  {
+   "d1": -3.1,
+   "d20": 2.2,
+   "d5": -0.8,
+   "eventId": "edinet:S100YE3A",
+   "excess5": 2.1
+  },
+  {
+   "d1": 1.5,
+   "d20": 7.7,
+   "d5": 4.3,
+   "eventId": "edinet:S100YXA0",
+   "excess5": 2.4
+  },
+  {
+   "d1": 1.6,
+   "d20": null,
+   "d5": 3.2,
+   "eventId": "edinet:S100Z0PM",
+   "excess5": 4.8
+  }
+ ],
+ "margin": {
+  "asOf": "2026-09-28",
+  "buyBalance": 252000,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 12.41,
+  "sellBalance": 20300,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": 0.8,
+  "currentPrice": 4410.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 8,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": -0.2,
+   "excessReturn": 2.7,
+   "pendingDays": 0,
+   "stockReturn": 2.5
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 48,
+   "stockReturn": null
+  },
+  "excessReturn": 4.1,
+  "initialDate": "2026-09-08",
+  "initialPrice": 4205.7,
+  "stockReturn": 4.9
+ },
+ "priceSetup": {
+  "asOf": "2026-09-29",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.17,
+  "labels": [
+   "20日線の上",
+   "60日レンジ上位7%",
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 4277.2,
+  "ma200": 4095.6,
+  "ma60": 4048.8,
+  "rangePos60": 0.93,
+  "rel20": 7.8,
+  "rel60": 18.5,
+  "volumeRatio20": 0.79
+ },
+ "reasons": [
+  "0.2pt買い増し 16.2%→16.4%",
+  "30日以内に2回買い増し",
+  "60日レンジ上位7%",
+  "20日線上向き"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-06-22",
+   "detail": "14.22% → 15.22%（光通信株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YE3A"
+  },
+  {
+   "date": "2026-08-21",
+   "detail": "15.22% → 16.23%（光通信株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YXA0"
+  },
+  {
+   "date": "2026-09-08",
+   "detail": "16.23% → 16.41%（光通信株式会社）",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z0PM"
+  },
+  {
+   "date": "2026-09-08",
+   "detail": "なし → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-08",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-17",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-09-29T23:43:51+09:00"
+}

@@ -1,0 +1,101 @@
+{
+ "company": {
+  "name": "丸紅",
+  "securityCode": "8002",
+  "tradingViewSymbol": "TSE:8002"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "8002-2026-09-25",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-09-25",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-09-25",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": 3.0,
+   "d20": 11.3,
+   "d5": 6.3,
+   "eventId": "edinet:S100YO1O",
+   "excess5": 6.1
+  },
+  {
+   "d1": 1.5,
+   "d20": 7.0,
+   "d5": 2.3,
+   "eventId": "edinet:S100YTXU",
+   "excess5": -1.0
+  },
+  {
+   "d1": 0.8,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z41Z",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-09-28",
+  "buyBalance": 3210200,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 18.04,
+  "sellBalance": 177900,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-09-29",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.24,
+  "labels": [],
+  "ma20": 4950.4,
+  "ma200": 5104.7,
+  "ma60": 4955.1,
+  "rangePos60": 0.17,
+  "rel20": -1.8,
+  "rel60": -0.5,
+  "volumeRatio20": 1.26
+ },
+ "reasons": [
+  "新規大量保有 5%（野村證券株式会社）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-07-01",
+   "detail": "9.3% → 10.32%（Ｎａｔｉｏｎａｌ　Ｉｎｄｅｍｎｉｔｙ　Ｃｏｍｐａｎｙ）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YO1O"
+  },
+  {
+   "date": "2026-08-06",
+   "detail": "5.42% → 4.4%（三井住友信託銀行株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YTXU"
+  },
+  {
+   "date": "2026-09-25",
+   "detail": "保有割合 5.03%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z41Z"
+  }
+ ],
+ "updatedAt": "2026-09-29T23:43:51+09:00"
+}
