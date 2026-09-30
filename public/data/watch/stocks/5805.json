@@ -54,7 +54,7 @@
   },
   {
    "d1": 0.5,
-   "d20": null,
+   "d20": -6.2,
    "d5": -7.1,
    "eventId": "edinet:S100YZ68",
    "excess5": -6.6
@@ -79,22 +79,25 @@
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-09-28",
+  "asOf": "2026-09-30",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.32,
+  "distFrom52wHigh": 0.27,
   "labels": [
+   "20日線の上",
+   "60日レンジ上位19%",
    "60日線の上"
   ],
-  "ma20": 2598.6,
-  "ma200": 2489.4,
-  "ma60": 2431.5,
-  "rangePos60": 0.64,
-  "rel20": -7.5,
-  "rel60": -3.7,
-  "volumeRatio20": 0.73
+  "ma20": 2586.2,
+  "ma200": 2494.8,
+  "ma60": 2436.1,
+  "rangePos60": 0.81,
+  "rel20": -2.9,
+  "rel60": 5.9,
+  "volumeRatio20": 0.57
  },
  "reasons": [
-  "新規大量保有 5.1%（アセットマネジメントＯｎｅ株式会社）"
+  "新規大量保有 5.1%（アセットマネジメントＯｎｅ株式会社）",
+  "60日レンジ上位19%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -139,7 +142,14 @@
    "kind": "EVENT",
    "label": "新規大量保有",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z3O8"
+  },
+  {
+   "date": "2026-09-29",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-09-30T00:24:18+09:00"
+ "updatedAt": "2026-09-30T14:54:15+09:00"
 }

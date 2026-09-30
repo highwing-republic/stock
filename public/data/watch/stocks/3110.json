@@ -65,51 +65,52 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 0.0,
-  "currentPrice": 3088.0,
+  "benchReturn": 1.1,
+  "currentPrice": 3235.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 20,
+   "pendingDays": 18,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 5,
+   "pendingDays": 3,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 60,
+   "pendingDays": 58,
    "stockReturn": null
   },
-  "excessReturn": 0.0,
+  "excessReturn": 3.7,
   "initialDate": "2026-09-28",
   "initialPrice": 3088.0,
-  "stockReturn": 0.0
+  "stockReturn": 4.8
  },
  "priceSetup": {
-  "asOf": "2026-09-28",
+  "asOf": "2026-09-30",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.53,
+  "distFrom52wHigh": 0.51,
   "labels": [
    "20日線の上",
-   "20日線が上向き"
+   "20日線が上向き",
+   "60日線の上"
   ],
-  "ma20": 2994.0,
-  "ma200": 3682.0,
-  "ma60": 3135.1,
-  "rangePos60": 0.3,
-  "rel20": 6.9,
-  "rel60": -35.8,
-  "volumeRatio20": 0.99
+  "ma20": 3007.8,
+  "ma200": 3687.4,
+  "ma60": 3102.5,
+  "rangePos60": 0.54,
+  "rel20": 6.8,
+  "rel60": -21.4,
+  "volumeRatio20": 0.82
  },
  "reasons": [
   "新規大量保有 5%（ゴールドマン・サックス証券株式会社）",
-  "20日線を回復",
-  "TOPIX連動ETF比 +6.9pt（20日）"
+  "20日線上向き",
+  "TOPIX連動ETF比 +6.8pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -161,7 +162,14 @@
    "kind": "STATUS",
    "label": "WATCH",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-09-30",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-09-30T00:24:18+09:00"
+ "updatedAt": "2026-09-30T14:54:15+09:00"
 }

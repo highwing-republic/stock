@@ -10,10 +10,7 @@
   "id": "8601-2026-09-07",
   "overextended": false,
   "setupType": "BREAKOUT",
-  "setups": [
-   "BREAKOUT",
-   "TREND"
-  ],
+  "setups": [],
   "startedAt": "2026-09-07",
   "status": "STRENGTHENING",
   "statusHistory": [
@@ -58,12 +55,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -0.4,
-  "currentPrice": 1850.5,
+  "benchReturn": 0.6,
+  "currentPrice": 1811.5,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 8,
+   "pendingDays": 6,
    "stockReturn": null
   },
   "d5": {
@@ -75,37 +72,32 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 48,
+   "pendingDays": 46,
    "stockReturn": null
   },
-  "excessReturn": -0.5,
+  "excessReturn": -3.5,
   "initialDate": "2026-09-07",
   "initialPrice": 1866.5,
-  "stockReturn": -0.9
+  "stockReturn": -2.9
  },
  "priceSetup": {
-  "asOf": "2026-09-28",
-  "atrState": "低ボラ",
-  "distFrom52wHigh": 0.03,
+  "asOf": "2026-09-30",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.05,
   "labels": [
-   "20日線の上",
-   "60日レンジ上位15%",
-   "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 1841.0,
-  "ma200": 1579.2,
-  "ma60": 1805.1,
-  "rangePos60": 0.85,
-  "rel20": 2.0,
-  "rel60": 13.0,
-  "volumeRatio20": 1.7
+  "ma20": 1836.6,
+  "ma200": 1584.5,
+  "ma60": 1811.2,
+  "rangePos60": 0.69,
+  "rel20": -2.9,
+  "rel60": 7.4,
+  "volumeRatio20": 0.54
  },
  "reasons": [
   "1.1pt買い増し 7.7%→8.7%",
-  "60日レンジ上位15%",
-  "20日線上向き",
-  "TOPIX連動ETF比 +2pt（20日）"
+  "52週高値まで5%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -206,7 +198,21 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-09-29",
+   "detail": "BREAKOUT → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-30",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-09-30T00:24:18+09:00"
+ "updatedAt": "2026-09-30T14:54:15+09:00"
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T00:24:07+09:00",
+  "updatedAt": "2026-09-30T14:54:04+09:00",
   "company": {
     "securityCode": "278A",
     "ticker": "278A.T",
@@ -19,22 +19,23 @@
       "holdingChange": -5.13,
       "purpose": "発行会社の代表取締役であり、安定株主として長期保有するため。 / 発行会社代表取締役の資産管理会社であり、安定株主として保有しております。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.34,
-      "marketExcessReturn": null,
+      "priceChange": 13.26,
+      "volumeRatio": 0.3,
+      "marketExcessReturn": 12.91,
       "signalScore": 0,
       "signalReasons": [
+        "市場超過5%以上",
         "保有割合減少",
         "大幅売却"
       ],
       "stockUnreacted": false,
       "metrics": {
         "return1d": 14.3,
-        "return5d": null,
+        "return5d": 13.26,
         "return20d": null,
-        "returnCurrent": 13.09,
-        "volumeRatio": 0.34,
-        "marketExcessReturn": null
+        "returnCurrent": 13.84,
+        "volumeRatio": 0.3,
+        "marketExcessReturn": 12.91
       }
     },
     {
@@ -63,7 +64,7 @@
         "return1d": -14.97,
         "return5d": -2.51,
         "return20d": null,
-        "returnCurrent": -3.84,
+        "returnCurrent": -3.2,
         "volumeRatio": 0.39,
         "marketExcessReturn": -4.16
       }
@@ -94,7 +95,7 @@
         "return1d": -9.62,
         "return5d": -5.0,
         "return20d": null,
-        "returnCurrent": -7.0,
+        "returnCurrent": -6.38,
         "volumeRatio": 0.43,
         "marketExcessReturn": -6.22
       }
@@ -126,7 +127,7 @@
         "return1d": -5.97,
         "return5d": 53.77,
         "return20d": 40.4,
-        "returnCurrent": 38.9,
+        "returnCurrent": 39.83,
         "volumeRatio": 3.58,
         "marketExcessReturn": 51.59
       }
@@ -158,7 +159,7 @@
         "return1d": 5.92,
         "return5d": 45.9,
         "return20d": 44.23,
-        "returnCurrent": 48.18,
+        "returnCurrent": 49.17,
         "volumeRatio": 2.34,
         "marketExcessReturn": 43.03
       }
@@ -188,7 +189,7 @@
         "return1d": -6.04,
         "return5d": 6.74,
         "return20d": 55.69,
-        "returnCurrent": 51.28,
+        "returnCurrent": 52.29,
         "volumeRatio": 0.48,
         "marketExcessReturn": 3.86
       }
@@ -219,7 +220,7 @@
         "return1d": 3.94,
         "return5d": 27.32,
         "return20d": 113.21,
-        "returnCurrent": 92.6,
+        "returnCurrent": 93.89,
         "volumeRatio": 0.79,
         "marketExcessReturn": 25.2
       }
@@ -249,7 +250,7 @@
         "return1d": -1.06,
         "return5d": 24.95,
         "return20d": 85.26,
-        "returnCurrent": 88.15,
+        "returnCurrent": 89.4,
         "volumeRatio": 0.74,
         "marketExcessReturn": 22.92
       }
@@ -280,7 +281,7 @@
         "return1d": -18.39,
         "return5d": -33.95,
         "return20d": -10.23,
-        "returnCurrent": 25.59,
+        "returnCurrent": 26.43,
         "volumeRatio": 0.74,
         "marketExcessReturn": -32.14
       }
@@ -2943,9 +2944,19 @@
       "open": 9620.0,
       "high": 10000.0,
       "low": 9420.0,
-      "close": null,
-      "adj_close": null,
+      "close": 9780.0,
+      "adj_close": 9780.0,
       "volume": 1099900
+    },
+    {
+      "ticker": "278A.T",
+      "trade_date": "2026-09-30",
+      "open": 9930.0,
+      "high": 10050.0,
+      "low": 9800.0,
+      "close": 9830.0,
+      "adj_close": 9830.0,
+      "volume": 829300
     }
   ],
   "benchmark": [
@@ -6685,9 +6696,19 @@
       "open": 428.5,
       "high": 431.5,
       "low": 423.1000061035156,
-      "close": null,
-      "adj_close": null,
+      "close": 425.3999938964844,
+      "adj_close": 425.3999938964844,
       "volume": 13763350
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-09-30",
+      "open": 427.8999938964844,
+      "high": 432.8999938964844,
+      "low": 426.70001220703125,
+      "close": 432.8999938964844,
+      "adj_close": 432.8999938964844,
+      "volume": 7771080
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"
