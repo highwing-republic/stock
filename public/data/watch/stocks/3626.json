@@ -9,12 +9,10 @@
   "closedAt": null,
   "id": "3626-2026-09-04",
   "overextended": false,
-  "setupType": "BREAKOUT",
-  "setups": [
-   "BREAKOUT"
-  ],
+  "setupType": "RECOVERY",
+  "setups": [],
   "startedAt": "2026-09-04",
-  "status": "STRENGTHENING",
+  "status": "WATCH",
   "statusHistory": [
    {
     "date": "2026-09-04",
@@ -27,12 +25,6 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
-   },
-   {
-    "date": "2026-09-30",
-    "from": "WATCH",
-    "reason_code": "SETUP_IMPROVED",
-    "to": "STRENGTHENING"
    }
   ],
   "watchStartedAt": "2026-09-11"
@@ -57,12 +49,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 2.8,
-  "currentPrice": 3933.0,
+  "benchReturn": 1.4,
+  "currentPrice": 3950.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 10,
+   "pendingDays": 11,
    "stockReturn": null
   },
   "d5": {
@@ -74,37 +66,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 50,
+   "pendingDays": 51,
    "stockReturn": null
   },
-  "excessReturn": -0.3,
+  "excessReturn": 1.5,
   "initialDate": "2026-09-11",
   "initialPrice": 3837.8,
-  "stockReturn": 2.5
+  "stockReturn": 2.9
  },
  "priceSetup": {
-  "asOf": "2026-09-30",
-  "atrState": "低ボラ",
+  "asOf": "2026-09-29",
+  "atrState": "通常",
   "distFrom52wHigh": 0.25,
   "labels": [
    "20日線の上",
-   "60日レンジ上位20%",
+   "60日レンジ上位16%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 3925.3,
-  "ma200": 3756.5,
-  "ma60": 3710.6,
-  "rangePos60": 0.8,
-  "rel20": 0.7,
-  "rel60": 22.3,
-  "volumeRatio20": 0.93
+  "ma20": 3924.2,
+  "ma200": 3761.8,
+  "ma60": 3697.3,
+  "rangePos60": 0.84,
+  "rel20": 4.1,
+  "rel60": 23.8,
+  "volumeRatio20": 2.02
  },
  "reasons": [
   "新規大量保有 5.2%（ファースト・イーグル・インベストメント・マネジメント・エルエルシー）",
-  "60日レンジ上位20%",
-  "20日線上向き",
-  "TOPIX連動ETF比 +0.7pt（20日）"
+  "60日レンジ上位16%",
+  "20日線を回復",
+  "TOPIX連動ETF比 +4.1pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -156,21 +148,7 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-09-30",
-   "detail": "なし → BREAKOUT",
-   "kind": "SETUP",
-   "label": "Price Setup改善",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-09-30",
-   "detail": "Price Setupが改善",
-   "kind": "STATUS",
-   "label": "STRENGTHENING",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-09-30T22:00:54+09:00"
+ "updatedAt": "2026-10-01T00:39:23+09:00"
 }

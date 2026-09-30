@@ -12,7 +12,7 @@
   "setupType": "TREND",
   "setups": [],
   "startedAt": "2026-09-24",
-  "status": "BROKEN",
+  "status": "WATCH",
   "statusHistory": [
    {
     "date": "2026-09-24",
@@ -25,12 +25,6 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
-   },
-   {
-    "date": "2026-09-30",
-    "from": "WATCH",
-    "reason_code": "BELOW_MA20",
-    "to": "BROKEN"
    }
   ],
   "watchStartedAt": "2026-09-25"
@@ -39,9 +33,9 @@
   {
    "d1": 0.3,
    "d20": null,
-   "d5": -0.7,
+   "d5": null,
    "eventId": "edinet:S100Z334",
-   "excess5": -1.9
+   "excess5": null
   }
  ],
  "margin": {
@@ -55,47 +49,47 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 0.3,
-  "currentPrice": 3006.0,
+  "benchReturn": -1.1,
+  "currentPrice": 2986.5,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 17,
+   "pendingDays": 18,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 2,
+   "pendingDays": 3,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 57,
+   "pendingDays": 58,
    "stockReturn": null
   },
-  "excessReturn": -2.0,
+  "excessReturn": -1.3,
   "initialDate": "2026-09-25",
   "initialPrice": 3059.0,
-  "stockReturn": -1.7
+  "stockReturn": -2.4
  },
  "priceSetup": {
-  "asOf": "2026-09-30",
+  "asOf": "2026-09-29",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.06,
+  "distFrom52wHigh": 0.07,
   "labels": [],
-  "ma20": 3041.5,
-  "ma200": 2975.3,
-  "ma60": 3019.2,
-  "rangePos60": 0.47,
-  "rel20": -1.9,
-  "rel60": 0.9,
-  "volumeRatio20": 1.35
+  "ma20": 3044.6,
+  "ma200": 2974.6,
+  "ma60": 3017.2,
+  "rangePos60": 0.42,
+  "rel20": -1.5,
+  "rel60": -1.3,
+  "volumeRatio20": 1.7
  },
  "reasons": [
   "新規大量保有 5%（野村證券株式会社）",
-  "52週高値まで6%"
+  "52週高値まで7%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -133,14 +127,7 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-09-30",
-   "detail": "20日線を連続で下回った",
-   "kind": "STATUS",
-   "label": "BROKEN",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-09-30T22:00:54+09:00"
+ "updatedAt": "2026-10-01T00:39:23+09:00"
 }
