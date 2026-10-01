@@ -1,0 +1,87 @@
+{
+ "company": {
+  "name": "三浦工業",
+  "securityCode": "6005",
+  "tradingViewSymbol": "TSE:6005"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "6005-2026-10-01",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-10-01",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-10-01",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": 4.9,
+   "d20": 3.6,
+   "d5": 5.9,
+   "eventId": "edinet:S100YY15",
+   "excess5": 4.0
+  },
+  {
+   "d1": -0.3,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z5DA",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-09-29",
+  "buyBalance": 93500,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 2.69,
+  "sellBalance": 34700,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-10-01",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.14,
+  "labels": [],
+  "ma20": 3102.1,
+  "ma200": 3131.5,
+  "ma60": 3135.5,
+  "rangePos60": 0.27,
+  "rel20": -5.8,
+  "rel60": -8.0,
+  "volumeRatio20": 0.98
+ },
+ "reasons": [
+  "1pt買い増し 5.1%→6.1%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-08-24",
+   "detail": "保有割合 5.06%（シルチェスター・インターナショナル・インベスターズ・エルエルピー）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YY15"
+  },
+  {
+   "date": "2026-10-01",
+   "detail": "5.06% → 6.07%（シルチェスター・インターナショナル・インベスターズ・エルエルピー）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z5DA"
+  }
+ ],
+ "updatedAt": "2026-10-01T15:26:11+09:00"
+}

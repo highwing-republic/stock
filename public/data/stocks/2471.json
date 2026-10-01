@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T00:39:11+09:00",
+  "updatedAt": "2026-10-01T15:26:02+09:00",
   "company": {
     "securityCode": "2471",
     "ticker": "2471.T",
@@ -20,17 +20,17 @@
       "purpose": "純投資",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.88,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": -2.5,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -2.86,
-        "volumeRatio": null,
+        "returnCurrent": -2.14,
+        "volumeRatio": 0.88,
         "marketExcessReturn": null
       }
     },
@@ -60,7 +60,7 @@
         "return1d": 1.63,
         "return5d": 4.07,
         "return20d": 10.57,
-        "returnCurrent": 10.57,
+        "returnCurrent": 11.38,
         "volumeRatio": 0.87,
         "marketExcessReturn": 6.82
       }
@@ -2823,9 +2823,19 @@
       "open": 272.0,
       "high": 273.0,
       "low": 267.0,
-      "close": null,
-      "adj_close": null,
+      "close": 273.0,
+      "adj_close": 273.0,
       "volume": 229600
+    },
+    {
+      "ticker": "2471.T",
+      "trade_date": "2026-10-01",
+      "open": 269.0,
+      "high": 274.0,
+      "low": 267.0,
+      "close": 274.0,
+      "adj_close": 274.0,
+      "volume": 265600
     }
   ],
   "benchmark": [
@@ -6575,9 +6585,19 @@
       "open": 427.8999938964844,
       "high": 433.29998779296875,
       "low": 426.70001220703125,
-      "close": null,
-      "adj_close": null,
+      "close": 431.5,
+      "adj_close": 431.5,
       "volume": 13214640
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-01",
+      "open": 430.79998779296875,
+      "high": 435.29998779296875,
+      "low": 428.29998779296875,
+      "close": 434.79998779296875,
+      "adj_close": 434.79998779296875,
+      "volume": 13791180
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

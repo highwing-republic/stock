@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T00:39:11+09:00",
+  "updatedAt": "2026-10-01T15:26:02+09:00",
   "company": {
     "securityCode": "5331",
     "ticker": "5331.T",
@@ -7,16 +7,16 @@
   },
   "events": [
     {
-      "docId": "S100Z4JN",
+      "docId": "S100Z4RT",
       "ticker": "5331.T",
       "securityCode": "5331",
       "companyName": "ノリタケ株式会社",
-      "submitDatetime": "2026-09-30 09:20",
+      "submitDatetime": "2026-10-01 14:21",
       "filerName": "株式会社ストラテジックキャピタル",
       "reportType": "correction",
-      "holdingRatio": 6.1,
-      "previousHoldingRatio": 5.1,
-      "holdingChange": 1.0,
+      "holdingRatio": 7.13,
+      "previousHoldingRatio": 6.1,
+      "holdingChange": 1.03,
       "purpose": "純投資及び状況に応じて重要提案行為等を行うこと。",
       "importantProposal": false,
       "priceChange": null,
@@ -31,8 +31,68 @@
         "return1d": null,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.0,
+        "returnCurrent": 0.82,
         "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
+    {
+      "docId": "S100Z4Y4",
+      "ticker": "5331.T",
+      "securityCode": "5331",
+      "companyName": "ノリタケ株式会社",
+      "submitDatetime": "2026-10-01 14:20",
+      "filerName": "株式会社ストラテジックキャピタル",
+      "reportType": "correction",
+      "holdingRatio": 8.17,
+      "previousHoldingRatio": 7.13,
+      "holdingChange": 1.04,
+      "purpose": "純投資及び状況に応じて重要提案行為等を行うこと。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 20,
+      "signalReasons": [
+        "1pt以上買い増し"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 0.82,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
+    {
+      "docId": "S100Z4JN",
+      "ticker": "5331.T",
+      "securityCode": "5331",
+      "companyName": "ノリタケ株式会社",
+      "submitDatetime": "2026-09-30 09:20",
+      "filerName": "株式会社ストラテジックキャピタル",
+      "reportType": "correction",
+      "holdingRatio": 6.1,
+      "previousHoldingRatio": 5.1,
+      "holdingChange": 1.0,
+      "purpose": "純投資及び状況に応じて重要提案行為等を行うこと。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": 1.42,
+      "marketExcessReturn": null,
+      "signalScore": 20,
+      "signalReasons": [
+        "1pt以上買い増し"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": 1.8,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 1.8,
+        "volumeRatio": 1.42,
         "marketExcessReturn": null
       }
     },
@@ -50,17 +110,17 @@
       "purpose": "純投資及び状況に応じて重要提案行為等を行うこと。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 1.42,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": 1.8,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.0,
-        "volumeRatio": null,
+        "returnCurrent": 1.8,
+        "volumeRatio": 1.42,
         "marketExcessReturn": null
       }
     }
@@ -2722,9 +2782,19 @@
       "open": 3645.0,
       "high": 3670.0,
       "low": 3620.0,
-      "close": null,
-      "adj_close": null,
+      "close": 3650.0,
+      "adj_close": 3650.0,
       "volume": 201000
+    },
+    {
+      "ticker": "5331.T",
+      "trade_date": "2026-10-01",
+      "open": 3600.0,
+      "high": 3690.0,
+      "low": 3600.0,
+      "close": 3680.0,
+      "adj_close": 3680.0,
+      "volume": 251600
     }
   ],
   "benchmark": [
@@ -6474,9 +6544,19 @@
       "open": 427.8999938964844,
       "high": 433.29998779296875,
       "low": 426.70001220703125,
-      "close": null,
-      "adj_close": null,
+      "close": 431.5,
+      "adj_close": 431.5,
       "volume": 13214640
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-01",
+      "open": 430.79998779296875,
+      "high": 435.29998779296875,
+      "low": 428.29998779296875,
+      "close": 434.79998779296875,
+      "adj_close": 434.79998779296875,
+      "volume": 13791180
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

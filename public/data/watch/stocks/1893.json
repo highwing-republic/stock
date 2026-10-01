@@ -12,7 +12,7 @@
   "setupType": "RECOVERY",
   "setups": [],
   "startedAt": "2026-09-24",
-  "status": "WATCH",
+  "status": "BROKEN",
   "statusHistory": [
    {
     "date": "2026-09-24",
@@ -25,6 +25,12 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
+   },
+   {
+    "date": "2026-10-01",
+    "from": "WATCH",
+    "reason_code": "BELOW_MA20",
+    "to": "BROKEN"
    }
   ],
   "watchStartedAt": "2026-09-24"
@@ -33,9 +39,9 @@
   {
    "d1": -1.5,
    "d20": null,
-   "d5": null,
+   "d5": -5.2,
    "eventId": "edinet:S100Z3AG",
-   "excess5": null
+   "excess5": -6.4
   }
  ],
  "margin": {
@@ -49,49 +55,49 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 0.1,
-  "currentPrice": 1457.0,
+  "benchReturn": 2.4,
+  "currentPrice": 1476.5,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 17,
+   "pendingDays": 15,
    "stockReturn": null
   },
   "d5": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 2,
-   "stockReturn": null
+   "benchReturn": 2.4,
+   "excessReturn": -6.0,
+   "pendingDays": 0,
+   "stockReturn": -3.6
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 57,
+   "pendingDays": 55,
    "stockReturn": null
   },
-  "excessReturn": -5.0,
+  "excessReturn": -6.0,
   "initialDate": "2026-09-24",
   "initialPrice": 1531.3,
-  "stockReturn": -4.9
+  "stockReturn": -3.6
  },
  "priceSetup": {
-  "asOf": "2026-09-29",
+  "asOf": "2026-10-01",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.33,
+  "distFrom52wHigh": 0.32,
   "labels": [
    "20日線が上向き"
   ],
-  "ma20": 1472.0,
-  "ma200": 1646.5,
-  "ma60": 1497.7,
-  "rangePos60": 0.29,
-  "rel20": 2.8,
-  "rel60": -15.1,
-  "volumeRatio20": 0.81
+  "ma20": 1476.7,
+  "ma200": 1645.2,
+  "ma60": 1492.3,
+  "rangePos60": 0.34,
+  "rel20": 2.9,
+  "rel60": -14.1,
+  "volumeRatio20": 0.74
  },
  "reasons": [
   "新規大量保有 5.8%（ＪＰモルガン・アセット・マネジメント株式会社）",
-  "TOPIX連動ETF比 +2.8pt（20日）"
+  "TOPIX連動ETF比 +2.9pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -115,7 +121,14 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-01",
+   "detail": "20日線を連続で下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-01T00:39:23+09:00"
+ "updatedAt": "2026-10-01T15:26:11+09:00"
 }

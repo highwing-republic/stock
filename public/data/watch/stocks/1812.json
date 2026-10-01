@@ -52,9 +52,9 @@
   {
    "d1": 0.1,
    "d20": null,
-   "d5": null,
+   "d5": 0.9,
    "eventId": "edinet:S100Z38P",
-   "excess5": null
+   "excess5": -0.3
   }
  ],
  "margin": {
@@ -81,19 +81,19 @@
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 17,
+   "pendingDays": 15,
    "stockReturn": null
   },
   "d5": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 2,
-   "stockReturn": null
+   "benchReturn": 2.4,
+   "excessReturn": -2.5,
+   "pendingDays": 0,
+   "stockReturn": -0.1
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 57,
+   "pendingDays": 55,
    "stockReturn": null
   },
   "excessReturn": -2.7,
@@ -102,23 +102,25 @@
   "stockReturn": -1.9
  },
  "priceSetup": {
-  "asOf": "2026-09-29",
+  "asOf": "2026-10-01",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.38,
+  "distFrom52wHigh": 0.37,
   "labels": [
+   "20日線の上",
    "20日線が上向き"
   ],
-  "ma20": 4880.4,
-  "ma200": 5749.0,
-  "ma60": 5152.1,
-  "rangePos60": 0.15,
-  "rel20": 2.9,
-  "rel60": -18.6,
-  "volumeRatio20": 3.18
+  "ma20": 4896.8,
+  "ma200": 5743.1,
+  "ma60": 5120.1,
+  "rangePos60": 0.19,
+  "rel20": 2.6,
+  "rel60": -20.8,
+  "volumeRatio20": 0.48
  },
  "reasons": [
   "新規大量保有 5.3%（ジェー・ピー・モルガン・セキュリティーズ・ピーエルシー）",
-  "TOPIX連動ETF比 +2.9pt（20日）"
+  "20日線上向き",
+  "TOPIX連動ETF比 +2.6pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -163,7 +165,21 @@
    "kind": "STATUS",
    "label": "CLOSED",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-09-30",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-30",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-01T00:39:23+09:00"
+ "updatedAt": "2026-10-01T15:26:11+09:00"
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T00:39:11+09:00",
+  "updatedAt": "2026-10-01T15:26:02+09:00",
   "company": {
     "securityCode": "3277",
     "ticker": "3277.T",
@@ -7,13 +7,13 @@
   },
   "events": [
     {
-      "docId": "S100Z51V",
+      "docId": "S100Z5B6",
       "ticker": "3277.T",
       "securityCode": "3277",
       "companyName": "株式会社サンセイランディック",
-      "submitDatetime": "2026-09-30 11:35",
+      "submitDatetime": "2026-10-01 10:09",
       "filerName": "松﨑　隆司",
-      "reportType": "correction",
+      "reportType": "change",
       "holdingRatio": 14.96,
       "previousHoldingRatio": 14.96,
       "holdingChange": 0.0,
@@ -29,8 +29,36 @@
         "return1d": null,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.0,
+        "returnCurrent": 0.24,
         "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
+    {
+      "docId": "S100Z51V",
+      "ticker": "3277.T",
+      "securityCode": "3277",
+      "companyName": "株式会社サンセイランディック",
+      "submitDatetime": "2026-09-30 11:35",
+      "filerName": "松﨑　隆司",
+      "reportType": "correction",
+      "holdingRatio": 14.96,
+      "previousHoldingRatio": 14.96,
+      "holdingChange": 0.0,
+      "purpose": "発行会社の役員として経営に参加するため。また、経営の安定化を図るため保有しております。 / 発行会社の代表取締役の資産管理会社が保有する事で経営の安定化を図ります。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": 0.23,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": 1.09,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 1.09,
+        "volumeRatio": 0.23,
         "marketExcessReturn": null
       }
     },
@@ -57,7 +85,7 @@
         "return1d": 0.25,
         "return5d": -0.37,
         "return20d": 1.97,
-        "returnCurrent": 2.09,
+        "returnCurrent": 3.2,
         "volumeRatio": 0.29,
         "marketExcessReturn": -3.24
       }
@@ -87,7 +115,7 @@
         "return1d": -4.69,
         "return5d": -4.69,
         "return20d": -1.88,
-        "returnCurrent": -2.7,
+        "returnCurrent": -1.64,
         "volumeRatio": 0.53,
         "marketExcessReturn": -2.58
       }
@@ -2850,9 +2878,19 @@
       "open": 827.0,
       "high": 836.0,
       "low": 825.0,
-      "close": null,
-      "adj_close": null,
+      "close": 836.0,
+      "adj_close": 836.0,
       "volume": 10300
+    },
+    {
+      "ticker": "3277.T",
+      "trade_date": "2026-10-01",
+      "open": 836.0,
+      "high": 843.0,
+      "low": 836.0,
+      "close": 838.0,
+      "adj_close": 838.0,
+      "volume": 4200
     }
   ],
   "benchmark": [
@@ -6602,9 +6640,19 @@
       "open": 427.8999938964844,
       "high": 433.29998779296875,
       "low": 426.70001220703125,
-      "close": null,
-      "adj_close": null,
+      "close": 431.5,
+      "adj_close": 431.5,
       "volume": 13214640
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-01",
+      "open": 430.79998779296875,
+      "high": 435.29998779296875,
+      "low": 428.29998779296875,
+      "close": 434.79998779296875,
+      "adj_close": 434.79998779296875,
+      "volume": 13791180
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

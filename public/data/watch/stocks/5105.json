@@ -58,51 +58,52 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -0.7,
-  "currentPrice": 3789.0,
+  "benchReturn": 1.5,
+  "currentPrice": 3903.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 19,
+   "pendingDays": 17,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 4,
+   "pendingDays": 2,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 59,
+   "pendingDays": 57,
    "stockReturn": null
   },
-  "excessReturn": -2.1,
+  "excessReturn": -1.4,
   "initialDate": "2026-09-28",
   "initialPrice": 3900.0,
-  "stockReturn": -2.8
+  "stockReturn": 0.1
  },
  "priceSetup": {
-  "asOf": "2026-09-29",
+  "asOf": "2026-10-01",
   "atrState": "通常",
-  "distFrom52wHigh": 0.21,
+  "distFrom52wHigh": 0.18,
   "labels": [
    "20日線の上",
-   "20日線が上向き"
+   "20日線が上向き",
+   "60日線の上"
   ],
-  "ma20": 3734.3,
-  "ma200": 3950.0,
-  "ma60": 3874.9,
-  "rangePos60": 0.33,
-  "rel20": 0.4,
-  "rel60": -0.7,
-  "volumeRatio20": 0.64
+  "ma20": 3747.9,
+  "ma200": 3947.7,
+  "ma60": 3877.6,
+  "rangePos60": 0.47,
+  "rel20": 3.3,
+  "rel60": -2.7,
+  "volumeRatio20": 0.38
  },
  "reasons": [
   "新規大量保有 5%（アライアンス・バーンスタイン・エル・ピー）",
   "20日線上向き",
-  "TOPIX連動ETF比 +0.4pt（20日）"
+  "TOPIX連動ETF比 +3.3pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -175,7 +176,14 @@
    "kind": "STATUS",
    "label": "WATCH",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-01",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-01T00:39:23+09:00"
+ "updatedAt": "2026-10-01T15:26:11+09:00"
 }

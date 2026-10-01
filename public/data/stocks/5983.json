@@ -1,11 +1,42 @@
 {
-  "updatedAt": "2026-10-01T00:39:11+09:00",
+  "updatedAt": "2026-10-01T15:26:02+09:00",
   "company": {
     "securityCode": "5983",
     "ticker": "5983.T",
     "name": "イワブチ株式会社"
   },
   "events": [
+    {
+      "docId": "S100Z4GY",
+      "ticker": "5983.T",
+      "securityCode": "5983",
+      "companyName": "イワブチ株式会社",
+      "submitDatetime": "2026-10-01 09:16",
+      "filerName": "山口　弘",
+      "reportType": "change",
+      "holdingRatio": 10.5,
+      "previousHoldingRatio": 9.48,
+      "holdingChange": 1.02,
+      "purpose": "イワブチ株式会社との取引関係にある企業との緊密化をはかるため。",
+      "importantProposal": true,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 40,
+      "signalReasons": [
+        "1pt以上買い増し",
+        "重要提案行為あり"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 2.63,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YVWO",
       "ticker": "5983.T",
@@ -31,7 +62,7 @@
         "return1d": 4.94,
         "return5d": 3.94,
         "return20d": 7.34,
-        "returnCurrent": 7.26,
+        "returnCurrent": 11.66,
         "volumeRatio": 2.61,
         "marketExcessReturn": 1.76
       }
@@ -63,7 +94,7 @@
         "return1d": 5.46,
         "return5d": 12.86,
         "return20d": 6.13,
-        "returnCurrent": 3.81,
+        "returnCurrent": 8.07,
         "volumeRatio": 3.79,
         "marketExcessReturn": 12.26
       }
@@ -2826,9 +2857,19 @@
       "open": 14230.0,
       "high": 14230.0,
       "low": 13930.0,
-      "close": null,
-      "adj_close": null,
+      "close": 14090.0,
+      "adj_close": 14090.0,
       "volume": 600
+    },
+    {
+      "ticker": "5983.T",
+      "trade_date": "2026-10-01",
+      "open": 13920.0,
+      "high": 14460.0,
+      "low": 13920.0,
+      "close": 14460.0,
+      "adj_close": 14460.0,
+      "volume": 900
     }
   ],
   "benchmark": [
@@ -6578,9 +6619,19 @@
       "open": 427.8999938964844,
       "high": 433.29998779296875,
       "low": 426.70001220703125,
-      "close": null,
-      "adj_close": null,
+      "close": 431.5,
+      "adj_close": 431.5,
       "volume": 13214640
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-01",
+      "open": 430.79998779296875,
+      "high": 435.29998779296875,
+      "low": 428.29998779296875,
+      "close": 434.79998779296875,
+      "adj_close": 434.79998779296875,
+      "volume": 13791180
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

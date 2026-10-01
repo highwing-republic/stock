@@ -12,7 +12,7 @@
   "setupType": "BREAKOUT",
   "setups": [],
   "startedAt": "2026-09-07",
-  "status": "STRENGTHENING",
+  "status": "BROKEN",
   "statusHistory": [
    {
     "date": "2026-09-07",
@@ -31,6 +31,12 @@
     "from": "WATCH",
     "reason_code": "SETUP_IMPROVED",
     "to": "STRENGTHENING"
+   },
+   {
+    "date": "2026-10-01",
+    "from": "STRENGTHENING",
+    "reason_code": "BELOW_MA20",
+    "to": "BROKEN"
    }
   ],
   "watchStartedAt": "2026-09-07"
@@ -55,12 +61,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -1.1,
-  "currentPrice": 1786.0,
+  "benchReturn": 1.1,
+  "currentPrice": 1811.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 7,
+   "pendingDays": 5,
    "stockReturn": null
   },
   "d5": {
@@ -72,32 +78,30 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 47,
+   "pendingDays": 45,
    "stockReturn": null
   },
-  "excessReturn": -3.2,
+  "excessReturn": -4.1,
   "initialDate": "2026-09-07",
   "initialPrice": 1866.5,
-  "stockReturn": -4.3
+  "stockReturn": -3.0
  },
  "priceSetup": {
-  "asOf": "2026-09-29",
+  "asOf": "2026-10-01",
   "atrState": "通常",
-  "distFrom52wHigh": 0.06,
-  "labels": [
-   "20日線が上向き"
-  ],
-  "ma20": 1839.2,
-  "ma200": 1581.8,
-  "ma60": 1808.2,
-  "rangePos60": 0.62,
-  "rel20": -1.1,
-  "rel60": 9.6,
-  "volumeRatio20": 1.24
+  "distFrom52wHigh": 0.05,
+  "labels": [],
+  "ma20": 1834.9,
+  "ma200": 1587.1,
+  "ma60": 1813.9,
+  "rangePos60": 0.64,
+  "rel20": -2.1,
+  "rel60": 6.0,
+  "volumeRatio20": 0.59
  },
  "reasons": [
   "1.1pt買い増し 7.7%→8.7%",
-  "52週高値まで6%"
+  "52週高値まで5%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -205,7 +209,14 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-01",
+   "detail": "20日線を連続で下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-01T00:39:23+09:00"
+ "updatedAt": "2026-10-01T15:26:11+09:00"
 }

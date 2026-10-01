@@ -165,6 +165,10 @@
    "event_id": "edinet:S100Z2VS"
   },
   {
+   "episode_id": "4722-2026-09-18",
+   "event_id": "edinet:S100Z480"
+  },
+  {
    "episode_id": "5105-2026-09-04",
    "event_id": "edinet:S100Z0BH"
   },
@@ -195,6 +199,10 @@
   {
    "episode_id": "5857-2026-09-04",
    "event_id": "edinet:S100Z2Z2"
+  },
+  {
+   "episode_id": "6005-2026-10-01",
+   "event_id": "edinet:S100Z5DA"
   },
   {
    "episode_id": "6269-2026-09-24",
@@ -924,25 +932,33 @@
    "event_ids": [
     "edinet:S100YZYU"
    ],
-   "initial_bench": null,
-   "initial_price": null,
+   "initial_bench": 431.5,
+   "initial_price": 7932.0,
    "last_trigger_at": "2026-09-03",
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100YZYU",
    "security_code": "6728",
-   "setup_type": null,
-   "setups": [],
+   "setup_type": "RECOVERY",
+   "setups": [
+    "RECOVERY"
+   ],
    "started_at": "2026-09-03",
-   "status": "CANDIDATE",
+   "status": "WATCH",
    "status_history": [
     {
      "date": "2026-09-03",
      "from": null,
      "reason_code": "TRIGGER_EVENT",
      "to": "CANDIDATE"
+    },
+    {
+     "date": "2026-09-30",
+     "from": "CANDIDATE",
+     "reason_code": "SETUP_OK",
+     "to": "WATCH"
     }
    ],
-   "watch_started_at": null
+   "watch_started_at": "2026-09-30"
   },
   {
    "base_close": 2351.260498046875,
@@ -1010,9 +1026,7 @@
    "primary_trigger_event_id": "edinet:S100Z0CY",
    "security_code": "2871",
    "setup_type": "RECOVERY",
-   "setups": [
-    "RECOVERY"
-   ],
+   "setups": [],
    "started_at": "2026-09-04",
    "status": "STRENGTHENING",
    "status_history": [
@@ -1084,10 +1098,10 @@
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z01Q",
    "security_code": "3626",
-   "setup_type": "RECOVERY",
+   "setup_type": "BREAKOUT",
    "setups": [],
    "started_at": "2026-09-04",
-   "status": "WATCH",
+   "status": "STRENGTHENING",
    "status_history": [
     {
      "date": "2026-09-04",
@@ -1100,6 +1114,12 @@
      "from": "CANDIDATE",
      "reason_code": "SETUP_OK",
      "to": "WATCH"
+    },
+    {
+     "date": "2026-09-30",
+     "from": "WATCH",
+     "reason_code": "SETUP_IMPROVED",
+     "to": "STRENGTHENING"
     }
    ],
    "watch_started_at": "2026-09-11"
@@ -1350,7 +1370,9 @@
    "primary_trigger_event_id": "edinet:S100Z02Y",
    "security_code": "9507",
    "setup_type": "TREND",
-   "setups": [],
+   "setups": [
+    "TREND"
+   ],
    "started_at": "2026-09-04",
    "status": "STRENGTHENING",
    "status_history": [
@@ -1778,7 +1800,7 @@
    "setup_type": "BREAKOUT",
    "setups": [],
    "started_at": "2026-09-07",
-   "status": "STRENGTHENING",
+   "status": "BROKEN",
    "status_history": [
     {
      "date": "2026-09-07",
@@ -1797,6 +1819,12 @@
      "from": "WATCH",
      "reason_code": "SETUP_IMPROVED",
      "to": "STRENGTHENING"
+    },
+    {
+     "date": "2026-10-01",
+     "from": "STRENGTHENING",
+     "reason_code": "BELOW_MA20",
+     "to": "BROKEN"
     }
    ],
    "watch_started_at": "2026-09-07"
@@ -1819,7 +1847,7 @@
    "setup_type": "TREND",
    "setups": [],
    "started_at": "2026-09-07",
-   "status": "STRENGTHENING",
+   "status": "BROKEN",
    "status_history": [
     {
      "date": "2026-09-07",
@@ -1838,6 +1866,12 @@
      "from": "WATCH",
      "reason_code": "SETUP_IMPROVED",
      "to": "STRENGTHENING"
+    },
+    {
+     "date": "2026-10-01",
+     "from": "STRENGTHENING",
+     "reason_code": "BELOW_MA20",
+     "to": "BROKEN"
     }
    ],
    "watch_started_at": "2026-09-07"
@@ -1858,9 +1892,7 @@
    "primary_trigger_event_id": "edinet:S100Z0F9",
    "security_code": "9759",
    "setup_type": "RECOVERY",
-   "setups": [
-    "RECOVERY"
-   ],
+   "setups": [],
    "started_at": "2026-09-07",
    "status": "STRENGTHENING",
    "status_history": [
@@ -2241,7 +2273,8 @@
    "event_ids": [
     "edinet:S100Z1LN",
     "edinet:S100Z2VS",
-    "edinet:S100Z1NT"
+    "edinet:S100Z1NT",
+    "edinet:S100Z480"
    ],
    "initial_bench": null,
    "initial_price": null,
@@ -2358,7 +2391,7 @@
    "setup_type": "RECOVERY",
    "setups": [],
    "started_at": "2026-09-24",
-   "status": "WATCH",
+   "status": "BROKEN",
    "status_history": [
     {
      "date": "2026-09-24",
@@ -2371,14 +2404,20 @@
      "from": "CANDIDATE",
      "reason_code": "SETUP_OK",
      "to": "WATCH"
+    },
+    {
+     "date": "2026-10-01",
+     "from": "WATCH",
+     "reason_code": "BELOW_MA20",
+     "to": "BROKEN"
     }
    ],
    "watch_started_at": "2026-09-24"
   },
   {
    "base_close": 3027.0,
-   "close_reason": null,
-   "closed_at": null,
+   "close_reason": "BROKEN",
+   "closed_at": "2026-10-01",
    "company_name": "カルビー",
    "episode_id": "2229-2026-09-24",
    "event_ids": [
@@ -2393,7 +2432,7 @@
    "setup_type": "TREND",
    "setups": [],
    "started_at": "2026-09-24",
-   "status": "WATCH",
+   "status": "CLOSED",
    "status_history": [
     {
      "date": "2026-09-24",
@@ -2406,6 +2445,18 @@
      "from": "CANDIDATE",
      "reason_code": "SETUP_OK",
      "to": "WATCH"
+    },
+    {
+     "date": "2026-09-30",
+     "from": "WATCH",
+     "reason_code": "BELOW_MA20",
+     "to": "BROKEN"
+    },
+    {
+     "date": "2026-10-01",
+     "from": "BROKEN",
+     "reason_code": "BROKEN",
+     "to": "CLOSED"
     }
    ],
    "watch_started_at": "2026-09-25"
@@ -2507,25 +2558,33 @@
     "edinet:S100Z2O8",
     "edinet:S100Z352"
    ],
-   "initial_bench": null,
-   "initial_price": null,
+   "initial_bench": 434.79998779296875,
+   "initial_price": 2182.5,
    "last_trigger_at": "2026-09-24",
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z2O8",
    "security_code": "6526",
-   "setup_type": null,
-   "setups": [],
+   "setup_type": "RECOVERY",
+   "setups": [
+    "RECOVERY"
+   ],
    "started_at": "2026-09-24",
-   "status": "CANDIDATE",
+   "status": "WATCH",
    "status_history": [
     {
      "date": "2026-09-24",
      "from": null,
      "reason_code": "TRIGGER_EVENT",
      "to": "CANDIDATE"
+    },
+    {
+     "date": "2026-10-01",
+     "from": "CANDIDATE",
+     "reason_code": "SETUP_OK",
+     "to": "WATCH"
     }
    ],
-   "watch_started_at": null
+   "watch_started_at": "2026-10-01"
   },
   {
    "base_close": 2793.152099609375,
@@ -2543,9 +2602,11 @@
    "primary_trigger_event_id": "edinet:S100Z3M6",
    "security_code": "4613",
    "setup_type": "TREND",
-   "setups": [],
+   "setups": [
+    "TREND"
+   ],
    "started_at": "2026-09-25",
-   "status": "WATCH",
+   "status": "STRENGTHENING",
    "status_history": [
     {
      "date": "2026-09-25",
@@ -2558,6 +2619,12 @@
      "from": "CANDIDATE",
      "reason_code": "SETUP_OK",
      "to": "WATCH"
+    },
+    {
+     "date": "2026-09-30",
+     "from": "WATCH",
+     "reason_code": "SETUP_IMPROVED",
+     "to": "STRENGTHENING"
     }
    ],
    "watch_started_at": "2026-09-25"
@@ -2675,7 +2742,7 @@
    "setup_type": "BREAKOUT",
    "setups": [],
    "started_at": "2026-09-25",
-   "status": "WATCH",
+   "status": "STRENGTHENING",
    "status_history": [
     {
      "date": "2026-09-25",
@@ -2688,6 +2755,12 @@
      "from": "CANDIDATE",
      "reason_code": "SETUP_OK",
      "to": "WATCH"
+    },
+    {
+     "date": "2026-09-30",
+     "from": "WATCH",
+     "reason_code": "SETUP_IMPROVED",
+     "to": "STRENGTHENING"
     }
    ],
    "watch_started_at": "2026-09-25"
@@ -2825,10 +2898,7 @@
    "primary_trigger_event_id": "edinet:S100Z3NT",
    "security_code": "9744",
    "setup_type": "TREND",
-   "setups": [
-    "TREND",
-    "RECOVERY"
-   ],
+   "setups": [],
    "started_at": "2026-09-25",
    "status": "WATCH",
    "status_history": [
@@ -2912,6 +2982,35 @@
     }
    ],
    "watch_started_at": "2026-09-28"
+  },
+  {
+   "base_close": 3013.0,
+   "close_reason": null,
+   "closed_at": null,
+   "company_name": "三浦工業",
+   "episode_id": "6005-2026-10-01",
+   "event_ids": [
+    "edinet:S100Z5DA"
+   ],
+   "initial_bench": null,
+   "initial_price": null,
+   "last_trigger_at": "2026-10-01",
+   "overextended": false,
+   "primary_trigger_event_id": "edinet:S100Z5DA",
+   "security_code": "6005",
+   "setup_type": null,
+   "setups": [],
+   "started_at": "2026-10-01",
+   "status": "CANDIDATE",
+   "status_history": [
+    {
+     "date": "2026-10-01",
+     "from": null,
+     "reason_code": "TRIGGER_EVENT",
+     "to": "CANDIDATE"
+    }
+   ],
+   "watch_started_at": null
   }
  ],
  "schema_version": 1

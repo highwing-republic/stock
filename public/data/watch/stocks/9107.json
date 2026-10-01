@@ -12,7 +12,7 @@
   "setupType": "TREND",
   "setups": [],
   "startedAt": "2026-09-07",
-  "status": "STRENGTHENING",
+  "status": "BROKEN",
   "statusHistory": [
    {
     "date": "2026-09-07",
@@ -31,6 +31,12 @@
     "from": "WATCH",
     "reason_code": "SETUP_IMPROVED",
     "to": "STRENGTHENING"
+   },
+   {
+    "date": "2026-10-01",
+    "from": "STRENGTHENING",
+    "reason_code": "BELOW_MA20",
+    "to": "BROKEN"
    }
   ],
   "watchStartedAt": "2026-09-07"
@@ -55,12 +61,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -1.1,
-  "currentPrice": 3283.0,
+  "benchReturn": 1.1,
+  "currentPrice": 3259.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 7,
+   "pendingDays": 5,
    "stockReturn": null
   },
   "d5": {
@@ -72,36 +78,35 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 47,
+   "pendingDays": 45,
    "stockReturn": null
   },
-  "excessReturn": -1.3,
+  "excessReturn": -4.2,
   "initialDate": "2026-09-07",
   "initialPrice": 3364.7,
-  "stockReturn": -2.4
+  "stockReturn": -3.1
  },
  "priceSetup": {
-  "asOf": "2026-09-29",
+  "asOf": "2026-10-01",
   "atrState": "通常",
-  "distFrom52wHigh": 0.07,
+  "distFrom52wHigh": 0.08,
   "labels": [
-   "60日レンジ上位22%",
+   "60日レンジ上位24%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 3340.8,
-  "ma200": 2556.7,
-  "ma60": 2980.4,
-  "rangePos60": 0.78,
-  "rel20": 2.6,
-  "rel60": 32.1,
-  "volumeRatio20": 0.95
+  "ma20": 3340.4,
+  "ma200": 2569.7,
+  "ma60": 3010.0,
+  "rangePos60": 0.76,
+  "rel20": -0.7,
+  "rel60": 29.8,
+  "volumeRatio20": 0.62
  },
  "reasons": [
   "新規大量保有 5.1%（ブラックロック・ジャパン株式会社）",
-  "60日レンジ上位22%",
-  "TOPIX連動ETF比 +2.6pt（20日）",
-  "52週高値まで7%"
+  "60日レンジ上位24%",
+  "52週高値まで8%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -160,7 +165,14 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-01",
+   "detail": "20日線を連続で下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-01T00:39:23+09:00"
+ "updatedAt": "2026-10-01T15:26:11+09:00"
 }
