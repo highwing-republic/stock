@@ -9,27 +9,19 @@
   "closedAt": null,
   "id": "6526-2026-09-24",
   "overextended": false,
-  "setupType": "RECOVERY",
-  "setups": [
-   "RECOVERY"
-  ],
+  "setupType": null,
+  "setups": [],
   "startedAt": "2026-09-24",
-  "status": "WATCH",
+  "status": "CANDIDATE",
   "statusHistory": [
    {
     "date": "2026-09-24",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
-   },
-   {
-    "date": "2026-10-01",
-    "from": "CANDIDATE",
-    "reason_code": "SETUP_OK",
-    "to": "WATCH"
    }
   ],
-  "watchStartedAt": "2026-10-01"
+  "watchStartedAt": null
  },
  "eventReactions": [
   {
@@ -85,54 +77,28 @@
   "sellChangePct": null
  },
  "pastEpisodes": [],
- "performance": {
-  "benchReturn": 0.0,
-  "currentPrice": 2191.0,
-  "d20": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 20,
-   "stockReturn": null
-  },
-  "d5": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 5,
-   "stockReturn": null
-  },
-  "d60": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 60,
-   "stockReturn": null
-  },
-  "excessReturn": 0.0,
-  "initialDate": "2026-10-01",
-  "initialPrice": 2191.0,
-  "stockReturn": 0.0
- },
+ "performance": null,
  "priceSetup": {
-  "asOf": "2026-10-01",
+  "asOf": "2026-09-30",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.36,
+  "distFrom52wHigh": 0.38,
   "labels": [
    "20日線の上",
-   "20日線が上向き",
-   "60日線の上"
+   "20日線が上向き"
   ],
-  "ma20": 1980.3,
-  "ma200": 2146.3,
-  "ma60": 2130.1,
-  "rangePos60": 0.38,
-  "rel20": 10.8,
-  "rel60": -23.7,
-  "volumeRatio20": 0.82
+  "ma20": 1969.5,
+  "ma200": 2146.2,
+  "ma60": 2139.2,
+  "rangePos60": 0.3,
+  "rel20": 6.0,
+  "rel60": -25.2,
+  "volumeRatio20": 0.84
  },
  "reasons": [
   "0.1pt買い増し 6.9%→6.9%",
   "30日以内に2回買い増し",
   "20日線上向き",
-  "TOPIX連動ETF比 +10.8pt（20日）"
+  "TOPIX連動ETF比 +6pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -198,28 +164,7 @@
    "kind": "EVENT",
    "label": "連続の買い増し",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z5RY"
-  },
-  {
-   "date": "2026-10-01",
-   "detail": "なし → RECOVERY",
-   "kind": "SETUP",
-   "label": "Price Setup改善",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-10-01",
-   "detail": "60日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-10-01",
-   "detail": "Price Setupが成立",
-   "kind": "STATUS",
-   "label": "WATCH",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-01T22:52:51+09:00"
+ "updatedAt": "2026-10-02T01:01:56+09:00"
 }

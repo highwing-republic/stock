@@ -12,7 +12,7 @@
   "setupType": "RECOVERY",
   "setups": [],
   "startedAt": "2026-09-24",
-  "status": "BROKEN",
+  "status": "WATCH",
   "statusHistory": [
    {
     "date": "2026-09-24",
@@ -25,12 +25,6 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
-   },
-   {
-    "date": "2026-10-01",
-    "from": "WATCH",
-    "reason_code": "BELOW_MA20",
-    "to": "BROKEN"
    }
   ],
   "watchStartedAt": "2026-09-24"
@@ -55,49 +49,49 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 2.3,
-  "currentPrice": 1472.5,
+  "benchReturn": 1.6,
+  "currentPrice": 1474.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 15,
+   "pendingDays": 16,
    "stockReturn": null
   },
   "d5": {
-   "benchReturn": 2.3,
-   "excessReturn": -6.1,
-   "pendingDays": 0,
-   "stockReturn": -3.8
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 1,
+   "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 55,
+   "pendingDays": 56,
    "stockReturn": null
   },
-  "excessReturn": -6.1,
+  "excessReturn": -5.3,
   "initialDate": "2026-09-24",
   "initialPrice": 1531.3,
-  "stockReturn": -3.8
+  "stockReturn": -3.7
  },
  "priceSetup": {
-  "asOf": "2026-10-01",
+  "asOf": "2026-09-30",
   "atrState": "低ボラ",
   "distFrom52wHigh": 0.32,
   "labels": [
    "20日線が上向き"
   ],
-  "ma20": 1476.5,
-  "ma200": 1645.2,
-  "ma60": 1492.2,
+  "ma20": 1474.4,
+  "ma200": 1645.8,
+  "ma60": 1495.0,
   "rangePos60": 0.33,
-  "rel20": 2.7,
-  "rel60": -14.2,
-  "volumeRatio20": 1.07
+  "rel20": 3.4,
+  "rel60": -13.2,
+  "volumeRatio20": 1.17
  },
  "reasons": [
   "新規大量保有 5.8%（ＪＰモルガン・アセット・マネジメント株式会社）",
-  "TOPIX連動ETF比 +2.7pt（20日）"
+  "TOPIX連動ETF比 +3.4pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -121,14 +115,7 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-10-01",
-   "detail": "20日線を連続で下回った",
-   "kind": "STATUS",
-   "label": "BROKEN",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-01T22:52:51+09:00"
+ "updatedAt": "2026-10-02T01:01:56+09:00"
 }
