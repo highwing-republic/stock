@@ -1,0 +1,101 @@
+{
+ "company": {
+  "name": "UACJ",
+  "securityCode": "5741",
+  "tradingViewSymbol": "TSE:5741"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "5741-2026-10-02",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-10-02",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-10-02",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": -0.3,
+   "d20": -6.3,
+   "d5": -1.1,
+   "eventId": "edinet:S100YXNT",
+   "excess5": -3.2
+  },
+  {
+   "d1": -2.5,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z3ZD",
+   "excess5": null
+  },
+  {
+   "d1": -0.9,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z5OG",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-09-30",
+  "buyBalance": 596200,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 21.29,
+  "sellBalance": 28000,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-10-02",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.4,
+  "labels": [],
+  "ma20": 2179.7,
+  "ma200": 2471.3,
+  "ma60": 2294.1,
+  "rangePos60": 0.06,
+  "rel20": -7.7,
+  "rel60": -15.7,
+  "volumeRatio20": 0.62
+ },
+ "reasons": [
+  "6.6pt買い増し 7.2%→13.7%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-08-24",
+   "detail": "24.28% → 24.28%（エフィッシモ　キャピタル　マネージメント　ピーティーイー　エルティーディー（Ｅｆｆｉｓｓｉｍｏ　Ｃａｐｉｔａｌ　Ｍａｎａｇｅｍｅｎｔ　Ｐｔｅ　Ｌｔｄ））",
+   "kind": "EVENT",
+   "label": "変更報告（増減不明）",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YXNT"
+  },
+  {
+   "date": "2026-09-28",
+   "detail": "6.88% → 0%（古河電気工業株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z3ZD"
+  },
+  {
+   "date": "2026-10-02",
+   "detail": "7.16% → 13.73%（株式会社みずほ銀行）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z5OG"
+  }
+ ],
+ "updatedAt": "2026-10-02T15:04:25+09:00"
+}

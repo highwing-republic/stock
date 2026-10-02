@@ -5,14 +5,14 @@
   "tradingViewSymbol": "TSE:2229"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "BROKEN",
+  "closedAt": "2026-10-01",
   "id": "2229-2026-09-24",
   "overextended": false,
   "setupType": "TREND",
   "setups": [],
   "startedAt": "2026-09-24",
-  "status": "BROKEN",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-09-24",
@@ -31,6 +31,12 @@
     "from": "WATCH",
     "reason_code": "BELOW_MA20",
     "to": "BROKEN"
+   },
+   {
+    "date": "2026-10-01",
+    "from": "BROKEN",
+    "reason_code": "BROKEN",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-09-25"
@@ -55,43 +61,43 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 0.3,
-  "currentPrice": 3006.0,
+  "benchReturn": 1.0,
+  "currentPrice": 3003.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 17,
+   "pendingDays": 15,
    "stockReturn": null
   },
   "d5": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 2,
-   "stockReturn": null
+   "benchReturn": 0.2,
+   "excessReturn": -1.7,
+   "pendingDays": 0,
+   "stockReturn": -1.5
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 57,
+   "pendingDays": 55,
    "stockReturn": null
   },
-  "excessReturn": -2.0,
+  "excessReturn": -2.8,
   "initialDate": "2026-09-25",
   "initialPrice": 3059.0,
-  "stockReturn": -1.7
+  "stockReturn": -1.8
  },
  "priceSetup": {
-  "asOf": "2026-09-30",
+  "asOf": "2026-10-02",
   "atrState": "低ボラ",
   "distFrom52wHigh": 0.06,
   "labels": [],
-  "ma20": 3041.5,
-  "ma200": 2975.3,
-  "ma60": 3019.2,
-  "rangePos60": 0.47,
-  "rel20": -1.9,
-  "rel60": 0.9,
-  "volumeRatio20": 1.35
+  "ma20": 3032.8,
+  "ma200": 2976.6,
+  "ma60": 3020.2,
+  "rangePos60": 0.49,
+  "rel20": -1.6,
+  "rel60": -0.4,
+  "volumeRatio20": 0.64
  },
  "reasons": [
   "新規大量保有 5%（野村證券株式会社）",
@@ -140,7 +146,14 @@
    "kind": "STATUS",
    "label": "BROKEN",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-01",
+   "detail": "Price Setupが崩れた",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-02T01:01:56+09:00"
+ "updatedAt": "2026-10-02T15:04:25+09:00"
 }

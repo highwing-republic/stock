@@ -5,14 +5,14 @@
   "tradingViewSymbol": "TSE:9107"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "BROKEN",
+  "closedAt": "2026-10-02",
   "id": "9107-2026-09-07",
   "overextended": false,
   "setupType": "TREND",
   "setups": [],
   "startedAt": "2026-09-07",
-  "status": "STRENGTHENING",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-09-07",
@@ -31,6 +31,18 @@
     "from": "WATCH",
     "reason_code": "SETUP_IMPROVED",
     "to": "STRENGTHENING"
+   },
+   {
+    "date": "2026-10-01",
+    "from": "STRENGTHENING",
+    "reason_code": "BELOW_MA20",
+    "to": "BROKEN"
+   },
+   {
+    "date": "2026-10-02",
+    "from": "BROKEN",
+    "reason_code": "BROKEN",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-09-07"
@@ -56,11 +68,11 @@
  "pastEpisodes": [],
  "performance": {
   "benchReturn": 0.3,
-  "currentPrice": 3326.0,
+  "currentPrice": 3269.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 6,
+   "pendingDays": 4,
    "stockReturn": null
   },
   "d5": {
@@ -72,36 +84,35 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 46,
+   "pendingDays": 44,
    "stockReturn": null
   },
-  "excessReturn": -1.4,
+  "excessReturn": -3.1,
   "initialDate": "2026-09-07",
   "initialPrice": 3364.7,
-  "stockReturn": -1.1
+  "stockReturn": -2.8
  },
  "priceSetup": {
-  "asOf": "2026-09-30",
+  "asOf": "2026-10-02",
   "atrState": "通常",
-  "distFrom52wHigh": 0.06,
+  "distFrom52wHigh": 0.08,
   "labels": [
-   "60日レンジ上位19%",
+   "60日レンジ上位24%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 3341.0,
-  "ma200": 2563.3,
-  "ma60": 2996.3,
-  "rangePos60": 0.81,
-  "rel20": 0.2,
-  "rel60": 36.7,
-  "volumeRatio20": 0.95
+  "ma20": 3337.9,
+  "ma200": 2576.0,
+  "ma60": 3022.9,
+  "rangePos60": 0.76,
+  "rel20": -0.6,
+  "rel60": 29.0,
+  "volumeRatio20": 0.43
  },
  "reasons": [
   "新規大量保有 5.1%（ブラックロック・ジャパン株式会社）",
-  "60日レンジ上位19%",
-  "TOPIX連動ETF比 +0.2pt（20日）",
-  "52週高値まで6%"
+  "60日レンジ上位24%",
+  "52週高値まで8%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -160,7 +171,21 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-01",
+   "detail": "20日線を連続で下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-02",
+   "detail": "Price Setupが崩れた",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-02T01:01:56+09:00"
+ "updatedAt": "2026-10-02T15:04:25+09:00"
 }

@@ -34,9 +34,9 @@
   {
    "d1": 0.3,
    "d20": null,
-   "d5": null,
+   "d5": 0.5,
    "eventId": "edinet:S100Z41Y",
-   "excess5": null
+   "excess5": -1.8
   }
  ],
  "margin": {
@@ -51,20 +51,23 @@
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-09-30",
-  "atrState": "通常",
-  "distFrom52wHigh": 0.11,
-  "labels": [],
-  "ma20": 2430.4,
-  "ma200": 2345.5,
-  "ma60": 2467.1,
-  "rangePos60": 0.19,
-  "rel20": -2.9,
+  "asOf": "2026-10-02",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.1,
+  "labels": [
+   "20日線の上"
+  ],
+  "ma20": 2416.7,
+  "ma200": 2346.4,
+  "ma60": 2465.9,
+  "rangePos60": 0.24,
+  "rel20": -3.3,
   "rel60": -3.7,
-  "volumeRatio20": 1.02
+  "volumeRatio20": 0.55
  },
  "reasons": [
-  "1.3pt買い増し 5.2%→6.4%"
+  "1.3pt買い増し 5.2%→6.4%",
+  "52週高値まで10%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -81,7 +84,14 @@
    "kind": "EVENT",
    "label": "大幅な買い増し",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z41Y"
+  },
+  {
+   "date": "2026-10-01",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-02T01:01:56+09:00"
+ "updatedAt": "2026-10-02T15:04:25+09:00"
 }

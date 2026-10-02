@@ -10,9 +10,7 @@
   "id": "3626-2026-09-04",
   "overextended": false,
   "setupType": "BREAKOUT",
-  "setups": [
-   "BREAKOUT"
-  ],
+  "setups": [],
   "startedAt": "2026-09-04",
   "status": "STRENGTHENING",
   "statusHistory": [
@@ -57,12 +55,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 2.8,
-  "currentPrice": 3933.0,
+  "benchReturn": 2.7,
+  "currentPrice": 4065.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 10,
+   "pendingDays": 8,
    "stockReturn": null
   },
   "d5": {
@@ -74,37 +72,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 50,
+   "pendingDays": 48,
    "stockReturn": null
   },
-  "excessReturn": -0.3,
+  "excessReturn": 3.2,
   "initialDate": "2026-09-11",
   "initialPrice": 3837.8,
-  "stockReturn": 2.5
+  "stockReturn": 5.9
  },
  "priceSetup": {
-  "asOf": "2026-09-30",
-  "atrState": "低ボラ",
-  "distFrom52wHigh": 0.25,
+  "asOf": "2026-10-02",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.23,
   "labels": [
    "20日線の上",
-   "60日レンジ上位20%",
+   "60日レンジ上位9%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 3925.3,
-  "ma200": 3756.5,
-  "ma60": 3710.6,
-  "rangePos60": 0.8,
-  "rel20": 0.7,
-  "rel60": 22.3,
-  "volumeRatio20": 0.93
+  "ma20": 3930.6,
+  "ma200": 3746.9,
+  "ma60": 3736.1,
+  "rangePos60": 0.91,
+  "rel20": 3.0,
+  "rel60": 23.8,
+  "volumeRatio20": 0.65
  },
  "reasons": [
   "新規大量保有 5.2%（ファースト・イーグル・インベストメント・マネジメント・エルエルシー）",
-  "60日レンジ上位20%",
+  "60日レンジ上位9%",
   "20日線上向き",
-  "TOPIX連動ETF比 +0.7pt（20日）"
+  "TOPIX連動ETF比 +3pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -170,7 +168,14 @@
    "kind": "STATUS",
    "label": "STRENGTHENING",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-01",
+   "detail": "BREAKOUT → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-02T01:01:56+09:00"
+ "updatedAt": "2026-10-02T15:04:25+09:00"
 }

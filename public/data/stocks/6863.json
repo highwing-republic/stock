@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T01:01:45+09:00",
+  "updatedAt": "2026-10-02T15:04:14+09:00",
   "company": {
     "securityCode": "6863",
     "ticker": "6863.T",
@@ -19,9 +19,9 @@
       "holdingChange": -6.22,
       "purpose": "株式会社ニレコと取引関係のある企業が株式会社ニレコ株式の取得により相互間の親睦関係増進に寄与する。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 2.29,
-      "marketExcessReturn": null,
+      "priceChange": -3.08,
+      "volumeRatio": 2.1,
+      "marketExcessReturn": -4.66,
       "signalScore": 0,
       "signalReasons": [
         "出来高2倍以上",
@@ -31,11 +31,11 @@
       "stockUnreacted": false,
       "metrics": {
         "return1d": 0.36,
-        "return5d": null,
+        "return5d": -3.08,
         "return20d": null,
-        "returnCurrent": 1.98,
-        "volumeRatio": 2.29,
-        "marketExcessReturn": null
+        "returnCurrent": -3.08,
+        "volumeRatio": 2.1,
+        "marketExcessReturn": -4.66
       }
     },
     {
@@ -51,22 +51,23 @@
       "holdingChange": null,
       "purpose": "株式会社ニレコと取引関係のある企業が株式会社ニレコ株式取得により相互間の親睦関係増進に寄与する。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 2.29,
-      "marketExcessReturn": null,
-      "signalScore": 40,
+      "priceChange": -3.08,
+      "volumeRatio": 2.1,
+      "marketExcessReturn": -4.66,
+      "signalScore": 50,
       "signalReasons": [
         "新規大量保有",
-        "出来高2倍以上"
+        "出来高2倍以上",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": 0.36,
-        "return5d": null,
+        "return5d": -3.08,
         "return20d": null,
-        "returnCurrent": 1.98,
-        "volumeRatio": 2.29,
-        "marketExcessReturn": null
+        "returnCurrent": -3.08,
+        "volumeRatio": 2.1,
+        "marketExcessReturn": -4.66
       }
     }
   ],
@@ -2767,9 +2768,19 @@
       "open": 1115.0,
       "high": 1124.0,
       "low": 1097.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1100.0,
+      "adj_close": 1100.0,
       "volume": 139100
+    },
+    {
+      "ticker": "6863.T",
+      "trade_date": "2026-10-02",
+      "open": 1100.0,
+      "high": 1106.0,
+      "low": 1065.0,
+      "close": 1072.0,
+      "adj_close": 1072.0,
+      "volume": 164200
     }
   ],
   "benchmark": [
@@ -6529,9 +6540,19 @@
       "open": 430.79998779296875,
       "high": 435.29998779296875,
       "low": 428.29998779296875,
-      "close": null,
-      "adj_close": null,
+      "close": 434.3999938964844,
+      "adj_close": 434.3999938964844,
       "volume": 16013090
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-02",
+      "open": 430.6000061035156,
+      "high": 433.0,
+      "low": 429.79998779296875,
+      "close": 431.5,
+      "adj_close": 431.5,
+      "volume": 14683600
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

@@ -81,19 +81,19 @@
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 16,
+   "pendingDays": 14,
    "stockReturn": null
   },
   "d5": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 1,
-   "stockReturn": null
+   "benchReturn": 2.3,
+   "excessReturn": -1.7,
+   "pendingDays": 0,
+   "stockReturn": 0.6
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 56,
+   "pendingDays": 54,
    "stockReturn": null
   },
   "excessReturn": -2.7,
@@ -102,25 +102,22 @@
   "stockReturn": -1.9
  },
  "priceSetup": {
-  "asOf": "2026-09-30",
+  "asOf": "2026-10-02",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.37,
+  "distFrom52wHigh": 0.38,
   "labels": [
-   "20日線の上",
    "20日線が上向き"
   ],
-  "ma20": 4889.8,
-  "ma200": 5746.1,
-  "ma60": 5136.7,
-  "rangePos60": 0.21,
-  "rel20": 4.0,
-  "rel60": -19.0,
-  "volumeRatio20": 1.15
+  "ma20": 4895.1,
+  "ma200": 5739.8,
+  "ma60": 5101.3,
+  "rangePos60": 0.17,
+  "rel20": -0.3,
+  "rel60": -21.0,
+  "volumeRatio20": 0.36
  },
  "reasons": [
-  "新規大量保有 5.3%（ジェー・ピー・モルガン・セキュリティーズ・ピーエルシー）",
-  "20日線を回復",
-  "TOPIX連動ETF比 +4pt（20日）"
+  "新規大量保有 5.3%（ジェー・ピー・モルガン・セキュリティーズ・ピーエルシー）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -179,7 +176,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-02",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-02T01:01:56+09:00"
+ "updatedAt": "2026-10-02T15:04:25+09:00"
 }

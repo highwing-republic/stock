@@ -62,9 +62,9 @@
   {
    "d1": 1.0,
    "d20": null,
-   "d5": null,
+   "d5": 8.3,
    "eventId": "edinet:S100Z3O8",
-   "excess5": null
+   "excess5": 6.0
   }
  ],
  "margin": {
@@ -79,25 +79,26 @@
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-09-30",
+  "asOf": "2026-10-02",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.27,
+  "distFrom52wHigh": 0.24,
   "labels": [
    "20日線の上",
-   "60日レンジ上位20%",
+   "60日レンジ上位6%",
    "60日線の上"
   ],
-  "ma20": 2586.0,
-  "ma200": 2494.8,
-  "ma60": 2436.1,
-  "rangePos60": 0.8,
-  "rel20": -2.8,
-  "rel60": 6.0,
-  "volumeRatio20": 0.76
+  "ma20": 2587.7,
+  "ma200": 2502.0,
+  "ma60": 2449.8,
+  "rangePos60": 0.94,
+  "rel20": 5.3,
+  "rel60": 17.4,
+  "volumeRatio20": 0.86
  },
  "reasons": [
   "新規大量保有 5.1%（アセットマネジメントＯｎｅ株式会社）",
-  "60日レンジ上位20%"
+  "60日レンジ上位6%",
+  "TOPIX連動ETF比 +5.3pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -149,7 +150,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-02",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-02T01:01:56+09:00"
+ "updatedAt": "2026-10-02T15:04:25+09:00"
 }

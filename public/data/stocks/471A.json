@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T01:01:45+09:00",
+  "updatedAt": "2026-10-02T15:04:14+09:00",
   "company": {
     "securityCode": "471A",
     "ticker": "471A.T",
@@ -7,16 +7,16 @@
   },
   "events": [
     {
-      "docId": "S100Z3AA",
+      "docId": "S100Z5M3",
       "ticker": "471A.T",
       "securityCode": "471A",
       "companyName": "ＮＳグループ株式会社",
-      "submitDatetime": "2026-09-30 11:59",
+      "submitDatetime": "2026-10-02 14:11",
       "filerName": "大谷　彰宏",
-      "reportType": "change",
-      "holdingRatio": 50.97,
+      "reportType": "correction",
+      "holdingRatio": 51.8,
       "previousHoldingRatio": 52.13,
-      "holdingChange": -1.16,
+      "holdingChange": -0.33,
       "purpose": "安定株主として保有しております。なお、発行会社の普通株式の流動性確保の目的で、提出者の保有する発行会社の普通株式を株式市場において売却することを予定しております。 / 安定株主として保有しております。",
       "importantProposal": false,
       "priceChange": null,
@@ -31,8 +31,38 @@
         "return1d": null,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.06,
+        "returnCurrent": -2.02,
         "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
+    {
+      "docId": "S100Z3AA",
+      "ticker": "471A.T",
+      "securityCode": "471A",
+      "companyName": "ＮＳグループ株式会社",
+      "submitDatetime": "2026-09-30 11:59",
+      "filerName": "大谷　彰宏",
+      "reportType": "change",
+      "holdingRatio": 50.97,
+      "previousHoldingRatio": 52.13,
+      "holdingChange": -1.16,
+      "purpose": "安定株主として保有しております。なお、発行会社の普通株式の流動性確保の目的で、提出者の保有する発行会社の普通株式を株式市場において売却することを予定しております。 / 安定株主として保有しております。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": 1.15,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": -0.39,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -2.4,
+        "volumeRatio": 1.15,
         "marketExcessReturn": null
       }
     }
@@ -1954,9 +1984,19 @@
       "open": 1536.0,
       "high": 1544.0,
       "low": 1517.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1534.0,
+      "adj_close": 1534.0,
       "volume": 207600
+    },
+    {
+      "ticker": "471A.T",
+      "trade_date": "2026-10-02",
+      "open": 1526.0,
+      "high": 1526.0,
+      "low": 1498.0,
+      "close": 1503.0,
+      "adj_close": 1503.0,
+      "volume": 282200
     }
   ],
   "benchmark": [
@@ -5716,9 +5756,19 @@
       "open": 430.79998779296875,
       "high": 435.29998779296875,
       "low": 428.29998779296875,
-      "close": null,
-      "adj_close": null,
+      "close": 434.3999938964844,
+      "adj_close": 434.3999938964844,
       "volume": 16013090
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-02",
+      "open": 430.6000061035156,
+      "high": 433.0,
+      "low": 429.79998779296875,
+      "close": 431.5,
+      "adj_close": 431.5,
+      "volume": 14683600
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"
