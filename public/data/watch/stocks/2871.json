@@ -35,7 +35,7 @@
    {
     "date": "2026-10-02",
     "from": "STRENGTHENING",
-    "reason_code": "BELOW_MA60",
+    "reason_code": "BELOW_MA20",
     "to": "BROKEN"
    }
   ],
@@ -100,18 +100,18 @@
   }
  ],
  "margin": {
-  "asOf": "2026-09-30",
-  "buyBalance": 165800,
+  "asOf": "2026-10-01",
+  "buyBalance": 155100,
   "buyChangePct": null,
   "labels": [],
-  "ratio": 1.56,
-  "sellBalance": 106200,
+  "ratio": 1.45,
+  "sellBalance": 107300,
   "sellChangePct": null
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 2.0,
-  "currentPrice": 2071.5,
+  "benchReturn": 1.8,
+  "currentPrice": 2087.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
@@ -130,25 +130,25 @@
    "pendingDays": 47,
    "stockReturn": null
   },
-  "excessReturn": -4.7,
+  "excessReturn": -3.7,
   "initialDate": "2026-09-10",
   "initialPrice": 2128.2,
-  "stockReturn": -2.7
+  "stockReturn": -1.9
  },
  "priceSetup": {
   "asOf": "2026-10-02",
   "atrState": "通常",
-  "distFrom52wHigh": 0.12,
+  "distFrom52wHigh": 0.11,
   "labels": [
    "20日線が上向き"
   ],
-  "ma20": 2145.1,
+  "ma20": 2145.9,
   "ma200": 1985.2,
-  "ma60": 2142.0,
-  "rangePos60": 0.37,
-  "rel20": -1.9,
-  "rel60": -5.0,
-  "volumeRatio20": 0.66
+  "ma60": 2142.3,
+  "rangePos60": 0.4,
+  "rel20": -0.9,
+  "rel60": -4.0,
+  "volumeRatio20": 1.17
  },
  "reasons": [
   "1.1pt買い増し 9.2%→10.4%",
@@ -284,11 +284,11 @@
   },
   {
    "date": "2026-10-02",
-   "detail": "60日線を下回った",
+   "detail": "20日線を連続で下回った",
    "kind": "STATUS",
    "label": "BROKEN",
    "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-02T15:04:25+09:00"
+ "updatedAt": "2026-10-02T19:06:23+09:00"
 }

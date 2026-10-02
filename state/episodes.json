@@ -217,6 +217,14 @@
    "event_id": "edinet:S100Z0FC"
   },
   {
+   "episode_id": "646A-2026-10-02",
+   "event_id": "edinet:S100Z5EP"
+  },
+  {
+   "episode_id": "646A-2026-10-02",
+   "event_id": "edinet:S100Z5EV"
+  },
+  {
    "episode_id": "6506-2026-09-25",
    "event_id": "edinet:S100Z3N3"
   },
@@ -1059,7 +1067,7 @@
     {
      "date": "2026-10-02",
      "from": "STRENGTHENING",
-     "reason_code": "BELOW_MA60",
+     "reason_code": "BELOW_MA20",
      "to": "BROKEN"
     }
    ],
@@ -2081,9 +2089,7 @@
    "primary_trigger_event_id": "edinet:S100Z1GA",
    "security_code": "7173",
    "setup_type": "RECOVERY",
-   "setups": [
-    "RECOVERY"
-   ],
+   "setups": [],
    "started_at": "2026-09-15",
    "status": "WATCH",
    "status_history": [
@@ -2239,7 +2245,7 @@
    "event_ids": [
     "edinet:S100Z2D9"
    ],
-   "initial_bench": 431.20001220703125,
+   "initial_bench": 430.20001220703125,
    "initial_price": 4411.0,
    "last_trigger_at": "2026-09-17",
    "overextended": false,
@@ -3079,6 +3085,36 @@
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z5OG",
    "security_code": "5741",
+   "setup_type": null,
+   "setups": [],
+   "started_at": "2026-10-02",
+   "status": "CANDIDATE",
+   "status_history": [
+    {
+     "date": "2026-10-02",
+     "from": null,
+     "reason_code": "TRIGGER_EVENT",
+     "to": "CANDIDATE"
+    }
+   ],
+   "watch_started_at": null
+  },
+  {
+   "base_close": 237.1999969482422,
+   "close_reason": null,
+   "closed_at": null,
+   "company_name": "クラサスケミカル",
+   "episode_id": "646A-2026-10-02",
+   "event_ids": [
+    "edinet:S100Z5EP",
+    "edinet:S100Z5EV"
+   ],
+   "initial_bench": null,
+   "initial_price": null,
+   "last_trigger_at": "2026-10-02",
+   "overextended": false,
+   "primary_trigger_event_id": "edinet:S100Z5EP",
+   "security_code": "646A",
    "setup_type": null,
    "setups": [],
    "started_at": "2026-10-02",
