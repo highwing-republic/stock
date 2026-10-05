@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T19:51:44+09:00",
+  "updatedAt": "2026-10-06T00:14:45+09:00",
   "company": {
     "securityCode": "7284",
     "ticker": "7284.T",
@@ -20,19 +20,21 @@
       "purpose": "純投資 / 該当事項なし",
       "importantProposal": true,
       "priceChange": null,
-      "volumeRatio": 1.95,
+      "volumeRatio": 3.1,
       "marketExcessReturn": null,
-      "signalScore": 20,
+      "signalScore": 35,
       "signalReasons": [
-        "重要提案行為あり"
+        "重要提案行為あり",
+        "出来高2倍以上",
+        "出来高3倍以上"
       ],
       "stockUnreacted": false,
       "metrics": {
         "return1d": -0.51,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.0,
-        "volumeRatio": 1.95,
+        "returnCurrent": -0.51,
+        "volumeRatio": 3.1,
         "marketExcessReturn": null
       }
     },
@@ -61,7 +63,7 @@
         "return1d": -0.26,
         "return5d": 0.86,
         "return20d": null,
-        "returnCurrent": 0.43,
+        "returnCurrent": -0.09,
         "volumeRatio": 1.99,
         "marketExcessReturn": 0.01
       }
@@ -2854,8 +2856,8 @@
       "open": 1164.0,
       "high": 1169.0,
       "low": 1160.0,
-      "close": 1169.0,
-      "adj_close": 1169.0,
+      "close": null,
+      "adj_close": null,
       "volume": 1300
     }
   ],
