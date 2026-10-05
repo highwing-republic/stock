@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T00:24:40+09:00",
+  "updatedAt": "2026-10-05T15:05:27+09:00",
   "company": {
     "securityCode": "2212",
     "ticker": "2212.T",
@@ -7,13 +7,13 @@
   },
   "events": [
     {
-      "docId": "S100Z3QF",
+      "docId": "S100Z69S",
       "ticker": "2212.T",
       "securityCode": "2212",
       "companyName": "山崎製パン株式会社",
-      "submitDatetime": "2026-10-02 15:52",
+      "submitDatetime": "2026-10-05 14:30",
       "filerName": "飯島興産株式会社",
-      "reportType": "change",
+      "reportType": "correction",
       "holdingRatio": 11.39,
       "previousHoldingRatio": 11.27,
       "holdingChange": 0.12,
@@ -29,8 +29,36 @@
         "return1d": null,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.0,
+        "returnCurrent": -0.48,
         "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
+    {
+      "docId": "S100Z3QF",
+      "ticker": "2212.T",
+      "securityCode": "2212",
+      "companyName": "山崎製パン株式会社",
+      "submitDatetime": "2026-10-02 15:52",
+      "filerName": "飯島興産株式会社",
+      "reportType": "change",
+      "holdingRatio": 11.39,
+      "previousHoldingRatio": 11.27,
+      "holdingChange": 0.12,
+      "purpose": "長期間にわたる投資利益確保のため",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": 0.59,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": -2.01,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -2.01,
+        "volumeRatio": 0.59,
         "marketExcessReturn": null
       }
     }
@@ -3802,9 +3830,19 @@
       "open": 3530.0,
       "high": 3545.0,
       "low": 3492.0,
-      "close": null,
-      "adj_close": null,
+      "close": 3526.0,
+      "adj_close": 3526.0,
       "volume": 513100
+    },
+    {
+      "ticker": "2212.T",
+      "trade_date": "2026-10-05",
+      "open": 3535.0,
+      "high": 3536.0,
+      "low": 3490.0,
+      "close": 3509.0,
+      "adj_close": 3509.0,
+      "volume": 386800
     }
   ],
   "benchmark": [
@@ -7574,9 +7612,19 @@
       "open": 430.6000061035156,
       "high": 433.0,
       "low": 429.79998779296875,
-      "close": null,
-      "adj_close": null,
+      "close": 430.20001220703125,
+      "adj_close": 430.20001220703125,
       "volume": 18308250
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-05",
+      "open": 434.8999938964844,
+      "high": 435.5,
+      "low": 433.3999938964844,
+      "close": 435.20001220703125,
+      "adj_close": 435.20001220703125,
+      "volume": 8998150
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

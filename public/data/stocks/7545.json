@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T00:24:40+09:00",
+  "updatedAt": "2026-10-05T15:05:27+09:00",
   "company": {
     "securityCode": "7545",
     "ticker": "7545.T",
@@ -32,7 +32,7 @@
         "return1d": 0.59,
         "return5d": -0.25,
         "return20d": -2.37,
-        "returnCurrent": -2.96,
+        "returnCurrent": -4.0,
         "volumeRatio": 0.47,
         "marketExcessReturn": -2.84
       }
@@ -63,7 +63,7 @@
         "return1d": -0.1,
         "return5d": -1.29,
         "return20d": 0.45,
-        "returnCurrent": -1.41,
+        "returnCurrent": -2.46,
         "volumeRatio": 0.86,
         "marketExcessReturn": -0.39
       }
@@ -94,7 +94,7 @@
         "return1d": -1.51,
         "return5d": -4.16,
         "return20d": 4.06,
-        "returnCurrent": 3.16,
+        "returnCurrent": 2.06,
         "volumeRatio": 1.69,
         "marketExcessReturn": -3.4
       }
@@ -2874,12 +2874,22 @@
     {
       "ticker": "7545.T",
       "trade_date": "2026-10-02",
-      "open": 1888.0,
+      "open": 1881.0,
       "high": 1929.0,
       "low": 1870.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1920.0,
+      "adj_close": 1920.0,
       "volume": 542500
+    },
+    {
+      "ticker": "7545.T",
+      "trade_date": "2026-10-05",
+      "open": 1922.0,
+      "high": 1952.0,
+      "low": 1912.0,
+      "close": 1946.0,
+      "adj_close": 1946.0,
+      "volume": 220600
     }
   ],
   "benchmark": [
@@ -6649,9 +6659,19 @@
       "open": 430.6000061035156,
       "high": 433.0,
       "low": 429.79998779296875,
-      "close": null,
-      "adj_close": null,
+      "close": 430.20001220703125,
+      "adj_close": 430.20001220703125,
       "volume": 18308250
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-05",
+      "open": 434.8999938964844,
+      "high": 435.5,
+      "low": 433.3999938964844,
+      "close": 435.20001220703125,
+      "adj_close": 435.20001220703125,
+      "volume": 8998150
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

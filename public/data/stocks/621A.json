@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T00:24:40+09:00",
+  "updatedAt": "2026-10-05T15:05:27+09:00",
   "company": {
     "securityCode": "621A",
     "ticker": "621A.T",
@@ -20,7 +20,7 @@
       "purpose": "発行会社の代表取締役社長の資産管理会社であり、安定株主として保有しております。 / 発行会社の創業者かつ代表取締役社長であり、安定株主として保有しております。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": 0.83,
+      "volumeRatio": 0.47,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [],
@@ -29,8 +29,8 @@
         "return1d": -5.75,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -11.19,
-        "volumeRatio": 0.83,
+        "returnCurrent": -13.35,
+        "volumeRatio": 0.47,
         "marketExcessReturn": null
       }
     },
@@ -47,21 +47,22 @@
       "holdingChange": null,
       "purpose": "純投資（投資育成目的で保有した株券等）",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.77,
-      "marketExcessReturn": null,
-      "signalScore": 30,
+      "priceChange": -3.58,
+      "volumeRatio": 0.51,
+      "marketExcessReturn": -4.72,
+      "signalScore": 40,
       "signalReasons": [
-        "新規大量保有"
+        "新規大量保有",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": 5.64,
-        "return5d": null,
+        "return5d": -3.58,
         "return20d": null,
-        "returnCurrent": -1.17,
-        "volumeRatio": 0.77,
-        "marketExcessReturn": null
+        "returnCurrent": -3.58,
+        "volumeRatio": 0.51,
+        "marketExcessReturn": -4.72
       }
     },
     {
@@ -77,21 +78,22 @@
       "holdingChange": null,
       "purpose": "純投資",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.83,
-      "marketExcessReturn": null,
-      "signalScore": 30,
+      "priceChange": -6.05,
+      "volumeRatio": 0.7,
+      "marketExcessReturn": -7.32,
+      "signalScore": 40,
       "signalReasons": [
-        "新規大量保有"
+        "新規大量保有",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": 4.12,
-        "return5d": null,
+        "return5d": -6.05,
         "return20d": null,
-        "returnCurrent": -7.53,
-        "volumeRatio": 0.83,
-        "marketExcessReturn": null
+        "returnCurrent": -9.78,
+        "volumeRatio": 0.7,
+        "marketExcessReturn": -7.32
       }
     },
     {
@@ -119,7 +121,7 @@
         "return1d": 6.91,
         "return5d": 5.66,
         "return20d": null,
-        "returnCurrent": 5.66,
+        "returnCurrent": 3.09,
         "volumeRatio": 0.75,
         "marketExcessReturn": 3.76
       }
@@ -222,9 +224,19 @@
       "open": 1450.0,
       "high": 1529.0,
       "low": 1390.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1460.0,
+      "adj_close": 1460.0,
       "volume": 1277500
+    },
+    {
+      "ticker": "621A.T",
+      "trade_date": "2026-10-05",
+      "open": 1460.0,
+      "high": 1491.0,
+      "low": 1396.0,
+      "close": 1402.0,
+      "adj_close": 1402.0,
+      "volume": 476200
     }
   ],
   "benchmark": [
@@ -3994,9 +4006,19 @@
       "open": 430.6000061035156,
       "high": 433.0,
       "low": 429.79998779296875,
-      "close": null,
-      "adj_close": null,
+      "close": 430.20001220703125,
+      "adj_close": 430.20001220703125,
       "volume": 18308250
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-05",
+      "open": 434.8999938964844,
+      "high": 435.5,
+      "low": 433.3999938964844,
+      "close": 435.20001220703125,
+      "adj_close": 435.20001220703125,
+      "volume": 8998150
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

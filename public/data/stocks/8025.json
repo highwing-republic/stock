@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T00:24:40+09:00",
+  "updatedAt": "2026-10-05T15:05:27+09:00",
   "company": {
     "securityCode": "8025",
     "ticker": "8025.T",
@@ -20,19 +20,21 @@
       "purpose": "投資及び経営陣に対する経営の助言並びに状況に応じて重要提案行為等を行うこと。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 5.23,
       "marketExcessReturn": null,
-      "signalScore": 30,
+      "signalScore": 45,
       "signalReasons": [
-        "新規大量保有"
+        "新規大量保有",
+        "出来高2倍以上",
+        "出来高3倍以上"
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": -0.21,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.0,
-        "volumeRatio": null,
+        "returnCurrent": -0.21,
+        "volumeRatio": 5.23,
         "marketExcessReturn": null
       }
     }
@@ -2694,9 +2696,19 @@
       "open": 1403.0,
       "high": 1412.0,
       "low": 1400.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1400.0,
+      "adj_close": 1400.0,
       "volume": 1400
+    },
+    {
+      "ticker": "8025.T",
+      "trade_date": "2026-10-05",
+      "open": 1433.0,
+      "high": 1434.0,
+      "low": 1400.0,
+      "close": 1400.0,
+      "adj_close": 1400.0,
+      "volume": 6200
     }
   ],
   "benchmark": [
@@ -6466,9 +6478,19 @@
       "open": 430.6000061035156,
       "high": 433.0,
       "low": 429.79998779296875,
-      "close": null,
-      "adj_close": null,
+      "close": 430.20001220703125,
+      "adj_close": 430.20001220703125,
       "volume": 18308250
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-05",
+      "open": 434.8999938964844,
+      "high": 435.5,
+      "low": 433.3999938964844,
+      "close": 435.20001220703125,
+      "adj_close": 435.20001220703125,
+      "volume": 8998150
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

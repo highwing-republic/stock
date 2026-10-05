@@ -1,0 +1,73 @@
+{
+ "company": {
+  "name": "野村総合研究所",
+  "securityCode": "4307",
+  "tradingViewSymbol": "TSE:4307"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "4307-2026-10-05",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-10-05",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-10-05",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": -2.1,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z66E",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-01",
+  "buyBalance": 695100,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 21.32,
+  "sellBalance": 32600,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-10-05",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.22,
+  "labels": [],
+  "ma20": 5010.9,
+  "ma200": 4853.4,
+  "ma60": 4993.8,
+  "rangePos60": 0.46,
+  "rel20": -5.1,
+  "rel60": -3.4,
+  "volumeRatio20": 0.5
+ },
+ "reasons": [
+  "1pt買い増し 26.8%→27.8%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-10-05",
+   "detail": "26.78% → 27.79%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z66E"
+  }
+ ],
+ "updatedAt": "2026-10-05T15:05:38+09:00"
+}

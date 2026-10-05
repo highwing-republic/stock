@@ -14,7 +14,7 @@
    "RECOVERY"
   ],
   "startedAt": "2026-09-24",
-  "status": "WATCH",
+  "status": "STRENGTHENING",
   "statusHistory": [
    {
     "date": "2026-09-24",
@@ -27,6 +27,12 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
+   },
+   {
+    "date": "2026-10-02",
+    "from": "WATCH",
+    "reason_code": "INCREASE_EVENT",
+    "to": "STRENGTHENING"
    }
   ],
   "watchStartedAt": "2026-10-01"
@@ -73,6 +79,13 @@
    "d5": 6.1,
    "eventId": "edinet:S100Z352",
    "excess5": 4.9
+  },
+  {
+   "d1": 1.2,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z5RY",
+   "excess5": null
   }
  ],
  "margin": {
@@ -86,53 +99,53 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 0.0,
-  "currentPrice": 2191.0,
+  "benchReturn": 0.3,
+  "currentPrice": 2252.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 20,
+   "pendingDays": 18,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 5,
+   "pendingDays": 3,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 60,
+   "pendingDays": 58,
    "stockReturn": null
   },
-  "excessReturn": 0.0,
+  "excessReturn": 2.5,
   "initialDate": "2026-10-01",
   "initialPrice": 2191.0,
-  "stockReturn": 0.0
+  "stockReturn": 2.8
  },
  "priceSetup": {
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-05",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.36,
+  "distFrom52wHigh": 0.34,
   "labels": [
    "20日線の上",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 1980.3,
-  "ma200": 2146.3,
-  "ma60": 2130.1,
-  "rangePos60": 0.38,
-  "rel20": 10.8,
-  "rel60": -23.7,
-  "volumeRatio20": 0.82
+  "ma20": 2009.4,
+  "ma200": 2146.0,
+  "ma60": 2112.8,
+  "rangePos60": 0.43,
+  "rel20": 15.0,
+  "rel60": -17.5,
+  "volumeRatio20": 0.66
  },
  "reasons": [
-  "0.1pt買い増し 6.9%→6.9%",
+  "2pt買い増し 8.7%→10.7%",
   "30日以内に2回買い増し",
   "20日線上向き",
-  "TOPIX連動ETF比 +10.8pt（20日）"
+  "TOPIX連動ETF比 +15pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -219,7 +232,14 @@
    "kind": "STATUS",
    "label": "WATCH",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-02",
+   "detail": "大量保有の買い増しを確認",
+   "kind": "STATUS",
+   "label": "STRENGTHENING",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-03T00:24:51+09:00"
+ "updatedAt": "2026-10-05T15:05:38+09:00"
 }

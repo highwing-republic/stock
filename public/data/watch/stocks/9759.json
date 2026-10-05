@@ -104,12 +104,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 2.6,
-  "currentPrice": 2964.0,
+  "benchReturn": 2.9,
+  "currentPrice": 2943.5,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 10,
+   "pendingDays": 8,
    "stockReturn": null
   },
   "d5": {
@@ -121,35 +121,35 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 50,
+   "pendingDays": 48,
    "stockReturn": null
   },
-  "excessReturn": -0.2,
+  "excessReturn": -1.2,
   "initialDate": "2026-09-14",
   "initialPrice": 2895.0,
-  "stockReturn": 2.4
+  "stockReturn": 1.7
  },
  "priceSetup": {
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-05",
   "atrState": "通常",
-  "distFrom52wHigh": 0.16,
+  "distFrom52wHigh": 0.17,
   "labels": [
    "20日線の上",
-   "60日レンジ上位12%",
+   "60日レンジ上位22%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2889.0,
-  "ma200": 2851.2,
-  "ma60": 2809.6,
-  "rangePos60": 0.88,
-  "rel20": -0.1,
-  "rel60": 12.4,
-  "volumeRatio20": 0.67
+  "ma20": 2891.8,
+  "ma200": 2846.5,
+  "ma60": 2821.6,
+  "rangePos60": 0.78,
+  "rel20": -0.8,
+  "rel60": 10.1,
+  "volumeRatio20": 0.48
  },
  "reasons": [
   "1.3pt買い増し 5.3%→6.6%",
-  "60日レンジ上位12%",
+  "60日レンジ上位22%",
   "20日線上向き"
  ],
  "schemaVersion": 1,
@@ -279,7 +279,14 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-02",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-03T00:24:51+09:00"
+ "updatedAt": "2026-10-05T15:05:38+09:00"
 }

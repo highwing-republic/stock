@@ -5,14 +5,14 @@
   "tradingViewSymbol": "TSE:8601"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "BROKEN",
+  "closedAt": "2026-10-02",
   "id": "8601-2026-09-07",
   "overextended": false,
   "setupType": "BREAKOUT",
   "setups": [],
   "startedAt": "2026-09-07",
-  "status": "BROKEN",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-09-07",
@@ -37,6 +37,12 @@
     "from": "STRENGTHENING",
     "reason_code": "BELOW_MA20",
     "to": "BROKEN"
+   },
+   {
+    "date": "2026-10-02",
+    "from": "BROKEN",
+    "reason_code": "BROKEN",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-09-07"
@@ -61,12 +67,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 1.0,
-  "currentPrice": 1802.5,
+  "benchReturn": 0.0,
+  "currentPrice": 1751.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 5,
+   "pendingDays": 3,
    "stockReturn": null
   },
   "d5": {
@@ -78,30 +84,30 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 45,
+   "pendingDays": 43,
    "stockReturn": null
   },
-  "excessReturn": -4.4,
+  "excessReturn": -6.2,
   "initialDate": "2026-09-07",
   "initialPrice": 1866.5,
-  "stockReturn": -3.4
+  "stockReturn": -6.2
  },
  "priceSetup": {
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-05",
   "atrState": "通常",
-  "distFrom52wHigh": 0.05,
+  "distFrom52wHigh": 0.08,
   "labels": [],
-  "ma20": 1834.5,
-  "ma200": 1587.0,
-  "ma60": 1813.8,
-  "rangePos60": 0.61,
-  "rel20": -2.4,
-  "rel60": 5.6,
-  "volumeRatio20": 1.19
+  "ma20": 1825.5,
+  "ma200": 1591.6,
+  "ma60": 1815.5,
+  "rangePos60": 0.18,
+  "rel20": -6.4,
+  "rel60": 0.1,
+  "volumeRatio20": 0.71
  },
  "reasons": [
   "1.1pt買い増し 7.7%→8.7%",
-  "52週高値まで5%"
+  "52週高値まで8%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -216,7 +222,14 @@
    "kind": "STATUS",
    "label": "BROKEN",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-02",
+   "detail": "Price Setupが崩れた",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-03T00:24:51+09:00"
+ "updatedAt": "2026-10-05T15:05:38+09:00"
 }

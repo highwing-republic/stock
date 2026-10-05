@@ -83,51 +83,50 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 1.0,
-  "currentPrice": 4735.0,
+  "benchReturn": 1.2,
+  "currentPrice": 4680.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 16,
+   "pendingDays": 14,
    "stockReturn": null
   },
   "d5": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 1,
-   "stockReturn": null
+   "benchReturn": -0.0,
+   "excessReturn": -1.3,
+   "pendingDays": 0,
+   "stockReturn": -1.3
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 56,
+   "pendingDays": 54,
    "stockReturn": null
   },
-  "excessReturn": -3.4,
+  "excessReturn": -4.7,
   "initialDate": "2026-09-25",
   "initialPrice": 4849.4,
-  "stockReturn": -2.4
+  "stockReturn": -3.5
  },
  "priceSetup": {
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-05",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.21,
+  "distFrom52wHigh": 0.22,
   "labels": [
-   "60日レンジ上位25%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 4758.0,
-  "ma200": 4262.6,
-  "ma60": 4409.0,
-  "rangePos60": 0.75,
-  "rel20": -1.8,
-  "rel60": 29.6,
-  "volumeRatio20": 0.6
+  "ma20": 4781.6,
+  "ma200": 4266.6,
+  "ma60": 4437.3,
+  "rangePos60": 0.7,
+  "rel20": 2.4,
+  "rel60": 10.7,
+  "volumeRatio20": 0.74
  },
  "reasons": [
   "新規大量保有 5.3%（野村證券株式会社）",
-  "60日レンジ上位25%"
+  "TOPIX連動ETF比 +2.4pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -207,7 +206,35 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-02",
+   "detail": "なし → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-02",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-02",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-05",
+   "detail": "BREAKOUT → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-03T00:24:51+09:00"
+ "updatedAt": "2026-10-05T15:05:38+09:00"
 }

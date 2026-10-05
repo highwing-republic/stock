@@ -9,19 +9,28 @@
   "closedAt": null,
   "id": "5805-2026-09-25",
   "overextended": false,
-  "setupType": null,
-  "setups": [],
+  "setupType": "BREAKOUT",
+  "setups": [
+   "BREAKOUT",
+   "RECOVERY"
+  ],
   "startedAt": "2026-09-25",
-  "status": "CANDIDATE",
+  "status": "WATCH",
   "statusHistory": [
    {
     "date": "2026-09-25",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-10-05",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
    }
   ],
-  "watchStartedAt": null
+  "watchStartedAt": "2026-10-05"
  },
  "eventReactions": [
   {
@@ -77,27 +86,55 @@
   "sellChangePct": null
  },
  "pastEpisodes": [],
- "performance": null,
+ "performance": {
+  "benchReturn": 0.0,
+  "currentPrice": 2842.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 20,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 5,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 60,
+   "stockReturn": null
+  },
+  "excessReturn": 0.0,
+  "initialDate": "2026-10-05",
+  "initialPrice": 2842.0,
+  "stockReturn": 0.0
+ },
  "priceSetup": {
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-05",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.26,
+  "distFrom52wHigh": 0.23,
   "labels": [
    "20日線の上",
-   "60日レンジ上位14%",
+   "60日レンジ上位9%",
+   "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2582.0,
-  "ma200": 2498.3,
-  "ma60": 2442.2,
-  "rangePos60": 0.86,
-  "rel20": -3.0,
-  "rel60": 11.6,
-  "volumeRatio20": 0.99
+  "ma20": 2602.7,
+  "ma200": 2505.7,
+  "ma60": 2457.9,
+  "rangePos60": 0.91,
+  "rel20": 9.5,
+  "rel60": 19.2,
+  "volumeRatio20": 0.8
  },
  "reasons": [
   "新規大量保有 5.1%（アセットマネジメントＯｎｅ株式会社）",
-  "60日レンジ上位14%"
+  "60日レンジ上位9%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +9.5pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -149,7 +186,28 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-02",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-05",
+   "detail": "なし → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-05",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-03T00:24:51+09:00"
+ "updatedAt": "2026-10-05T15:05:38+09:00"
 }

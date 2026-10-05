@@ -1,11 +1,43 @@
 {
-  "updatedAt": "2026-10-03T00:24:40+09:00",
+  "updatedAt": "2026-10-05T15:05:27+09:00",
   "company": {
     "securityCode": "5838",
     "ticker": "5838.T",
     "name": "楽天銀行株式会社"
   },
   "events": [
+    {
+      "docId": "S100Z5VZ",
+      "ticker": "5838.T",
+      "securityCode": "5838",
+      "companyName": "楽天銀行株式会社",
+      "submitDatetime": "2026-10-05 11:30",
+      "filerName": "楽天グループ株式会社",
+      "reportType": "change",
+      "holdingRatio": 72.35,
+      "previousHoldingRatio": 49.27,
+      "holdingChange": 23.08,
+      "purpose": "安定株主として保有。",
+      "importantProposal": true,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 50,
+      "signalReasons": [
+        "1pt以上買い増し",
+        "2pt以上買い増し",
+        "重要提案行為あり"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 1.83,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z07S",
       "ticker": "5838.T",
@@ -31,7 +63,7 @@
         "return1d": 5.88,
         "return5d": 4.55,
         "return20d": null,
-        "returnCurrent": 0.83,
+        "returnCurrent": 1.13,
         "volumeRatio": 0.92,
         "marketExcessReturn": 4.97
       }
@@ -59,7 +91,7 @@
         "return1d": -5.17,
         "return5d": 0.94,
         "return20d": -2.08,
-        "returnCurrent": 0.51,
+        "returnCurrent": 0.81,
         "volumeRatio": 0.78,
         "marketExcessReturn": 1.59
       }
@@ -87,7 +119,7 @@
         "return1d": -0.72,
         "return5d": -3.12,
         "return20d": 7.6,
-        "returnCurrent": 22.84,
+        "returnCurrent": 23.21,
         "volumeRatio": 0.37,
         "marketExcessReturn": -3.21
       }
@@ -3860,9 +3892,19 @@
       "open": 6240.0,
       "high": 6313.0,
       "low": 6215.0,
-      "close": null,
-      "adj_close": null,
+      "close": 6245.0,
+      "adj_close": 6245.0,
       "volume": 889200
+    },
+    {
+      "ticker": "5838.T",
+      "trade_date": "2026-10-05",
+      "open": 6300.0,
+      "high": 6389.0,
+      "low": 6280.0,
+      "close": 6359.0,
+      "adj_close": 6359.0,
+      "volume": 545800
     }
   ],
   "benchmark": [
@@ -7632,9 +7674,19 @@
       "open": 430.6000061035156,
       "high": 433.0,
       "low": 429.79998779296875,
-      "close": null,
-      "adj_close": null,
+      "close": 430.20001220703125,
+      "adj_close": 430.20001220703125,
       "volume": 18308250
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-05",
+      "open": 434.8999938964844,
+      "high": 435.5,
+      "low": 433.3999938964844,
+      "close": 435.20001220703125,
+      "adj_close": 435.20001220703125,
+      "volume": 8998150
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

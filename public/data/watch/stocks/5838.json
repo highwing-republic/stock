@@ -1,0 +1,119 @@
+{
+ "company": {
+  "name": "楽天銀行",
+  "securityCode": "5838",
+  "tradingViewSymbol": "TSE:5838"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "5838-2026-10-05",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-10-05",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-10-05",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": 2.7,
+   "d20": 10.1,
+   "d5": -3.1,
+   "eventId": "edinet:S100YDLM",
+   "excess5": -1.8
+  },
+  {
+   "d1": -4.6,
+   "d20": 1.2,
+   "d5": 2.4,
+   "eventId": "edinet:S100YXG2",
+   "excess5": 3.4
+  },
+  {
+   "d1": 3.1,
+   "d20": null,
+   "d5": 1.8,
+   "eventId": "edinet:S100Z07S",
+   "excess5": 2.9
+  },
+  {
+   "d1": 1.9,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z5VZ",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-01",
+  "buyBalance": 1803600,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 48.35,
+  "sellBalance": 37300,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-10-05",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.32,
+  "labels": [
+   "60日レンジ上位20%",
+   "60日線の上"
+  ],
+  "ma20": 6361.2,
+  "ma200": 6275.2,
+  "ma60": 6005.4,
+  "rangePos60": 0.8,
+  "rel20": -1.4,
+  "rel60": 15.3,
+  "volumeRatio20": 0.51
+ },
+ "reasons": [
+  "23.1pt買い増し 49.3%→72.3%",
+  "60日レンジ上位20%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-06-18",
+   "detail": "6.29% → 6.42%（ＪＰモルガン・アセット・マネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDLM"
+  },
+  {
+   "date": "2026-08-19",
+   "detail": "6.42% → 7.01%（ＪＰモルガン・アセット・マネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YXG2"
+  },
+  {
+   "date": "2026-09-03",
+   "detail": "7.01% → 6.24%（ＪＰモルガン・アセット・マネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z07S"
+  },
+  {
+   "date": "2026-10-05",
+   "detail": "49.27% → 72.35%（楽天グループ株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z5VZ"
+  }
+ ],
+ "updatedAt": "2026-10-05T15:05:38+09:00"
+}
