@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T02:51:11+09:00",
+  "updatedAt": "2026-10-06T15:45:25+09:00",
   "company": {
     "securityCode": "3964",
     "ticker": "3964.T",
@@ -19,9 +19,9 @@
       "holdingChange": -1.03,
       "purpose": "純投資（投資一任契約その他契約に係る顧客の資産運用)",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.51,
-      "marketExcessReturn": null,
+      "priceChange": 2.75,
+      "volumeRatio": 0.48,
+      "marketExcessReturn": -0.19,
       "signalScore": 0,
       "signalReasons": [
         "保有割合減少"
@@ -29,11 +29,11 @@
       "stockUnreacted": false,
       "metrics": {
         "return1d": 0.45,
-        "return5d": null,
+        "return5d": 2.75,
         "return20d": null,
-        "returnCurrent": 0.45,
-        "volumeRatio": 0.51,
-        "marketExcessReturn": null
+        "returnCurrent": 2.75,
+        "volumeRatio": 0.48,
+        "marketExcessReturn": -0.19
       }
     },
     {
@@ -61,7 +61,7 @@
         "return1d": 0.49,
         "return5d": 0.28,
         "return20d": -6.67,
-        "returnCurrent": -6.05,
+        "returnCurrent": -3.89,
         "volumeRatio": 1.5,
         "marketExcessReturn": -1.9
       }
@@ -91,7 +91,7 @@
         "return1d": 0.49,
         "return5d": 0.28,
         "return20d": -6.67,
-        "returnCurrent": -6.05,
+        "returnCurrent": -3.89,
         "volumeRatio": 1.5,
         "marketExcessReturn": -1.9
       }
@@ -121,7 +121,7 @@
         "return1d": -1.83,
         "return5d": -5.63,
         "return20d": 0.49,
-        "returnCurrent": -4.79,
+        "returnCurrent": -2.61,
         "volumeRatio": 1.82,
         "marketExcessReturn": -3.82
       }
@@ -2914,9 +2914,19 @@
       "open": 1361.0,
       "high": 1388.0,
       "low": 1353.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1380.0,
+      "adj_close": 1380.0,
       "volume": 397300
+    },
+    {
+      "ticker": "3964.T",
+      "trade_date": "2026-10-06",
+      "open": 1380.0,
+      "high": 1384.0,
+      "low": 1364.0,
+      "close": 1383.0,
+      "adj_close": 1383.0,
+      "volume": 224200
     }
   ],
   "benchmark": [
@@ -6699,6 +6709,16 @@
       "close": 436.29998779296875,
       "adj_close": 436.29998779296875,
       "volume": 10976470
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-06",
+      "open": 437.20001220703125,
+      "high": 440.79998779296875,
+      "low": 436.3999938964844,
+      "close": 440.79998779296875,
+      "adj_close": 440.79998779296875,
+      "volume": 13578620
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T02:51:11+09:00",
+  "updatedAt": "2026-10-06T15:45:25+09:00",
   "company": {
     "securityCode": "7063",
     "ticker": "7063.T",
@@ -13,27 +13,26 @@
       "companyName": "株式会社Ｂｉｒｄｍａｎ",
       "submitDatetime": "2026-10-05 13:32",
       "filerName": "アークサービス株式会社",
-      "reportType": "initial",
+      "reportType": "change",
       "holdingRatio": 5.64,
       "previousHoldingRatio": 6.72,
       "holdingChange": -1.08,
       "purpose": "譲渡担保による取得",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.28,
       "marketExcessReturn": null,
-      "signalScore": 10,
+      "signalScore": 0,
       "signalReasons": [
-        "新規大量保有",
         "保有割合減少"
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": 0.0,
         "return5d": null,
         "return20d": null,
         "returnCurrent": 0.0,
-        "volumeRatio": null,
+        "volumeRatio": 0.28,
         "marketExcessReturn": null
       }
     },
@@ -51,7 +50,7 @@
       "purpose": "譲渡担保による取得",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.28,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [
@@ -59,11 +58,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": 0.0,
         "return5d": null,
         "return20d": null,
         "returnCurrent": 0.0,
-        "volumeRatio": null,
+        "volumeRatio": 0.28,
         "marketExcessReturn": null
       }
     },
@@ -81,7 +80,7 @@
       "purpose": "純投資",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.34,
       "marketExcessReturn": null,
       "signalScore": 30,
       "signalReasons": [
@@ -89,11 +88,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": 0.0,
         "return5d": null,
         "return20d": null,
         "returnCurrent": -1.79,
-        "volumeRatio": null,
+        "volumeRatio": 0.34,
         "marketExcessReturn": null
       }
     },
@@ -111,7 +110,7 @@
       "purpose": "純投資",
       "importantProposal": true,
       "priceChange": null,
-      "volumeRatio": 0.9,
+      "volumeRatio": 0.61,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [
@@ -124,7 +123,7 @@
         "return5d": null,
         "return20d": null,
         "returnCurrent": -8.33,
-        "volumeRatio": 0.9,
+        "volumeRatio": 0.61,
         "marketExcessReturn": null
       }
     },
@@ -142,7 +141,7 @@
       "purpose": "純投資",
       "importantProposal": true,
       "priceChange": null,
-      "volumeRatio": 0.9,
+      "volumeRatio": 0.61,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [
@@ -156,7 +155,7 @@
         "return5d": null,
         "return20d": null,
         "returnCurrent": -8.33,
-        "volumeRatio": 0.9,
+        "volumeRatio": 0.61,
         "marketExcessReturn": null
       }
     },
@@ -3684,9 +3683,19 @@
       "open": 56.0,
       "high": 57.0,
       "low": 54.0,
-      "close": null,
-      "adj_close": null,
+      "close": 56.0,
+      "adj_close": 56.0,
       "volume": 352000
+    },
+    {
+      "ticker": "7063.T",
+      "trade_date": "2026-10-06",
+      "open": 54.0,
+      "high": 56.0,
+      "low": 54.0,
+      "close": 55.0,
+      "adj_close": 55.0,
+      "volume": 247300
     }
   ],
   "benchmark": [
@@ -7469,6 +7478,16 @@
       "close": 436.29998779296875,
       "adj_close": 436.29998779296875,
       "volume": 10976470
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-06",
+      "open": 437.20001220703125,
+      "high": 440.79998779296875,
+      "low": 436.3999938964844,
+      "close": 440.79998779296875,
+      "adj_close": 440.79998779296875,
+      "volume": 13578620
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

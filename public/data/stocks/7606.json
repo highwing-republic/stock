@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T02:51:11+09:00",
+  "updatedAt": "2026-10-06T15:45:25+09:00",
   "company": {
     "securityCode": "7606",
     "ticker": "7606.T",
@@ -20,7 +20,7 @@
       "purpose": "「投資一任契約」及び「投資信託委託契約」　に基づく純投資",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.75,
       "marketExcessReturn": null,
       "signalScore": 30,
       "signalReasons": [
@@ -28,11 +28,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": -0.58,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -0.04,
-        "volumeRatio": null,
+        "returnCurrent": -0.21,
+        "volumeRatio": 0.75,
         "marketExcessReturn": null
       }
     },
@@ -62,7 +62,7 @@
         "return1d": -0.84,
         "return5d": -5.49,
         "return20d": -6.05,
-        "returnCurrent": -4.38,
+        "returnCurrent": -4.53,
         "volumeRatio": 1.02,
         "marketExcessReturn": -4.97
       }
@@ -2855,9 +2855,19 @@
       "open": 2403.0,
       "high": 2416.0,
       "low": 2379.0,
-      "close": null,
-      "adj_close": null,
+      "close": 2391.0,
+      "adj_close": 2391.0,
       "volume": 195400
+    },
+    {
+      "ticker": "7606.T",
+      "trade_date": "2026-10-06",
+      "open": 2391.0,
+      "high": 2419.0,
+      "low": 2391.0,
+      "close": 2400.0,
+      "adj_close": 2400.0,
+      "volume": 125300
     }
   ],
   "benchmark": [
@@ -6640,6 +6650,16 @@
       "close": 436.29998779296875,
       "adj_close": 436.29998779296875,
       "volume": 10976470
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-06",
+      "open": 437.20001220703125,
+      "high": 440.79998779296875,
+      "low": 436.3999938964844,
+      "close": 440.79998779296875,
+      "adj_close": 440.79998779296875,
+      "volume": 13578620
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T02:51:11+09:00",
+  "updatedAt": "2026-10-06T15:45:25+09:00",
   "company": {
     "securityCode": "155A",
     "ticker": "155A.T",
@@ -20,10 +20,11 @@
       "purpose": "発行会社の創業者かつ代表取締役であり、安定株主として保有しております。 / 発行会社の代表取締役の資産管理会社であり、安定株主として保有しております。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": 1.31,
+      "volumeRatio": 2.08,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [
+        "出来高2倍以上",
         "保有割合減少"
       ],
       "stockUnreacted": false,
@@ -31,8 +32,8 @@
         "return1d": -1.19,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -3.56,
-        "volumeRatio": 1.31,
+        "returnCurrent": -0.92,
+        "volumeRatio": 2.08,
         "marketExcessReturn": null
       }
     }
@@ -2724,9 +2725,19 @@
       "open": 737.0,
       "high": 747.0,
       "low": 736.0,
-      "close": null,
-      "adj_close": null,
+      "close": 746.0,
+      "adj_close": 746.0,
       "volume": 24100
+    },
+    {
+      "ticker": "155A.T",
+      "trade_date": "2026-10-06",
+      "open": 746.0,
+      "high": 773.0,
+      "low": 724.0,
+      "close": 752.0,
+      "adj_close": 752.0,
+      "volume": 187600
     }
   ],
   "benchmark": [
@@ -6509,6 +6520,16 @@
       "close": 436.29998779296875,
       "adj_close": 436.29998779296875,
       "volume": 10976470
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-06",
+      "open": 437.20001220703125,
+      "high": 440.79998779296875,
+      "low": 436.3999938964844,
+      "close": 440.79998779296875,
+      "adj_close": 440.79998779296875,
+      "volume": 13578620
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

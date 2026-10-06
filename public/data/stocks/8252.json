@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-10-06T02:51:11+09:00",
+  "updatedAt": "2026-10-06T15:45:25+09:00",
   "company": {
     "securityCode": "8252",
     "ticker": "8252.T",
     "name": "株式会社　丸井グループ"
   },
   "events": [
+    {
+      "docId": "S100Z6EY",
+      "ticker": "8252.T",
+      "securityCode": "8252",
+      "companyName": "株式会社　丸井グループ",
+      "submitDatetime": "2026-10-06 09:14",
+      "filerName": "野村證券株式会社",
+      "reportType": "change",
+      "holdingRatio": 11.5,
+      "previousHoldingRatio": 10.98,
+      "holdingChange": 0.52,
+      "purpose": "証券業務に係る商品在庫、及び累積投資業務の運営目的として保有している。 / 証券業務に係わる商品在庫として保有している。 / 信託財産の運用として保有している。",
+      "importantProposal": true,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 20,
+      "signalReasons": [
+        "重要提案行為あり"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 0.68,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z3NQ",
       "ticker": "8252.T",
@@ -29,7 +59,7 @@
         "return1d": 0.23,
         "return5d": -2.58,
         "return20d": null,
-        "returnCurrent": -2.58,
+        "returnCurrent": -1.67,
         "volumeRatio": 1.0,
         "marketExcessReturn": -3.85
       }
@@ -59,7 +89,7 @@
         "return1d": -2.24,
         "return5d": -2.43,
         "return20d": null,
-        "returnCurrent": -4.76,
+        "returnCurrent": -3.87,
         "volumeRatio": 0.99,
         "marketExcessReturn": -3.39
       }
@@ -89,7 +119,7 @@
         "return1d": -0.22,
         "return5d": -1.72,
         "return20d": null,
-        "returnCurrent": -3.42,
+        "returnCurrent": -2.52,
         "volumeRatio": 1.09,
         "marketExcessReturn": -2.07
       }
@@ -122,7 +152,7 @@
         "return1d": 1.33,
         "return5d": -0.71,
         "return20d": null,
-        "returnCurrent": -3.49,
+        "returnCurrent": -2.59,
         "volumeRatio": 0.98,
         "marketExcessReturn": -2.35
       }
@@ -150,7 +180,7 @@
         "return1d": -0.8,
         "return5d": -0.86,
         "return20d": null,
-        "returnCurrent": -4.5,
+        "returnCurrent": -3.6,
         "volumeRatio": 1.13,
         "marketExcessReturn": 0.12
       }
@@ -181,7 +211,7 @@
         "return1d": 2.0,
         "return5d": 1.57,
         "return20d": -1.0,
-        "returnCurrent": -3.76,
+        "returnCurrent": -2.86,
         "volumeRatio": 0.77,
         "marketExcessReturn": -1.31
       }
@@ -3964,9 +3994,19 @@
       "open": 2723.0,
       "high": 2732.5,
       "low": 2710.5,
-      "close": null,
-      "adj_close": null,
+      "close": 2732.0,
+      "adj_close": 2732.0,
       "volume": 741000
+    },
+    {
+      "ticker": "8252.T",
+      "trade_date": "2026-10-06",
+      "open": 2732.0,
+      "high": 2754.0,
+      "low": 2727.5,
+      "close": 2750.5,
+      "adj_close": 2750.5,
+      "volume": 469100
     }
   ],
   "benchmark": [
@@ -7749,6 +7789,16 @@
       "close": 436.29998779296875,
       "adj_close": 436.29998779296875,
       "volume": 10976470
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-06",
+      "open": 437.20001220703125,
+      "high": 440.79998779296875,
+      "low": 436.3999938964844,
+      "close": 440.79998779296875,
+      "adj_close": 440.79998779296875,
+      "volume": 13578620
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

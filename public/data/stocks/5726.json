@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-10-06T02:51:11+09:00",
+  "updatedAt": "2026-10-06T15:45:25+09:00",
   "company": {
     "securityCode": "5726",
     "ticker": "5726.T",
     "name": "株式会社大阪チタニウムテクノロジーズ"
   },
   "events": [
+    {
+      "docId": "S100Z641",
+      "ticker": "5726.T",
+      "securityCode": "5726",
+      "companyName": "株式会社大阪チタニウムテクノロジーズ",
+      "submitDatetime": "2026-10-06 12:03",
+      "filerName": "野村證券株式会社",
+      "reportType": "change",
+      "holdingRatio": 6.76,
+      "previousHoldingRatio": 7.39,
+      "holdingChange": -0.63,
+      "purpose": "証券業務に係る商品在庫、及び累積投資業務の運営目的として保有している。 / 証券業務に係わる商品在庫として保有している。 / 信託財産の運用として保有している。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 1.98,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z35L",
       "ticker": "5726.T",
@@ -31,7 +61,7 @@
         "return1d": 3.82,
         "return5d": -0.62,
         "return20d": null,
-        "returnCurrent": -0.62,
+        "returnCurrent": 0.62,
         "volumeRatio": 0.73,
         "marketExcessReturn": -1.89
       }
@@ -63,7 +93,7 @@
         "return1d": -3.29,
         "return5d": -0.04,
         "return20d": null,
-        "returnCurrent": -2.84,
+        "returnCurrent": -1.62,
         "volumeRatio": 0.96,
         "marketExcessReturn": -1.69
       }
@@ -92,8 +122,8 @@
       "metrics": {
         "return1d": 1.85,
         "return5d": -1.3,
-        "return20d": null,
-        "returnCurrent": -11.37,
+        "return20d": -12.0,
+        "returnCurrent": -10.26,
         "volumeRatio": 0.82,
         "marketExcessReturn": 1.98
       }
@@ -123,7 +153,7 @@
         "return1d": 1.83,
         "return5d": -0.64,
         "return20d": -10.41,
-        "returnCurrent": -10.41,
+        "returnCurrent": -9.28,
         "volumeRatio": 0.7,
         "marketExcessReturn": 1.97
       }
@@ -153,7 +183,7 @@
         "return1d": -6.25,
         "return5d": -6.78,
         "return20d": -14.94,
-        "returnCurrent": -25.22,
+        "returnCurrent": -24.28,
         "volumeRatio": 1.17,
         "marketExcessReturn": -10.7
       }
@@ -2946,9 +2976,19 @@
       "open": 2415.0,
       "high": 2422.0,
       "low": 2361.0,
-      "close": null,
-      "adj_close": null,
+      "close": 2376.0,
+      "adj_close": 2376.0,
       "volume": 415400
+    },
+    {
+      "ticker": "5726.T",
+      "trade_date": "2026-10-06",
+      "open": 2395.0,
+      "high": 2425.0,
+      "low": 2370.0,
+      "close": 2423.0,
+      "adj_close": 2423.0,
+      "volume": 368000
     }
   ],
   "benchmark": [
@@ -6731,6 +6771,16 @@
       "close": 436.29998779296875,
       "adj_close": 436.29998779296875,
       "volume": 10976470
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-06",
+      "open": 437.20001220703125,
+      "high": 440.79998779296875,
+      "low": 436.3999938964844,
+      "close": 440.79998779296875,
+      "adj_close": 440.79998779296875,
+      "volume": 13578620
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

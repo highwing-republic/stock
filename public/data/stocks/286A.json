@@ -1,11 +1,39 @@
 {
-  "updatedAt": "2026-10-06T02:51:11+09:00",
+  "updatedAt": "2026-10-06T15:45:25+09:00",
   "company": {
     "securityCode": "286A",
     "ticker": "286A.T",
     "name": "株式会社ユカリア"
   },
   "events": [
+    {
+      "docId": "S100Z61X",
+      "ticker": "286A.T",
+      "securityCode": "286A",
+      "companyName": "株式会社ユカリア",
+      "submitDatetime": "2026-10-06 09:14",
+      "filerName": "株式会社エクソソーム",
+      "reportType": "change",
+      "holdingRatio": 58.16,
+      "previousHoldingRatio": 58.16,
+      "holdingChange": 0.0,
+      "purpose": "安定株主として保有しております。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 1.45,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YR2Y",
       "ticker": "286A.T",
@@ -29,7 +57,7 @@
         "return1d": 1.13,
         "return5d": 0.38,
         "return20d": 2.63,
-        "returnCurrent": -6.02,
+        "returnCurrent": -3.14,
         "volumeRatio": 0.41,
         "marketExcessReturn": -0.72
       }
@@ -2732,9 +2760,19 @@
       "open": 752.0,
       "high": 766.0,
       "low": 749.0,
-      "close": null,
-      "adj_close": null,
+      "close": 761.0,
+      "adj_close": 761.0,
       "volume": 13900
+    },
+    {
+      "ticker": "286A.T",
+      "trade_date": "2026-10-06",
+      "open": 761.0,
+      "high": 788.0,
+      "low": 761.0,
+      "close": 772.0,
+      "adj_close": 772.0,
+      "volume": 19400
     }
   ],
   "benchmark": [
@@ -6517,6 +6555,16 @@
       "close": 436.29998779296875,
       "adj_close": 436.29998779296875,
       "volume": 10976470
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-06",
+      "open": 437.20001220703125,
+      "high": 440.79998779296875,
+      "low": 436.3999938964844,
+      "close": 440.79998779296875,
+      "adj_close": 440.79998779296875,
+      "volume": 13578620
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

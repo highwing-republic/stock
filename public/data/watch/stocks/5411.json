@@ -5,41 +5,23 @@
   "tradingViewSymbol": "TSE:5411"
  },
  "episode": {
-  "closeReason": "BROKEN",
-  "closedAt": "2026-09-29",
-  "id": "5411-2026-09-07",
+  "closeReason": null,
+  "closedAt": null,
+  "id": "5411-2026-10-06",
   "overextended": false,
-  "setupType": "RECOVERY",
+  "setupType": null,
   "setups": [],
-  "startedAt": "2026-09-07",
-  "status": "CLOSED",
+  "startedAt": "2026-10-06",
+  "status": "CANDIDATE",
   "statusHistory": [
    {
-    "date": "2026-09-07",
+    "date": "2026-10-06",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
-   },
-   {
-    "date": "2026-09-16",
-    "from": "CANDIDATE",
-    "reason_code": "SETUP_OK",
-    "to": "WATCH"
-   },
-   {
-    "date": "2026-09-28",
-    "from": "WATCH",
-    "reason_code": "BELOW_MA20",
-    "to": "BROKEN"
-   },
-   {
-    "date": "2026-09-29",
-    "from": "BROKEN",
-    "reason_code": "BROKEN",
-    "to": "CLOSED"
    }
   ],
-  "watchStartedAt": "2026-09-16"
+  "watchStartedAt": null
  },
  "eventReactions": [
   {
@@ -69,6 +51,13 @@
    "d5": -4.3,
    "eventId": "edinet:S100Z34R",
    "excess5": -5.5
+  },
+  {
+   "d1": 1.1,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z5XQ",
+   "excess5": null
   }
  ],
  "margin": {
@@ -80,48 +69,31 @@
   "sellBalance": 1177200,
   "sellChangePct": null
  },
- "pastEpisodes": [],
- "performance": {
-  "benchReturn": 0.4,
-  "currentPrice": 1737.0,
-  "d20": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 10,
-   "stockReturn": null
-  },
-  "d5": {
-   "benchReturn": 1.0,
-   "excessReturn": -2.7,
-   "pendingDays": 0,
-   "stockReturn": -1.7
-  },
-  "d60": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 50,
-   "stockReturn": null
-  },
-  "excessReturn": -4.8,
-  "initialDate": "2026-09-16",
-  "initialPrice": 1816.3,
-  "stockReturn": -4.4
- },
+ "pastEpisodes": [
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-09-29",
+   "id": "5411-2026-09-07",
+   "setupType": "RECOVERY",
+   "startedAt": "2026-09-07"
+  }
+ ],
+ "performance": null,
  "priceSetup": {
-  "asOf": "2026-10-05",
-  "atrState": "通常",
-  "distFrom52wHigh": 0.25,
+  "asOf": "2026-10-06",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.24,
   "labels": [],
-  "ma20": 1787.7,
-  "ma200": 1799.9,
-  "ma60": 1758.8,
-  "rangePos60": 0.41,
-  "rel20": -8.8,
-  "rel60": 3.2,
-  "volumeRatio20": 0.94
+  "ma20": 1781.5,
+  "ma200": 1799.2,
+  "ma60": 1760.6,
+  "rangePos60": 0.46,
+  "rel20": -9.8,
+  "rel60": 2.5,
+  "volumeRatio20": 0.75
  },
  "reasons": [
-  "1.2pt買い増し 6.6%→7.7%"
+  "新規大量保有 5%（ブラックロック・ジャパン株式会社）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -147,74 +119,11 @@
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z0O7"
   },
   {
-   "date": "2026-09-07",
-   "detail": "20日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-09-08",
-   "detail": "TOPIX連動ETFを上回りに転換",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-09-16",
-   "detail": "なし → RECOVERY",
-   "kind": "SETUP",
-   "label": "Price Setup改善",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-09-16",
-   "detail": "20日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-09-16",
-   "detail": "Price Setupが成立",
-   "kind": "STATUS",
-   "label": "WATCH",
-   "sourceUrl": null
-  },
-  {
    "date": "2026-09-24",
    "detail": "7.74% → 7.65%（野村證券株式会社）",
    "kind": "EVENT",
    "label": "保有割合の減少",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z34R"
-  },
-  {
-   "date": "2026-09-24",
-   "detail": "RECOVERY → なし",
-   "kind": "SETUP",
-   "label": "Price Setup解消",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-09-28",
-   "detail": "20日線を連続で下回った",
-   "kind": "STATUS",
-   "label": "BROKEN",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-09-29",
-   "detail": "Price Setupが崩れた",
-   "kind": "STATUS",
-   "label": "CLOSED",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-09-30",
-   "detail": "60日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
   },
   {
    "date": "2026-10-05",
@@ -224,5 +133,5 @@
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z5XQ"
   }
  ],
- "updatedAt": "2026-10-05T19:51:55+09:00"
+ "updatedAt": "2026-10-06T15:45:37+09:00"
 }

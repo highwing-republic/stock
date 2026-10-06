@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T02:51:11+09:00",
+  "updatedAt": "2026-10-06T15:45:25+09:00",
   "company": {
     "securityCode": "6383",
     "ticker": "6383.T",
@@ -20,7 +20,7 @@
       "purpose": "純投資（投資一任契約に基づく顧客の資産運用および投資信託約款に基づく資産運用目的） / 純投資（顧客および投資信託等の資産運用目的） / 純投資（投資信託等の資産運用目的）",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.49,
       "marketExcessReturn": null,
       "signalScore": 20,
       "signalReasons": [
@@ -28,11 +28,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": 1.32,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.0,
-        "volumeRatio": null,
+        "returnCurrent": 1.32,
+        "volumeRatio": 0.49,
         "marketExcessReturn": null
       }
     },
@@ -61,7 +61,7 @@
         "return1d": -2.77,
         "return5d": -11.11,
         "return20d": -7.51,
-        "returnCurrent": -8.28,
+        "returnCurrent": -7.07,
         "volumeRatio": 1.36,
         "marketExcessReturn": -9.3
       }
@@ -3844,9 +3844,19 @@
       "open": 5936.0,
       "high": 5950.0,
       "low": 5827.0,
-      "close": null,
-      "adj_close": null,
+      "close": 5874.0,
+      "adj_close": 5874.0,
       "volume": 1715200
+    },
+    {
+      "ticker": "6383.T",
+      "trade_date": "2026-10-06",
+      "open": 5946.0,
+      "high": 5946.0,
+      "low": 5859.0,
+      "close": 5928.0,
+      "adj_close": 5928.0,
+      "volume": 852300
     }
   ],
   "benchmark": [
@@ -7629,6 +7639,16 @@
       "close": 436.29998779296875,
       "adj_close": 436.29998779296875,
       "volume": 10976470
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-06",
+      "open": 437.20001220703125,
+      "high": 440.79998779296875,
+      "low": 436.3999938964844,
+      "close": 440.79998779296875,
+      "adj_close": 440.79998779296875,
+      "volume": 13578620
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

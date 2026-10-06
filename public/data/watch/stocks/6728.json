@@ -80,6 +80,13 @@
    "d5": -0.2,
    "eventId": "edinet:S100YZYU",
    "excess5": 0.5
+  },
+  {
+   "d1": 0.3,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z5RH",
+   "excess5": null
   }
  ],
  "margin": {
@@ -93,33 +100,33 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 1.1,
-  "currentPrice": 8419.0,
+  "benchReturn": 2.1,
+  "currentPrice": 8444.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 17,
+   "pendingDays": 16,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 2,
+   "pendingDays": 1,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 57,
+   "pendingDays": 56,
    "stockReturn": null
   },
-  "excessReturn": 5.0,
+  "excessReturn": 4.4,
   "initialDate": "2026-09-30",
   "initialPrice": 7932.0,
-  "stockReturn": 6.1
+  "stockReturn": 6.5
  },
  "priceSetup": {
-  "asOf": "2026-10-05",
+  "asOf": "2026-10-06",
   "atrState": "低ボラ",
   "distFrom52wHigh": 0.25,
   "labels": [
@@ -127,18 +134,18 @@
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 7400.9,
-  "ma200": 8716.2,
-  "ma60": 8289.6,
-  "rangePos60": 0.45,
-  "rel20": 16.2,
-  "rel60": -15.9,
-  "volumeRatio20": 0.77
+  "ma20": 7461.9,
+  "ma200": 8724.4,
+  "ma60": 8271.6,
+  "rangePos60": 0.46,
+  "rel20": 13.8,
+  "rel60": -15.2,
+  "volumeRatio20": 1.02
  },
  "reasons": [
   "新規大量保有 6.8%（イーストスプリング・インベストメンツ（シンガポール）リミテッド）",
   "20日線上向き",
-  "TOPIX連動ETF比 +16.2pt（20日）"
+  "TOPIX連動ETF比 +13.8pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -225,7 +232,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-06",
+   "detail": "7.88% → 6.84%（三井住友信託銀行株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z5RH"
   }
  ],
- "updatedAt": "2026-10-05T19:51:55+09:00"
+ "updatedAt": "2026-10-06T15:45:37+09:00"
 }

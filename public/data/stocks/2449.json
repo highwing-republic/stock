@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T02:51:11+09:00",
+  "updatedAt": "2026-10-06T15:45:25+09:00",
   "company": {
     "securityCode": "2449",
     "ticker": "2449.T",
@@ -20,19 +20,21 @@
       "purpose": "提出者及び発行会社との間の業務提携の一貫として、提出者は発行会社の株式を所有し、重要提案行為等（取締役候補者1名の推薦）を行います。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 19.6,
       "marketExcessReturn": null,
-      "signalScore": 30,
+      "signalScore": 45,
       "signalReasons": [
-        "新規大量保有"
+        "新規大量保有",
+        "出来高2倍以上",
+        "出来高3倍以上"
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": 24.52,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 28.63,
-        "volumeRatio": null,
+        "returnCurrent": 13.45,
+        "volumeRatio": 19.6,
         "marketExcessReturn": null
       }
     }
@@ -2704,9 +2706,19 @@
       "open": 1498.0,
       "high": 1500.0,
       "low": 1218.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1305.0,
+      "adj_close": 1305.0,
       "volume": 576400
+    },
+    {
+      "ticker": "2449.T",
+      "trade_date": "2026-10-06",
+      "open": 1300.0,
+      "high": 1300.0,
+      "low": 1189.0,
+      "close": 1189.0,
+      "adj_close": 1189.0,
+      "volume": 97700
     }
   ],
   "benchmark": [
@@ -6489,6 +6501,16 @@
       "close": 436.29998779296875,
       "adj_close": 436.29998779296875,
       "volume": 10976470
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-06",
+      "open": 437.20001220703125,
+      "high": 440.79998779296875,
+      "low": 436.3999938964844,
+      "close": 440.79998779296875,
+      "adj_close": 440.79998779296875,
+      "volume": 13578620
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T02:51:11+09:00",
+  "updatedAt": "2026-10-06T15:45:25+09:00",
   "company": {
     "securityCode": "7957",
     "ticker": "7957.T",
@@ -7,16 +7,16 @@
   },
   "events": [
     {
-      "docId": "S100Z5X6",
+      "docId": "S100Z61P",
       "ticker": "7957.T",
       "securityCode": "7957",
       "companyName": "フジコピアン株式会社",
-      "submitDatetime": "2026-10-05 15:31",
+      "submitDatetime": "2026-10-06 15:31",
       "filerName": "三田証券株式会社",
       "reportType": "change",
-      "holdingRatio": 11.62,
-      "previousHoldingRatio": 12.77,
-      "holdingChange": -1.15,
+      "holdingRatio": 10.23,
+      "previousHoldingRatio": 11.62,
+      "holdingChange": -1.39,
       "purpose": "純投資",
       "importantProposal": false,
       "priceChange": null,
@@ -31,8 +31,39 @@
         "return1d": null,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.0,
+        "returnCurrent": -1.21,
         "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
+    {
+      "docId": "S100Z5X6",
+      "ticker": "7957.T",
+      "securityCode": "7957",
+      "companyName": "フジコピアン株式会社",
+      "submitDatetime": "2026-10-05 15:31",
+      "filerName": "三田証券株式会社",
+      "reportType": "change",
+      "holdingRatio": 11.62,
+      "previousHoldingRatio": 12.77,
+      "holdingChange": -1.15,
+      "purpose": "純投資",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": 2.38,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "出来高2倍以上",
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": -8.24,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -8.24,
+        "volumeRatio": 2.38,
         "marketExcessReturn": null
       }
     },
@@ -62,7 +93,7 @@
         "return1d": -0.08,
         "return5d": -0.5,
         "return20d": null,
-        "returnCurrent": -14.41,
+        "returnCurrent": -21.46,
         "volumeRatio": 0.14,
         "marketExcessReturn": 0.48
       }
@@ -92,7 +123,7 @@
         "return1d": -1.18,
         "return5d": -1.48,
         "return20d": -15.62,
-        "returnCurrent": -15.62,
+        "returnCurrent": -22.57,
         "volumeRatio": 0.24,
         "marketExcessReturn": 1.13
       }
@@ -123,7 +154,7 @@
         "return1d": 0.04,
         "return5d": 3.26,
         "return20d": 4.81,
-        "returnCurrent": -9.53,
+        "returnCurrent": -16.99,
         "volumeRatio": 0.43,
         "marketExcessReturn": 0.39
       }
@@ -153,7 +184,7 @@
         "return1d": 2.27,
         "return5d": 1.26,
         "return20d": 27.56,
-        "returnCurrent": 11.89,
+        "returnCurrent": 2.67,
         "volumeRatio": 1.39,
         "marketExcessReturn": 4.06
       }
@@ -184,7 +215,7 @@
         "return1d": 0.57,
         "return5d": 5.88,
         "return20d": 26.66,
-        "returnCurrent": 14.54,
+        "returnCurrent": 5.11,
         "volumeRatio": 1.29,
         "marketExcessReturn": 7.69
       }
@@ -2977,9 +3008,19 @@
       "open": 2271.0,
       "high": 2271.0,
       "low": 2057.0,
-      "close": null,
-      "adj_close": null,
+      "close": 2063.0,
+      "adj_close": 2063.0,
       "volume": 399000
+    },
+    {
+      "ticker": "7957.T",
+      "trade_date": "2026-10-06",
+      "open": 2063.0,
+      "high": 2063.0,
+      "low": 1984.0,
+      "close": 2038.0,
+      "adj_close": 2038.0,
+      "volume": 155600
     }
   ],
   "benchmark": [
@@ -6762,6 +6803,16 @@
       "close": 436.29998779296875,
       "adj_close": 436.29998779296875,
       "volume": 10976470
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-06",
+      "open": 437.20001220703125,
+      "high": 440.79998779296875,
+      "low": 436.3999938964844,
+      "close": 440.79998779296875,
+      "adj_close": 440.79998779296875,
+      "volume": 13578620
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

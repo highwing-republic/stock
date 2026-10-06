@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T02:51:11+09:00",
+  "updatedAt": "2026-10-06T15:45:25+09:00",
   "company": {
     "securityCode": "7716",
     "ticker": "7716.T",
@@ -19,19 +19,19 @@
       "holdingChange": null,
       "purpose": "発行会社の株式にかかる配当金を、奨学事業・研究助成事業のための助成に当てる。長期保有目的である。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 1.5,
-      "marketExcessReturn": null,
+      "priceChange": 2.0,
+      "volumeRatio": 1.3,
+      "marketExcessReturn": -0.94,
       "signalScore": 0,
       "signalReasons": [],
       "stockUnreacted": false,
       "metrics": {
         "return1d": -3.14,
-        "return5d": null,
+        "return5d": 2.0,
         "return20d": null,
-        "returnCurrent": -2.14,
-        "volumeRatio": 1.5,
-        "marketExcessReturn": null
+        "returnCurrent": 2.0,
+        "volumeRatio": 1.3,
+        "marketExcessReturn": -0.94
       }
     },
     {
@@ -47,21 +47,22 @@
       "holdingChange": null,
       "purpose": "発行会社の株式にかかる配当金を、奨学事業・研究助成事業のための助成に当てる。長期保有目的である。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 1.35,
-      "marketExcessReturn": null,
-      "signalScore": 30,
+      "priceChange": -1.25,
+      "volumeRatio": 1.26,
+      "marketExcessReturn": -2.64,
+      "signalScore": 40,
       "signalReasons": [
-        "新規大量保有"
+        "新規大量保有",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": -4.59,
-        "return5d": null,
+        "return5d": -1.25,
         "return20d": null,
-        "returnCurrent": -3.93,
-        "volumeRatio": 1.35,
-        "marketExcessReturn": null
+        "returnCurrent": 0.13,
+        "volumeRatio": 1.26,
+        "marketExcessReturn": -2.64
       }
     }
   ],
@@ -3842,9 +3843,19 @@
       "open": 1484.0,
       "high": 1523.0,
       "low": 1481.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1506.0,
+      "adj_close": 1506.0,
       "volume": 491500
+    },
+    {
+      "ticker": "7716.T",
+      "trade_date": "2026-10-06",
+      "open": 1508.0,
+      "high": 1548.0,
+      "low": 1508.0,
+      "close": 1527.0,
+      "adj_close": 1527.0,
+      "volume": 569300
     }
   ],
   "benchmark": [
@@ -7627,6 +7638,16 @@
       "close": 436.29998779296875,
       "adj_close": 436.29998779296875,
       "volume": 10976470
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-06",
+      "open": 437.20001220703125,
+      "high": 440.79998779296875,
+      "low": 436.3999938964844,
+      "close": 440.79998779296875,
+      "adj_close": 440.79998779296875,
+      "volume": 13578620
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

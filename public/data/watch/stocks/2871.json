@@ -5,47 +5,23 @@
   "tradingViewSymbol": "TSE:2871"
  },
  "episode": {
-  "closeReason": "BROKEN",
-  "closedAt": "2026-10-05",
-  "id": "2871-2026-09-04",
+  "closeReason": null,
+  "closedAt": null,
+  "id": "2871-2026-10-06",
   "overextended": false,
-  "setupType": "RECOVERY",
+  "setupType": null,
   "setups": [],
-  "startedAt": "2026-09-04",
-  "status": "CLOSED",
+  "startedAt": "2026-10-06",
+  "status": "CANDIDATE",
   "statusHistory": [
    {
-    "date": "2026-09-04",
+    "date": "2026-10-06",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
-   },
-   {
-    "date": "2026-09-10",
-    "from": "CANDIDATE",
-    "reason_code": "SETUP_OK",
-    "to": "WATCH"
-   },
-   {
-    "date": "2026-09-11",
-    "from": "WATCH",
-    "reason_code": "INCREASE_EVENT",
-    "to": "STRENGTHENING"
-   },
-   {
-    "date": "2026-10-02",
-    "from": "STRENGTHENING",
-    "reason_code": "BELOW_MA20",
-    "to": "BROKEN"
-   },
-   {
-    "date": "2026-10-05",
-    "from": "BROKEN",
-    "reason_code": "BROKEN",
-    "to": "CLOSED"
    }
   ],
-  "watchStartedAt": "2026-09-10"
+  "watchStartedAt": null
  },
  "eventReactions": [
   {
@@ -78,7 +54,7 @@
   },
   {
    "d1": -1.5,
-   "d20": null,
+   "d20": -0.9,
    "d5": 0.6,
    "eventId": "edinet:S100Z0CY",
    "excess5": 1.7
@@ -103,6 +79,13 @@
    "d5": -1.1,
    "eventId": "edinet:S100Z2AU",
    "excess5": -1.5
+  },
+  {
+   "d1": 0.0,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z61M",
+   "excess5": null
   }
  ],
  "margin": {
@@ -114,48 +97,31 @@
   "sellBalance": 98400,
   "sellChangePct": null
  },
- "pastEpisodes": [],
- "performance": {
-  "benchReturn": 3.2,
-  "currentPrice": 2096.0,
-  "d20": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 6,
-   "stockReturn": null
-  },
-  "d5": {
-   "benchReturn": 1.1,
-   "excessReturn": 2.4,
-   "pendingDays": 0,
-   "stockReturn": 3.5
-  },
-  "d60": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 46,
-   "stockReturn": null
-  },
-  "excessReturn": -4.7,
-  "initialDate": "2026-09-10",
-  "initialPrice": 2128.2,
-  "stockReturn": -1.5
- },
+ "pastEpisodes": [
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-10-05",
+   "id": "2871-2026-09-04",
+   "setupType": "RECOVERY",
+   "startedAt": "2026-09-04"
+  }
+ ],
+ "performance": null,
  "priceSetup": {
-  "asOf": "2026-10-05",
+  "asOf": "2026-10-06",
   "atrState": "通常",
-  "distFrom52wHigh": 0.11,
+  "distFrom52wHigh": 0.1,
   "labels": [],
-  "ma20": 2144.2,
-  "ma200": 1986.7,
-  "ma60": 2141.1,
-  "rangePos60": 0.42,
-  "rel20": -4.3,
-  "rel60": -5.3,
-  "volumeRatio20": 0.9
+  "ma20": 2143.3,
+  "ma200": 1988.1,
+  "ma60": 2139.8,
+  "rangePos60": 0.43,
+  "rel20": -4.0,
+  "rel60": -7.6,
+  "volumeRatio20": 0.65
  },
  "reasons": [
-  "1.1pt買い増し 9.2%→10.4%",
+  "0.1pt買い増し 9.4%→9.5%",
   "30日以内に2回買い増し"
  ],
  "schemaVersion": 1,
@@ -196,67 +162,11 @@
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z0CY"
   },
   {
-   "date": "2026-09-08",
-   "detail": "60日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-09-08",
-   "detail": "TOPIX連動ETFを上回りに転換",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
    "date": "2026-09-10",
    "detail": "7.27% → 8.38%（Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．）",
    "kind": "EVENT",
    "label": "連続の買い増し",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z0UB"
-  },
-  {
-   "date": "2026-09-10",
-   "detail": "なし → TREND",
-   "kind": "SETUP",
-   "label": "Price Setup改善",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-09-10",
-   "detail": "20日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-09-10",
-   "detail": "60日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-09-10",
-   "detail": "Price Setupが成立",
-   "kind": "STATUS",
-   "label": "WATCH",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-09-11",
-   "detail": "TREND → なし",
-   "kind": "SETUP",
-   "label": "Price Setup解消",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-09-11",
-   "detail": "大量保有の買い増しを確認",
-   "kind": "STATUS",
-   "label": "STRENGTHENING",
-   "sourceUrl": null
   },
   {
    "date": "2026-09-14",
@@ -273,33 +183,12 @@
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z2AU"
   },
   {
-   "date": "2026-09-15",
-   "detail": "なし → RECOVERY",
-   "kind": "SETUP",
-   "label": "Price Setup改善",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-09-30",
-   "detail": "RECOVERY → なし",
-   "kind": "SETUP",
-   "label": "Price Setup解消",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-10-02",
-   "detail": "20日線を連続で下回った",
-   "kind": "STATUS",
-   "label": "BROKEN",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-10-05",
-   "detail": "Price Setupが崩れた",
-   "kind": "STATUS",
-   "label": "CLOSED",
-   "sourceUrl": null
+   "date": "2026-10-06",
+   "detail": "9.41% → 9.54%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z61M"
   }
  ],
- "updatedAt": "2026-10-05T19:51:55+09:00"
+ "updatedAt": "2026-10-06T15:45:37+09:00"
 }

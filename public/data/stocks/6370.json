@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T02:51:11+09:00",
+  "updatedAt": "2026-10-06T15:45:25+09:00",
   "company": {
     "securityCode": "6370",
     "ticker": "6370.T",
@@ -20,7 +20,7 @@
       "purpose": "純投資（投資一任契約に基づく顧客の資産運用および投資信託約款に基づく資産運用目的） / 純投資（顧客および投資信託等の資産運用目的） / 純投資（投資信託等の資産運用目的）",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.43,
       "marketExcessReturn": null,
       "signalScore": 20,
       "signalReasons": [
@@ -28,11 +28,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": 2.73,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.0,
-        "volumeRatio": null,
+        "returnCurrent": 2.73,
+        "volumeRatio": 0.43,
         "marketExcessReturn": null
       }
     }
@@ -2684,9 +2684,19 @@
       "open": 7975.0,
       "high": 7995.0,
       "low": 7903.0,
-      "close": null,
-      "adj_close": null,
+      "close": 7955.0,
+      "adj_close": 7955.0,
       "volume": 509400
+    },
+    {
+      "ticker": "6370.T",
+      "trade_date": "2026-10-06",
+      "open": 7980.0,
+      "high": 8053.0,
+      "low": 7919.0,
+      "close": 8039.0,
+      "adj_close": 8039.0,
+      "volume": 252300
     }
   ],
   "benchmark": [
@@ -6469,6 +6479,16 @@
       "close": 436.29998779296875,
       "adj_close": 436.29998779296875,
       "volume": 10976470
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-06",
+      "open": 437.20001220703125,
+      "high": 440.79998779296875,
+      "low": 436.3999938964844,
+      "close": 440.79998779296875,
+      "adj_close": 440.79998779296875,
+      "volume": 13578620
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

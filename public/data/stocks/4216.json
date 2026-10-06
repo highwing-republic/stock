@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-10-06T02:51:11+09:00",
+  "updatedAt": "2026-10-06T15:45:25+09:00",
   "company": {
     "securityCode": "4216",
     "ticker": "4216.T",
     "name": "旭有機材株式会社"
   },
   "events": [
+    {
+      "docId": "S100Z63V",
+      "ticker": "4216.T",
+      "securityCode": "4216",
+      "companyName": "旭有機材株式会社",
+      "submitDatetime": "2026-10-06 11:52",
+      "filerName": "野村證券株式会社",
+      "reportType": "change",
+      "holdingRatio": 4.91,
+      "previousHoldingRatio": 5.16,
+      "holdingChange": -0.25,
+      "purpose": "証券業務に係る商品在庫、及び累積投資業務の運営目的として保有している。 / 証券業務に係わる商品在庫として保有している。 / 信託財産の運用として保有している。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 1.8,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YRFA",
       "ticker": "4216.T",
@@ -32,7 +62,7 @@
         "return1d": 3.38,
         "return5d": -7.41,
         "return20d": -4.19,
-        "returnCurrent": 15.14,
+        "returnCurrent": 18.36,
         "volumeRatio": 0.99,
         "marketExcessReturn": -6.6
       }
@@ -2825,9 +2855,19 @@
       "open": 7200.0,
       "high": 7310.0,
       "low": 7150.0,
-      "close": null,
-      "adj_close": null,
+      "close": 7220.0,
+      "adj_close": 7220.0,
       "volume": 131700
+    },
+    {
+      "ticker": "4216.T",
+      "trade_date": "2026-10-06",
+      "open": 7330.0,
+      "high": 7400.0,
+      "low": 7160.0,
+      "close": 7350.0,
+      "adj_close": 7350.0,
+      "volume": 97700
     }
   ],
   "benchmark": [
@@ -6610,6 +6650,16 @@
       "close": 436.29998779296875,
       "adj_close": 436.29998779296875,
       "volume": 10976470
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-06",
+      "open": 437.20001220703125,
+      "high": 440.79998779296875,
+      "low": 436.3999938964844,
+      "close": 440.79998779296875,
+      "adj_close": 440.79998779296875,
+      "volume": 13578620
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

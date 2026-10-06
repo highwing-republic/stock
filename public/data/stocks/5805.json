@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-10-06T02:51:11+09:00",
+  "updatedAt": "2026-10-06T15:45:25+09:00",
   "company": {
     "securityCode": "5805",
     "ticker": "5805.T",
     "name": "ＳＷＣＣ株式会社"
   },
   "events": [
+    {
+      "docId": "S100Z5R6",
+      "ticker": "5805.T",
+      "securityCode": "5805",
+      "companyName": "ＳＷＣＣ株式会社",
+      "submitDatetime": "2026-10-06 09:12",
+      "filerName": "三井住友トラスト・アセットマネジメント株式会社",
+      "reportType": "change",
+      "holdingRatio": 5.44,
+      "previousHoldingRatio": 6.45,
+      "holdingChange": -1.01,
+      "purpose": "投資信託契約、投資一任契約に基づく運用を目的として保有するもの。 / 証券投資信託及び投資一任契約において、株券等の取得・処分の権限を有するもの。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 3.13,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z3O8",
       "ticker": "5805.T",
@@ -32,7 +62,7 @@
         "return1d": -0.07,
         "return5d": 11.33,
         "return20d": null,
-        "returnCurrent": 11.33,
+        "returnCurrent": 15.5,
         "volumeRatio": 0.78,
         "marketExcessReturn": 10.06
       }
@@ -63,7 +93,7 @@
         "return1d": 2.4,
         "return5d": -5.89,
         "return20d": -2.44,
-        "returnCurrent": 2.26,
+        "returnCurrent": 6.09,
         "volumeRatio": 0.58,
         "marketExcessReturn": -5.45
       }
@@ -95,7 +125,7 @@
         "return1d": 1.24,
         "return5d": -6.35,
         "return20d": -5.48,
-        "returnCurrent": 3.04,
+        "returnCurrent": 6.9,
         "volumeRatio": 0.59,
         "marketExcessReturn": -6.12
       }
@@ -126,7 +156,7 @@
         "return1d": 2.3,
         "return5d": 7.63,
         "return20d": -3.46,
-        "returnCurrent": 7.49,
+        "returnCurrent": 11.51,
         "volumeRatio": 0.58,
         "marketExcessReturn": 5.41
       }
@@ -156,7 +186,7 @@
         "return1d": -3.78,
         "return5d": 4.71,
         "return20d": -6.35,
-        "returnCurrent": 6.57,
+        "returnCurrent": 10.56,
         "volumeRatio": 0.61,
         "marketExcessReturn": 2.53
       }
@@ -186,7 +216,7 @@
         "return1d": 6.33,
         "return5d": -2.6,
         "return20d": 30.33,
-        "returnCurrent": 38.88,
+        "returnCurrent": 44.08,
         "volumeRatio": 1.03,
         "marketExcessReturn": -1.79
       }
@@ -3969,9 +3999,19 @@
       "open": 2880.0,
       "high": 2932.0,
       "low": 2829.0,
-      "close": null,
-      "adj_close": null,
+      "close": 2847.0,
+      "adj_close": 2847.0,
       "volume": 1418900
+    },
+    {
+      "ticker": "5805.T",
+      "trade_date": "2026-10-06",
+      "open": 2823.0,
+      "high": 2944.0,
+      "low": 2775.0,
+      "close": 2936.0,
+      "adj_close": 2936.0,
+      "volume": 2040700
     }
   ],
   "benchmark": [
@@ -7754,6 +7794,16 @@
       "close": 436.29998779296875,
       "adj_close": 436.29998779296875,
       "volume": 10976470
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-06",
+      "open": 437.20001220703125,
+      "high": 440.79998779296875,
+      "low": 436.3999938964844,
+      "close": 440.79998779296875,
+      "adj_close": 440.79998779296875,
+      "volume": 13578620
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T02:51:11+09:00",
+  "updatedAt": "2026-10-06T15:45:25+09:00",
   "company": {
     "securityCode": "9502",
     "ticker": "9502.T",
@@ -20,7 +20,7 @@
       "purpose": "純投資（投資一任契約に基づく顧客の資産運用および投資信託約款に基づく資産運用目的） / 純投資（顧客および投資信託等の資産運用目的） / 純投資（投資信託等の資産運用目的）",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.89,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [
@@ -28,11 +28,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": -0.27,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.0,
-        "volumeRatio": null,
+        "returnCurrent": -0.27,
+        "volumeRatio": 0.89,
         "marketExcessReturn": null
       }
     },
@@ -61,7 +61,7 @@
         "return1d": 0.06,
         "return5d": 4.12,
         "return20d": 8.11,
-        "returnCurrent": -1.43,
+        "returnCurrent": -1.69,
         "volumeRatio": 0.65,
         "marketExcessReturn": 0.2
       }
@@ -3844,9 +3844,19 @@
       "open": 2635.0,
       "high": 2681.0,
       "low": 2626.5,
-      "close": null,
-      "adj_close": null,
+      "close": 2626.5,
+      "adj_close": 2626.5,
       "volume": 3183700
+    },
+    {
+      "ticker": "9502.T",
+      "trade_date": "2026-10-06",
+      "open": 2625.0,
+      "high": 2632.0,
+      "low": 2578.5,
+      "close": 2628.0,
+      "adj_close": 2628.0,
+      "volume": 3168500
     }
   ],
   "benchmark": [
@@ -7629,6 +7639,16 @@
       "close": 436.29998779296875,
       "adj_close": 436.29998779296875,
       "volume": 10976470
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-06",
+      "open": 437.20001220703125,
+      "high": 440.79998779296875,
+      "low": 436.3999938964844,
+      "close": 440.79998779296875,
+      "adj_close": 440.79998779296875,
+      "volume": 13578620
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

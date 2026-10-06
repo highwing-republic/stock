@@ -1,11 +1,71 @@
 {
-  "updatedAt": "2026-10-06T02:51:11+09:00",
+  "updatedAt": "2026-10-06T15:45:25+09:00",
   "company": {
     "securityCode": "4902",
     "ticker": "4902.T",
     "name": "コニカミノルタ株式会社"
   },
   "events": [
+    {
+      "docId": "S100Z63Z",
+      "ticker": "4902.T",
+      "securityCode": "4902",
+      "companyName": "コニカミノルタ株式会社",
+      "submitDatetime": "2026-10-06 12:00",
+      "filerName": "野村證券株式会社",
+      "reportType": "initial",
+      "holdingRatio": 5.08,
+      "previousHoldingRatio": null,
+      "holdingChange": null,
+      "purpose": "証券業務に係る商品在庫、及び累積投資業務の運営目的として保有している。 / 証券業務に係わる商品在庫として保有している。 / 信託財産の運用として保有している。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 30,
+      "signalReasons": [
+        "新規大量保有"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 1.52,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
+    {
+      "docId": "S100Z5R5",
+      "ticker": "4902.T",
+      "securityCode": "4902",
+      "companyName": "コニカミノルタ株式会社",
+      "submitDatetime": "2026-10-06 09:12",
+      "filerName": "三井住友トラスト・アセットマネジメント株式会社",
+      "reportType": "change",
+      "holdingRatio": 3.87,
+      "previousHoldingRatio": 5.41,
+      "holdingChange": -1.54,
+      "purpose": "投資信託契約、投資一任契約に基づく運用を目的として保有するもの。 / 証券投資信託及び投資一任契約において、株券等の取得・処分の権限を有するもの。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 1.52,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YFX0",
       "ticker": "4902.T",
@@ -32,7 +92,7 @@
         "return1d": 0.2,
         "return5d": 0.97,
         "return20d": 13.75,
-        "returnCurrent": 15.96,
+        "returnCurrent": 17.31,
         "volumeRatio": 1.05,
         "marketExcessReturn": 2.83
       }
@@ -62,7 +122,7 @@
         "return1d": -4.05,
         "return5d": -3.11,
         "return20d": 5.13,
-        "returnCurrent": 10.81,
+        "returnCurrent": 12.1,
         "volumeRatio": 1.06,
         "marketExcessReturn": -0.36
       }
@@ -2855,9 +2915,19 @@
       "open": 643.5999755859375,
       "high": 656.7000122070312,
       "low": 639.4000244140625,
-      "close": null,
-      "adj_close": null,
+      "close": 643.5,
+      "adj_close": 643.5,
       "volume": 4288400
+    },
+    {
+      "ticker": "4902.T",
+      "trade_date": "2026-10-06",
+      "open": 658.0,
+      "high": 658.0,
+      "low": 641.7999877929688,
+      "close": 653.2999877929688,
+      "adj_close": 653.2999877929688,
+      "volume": 3585400
     }
   ],
   "benchmark": [
@@ -6640,6 +6710,16 @@
       "close": 436.29998779296875,
       "adj_close": 436.29998779296875,
       "volume": 10976470
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-06",
+      "open": 437.20001220703125,
+      "high": 440.79998779296875,
+      "low": 436.3999938964844,
+      "close": 440.79998779296875,
+      "adj_close": 440.79998779296875,
+      "volume": 13578620
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

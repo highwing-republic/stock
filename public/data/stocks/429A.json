@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-10-06T02:51:11+09:00",
+  "updatedAt": "2026-10-06T15:45:25+09:00",
   "company": {
     "securityCode": "429A",
     "ticker": "429A.T",
     "name": "テクセンドフォトマスク株式会社"
   },
   "events": [
+    {
+      "docId": "S100Z5MB",
+      "ticker": "429A.T",
+      "securityCode": "429A",
+      "companyName": "テクセンドフォトマスク株式会社",
+      "submitDatetime": "2026-10-06 13:50",
+      "filerName": "イーストスプリング・インベストメンツ（シンガポール）リミテッド",
+      "reportType": "change",
+      "holdingRatio": 6.43,
+      "previousHoldingRatio": 5.04,
+      "holdingChange": 1.39,
+      "purpose": "純投資（投資一任契約及び投資信託の運用の指図の再委託において、株式等の取得・処分の権限を有するもの）",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 20,
+      "signalReasons": [
+        "1pt以上買い増し"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 3.42,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YZYO",
       "ticker": "429A.T",
@@ -31,8 +61,8 @@
       "metrics": {
         "return1d": 4.51,
         "return5d": 11.13,
-        "return20d": null,
-        "returnCurrent": 10.0,
+        "return20d": 16.11,
+        "returnCurrent": 16.11,
         "volumeRatio": 0.66,
         "marketExcessReturn": 11.55
       }
@@ -2385,9 +2415,19 @@
       "open": 4005.0,
       "high": 4015.0,
       "low": 3895.0,
-      "close": null,
-      "adj_close": null,
+      "close": 3950.0,
+      "adj_close": 3950.0,
       "volume": 547100
+    },
+    {
+      "ticker": "429A.T",
+      "trade_date": "2026-10-06",
+      "open": 3970.0,
+      "high": 4120.0,
+      "low": 3950.0,
+      "close": 4085.0,
+      "adj_close": 4085.0,
+      "volume": 716400
     }
   ],
   "benchmark": [
@@ -6170,6 +6210,16 @@
       "close": 436.29998779296875,
       "adj_close": 436.29998779296875,
       "volume": 10976470
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-06",
+      "open": 437.20001220703125,
+      "high": 440.79998779296875,
+      "low": 436.3999938964844,
+      "close": 440.79998779296875,
+      "adj_close": 440.79998779296875,
+      "volume": 13578620
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

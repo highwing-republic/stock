@@ -40,7 +40,7 @@
   },
   {
    "d1": -0.4,
-   "d20": null,
+   "d20": -4.4,
    "d5": -2.6,
    "eventId": "edinet:S100Z07T",
    "excess5": -1.5
@@ -72,22 +72,24 @@
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-10-05",
+  "asOf": "2026-10-06",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.23,
+  "distFrom52wHigh": 0.21,
   "labels": [
+   "20日線の上",
    "60日線の上"
   ],
-  "ma20": 3594.0,
-  "ma200": 3446.5,
-  "ma60": 3423.7,
-  "rangePos60": 0.51,
-  "rel20": -8.0,
-  "rel60": 13.9,
-  "volumeRatio20": 0.76
+  "ma20": 3585.7,
+  "ma200": 3450.0,
+  "ma60": 3434.4,
+  "rangePos60": 0.56,
+  "rel20": -7.5,
+  "rel60": 17.7,
+  "volumeRatio20": 0.87
  },
  "reasons": [
-  "新規大量保有 5.8%（大和アセットマネジメント株式会社）"
+  "新規大量保有 5.8%（大和アセットマネジメント株式会社）",
+  "20日線を回復"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -125,7 +127,14 @@
    "kind": "EVENT",
    "label": "買い増し",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z62T"
+  },
+  {
+   "date": "2026-10-06",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-05T19:51:55+09:00"
+ "updatedAt": "2026-10-06T15:45:37+09:00"
 }

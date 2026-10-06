@@ -1,11 +1,42 @@
 {
-  "updatedAt": "2026-10-06T02:51:11+09:00",
+  "updatedAt": "2026-10-06T15:45:25+09:00",
   "company": {
     "securityCode": "9213",
     "ticker": "9213.T",
     "name": "株式会社セイファート"
   },
   "events": [
+    {
+      "docId": "S100Z6F8",
+      "ticker": "9213.T",
+      "securityCode": "9213",
+      "companyName": "株式会社セイファート",
+      "submitDatetime": "2026-10-06 10:20",
+      "filerName": "株式会社アーム",
+      "reportType": "change",
+      "holdingRatio": 12.36,
+      "previousHoldingRatio": 19.4,
+      "holdingChange": -7.04,
+      "purpose": "純投資及び状況に応じて重要提案行為等を行うこと。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少",
+        "大幅売却"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -1.9,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z1XI",
       "ticker": "9213.T",
@@ -29,7 +60,7 @@
         "return1d": -5.04,
         "return5d": -1.43,
         "return20d": null,
-        "returnCurrent": -0.19,
+        "returnCurrent": -2.09,
         "volumeRatio": 1.8,
         "marketExcessReturn": -2.65
       }
@@ -60,7 +91,7 @@
         "return1d": 0.0,
         "return5d": -1.43,
         "return20d": null,
-        "returnCurrent": -0.19,
+        "returnCurrent": -2.09,
         "volumeRatio": 1.78,
         "marketExcessReturn": -2.28
       }
@@ -2853,9 +2884,19 @@
       "open": 1050.0,
       "high": 1050.0,
       "low": 1050.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1050.0,
+      "adj_close": 1050.0,
       "volume": 700
+    },
+    {
+      "ticker": "9213.T",
+      "trade_date": "2026-10-06",
+      "open": 1050.0,
+      "high": 1050.0,
+      "low": 1030.0,
+      "close": 1030.0,
+      "adj_close": 1030.0,
+      "volume": 11500
     }
   ],
   "benchmark": [
@@ -6638,6 +6679,16 @@
       "close": 436.29998779296875,
       "adj_close": 436.29998779296875,
       "volume": 10976470
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-06",
+      "open": 437.20001220703125,
+      "high": 440.79998779296875,
+      "low": 436.3999938964844,
+      "close": 440.79998779296875,
+      "adj_close": 440.79998779296875,
+      "volume": 13578620
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

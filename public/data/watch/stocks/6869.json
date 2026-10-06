@@ -1,0 +1,134 @@
+{
+ "company": {
+  "name": "シスメックス",
+  "securityCode": "6869",
+  "tradingViewSymbol": "TSE:6869"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "6869-2026-10-06",
+  "overextended": false,
+  "setupType": "TREND",
+  "setups": [
+   "TREND"
+  ],
+  "startedAt": "2026-10-06",
+  "status": "WATCH",
+  "statusHistory": [
+   {
+    "date": "2026-10-06",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-10-06",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   }
+  ],
+  "watchStartedAt": "2026-10-06"
+ },
+ "eventReactions": [
+  {
+   "d1": 3.5,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z5XU",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-02",
+  "buyBalance": 883700,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 5.44,
+  "sellBalance": 162400,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": 0.0,
+  "currentPrice": 1895.5,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 20,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 5,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 60,
+   "stockReturn": null
+  },
+  "excessReturn": 0.0,
+  "initialDate": "2026-10-06",
+  "initialPrice": 1895.5,
+  "stockReturn": 0.0
+ },
+ "priceSetup": {
+  "asOf": "2026-10-06",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.05,
+  "labels": [
+   "20日線の上",
+   "60日レンジ上位19%",
+   "60日線の上"
+  ],
+  "ma20": 1842.4,
+  "ma200": 1524.0,
+  "ma60": 1763.3,
+  "rangePos60": 0.81,
+  "rel20": -1.5,
+  "rel60": 18.5,
+  "volumeRatio20": 0.96
+ },
+ "reasons": [
+  "新規大量保有 5%（ブラックロック・ジャパン株式会社）",
+  "60日レンジ上位19%",
+  "20日線を回復",
+  "52週高値まで5%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-10-05",
+   "detail": "保有割合 5.03%（ブラックロック・ジャパン株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z5XU"
+  },
+  {
+   "date": "2026-10-06",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-06",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-06",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-06T15:45:37+09:00"
+}
