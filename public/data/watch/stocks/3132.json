@@ -71,13 +71,6 @@
    "d5": 6.0,
    "eventId": "edinet:S100Z0J4",
    "excess5": 7.8
-  },
-  {
-   "d1": 1.2,
-   "d20": null,
-   "d5": null,
-   "eventId": "edinet:S100Z5R2",
-   "excess5": null
   }
  ],
  "margin": {
@@ -94,12 +87,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 2.4,
-  "currentPrice": 4351.0,
+  "benchReturn": 1.4,
+  "currentPrice": 4300.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 2,
+   "pendingDays": 3,
    "stockReturn": null
   },
   "d5": {
@@ -111,16 +104,16 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 42,
+   "pendingDays": 43,
    "stockReturn": null
   },
-  "excessReturn": 18.0,
+  "excessReturn": 17.6,
   "initialDate": "2026-09-07",
   "initialPrice": 3614.4,
-  "stockReturn": 20.4
+  "stockReturn": 19.0
  },
  "priceSetup": {
-  "asOf": "2026-10-06",
+  "asOf": "2026-10-05",
   "atrState": "通常",
   "distFrom52wHigh": 0.0,
   "labels": [
@@ -129,19 +122,19 @@
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 3944.1,
-  "ma200": 2940.7,
-  "ma60": 3582.5,
+  "ma20": 3900.0,
+  "ma200": 2930.7,
+  "ma60": 3562.5,
   "rangePos60": 0.99,
-  "rel20": 22.4,
-  "rel60": 34.2,
-  "volumeRatio20": 1.29
+  "rel20": 19.7,
+  "rel60": 29.1,
+  "volumeRatio20": 1.44
  },
  "reasons": [
   "1.3pt買い増し 5.1%→6.4%",
   "60日レンジ上位1%",
   "20日線上向き",
-  "TOPIX連動ETF比 +22.4pt（20日）"
+  "TOPIX連動ETF比 +19.7pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -277,14 +270,7 @@
    "kind": "EVENT",
    "label": "保有割合の減少",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z5R2"
-  },
-  {
-   "date": "2026-10-06",
-   "detail": "60日高値を更新",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-06T22:38:46+09:00"
+ "updatedAt": "2026-10-07T00:47:05+09:00"
 }
