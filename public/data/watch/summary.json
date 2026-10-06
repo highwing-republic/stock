@@ -39,23 +39,9 @@
     "watchStartedAt": "2026-10-01"
    },
    {
-    "companyName": "名村造船所",
-    "excessSinceWatch": -6.8,
-    "rank": 3,
-    "rankChange": "down",
-    "reasons": [
-     "新規大量保有 5.3%（野村證券株式会社）"
-    ],
-    "returnSinceWatch": -4.5,
-    "securityCode": "7014",
-    "setupType": "BREAKOUT",
-    "status": "STRENGTHENING",
-    "watchStartedAt": "2026-09-25"
-   },
-   {
     "companyName": "ジャストシステム",
     "excessSinceWatch": 2.9,
-    "rank": 4,
+    "rank": 3,
     "rankChange": "up",
     "reasons": [
      "0.2pt買い増し 16.2%→16.4%",
@@ -72,12 +58,13 @@
    {
     "companyName": "関西ペイント",
     "excessSinceWatch": -2.9,
-    "rank": 5,
+    "rank": 4,
     "rankChange": "down",
     "reasons": [
      "新規大量保有 5.1%（キャピタル・リサーチ・アンド・マネージメント・カンパニー）",
      "20日線を回復",
-     "52週高値まで8%"
+     "52週高値まで8%",
+     "信用買残 -0%"
     ],
     "returnSinceWatch": -0.6,
     "securityCode": "4613",
@@ -86,25 +73,23 @@
     "watchStartedAt": "2026-09-25"
    },
    {
-    "companyName": "神戸製鋼所",
-    "excessSinceWatch": 0.0,
-    "rank": 6,
-    "rankChange": "new",
+    "companyName": "名村造船所",
+    "excessSinceWatch": -6.8,
+    "rank": 5,
+    "rankChange": "down",
     "reasons": [
-     "新規大量保有 5%（株式会社三菱ＵＦＪフィナンシャル・グループ）",
-     "60日レンジ上位13%",
-     "20日線を回復"
+     "新規大量保有 5.3%（野村證券株式会社）"
     ],
-    "returnSinceWatch": 0.0,
-    "securityCode": "5406",
+    "returnSinceWatch": -4.5,
+    "securityCode": "7014",
     "setupType": "BREAKOUT",
-    "status": "WATCH",
-    "watchStartedAt": "2026-10-06"
+    "status": "STRENGTHENING",
+    "watchStartedAt": "2026-09-25"
    },
    {
     "companyName": "シスメックス",
     "excessSinceWatch": 0.0,
-    "rank": 7,
+    "rank": 6,
     "rankChange": "new",
     "reasons": [
      "新規大量保有 5%（ブラックロック・ジャパン株式会社）",
@@ -119,9 +104,42 @@
     "watchStartedAt": "2026-10-06"
    },
    {
+    "companyName": "神戸製鋼所",
+    "excessSinceWatch": 0.0,
+    "rank": 7,
+    "rankChange": "new",
+    "reasons": [
+     "新規大量保有 5%（株式会社三菱ＵＦＪフィナンシャル・グループ）",
+     "60日レンジ上位13%",
+     "20日線を回復"
+    ],
+    "returnSinceWatch": 0.0,
+    "securityCode": "5406",
+    "setupType": "BREAKOUT",
+    "status": "WATCH",
+    "watchStartedAt": "2026-10-06"
+   },
+   {
+    "companyName": "TISI",
+    "excessSinceWatch": -0.4,
+    "rank": 8,
+    "rankChange": "down",
+    "reasons": [
+     "新規大量保有 5.2%（ファースト・イーグル・インベストメント・マネジメント・エルエルシー）",
+     "60日レンジ上位16%",
+     "20日線上向き",
+     "信用買残 -8%"
+    ],
+    "returnSinceWatch": 4.5,
+    "securityCode": "3626",
+    "setupType": "BREAKOUT",
+    "status": "STRENGTHENING",
+    "watchStartedAt": "2026-09-11"
+   },
+   {
     "companyName": "クスリのアオキホールディングス",
     "excessSinceWatch": -7.1,
-    "rank": 8,
+    "rank": 9,
     "rankChange": "new",
     "reasons": [
      "1pt買い増し 15.1%→16.1%",
@@ -135,22 +153,6 @@
     "watchStartedAt": "2026-10-02"
    },
    {
-    "companyName": "TISI",
-    "excessSinceWatch": -0.4,
-    "rank": 9,
-    "rankChange": "down",
-    "reasons": [
-     "新規大量保有 5.2%（ファースト・イーグル・インベストメント・マネジメント・エルエルシー）",
-     "60日レンジ上位16%",
-     "20日線上向き"
-    ],
-    "returnSinceWatch": 4.5,
-    "securityCode": "3626",
-    "setupType": "BREAKOUT",
-    "status": "STRENGTHENING",
-    "watchStartedAt": "2026-09-11"
-   },
-   {
     "companyName": "NSD",
     "excessSinceWatch": -1.7,
     "rank": 10,
@@ -158,7 +160,8 @@
     "reasons": [
      "1.3pt買い増し 5.3%→6.6%",
      "60日レンジ上位18%",
-     "20日線上向き"
+     "20日線上向き",
+     "信用買残 -4%"
     ],
     "returnSinceWatch": 2.3,
     "securityCode": "9759",
@@ -172,21 +175,21 @@
  "schemaVersion": 1,
  "sources": {
   "edinet": {
-   "lastSuccessAt": "2026-10-06T15:41:39+09:00",
+   "lastSuccessAt": "2026-10-06T19:43:12+09:00",
    "status": "ok"
   },
   "jpx400": {
-   "lastSuccessAt": "2026-10-06T15:45:37+09:00",
+   "lastSuccessAt": "2026-10-06T19:49:40+09:00",
    "memberCount": 401,
    "status": "ok"
   },
   "margin": {
-   "asOf": "2026-10-02",
+   "asOf": "2026-10-05",
    "status": "ok"
   },
   "prices": {
    "coverage": 1.0,
-   "lastSuccessAt": "2026-10-06T15:45:37+09:00",
+   "lastSuccessAt": "2026-10-06T19:49:40+09:00",
    "status": "ok"
   }
  },
@@ -513,7 +516,7 @@
   }
  ],
  "universeCount": 401,
- "updatedAt": "2026-10-06T15:45:37+09:00",
+ "updatedAt": "2026-10-06T19:49:40+09:00",
  "weekly": {
   "entries": [
    {
@@ -534,24 +537,10 @@
     "watchStartedAt": "2026-10-05"
    },
    {
-    "companyName": "名村造船所",
-    "excessSinceWatch": -6.8,
-    "rank": 2,
-    "rankChange": "down",
-    "reasons": [
-     "新規大量保有 5.3%（野村證券株式会社）"
-    ],
-    "returnSinceWatch": -4.5,
-    "securityCode": "7014",
-    "setupType": "BREAKOUT",
-    "status": "STRENGTHENING",
-    "watchStartedAt": "2026-09-25"
-   },
-   {
     "companyName": "ソシオネクスト",
     "excessSinceWatch": 1.7,
-    "rank": 3,
-    "rankChange": "same",
+    "rank": 2,
+    "rankChange": "up",
     "reasons": [
      "2pt買い増し 8.7%→10.7%",
      "30日以内に2回買い増し",
@@ -567,7 +556,7 @@
    {
     "companyName": "ジャストシステム",
     "excessSinceWatch": 2.9,
-    "rank": 4,
+    "rank": 3,
     "rankChange": "new",
     "reasons": [
      "0.2pt買い増し 16.2%→16.4%",
@@ -584,16 +573,31 @@
    {
     "companyName": "関西ペイント",
     "excessSinceWatch": -2.9,
-    "rank": 5,
-    "rankChange": "down",
+    "rank": 4,
+    "rankChange": "same",
     "reasons": [
      "新規大量保有 5.1%（キャピタル・リサーチ・アンド・マネージメント・カンパニー）",
      "20日線を回復",
-     "52週高値まで8%"
+     "52週高値まで8%",
+     "信用買残 -0%"
     ],
     "returnSinceWatch": -0.6,
     "securityCode": "4613",
     "setupType": "TREND",
+    "status": "STRENGTHENING",
+    "watchStartedAt": "2026-09-25"
+   },
+   {
+    "companyName": "名村造船所",
+    "excessSinceWatch": -6.8,
+    "rank": 5,
+    "rankChange": "down",
+    "reasons": [
+     "新規大量保有 5.3%（野村證券株式会社）"
+    ],
+    "returnSinceWatch": -4.5,
+    "securityCode": "7014",
+    "setupType": "BREAKOUT",
     "status": "STRENGTHENING",
     "watchStartedAt": "2026-09-25"
    }
