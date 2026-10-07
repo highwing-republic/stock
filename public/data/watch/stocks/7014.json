@@ -12,7 +12,7 @@
   "setupType": "BREAKOUT",
   "setups": [],
   "startedAt": "2026-09-25",
-  "status": "BROKEN",
+  "status": "STRENGTHENING",
   "statusHistory": [
    {
     "date": "2026-09-25",
@@ -31,12 +31,6 @@
     "from": "WATCH",
     "reason_code": "SETUP_IMPROVED",
     "to": "STRENGTHENING"
-   },
-   {
-    "date": "2026-10-07",
-    "from": "STRENGTHENING",
-    "reason_code": "BELOW_MA20",
-    "to": "BROKEN"
    }
   ],
   "watchStartedAt": "2026-09-25"
@@ -89,12 +83,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 1.6,
-  "currentPrice": 4585.0,
+  "benchReturn": 2.3,
+  "currentPrice": 4630.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 12,
+   "pendingDays": 13,
    "stockReturn": null
   },
   "d5": {
@@ -106,29 +100,29 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 52,
+   "pendingDays": 53,
    "stockReturn": null
   },
-  "excessReturn": -7.1,
+  "excessReturn": -6.8,
   "initialDate": "2026-09-25",
   "initialPrice": 4849.4,
-  "stockReturn": -5.5
+  "stockReturn": -4.5
  },
  "priceSetup": {
-  "asOf": "2026-10-07",
+  "asOf": "2026-10-06",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.23,
+  "distFrom52wHigh": 0.22,
   "labels": [
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 4775.3,
-  "ma200": 4269.6,
-  "ma60": 4456.8,
-  "rangePos60": 0.63,
-  "rel20": -6.1,
-  "rel60": 14.2,
-  "volumeRatio20": 0.67
+  "ma20": 4784.5,
+  "ma200": 4268.4,
+  "ma60": 4444.9,
+  "rangePos60": 0.66,
+  "rel20": -1.8,
+  "rel60": 7.0,
+  "volumeRatio20": 0.86
  },
  "reasons": [
   "新規大量保有 5.3%（野村證券株式会社）"
@@ -239,14 +233,7 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-10-07",
-   "detail": "20日線を連続で下回った",
-   "kind": "STATUS",
-   "label": "BROKEN",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-07T22:52:27+09:00"
+ "updatedAt": "2026-10-08T01:09:10+09:00"
 }

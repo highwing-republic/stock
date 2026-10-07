@@ -10,7 +10,9 @@
   "id": "5406-2026-10-05",
   "overextended": false,
   "setupType": "BREAKOUT",
-  "setups": [],
+  "setups": [
+   "BREAKOUT"
+  ],
   "startedAt": "2026-10-05",
   "status": "WATCH",
   "statusHistory": [
@@ -49,51 +51,53 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -0.8,
-  "currentPrice": 2007.0,
+  "benchReturn": 0.0,
+  "currentPrice": 2024.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 19,
+   "pendingDays": 20,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 4,
+   "pendingDays": 5,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 59,
+   "pendingDays": 60,
    "stockReturn": null
   },
   "excessReturn": 0.0,
   "initialDate": "2026-10-06",
   "initialPrice": 2024.0,
-  "stockReturn": -0.8
+  "stockReturn": 0.0
  },
  "priceSetup": {
-  "asOf": "2026-10-07",
+  "asOf": "2026-10-06",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.12,
+  "distFrom52wHigh": 0.11,
   "labels": [
-   "60日レンジ上位20%",
+   "20日線の上",
+   "60日レンジ上位13%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2010.2,
-  "ma200": 1977.9,
-  "ma60": 1978.7,
-  "rangePos60": 0.8,
-  "rel20": -1.4,
-  "rel60": 4.2,
-  "volumeRatio20": 0.7
+  "ma20": 2009.4,
+  "ma200": 1977.3,
+  "ma60": 1976.0,
+  "rangePos60": 0.87,
+  "rel20": -2.4,
+  "rel60": 4.1,
+  "volumeRatio20": 0.73
  },
  "reasons": [
   "新規大量保有 5%（株式会社三菱ＵＦＪフィナンシャル・グループ）",
-  "60日レンジ上位20%"
+  "60日レンジ上位13%",
+  "20日線を回復"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -124,14 +128,7 @@
    "kind": "STATUS",
    "label": "WATCH",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-10-07",
-   "detail": "BREAKOUT → なし",
-   "kind": "SETUP",
-   "label": "Price Setup解消",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-07T22:52:27+09:00"
+ "updatedAt": "2026-10-08T01:09:10+09:00"
 }
