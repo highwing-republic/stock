@@ -1,0 +1,116 @@
+{
+ "company": {
+  "name": "DTS",
+  "securityCode": "9682",
+  "tradingViewSymbol": "TSE:9682"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "9682-2026-10-07",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-10-07",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-10-07",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": 3.7,
+   "d20": 3.9,
+   "d5": 4.2,
+   "eventId": "edinet:S100YVL8",
+   "excess5": 3.4
+  },
+  {
+   "d1": 2.5,
+   "d20": 0.2,
+   "d5": 2.8,
+   "eventId": "edinet:S100YXB0",
+   "excess5": 0.2
+  },
+  {
+   "d1": 0.1,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z5ZR",
+   "excess5": null
+  },
+  {
+   "d1": 0.1,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z6JD",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-05",
+  "buyBalance": 85500,
+  "buyChangePct": -1.8,
+  "labels": [],
+  "ratio": 1.47,
+  "sellBalance": 58300,
+  "sellChangePct": -3.2
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-10-07",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.17,
+  "labels": [],
+  "ma20": 1097.5,
+  "ma200": 1080.9,
+  "ma60": 1088.6,
+  "rangePos60": 0.45,
+  "rel20": -5.1,
+  "rel60": -1.9,
+  "volumeRatio20": 0.6
+ },
+ "reasons": [
+  "新規大量保有 5.1%（株式会社みずほ銀行）",
+  "信用買残 -2%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-08-10",
+   "detail": "6.28% → 6.43%（アセット・バリュー・インベスターズ・リミテッド）",
+   "kind": "EVENT",
+   "label": "買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YVL8"
+  },
+  {
+   "date": "2026-08-20",
+   "detail": "保有割合 5.08%（三井住友信託銀行株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YXB0"
+  },
+  {
+   "date": "2026-10-06",
+   "detail": "6.43% → 7.45%（アセット・バリュー・インベスターズ・リミテッド）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z5ZR"
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "保有割合 5.14%（株式会社みずほ銀行）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z6JD"
+  }
+ ],
+ "updatedAt": "2026-10-07T15:25:20+09:00"
+}

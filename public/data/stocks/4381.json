@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T00:46:58+09:00",
+  "updatedAt": "2026-10-07T15:25:09+09:00",
   "company": {
     "securityCode": "4381",
     "ticker": "4381.T",
@@ -20,7 +20,7 @@
       "purpose": "純投資",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.12,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [
@@ -28,11 +28,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": 0.0,
         "return5d": null,
         "return20d": null,
         "returnCurrent": 0.0,
-        "volumeRatio": null,
+        "volumeRatio": 0.12,
         "marketExcessReturn": null
       }
     },
@@ -50,7 +50,7 @@
       "purpose": "純投資",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": 0.21,
+      "volumeRatio": 0.17,
       "marketExcessReturn": null,
       "signalScore": 30,
       "signalReasons": [
@@ -63,7 +63,7 @@
         "return5d": null,
         "return20d": null,
         "returnCurrent": 0.0,
-        "volumeRatio": 0.21,
+        "volumeRatio": 0.17,
         "marketExcessReturn": null
       }
     },
@@ -81,7 +81,7 @@
       "purpose": "発行者との業務資本提携を目的とした保有",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": 0.21,
+      "volumeRatio": 0.17,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [
@@ -93,7 +93,7 @@
         "return5d": null,
         "return20d": null,
         "returnCurrent": 0.0,
-        "volumeRatio": 0.21,
+        "volumeRatio": 0.17,
         "marketExcessReturn": null
       }
     },
@@ -111,7 +111,7 @@
       "purpose": "純投資",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": 0.21,
+      "volumeRatio": 0.17,
       "marketExcessReturn": null,
       "signalScore": 30,
       "signalReasons": [
@@ -124,7 +124,7 @@
         "return5d": null,
         "return20d": null,
         "returnCurrent": 0.0,
-        "volumeRatio": 0.21,
+        "volumeRatio": 0.17,
         "marketExcessReturn": null
       }
     },
@@ -141,9 +141,9 @@
       "holdingChange": -1.11,
       "purpose": "発行者との業務資本提携を目的とした保有",
       "importantProposal": false,
-      "priceChange": null,
+      "priceChange": 2.38,
       "volumeRatio": 0.19,
-      "marketExcessReturn": null,
+      "marketExcessReturn": -0.47,
       "signalScore": 0,
       "signalReasons": [
         "保有割合減少"
@@ -151,11 +151,11 @@
       "stockUnreacted": false,
       "metrics": {
         "return1d": 3.81,
-        "return5d": null,
+        "return5d": 2.38,
         "return20d": null,
         "returnCurrent": 1.43,
         "volumeRatio": 0.19,
-        "marketExcessReturn": null
+        "marketExcessReturn": -0.47
       }
     },
     {
@@ -335,7 +335,7 @@
       "metrics": {
         "return1d": 7.75,
         "return5d": -0.39,
-        "return20d": null,
+        "return20d": -17.44,
         "returnCurrent": -17.44,
         "volumeRatio": 1.19,
         "marketExcessReturn": 1.37
@@ -3691,9 +3691,19 @@
       "open": 211.0,
       "high": 221.0,
       "low": 211.0,
-      "close": null,
-      "adj_close": null,
+      "close": 215.0,
+      "adj_close": 215.0,
       "volume": 55900
+    },
+    {
+      "ticker": "4381.T",
+      "trade_date": "2026-10-07",
+      "open": 213.0,
+      "high": 220.0,
+      "low": 212.0,
+      "close": 213.0,
+      "adj_close": 213.0,
+      "volume": 32800
     }
   ],
   "benchmark": [
@@ -7483,9 +7493,19 @@
       "open": 437.20001220703125,
       "high": 440.79998779296875,
       "low": 436.3999938964844,
-      "close": null,
-      "adj_close": null,
+      "close": 440.3999938964844,
+      "adj_close": 440.3999938964844,
       "volume": 14896210
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-07",
+      "open": 439.0,
+      "high": 442.0,
+      "low": 437.20001220703125,
+      "close": 437.8999938964844,
+      "adj_close": 437.8999938964844,
+      "volume": 6419300
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

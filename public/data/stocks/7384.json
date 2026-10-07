@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-10-07T00:46:58+09:00",
+  "updatedAt": "2026-10-07T15:25:09+09:00",
   "company": {
     "securityCode": "7384",
     "ticker": "7384.T",
     "name": "株式会社プロクレアホールディングス"
   },
   "events": [
+    {
+      "docId": "S100Z6S5",
+      "ticker": "7384.T",
+      "securityCode": "7384",
+      "companyName": "株式会社プロクレアホールディングス",
+      "submitDatetime": "2026-10-07 12:36",
+      "filerName": "野村證券株式会社",
+      "reportType": "change",
+      "holdingRatio": 5.49,
+      "previousHoldingRatio": 5.9,
+      "holdingChange": -0.41,
+      "purpose": "証券業務に係る商品在庫、及び累積投資業務の運営目的として保有している。 / 友好関係を維持、強化するための政策投資として保有している。 / 証券業務に係わる商品在庫として保有している。 / 信託財産の運用として保有している。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -2.83,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z0SE",
       "ticker": "7384.T",
@@ -32,7 +62,7 @@
         "return1d": 2.28,
         "return5d": 7.05,
         "return20d": null,
-        "returnCurrent": 22.2,
+        "returnCurrent": 20.95,
         "volumeRatio": 1.1,
         "marketExcessReturn": 8.03
       }
@@ -60,7 +90,7 @@
         "return1d": 2.44,
         "return5d": 0.85,
         "return20d": 2.32,
-        "returnCurrent": 43.83,
+        "returnCurrent": 42.37,
         "volumeRatio": 0.64,
         "marketExcessReturn": 2.23
       }
@@ -2863,9 +2893,19 @@
       "open": 5930.0,
       "high": 6040.0,
       "low": 5790.0,
-      "close": null,
-      "adj_close": null,
+      "close": 6000.0,
+      "adj_close": 6000.0,
       "volume": 179700
+    },
+    {
+      "ticker": "7384.T",
+      "trade_date": "2026-10-07",
+      "open": 6030.0,
+      "high": 6070.0,
+      "low": 5800.0,
+      "close": 5830.0,
+      "adj_close": 5830.0,
+      "volume": 128300
     }
   ],
   "benchmark": [
@@ -6655,9 +6695,19 @@
       "open": 437.20001220703125,
       "high": 440.79998779296875,
       "low": 436.3999938964844,
-      "close": null,
-      "adj_close": null,
+      "close": 440.3999938964844,
+      "adj_close": 440.3999938964844,
       "volume": 14896210
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-07",
+      "open": 439.0,
+      "high": 442.0,
+      "low": 437.20001220703125,
+      "close": 437.8999938964844,
+      "adj_close": 437.8999938964844,
+      "volume": 6419300
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

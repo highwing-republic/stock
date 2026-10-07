@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T00:46:58+09:00",
+  "updatedAt": "2026-10-07T15:25:09+09:00",
   "company": {
     "securityCode": "3063",
     "ticker": "3063.T",
@@ -20,17 +20,17 @@
       "purpose": "発行会社の創業者であり、経営参加を目的とした安定株主として保有しております。 / 発行会社の創業者の財産保全会社であり、安定株主として保有しております。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.51,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": 0.09,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -1.52,
-        "volumeRatio": null,
+        "returnCurrent": 0.09,
+        "volumeRatio": 0.51,
         "marketExcessReturn": null
       }
     },
@@ -48,7 +48,7 @@
       "purpose": "発行会社の創業者であり、経営参加を目的とした安定株主として保有しております。 / 発行会社の創業者の財産保全会社であり、安定株主として保有しております。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": 1.03,
+      "volumeRatio": 0.65,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [],
@@ -57,8 +57,8 @@
         "return1d": -3.41,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -3.41,
-        "volumeRatio": 1.03,
+        "returnCurrent": -1.84,
+        "volumeRatio": 0.65,
         "marketExcessReturn": null
       }
     },
@@ -76,7 +76,7 @@
       "purpose": "発行会社の創業者であり、経営参加を目的とした安定株主として保有しております。 / 発行会社の創業者の財産保全会社であり、安定株主として保有しております。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": 1.03,
+      "volumeRatio": 0.65,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [],
@@ -85,8 +85,8 @@
         "return1d": -3.41,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -3.41,
-        "volumeRatio": 1.03,
+        "returnCurrent": -1.84,
+        "volumeRatio": 0.65,
         "marketExcessReturn": null
       }
     },
@@ -104,7 +104,7 @@
       "purpose": "発行会社の創業者であり、経営参加を目的とした安定株主として保有しております。 / 発行会社の創業者の財産保全会社であり、安定株主として保有しております。",
       "importantProposal": true,
       "priceChange": null,
-      "volumeRatio": 0.69,
+      "volumeRatio": 0.56,
       "marketExcessReturn": null,
       "signalScore": 20,
       "signalReasons": [
@@ -115,8 +115,8 @@
         "return1d": -0.97,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -2.47,
-        "volumeRatio": 0.69,
+        "returnCurrent": -0.88,
+        "volumeRatio": 0.56,
         "marketExcessReturn": null
       }
     },
@@ -146,7 +146,7 @@
         "return1d": 0.52,
         "return5d": 1.57,
         "return20d": null,
-        "returnCurrent": -3.5,
+        "returnCurrent": -1.92,
         "volumeRatio": 0.42,
         "marketExcessReturn": 2.55
       }
@@ -176,8 +176,8 @@
       "metrics": {
         "return1d": 3.41,
         "return5d": 2.69,
-        "return20d": null,
-        "returnCurrent": -1.08,
+        "return20d": 0.54,
+        "returnCurrent": 0.54,
         "volumeRatio": 0.49,
         "marketExcessReturn": 4.45
       }
@@ -206,8 +206,8 @@
       "metrics": {
         "return1d": 3.81,
         "return5d": 6.9,
-        "return20d": null,
-        "returnCurrent": 0.18,
+        "return20d": 1.81,
+        "returnCurrent": 1.81,
         "volumeRatio": 0.59,
         "marketExcessReturn": 7.32
       }
@@ -237,8 +237,8 @@
       "metrics": {
         "return1d": 3.81,
         "return5d": 6.9,
-        "return20d": null,
-        "returnCurrent": 0.18,
+        "return20d": 1.81,
+        "returnCurrent": 1.81,
         "volumeRatio": 0.59,
         "marketExcessReturn": 7.32
       }
@@ -267,8 +267,8 @@
       "metrics": {
         "return1d": 3.81,
         "return5d": 6.9,
-        "return20d": null,
-        "returnCurrent": 0.18,
+        "return20d": 1.81,
+        "returnCurrent": 1.81,
         "volumeRatio": 0.59,
         "marketExcessReturn": 7.32
       }
@@ -300,7 +300,7 @@
         "return1d": 2.94,
         "return5d": 6.65,
         "return20d": 18.8,
-        "returnCurrent": 5.12,
+        "returnCurrent": 6.83,
         "volumeRatio": 0.39,
         "marketExcessReturn": 9.4
       }
@@ -3103,9 +3103,19 @@
       "open": 1102.0,
       "high": 1127.0,
       "low": 1102.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1122.0,
+      "adj_close": 1122.0,
       "volume": 20100
+    },
+    {
+      "ticker": "3063.T",
+      "trade_date": "2026-10-07",
+      "open": 1122.0,
+      "high": 1130.0,
+      "low": 1115.0,
+      "close": 1122.0,
+      "adj_close": 1122.0,
+      "volume": 10700
     }
   ],
   "benchmark": [
@@ -6895,9 +6905,19 @@
       "open": 437.20001220703125,
       "high": 440.79998779296875,
       "low": 436.3999938964844,
-      "close": null,
-      "adj_close": null,
+      "close": 440.3999938964844,
+      "adj_close": 440.3999938964844,
       "volume": 14896210
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-07",
+      "open": 439.0,
+      "high": 442.0,
+      "low": 437.20001220703125,
+      "close": 437.8999938964844,
+      "adj_close": 437.8999938964844,
+      "volume": 6419300
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

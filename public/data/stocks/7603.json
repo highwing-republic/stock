@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-10-07T00:46:58+09:00",
+  "updatedAt": "2026-10-07T15:25:09+09:00",
   "company": {
     "securityCode": "7603",
     "ticker": "7603.T",
     "name": "ジーイエット株式会社"
   },
   "events": [
+    {
+      "docId": "S100Z6P9",
+      "ticker": "7603.T",
+      "securityCode": "7603",
+      "companyName": "ジーイエット株式会社",
+      "submitDatetime": "2026-10-07 12:37",
+      "filerName": "Ｅｖｏ　Ｆｕｎｄ",
+      "reportType": "change",
+      "holdingRatio": 12.98,
+      "previousHoldingRatio": 13.98,
+      "holdingChange": -1.0,
+      "purpose": "純投資。特定の状況は想定されていないが、第１提出者は発行者に対しその時々の状況に応じて適切な助言を行う場合がある。 / 純投資（投資一任契約に基づく運用を目的としている。）",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 3.12,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z3A4",
       "ticker": "7603.T",
@@ -120,7 +150,7 @@
       "metrics": {
         "return1d": 0.0,
         "return5d": -9.76,
-        "return20d": null,
+        "return20d": -21.95,
         "returnCurrent": -19.51,
         "volumeRatio": 0.58,
         "marketExcessReturn": -9.34
@@ -3259,9 +3289,19 @@
       "open": 34.0,
       "high": 34.0,
       "low": 32.0,
-      "close": null,
-      "adj_close": null,
+      "close": 32.0,
+      "adj_close": 32.0,
       "volume": 850500
+    },
+    {
+      "ticker": "7603.T",
+      "trade_date": "2026-10-07",
+      "open": 32.0,
+      "high": 33.0,
+      "low": 32.0,
+      "close": 33.0,
+      "adj_close": 33.0,
+      "volume": 207000
     }
   ],
   "benchmark": [
@@ -7051,9 +7091,19 @@
       "open": 437.20001220703125,
       "high": 440.79998779296875,
       "low": 436.3999938964844,
-      "close": null,
-      "adj_close": null,
+      "close": 440.3999938964844,
+      "adj_close": 440.3999938964844,
       "volume": 14896210
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-07",
+      "open": 439.0,
+      "high": 442.0,
+      "low": 437.20001220703125,
+      "close": 437.8999938964844,
+      "adj_close": 437.8999938964844,
+      "volume": 6419300
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

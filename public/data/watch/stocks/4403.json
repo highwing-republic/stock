@@ -1,0 +1,84 @@
+{
+ "company": {
+  "name": "日油",
+  "securityCode": "4403",
+  "tradingViewSymbol": "TSE:4403"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "4403-2026-10-06",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-10-06",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-10-06",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": 0.8,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z63X",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-05",
+  "buyBalance": 343800,
+  "buyChangePct": 4.8,
+  "labels": [
+   "信用倍率悪化"
+  ],
+  "ratio": 32.74,
+  "sellBalance": 10500,
+  "sellChangePct": -35.6
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-10-07",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.23,
+  "labels": [
+   "20日線の上"
+  ],
+  "ma20": 2551.9,
+  "ma200": 2850.5,
+  "ma60": 2659.1,
+  "rangePos60": 0.28,
+  "rel20": -3.6,
+  "rel60": -11.0,
+  "volumeRatio20": 0.48
+ },
+ "reasons": [
+  "1pt買い増し 6.3%→7.3%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-10-06",
+   "detail": "6.33% → 7.35%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z63X"
+  },
+  {
+   "date": "2026-10-06",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-07T15:25:20+09:00"
+}

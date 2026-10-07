@@ -80,6 +80,13 @@
    "d5": -0.2,
    "eventId": "edinet:S100YZYU",
    "excess5": 0.5
+  },
+  {
+   "d1": 0.3,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z5RH",
+   "excess5": null
   }
  ],
  "margin": {
@@ -96,33 +103,33 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 1.1,
-  "currentPrice": 8419.0,
+  "benchReturn": 1.5,
+  "currentPrice": 8389.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 17,
+   "pendingDays": 15,
    "stockReturn": null
   },
   "d5": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 2,
-   "stockReturn": null
+   "benchReturn": 1.5,
+   "excessReturn": 4.3,
+   "pendingDays": 0,
+   "stockReturn": 5.8
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 57,
+   "pendingDays": 55,
    "stockReturn": null
   },
-  "excessReturn": 5.0,
+  "excessReturn": 4.3,
   "initialDate": "2026-09-30",
   "initialPrice": 7932.0,
-  "stockReturn": 6.1
+  "stockReturn": 5.8
  },
  "priceSetup": {
-  "asOf": "2026-10-05",
+  "asOf": "2026-10-07",
   "atrState": "低ボラ",
   "distFrom52wHigh": 0.25,
   "labels": [
@@ -130,18 +137,18 @@
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 7400.9,
-  "ma200": 8716.2,
-  "ma60": 8289.6,
+  "ma20": 7520.8,
+  "ma200": 8732.1,
+  "ma60": 8258.8,
   "rangePos60": 0.45,
-  "rel20": 16.2,
-  "rel60": -15.9,
-  "volumeRatio20": 0.77
+  "rel20": 13.9,
+  "rel60": -13.1,
+  "volumeRatio20": 0.61
  },
  "reasons": [
   "新規大量保有 6.8%（イーストスプリング・インベストメンツ（シンガポール）リミテッド）",
   "20日線上向き",
-  "TOPIX連動ETF比 +16.2pt（20日）",
+  "TOPIX連動ETF比 +13.9pt（20日）",
   "信用買残 -29%"
  ],
  "schemaVersion": 1,
@@ -238,5 +245,5 @@
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z5RH"
   }
  ],
- "updatedAt": "2026-10-07T00:47:05+09:00"
+ "updatedAt": "2026-10-07T15:25:20+09:00"
 }

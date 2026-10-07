@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-10-07T00:46:58+09:00",
+  "updatedAt": "2026-10-07T15:25:09+09:00",
   "company": {
     "securityCode": "8001",
     "ticker": "8001.T",
     "name": "伊藤忠商事株式会社"
   },
   "events": [
+    {
+      "docId": "S100Z6JB",
+      "ticker": "8001.T",
+      "securityCode": "8001",
+      "companyName": "伊藤忠商事株式会社",
+      "submitDatetime": "2026-10-07 10:39",
+      "filerName": "株式会社みずほ銀行",
+      "reportType": "change",
+      "holdingRatio": 3.69,
+      "previousHoldingRatio": 5.17,
+      "holdingChange": -1.48,
+      "purpose": "・発行会社の要請に応え、かつ発行会社との取引関係の強化を図るもの / ・ディーリング(短期売買)目的で保有するもの・デリバティブ取引に関連して保有するもの・レンディングその他取引に基づく一時的保有 / ・投資信託または投資一任契約に基づき投資権限を有するもの",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -0.66,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YRGU",
       "ticker": "8001.T",
@@ -31,7 +61,7 @@
         "return1d": 3.23,
         "return5d": 5.05,
         "return20d": 3.92,
-        "returnCurrent": 16.66,
+        "returnCurrent": 15.12,
         "volumeRatio": 0.97,
         "marketExcessReturn": 3.82
       }
@@ -3824,9 +3854,19 @@
       "open": 2210.0,
       "high": 2216.5,
       "low": 2176.0,
-      "close": null,
-      "adj_close": null,
+      "close": 2183.0,
+      "adj_close": 2183.0,
       "volume": 10533500
+    },
+    {
+      "ticker": "8001.T",
+      "trade_date": "2026-10-07",
+      "open": 2177.5,
+      "high": 2198.5,
+      "low": 2166.0,
+      "close": 2168.5,
+      "adj_close": 2168.5,
+      "volume": 6345400
     }
   ],
   "benchmark": [
@@ -7616,9 +7656,19 @@
       "open": 437.20001220703125,
       "high": 440.79998779296875,
       "low": 436.3999938964844,
-      "close": null,
-      "adj_close": null,
+      "close": 440.3999938964844,
+      "adj_close": 440.3999938964844,
       "volume": 14896210
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-07",
+      "open": 439.0,
+      "high": 442.0,
+      "low": 437.20001220703125,
+      "close": 437.8999938964844,
+      "adj_close": 437.8999938964844,
+      "volume": 6419300
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

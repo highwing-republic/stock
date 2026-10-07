@@ -8,13 +8,14 @@
   "closeReason": null,
   "closedAt": null,
   "id": "3110-2026-09-28",
-  "overextended": false,
-  "setupType": "RECOVERY",
+  "overextended": true,
+  "setupType": "BREAKOUT",
   "setups": [
+   "BREAKOUT",
    "RECOVERY"
   ],
   "startedAt": "2026-09-28",
-  "status": "WATCH",
+  "status": "REACTED",
   "statusHistory": [
    {
     "date": "2026-09-28",
@@ -27,6 +28,12 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
+   },
+   {
+    "date": "2026-10-06",
+    "from": "WATCH",
+    "reason_code": "RETURN_THRESHOLD",
+    "to": "REACTED"
    }
   ],
   "watchStartedAt": "2026-09-28"
@@ -65,12 +72,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 1.9,
-  "currentPrice": 3360.0,
+  "benchReturn": 2.3,
+  "currentPrice": 3670.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 15,
+   "pendingDays": 13,
    "stockReturn": null
   },
   "d5": {
@@ -82,36 +89,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 55,
+   "pendingDays": 53,
    "stockReturn": null
   },
-  "excessReturn": 6.9,
+  "excessReturn": 16.5,
   "initialDate": "2026-09-28",
   "initialPrice": 3088.0,
-  "stockReturn": 8.8
+  "stockReturn": 18.8
  },
  "priceSetup": {
-  "asOf": "2026-10-05",
+  "asOf": "2026-10-07",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.49,
+  "distFrom52wHigh": 0.44,
   "labels": [
    "20日線の上",
+   "60日レンジ上位5%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 3037.4,
-  "ma200": 3702.2,
-  "ma60": 3090.9,
-  "rangePos60": 0.63,
-  "rel20": 4.6,
-  "rel60": -6.2,
-  "volumeRatio20": 0.94
+  "ma20": 3103.0,
+  "ma200": 3715.7,
+  "ma60": 3095.1,
+  "rangePos60": 0.95,
+  "rel20": 18.0,
+  "rel60": 0.2,
+  "volumeRatio20": 1.05
  },
  "reasons": [
   "新規大量保有 5%（ゴールドマン・サックス証券株式会社）",
+  "60日レンジ上位5%",
   "20日線上向き",
-  "TOPIX連動ETF比 +4.6pt（20日）",
-  "信用買残 -1%"
+  "TOPIX連動ETF比 +18pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -170,7 +178,21 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-06",
+   "detail": "Watch開始後の値上がりが大きくなった",
+   "kind": "STATUS",
+   "label": "REACTED",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "RECOVERY → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-07T00:47:05+09:00"
+ "updatedAt": "2026-10-07T15:25:20+09:00"
 }

@@ -5,14 +5,14 @@
   "tradingViewSymbol": "TSE:9507"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "BROKEN",
+  "closedAt": "2026-10-07",
   "id": "9507-2026-09-04",
   "overextended": false,
   "setupType": "TREND",
   "setups": [],
   "startedAt": "2026-09-04",
-  "status": "STRENGTHENING",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-09-04",
@@ -31,6 +31,18 @@
     "from": "WATCH",
     "reason_code": "INCREASE_EVENT",
     "to": "STRENGTHENING"
+   },
+   {
+    "date": "2026-10-06",
+    "from": "STRENGTHENING",
+    "reason_code": "BELOW_MA20",
+    "to": "BROKEN"
+   },
+   {
+    "date": "2026-10-07",
+    "from": "BROKEN",
+    "reason_code": "BROKEN",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-09-04"
@@ -66,7 +78,7 @@
   },
   {
    "d1": -2.1,
-   "d20": null,
+   "d20": -0.1,
    "d5": 2.6,
    "eventId": "edinet:S100Z02Y",
    "excess5": 3.7
@@ -93,13 +105,13 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 2.1,
-  "currentPrice": 2080.5,
+  "benchReturn": 2.4,
+  "currentPrice": 2134.0,
   "d20": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 2,
-   "stockReturn": null
+   "benchReturn": 2.4,
+   "excessReturn": 1.6,
+   "pendingDays": 0,
+   "stockReturn": 4.0
   },
   "d5": {
    "benchReturn": -1.8,
@@ -110,36 +122,36 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 42,
+   "pendingDays": 40,
    "stockReturn": null
   },
-  "excessReturn": -0.7,
+  "excessReturn": 1.6,
   "initialDate": "2026-09-04",
   "initialPrice": 2052.1,
-  "stockReturn": 1.4
+  "stockReturn": 4.0
  },
  "priceSetup": {
-  "asOf": "2026-10-05",
+  "asOf": "2026-10-07",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.08,
+  "distFrom52wHigh": 0.06,
   "labels": [
-   "60日レンジ上位23%",
+   "60日レンジ上位16%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2134.1,
-  "ma200": 1645.3,
-  "ma60": 1834.1,
-  "rangePos60": 0.77,
-  "rel20": 0.7,
-  "rel60": 37.7,
-  "volumeRatio20": 0.73
+  "ma20": 2138.1,
+  "ma200": 1651.9,
+  "ma60": 1855.1,
+  "rangePos60": 0.84,
+  "rel20": 1.6,
+  "rel60": 39.1,
+  "volumeRatio20": 0.48
  },
  "reasons": [
   "1.1pt買い増し 11.2%→12.3%",
   "30日以内に2回買い増し",
-  "60日レンジ上位23%",
-  "TOPIX連動ETF比 +0.7pt（20日）"
+  "60日レンジ上位16%",
+  "TOPIX連動ETF比 +1.6pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -240,7 +252,28 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-06",
+   "detail": "20日線を連続で下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "Price Setupが崩れた",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-07T00:47:05+09:00"
+ "updatedAt": "2026-10-07T15:25:20+09:00"
 }

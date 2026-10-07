@@ -5,20 +5,26 @@
   "tradingViewSymbol": "TSE:3697"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "NO_SETUP",
+  "closedAt": "2026-10-07",
   "id": "3697-2026-09-04",
   "overextended": false,
   "setupType": null,
   "setups": [],
   "startedAt": "2026-09-04",
-  "status": "CANDIDATE",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-09-04",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-10-07",
+    "from": "CANDIDATE",
+    "reason_code": "NO_SETUP",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": null
@@ -54,14 +60,14 @@
   },
   {
    "d1": 3.0,
-   "d20": null,
+   "d20": -0.2,
    "d5": -5.1,
    "eventId": "edinet:S100YZWC",
    "excess5": -4.0
   },
   {
    "d1": 3.0,
-   "d20": null,
+   "d20": -0.2,
    "d5": -5.1,
    "eventId": "edinet:S100Z0BD",
    "excess5": -4.0
@@ -72,6 +78,13 @@
    "d5": -3.5,
    "eventId": "edinet:S100Z33E",
    "excess5": -4.7
+  },
+  {
+   "d1": 0.2,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z61U",
+   "excess5": null
   }
  ],
  "margin": {
@@ -86,20 +99,20 @@
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-10-05",
+  "asOf": "2026-10-07",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.38,
+  "distFrom52wHigh": 0.34,
   "labels": [
    "20日線の上",
    "60日線の上"
   ],
-  "ma20": 866.0,
-  "ma200": 764.3,
-  "ma60": 854.4,
-  "rangePos60": 0.61,
-  "rel20": -3.9,
-  "rel60": 26.6,
-  "volumeRatio20": 0.69
+  "ma20": 864.7,
+  "ma200": 763.7,
+  "ma60": 860.7,
+  "rangePos60": 0.62,
+  "rel20": -5.0,
+  "rel60": 26.0,
+  "volumeRatio20": 0.64
  },
  "reasons": [
   "0pt買い増し 7.7%→7.7%",
@@ -177,7 +190,14 @@
    "kind": "EVENT",
    "label": "買い増し",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z61U"
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "期限内にPrice Setupが成立しなかった",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-07T00:47:05+09:00"
+ "updatedAt": "2026-10-07T15:25:20+09:00"
 }

@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-10-07T00:46:58+09:00",
+  "updatedAt": "2026-10-07T15:25:09+09:00",
   "company": {
     "securityCode": "5344",
     "ticker": "5344.T",
     "name": "株式会社ＭＡＲＵＷＡ"
   },
   "events": [
+    {
+      "docId": "S100Z631",
+      "ticker": "5344.T",
+      "securityCode": "5344",
+      "companyName": "株式会社ＭＡＲＵＷＡ",
+      "submitDatetime": "2026-10-07 09:55",
+      "filerName": "キャピタル・リサーチ・アンド・マネージメント・カンパニー",
+      "reportType": "change",
+      "holdingRatio": 5.36,
+      "previousHoldingRatio": 5.74,
+      "holdingChange": -0.38,
+      "purpose": "顧客である日本国外の投資信託のための純投資",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -2.58,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YONI",
       "ticker": "5344.T",
@@ -31,7 +61,7 @@
         "return1d": -13.42,
         "return5d": -12.73,
         "return20d": -11.76,
-        "returnCurrent": -12.23,
+        "returnCurrent": -12.38,
         "volumeRatio": 0.88,
         "marketExcessReturn": -11.35
       }
@@ -61,7 +91,7 @@
         "return1d": -0.89,
         "return5d": -1.72,
         "return20d": -18.96,
-        "returnCurrent": -13.99,
+        "returnCurrent": -14.14,
         "volumeRatio": 0.7,
         "marketExcessReturn": 0.14
       }
@@ -3854,9 +3884,19 @@
       "open": 59750.0,
       "high": 61590.0,
       "low": 58750.0,
-      "close": null,
-      "adj_close": null,
+      "close": 61350.0,
+      "adj_close": 61350.0,
       "volume": 98400
+    },
+    {
+      "ticker": "5344.T",
+      "trade_date": "2026-10-07",
+      "open": 61560.0,
+      "high": 61860.0,
+      "low": 59000.0,
+      "close": 59770.0,
+      "adj_close": 59770.0,
+      "volume": 76900
     }
   ],
   "benchmark": [
@@ -7646,9 +7686,19 @@
       "open": 437.20001220703125,
       "high": 440.79998779296875,
       "low": 436.3999938964844,
-      "close": null,
-      "adj_close": null,
+      "close": 440.3999938964844,
+      "adj_close": 440.3999938964844,
       "volume": 14896210
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-07",
+      "open": 439.0,
+      "high": 442.0,
+      "low": 437.20001220703125,
+      "close": 437.8999938964844,
+      "adj_close": 437.8999938964844,
+      "volume": 6419300
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

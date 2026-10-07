@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T00:46:58+09:00",
+  "updatedAt": "2026-10-07T15:25:09+09:00",
   "company": {
     "securityCode": "6798",
     "ticker": "6798.T",
@@ -7,16 +7,16 @@
   },
   "events": [
     {
-      "docId": "S100Z58R",
+      "docId": "S100Z6QC",
       "ticker": "6798.T",
       "securityCode": "6798",
       "companyName": "ＳＭＫ株式会社",
-      "submitDatetime": "2026-10-06 16:05",
+      "submitDatetime": "2026-10-07 11:06",
       "filerName": "ｆｕｎｄｎｏｔｅ株式会社",
-      "reportType": "change",
-      "holdingRatio": 11.88,
-      "previousHoldingRatio": 10.88,
-      "holdingChange": 1.0,
+      "reportType": "correction",
+      "holdingRatio": 10.88,
+      "previousHoldingRatio": 9.8,
+      "holdingChange": 1.08,
       "purpose": "株式会社Kaihouの投資助言に基づき投資信託の信託財産の運用のため保有。スチュワードシップ・コードに則り建設的な対話により、IR・資本効率・ガバナンスの高度化と企業価値向上を促す。ただし、受益者の利益を保全するために、保有目的を「重要提案行為を行う」に変更する場合がある。",
       "importantProposal": false,
       "priceChange": null,
@@ -31,8 +31,38 @@
         "return1d": null,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.0,
+        "returnCurrent": -1.6,
         "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
+    {
+      "docId": "S100Z58R",
+      "ticker": "6798.T",
+      "securityCode": "6798",
+      "companyName": "ＳＭＫ株式会社",
+      "submitDatetime": "2026-10-06 16:05",
+      "filerName": "ｆｕｎｄｎｏｔｅ株式会社",
+      "reportType": "change",
+      "holdingRatio": 11.88,
+      "previousHoldingRatio": 10.88,
+      "holdingChange": 1.0,
+      "purpose": "株式会社Kaihouの投資助言に基づき投資信託の信託財産の運用のため保有。スチュワードシップ・コードに則り建設的な対話により、IR・資本効率・ガバナンスの高度化と企業価値向上を促す。ただし、受益者の利益を保全するために、保有目的を「重要提案行為を行う」に変更する場合がある。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": 0.66,
+      "marketExcessReturn": null,
+      "signalScore": 20,
+      "signalReasons": [
+        "1pt以上買い増し"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": 2.57,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 2.57,
+        "volumeRatio": 0.66,
         "marketExcessReturn": null
       }
     },
@@ -62,7 +92,7 @@
         "return1d": 2.06,
         "return5d": 12.54,
         "return20d": 5.08,
-        "returnCurrent": 4.92,
+        "returnCurrent": 7.62,
         "volumeRatio": 0.67,
         "marketExcessReturn": 8.62
       }
@@ -93,7 +123,7 @@
         "return1d": -0.95,
         "return5d": 0.32,
         "return20d": -5.79,
-        "returnCurrent": 5.09,
+        "returnCurrent": 7.79,
         "volumeRatio": 1.24,
         "marketExcessReturn": 2.18
       }
@@ -2896,9 +2926,19 @@
       "open": 3290.0,
       "high": 3460.0,
       "low": 3255.0,
-      "close": null,
-      "adj_close": null,
+      "close": 3445.0,
+      "adj_close": 3445.0,
       "volume": 32300
+    },
+    {
+      "ticker": "6798.T",
+      "trade_date": "2026-10-07",
+      "open": 3445.0,
+      "high": 3465.0,
+      "low": 3360.0,
+      "close": 3390.0,
+      "adj_close": 3390.0,
+      "volume": 8000
     }
   ],
   "benchmark": [
@@ -6688,9 +6728,19 @@
       "open": 437.20001220703125,
       "high": 440.79998779296875,
       "low": 436.3999938964844,
-      "close": null,
-      "adj_close": null,
+      "close": 440.3999938964844,
+      "adj_close": 440.3999938964844,
       "volume": 14896210
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-07",
+      "open": 439.0,
+      "high": 442.0,
+      "low": 437.20001220703125,
+      "close": 437.8999938964844,
+      "adj_close": 437.8999938964844,
+      "volume": 6419300
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

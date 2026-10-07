@@ -9,12 +9,13 @@
   "closedAt": null,
   "id": "6787-2026-09-25",
   "overextended": false,
-  "setupType": "RECOVERY",
+  "setupType": "BREAKOUT",
   "setups": [
+   "BREAKOUT",
    "RECOVERY"
   ],
   "startedAt": "2026-09-25",
-  "status": "WATCH",
+  "status": "REACTED",
   "statusHistory": [
    {
     "date": "2026-09-25",
@@ -27,6 +28,12 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
+   },
+   {
+    "date": "2026-10-06",
+    "from": "WATCH",
+    "reason_code": "EXCESS_THRESHOLD",
+    "to": "REACTED"
    }
   ],
   "watchStartedAt": "2026-09-25"
@@ -52,6 +59,13 @@
    "d5": 6.7,
    "eventId": "edinet:S100Z3N4",
    "excess5": 4.4
+  },
+  {
+   "d1": -1.4,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z6J6",
+   "excess5": null
   }
  ],
  "margin": {
@@ -67,12 +81,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 1.4,
-  "currentPrice": 24950.0,
+  "benchReturn": 1.8,
+  "currentPrice": 26930.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 14,
+   "pendingDays": 12,
    "stockReturn": null
   },
   "d5": {
@@ -84,37 +98,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 54,
+   "pendingDays": 52,
    "stockReturn": null
   },
-  "excessReturn": 3.5,
+  "excessReturn": 11.4,
   "initialDate": "2026-09-25",
   "initialPrice": 23787.5,
-  "stockReturn": 4.9
+  "stockReturn": 13.2
  },
  "priceSetup": {
-  "asOf": "2026-10-05",
-  "atrState": "通常",
-  "distFrom52wHigh": 0.45,
+  "asOf": "2026-10-07",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.4,
   "labels": [
    "20日線の上",
-   "60日レンジ上位23%",
+   "60日レンジ上位6%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 21486.0,
-  "ma200": 23065.3,
-  "ma60": 21243.0,
-  "rangePos60": 0.77,
-  "rel20": 33.3,
-  "rel60": -11.5,
-  "volumeRatio20": 0.97
+  "ma20": 22399.2,
+  "ma200": 23220.8,
+  "ma60": 21282.5,
+  "rangePos60": 0.94,
+  "rel20": 42.3,
+  "rel60": 1.5,
+  "volumeRatio20": 0.94
  },
  "reasons": [
   "新規大量保有 5.8%（株式会社みずほ銀行）",
-  "60日レンジ上位23%",
+  "60日レンジ上位6%",
   "20日線上向き",
-  "TOPIX連動ETF比 +33.3pt（20日）"
+  "TOPIX連動ETF比 +42.3pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -145,7 +159,28 @@
    "kind": "STATUS",
    "label": "WATCH",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-06",
+   "detail": "TOPIX連動ETFとの差が大きくなった",
+   "kind": "STATUS",
+   "label": "REACTED",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "5.85% → 4.65%（株式会社みずほ銀行）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z6J6"
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "RECOVERY → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-07T00:47:05+09:00"
+ "updatedAt": "2026-10-07T15:25:20+09:00"
 }

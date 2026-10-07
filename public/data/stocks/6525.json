@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-10-07T00:46:58+09:00",
+  "updatedAt": "2026-10-07T15:25:09+09:00",
   "company": {
     "securityCode": "6525",
     "ticker": "6525.T",
     "name": "株式会社ＫＯＫＵＳＡＩ　ＥＬＥＣＴＲＩＣ"
   },
   "events": [
+    {
+      "docId": "S100Z6M1",
+      "ticker": "6525.T",
+      "securityCode": "6525",
+      "companyName": "株式会社ＫＯＫＵＳＡＩ　ＥＬＥＣＴＲＩＣ",
+      "submitDatetime": "2026-10-07 13:46",
+      "filerName": "野村證券株式会社",
+      "reportType": "initial",
+      "holdingRatio": 7.98,
+      "previousHoldingRatio": null,
+      "holdingChange": null,
+      "purpose": "証券業務に係る商品在庫として保有している。 / 信託財産の運用として保有している。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 30,
+      "signalReasons": [
+        "新規大量保有"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -4.43,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z5R7",
       "ticker": "6525.T",
@@ -20,7 +50,7 @@
       "purpose": "投資信託契約、投資一任契約に基づく運用を目的として保有するもの。 / 証券投資信託及び投資一任契約において、株券等の取得・処分の権限を有するもの。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.57,
       "marketExcessReturn": null,
       "signalScore": 30,
       "signalReasons": [
@@ -28,11 +58,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": -5.85,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.0,
-        "volumeRatio": null,
+        "returnCurrent": -5.85,
+        "volumeRatio": 0.57,
         "marketExcessReturn": null
       }
     },
@@ -61,8 +91,8 @@
       "metrics": {
         "return1d": 7.26,
         "return5d": -1.96,
-        "return20d": null,
-        "returnCurrent": 25.95,
+        "return20d": 18.58,
+        "returnCurrent": 18.58,
         "volumeRatio": 1.18,
         "marketExcessReturn": -0.2
       }
@@ -92,7 +122,7 @@
         "return1d": -4.49,
         "return5d": -12.04,
         "return20d": -11.28,
-        "returnCurrent": 1.26,
+        "returnCurrent": -4.66,
         "volumeRatio": 1.12,
         "marketExcessReturn": -12.23
       }
@@ -2895,9 +2925,19 @@
       "open": 10410.0,
       "high": 10440.0,
       "low": 10170.0,
-      "close": null,
-      "adj_close": null,
+      "close": 10330.0,
+      "adj_close": 10330.0,
       "volume": 4111100
+    },
+    {
+      "ticker": "6525.T",
+      "trade_date": "2026-10-07",
+      "open": 10150.0,
+      "high": 10270.0,
+      "low": 9820.0,
+      "close": 9872.0,
+      "adj_close": 9872.0,
+      "volume": 5037300
     }
   ],
   "benchmark": [
@@ -6687,9 +6727,19 @@
       "open": 437.20001220703125,
       "high": 440.79998779296875,
       "low": 436.3999938964844,
-      "close": null,
-      "adj_close": null,
+      "close": 440.3999938964844,
+      "adj_close": 440.3999938964844,
       "volume": 14896210
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-07",
+      "open": 439.0,
+      "high": 442.0,
+      "low": 437.20001220703125,
+      "close": 437.8999938964844,
+      "adj_close": 437.8999938964844,
+      "volume": 6419300
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

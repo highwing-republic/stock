@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-10-07T00:46:58+09:00",
+  "updatedAt": "2026-10-07T15:25:09+09:00",
   "company": {
     "securityCode": "7089",
     "ticker": "7089.T",
     "name": "フォースタートアップス株式会社"
   },
   "events": [
+    {
+      "docId": "S100Z6EA",
+      "ticker": "7089.T",
+      "securityCode": "7089",
+      "companyName": "フォースタートアップス株式会社",
+      "submitDatetime": "2026-10-07 12:29",
+      "filerName": "楽天証券株式会社",
+      "reportType": "initial",
+      "holdingRatio": 6.48,
+      "previousHoldingRatio": null,
+      "holdingChange": null,
+      "purpose": "証券業務に係る一時保有のため",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 30,
+      "signalReasons": [
+        "新規大量保有"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -0.51,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YXAV",
       "ticker": "7089.T",
@@ -32,7 +62,7 @@
         "return1d": -6.72,
         "return5d": -6.28,
         "return20d": -13.56,
-        "returnCurrent": -4.99,
+        "returnCurrent": -3.2,
         "volumeRatio": 0.52,
         "marketExcessReturn": -8.46
       }
@@ -63,7 +93,7 @@
         "return1d": -1.01,
         "return5d": -1.38,
         "return20d": -10.87,
-        "returnCurrent": -3.14,
+        "returnCurrent": -1.32,
         "volumeRatio": 1.45,
         "marketExcessReturn": 1.01
       }
@@ -2866,9 +2896,19 @@
       "open": 1579.0,
       "high": 1600.0,
       "low": 1544.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1579.0,
+      "adj_close": 1579.0,
       "volume": 39100
+    },
+    {
+      "ticker": "7089.T",
+      "trade_date": "2026-10-07",
+      "open": 1579.0,
+      "high": 1584.0,
+      "low": 1560.0,
+      "close": 1571.0,
+      "adj_close": 1571.0,
+      "volume": 15200
     }
   ],
   "benchmark": [
@@ -6658,9 +6698,19 @@
       "open": 437.20001220703125,
       "high": 440.79998779296875,
       "low": 436.3999938964844,
-      "close": null,
-      "adj_close": null,
+      "close": 440.3999938964844,
+      "adj_close": 440.3999938964844,
       "volume": 14896210
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-07",
+      "open": 439.0,
+      "high": 442.0,
+      "low": 437.20001220703125,
+      "close": 437.8999938964844,
+      "adj_close": 437.8999938964844,
+      "volume": 6419300
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

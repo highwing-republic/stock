@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T00:46:58+09:00",
+  "updatedAt": "2026-10-07T15:25:09+09:00",
   "company": {
     "securityCode": "3133",
     "ticker": "3133.T",
@@ -7,13 +7,13 @@
   },
   "events": [
     {
-      "docId": "S100Z6KH",
+      "docId": "S100Z6SW",
       "ticker": "3133.T",
       "securityCode": "3133",
       "companyName": "株式会社海帆",
-      "submitDatetime": "2026-10-06 15:11",
+      "submitDatetime": "2026-10-07 14:28",
       "filerName": "松村　康平",
-      "reportType": "change",
+      "reportType": "correction",
       "holdingRatio": 4.26,
       "previousHoldingRatio": 5.27,
       "holdingChange": -1.01,
@@ -37,6 +37,36 @@
       }
     },
     {
+      "docId": "S100Z6KH",
+      "ticker": "3133.T",
+      "securityCode": "3133",
+      "companyName": "株式会社海帆",
+      "submitDatetime": "2026-10-06 15:11",
+      "filerName": "松村　康平",
+      "reportType": "change",
+      "holdingRatio": 4.26,
+      "previousHoldingRatio": 5.27,
+      "holdingChange": -1.01,
+      "purpose": "純投資",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": 1.08,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": 0.0,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 0.0,
+        "volumeRatio": 1.08,
+        "marketExcessReturn": null
+      }
+    },
+    {
       "docId": "S100Z5IN",
       "ticker": "3133.T",
       "securityCode": "3133",
@@ -50,10 +80,11 @@
       "purpose": "純投資",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": 1.72,
+      "volumeRatio": 2.24,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [
+        "出来高2倍以上",
         "保有割合減少"
       ],
       "stockUnreacted": false,
@@ -62,7 +93,7 @@
         "return5d": null,
         "return20d": null,
         "returnCurrent": -23.91,
-        "volumeRatio": 1.72,
+        "volumeRatio": 2.24,
         "marketExcessReturn": null
       }
     },
@@ -2982,9 +3013,19 @@
       "open": 35.0,
       "high": 43.0,
       "low": 34.0,
-      "close": null,
-      "adj_close": null,
+      "close": 35.0,
+      "adj_close": 35.0,
       "volume": 5005900
+    },
+    {
+      "ticker": "3133.T",
+      "trade_date": "2026-10-07",
+      "open": 34.0,
+      "high": 35.0,
+      "low": 33.0,
+      "close": 35.0,
+      "adj_close": 35.0,
+      "volume": 1477300
     }
   ],
   "benchmark": [
@@ -6774,9 +6815,19 @@
       "open": 437.20001220703125,
       "high": 440.79998779296875,
       "low": 436.3999938964844,
-      "close": null,
-      "adj_close": null,
+      "close": 440.3999938964844,
+      "adj_close": 440.3999938964844,
       "volume": 14896210
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-07",
+      "open": 439.0,
+      "high": 442.0,
+      "low": 437.20001220703125,
+      "close": 437.8999938964844,
+      "adj_close": 437.8999938964844,
+      "volume": 6419300
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

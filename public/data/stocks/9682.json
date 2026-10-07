@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-10-07T00:46:58+09:00",
+  "updatedAt": "2026-10-07T15:25:09+09:00",
   "company": {
     "securityCode": "9682",
     "ticker": "9682.T",
     "name": "株式会社ＤＴＳ"
   },
   "events": [
+    {
+      "docId": "S100Z6JD",
+      "ticker": "9682.T",
+      "securityCode": "9682",
+      "companyName": "株式会社ＤＴＳ",
+      "submitDatetime": "2026-10-07 10:39",
+      "filerName": "株式会社みずほ銀行",
+      "reportType": "initial",
+      "holdingRatio": 5.14,
+      "previousHoldingRatio": null,
+      "holdingChange": null,
+      "purpose": "・発行会社の要請に応え、かつ発行会社との取引関係の強化を図るもの / ・ディーリング(短期売買)目的で保有するもの・レンディングその他取引に基づく一時的保有 / ・投資信託または投資一任契約に基づき投資権限を有するもの",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 30,
+      "signalReasons": [
+        "新規大量保有"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 0.09,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z5ZR",
       "ticker": "9682.T",
@@ -20,7 +50,7 @@
       "purpose": "提出者の保有目的は純投資であり、発行者の持続的な企業価値の向上に必要であると判断した場合には以下の重要提案行為等を行う可能性がある。・重要な財産の処分又は譲受け・代表取締役の選定若しくは解職又は執行役員の選任若しくは解任・特定の者の役員への選任・役員の構成の重要な変更・事業の全部又は一部の譲渡、譲受け、休止又は廃止・配当に関する方針の重要な変更提出者は、発行者に対し、発行者が開示する2025-2027中期経営計画における株主還元方針に記載の株主還元額以上の株主還元（自己株式取得等）を行うように提案している。上記以外の重要提案行為等の具体的な内容、時期及び条件については未定である。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.59,
       "marketExcessReturn": null,
       "signalScore": 20,
       "signalReasons": [
@@ -28,11 +58,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": -0.46,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.0,
-        "volumeRatio": null,
+        "returnCurrent": -0.46,
+        "volumeRatio": 0.59,
         "marketExcessReturn": null
       }
     },
@@ -62,7 +92,7 @@
         "return1d": 1.92,
         "return5d": 2.37,
         "return20d": 1.64,
-        "returnCurrent": 1.13,
+        "returnCurrent": 0.67,
         "volumeRatio": 0.53,
         "marketExcessReturn": -0.5
       }
@@ -90,7 +120,7 @@
         "return1d": 3.91,
         "return5d": 4.39,
         "return20d": 4.1,
-        "returnCurrent": 5.67,
+        "returnCurrent": 5.18,
         "volumeRatio": 0.93,
         "marketExcessReturn": 3.0
       }
@@ -3883,9 +3913,19 @@
       "open": 1098.0,
       "high": 1098.0,
       "low": 1083.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1087.0,
+      "adj_close": 1087.0,
       "volume": 465100
+    },
+    {
+      "ticker": "9682.T",
+      "trade_date": "2026-10-07",
+      "open": 1099.0,
+      "high": 1099.0,
+      "low": 1083.0,
+      "close": 1088.0,
+      "adj_close": 1088.0,
+      "volume": 384900
     }
   ],
   "benchmark": [
@@ -7675,9 +7715,19 @@
       "open": 437.20001220703125,
       "high": 440.79998779296875,
       "low": 436.3999938964844,
-      "close": null,
-      "adj_close": null,
+      "close": 440.3999938964844,
+      "adj_close": 440.3999938964844,
       "volume": 14896210
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-07",
+      "open": 439.0,
+      "high": 442.0,
+      "low": 437.20001220703125,
+      "close": 437.8999938964844,
+      "adj_close": 437.8999938964844,
+      "volume": 6419300
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

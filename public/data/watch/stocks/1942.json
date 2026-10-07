@@ -1,0 +1,86 @@
+{
+ "company": {
+  "name": "関電工",
+  "securityCode": "1942",
+  "tradingViewSymbol": "TSE:1942"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "1942-2026-10-07",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-10-07",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-10-07",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": 0.6,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z62I",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-05",
+  "buyBalance": 446800,
+  "buyChangePct": 8.2,
+  "labels": [
+   "信用倍率改善",
+   "売残増加"
+  ],
+  "ratio": 6.71,
+  "sellBalance": 66600,
+  "sellChangePct": 141.3
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-10-07",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.25,
+  "labels": [
+   "20日線の上"
+  ],
+  "ma20": 5522.3,
+  "ma200": 5875.7,
+  "ma60": 5593.2,
+  "rangePos60": 0.41,
+  "rel20": -2.7,
+  "rel60": -17.8,
+  "volumeRatio20": 0.56
+ },
+ "reasons": [
+  "新規大量保有 7%（キャピタル・リサーチ・アンド・マネージメント・カンパニー）",
+  "20日線を回復"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-10-07",
+   "detail": "保有割合 6.99%（キャピタル・リサーチ・アンド・マネージメント・カンパニー）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z62I"
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-07T15:25:20+09:00"
+}

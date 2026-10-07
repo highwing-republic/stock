@@ -61,7 +61,7 @@
   },
   {
    "d1": 1.1,
-   "d20": null,
+   "d20": 18.4,
    "d5": -2.8,
    "eventId": "edinet:S100YZWE",
    "excess5": -1.7
@@ -86,6 +86,13 @@
    "d5": null,
    "eventId": "edinet:S100Z5RY",
    "excess5": null
+  },
+  {
+   "d1": -0.6,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z69M",
+   "excess5": null
   }
  ],
  "margin": {
@@ -99,33 +106,33 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 0.4,
-  "currentPrice": 2257.5,
+  "benchReturn": 0.8,
+  "currentPrice": 2247.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 18,
+   "pendingDays": 16,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 3,
+   "pendingDays": 1,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 58,
+   "pendingDays": 56,
    "stockReturn": null
   },
-  "excessReturn": 2.6,
+  "excessReturn": 1.8,
   "initialDate": "2026-10-01",
   "initialPrice": 2191.0,
-  "stockReturn": 3.0
+  "stockReturn": 2.6
  },
  "priceSetup": {
-  "asOf": "2026-10-05",
+  "asOf": "2026-10-07",
   "atrState": "低ボラ",
   "distFrom52wHigh": 0.34,
   "labels": [
@@ -133,19 +140,19 @@
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2009.7,
-  "ma200": 2146.0,
-  "ma60": 2112.9,
-  "rangePos60": 0.44,
-  "rel20": 15.1,
-  "rel60": -17.5,
-  "volumeRatio20": 0.79
+  "ma20": 2043.0,
+  "ma200": 2145.6,
+  "ma60": 2101.7,
+  "rangePos60": 0.43,
+  "rel20": 13.9,
+  "rel60": -17.1,
+  "volumeRatio20": 0.61
  },
  "reasons": [
   "2pt買い増し 8.7%→10.7%",
   "30日以内に2回買い増し",
   "20日線上向き",
-  "TOPIX連動ETF比 +15.1pt（20日）"
+  "TOPIX連動ETF比 +13.9pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -239,7 +246,14 @@
    "kind": "STATUS",
    "label": "STRENGTHENING",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "保有割合 5.29%（ビーエヌピーパリバセキュリティーズジャパンリミテッド）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z69M"
   }
  ],
- "updatedAt": "2026-10-07T00:47:05+09:00"
+ "updatedAt": "2026-10-07T15:25:20+09:00"
 }

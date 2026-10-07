@@ -87,10 +87,17 @@
   },
   {
    "d1": -3.1,
-   "d20": null,
+   "d20": 2.8,
    "d5": -2.9,
    "eventId": "edinet:S100Z0F9",
    "excess5": -1.1
+  },
+  {
+   "d1": 0.1,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z68B",
+   "excess5": null
   }
  ],
  "margin": {
@@ -106,12 +113,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 3.1,
-  "currentPrice": 2948.5,
+  "benchReturn": 3.4,
+  "currentPrice": 2963.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 8,
+   "pendingDays": 6,
    "stockReturn": null
   },
   "d5": {
@@ -123,37 +130,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 48,
+   "pendingDays": 46,
    "stockReturn": null
   },
-  "excessReturn": -1.3,
+  "excessReturn": -1.1,
   "initialDate": "2026-09-14",
   "initialPrice": 2895.0,
-  "stockReturn": 1.8
+  "stockReturn": 2.3
  },
  "priceSetup": {
-  "asOf": "2026-10-05",
+  "asOf": "2026-10-07",
   "atrState": "通常",
-  "distFrom52wHigh": 0.17,
+  "distFrom52wHigh": 0.16,
   "labels": [
    "20日線の上",
-   "60日レンジ上位21%",
+   "60日レンジ上位17%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2892.1,
-  "ma200": 2846.6,
-  "ma60": 2821.7,
-  "rangePos60": 0.79,
-  "rel20": -0.8,
-  "rel60": 10.1,
-  "volumeRatio20": 0.73
+  "ma20": 2899.4,
+  "ma200": 2841.9,
+  "ma60": 2831.6,
+  "rangePos60": 0.83,
+  "rel20": 0.3,
+  "rel60": 6.6,
+  "volumeRatio20": 0.45
  },
  "reasons": [
-  "1.3pt買い増し 5.3%→6.6%",
-  "60日レンジ上位21%",
-  "20日線上向き",
-  "信用買残 -4%"
+  "1.1pt買い増し 6.6%→7.7%",
+  "30日以内に2回買い増し",
+  "60日レンジ上位17%",
+  "20日線上向き"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -289,7 +296,21 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "6.57% → 7.68%（Ｆｉｄｅｌｉｔｙ　Ｍａｎａｇｅｍｅｎｔ　＆　Ｒｅｓｅａｒｃｈ　Ｃｏｍｐａｎｙ　ＬＬＣ）",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z68B"
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-07T00:47:05+09:00"
+ "updatedAt": "2026-10-07T15:25:20+09:00"
 }

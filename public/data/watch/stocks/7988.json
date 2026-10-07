@@ -26,7 +26,7 @@
  "eventReactions": [
   {
    "d1": -0.8,
-   "d20": null,
+   "d20": -2.4,
    "d5": -3.8,
    "eventId": "edinet:S100YZJZ",
    "excess5": -2.7
@@ -37,6 +37,13 @@
    "d5": 0.5,
    "eventId": "edinet:S100Z41Y",
    "excess5": -1.8
+  },
+  {
+   "d1": 0.9,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z6PV",
+   "excess5": null
   }
  ],
  "margin": {
@@ -55,23 +62,23 @@
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-10-05",
+  "asOf": "2026-10-07",
   "atrState": "低ボラ",
   "distFrom52wHigh": 0.09,
   "labels": [
    "20日線の上"
   ],
-  "ma20": 2413.9,
-  "ma200": 2346.8,
-  "ma60": 2464.1,
-  "rangePos60": 0.29,
-  "rel20": -4.1,
-  "rel60": -5.6,
-  "volumeRatio20": 1.05
+  "ma20": 2410.2,
+  "ma200": 2347.7,
+  "ma60": 2462.3,
+  "rangePos60": 0.34,
+  "rel20": -3.1,
+  "rel60": -5.4,
+  "volumeRatio20": 0.46
  },
  "reasons": [
-  "1.3pt買い増し 5.2%→6.4%",
-  "20日線を回復",
+  "0pt買い増し 6.4%→6.5%",
+  "30日以内に2回買い増し",
   "52週高値まで9%"
  ],
  "schemaVersion": 1,
@@ -103,7 +110,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "6.42% → 6.45%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z6PV"
   }
  ],
- "updatedAt": "2026-10-07T00:47:05+09:00"
+ "updatedAt": "2026-10-07T15:25:20+09:00"
 }

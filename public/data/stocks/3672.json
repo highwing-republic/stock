@@ -1,11 +1,42 @@
 {
-  "updatedAt": "2026-10-07T00:46:58+09:00",
+  "updatedAt": "2026-10-07T15:25:09+09:00",
   "company": {
     "securityCode": "3672",
     "ticker": "3672.T",
     "name": "株式会社オルトプラス"
   },
   "events": [
+    {
+      "docId": "S100Z6CF",
+      "ticker": "3672.T",
+      "securityCode": "3672",
+      "companyName": "株式会社オルトプラス",
+      "submitDatetime": "2026-10-07 11:57",
+      "filerName": "Ｅｖｏ　Ｆｕｎｄ",
+      "reportType": "change",
+      "holdingRatio": 37.71,
+      "previousHoldingRatio": 42.58,
+      "holdingChange": -4.87,
+      "purpose": "純投資。特定の状況は想定されていないが、第１提出者は発行者に対しその時々の状況に応じて適切な助言を行う場合がある。 / 純投資（投資一任契約に基づく運用を目的としている。）",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少",
+        "大幅売却"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -3.45,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YO8Q",
       "ticker": "3672.T",
@@ -2835,9 +2866,19 @@
       "open": 28.0,
       "high": 29.0,
       "low": 28.0,
-      "close": null,
-      "adj_close": null,
+      "close": 29.0,
+      "adj_close": 29.0,
       "volume": 50400
+    },
+    {
+      "ticker": "3672.T",
+      "trade_date": "2026-10-07",
+      "open": 29.0,
+      "high": 29.0,
+      "low": 28.0,
+      "close": 28.0,
+      "adj_close": 28.0,
+      "volume": 55400
     }
   ],
   "benchmark": [
@@ -6627,9 +6668,19 @@
       "open": 437.20001220703125,
       "high": 440.79998779296875,
       "low": 436.3999938964844,
-      "close": null,
-      "adj_close": null,
+      "close": 440.3999938964844,
+      "adj_close": 440.3999938964844,
       "volume": 14896210
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-07",
+      "open": 439.0,
+      "high": 442.0,
+      "low": 437.20001220703125,
+      "close": 437.8999938964844,
+      "adj_close": 437.8999938964844,
+      "volume": 6419300
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

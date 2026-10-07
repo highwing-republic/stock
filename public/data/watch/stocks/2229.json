@@ -48,6 +48,13 @@
    "d5": -0.7,
    "eventId": "edinet:S100Z334",
    "excess5": -1.9
+  },
+  {
+   "d1": 0.3,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z60W",
+   "excess5": null
   }
  ],
  "margin": {
@@ -69,7 +76,7 @@
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 14,
+   "pendingDays": 12,
    "stockReturn": null
   },
   "d5": {
@@ -81,7 +88,7 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 54,
+   "pendingDays": 52,
    "stockReturn": null
   },
   "excessReturn": -2.8,
@@ -90,20 +97,24 @@
   "stockReturn": -1.8
  },
  "priceSetup": {
-  "asOf": "2026-10-05",
+  "asOf": "2026-10-07",
   "atrState": "低ボラ",
   "distFrom52wHigh": 0.06,
-  "labels": [],
-  "ma20": 3028.3,
-  "ma200": 2977.5,
-  "ma60": 3019.7,
-  "rangePos60": 0.5,
-  "rel20": -5.3,
-  "rel60": -2.8,
-  "volumeRatio20": 0.86
+  "labels": [
+   "20日線の上",
+   "60日線の上"
+  ],
+  "ma20": 3025.3,
+  "ma200": 2979.4,
+  "ma60": 3018.4,
+  "rangePos60": 0.53,
+  "rel20": -2.9,
+  "rel60": -6.3,
+  "volumeRatio20": 0.38
  },
  "reasons": [
   "新規大量保有 5%（野村證券株式会社）",
+  "20日線を回復",
   "52週高値まで6%",
   "信用買残 -21%"
  ],
@@ -164,7 +175,21 @@
    "kind": "EVENT",
    "label": "買い増し",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z60W"
+  },
+  {
+   "date": "2026-10-06",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-07T00:47:05+09:00"
+ "updatedAt": "2026-10-07T15:25:20+09:00"
 }

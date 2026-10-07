@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-10-07T00:46:58+09:00",
+  "updatedAt": "2026-10-07T15:25:09+09:00",
   "company": {
     "securityCode": "7138",
     "ticker": "7138.T",
     "name": "株式会社ＴＯＲＩＣＯ"
   },
   "events": [
+    {
+      "docId": "S100Z6N7",
+      "ticker": "7138.T",
+      "securityCode": "7138",
+      "companyName": "株式会社ＴＯＲＩＣＯ",
+      "submitDatetime": "2026-10-07 13:26",
+      "filerName": "Ｅｖｏ　Ｆｕｎｄ",
+      "reportType": "change",
+      "holdingRatio": 32.78,
+      "previousHoldingRatio": 34.35,
+      "holdingChange": -1.57,
+      "purpose": "純投資。特定の状況は想定されていないが、第１提出者は発行者に対しその時々の状況に応じて適切な助言を行う場合がある。 / 純投資（投資一任契約に基づく運用を目的としている。）",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -2.08,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YZM4",
       "ticker": "7138.T",
@@ -31,7 +61,7 @@
         "return1d": -9.83,
         "return5d": -15.03,
         "return20d": -14.45,
-        "returnCurrent": -16.76,
+        "returnCurrent": -18.5,
         "volumeRatio": 0.38,
         "marketExcessReturn": -12.42
       }
@@ -62,7 +92,7 @@
         "return1d": -2.25,
         "return5d": -15.17,
         "return20d": -14.04,
-        "returnCurrent": -19.1,
+        "returnCurrent": -20.79,
         "volumeRatio": 0.41,
         "marketExcessReturn": -14.73
       }
@@ -2865,9 +2895,19 @@
       "open": 143.0,
       "high": 147.0,
       "low": 141.0,
-      "close": null,
-      "adj_close": null,
+      "close": 144.0,
+      "adj_close": 144.0,
       "volume": 221100
+    },
+    {
+      "ticker": "7138.T",
+      "trade_date": "2026-10-07",
+      "open": 143.0,
+      "high": 143.0,
+      "low": 138.0,
+      "close": 141.0,
+      "adj_close": 141.0,
+      "volume": 255500
     }
   ],
   "benchmark": [
@@ -6657,9 +6697,19 @@
       "open": 437.20001220703125,
       "high": 440.79998779296875,
       "low": 436.3999938964844,
-      "close": null,
-      "adj_close": null,
+      "close": 440.3999938964844,
+      "adj_close": 440.3999938964844,
       "volume": 14896210
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-07",
+      "open": 439.0,
+      "high": 442.0,
+      "low": 437.20001220703125,
+      "close": 437.8999938964844,
+      "adj_close": 437.8999938964844,
+      "volume": 6419300
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

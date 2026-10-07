@@ -1,11 +1,42 @@
 {
-  "updatedAt": "2026-10-07T00:46:58+09:00",
+  "updatedAt": "2026-10-07T15:25:09+09:00",
   "company": {
     "securityCode": "6731",
     "ticker": "6731.T",
     "name": "株式会社ピクセラ"
   },
   "events": [
+    {
+      "docId": "S100Z6KN",
+      "ticker": "6731.T",
+      "securityCode": "6731",
+      "companyName": "株式会社ピクセラ",
+      "submitDatetime": "2026-10-07 11:50",
+      "filerName": "Ｅｖｏ　Ｆｕｎｄ",
+      "reportType": "change",
+      "holdingRatio": 0.0,
+      "previousHoldingRatio": 59.94,
+      "holdingChange": -59.94,
+      "purpose": "純投資。特定の状況は想定されていないが、第１提出者は発行者に対しその時々の状況に応じて適切な助言を行う場合がある。第１提出者は、発行者による第三者割当を通じて新株予約権証券（第22回）241,250個（対価総額3,618,750円）を2026年10月５日付で取得することを決定している。新株予約権証券（第22回）１個当たりの目的である株式数は、普通株式100株である。新株予約権証券（第22回）の取得目的は、純投資である。 / 純投資（投資一任契約に基づく運用を目的としている。）",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少",
+        "大幅売却"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -3.0,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z3ZW",
       "ticker": "6731.T",
@@ -19,9 +50,9 @@
       "holdingChange": -0.77,
       "purpose": "純投資。特定の状況は想定されていないが、第１提出者は発行者に対しその時々の状況に応じて適切な助言を行う場合がある。第１提出者は、発行者による第三者割当を通じて新株予約権証券（第22回）241,250個（対価総額3,618,750円）を2026年10月５日付で取得することを決定している。新株予約権証券（第22回）１個当たりの目的である株式数は、普通株式100株である。新株予約権証券（第22回）の取得目的は、純投資である。 / 純投資（投資一任契約に基づく運用を目的としている。）",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 1.05,
-      "marketExcessReturn": null,
+      "priceChange": -2.91,
+      "volumeRatio": 0.93,
+      "marketExcessReturn": -5.76,
       "signalScore": 0,
       "signalReasons": [
         "保有割合減少"
@@ -29,11 +60,11 @@
       "stockUnreacted": false,
       "metrics": {
         "return1d": -4.85,
-        "return5d": null,
+        "return5d": -2.91,
         "return20d": null,
-        "returnCurrent": -2.91,
-        "volumeRatio": 1.05,
-        "marketExcessReturn": null
+        "returnCurrent": -5.83,
+        "volumeRatio": 0.93,
+        "marketExcessReturn": -5.76
       }
     },
     {
@@ -61,7 +92,7 @@
         "return1d": -3.85,
         "return5d": -2.88,
         "return20d": 4.81,
-        "returnCurrent": -3.85,
+        "returnCurrent": -6.73,
         "volumeRatio": 0.41,
         "marketExcessReturn": -0.37
       }
@@ -92,7 +123,7 @@
         "return1d": -1.89,
         "return5d": -8.49,
         "return20d": 0.94,
-        "returnCurrent": -5.66,
+        "returnCurrent": -8.49,
         "volumeRatio": 0.47,
         "marketExcessReturn": -5.74
       }
@@ -2895,9 +2926,19 @@
       "open": 100.0,
       "high": 100.0,
       "low": 99.0,
-      "close": null,
-      "adj_close": null,
+      "close": 100.0,
+      "adj_close": 100.0,
       "volume": 29300
+    },
+    {
+      "ticker": "6731.T",
+      "trade_date": "2026-10-07",
+      "open": 99.0,
+      "high": 99.0,
+      "low": 95.0,
+      "close": 97.0,
+      "adj_close": 97.0,
+      "volume": 174700
     }
   ],
   "benchmark": [
@@ -6687,9 +6728,19 @@
       "open": 437.20001220703125,
       "high": 440.79998779296875,
       "low": 436.3999938964844,
-      "close": null,
-      "adj_close": null,
+      "close": 440.3999938964844,
+      "adj_close": 440.3999938964844,
       "volume": 14896210
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-07",
+      "open": 439.0,
+      "high": 442.0,
+      "low": 437.20001220703125,
+      "close": 437.8999938964844,
+      "adj_close": 437.8999938964844,
+      "volume": 6419300
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

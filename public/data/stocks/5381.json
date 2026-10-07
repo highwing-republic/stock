@@ -1,11 +1,39 @@
 {
-  "updatedAt": "2026-10-07T00:46:58+09:00",
+  "updatedAt": "2026-10-07T15:25:09+09:00",
   "company": {
     "securityCode": "5381",
     "ticker": "5381.T",
     "name": "マイポックス株式会社"
   },
   "events": [
+    {
+      "docId": "S100Z6J5",
+      "ticker": "5381.T",
+      "securityCode": "5381",
+      "companyName": "マイポックス株式会社",
+      "submitDatetime": "2026-10-07 10:39",
+      "filerName": "株式会社みずほ銀行",
+      "reportType": "change",
+      "holdingRatio": 9.54,
+      "previousHoldingRatio": 9.52,
+      "holdingChange": 0.02,
+      "purpose": "・発行会社の要請に応え、かつ発行会社との取引関係の強化を図るもの / ・ディーリング(短期売買)目的で保有するもの・レンディングその他取引に基づく一時的保有 / ・信託財産として運用その他の信託目的に従い保有するもの / ・投資信託または投資一任契約に基づき投資権限を有するもの",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 3.6,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YROL",
       "ticker": "5381.T",
@@ -31,7 +59,7 @@
         "return1d": -5.52,
         "return5d": -17.84,
         "return20d": 10.45,
-        "returnCurrent": 33.8,
+        "returnCurrent": 41.9,
         "volumeRatio": 0.93,
         "marketExcessReturn": -16.03
       }
@@ -2834,9 +2862,19 @@
       "open": 1150.0,
       "high": 1184.0,
       "low": 1140.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1167.0,
+      "adj_close": 1167.0,
       "volume": 310600
+    },
+    {
+      "ticker": "5381.T",
+      "trade_date": "2026-10-07",
+      "open": 1167.0,
+      "high": 1215.0,
+      "low": 1132.0,
+      "close": 1209.0,
+      "adj_close": 1209.0,
+      "volume": 466800
     }
   ],
   "benchmark": [
@@ -6626,9 +6664,19 @@
       "open": 437.20001220703125,
       "high": 440.79998779296875,
       "low": 436.3999938964844,
-      "close": null,
-      "adj_close": null,
+      "close": 440.3999938964844,
+      "adj_close": 440.3999938964844,
       "volume": 14896210
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-07",
+      "open": 439.0,
+      "high": 442.0,
+      "low": 437.20001220703125,
+      "close": 437.8999938964844,
+      "adj_close": 437.8999938964844,
+      "volume": 6419300
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"
