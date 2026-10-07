@@ -39,14 +39,14 @@
    "excess5": 0.2
   },
   {
-   "d1": 0.1,
+   "d1": 0.2,
    "d20": null,
    "d5": null,
    "eventId": "edinet:S100Z5ZR",
    "excess5": null
   },
   {
-   "d1": 0.1,
+   "d1": 0.2,
    "d20": null,
    "d5": null,
    "eventId": "edinet:S100Z6JD",
@@ -54,13 +54,13 @@
   }
  ],
  "margin": {
-  "asOf": "2026-10-05",
-  "buyBalance": 85500,
-  "buyChangePct": -1.8,
+  "asOf": "2026-10-06",
+  "buyBalance": 86800,
+  "buyChangePct": -0.8,
   "labels": [],
-  "ratio": 1.47,
-  "sellBalance": 58300,
-  "sellChangePct": -3.2
+  "ratio": 1.53,
+  "sellBalance": 56700,
+  "sellChangePct": -9.9
  },
  "pastEpisodes": [],
  "performance": null,
@@ -68,18 +68,20 @@
   "asOf": "2026-10-07",
   "atrState": "通常",
   "distFrom52wHigh": 0.17,
-  "labels": [],
+  "labels": [
+   "60日線の上"
+  ],
   "ma20": 1097.5,
   "ma200": 1080.9,
   "ma60": 1088.6,
   "rangePos60": 0.45,
-  "rel20": -5.1,
-  "rel60": -1.9,
-  "volumeRatio20": 0.6
+  "rel20": -4.8,
+  "rel60": -1.6,
+  "volumeRatio20": 0.95
  },
  "reasons": [
   "新規大量保有 5.1%（株式会社みずほ銀行）",
-  "信用買残 -2%"
+  "信用買残 -1%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -110,7 +112,14 @@
    "kind": "EVENT",
    "label": "新規大量保有",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z6JD"
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-07T15:25:20+09:00"
+ "updatedAt": "2026-10-07T19:40:10+09:00"
 }

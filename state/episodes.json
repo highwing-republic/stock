@@ -341,6 +341,10 @@
    "event_id": "edinet:S100Z69M"
   },
   {
+   "episode_id": "6526-2026-09-24",
+   "event_id": "edinet:S100Z6UY"
+  },
+  {
    "episode_id": "6532-2026-09-04",
    "event_id": "edinet:S100Z02M"
   },
@@ -2469,8 +2473,8 @@
    "event_ids": [
     "edinet:S100Z2WD"
    ],
-   "initial_bench": 437.8999938964844,
-   "initial_price": 1750.0,
+   "initial_bench": 437.0,
+   "initial_price": 1747.0,
    "last_trigger_at": "2026-09-18",
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z2WD",
@@ -2798,7 +2802,8 @@
     "edinet:S100Z2O8",
     "edinet:S100Z352",
     "edinet:S100Z5RY",
-    "edinet:S100Z69M"
+    "edinet:S100Z69M",
+    "edinet:S100Z6UY"
    ],
    "initial_bench": 434.3999938964844,
    "initial_price": 2191.0,
@@ -3523,8 +3528,8 @@
    "event_ids": [
     "edinet:S100Z5XN"
    ],
-   "initial_bench": 437.8999938964844,
-   "initial_price": 5658.0,
+   "initial_bench": 437.0,
+   "initial_price": 5637.0,
    "last_trigger_at": "2026-10-06",
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z5XN",
@@ -3816,33 +3821,25 @@
    "event_ids": [
     "edinet:S100Z6FB"
    ],
-   "initial_bench": 437.8999938964844,
-   "initial_price": 3581.0,
+   "initial_bench": null,
+   "initial_price": null,
    "last_trigger_at": "2026-10-06",
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z6FB",
    "security_code": "9024",
-   "setup_type": "BREAKOUT",
-   "setups": [
-    "BREAKOUT"
-   ],
+   "setup_type": null,
+   "setups": [],
    "started_at": "2026-10-06",
-   "status": "WATCH",
+   "status": "CANDIDATE",
    "status_history": [
     {
      "date": "2026-10-06",
      "from": null,
      "reason_code": "TRIGGER_EVENT",
      "to": "CANDIDATE"
-    },
-    {
-     "date": "2026-10-07",
-     "from": "CANDIDATE",
-     "reason_code": "SETUP_OK",
-     "to": "WATCH"
     }
    ],
-   "watch_started_at": "2026-10-07"
+   "watch_started_at": null
   },
   {
    "base_close": 5517.0,
@@ -3882,8 +3879,8 @@
    "event_ids": [
     "edinet:S100Z6S0"
    ],
-   "initial_bench": 437.8999938964844,
-   "initial_price": 2797.5,
+   "initial_bench": 437.0,
+   "initial_price": 2777.5,
    "last_trigger_at": "2026-10-07",
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z6S0",
@@ -3919,8 +3916,8 @@
    "event_ids": [
     "edinet:S100Z6SM"
    ],
-   "initial_bench": 437.8999938964844,
-   "initial_price": 3047.0,
+   "initial_bench": 437.0,
+   "initial_price": 3044.0,
    "last_trigger_at": "2026-10-07",
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z6SM",
