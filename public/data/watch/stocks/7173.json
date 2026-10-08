@@ -10,9 +10,11 @@
   "id": "7173-2026-09-15",
   "overextended": false,
   "setupType": "RECOVERY",
-  "setups": [],
+  "setups": [
+   "RECOVERY"
+  ],
   "startedAt": "2026-09-15",
-  "status": "BROKEN",
+  "status": "STRENGTHENING",
   "statusHistory": [
    {
     "date": "2026-09-15",
@@ -31,12 +33,6 @@
     "from": "WATCH",
     "reason_code": "SETUP_IMPROVED",
     "to": "STRENGTHENING"
-   },
-   {
-    "date": "2026-10-08",
-    "from": "STRENGTHENING",
-    "reason_code": "BELOW_MA60",
-    "to": "BROKEN"
    }
   ],
   "watchStartedAt": "2026-09-25"
@@ -99,12 +95,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -0.2,
-  "currentPrice": 1637.0,
+  "benchReturn": 1.6,
+  "currentPrice": 1706.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 11,
+   "pendingDays": 12,
    "stockReturn": null
   },
   "d5": {
@@ -116,29 +112,34 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 51,
+   "pendingDays": 52,
    "stockReturn": null
   },
-  "excessReturn": -7.4,
+  "excessReturn": -5.3,
   "initialDate": "2026-09-25",
   "initialPrice": 1771.9,
-  "stockReturn": -7.6
+  "stockReturn": -3.7
  },
  "priceSetup": {
-  "asOf": "2026-10-08",
-  "atrState": "通常",
-  "distFrom52wHigh": 0.14,
-  "labels": [],
-  "ma20": 1692.1,
-  "ma200": 1472.1,
-  "ma60": 1703.3,
-  "rangePos60": 0.18,
-  "rel20": -3.6,
-  "rel60": -9.5,
-  "volumeRatio20": 1.66
+  "asOf": "2026-10-07",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.1,
+  "labels": [
+   "20日線の上",
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 1695.3,
+  "ma200": 1469.2,
+  "ma60": 1704.7,
+  "rangePos60": 0.46,
+  "rel20": -0.7,
+  "rel60": -10.0,
+  "volumeRatio20": 1.13
  },
  "reasons": [
-  "1pt買い増し 8%→9%"
+  "1pt買い増し 8%→9%",
+  "20日線上向き"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -274,21 +275,7 @@
    "kind": "STATUS",
    "label": "STRENGTHENING",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-10-08",
-   "detail": "RECOVERY → なし",
-   "kind": "SETUP",
-   "label": "Price Setup解消",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-10-08",
-   "detail": "60日線を下回った",
-   "kind": "STATUS",
-   "label": "BROKEN",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-08T22:58:26+09:00"
+ "updatedAt": "2026-10-09T01:13:49+09:00"
 }

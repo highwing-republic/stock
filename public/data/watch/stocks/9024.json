@@ -9,27 +9,19 @@
   "closedAt": null,
   "id": "9024-2026-10-06",
   "overextended": false,
-  "setupType": "BREAKOUT",
-  "setups": [
-   "BREAKOUT"
-  ],
+  "setupType": null,
+  "setups": [],
   "startedAt": "2026-10-06",
-  "status": "WATCH",
+  "status": "CANDIDATE",
   "statusHistory": [
    {
     "date": "2026-10-06",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
-   },
-   {
-    "date": "2026-10-08",
-    "from": "CANDIDATE",
-    "reason_code": "SETUP_OK",
-    "to": "WATCH"
    }
   ],
-  "watchStartedAt": "2026-10-08"
+  "watchStartedAt": null
  },
  "eventReactions": [
   {
@@ -80,55 +72,29 @@
   "sellChangePct": 4.0
  },
  "pastEpisodes": [],
- "performance": {
-  "benchReturn": 0.0,
-  "currentPrice": 3593.0,
-  "d20": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 20,
-   "stockReturn": null
-  },
-  "d5": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 5,
-   "stockReturn": null
-  },
-  "d60": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 60,
-   "stockReturn": null
-  },
-  "excessReturn": 0.0,
-  "initialDate": "2026-10-08",
-  "initialPrice": 3593.0,
-  "stockReturn": 0.0
- },
+ "performance": null,
  "priceSetup": {
-  "asOf": "2026-10-08",
+  "asOf": "2026-10-07",
   "atrState": "低ボラ",
   "distFrom52wHigh": 0.38,
   "labels": [
    "20日線の上",
-   "60日レンジ上位28%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 3555.5,
-  "ma200": 3761.2,
-  "ma60": 3479.6,
-  "rangePos60": 0.72,
-  "rel20": 2.5,
-  "rel60": -0.4,
-  "volumeRatio20": 0.74
+  "ma20": 3551.4,
+  "ma200": 3767.1,
+  "ma60": 3477.2,
+  "rangePos60": 0.69,
+  "rel20": 0.1,
+  "rel60": -4.6,
+  "volumeRatio20": 0.64
  },
  "reasons": [
   "新規大量保有 5%（モルガン・スタンレーＭＵＦＧ証券株式会社）",
-  "60日レンジ上位28%",
   "20日線上向き",
-  "TOPIX連動ETF比 +2.5pt（20日）"
+  "TOPIX連動ETF比 +0.1pt（20日）",
+  "信用買残 -7%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -173,21 +139,7 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-10-08",
-   "detail": "なし → BREAKOUT",
-   "kind": "SETUP",
-   "label": "Price Setup改善",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-10-08",
-   "detail": "Price Setupが成立",
-   "kind": "STATUS",
-   "label": "WATCH",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-08T22:58:26+09:00"
+ "updatedAt": "2026-10-09T01:13:49+09:00"
 }

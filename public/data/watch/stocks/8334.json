@@ -10,7 +10,9 @@
   "id": "8334-2026-10-07",
   "overextended": false,
   "setupType": "TREND",
-  "setups": [],
+  "setups": [
+   "TREND"
+  ],
   "startedAt": "2026-10-07",
   "status": "WATCH",
   "statusHistory": [
@@ -52,51 +54,54 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -1.7,
-  "currentPrice": 2944.5,
+  "benchReturn": 0.0,
+  "currentPrice": 3044.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 19,
+   "pendingDays": 20,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 4,
+   "pendingDays": 5,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 59,
+   "pendingDays": 60,
    "stockReturn": null
   },
-  "excessReturn": -1.6,
+  "excessReturn": 0.0,
   "initialDate": "2026-10-07",
   "initialPrice": 3044.0,
-  "stockReturn": -3.3
+  "stockReturn": 0.0
  },
  "priceSetup": {
-  "asOf": "2026-10-08",
+  "asOf": "2026-10-07",
   "atrState": "通常",
-  "distFrom52wHigh": 0.08,
+  "distFrom52wHigh": 0.05,
   "labels": [
+   "20日線の上",
+   "60日レンジ上位18%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2974.5,
-  "ma200": 2284.7,
-  "ma60": 2746.8,
-  "rangePos60": 0.7,
-  "rel20": 3.2,
-  "rel60": 15.1,
-  "volumeRatio20": 1.03
+  "ma20": 2970.2,
+  "ma200": 2278.3,
+  "ma60": 2738.8,
+  "rangePos60": 0.82,
+  "rel20": 3.9,
+  "rel60": 18.4,
+  "volumeRatio20": 0.8
  },
  "reasons": [
   "新規大量保有 5.4%（野村ホールディングス株式会社）",
-  "TOPIX連動ETF比 +3.2pt（20日）",
-  "52週高値まで8%"
+  "60日レンジ上位18%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +3.9pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -113,14 +118,7 @@
    "kind": "STATUS",
    "label": "WATCH",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-10-08",
-   "detail": "TREND → なし",
-   "kind": "SETUP",
-   "label": "Price Setup解消",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-08T22:58:26+09:00"
+ "updatedAt": "2026-10-09T01:13:49+09:00"
 }

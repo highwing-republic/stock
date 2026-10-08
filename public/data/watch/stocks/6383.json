@@ -14,7 +14,7 @@
    "RECOVERY"
   ],
   "startedAt": "2026-10-06",
-  "status": "BROKEN",
+  "status": "WATCH",
   "statusHistory": [
    {
     "date": "2026-10-06",
@@ -27,12 +27,6 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
-   },
-   {
-    "date": "2026-10-08",
-    "from": "WATCH",
-    "reason_code": "BELOW_MA60",
-    "to": "BROKEN"
    }
   ],
   "watchStartedAt": "2026-10-06"
@@ -66,50 +60,51 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -2.5,
-  "currentPrice": 5716.0,
+  "benchReturn": -0.8,
+  "currentPrice": 5875.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 18,
+   "pendingDays": 19,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 3,
+   "pendingDays": 4,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 58,
+   "pendingDays": 59,
    "stockReturn": null
   },
-  "excessReturn": -0.6,
+  "excessReturn": 0.4,
   "initialDate": "2026-10-06",
   "initialPrice": 5899.0,
-  "stockReturn": -3.1
+  "stockReturn": -0.4
  },
  "priceSetup": {
-  "asOf": "2026-10-08",
+  "asOf": "2026-10-07",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.27,
+  "distFrom52wHigh": 0.25,
   "labels": [
    "20日線の上",
    "20日線が上向き"
   ],
-  "ma20": 5604.2,
-  "ma200": 6084.1,
-  "ma60": 5926.9,
-  "rangePos60": 0.25,
-  "rel20": -1.5,
-  "rel60": -20.0,
-  "volumeRatio20": 0.86
+  "ma20": 5609.1,
+  "ma200": 6080.4,
+  "ma60": 5944.4,
+  "rangePos60": 0.35,
+  "rel20": 1.6,
+  "rel60": -16.4,
+  "volumeRatio20": 0.75
  },
  "reasons": [
   "1.1pt買い増し 7.8%→8.9%",
-  "20日線上向き"
+  "20日線上向き",
+  "TOPIX連動ETF比 +1.6pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -133,14 +128,7 @@
    "kind": "STATUS",
    "label": "WATCH",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-10-08",
-   "detail": "60日線を下回った",
-   "kind": "STATUS",
-   "label": "BROKEN",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-08T22:58:26+09:00"
+ "updatedAt": "2026-10-09T01:13:49+09:00"
 }

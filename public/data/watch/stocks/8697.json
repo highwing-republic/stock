@@ -9,8 +9,9 @@
   "closedAt": null,
   "id": "8697-2026-10-05",
   "overextended": false,
-  "setupType": "TREND",
+  "setupType": "BREAKOUT",
   "setups": [
+   "BREAKOUT",
    "TREND",
    "RECOVERY"
   ],
@@ -52,53 +53,54 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -1.6,
-  "currentPrice": 2251.5,
+  "benchReturn": 0.2,
+  "currentPrice": 2281.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 17,
+   "pendingDays": 18,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 2,
+   "pendingDays": 3,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 57,
+   "pendingDays": 58,
    "stockReturn": null
   },
-  "excessReturn": 0.0,
+  "excessReturn": -0.5,
   "initialDate": "2026-10-05",
   "initialPrice": 2289.0,
-  "stockReturn": -1.6
+  "stockReturn": -0.3
  },
  "priceSetup": {
-  "asOf": "2026-10-08",
+  "asOf": "2026-10-07",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.04,
+  "distFrom52wHigh": 0.02,
   "labels": [
    "20日線の上",
+   "60日レンジ上位20%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2235.0,
-  "ma200": 1948.8,
-  "ma60": 2206.4,
-  "rangePos60": 0.69,
-  "rel20": 2.8,
-  "rel60": 3.6,
-  "volumeRatio20": 0.89
+  "ma20": 2232.1,
+  "ma200": 1945.8,
+  "ma60": 2203.6,
+  "rangePos60": 0.8,
+  "rel20": 1.5,
+  "rel60": 3.4,
+  "volumeRatio20": 0.87
  },
  "reasons": [
   "新規大量保有 5.2%（ＪＰモルガン証券株式会社）",
+  "60日レンジ上位20%",
   "20日線上向き",
-  "TOPIX連動ETF比 +2.8pt（20日）",
-  "52週高値まで4%"
+  "TOPIX連動ETF比 +1.5pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -115,14 +117,7 @@
    "kind": "STATUS",
    "label": "WATCH",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-10-08",
-   "detail": "BREAKOUT → TREND",
-   "kind": "SETUP",
-   "label": "Price Setup変化",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-08T22:58:26+09:00"
+ "updatedAt": "2026-10-09T01:13:49+09:00"
 }

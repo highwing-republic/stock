@@ -1,0 +1,245 @@
+{
+ "company": {
+  "name": "三井E&S",
+  "securityCode": "7003",
+  "tradingViewSymbol": "TSE:7003"
+ },
+ "episode": {
+  "closeReason": "BROKEN",
+  "closedAt": "2026-09-29",
+  "id": "7003-2026-09-16",
+  "overextended": false,
+  "setupType": "RECOVERY",
+  "setups": [],
+  "startedAt": "2026-09-16",
+  "status": "CLOSED",
+  "statusHistory": [
+   {
+    "date": "2026-09-16",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-09-18",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   },
+   {
+    "date": "2026-09-28",
+    "from": "WATCH",
+    "reason_code": "BELOW_MA60",
+    "to": "BROKEN"
+   },
+   {
+    "date": "2026-09-29",
+    "from": "BROKEN",
+    "reason_code": "BROKEN",
+    "to": "CLOSED"
+   }
+  ],
+  "watchStartedAt": "2026-09-18"
+ },
+ "eventReactions": [
+  {
+   "d1": 1.5,
+   "d20": -11.1,
+   "d5": 6.7,
+   "eventId": "edinet:S100YR19",
+   "excess5": 8.0
+  },
+  {
+   "d1": 5.0,
+   "d20": -4.0,
+   "d5": -3.3,
+   "eventId": "edinet:S100Z0U6",
+   "excess5": -1.5
+  },
+  {
+   "d1": -0.6,
+   "d20": null,
+   "d5": 3.5,
+   "eventId": "edinet:S100Z2E5",
+   "excess5": 1.4
+  },
+  {
+   "d1": -0.6,
+   "d20": null,
+   "d5": 3.5,
+   "eventId": "edinet:S100Z2EK",
+   "excess5": 1.4
+  },
+  {
+   "d1": -0.5,
+   "d20": null,
+   "d5": -4.1,
+   "eventId": "edinet:S100Z3EE",
+   "excess5": -5.3
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-07",
+  "buyBalance": 3984700,
+  "buyChangePct": 3.9,
+  "labels": [
+   "信用倍率悪化"
+  ],
+  "ratio": 49.32,
+  "sellBalance": 80800,
+  "sellChangePct": -16.6
+ },
+ "pastEpisodes": [
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-09-11",
+   "id": "7003-2026-09-07",
+   "setupType": "RECOVERY",
+   "startedAt": "2026-09-07"
+  }
+ ],
+ "performance": {
+  "benchReturn": -0.2,
+  "currentPrice": 4153.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 10,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": 1.2,
+   "excessReturn": -5.3,
+   "pendingDays": 0,
+   "stockReturn": -4.1
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 50,
+   "stockReturn": null
+  },
+  "excessReturn": -4.4,
+  "initialDate": "2026-09-18",
+  "initialPrice": 4351.9,
+  "stockReturn": -4.6
+ },
+ "priceSetup": {
+  "asOf": "2026-10-07",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.51,
+  "labels": [],
+  "ma20": 4235.0,
+  "ma200": 5299.0,
+  "ma60": 4350.8,
+  "rangePos60": 0.11,
+  "rel20": -6.3,
+  "rel60": -15.3,
+  "volumeRatio20": 0.84
+ },
+ "reasons": [
+  "新規大量保有 5.2%（モルガン・スタンレーＭＵＦＧ証券株式会社）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-07-22",
+   "detail": "保有割合 5.02%（三井住友トラスト・アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YR19"
+  },
+  {
+   "date": "2026-09-07",
+   "detail": "保有割合 5.16%（モルガン・スタンレーＭＵＦＧ証券株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z0U6"
+  },
+  {
+   "date": "2026-09-15",
+   "detail": "5.23% → 4.31%（モルガン・スタンレーＭＵＦＧ証券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z2EK"
+  },
+  {
+   "date": "2026-09-15",
+   "detail": "保有割合 5.23%（モルガン・スタンレーＭＵＦＧ証券株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z2E5"
+  },
+  {
+   "date": "2026-09-17",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-17",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-17",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-18",
+   "detail": "5.16% → 4.38%（モルガン・スタンレーＭＵＦＧ証券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z3EE"
+  },
+  {
+   "date": "2026-09-18",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-18",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-24",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-28",
+   "detail": "60日線を下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-29",
+   "detail": "Price Setupが崩れた",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-02",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-09T01:13:49+09:00"
+}
