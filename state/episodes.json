@@ -3279,8 +3279,8 @@
    "event_ids": [
     "edinet:S100Z38Y"
    ],
-   "initial_bench": 431.20001220703125,
-   "initial_price": 1858.0,
+   "initial_bench": 429.5,
+   "initial_price": 1851.5,
    "last_trigger_at": "2026-09-28",
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z38Y",
@@ -3454,8 +3454,8 @@
    "event_ids": [
     "edinet:S100Z66E"
    ],
-   "initial_bench": 431.20001220703125,
-   "initial_price": 5344.0,
+   "initial_bench": 429.5,
+   "initial_price": 5341.0,
    "last_trigger_at": "2026-10-05",
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z66E",
@@ -3562,9 +3562,8 @@
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z630",
    "security_code": "8697",
-   "setup_type": "BREAKOUT",
+   "setup_type": "TREND",
    "setups": [
-    "BREAKOUT",
     "TREND",
     "RECOVERY"
    ],
@@ -3825,7 +3824,7 @@
     "RECOVERY"
    ],
    "started_at": "2026-10-06",
-   "status": "WATCH",
+   "status": "BROKEN",
    "status_history": [
     {
      "date": "2026-10-06",
@@ -3838,6 +3837,12 @@
      "from": "CANDIDATE",
      "reason_code": "SETUP_OK",
      "to": "WATCH"
+    },
+    {
+     "date": "2026-10-08",
+     "from": "WATCH",
+     "reason_code": "BELOW_MA60",
+     "to": "BROKEN"
     }
    ],
    "watch_started_at": "2026-10-06"
@@ -3894,8 +3899,8 @@
    "event_ids": [
     "edinet:S100Z6FB"
    ],
-   "initial_bench": 431.20001220703125,
-   "initial_price": 3590.0,
+   "initial_bench": 429.5,
+   "initial_price": 3593.0,
    "last_trigger_at": "2026-10-06",
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z6FB",

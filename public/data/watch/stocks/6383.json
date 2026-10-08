@@ -14,7 +14,7 @@
    "RECOVERY"
   ],
   "startedAt": "2026-10-06",
-  "status": "WATCH",
+  "status": "BROKEN",
   "statusHistory": [
    {
     "date": "2026-10-06",
@@ -27,6 +27,12 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
+   },
+   {
+    "date": "2026-10-08",
+    "from": "WATCH",
+    "reason_code": "BELOW_MA60",
+    "to": "BROKEN"
    }
   ],
   "watchStartedAt": "2026-10-06"
@@ -48,18 +54,20 @@
   }
  ],
  "margin": {
-  "asOf": "2026-10-06",
-  "buyBalance": 731300,
-  "buyChangePct": -4.4,
-  "labels": [],
-  "ratio": 16.22,
-  "sellBalance": 45100,
-  "sellChangePct": 5.6
+  "asOf": "2026-10-07",
+  "buyBalance": 735200,
+  "buyChangePct": -0.0,
+  "labels": [
+   "信用倍率悪化"
+  ],
+  "ratio": 24.03,
+  "sellBalance": 30600,
+  "sellChangePct": -30.8
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -2.1,
-  "currentPrice": 5753.0,
+  "benchReturn": -2.5,
+  "currentPrice": 5716.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
@@ -78,31 +86,30 @@
    "pendingDays": 58,
    "stockReturn": null
   },
-  "excessReturn": -0.4,
+  "excessReturn": -0.6,
   "initialDate": "2026-10-06",
   "initialPrice": 5899.0,
-  "stockReturn": -2.5
+  "stockReturn": -3.1
  },
  "priceSetup": {
   "asOf": "2026-10-08",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.26,
+  "distFrom52wHigh": 0.27,
   "labels": [
    "20日線の上",
    "20日線が上向き"
   ],
-  "ma20": 5606.1,
-  "ma200": 6084.3,
-  "ma60": 5927.5,
-  "rangePos60": 0.27,
-  "rel20": -1.3,
-  "rel60": -19.8,
-  "volumeRatio20": 0.41
+  "ma20": 5604.2,
+  "ma200": 6084.1,
+  "ma60": 5926.9,
+  "rangePos60": 0.25,
+  "rel20": -1.5,
+  "rel60": -20.0,
+  "volumeRatio20": 0.86
  },
  "reasons": [
   "1.1pt買い増し 7.8%→8.9%",
-  "20日線上向き",
-  "信用買残 -4%"
+  "20日線上向き"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -126,7 +133,14 @@
    "kind": "STATUS",
    "label": "WATCH",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "60日線を下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-08T15:35:15+09:00"
+ "updatedAt": "2026-10-08T19:58:18+09:00"
 }
