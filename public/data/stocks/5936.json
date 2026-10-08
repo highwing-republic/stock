@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-10-08T01:08:59+09:00",
+  "updatedAt": "2026-10-08T15:35:04+09:00",
   "company": {
     "securityCode": "5936",
     "ticker": "5936.T",
     "name": "東洋シヤッター株式会社"
   },
   "events": [
+    {
+      "docId": "S100Z6XD",
+      "ticker": "5936.T",
+      "securityCode": "5936",
+      "companyName": "東洋シヤッター株式会社",
+      "submitDatetime": "2026-10-08 10:16",
+      "filerName": "中野　光二",
+      "reportType": "change",
+      "holdingRatio": 12.57,
+      "previousHoldingRatio": 13.64,
+      "holdingChange": -1.07,
+      "purpose": "発行会社の取引先持株会として、発行会社との関係強化を図るため。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -0.34,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YXL6",
       "ticker": "5936.T",
@@ -32,7 +62,7 @@
         "return1d": 0.0,
         "return5d": 1.47,
         "return20d": 3.04,
-        "returnCurrent": 0.0,
+        "returnCurrent": -0.68,
         "volumeRatio": 0.52,
         "marketExcessReturn": -1.4
       }
@@ -63,7 +93,7 @@
         "return1d": -1.24,
         "return5d": 0.34,
         "return20d": 3.95,
-        "returnCurrent": 0.11,
+        "returnCurrent": -0.56,
         "volumeRatio": 0.34,
         "marketExcessReturn": -4.54
       }
@@ -2876,9 +2906,19 @@
       "open": 890.0,
       "high": 894.0,
       "low": 880.0,
-      "close": null,
-      "adj_close": null,
+      "close": 884.0,
+      "adj_close": 884.0,
       "volume": 4700
+    },
+    {
+      "ticker": "5936.T",
+      "trade_date": "2026-10-08",
+      "open": 881.0,
+      "high": 882.0,
+      "low": 881.0,
+      "close": 881.0,
+      "adj_close": 881.0,
+      "volume": 1900
     }
   ],
   "benchmark": [
@@ -6678,9 +6718,19 @@
       "open": 439.0,
       "high": 442.0,
       "low": 437.0,
-      "close": null,
-      "adj_close": null,
+      "close": 437.0,
+      "adj_close": 437.0,
       "volume": 7893220
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-08",
+      "open": 435.0,
+      "high": 435.0,
+      "low": 429.70001220703125,
+      "close": 431.8999938964844,
+      "adj_close": 431.8999938964844,
+      "volume": 7884870
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

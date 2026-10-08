@@ -50,7 +50,7 @@
  "eventReactions": [
   {
    "d1": 2.9,
-   "d20": null,
+   "d20": -1.0,
    "d5": 2.1,
    "eventId": "edinet:S100Z08Z",
    "excess5": 3.9
@@ -70,10 +70,10 @@
   "benchReturn": 0.0,
   "currentPrice": 3264.0,
   "d20": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 2,
-   "stockReturn": null
+   "benchReturn": 0.3,
+   "excessReturn": -2.4,
+   "pendingDays": 0,
+   "stockReturn": -2.1
   },
   "d5": {
    "benchReturn": -1.6,
@@ -84,7 +84,7 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 42,
+   "pendingDays": 40,
    "stockReturn": null
   },
   "excessReturn": -3.0,
@@ -93,25 +93,25 @@
   "stockReturn": -3.0
  },
  "priceSetup": {
-  "asOf": "2026-10-06",
+  "asOf": "2026-10-08",
   "atrState": "通常",
-  "distFrom52wHigh": 0.08,
+  "distFrom52wHigh": 0.07,
   "labels": [
-   "60日レンジ上位26%",
+   "60日レンジ上位24%",
    "60日線の上"
   ],
-  "ma20": 3330.5,
-  "ma200": 2588.5,
-  "ma60": 3047.1,
-  "rangePos60": 0.74,
-  "rel20": -5.9,
-  "rel60": 27.9,
-  "volumeRatio20": 0.51
+  "ma20": 3325.4,
+  "ma200": 2600.9,
+  "ma60": 3071.9,
+  "rangePos60": 0.76,
+  "rel20": -2.4,
+  "rel60": 25.0,
+  "volumeRatio20": 0.72
  },
  "reasons": [
   "新規大量保有 5.1%（ブラックロック・ジャパン株式会社）",
-  "60日レンジ上位26%",
-  "52週高値まで8%"
+  "60日レンジ上位24%",
+  "52週高値まで7%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -186,5 +186,5 @@
    "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-08T01:09:10+09:00"
+ "updatedAt": "2026-10-08T15:35:15+09:00"
 }

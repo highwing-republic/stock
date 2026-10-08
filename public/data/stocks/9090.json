@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T01:08:59+09:00",
+  "updatedAt": "2026-10-08T15:35:04+09:00",
   "company": {
     "securityCode": "9090",
     "ticker": "9090.T",
@@ -20,17 +20,17 @@
       "purpose": "当該有価証券は、グループの資産運用および管理機能に関連して保有されているものです。 / 当該有価証券は、当社の投資運用および資産管理機能に関連して保有されています。 / 信託契約および投資一任契約に基づき顧客資産を運用する目的で保有。当該証券の名義は当社ではなく、顧客指定のカストディアンバンクの名義となります。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.27,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": 0.96,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.0,
-        "volumeRatio": null,
+        "returnCurrent": 0.96,
+        "volumeRatio": 0.27,
         "marketExcessReturn": null
       }
     },
@@ -59,7 +59,7 @@
         "return1d": -0.11,
         "return5d": -3.68,
         "return20d": null,
-        "returnCurrent": -6.16,
+        "returnCurrent": -5.26,
         "volumeRatio": 1.72,
         "marketExcessReturn": -5.58
       }
@@ -87,7 +87,7 @@
         "return1d": 2.93,
         "return5d": 7.08,
         "return20d": 9.65,
-        "returnCurrent": 3.69,
+        "returnCurrent": 4.69,
         "volumeRatio": 0.77,
         "marketExcessReturn": 4.2
       }
@@ -119,7 +119,7 @@
         "return1d": 3.44,
         "return5d": 9.5,
         "return20d": 4.16,
-        "returnCurrent": 0.86,
+        "returnCurrent": 1.83,
         "volumeRatio": 3.18,
         "marketExcessReturn": 11.4
       }
@@ -150,7 +150,7 @@
         "return1d": 0.0,
         "return5d": 4.91,
         "return20d": 8.47,
-        "returnCurrent": 4.2,
+        "returnCurrent": 5.2,
         "volumeRatio": 1.02,
         "marketExcessReturn": 6.29
       }
@@ -180,7 +180,7 @@
         "return1d": 0.0,
         "return5d": 4.91,
         "return20d": 8.47,
-        "returnCurrent": 4.2,
+        "returnCurrent": 5.2,
         "volumeRatio": 1.02,
         "marketExcessReturn": 6.29
       }
@@ -211,7 +211,7 @@
         "return1d": 0.65,
         "return5d": 4.02,
         "return20d": 13.1,
-        "returnCurrent": 10.15,
+        "returnCurrent": 11.21,
         "volumeRatio": 0.83,
         "marketExcessReturn": 5.88
       }
@@ -242,7 +242,7 @@
         "return1d": 0.65,
         "return5d": 4.02,
         "return20d": 13.1,
-        "returnCurrent": 10.15,
+        "returnCurrent": 11.21,
         "volumeRatio": 0.83,
         "marketExcessReturn": 5.88
       }
@@ -273,7 +273,7 @@
         "return1d": 0.65,
         "return5d": 4.02,
         "return20d": 13.1,
-        "returnCurrent": 10.15,
+        "returnCurrent": 11.21,
         "volumeRatio": 0.83,
         "marketExcessReturn": 5.88
       }
@@ -304,7 +304,7 @@
         "return1d": 0.65,
         "return5d": 4.02,
         "return20d": 13.1,
-        "returnCurrent": 10.15,
+        "returnCurrent": 11.21,
         "volumeRatio": 0.83,
         "marketExcessReturn": 5.88
       }
@@ -4107,9 +4107,19 @@
       "open": 829.0,
       "high": 831.0,
       "low": 821.0,
-      "close": null,
-      "adj_close": null,
+      "close": 827.0,
+      "adj_close": 827.0,
       "volume": 360600
+    },
+    {
+      "ticker": "9090.T",
+      "trade_date": "2026-10-08",
+      "open": 822.0,
+      "high": 843.0,
+      "low": 821.0,
+      "close": 842.0,
+      "adj_close": 842.0,
+      "volume": 160800
     }
   ],
   "benchmark": [
@@ -7909,9 +7919,19 @@
       "open": 439.0,
       "high": 442.0,
       "low": 437.0,
-      "close": null,
-      "adj_close": null,
+      "close": 437.0,
+      "adj_close": 437.0,
       "volume": 7893220
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-08",
+      "open": 435.0,
+      "high": 435.0,
+      "low": 429.70001220703125,
+      "close": 431.8999938964844,
+      "adj_close": 431.8999938964844,
+      "volume": 7884870
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

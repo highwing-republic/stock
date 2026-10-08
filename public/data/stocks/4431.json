@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-10-08T01:08:59+09:00",
+  "updatedAt": "2026-10-08T15:35:04+09:00",
   "company": {
     "securityCode": "4431",
     "ticker": "4431.T",
     "name": "株式会社スマレジ"
   },
   "events": [
+    {
+      "docId": "S100Z6G9",
+      "ticker": "4431.T",
+      "securityCode": "4431",
+      "companyName": "株式会社スマレジ",
+      "submitDatetime": "2026-10-08 15:16",
+      "filerName": "德田　誠",
+      "reportType": "change",
+      "holdingRatio": 25.05,
+      "previousHoldingRatio": 25.45,
+      "holdingChange": -0.4,
+      "purpose": "発行会社の創業者であり、安定株主として長期保有するためであります。 / 安定株主として長期保有するためであります。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 0.91,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YXUE",
       "ticker": "4431.T",
@@ -33,7 +63,7 @@
         "return1d": -1.61,
         "return5d": 9.37,
         "return20d": -2.2,
-        "returnCurrent": 10.69,
+        "returnCurrent": 13.32,
         "volumeRatio": 2.17,
         "marketExcessReturn": 7.19
       }
@@ -2846,9 +2876,19 @@
       "open": 3765.0,
       "high": 3900.0,
       "low": 3755.0,
-      "close": null,
-      "adj_close": null,
+      "close": 3835.0,
+      "adj_close": 3835.0,
       "volume": 118600
+    },
+    {
+      "ticker": "4431.T",
+      "trade_date": "2026-10-08",
+      "open": 3900.0,
+      "high": 3945.0,
+      "low": 3850.0,
+      "close": 3870.0,
+      "adj_close": 3870.0,
+      "volume": 110300
     }
   ],
   "benchmark": [
@@ -6648,9 +6688,19 @@
       "open": 439.0,
       "high": 442.0,
       "low": 437.0,
-      "close": null,
-      "adj_close": null,
+      "close": 437.0,
+      "adj_close": 437.0,
       "volume": 7893220
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-08",
+      "open": 435.0,
+      "high": 435.0,
+      "low": 429.70001220703125,
+      "close": 431.8999938964844,
+      "adj_close": 431.8999938964844,
+      "volume": 7884870
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

@@ -10,11 +10,9 @@
   "id": "7173-2026-09-15",
   "overextended": false,
   "setupType": "RECOVERY",
-  "setups": [
-   "RECOVERY"
-  ],
+  "setups": [],
   "startedAt": "2026-09-15",
-  "status": "STRENGTHENING",
+  "status": "BROKEN",
   "statusHistory": [
    {
     "date": "2026-09-15",
@@ -33,6 +31,12 @@
     "from": "WATCH",
     "reason_code": "SETUP_IMPROVED",
     "to": "STRENGTHENING"
+   },
+   {
+    "date": "2026-10-08",
+    "from": "STRENGTHENING",
+    "reason_code": "BELOW_MA60",
+    "to": "BROKEN"
    }
   ],
   "watchStartedAt": "2026-09-25"
@@ -95,12 +99,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 2.3,
-  "currentPrice": 1740.0,
+  "benchReturn": 0.2,
+  "currentPrice": 1636.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 13,
+   "pendingDays": 11,
    "stockReturn": null
   },
   "d5": {
@@ -112,36 +116,29 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 53,
+   "pendingDays": 51,
    "stockReturn": null
   },
-  "excessReturn": -4.1,
+  "excessReturn": -7.9,
   "initialDate": "2026-09-25",
   "initialPrice": 1771.9,
-  "stockReturn": -1.8
+  "stockReturn": -7.7
  },
  "priceSetup": {
-  "asOf": "2026-10-06",
-  "atrState": "低ボラ",
-  "distFrom52wHigh": 0.09,
-  "labels": [
-   "20日線の上",
-   "20日線が上向き",
-   "60日線の上"
-  ],
-  "ma20": 1693.9,
-  "ma200": 1466.0,
-  "ma60": 1706.4,
-  "rangePos60": 0.6,
-  "rel20": 0.4,
-  "rel60": -6.5,
-  "volumeRatio20": 1.41
+  "asOf": "2026-10-08",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.14,
+  "labels": [],
+  "ma20": 1692.0,
+  "ma200": 1472.1,
+  "ma60": 1703.3,
+  "rangePos60": 0.18,
+  "rel20": -4.1,
+  "rel60": -9.9,
+  "volumeRatio20": 1.25
  },
  "reasons": [
-  "1pt買い増し 8%→9%",
-  "20日線を回復",
-  "TOPIX連動ETF比 +0.4pt（20日）",
-  "52週高値まで9%"
+  "1pt買い増し 8%→9%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -277,7 +274,21 @@
    "kind": "STATUS",
    "label": "STRENGTHENING",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "60日線を下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-08T01:09:10+09:00"
+ "updatedAt": "2026-10-08T15:35:15+09:00"
 }

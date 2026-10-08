@@ -5,20 +5,26 @@
   "tradingViewSymbol": "TSE:7747"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "NO_SETUP",
+  "closedAt": "2026-10-07",
   "id": "7747-2026-09-04",
   "overextended": false,
   "setupType": null,
   "setups": [],
   "startedAt": "2026-09-04",
-  "status": "CANDIDATE",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-09-04",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-10-07",
+    "from": "CANDIDATE",
+    "reason_code": "NO_SETUP",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": null
@@ -47,19 +53,19 @@
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-10-06",
-  "atrState": "通常",
-  "distFrom52wHigh": 0.19,
+  "asOf": "2026-10-08",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.21,
   "labels": [
    "20日線の上"
   ],
-  "ma20": 3319.1,
-  "ma200": 3328.0,
-  "ma60": 3588.2,
-  "rangePos60": 0.29,
-  "rel20": -7.2,
-  "rel60": -10.5,
-  "volumeRatio20": 1.01
+  "ma20": 3313.7,
+  "ma200": 3331.9,
+  "ma60": 3579.7,
+  "rangePos60": 0.21,
+  "rel20": -1.6,
+  "rel60": -12.9,
+  "volumeRatio20": 0.64
  },
  "reasons": [
   "新規大量保有 5.1%（三井住友トラスト・アセットマネジメント株式会社）",
@@ -87,7 +93,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "期限内にPrice Setupが成立しなかった",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-08T01:09:10+09:00"
+ "updatedAt": "2026-10-08T15:35:15+09:00"
 }

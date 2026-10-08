@@ -5,20 +5,26 @@
   "tradingViewSymbol": "TSE:7974"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "NO_SETUP",
+  "closedAt": "2026-10-08",
   "id": "7974-2026-09-07",
   "overextended": false,
   "setupType": null,
   "setups": [],
   "startedAt": "2026-09-07",
-  "status": "CANDIDATE",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-09-07",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-10-08",
+    "from": "CANDIDATE",
+    "reason_code": "NO_SETUP",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": null
@@ -26,7 +32,7 @@
  "eventReactions": [
   {
    "d1": -1.0,
-   "d20": null,
+   "d20": -12.0,
    "d5": -8.4,
    "eventId": "edinet:S100Z0EE",
    "excess5": -6.6
@@ -44,17 +50,17 @@
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-10-06",
+  "asOf": "2026-10-08",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.46,
+  "distFrom52wHigh": 0.45,
   "labels": [],
-  "ma20": 8181.4,
-  "ma200": 8466.7,
-  "ma60": 8051.4,
-  "rangePos60": 0.4,
-  "rel20": -14.8,
-  "rel60": 5.4,
-  "volumeRatio20": 0.79
+  "ma20": 8083.8,
+  "ma200": 8429.8,
+  "ma60": 8075.3,
+  "rangePos60": 0.42,
+  "rel20": -10.4,
+  "rel60": 5.5,
+  "volumeRatio20": 0.62
  },
  "reasons": [
   "新規大量保有 8292591%（キャピタル・リサーチ・アンド・マネージメント・カンパニー）"
@@ -67,7 +73,14 @@
    "kind": "EVENT",
    "label": "新規大量保有",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z0EE"
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "期限内にPrice Setupが成立しなかった",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-08T01:09:10+09:00"
+ "updatedAt": "2026-10-08T15:35:15+09:00"
 }

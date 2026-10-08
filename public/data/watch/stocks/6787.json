@@ -9,10 +9,8 @@
   "closedAt": null,
   "id": "6787-2026-09-25",
   "overextended": false,
-  "setupType": "RECOVERY",
-  "setups": [
-   "RECOVERY"
-  ],
+  "setupType": "BREAKOUT",
+  "setups": [],
   "startedAt": "2026-09-25",
   "status": "REACTED",
   "statusHistory": [
@@ -58,6 +56,13 @@
    "d5": 6.7,
    "eventId": "edinet:S100Z3N4",
    "excess5": 4.4
+  },
+  {
+   "d1": -1.5,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z6J6",
+   "excess5": null
   }
  ],
  "margin": {
@@ -74,12 +79,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 2.3,
-  "currentPrice": 27300.0,
+  "benchReturn": 0.2,
+  "currentPrice": 25930.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 13,
+   "pendingDays": 11,
    "stockReturn": null
   },
   "d5": {
@@ -91,37 +96,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 53,
+   "pendingDays": 51,
    "stockReturn": null
   },
-  "excessReturn": 12.5,
+  "excessReturn": 8.8,
   "initialDate": "2026-09-25",
   "initialPrice": 23787.5,
-  "stockReturn": 14.8
+  "stockReturn": 9.0
  },
  "priceSetup": {
-  "asOf": "2026-10-06",
-  "atrState": "低ボラ",
-  "distFrom52wHigh": 0.4,
+  "asOf": "2026-10-08",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.43,
   "labels": [
    "20日線の上",
-   "60日レンジ上位3%",
+   "60日レンジ上位15%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 21983.0,
-  "ma200": 23143.7,
-  "ma60": 21256.7,
-  "rangePos60": 0.97,
-  "rel20": 54.2,
-  "rel60": -0.8,
-  "volumeRatio20": 2.18
+  "ma20": 22701.2,
+  "ma200": 23291.6,
+  "ma60": 21285.7,
+  "rangePos60": 0.85,
+  "rel20": 30.3,
+  "rel60": -4.0,
+  "volumeRatio20": 0.6
  },
  "reasons": [
   "新規大量保有 5.8%（株式会社みずほ銀行）",
-  "60日レンジ上位3%",
+  "60日レンジ上位15%",
   "20日線上向き",
-  "TOPIX連動ETF比 +54.2pt（20日）"
+  "TOPIX連動ETF比 +30.3pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -166,7 +171,21 @@
    "kind": "EVENT",
    "label": "保有割合の減少",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z6J6"
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "RECOVERY → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "BREAKOUT → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-08T01:09:10+09:00"
+ "updatedAt": "2026-10-08T15:35:15+09:00"
 }

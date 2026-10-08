@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T01:08:59+09:00",
+  "updatedAt": "2026-10-08T15:35:04+09:00",
   "company": {
     "securityCode": "4180",
     "ticker": "4180.T",
@@ -20,7 +20,7 @@
       "purpose": "投資一任契約に基づき、顧客資産で本件株式を保有している。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.47,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [
@@ -28,11 +28,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": -5.35,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.0,
-        "volumeRatio": null,
+        "returnCurrent": -5.35,
+        "volumeRatio": 0.47,
         "marketExcessReturn": null
       }
     },
@@ -63,7 +63,7 @@
         "return1d": 3.08,
         "return5d": 5.82,
         "return20d": 10.39,
-        "returnCurrent": 60.05,
+        "returnCurrent": 51.48,
         "volumeRatio": 0.56,
         "marketExcessReturn": 7.18
       }
@@ -2876,9 +2876,19 @@
       "open": 1402.0,
       "high": 1411.0,
       "low": 1330.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1336.0,
+      "adj_close": 1336.0,
       "volume": 1488500
+    },
+    {
+      "ticker": "4180.T",
+      "trade_date": "2026-10-08",
+      "open": 1336.0,
+      "high": 1344.0,
+      "low": 1313.0,
+      "close": 1327.0,
+      "adj_close": 1327.0,
+      "volume": 655200
     }
   ],
   "benchmark": [
@@ -6678,9 +6688,19 @@
       "open": 439.0,
       "high": 442.0,
       "low": 437.0,
-      "close": null,
-      "adj_close": null,
+      "close": 437.0,
+      "adj_close": 437.0,
       "volume": 7893220
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-08",
+      "open": 435.0,
+      "high": 435.0,
+      "low": 429.70001220703125,
+      "close": 431.8999938964844,
+      "adj_close": 431.8999938964844,
+      "volume": 7884870
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

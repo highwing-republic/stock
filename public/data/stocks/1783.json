@@ -1,11 +1,71 @@
 {
-  "updatedAt": "2026-10-08T01:08:59+09:00",
+  "updatedAt": "2026-10-08T15:35:04+09:00",
   "company": {
     "securityCode": "1783",
     "ticker": "1783.T",
     "name": "株式会社ｆａｎｔａｓｉｓｔａ"
   },
   "events": [
+    {
+      "docId": "S100Z5ZG",
+      "ticker": "1783.T",
+      "securityCode": "1783",
+      "companyName": "株式会社ｆａｎｔａｓｉｓｔａ",
+      "submitDatetime": "2026-10-08 15:03",
+      "filerName": "株式会社コチカグレイス",
+      "reportType": "change",
+      "holdingRatio": 9.84,
+      "previousHoldingRatio": 11.11,
+      "holdingChange": -1.27,
+      "purpose": "純投資",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 0.0,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
+    {
+      "docId": "S100Z6CW",
+      "ticker": "1783.T",
+      "securityCode": "1783",
+      "companyName": "株式会社ｆａｎｔａｓｉｓｔａ",
+      "submitDatetime": "2026-10-08 14:52",
+      "filerName": "株式会社コチカグレイス",
+      "reportType": "change",
+      "holdingRatio": 11.11,
+      "previousHoldingRatio": 10.52,
+      "holdingChange": 0.59,
+      "purpose": "純投資",
+      "importantProposal": true,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 20,
+      "signalReasons": [
+        "重要提案行為あり"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 0.0,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YPPZ",
       "ticker": "1783.T",
@@ -33,7 +93,7 @@
         "return1d": 0.0,
         "return5d": 4.41,
         "return20d": null,
-        "returnCurrent": 7.35,
+        "returnCurrent": 2.94,
         "volumeRatio": 0.7,
         "marketExcessReturn": 3.45
       }
@@ -64,7 +124,7 @@
         "return1d": 4.41,
         "return5d": 4.41,
         "return20d": null,
-        "returnCurrent": 7.35,
+        "returnCurrent": 2.94,
         "volumeRatio": 0.83,
         "marketExcessReturn": 4.06
       }
@@ -95,7 +155,7 @@
         "return1d": 4.41,
         "return5d": 4.41,
         "return20d": null,
-        "returnCurrent": 7.35,
+        "returnCurrent": 2.94,
         "volumeRatio": 0.83,
         "marketExcessReturn": 4.06
       }
@@ -125,7 +185,7 @@
         "return1d": 0.0,
         "return5d": 0.0,
         "return20d": 2.04,
-        "returnCurrent": 48.98,
+        "returnCurrent": 42.86,
         "volumeRatio": 1.44,
         "marketExcessReturn": 1.81
       }
@@ -155,7 +215,7 @@
         "return1d": 0.0,
         "return5d": 0.0,
         "return20d": 2.04,
-        "returnCurrent": 48.98,
+        "returnCurrent": 42.86,
         "volumeRatio": 1.44,
         "marketExcessReturn": 1.81
       }
@@ -2968,9 +3028,19 @@
       "open": 73.0,
       "high": 74.0,
       "low": 69.0,
-      "close": null,
-      "adj_close": null,
+      "close": 70.0,
+      "adj_close": 70.0,
       "volume": 1960200
+    },
+    {
+      "ticker": "1783.T",
+      "trade_date": "2026-10-08",
+      "open": 69.0,
+      "high": 72.0,
+      "low": 68.0,
+      "close": 70.0,
+      "adj_close": 70.0,
+      "volume": 1275200
     }
   ],
   "benchmark": [
@@ -6770,9 +6840,19 @@
       "open": 439.0,
       "high": 442.0,
       "low": 437.0,
-      "close": null,
-      "adj_close": null,
+      "close": 437.0,
+      "adj_close": 437.0,
       "volume": 7893220
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-08",
+      "open": 435.0,
+      "high": 435.0,
+      "low": 429.70001220703125,
+      "close": 431.8999938964844,
+      "adj_close": 431.8999938964844,
+      "volume": 7884870
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

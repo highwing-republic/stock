@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T01:08:59+09:00",
+  "updatedAt": "2026-10-08T15:35:04+09:00",
   "company": {
     "securityCode": "8361",
     "ticker": "8361.T",
@@ -19,21 +19,22 @@
       "holdingChange": 1.02,
       "purpose": "純投資（投資一任契約に基づく運用を目的としている。）を基本とし、発行者が有する岐阜県及び愛知県を中心とする営業基盤の価値を最大限に引き出し、中長期的な企業価値の向上を通じた投資収益の獲得を目指して、経営陣との建設的な対話を行う。この観点から、現在の経営戦略が当該営業基盤の潜在的な価値を十分に活かすものとなっているか、その価値の最大化に向けてどのような経営上の選択肢があるかについて、説明を求め、意見交換及び必要に応じた助言を行う。また、政策保有株式の縮減に加え、純投資目的に区分された株式を含む保有株式全体について、個別銘柄及びポートフォリオ全体のリスク・リターン、資本コストに照らした保有の経済合理性並びに集中リスクの検証方針及び検証結果について説明を求める。これらを踏まえ、株式保有に伴うリスク及び資本配分の適切性、成長投資と株主還元のバランスについて、意見交換及び必要に応じた助言を行う。これらの対話及び助言は、経営陣による自律的な経営判断を尊重して行う。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 1.01,
-      "marketExcessReturn": null,
-      "signalScore": 20,
+      "priceChange": 1.51,
+      "volumeRatio": 0.93,
+      "marketExcessReturn": 1.42,
+      "signalScore": 30,
       "signalReasons": [
-        "1pt以上買い増し"
+        "1pt以上買い増し",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": 1.0,
-        "return5d": null,
+        "return5d": 1.51,
         "return20d": null,
-        "returnCurrent": 7.42,
-        "volumeRatio": 1.01,
-        "marketExcessReturn": null
+        "returnCurrent": 1.51,
+        "volumeRatio": 0.93,
+        "marketExcessReturn": 1.42
       }
     }
   ],
@@ -2734,9 +2735,19 @@
       "open": 1910.0,
       "high": 1944.0,
       "low": 1865.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1871.0,
+      "adj_close": 1871.0,
       "volume": 789200
+    },
+    {
+      "ticker": "8361.T",
+      "trade_date": "2026-10-08",
+      "open": 1861.0,
+      "high": 1890.0,
+      "low": 1801.0,
+      "close": 1819.0,
+      "adj_close": 1819.0,
+      "volume": 723300
     }
   ],
   "benchmark": [
@@ -6536,9 +6547,19 @@
       "open": 439.0,
       "high": 442.0,
       "low": 437.0,
-      "close": null,
-      "adj_close": null,
+      "close": 437.0,
+      "adj_close": 437.0,
       "volume": 7893220
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-08",
+      "open": 435.0,
+      "high": 435.0,
+      "low": 429.70001220703125,
+      "close": 431.8999938964844,
+      "adj_close": 431.8999938964844,
+      "volume": 7884870
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

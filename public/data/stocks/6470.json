@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T01:08:59+09:00",
+  "updatedAt": "2026-10-08T15:35:04+09:00",
   "company": {
     "securityCode": "6470",
     "ticker": "6470.T",
@@ -19,21 +19,22 @@
       "holdingChange": 1.1,
       "purpose": "株式会社Kaihouの投資助言に基づき投資信託の信託財産の運用のため保有。スチュワードシップ・コードに則り建設的な対話により、IR・資本効率・ガバナンスの高度化と企業価値向上を促す。但し、受益者の利益を保全する為に、保有目的を「重要提案行為を行う」に変更する場合がある。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.67,
-      "marketExcessReturn": null,
-      "signalScore": 20,
+      "priceChange": 2.19,
+      "volumeRatio": 0.62,
+      "marketExcessReturn": -0.54,
+      "signalScore": 30,
       "signalReasons": [
-        "1pt以上買い増し"
+        "1pt以上買い増し",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": 1.75,
-        "return5d": null,
+        "return5d": 2.19,
         "return20d": null,
-        "returnCurrent": 2.01,
-        "volumeRatio": 0.67,
-        "marketExcessReturn": null
+        "returnCurrent": 1.4,
+        "volumeRatio": 0.62,
+        "marketExcessReturn": -0.54
       }
     },
     {
@@ -62,7 +63,7 @@
         "return1d": 5.93,
         "return5d": 5.13,
         "return20d": -6.9,
-        "returnCurrent": 3.27,
+        "returnCurrent": 2.65,
         "volumeRatio": 0.8,
         "marketExcessReturn": 7.24
       }
@@ -93,7 +94,7 @@
         "return1d": 0.93,
         "return5d": 1.78,
         "return20d": 11.03,
-        "returnCurrent": 9.07,
+        "returnCurrent": 8.41,
         "volumeRatio": 1.43,
         "marketExcessReturn": 2.59
       }
@@ -2906,9 +2907,19 @@
       "open": 1158.0,
       "high": 1179.0,
       "low": 1157.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1169.0,
+      "adj_close": 1169.0,
       "volume": 31400
+    },
+    {
+      "ticker": "6470.T",
+      "trade_date": "2026-10-08",
+      "open": 1157.0,
+      "high": 1165.0,
+      "low": 1145.0,
+      "close": 1160.0,
+      "adj_close": 1160.0,
+      "volume": 57400
     }
   ],
   "benchmark": [
@@ -6708,9 +6719,19 @@
       "open": 439.0,
       "high": 442.0,
       "low": 437.0,
-      "close": null,
-      "adj_close": null,
+      "close": 437.0,
+      "adj_close": 437.0,
       "volume": 7893220
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-08",
+      "open": 435.0,
+      "high": 435.0,
+      "low": 429.70001220703125,
+      "close": 431.8999938964844,
+      "adj_close": 431.8999938964844,
+      "volume": 7884870
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

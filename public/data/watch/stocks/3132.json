@@ -67,7 +67,7 @@
   },
   {
    "d1": 2.9,
-   "d20": null,
+   "d20": 25.8,
    "d5": 6.0,
    "eventId": "edinet:S100Z0J4",
    "excess5": 7.8
@@ -91,13 +91,13 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 2.4,
-  "currentPrice": 4351.0,
+  "benchReturn": 0.3,
+  "currentPrice": 4558.0,
   "d20": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 2,
-   "stockReturn": null
+   "benchReturn": 0.3,
+   "excessReturn": 25.8,
+   "pendingDays": 0,
+   "stockReturn": 26.1
   },
   "d5": {
    "benchReturn": -1.6,
@@ -108,37 +108,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 42,
+   "pendingDays": 40,
    "stockReturn": null
   },
-  "excessReturn": 18.0,
+  "excessReturn": 25.8,
   "initialDate": "2026-09-07",
   "initialPrice": 3614.4,
-  "stockReturn": 20.4
+  "stockReturn": 26.1
  },
  "priceSetup": {
-  "asOf": "2026-10-06",
+  "asOf": "2026-10-08",
   "atrState": "通常",
-  "distFrom52wHigh": 0.0,
+  "distFrom52wHigh": 0.01,
   "labels": [
    "20日線の上",
-   "60日レンジ上位1%",
+   "60日レンジ上位3%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 3944.1,
-  "ma200": 2940.7,
-  "ma60": 3582.5,
-  "rangePos60": 0.99,
-  "rel20": 22.4,
-  "rel60": 34.2,
-  "volumeRatio20": 1.29
+  "ma20": 4036.6,
+  "ma200": 2961.8,
+  "ma60": 3628.3,
+  "rangePos60": 0.97,
+  "rel20": 25.8,
+  "rel60": 40.2,
+  "volumeRatio20": 1.62
  },
  "reasons": [
   "1.3pt買い増し 5.1%→6.4%",
-  "60日レンジ上位1%",
-  "20日線上向き",
-  "TOPIX連動ETF比 +22.4pt（20日）"
+  "出来高 1.6倍で60日高値更新",
+  "60日レンジ上位3%",
+  "20日線上向き"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -281,7 +281,21 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-08T01:09:10+09:00"
+ "updatedAt": "2026-10-08T15:35:15+09:00"
 }

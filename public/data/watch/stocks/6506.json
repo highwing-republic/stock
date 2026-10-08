@@ -34,7 +34,7 @@
  "eventReactions": [
   {
    "d1": 2.0,
-   "d20": null,
+   "d20": 8.2,
    "d5": -5.9,
    "eventId": "edinet:S100Z0K6",
    "excess5": -4.1
@@ -61,51 +61,51 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 0.9,
-  "currentPrice": 4936.0,
+  "benchReturn": -1.2,
+  "currentPrice": 4784.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 19,
+   "pendingDays": 17,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 4,
+   "pendingDays": 2,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 59,
+   "pendingDays": 57,
    "stockReturn": null
   },
-  "excessReturn": -0.8,
+  "excessReturn": -1.8,
   "initialDate": "2026-10-05",
   "initialPrice": 4931.0,
-  "stockReturn": 0.1
+  "stockReturn": -3.0
  },
  "priceSetup": {
-  "asOf": "2026-10-06",
+  "asOf": "2026-10-08",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.37,
+  "distFrom52wHigh": 0.39,
   "labels": [
    "20日線の上",
    "20日線が上向き"
   ],
-  "ma20": 4530.6,
-  "ma200": 5329.0,
-  "ma60": 4971.7,
-  "rangePos60": 0.25,
-  "rel20": 6.6,
-  "rel60": -31.9,
-  "volumeRatio20": 1.21
+  "ma20": 4555.6,
+  "ma200": 5328.0,
+  "ma60": 4911.3,
+  "rangePos60": 0.2,
+  "rel20": 2.4,
+  "rel60": -34.2,
+  "volumeRatio20": 0.88
  },
  "reasons": [
   "新規大量保有 5.6%（株式会社みずほ銀行）",
   "20日線上向き",
-  "TOPIX連動ETF比 +6.6pt（20日）",
+  "TOPIX連動ETF比 +2.4pt（20日）",
   "信用買残 -8%"
  ],
  "schemaVersion": 1,
@@ -151,7 +151,14 @@
    "kind": "STATUS",
    "label": "WATCH",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-08T01:09:10+09:00"
+ "updatedAt": "2026-10-08T15:35:15+09:00"
 }

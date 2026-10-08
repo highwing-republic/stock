@@ -9,19 +9,27 @@
   "closedAt": null,
   "id": "1721-2026-10-06",
   "overextended": false,
-  "setupType": null,
-  "setups": [],
+  "setupType": "TREND",
+  "setups": [
+   "TREND"
+  ],
   "startedAt": "2026-10-06",
-  "status": "CANDIDATE",
+  "status": "WATCH",
   "statusHistory": [
    {
     "date": "2026-10-06",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-10-07",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
    }
   ],
-  "watchStartedAt": null
+  "watchStartedAt": "2026-10-07"
  },
  "eventReactions": [
   {
@@ -63,30 +71,54 @@
   "sellChangePct": 0.0
  },
  "pastEpisodes": [],
- "performance": null,
+ "performance": {
+  "benchReturn": -1.3,
+  "currentPrice": 5566.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 19,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 4,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 59,
+   "stockReturn": null
+  },
+  "excessReturn": 0.0,
+  "initialDate": "2026-10-07",
+  "initialPrice": 5637.0,
+  "stockReturn": -1.3
+ },
  "priceSetup": {
-  "asOf": "2026-10-06",
+  "asOf": "2026-10-08",
   "atrState": "通常",
   "distFrom52wHigh": 0.09,
   "labels": [
    "20日線の上",
-   "60日レンジ上位28%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 5450.1,
-  "ma200": 5166.9,
-  "ma60": 5312.0,
-  "rangePos60": 0.72,
-  "rel20": 0.8,
-  "rel60": -0.2,
-  "volumeRatio20": 1.4
+  "ma20": 5475.6,
+  "ma200": 5181.0,
+  "ma60": 5322.7,
+  "rangePos60": 0.7,
+  "rel20": 3.7,
+  "rel60": 0.7,
+  "volumeRatio20": 0.91
  },
  "reasons": [
   "新規大量保有 5.6%（ブラックロック・ジャパン株式会社）",
-  "60日レンジ上位28%",
   "20日線上向き",
-  "TOPIX連動ETF比 +0.8pt（20日）"
+  "TOPIX連動ETF比 +3.7pt（20日）",
+  "52週高値まで9%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -117,7 +149,21 @@
    "kind": "EVENT",
    "label": "新規大量保有",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z5XN"
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-08T01:09:10+09:00"
+ "updatedAt": "2026-10-08T15:35:15+09:00"
 }

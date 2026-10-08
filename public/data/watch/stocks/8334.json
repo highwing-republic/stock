@@ -1,0 +1,128 @@
+{
+ "company": {
+  "name": "群馬銀行",
+  "securityCode": "8334",
+  "tradingViewSymbol": "TSE:8334"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "8334-2026-10-07",
+  "overextended": false,
+  "setupType": "TREND",
+  "setups": [],
+  "startedAt": "2026-10-07",
+  "status": "WATCH",
+  "statusHistory": [
+   {
+    "date": "2026-10-07",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-10-07",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   }
+  ],
+  "watchStartedAt": "2026-10-07"
+ },
+ "eventReactions": [
+  {
+   "d1": -2.1,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z6SM",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-06",
+  "buyBalance": 296000,
+  "buyChangePct": 41.2,
+  "labels": [
+   "信用買残急増",
+   "信用倍率悪化"
+  ],
+  "ratio": 2.9,
+  "sellBalance": 102200,
+  "sellChangePct": -17.8
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": -1.3,
+  "currentPrice": 2962.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 19,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 4,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 59,
+   "stockReturn": null
+  },
+  "excessReturn": -1.4,
+  "initialDate": "2026-10-07",
+  "initialPrice": 3044.0,
+  "stockReturn": -2.7
+ },
+ "priceSetup": {
+  "asOf": "2026-10-08",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.07,
+  "labels": [
+   "60日レンジ上位28%",
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 2975.3,
+  "ma200": 2284.8,
+  "ma60": 2747.1,
+  "rangePos60": 0.72,
+  "rel20": 3.4,
+  "rel60": 15.4,
+  "volumeRatio20": 0.88
+ },
+ "reasons": [
+  "新規大量保有 5.4%（野村ホールディングス株式会社）",
+  "60日レンジ上位28%",
+  "TOPIX連動ETF比 +3.4pt（20日）",
+  "52週高値まで7%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-10-07",
+   "detail": "保有割合 5.38%（野村ホールディングス株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z6SM"
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-08T15:35:15+09:00"
+}
