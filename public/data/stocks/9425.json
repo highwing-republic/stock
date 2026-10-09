@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T01:13:40+09:00",
+  "updatedAt": "2026-10-09T15:38:04+09:00",
   "company": {
     "securityCode": "9425",
     "ticker": "9425.T",
@@ -20,17 +20,19 @@
       "purpose": "純投資（提出者は投資一任契約に基づき投資権限を有する）",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 2.14,
       "marketExcessReturn": null,
-      "signalScore": 0,
-      "signalReasons": [],
+      "signalScore": 10,
+      "signalReasons": [
+        "出来高2倍以上"
+      ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": 2.73,
         "return5d": null,
         "return20d": null,
         "returnCurrent": 2.34,
-        "volumeRatio": null,
+        "volumeRatio": 2.14,
         "marketExcessReturn": null
       }
     },
@@ -48,20 +50,21 @@
       "purpose": "証券業務及びその付随業務としての保有",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 2.14,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [
+        "出来高2倍以上",
         "保有割合減少",
         "大幅売却"
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": 2.73,
         "return5d": null,
         "return20d": null,
         "returnCurrent": 2.34,
-        "volumeRatio": null,
+        "volumeRatio": 2.14,
         "marketExcessReturn": null
       }
     },
@@ -273,7 +276,7 @@
       "metrics": {
         "return1d": 1.26,
         "return5d": 6.69,
-        "return20d": null,
+        "return20d": 10.04,
         "returnCurrent": 9.62,
         "volumeRatio": 0.99,
         "marketExcessReturn": 7.67
@@ -304,7 +307,7 @@
       "metrics": {
         "return1d": 1.26,
         "return5d": 6.69,
-        "return20d": null,
+        "return20d": 10.04,
         "returnCurrent": 9.62,
         "volumeRatio": 0.99,
         "marketExcessReturn": 7.67
@@ -3451,9 +3454,19 @@
       "open": 263.0,
       "high": 278.0,
       "low": 256.0,
-      "close": null,
-      "adj_close": null,
+      "close": 263.0,
+      "adj_close": 263.0,
       "volume": 2585600
+    },
+    {
+      "ticker": "9425.T",
+      "trade_date": "2026-10-09",
+      "open": 260.0,
+      "high": 264.0,
+      "low": 245.0,
+      "close": 262.0,
+      "adj_close": 262.0,
+      "volume": 822100
     }
   ],
   "benchmark": [
@@ -7263,9 +7276,19 @@
       "open": 435.0,
       "high": 435.0,
       "low": 429.5,
-      "close": null,
-      "adj_close": null,
+      "close": 429.5,
+      "adj_close": 429.5,
       "volume": 13370110
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-09",
+      "open": 429.0,
+      "high": 432.0,
+      "low": 428.5,
+      "close": 431.8999938964844,
+      "adj_close": 431.8999938964844,
+      "volume": 9015290
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

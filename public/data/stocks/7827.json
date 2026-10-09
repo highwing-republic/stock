@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T01:13:40+09:00",
+  "updatedAt": "2026-10-09T15:38:04+09:00",
   "company": {
     "securityCode": "7827",
     "ticker": "7827.T",
@@ -19,22 +19,23 @@
       "holdingChange": 19.92,
       "purpose": "株式会社和幸は、株式会社オービスの代表取締役社長である中浜　勇治の親族がその株式の全てを保有する会社であり、安定株主として長期保有する方針であります。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 1.4,
-      "marketExcessReturn": null,
-      "signalScore": 30,
+      "priceChange": 1.43,
+      "volumeRatio": 1.23,
+      "marketExcessReturn": 2.01,
+      "signalScore": 40,
       "signalReasons": [
         "1pt以上買い増し",
-        "2pt以上買い増し"
+        "2pt以上買い増し",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": 1.54,
-        "return5d": null,
+        "return5d": 1.43,
         "return20d": null,
-        "returnCurrent": 2.4,
-        "volumeRatio": 1.4,
-        "marketExcessReturn": null
+        "returnCurrent": 1.43,
+        "volumeRatio": 1.23,
+        "marketExcessReturn": 2.01
       }
     },
     {
@@ -50,9 +51,9 @@
       "holdingChange": -20.21,
       "purpose": "発行会社の創業者の長男及び発行会社の代表取締役であり、安定株主として保有しております。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 1.4,
-      "marketExcessReturn": null,
+      "priceChange": 1.43,
+      "volumeRatio": 1.23,
+      "marketExcessReturn": 2.01,
       "signalScore": 0,
       "signalReasons": [
         "保有割合減少",
@@ -61,11 +62,11 @@
       "stockUnreacted": false,
       "metrics": {
         "return1d": 1.54,
-        "return5d": null,
+        "return5d": 1.43,
         "return20d": null,
-        "returnCurrent": 2.4,
-        "volumeRatio": 1.4,
-        "marketExcessReturn": null
+        "returnCurrent": 1.43,
+        "volumeRatio": 1.23,
+        "marketExcessReturn": 2.01
       }
     }
   ],
@@ -2766,9 +2767,19 @@
       "open": 1780.0,
       "high": 1790.0,
       "low": 1775.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1786.0,
+      "adj_close": 1786.0,
       "volume": 5700
+    },
+    {
+      "ticker": "7827.T",
+      "trade_date": "2026-10-09",
+      "open": 1789.0,
+      "high": 1790.0,
+      "low": 1775.0,
+      "close": 1775.0,
+      "adj_close": 1775.0,
+      "volume": 3600
     }
   ],
   "benchmark": [
@@ -6578,9 +6589,19 @@
       "open": 435.0,
       "high": 435.0,
       "low": 429.5,
-      "close": null,
-      "adj_close": null,
+      "close": 429.5,
+      "adj_close": 429.5,
       "volume": 13370110
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-09",
+      "open": 429.0,
+      "high": 432.0,
+      "low": 428.5,
+      "close": 431.8999938964844,
+      "adj_close": 431.8999938964844,
+      "volume": 9015290
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

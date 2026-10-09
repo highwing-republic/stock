@@ -1,11 +1,42 @@
 {
-  "updatedAt": "2026-10-09T01:13:40+09:00",
+  "updatedAt": "2026-10-09T15:38:04+09:00",
   "company": {
     "securityCode": "7915",
     "ticker": "7915.T",
     "name": "ＮＩＳＳＨＡ株式会社"
   },
   "events": [
+    {
+      "docId": "S100Z6RX",
+      "ticker": "7915.T",
+      "securityCode": "7915",
+      "companyName": "ＮＩＳＳＨＡ株式会社",
+      "submitDatetime": "2026-10-09 09:21",
+      "filerName": "三井住友トラスト・アセットマネジメント株式会社",
+      "reportType": "change",
+      "holdingRatio": 9.47,
+      "previousHoldingRatio": 10.55,
+      "holdingChange": -1.08,
+      "purpose": "投資信託契約、投資一任契約に基づく運用を目的として保有するもの。 / 証券投資信託及び投資一任契約において、株券等の取得・処分の権限を有するもの。",
+      "importantProposal": true,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "重要提案行為あり",
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 2.0,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YVMF",
       "ticker": "7915.T",
@@ -32,7 +63,7 @@
         "return1d": 4.08,
         "return5d": 1.25,
         "return20d": -7.76,
-        "returnCurrent": -13.33,
+        "returnCurrent": -11.84,
         "volumeRatio": 0.97,
         "marketExcessReturn": 3.36
       }
@@ -63,7 +94,7 @@
         "return1d": -1.01,
         "return5d": -6.03,
         "return20d": -4.88,
-        "returnCurrent": -20.67,
+        "returnCurrent": -19.31,
         "volumeRatio": 1.1,
         "marketExcessReturn": -8.43
       }
@@ -2886,9 +2917,19 @@
       "open": 1100.0,
       "high": 1116.0,
       "low": 1081.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1102.0,
+      "adj_close": 1102.0,
       "volume": 319300
+    },
+    {
+      "ticker": "7915.T",
+      "trade_date": "2026-10-09",
+      "open": 1132.0,
+      "high": 1148.0,
+      "low": 1100.0,
+      "close": 1124.0,
+      "adj_close": 1124.0,
+      "volume": 571000
     }
   ],
   "benchmark": [
@@ -6698,9 +6739,19 @@
       "open": 435.0,
       "high": 435.0,
       "low": 429.5,
-      "close": null,
-      "adj_close": null,
+      "close": 429.5,
+      "adj_close": 429.5,
       "volume": 13370110
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-09",
+      "open": 429.0,
+      "high": 432.0,
+      "low": 428.5,
+      "close": 431.8999938964844,
+      "adj_close": 431.8999938964844,
+      "volume": 9015290
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

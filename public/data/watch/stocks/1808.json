@@ -5,20 +5,26 @@
   "tradingViewSymbol": "TSE:1808"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "NO_SETUP",
+  "closedAt": "2026-10-08",
   "id": "1808-2026-09-07",
   "overextended": false,
   "setupType": null,
   "setups": [],
   "startedAt": "2026-09-07",
-  "status": "CANDIDATE",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-09-07",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-10-08",
+    "from": "CANDIDATE",
+    "reason_code": "NO_SETUP",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": null
@@ -44,17 +50,17 @@
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-10-07",
+  "asOf": "2026-10-09",
   "atrState": "低ボラ",
   "distFrom52wHigh": 0.25,
   "labels": [],
-  "ma20": 2667.5,
-  "ma200": 2841.6,
-  "ma60": 2728.7,
-  "rangePos60": 0.04,
-  "rel20": -10.4,
-  "rel60": -12.0,
-  "volumeRatio20": 0.62
+  "ma20": 2645.8,
+  "ma200": 2838.0,
+  "ma60": 2722.7,
+  "rangePos60": 0.1,
+  "rel20": -9.4,
+  "rel60": -9.0,
+  "volumeRatio20": 0.47
  },
  "reasons": [
   "1.5pt買い増し 6.2%→7.6%"
@@ -81,7 +87,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "期限内にPrice Setupが成立しなかった",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-09T01:13:49+09:00"
+ "updatedAt": "2026-10-09T15:38:12+09:00"
 }

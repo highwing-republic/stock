@@ -12,7 +12,7 @@
   "setupType": "BREAKOUT",
   "setups": [],
   "startedAt": "2026-10-05",
-  "status": "WATCH",
+  "status": "BROKEN",
   "statusHistory": [
    {
     "date": "2026-10-05",
@@ -25,6 +25,12 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
+   },
+   {
+    "date": "2026-10-09",
+    "from": "WATCH",
+    "reason_code": "BELOW_MA20",
+    "to": "BROKEN"
    }
   ],
   "watchStartedAt": "2026-10-06"
@@ -33,9 +39,9 @@
   {
    "d1": 0.0,
    "d20": null,
-   "d5": null,
+   "d5": -0.4,
    "eventId": "edinet:S100Z5CP",
-   "excess5": null
+   "excess5": -0.8
   }
  ],
  "margin": {
@@ -51,51 +57,51 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -0.8,
-  "currentPrice": 2007.0,
+  "benchReturn": -1.9,
+  "currentPrice": 1984.5,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 19,
+   "pendingDays": 17,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 4,
+   "pendingDays": 2,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 59,
+   "pendingDays": 57,
    "stockReturn": null
   },
-  "excessReturn": 0.0,
+  "excessReturn": -0.1,
   "initialDate": "2026-10-06",
   "initialPrice": 2024.0,
-  "stockReturn": -0.8
+  "stockReturn": -2.0
  },
  "priceSetup": {
-  "asOf": "2026-10-07",
+  "asOf": "2026-10-09",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.12,
+  "distFrom52wHigh": 0.13,
   "labels": [
-   "60日レンジ上位20%",
+   "60日レンジ上位29%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2010.2,
-  "ma200": 1977.9,
-  "ma60": 1978.7,
-  "rangePos60": 0.8,
-  "rel20": -1.4,
-  "rel60": 4.2,
-  "volumeRatio20": 0.7
+  "ma20": 2008.9,
+  "ma200": 1978.7,
+  "ma60": 1983.5,
+  "rangePos60": 0.71,
+  "rel20": -1.2,
+  "rel60": 6.5,
+  "volumeRatio20": 0.71
  },
  "reasons": [
   "新規大量保有 5%（株式会社三菱ＵＦＪフィナンシャル・グループ）",
-  "60日レンジ上位20%"
+  "60日レンジ上位29%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -133,7 +139,21 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "20日線を連続で下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-09T01:13:49+09:00"
+ "updatedAt": "2026-10-09T15:38:12+09:00"
 }

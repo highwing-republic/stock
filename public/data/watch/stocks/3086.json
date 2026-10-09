@@ -96,7 +96,7 @@
   },
   {
    "d1": -3.0,
-   "d20": null,
+   "d20": 1.8,
    "d5": -4.1,
    "eventId": "edinet:S100Z0WW",
    "excess5": -2.5
@@ -137,23 +137,24 @@
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-10-07",
+  "asOf": "2026-10-09",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.24,
+  "distFrom52wHigh": 0.23,
   "labels": [
    "20日線の上"
   ],
-  "ma20": 2647.3,
-  "ma200": 2557.5,
-  "ma60": 2878.9,
-  "rangePos60": 0.25,
-  "rel20": -3.6,
-  "rel60": -18.2,
-  "volumeRatio20": 1.03
+  "ma20": 2656.2,
+  "ma200": 2563.5,
+  "ma60": 2864.6,
+  "rangePos60": 0.27,
+  "rel20": 2.7,
+  "rel60": -14.9,
+  "volumeRatio20": 0.92
  },
  "reasons": [
   "1.3pt買い増し 10.3%→11.6%",
-  "30日以内に2回買い増し"
+  "30日以内に2回買い増し",
+  "TOPIX連動ETF比 +2.7pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -261,7 +262,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-09T01:13:49+09:00"
+ "updatedAt": "2026-10-09T15:38:12+09:00"
 }

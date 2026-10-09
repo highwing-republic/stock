@@ -5,20 +5,26 @@
   "tradingViewSymbol": "TSE:7974"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "NO_SETUP",
+  "closedAt": "2026-10-08",
   "id": "7974-2026-09-07",
   "overextended": false,
   "setupType": null,
   "setups": [],
   "startedAt": "2026-09-07",
-  "status": "CANDIDATE",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-09-07",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-10-08",
+    "from": "CANDIDATE",
+    "reason_code": "NO_SETUP",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": null
@@ -44,20 +50,24 @@
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-10-07",
+  "asOf": "2026-10-09",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.46,
-  "labels": [],
-  "ma20": 8128.2,
-  "ma200": 8447.3,
-  "ma60": 8062.9,
-  "rangePos60": 0.38,
-  "rel20": -14.3,
-  "rel60": 5.3,
-  "volumeRatio20": 0.73
+  "distFrom52wHigh": 0.43,
+  "labels": [
+   "20日線の上",
+   "60日線の上"
+  ],
+  "ma20": 8052.1,
+  "ma200": 8414.5,
+  "ma60": 8093.4,
+  "rangePos60": 0.54,
+  "rel20": -9.4,
+  "rel60": 13.3,
+  "volumeRatio20": 1.24
  },
  "reasons": [
-  "新規大量保有 8292591%（キャピタル・リサーチ・アンド・マネージメント・カンパニー）"
+  "新規大量保有 8292591%（キャピタル・リサーチ・アンド・マネージメント・カンパニー）",
+  "20日線を回復"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -67,7 +77,28 @@
    "kind": "EVENT",
    "label": "新規大量保有",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z0EE"
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "期限内にPrice Setupが成立しなかった",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-09T01:13:49+09:00"
+ "updatedAt": "2026-10-09T15:38:12+09:00"
 }

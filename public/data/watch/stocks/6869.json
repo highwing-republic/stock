@@ -14,7 +14,7 @@
    "TREND"
   ],
   "startedAt": "2026-10-06",
-  "status": "WATCH",
+  "status": "STRENGTHENING",
   "statusHistory": [
    {
     "date": "2026-10-06",
@@ -27,6 +27,12 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
+   },
+   {
+    "date": "2026-10-08",
+    "from": "WATCH",
+    "reason_code": "REL20_POSITIVE",
+    "to": "STRENGTHENING"
    }
   ],
   "watchStartedAt": "2026-10-06"
@@ -51,52 +57,52 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -0.8,
-  "currentPrice": 1899.0,
+  "benchReturn": -1.9,
+  "currentPrice": 1848.5,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 19,
+   "pendingDays": 17,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 4,
+   "pendingDays": 2,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 59,
+   "pendingDays": 57,
    "stockReturn": null
   },
-  "excessReturn": 1.0,
+  "excessReturn": -0.6,
   "initialDate": "2026-10-06",
   "initialPrice": 1895.5,
-  "stockReturn": 0.2
+  "stockReturn": -2.5
  },
  "priceSetup": {
-  "asOf": "2026-10-07",
+  "asOf": "2026-10-09",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.05,
+  "distFrom52wHigh": 0.07,
   "labels": [
    "20日線の上",
-   "60日レンジ上位18%",
+   "60日レンジ上位28%",
    "60日線の上"
   ],
-  "ma20": 1841.0,
-  "ma200": 1526.3,
-  "ma60": 1768.7,
-  "rangePos60": 0.82,
-  "rel20": -3.7,
-  "rel60": 16.1,
-  "volumeRatio20": 0.97
+  "ma20": 1842.6,
+  "ma200": 1530.6,
+  "ma60": 1780.6,
+  "rangePos60": 0.72,
+  "rel20": -1.0,
+  "rel60": 19.7,
+  "volumeRatio20": 0.43
  },
  "reasons": [
   "新規大量保有 5%（ブラックロック・ジャパン株式会社）",
-  "60日レンジ上位18%",
-  "52週高値まで5%",
+  "60日レンジ上位28%",
+  "52週高値まで7%",
   "信用買残 -2%"
  ],
  "schemaVersion": 1,
@@ -128,7 +134,21 @@
    "kind": "STATUS",
    "label": "WATCH",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "STATUS",
+   "label": "STRENGTHENING",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-09T01:13:49+09:00"
+ "updatedAt": "2026-10-09T15:38:12+09:00"
 }

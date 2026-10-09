@@ -70,10 +70,10 @@
   "benchReturn": 0.0,
   "currentPrice": 3264.0,
   "d20": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 1,
-   "stockReturn": null
+   "benchReturn": -0.1,
+   "excessReturn": -2.4,
+   "pendingDays": 0,
+   "stockReturn": -2.5
   },
   "d5": {
    "benchReturn": -1.6,
@@ -84,7 +84,7 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 41,
+   "pendingDays": 39,
    "stockReturn": null
   },
   "excessReturn": -3.0,
@@ -93,25 +93,27 @@
   "stockReturn": -3.0
  },
  "priceSetup": {
-  "asOf": "2026-10-07",
+  "asOf": "2026-10-09",
   "atrState": "通常",
-  "distFrom52wHigh": 0.09,
+  "distFrom52wHigh": 0.05,
   "labels": [
-   "60日レンジ上位29%",
+   "20日線の上",
+   "60日レンジ上位16%",
    "60日線の上"
   ],
-  "ma20": 3329.0,
-  "ma200": 2594.6,
-  "ma60": 3059.3,
-  "rangePos60": 0.71,
-  "rel20": -3.2,
-  "rel60": 24.9,
-  "volumeRatio20": 0.63
+  "ma20": 3325.3,
+  "ma200": 2607.6,
+  "ma60": 3086.6,
+  "rangePos60": 0.84,
+  "rel20": -2.0,
+  "rel60": 33.8,
+  "volumeRatio20": 1.0
  },
  "reasons": [
   "新規大量保有 5.1%（ブラックロック・ジャパン株式会社）",
-  "60日レンジ上位29%",
-  "52週高値まで9%"
+  "60日レンジ上位16%",
+  "20日線を回復",
+  "52週高値まで5%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -184,7 +186,21 @@
    "kind": "STATUS",
    "label": "CLOSED",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-09T01:13:49+09:00"
+ "updatedAt": "2026-10-09T15:38:12+09:00"
 }

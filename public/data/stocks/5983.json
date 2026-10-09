@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T01:13:40+09:00",
+  "updatedAt": "2026-10-09T15:38:04+09:00",
   "company": {
     "securityCode": "5983",
     "ticker": "5983.T",
@@ -19,22 +19,23 @@
       "holdingChange": 1.02,
       "purpose": "イワブチ株式会社との取引関係にある企業との緊密化をはかるため。",
       "importantProposal": true,
-      "priceChange": null,
-      "volumeRatio": 1.53,
-      "marketExcessReturn": null,
-      "signalScore": 40,
+      "priceChange": 6.46,
+      "volumeRatio": 1.3,
+      "marketExcessReturn": 6.92,
+      "signalScore": 50,
       "signalReasons": [
         "1pt以上買い増し",
-        "重要提案行為あり"
+        "重要提案行為あり",
+        "市場超過5%以上"
       ],
       "stockUnreacted": false,
       "metrics": {
         "return1d": 2.91,
-        "return5d": null,
+        "return5d": 6.46,
         "return20d": null,
         "returnCurrent": 6.46,
-        "volumeRatio": 1.53,
-        "marketExcessReturn": null
+        "volumeRatio": 1.3,
+        "marketExcessReturn": 6.92
       }
     },
     {
@@ -2917,8 +2918,8 @@
       "open": 15200.0,
       "high": 15300.0,
       "low": 15000.0,
-      "close": null,
-      "adj_close": null,
+      "close": 15000.0,
+      "adj_close": 15000.0,
       "volume": 600
     }
   ],
@@ -6729,9 +6730,19 @@
       "open": 435.0,
       "high": 435.0,
       "low": 429.5,
-      "close": null,
-      "adj_close": null,
+      "close": 429.5,
+      "adj_close": 429.5,
       "volume": 13370110
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-09",
+      "open": 429.0,
+      "high": 432.0,
+      "low": 428.5,
+      "close": 431.8999938964844,
+      "adj_close": 431.8999938964844,
+      "volume": 9015290
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

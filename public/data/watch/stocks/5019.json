@@ -1,0 +1,122 @@
+{
+ "company": {
+  "name": "出光興産",
+  "securityCode": "5019",
+  "tradingViewSymbol": "TSE:5019"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "5019-2026-10-09",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-10-09",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-10-09",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": 1.0,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100XZUM",
+   "excess5": null
+  },
+  {
+   "d1": 1.0,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Y713",
+   "excess5": null
+  },
+  {
+   "d1": 1.4,
+   "d20": 20.0,
+   "d5": 3.4,
+   "eventId": "edinet:S100YU85",
+   "excess5": 0.1
+  },
+  {
+   "d1": 1.0,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z6YQ",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-07",
+  "buyBalance": 813100,
+  "buyChangePct": -3.6,
+  "labels": [
+   "信用倍率改善",
+   "売残増加"
+  ],
+  "ratio": 2.8,
+  "sellBalance": 290100,
+  "sellChangePct": 37.8
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.11,
+  "labels": [
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 1592.3,
+  "ma200": 1355.8,
+  "ma60": 1415.2,
+  "rangePos60": 0.63,
+  "rel20": -3.2,
+  "rel60": 20.9,
+  "volumeRatio20": 0.65
+ },
+ "reasons": [
+  "1.7pt買い増し 7.8%→9.4%",
+  "信用買残 -4%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-08-06",
+   "detail": "保有割合 4.47%（野村アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YU85"
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "9.45% → 0%（アラムコ・オーバーシーズ・カンパニー・ビー・ヴィ）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100XZUM"
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "7.76% → 9.45%（アラムコ・オーバーシーズ・カンパニー・ビー・ヴィ）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z6YQ"
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "保有割合 9.45%（Ａｒａｍｃｏ　Ｄｏｗｎｓｔｒｅａｍ　Ａｓｉａ　Ｐｔｅ．　Ｌｔｄ．）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Y713"
+  }
+ ],
+ "updatedAt": "2026-10-09T15:38:12+09:00"
+}

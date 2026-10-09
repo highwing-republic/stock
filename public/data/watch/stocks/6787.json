@@ -9,9 +9,8 @@
   "closedAt": null,
   "id": "6787-2026-09-25",
   "overextended": false,
-  "setupType": "BREAKOUT",
+  "setupType": "RECOVERY",
   "setups": [
-   "BREAKOUT",
    "RECOVERY"
   ],
   "startedAt": "2026-09-25",
@@ -82,12 +81,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 1.6,
-  "currentPrice": 26900.0,
+  "benchReturn": 0.4,
+  "currentPrice": 26430.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 12,
+   "pendingDays": 10,
    "stockReturn": null
   },
   "d5": {
@@ -99,37 +98,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 52,
+   "pendingDays": 50,
    "stockReturn": null
   },
-  "excessReturn": 11.5,
+  "excessReturn": 10.7,
   "initialDate": "2026-09-25",
   "initialPrice": 23787.5,
-  "stockReturn": 13.1
+  "stockReturn": 11.1
  },
  "priceSetup": {
-  "asOf": "2026-10-07",
-  "atrState": "低ボラ",
-  "distFrom52wHigh": 0.4,
+  "asOf": "2026-10-09",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.41,
   "labels": [
    "20日線の上",
-   "60日レンジ上位6%",
+   "60日レンジ上位11%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 22397.7,
-  "ma200": 23220.6,
-  "ma60": 21282.0,
-  "rangePos60": 0.94,
-  "rel20": 42.4,
-  "rel60": 1.6,
-  "volumeRatio20": 1.12
+  "ma20": 23083.4,
+  "ma200": 23367.5,
+  "ma60": 21291.2,
+  "rangePos60": 0.89,
+  "rel20": 38.6,
+  "rel60": -0.9,
+  "volumeRatio20": 0.67
  },
  "reasons": [
   "新規大量保有 5.8%（株式会社みずほ銀行）",
-  "60日レンジ上位6%",
+  "60日レンジ上位11%",
   "20日線上向き",
-  "TOPIX連動ETF比 +42.4pt（20日）"
+  "TOPIX連動ETF比 +38.6pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -181,7 +180,21 @@
    "kind": "SETUP",
    "label": "Price Setup改善",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "BREAKOUT → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-09T01:13:49+09:00"
+ "updatedAt": "2026-10-09T15:38:12+09:00"
 }

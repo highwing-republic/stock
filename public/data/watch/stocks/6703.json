@@ -5,20 +5,26 @@
   "tradingViewSymbol": "TSE:6703"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "NO_SETUP",
+  "closedAt": "2026-10-08",
   "id": "6703-2026-09-07",
   "overextended": false,
   "setupType": null,
   "setups": [],
   "startedAt": "2026-09-07",
-  "status": "CANDIDATE",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-09-07",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-10-08",
+    "from": "CANDIDATE",
+    "reason_code": "NO_SETUP",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": null
@@ -51,19 +57,17 @@
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-10-07",
+  "asOf": "2026-10-09",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.31,
-  "labels": [
-   "20日線の上"
-  ],
-  "ma20": 2699.1,
-  "ma200": 2822.2,
-  "ma60": 2882.2,
-  "rangePos60": 0.21,
-  "rel20": -0.4,
-  "rel60": -26.0,
-  "volumeRatio20": 0.55
+  "distFrom52wHigh": 0.34,
+  "labels": [],
+  "ma20": 2688.9,
+  "ma200": 2829.9,
+  "ma60": 2854.8,
+  "rangePos60": 0.11,
+  "rel20": -2.8,
+  "rel60": -24.6,
+  "volumeRatio20": 0.62
  },
  "reasons": [
   "新規大量保有 5.1%（株式会社三菱ＵＦＪフィナンシャル・グループ）"
@@ -111,7 +115,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "期限内にPrice Setupが成立しなかった",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-09T01:13:49+09:00"
+ "updatedAt": "2026-10-09T15:38:12+09:00"
 }

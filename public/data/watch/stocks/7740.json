@@ -1,0 +1,125 @@
+{
+ "company": {
+  "name": "タムロン",
+  "securityCode": "7740",
+  "tradingViewSymbol": "TSE:7740"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "7740-2026-10-09",
+  "overextended": false,
+  "setupType": "BREAKOUT",
+  "setups": [
+   "BREAKOUT",
+   "TREND"
+  ],
+  "startedAt": "2026-10-09",
+  "status": "WATCH",
+  "statusHistory": [
+   {
+    "date": "2026-10-09",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-10-09",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   }
+  ],
+  "watchStartedAt": "2026-10-09"
+ },
+ "eventReactions": [
+  {
+   "d1": 2.5,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z6HM",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-07",
+  "buyBalance": 658000,
+  "buyChangePct": -9.9,
+  "labels": [
+   "信用倍率改善",
+   "売残増加"
+  ],
+  "ratio": 6.41,
+  "sellBalance": 102700,
+  "sellChangePct": 59.5
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": 0.0,
+  "currentPrice": 1548.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 20,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 5,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 60,
+   "stockReturn": null
+  },
+  "excessReturn": 0.0,
+  "initialDate": "2026-10-09",
+  "initialPrice": 1548.0,
+  "stockReturn": 0.0
+ },
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.01,
+  "labels": [
+   "20日線の上",
+   "60日レンジ上位5%",
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 1388.8,
+  "ma200": 1129.1,
+  "ma60": 1341.7,
+  "rangePos60": 0.95,
+  "rel20": 11.9,
+  "rel60": 33.1,
+  "volumeRatio20": 1.22
+ },
+ "reasons": [
+  "1.2pt買い増し 17.4%→18.5%",
+  "60日レンジ上位5%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +11.9pt（20日）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-10-08",
+   "detail": "17.38% → 18.54%（エフィッシモ　キャピタル　マネージメント　ピーティーイー　エルティーディー（Ｅｆｆｉｓｓｉｍｏ　Ｃａｐｉｔａｌ　Ｍａｎａｇｅｍｅｎｔ　Ｐｔｅ　Ｌｔｄ））",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z6HM"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-09T15:38:12+09:00"
+}

@@ -11,10 +11,12 @@
   "overextended": false,
   "setupType": "BREAKOUT",
   "setups": [
-   "BREAKOUT"
+   "BREAKOUT",
+   "TREND",
+   "RECOVERY"
   ],
   "startedAt": "2026-09-08",
-  "status": "WATCH",
+  "status": "REACTED",
   "statusHistory": [
    {
     "date": "2026-09-08",
@@ -27,6 +29,12 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
+   },
+   {
+    "date": "2026-10-09",
+    "from": "WATCH",
+    "reason_code": "RETURN_THRESHOLD",
+    "to": "REACTED"
    }
   ],
   "watchStartedAt": "2026-09-08"
@@ -48,7 +56,7 @@
   },
   {
    "d1": 1.6,
-   "d20": null,
+   "d20": 13.3,
    "d5": 3.2,
    "eventId": "edinet:S100Z0PM",
    "excess5": 4.8
@@ -67,13 +75,13 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 3.5,
-  "currentPrice": 4615.0,
+  "benchReturn": 2.3,
+  "currentPrice": 4880.0,
   "d20": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 2,
-   "stockReturn": null
+   "benchReturn": 2.3,
+   "excessReturn": 13.7,
+   "pendingDays": 0,
+   "stockReturn": 16.0
   },
   "d5": {
    "benchReturn": -0.2,
@@ -84,31 +92,31 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 42,
+   "pendingDays": 40,
    "stockReturn": null
   },
-  "excessReturn": 6.2,
+  "excessReturn": 13.7,
   "initialDate": "2026-09-08",
   "initialPrice": 4205.7,
-  "stockReturn": 9.7
+  "stockReturn": 16.0
  },
  "priceSetup": {
-  "asOf": "2026-10-07",
+  "asOf": "2026-10-09",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.13,
+  "distFrom52wHigh": 0.08,
   "labels": [
    "20日線の上",
    "60日レンジ上位1%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 4349.5,
-  "ma200": 4079.8,
-  "ma60": 4113.4,
+  "ma20": 4410.7,
+  "ma200": 4078.1,
+  "ma60": 4142.5,
   "rangePos60": 0.99,
-  "rel20": 6.0,
-  "rel60": 13.0,
-  "volumeRatio20": 1.15
+  "rel20": 13.7,
+  "rel60": 21.2,
+  "volumeRatio20": 1.4
  },
  "reasons": [
   "0.2pt買い増し 16.2%→16.4%",
@@ -173,7 +181,28 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "Watch開始後の値上がりが大きくなった",
+   "kind": "STATUS",
+   "label": "REACTED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-09T01:13:49+09:00"
+ "updatedAt": "2026-10-09T15:38:12+09:00"
 }
