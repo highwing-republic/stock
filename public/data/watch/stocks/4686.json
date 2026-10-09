@@ -12,11 +12,10 @@
   "setupType": "BREAKOUT",
   "setups": [
    "BREAKOUT",
-   "TREND",
    "RECOVERY"
   ],
   "startedAt": "2026-09-08",
-  "status": "CONFIRMED",
+  "status": "WATCH",
   "statusHistory": [
    {
     "date": "2026-09-08",
@@ -29,12 +28,6 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
-   },
-   {
-    "date": "2026-10-09",
-    "from": "WATCH",
-    "reason_code": "NEW_HIGH60_VOLUME",
-    "to": "CONFIRMED"
    }
   ],
   "watchStartedAt": "2026-09-08"
@@ -75,13 +68,13 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 2.4,
-  "currentPrice": 4870.0,
+  "benchReturn": 1.7,
+  "currentPrice": 4690.0,
   "d20": {
-   "benchReturn": 2.4,
-   "excessReturn": 13.4,
-   "pendingDays": 0,
-   "stockReturn": 15.8
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 1,
+   "stockReturn": null
   },
   "d5": {
    "benchReturn": -0.2,
@@ -92,37 +85,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 40,
+   "pendingDays": 41,
    "stockReturn": null
   },
-  "excessReturn": 13.4,
+  "excessReturn": 9.8,
   "initialDate": "2026-09-08",
   "initialPrice": 4205.7,
-  "stockReturn": 15.8
+  "stockReturn": 11.5
  },
  "priceSetup": {
-  "asOf": "2026-10-09",
+  "asOf": "2026-10-08",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.08,
+  "distFrom52wHigh": 0.12,
   "labels": [
    "20日線の上",
-   "60日レンジ上位2%",
+   "60日レンジ上位0%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 4410.2,
-  "ma200": 4078.1,
-  "ma60": 4142.3,
-  "rangePos60": 0.98,
+  "ma20": 4377.0,
+  "ma200": 4078.4,
+  "ma60": 4127.0,
+  "rangePos60": 1.0,
   "rel20": 13.4,
-  "rel60": 20.8,
-  "volumeRatio20": 1.62
+  "rel60": 16.7,
+  "volumeRatio20": 0.88
  },
  "reasons": [
   "0.2pt買い増し 16.2%→16.4%",
   "30日以内に2回買い増し",
-  "出来高 1.6倍で60日高値更新",
-  "60日レンジ上位2%"
+  "60日レンジ上位0%",
+  "20日線上向き"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -188,21 +181,7 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-10-09",
-   "detail": "60日高値を更新",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-10-09",
-   "detail": "60日高値を出来高増で更新",
-   "kind": "STATUS",
-   "label": "CONFIRMED",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-09T22:43:42+09:00"
+ "updatedAt": "2026-10-10T00:54:08+09:00"
 }

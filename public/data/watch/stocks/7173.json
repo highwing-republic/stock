@@ -5,14 +5,14 @@
   "tradingViewSymbol": "TSE:7173"
  },
  "episode": {
-  "closeReason": "BROKEN",
-  "closedAt": "2026-10-09",
+  "closeReason": null,
+  "closedAt": null,
   "id": "7173-2026-09-15",
   "overextended": false,
   "setupType": "RECOVERY",
   "setups": [],
   "startedAt": "2026-09-15",
-  "status": "CLOSED",
+  "status": "BROKEN",
   "statusHistory": [
    {
     "date": "2026-09-15",
@@ -37,12 +37,6 @@
     "from": "STRENGTHENING",
     "reason_code": "BELOW_MA60",
     "to": "BROKEN"
-   },
-   {
-    "date": "2026-10-09",
-    "from": "BROKEN",
-    "reason_code": "BROKEN",
-    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-09-25"
@@ -105,12 +99,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 0.5,
-  "currentPrice": 1588.0,
+  "benchReturn": -0.2,
+  "currentPrice": 1637.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 10,
+   "pendingDays": 11,
    "stockReturn": null
   },
   "d5": {
@@ -122,26 +116,26 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 50,
+   "pendingDays": 51,
    "stockReturn": null
   },
-  "excessReturn": -10.9,
+  "excessReturn": -7.4,
   "initialDate": "2026-09-25",
   "initialPrice": 1771.9,
-  "stockReturn": -10.4
+  "stockReturn": -7.6
  },
  "priceSetup": {
-  "asOf": "2026-10-09",
+  "asOf": "2026-10-08",
   "atrState": "通常",
-  "distFrom52wHigh": 0.17,
+  "distFrom52wHigh": 0.14,
   "labels": [],
-  "ma20": 1688.7,
-  "ma200": 1474.8,
-  "ma60": 1701.7,
-  "rangePos60": 0.03,
-  "rel20": -6.5,
-  "rel60": -8.3,
-  "volumeRatio20": 1.08
+  "ma20": 1692.1,
+  "ma200": 1472.1,
+  "ma60": 1703.3,
+  "rangePos60": 0.18,
+  "rel20": -3.6,
+  "rel60": -9.5,
+  "volumeRatio20": 1.66
  },
  "reasons": [
   "1pt買い増し 8%→9%"
@@ -294,14 +288,7 @@
    "kind": "STATUS",
    "label": "BROKEN",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-10-09",
-   "detail": "Price Setupが崩れた",
-   "kind": "STATUS",
-   "label": "CLOSED",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-09T22:43:42+09:00"
+ "updatedAt": "2026-10-10T00:54:08+09:00"
 }

@@ -122,7 +122,7 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 38,
+   "pendingDays": 39,
    "stockReturn": null
   },
   "excessReturn": 1.4,
@@ -131,28 +131,27 @@
   "stockReturn": 3.6
  },
  "priceSetup": {
-  "asOf": "2026-10-09",
+  "asOf": "2026-10-08",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.05,
+  "distFrom52wHigh": 0.06,
   "labels": [
-   "20日線の上",
-   "60日レンジ上位13%",
+   "60日レンジ上位18%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2140.6,
-  "ma200": 1658.8,
-  "ma60": 1877.2,
-  "rangePos60": 0.87,
-  "rel20": -0.2,
-  "rel60": 44.2,
-  "volumeRatio20": 0.85
+  "ma20": 2138.2,
+  "ma200": 1655.1,
+  "ma60": 1865.7,
+  "rangePos60": 0.82,
+  "rel20": 0.6,
+  "rel60": 39.0,
+  "volumeRatio20": 0.64
  },
  "reasons": [
   "1.1pt買い増し 11.2%→12.3%",
   "30日以内に2回買い増し",
-  "60日レンジ上位13%",
-  "20日線を回復"
+  "60日レンジ上位18%",
+  "TOPIX連動ETF比 +0.6pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -281,21 +280,7 @@
    "kind": "EVENT",
    "label": "連続の買い増し",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z6E4"
-  },
-  {
-   "date": "2026-10-09",
-   "detail": "なし → TREND",
-   "kind": "SETUP",
-   "label": "Price Setup改善",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-10-09",
-   "detail": "20日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-09T22:43:42+09:00"
+ "updatedAt": "2026-10-10T00:54:08+09:00"
 }

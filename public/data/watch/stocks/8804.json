@@ -5,26 +5,20 @@
   "tradingViewSymbol": "TSE:8804"
  },
  "episode": {
-  "closeReason": "NO_SETUP",
-  "closedAt": "2026-10-09",
+  "closeReason": null,
+  "closedAt": null,
   "id": "8804-2026-09-08",
   "overextended": false,
   "setupType": null,
   "setups": [],
   "startedAt": "2026-09-08",
-  "status": "CLOSED",
+  "status": "CANDIDATE",
   "statusHistory": [
    {
     "date": "2026-09-08",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
-   },
-   {
-    "date": "2026-10-09",
-    "from": "CANDIDATE",
-    "reason_code": "NO_SETUP",
-    "to": "CLOSED"
    }
   ],
   "watchStartedAt": null
@@ -50,17 +44,17 @@
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-10-09",
+  "asOf": "2026-10-08",
   "atrState": "低ボラ",
   "distFrom52wHigh": 0.26,
   "labels": [],
-  "ma20": 3258.9,
-  "ma200": 3488.2,
-  "ma60": 3354.2,
-  "rangePos60": 0.09,
-  "rel20": -7.5,
-  "rel60": -7.6,
-  "volumeRatio20": 0.87
+  "ma20": 3267.4,
+  "ma200": 3488.8,
+  "ma60": 3357.1,
+  "rangePos60": 0.05,
+  "rel20": -5.3,
+  "rel60": -10.5,
+  "volumeRatio20": 0.79
  },
  "reasons": [
   "1.1pt買い増し 7.9%→9%"
@@ -80,14 +74,7 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-10-09",
-   "detail": "期限内にPrice Setupが成立しなかった",
-   "kind": "STATUS",
-   "label": "CLOSED",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-09T22:43:42+09:00"
+ "updatedAt": "2026-10-10T00:54:08+09:00"
 }
