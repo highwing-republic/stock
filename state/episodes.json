@@ -2211,7 +2211,7 @@
     "RECOVERY"
    ],
    "started_at": "2026-09-08",
-   "status": "REACTED",
+   "status": "CONFIRMED",
    "status_history": [
     {
      "date": "2026-09-08",
@@ -2228,8 +2228,8 @@
     {
      "date": "2026-10-09",
      "from": "WATCH",
-     "reason_code": "RETURN_THRESHOLD",
-     "to": "REACTED"
+     "reason_code": "NEW_HIGH60_VOLUME",
+     "to": "CONFIRMED"
     }
    ],
    "watch_started_at": "2026-09-08"
@@ -2607,7 +2607,7 @@
     "edinet:S100Z1NT",
     "edinet:S100Z480"
    ],
-   "initial_bench": 431.8999938964844,
+   "initial_bench": 432.5,
    "initial_price": 2427.0,
    "last_trigger_at": "2026-09-18",
    "overextended": false,
@@ -3203,33 +3203,25 @@
     "edinet:S100Z41Y",
     "edinet:S100Z6PV"
    ],
-   "initial_bench": 431.8999938964844,
-   "initial_price": 2508.0,
+   "initial_bench": null,
+   "initial_price": null,
    "last_trigger_at": "2026-10-07",
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z41Y",
    "security_code": "7988",
-   "setup_type": "RECOVERY",
-   "setups": [
-    "RECOVERY"
-   ],
+   "setup_type": null,
+   "setups": [],
    "started_at": "2026-09-25",
-   "status": "WATCH",
+   "status": "CANDIDATE",
    "status_history": [
     {
      "date": "2026-09-25",
      "from": null,
      "reason_code": "TRIGGER_EVENT",
      "to": "CANDIDATE"
-    },
-    {
-     "date": "2026-10-09",
-     "from": "CANDIDATE",
-     "reason_code": "SETUP_OK",
-     "to": "WATCH"
     }
    ],
-   "watch_started_at": "2026-10-09"
+   "watch_started_at": null
   },
   {
    "base_close": 4820.03662109375,
@@ -4192,8 +4184,8 @@
    "event_ids": [
     "edinet:S100Z6HM"
    ],
-   "initial_bench": 431.8999938964844,
-   "initial_price": 1548.0,
+   "initial_bench": 432.5,
+   "initial_price": 1550.0,
    "last_trigger_at": "2026-10-09",
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z6HM",

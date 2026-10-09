@@ -16,7 +16,7 @@
    "RECOVERY"
   ],
   "startedAt": "2026-09-08",
-  "status": "REACTED",
+  "status": "CONFIRMED",
   "statusHistory": [
    {
     "date": "2026-09-08",
@@ -33,8 +33,8 @@
    {
     "date": "2026-10-09",
     "from": "WATCH",
-    "reason_code": "RETURN_THRESHOLD",
-    "to": "REACTED"
+    "reason_code": "NEW_HIGH60_VOLUME",
+    "to": "CONFIRMED"
    }
   ],
   "watchStartedAt": "2026-09-08"
@@ -63,25 +63,25 @@
   }
  ],
  "margin": {
-  "asOf": "2026-10-07",
-  "buyBalance": 251500,
-  "buyChangePct": 1.5,
+  "asOf": "2026-10-08",
+  "buyBalance": 250600,
+  "buyChangePct": 1.3,
   "labels": [
    "信用倍率改善"
   ],
-  "ratio": 8.06,
-  "sellBalance": 31200,
-  "sellChangePct": 19.5
+  "ratio": 8.27,
+  "sellBalance": 30300,
+  "sellChangePct": 13.9
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 2.3,
-  "currentPrice": 4880.0,
+  "benchReturn": 2.4,
+  "currentPrice": 4870.0,
   "d20": {
-   "benchReturn": 2.3,
-   "excessReturn": 13.7,
+   "benchReturn": 2.4,
+   "excessReturn": 13.4,
    "pendingDays": 0,
-   "stockReturn": 16.0
+   "stockReturn": 15.8
   },
   "d5": {
    "benchReturn": -0.2,
@@ -95,10 +95,10 @@
    "pendingDays": 40,
    "stockReturn": null
   },
-  "excessReturn": 13.7,
+  "excessReturn": 13.4,
   "initialDate": "2026-09-08",
   "initialPrice": 4205.7,
-  "stockReturn": 16.0
+  "stockReturn": 15.8
  },
  "priceSetup": {
   "asOf": "2026-10-09",
@@ -106,23 +106,23 @@
   "distFrom52wHigh": 0.08,
   "labels": [
    "20日線の上",
-   "60日レンジ上位1%",
+   "60日レンジ上位2%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 4410.7,
+  "ma20": 4410.2,
   "ma200": 4078.1,
-  "ma60": 4142.5,
-  "rangePos60": 0.99,
-  "rel20": 13.7,
-  "rel60": 21.2,
-  "volumeRatio20": 1.4
+  "ma60": 4142.3,
+  "rangePos60": 0.98,
+  "rel20": 13.4,
+  "rel60": 20.8,
+  "volumeRatio20": 1.62
  },
  "reasons": [
   "0.2pt買い増し 16.2%→16.4%",
   "30日以内に2回買い増し",
-  "60日レンジ上位1%",
-  "20日線上向き"
+  "出来高 1.6倍で60日高値更新",
+  "60日レンジ上位2%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -198,11 +198,11 @@
   },
   {
    "date": "2026-10-09",
-   "detail": "Watch開始後の値上がりが大きくなった",
+   "detail": "60日高値を出来高増で更新",
    "kind": "STATUS",
-   "label": "REACTED",
+   "label": "CONFIRMED",
    "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-09T15:38:12+09:00"
+ "updatedAt": "2026-10-09T19:59:39+09:00"
 }

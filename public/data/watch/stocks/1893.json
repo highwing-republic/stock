@@ -1,0 +1,146 @@
+{
+ "company": {
+  "name": "五洋建設",
+  "securityCode": "1893",
+  "tradingViewSymbol": "TSE:1893"
+ },
+ "episode": {
+  "closeReason": "BROKEN",
+  "closedAt": "2026-10-02",
+  "id": "1893-2026-09-24",
+  "overextended": false,
+  "setupType": "RECOVERY",
+  "setups": [],
+  "startedAt": "2026-09-24",
+  "status": "CLOSED",
+  "statusHistory": [
+   {
+    "date": "2026-09-24",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-09-24",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   },
+   {
+    "date": "2026-10-01",
+    "from": "WATCH",
+    "reason_code": "BELOW_MA20",
+    "to": "BROKEN"
+   },
+   {
+    "date": "2026-10-02",
+    "from": "BROKEN",
+    "reason_code": "BROKEN",
+    "to": "CLOSED"
+   }
+  ],
+  "watchStartedAt": "2026-09-24"
+ },
+ "eventReactions": [
+  {
+   "d1": -1.5,
+   "d20": null,
+   "d5": -5.2,
+   "eventId": "edinet:S100Z3AG",
+   "excess5": -6.4
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 1858700,
+  "buyChangePct": 6.5,
+  "labels": [
+   "信用倍率悪化"
+  ],
+  "ratio": 56.5,
+  "sellBalance": 32900,
+  "sellChangePct": -25.7
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": 1.3,
+  "currentPrice": 1449.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 9,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": 2.3,
+   "excessReturn": -6.1,
+   "pendingDays": 0,
+   "stockReturn": -3.8
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 49,
+   "stockReturn": null
+  },
+  "excessReturn": -6.7,
+  "initialDate": "2026-09-24",
+  "initialPrice": 1531.3,
+  "stockReturn": -5.4
+ },
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.37,
+  "labels": [],
+  "ma20": 1471.4,
+  "ma200": 1641.2,
+  "ma60": 1468.3,
+  "rangePos60": 0.16,
+  "rel20": -5.9,
+  "rel60": -16.1,
+  "volumeRatio20": 0.59
+ },
+ "reasons": [
+  "新規大量保有 5.8%（ＪＰモルガン・アセット・マネジメント株式会社）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-09-18",
+   "detail": "保有割合 5.82%（ＪＰモルガン・アセット・マネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z3AG"
+  },
+  {
+   "date": "2026-09-24",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-25",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-01",
+   "detail": "20日線を連続で下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-02",
+   "detail": "Price Setupが崩れた",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-09T19:59:39+09:00"
+}
