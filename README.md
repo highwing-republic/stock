@@ -76,7 +76,8 @@ state は `state/topix/`、公開 JSON は `public/data/watch-topix/`（スキ�
   継続 951 銘柄は `effective_from=2026-04-01`、新規追加 35 銘柄は `2026-10-30`
 - `state/topix/transition.json`: 移行措置 683 銘柄。CSV に残っていてもユニバースに入れない（`exclude_until: 2028-07-31`）
 - `universe.snapshot_min_as_of: 2026-10-30`: それより古い CSV（旧 TOPIX）は適用せず job_runs に `skipped`
-- 実行: `python scripts/update_watch.py --universe topix`。Linux PC での日次運用は `deploy/systemd/README.md`
+- 実行: `python scripts/update_watch.py --universe topix`。GitHub Actions が JPX400 と同じジョブ内で平日4回実行する。
+  Linux PC で動かす場合は `deploy/systemd/README.md`（その場合は Actions 側の TOPIX ステップを外して二重実行を避ける）
 - 銘柄の随時変更（TOB・合併）は `state/topix/adjustments.json` に手で追記（形式は JPX400 と同じ）
 
 ## テスト
