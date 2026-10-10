@@ -26,7 +26,7 @@ REASON_TEXT = {
     "RETURN_THRESHOLD": "Watch開始後の値上がりが大きくなった", "EXCESS_THRESHOLD": "TOPIX連動ETFとの差が大きくなった",
     "BELOW_MA20": "20日線を連続で下回った", "BELOW_MA60": "60日線を下回った", "BROKEN": "Price Setupが崩れた",
     "NO_SETUP": "期限内にPrice Setupが成立しなかった", "EXPIRED": "観察期限に到達",
-    "UNIVERSE_EXIT": "JPX400から除外された"}
+    "UNIVERSE_EXIT": "{universe}から除外された"}  # {universe} は cfg.universe.label で置換
 EVENT_LABEL = {"NEW_HOLDER": "新規大量保有", "LARGE_INCREASE": "大幅な買い増し", "CONSECUTIVE_INCREASE": "連続の買い増し",
                "INCREASE": "買い増し", "DECREASE": "保有割合の減少", "CORRECTION": "訂正報告",
                "CHANGE_UNKNOWN": "変更報告（増減不明）"}
@@ -34,6 +34,7 @@ MILESTONE_LABEL = {"MA20_RECLAIMED": "20日線を回復", "MA60_RECLAIMED": "60�
                    "NEW_HIGH60": "60日高値を更新", "REL20_TURNED_POSITIVE": "TOPIX連動ETFを上回りに転換"}
 SUMMARY_KEYS = {"schemaVersion", "updatedAt", "asOfMarketDate", "benchmarkLabel", "sources", "weekly", "monthly",
                 "stateChanges", "universeCount", "disclaimer"}
+UNIVERSE_SOURCE_KEYS = ("jpx400", "topix")  # summary.sources に含まれるユニバース用キー（いずれか1つ）
 ENTRY_KEYS = {"rank", "securityCode", "companyName", "setupType", "status", "reasons", "watchStartedAt",
               "returnSinceWatch", "excessSinceWatch", "rankChange"}
 STOCK_KEYS = {"schemaVersion", "updatedAt", "company", "episode", "pastEpisodes", "reasons", "timeline",
@@ -117,6 +118,10 @@ def _entry(ctx: PublicContext, e: dict, previous: list[dict] | None, events_by_i
             "rankChange": rank_change(code, e["rank"], previous)}
 
 
+def reason_text(ctx: PublicContext, code: str) -> str:
+    return REASON_TEXT.get(code, "").format(universe=ctx.cfg.universe.label)
+
+
 def _state_changes(ctx: PublicContext) -> list[dict]:
     cutoff = (date.fromisoformat(ctx.as_of) - timedelta(days=ctx.cfg.export.state_change_days)).isoformat()
     out = []
@@ -127,7 +132,7 @@ def _state_changes(ctx: PublicContext) -> list[dict]:
                 out.append({"date": h["date"], "securityCode": ep["security_code"],
                             "companyName": ctx.names.get(ep["security_code"], ep["security_code"]),
                             "change": change, "setupType": ep["setup_type"],
-                            "reason": REASON_TEXT.get(h["reason_code"], "")})
+                            "reason": reason_text(ctx, h["reason_code"])})
     out.sort(key=lambda c: (c["date"], c["securityCode"], c["change"]), reverse=True)
     return out[:ctx.cfg.export.state_change_limit]
 
@@ -196,7 +201,7 @@ def _timeline(ctx: PublicContext, code: str, shown: dict | None, events_by_id: d
             if h["to"] == "CANDIDATE":
                 continue
             out.append({"date": h["date"], "kind": "STATUS", "label": h["to"],
-                        "detail": REASON_TEXT.get(h["reason_code"], ""), "sourceUrl": None})
+                        "detail": reason_text(ctx, h["reason_code"]), "sourceUrl": None})
     order = {"EVENT": 0, "SETUP": 1, "STATUS": 2}
     out.sort(key=lambda t: (t["date"], order[t["kind"]], t["label"], t["detail"]))
     return out[-ctx.cfg.export.timeline_limit:]
@@ -282,9 +287,11 @@ def validate_public(files: dict[str, Any]) -> None:
         raise ExportValidationError("; ".join(errors))
     if not summary.get("updatedAt"):
         errors.append("summary.json: updatedAt missing")
-    for src in ("edinet", "prices", "jpx400", "margin"):
+    for src in ("edinet", "prices", "margin"):
         if src not in summary["sources"]:
             errors.append(f"summary.sources.{src} missing")
+    if sum(1 for k in UNIVERSE_SOURCE_KEYS if k in summary["sources"]) != 1:
+        errors.append(f"summary.sources must contain exactly one of {UNIVERSE_SOURCE_KEYS}")
     for kind in ("weekly", "monthly"):
         block = summary[kind]
         if not {"periodKey", "entries"} <= set(block):

@@ -4,6 +4,9 @@ calendar:
   extra_holidays: []           # 例: ["2026-11-03"]（ベンチマーク価格が無い先の日付にだけ効く）
 
 universe:
+  name: jpx400                 # state/ のファイル名・job_runs の source・公開 JSON の sources キー
+  label: JPX400                # ログと文言（「JPX400から除外された」）
+  source: jpx400               # src/watch/sources/jpx400.py
   min_members: 350
 
 events:

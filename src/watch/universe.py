@@ -255,6 +255,39 @@ def seed_with_rebalance(
     return membership, report
 
 
+def exclude_codes(snapshot: ConstituentsSnapshot, codes: set[str]) -> ConstituentsSnapshot:
+    """スナップショットから除外リストのコードを取り除く（TOPIX 移行措置銘柄など）。sha256 は元のまま。"""
+    if not codes:
+        return snapshot
+    rows = tuple((c, n) for c, n in snapshot.rows if c not in codes)
+    return ConstituentsSnapshot(as_of=snapshot.as_of, source_url=snapshot.source_url,
+                                published_at=snapshot.published_at, rows=rows, sha256=snapshot.sha256)
+
+
+def load_transition(path: Path, *, today: date | None = None) -> dict:
+    """除外リスト {"schema_version":1,"exclude_until":"YYYY-MM-DD"|null,"source_url","codes":[...]} を読む。
+
+    無ければ {"codes": []}。exclude_until を過ぎていても除外は続ける（指数側で消えていれば自然に消える）が、
+    警告を返せるよう "expired": True を付ける。
+    """
+    path = Path(path)
+    if not path.exists():
+        return {"codes": [], "expired": False}
+    raw = json.loads(path.read_text(encoding="utf-8"))
+    if raw.get("schema_version") != 1:
+        raise ValueError("transition: schema_version が 1 ではありません")
+    codes: list[str] = []
+    for item in raw.get("codes", []):
+        code = normalize_security_code(item["security_code"] if isinstance(item, dict) else item)
+        if not code:
+            raise ValueError(f"transition: 証券コード不正 {item!r}")
+        codes.append(code)
+    until = raw.get("exclude_until")
+    expired = bool(until and (today or date.today()).isoformat() > until)
+    return {"codes": sorted(set(codes)), "exclude_until": until, "expired": expired,
+            "source_url": raw.get("source_url")}
+
+
 ADJUSTMENT_FIELDS = ("security_code", "company_name", "action", "effective_date", "announced_on", "source_url")
 
 
