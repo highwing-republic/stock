@@ -1,0 +1,15 @@
+# ~/.config/systemd/user/topix-watch.service
+# 事前に: loginctl enable-linger $USER （ログインしていなくても user timer を動かす）
+[Unit]
+Description=TOPIX Watch Radar daily update
+After=network-online.target
+Wants=network-online.target
+OnFailure=topix-watch-notify.service
+
+[Service]
+Type=oneshot
+# リポジトリの場所に合わせて変更
+WorkingDirectory=%h/stock
+ExecStart=%h/stock/scripts/run_topix_daily.sh
+TimeoutStartSec=45min
+Environment=PYTHONUNBUFFERED=1

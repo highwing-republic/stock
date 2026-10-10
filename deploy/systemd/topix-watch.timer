@@ -1,0 +1,12 @@
+# ~/.config/systemd/user/topix-watch.timer
+# 平日 18:40 JST（yfinance の東証日足は大引け後 15:30〜17:00 頃に確定。GitHub Actions の 18:00 実行と間隔を空ける）
+[Unit]
+Description=Run TOPIX Watch Radar on weekdays at 18:40
+
+[Timer]
+OnCalendar=Mon..Fri 18:40
+Persistent=true
+RandomizedDelaySec=120
+
+[Install]
+WantedBy=timers.target

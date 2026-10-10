@@ -40,18 +40,28 @@ def read_json(path: Path, default: Any = None) -> Any:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+LEGACY_UNIVERSE = "jpx400"  # 既存の state/ ファイル名（jpx400_*.json）を維持するユニバース
+
+
 class Store:
-    def __init__(self, root: Path):
+    def __init__(self, root: Path, universe: str = LEGACY_UNIVERSE):
         self.root = Path(root)
+        self.universe = universe
 
     # -- パス
+    def _universe_file(self, stem: str) -> Path:
+        """jpx400 は従来の jpx400_<stem>.json、それ以外は <stem>.json（state ディレクトリ自体がユニバース別）。"""
+        if self.universe == LEGACY_UNIVERSE:
+            return self.root / f"{LEGACY_UNIVERSE}_{stem}.json"
+        return self.root / f"{stem}.json"
+
     @property
     def membership_path(self) -> Path:
-        return self.root / "jpx400_membership.json"
+        return self._universe_file("membership")
 
     @property
     def adjustments_path(self) -> Path:
-        return self.root / "jpx400_adjustments.json"
+        return self._universe_file("adjustments")
 
     def ranking_path(self, kind: str, key: str) -> Path:
         return self.root / "rankings" / kind / f"{key}.json"

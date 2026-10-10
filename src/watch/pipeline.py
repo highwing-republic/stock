@@ -87,7 +87,7 @@ def compute(conn: sqlite3.Connection, universe, store: Store, cfg: Cfg, as_of: d
 
     members_last = universe.members_on(date.fromisoformat(last))
     if not members_last:
-        raise QualityGateError("no JPX400 members on the latest business day")
+        raise QualityGateError("no universe members on the latest business day")
     have = sum(1 for c in members_last if tickers[c] in frames and last_ts in frames[tickers[c]].index)
     coverage = have / len(members_last)
     if coverage < cfg.prices.min_coverage:
@@ -227,18 +227,51 @@ def _job(source: str, started: datetime, finished: datetime, status: str, record
     return job
 
 
+def _constituents_fetcher(source: str):
+    """cfg.universe.source に対応する構成銘柄取得関数を返す。"""
+    if source == "jpx400":
+        from .sources.jpx400 import fetch_constituents
+    elif source == "topix":
+        from .sources.topix import fetch_constituents
+    else:
+        raise ValueError(f"unknown universe source: {source}")
+    return fetch_constituents
+
+
+def _excluded_codes(store: Store, cfg: Cfg) -> set[str]:
+    """除外リスト（例: TOPIX 移行措置銘柄）。設定が無い／ファイルが無ければ空。期限切れのコードが残っていれば警告。"""
+    from .universe import load_transition
+    if not cfg.universe.transition_file:
+        return set()
+    data = load_transition(store.root / cfg.universe.transition_file)
+    if data.get("expired"):
+        LOG.warning("transition list %s is past exclude_until=%s; still excluding %d codes",
+                    cfg.universe.transition_file, data.get("exclude_until"), len(data["codes"]))
+    return set(data["codes"])
+
+
+def _membership_freshness(membership: dict, now: datetime, cfg: Cfg) -> str:
+    checked = membership.get("last_checked_at")
+    if not checked:
+        return "stale"
+    stamp = datetime.fromisoformat(checked)
+    stamp = stamp if stamp.tzinfo else stamp.replace(tzinfo=JST)
+    return "ok" if now - stamp <= timedelta(days=cfg.pipeline.jpx400_stale_days) else "stale"
+
+
 def run(*, db_path: Path | None = None, state_dir: Path, out_dir: Path, cfg: Cfg | None = None,
         as_of: date | None = None, offline: bool = False, now: datetime | None = None,
         downloader=None, jpx_fetcher=None, margin_fetcher=None) -> RunResult:
-    from .universe import (Universe, apply_adjustments, apply_snapshot, dumps_membership, load_adjustments,
-                           load_membership, save_membership)
+    from .universe import (Universe, apply_adjustments, apply_snapshot, dumps_membership, exclude_codes,
+                           load_adjustments, load_membership, save_membership)
     from ..radar import connect
 
     cfg = cfg or load_config()
     fixed_now = now is not None
     now = now or datetime.now(JST)
     as_of = as_of or now.astimezone(JST).date()
-    store = Store(state_dir)
+    uni_name, uni_label = cfg.universe.name, cfg.universe.label
+    store = Store(state_dir, uni_name)
     conn = connect(db_path)
     runs: list[dict] = []
     finish = lambda: now if fixed_now else datetime.now(JST)  # noqa: E731
@@ -253,26 +286,37 @@ def run(*, db_path: Path | None = None, state_dir: Path, out_dir: Path, cfg: Cfg
     membership = loaded
     jpx = {"status": None}
     try:
-        # ---- JPX400 更新確認（取得→ apply_snapshot、その上に公表済みの随時変更 apply_adjustments）
+        # ---- ユニバース更新確認（取得→ 除外リスト適用 → apply_snapshot、その上に公表済みの随時変更 apply_adjustments）
         cal_db = MarketCalendar(pd.read_sql_query("SELECT trade_date FROM prices WHERE ticker=?", conn,
                                                   params=[cfg.pipeline.benchmark_ticker])["trade_date"],
                                 cfg.calendar.extra_holidays, cfg.calendar.market_close)
         pbd = cal_db.prev_business_day
         reports: dict[str, Any] = {}
-        started, fetch_ok, fetch_error = now, False, None
+        started, fetch_ok, fetch_error, fetch_skipped = now, False, None, None
         if not offline:
             try:
                 if jpx_fetcher is None:
-                    from .sources.jpx400 import fetch_constituents as jpx_fetcher
+                    jpx_fetcher = _constituents_fetcher(cfg.universe.source)
                 snap = jpx_fetcher()
-                membership, rep = apply_snapshot(membership, snap, min_members=cfg.universe.min_members,
-                                                 previous_business_day=pbd)
-                reports["snapshot"] = rep
-                if rep["status"] == "rejected":
-                    raise ValueError(rep.get("error") or "membership update rejected")
-                fetch_ok = True
+                excluded = _excluded_codes(store, cfg)
+                if excluded:
+                    snap = exclude_codes(snap, excluded)
+                min_as_of = cfg.universe.snapshot_min_as_of
+                if min_as_of and snap.as_of.isoformat() < str(min_as_of):
+                    fetch_skipped = (f"snapshot as_of {snap.as_of} is before universe.snapshot_min_as_of "
+                                     f"{min_as_of}; not applied")
+                    reports["snapshot"] = {"status": "skipped", "added": [], "removed": [],
+                                           "member_count": len(snap.rows), "error": fetch_skipped}
+                    LOG.info("%s snapshot skipped: %s", uni_label, fetch_skipped)
+                else:
+                    membership, rep = apply_snapshot(membership, snap, min_members=cfg.universe.min_members,
+                                                     previous_business_day=pbd)
+                    reports["snapshot"] = rep
+                    if rep["status"] == "rejected":
+                        raise ValueError(rep.get("error") or "membership update rejected")
+                    fetch_ok = True
             except Exception as exc:
-                LOG.warning("JPX400 update failed; keeping stored membership: %s", exc)
+                LOG.warning("%s update failed; keeping stored membership: %s", uni_label, exc)
                 fetch_error = exc
         adj_error = None
         try:
@@ -280,24 +324,29 @@ def run(*, db_path: Path | None = None, state_dir: Path, out_dir: Path, cfg: Cfg
                                                  previous_business_day=pbd)
             reports["adjustments"] = rep2
         except Exception as exc:  # 調整ファイル不正でも本体は続行
-            LOG.warning("JPX400 adjustments skipped: %s", exc)
+            LOG.warning("%s adjustments skipped: %s", uni_label, exc)
             adj_error = exc
         if fetch_ok:
             membership = dict(membership)
             membership["last_checked_at"] = _iso(now)
         new_membership = membership if dumps_membership(membership) != dumps_membership(loaded) else None
         if not offline:
-            jpx = {"status": "ok" if fetch_ok else "stale"}
+            if fetch_skipped:
+                # 古いスナップショットは「失敗」ではなく「未適用」。保存済み membership の鮮度で判定する
+                jpx = {"status": _membership_freshness(membership, now, cfg)}
+                job_status = "skipped" if not adj_error else "partial"
+            else:
+                jpx = {"status": "ok" if fetch_ok else "stale"}
+                job_status = "ok" if fetch_ok and not adj_error else ("partial" if fetch_ok else "failed")
             err = fetch_error or adj_error
-            runs.append(_job("jpx400", started, finish(), "ok" if fetch_ok and not adj_error else
-                             ("partial" if fetch_ok else "failed"),
+            runs.append(_job(uni_name, started, finish(), job_status,
                              (reports.get("snapshot") or reports.get("adjustments") or {}).get("member_count"),
-                             (str(err) if err else None), reports))
+                             (str(err) if err else fetch_skipped), reports))
             if reports:
-                LOG.info("jpx400 reports: %s", reports)
+                LOG.info("%s reports: %s", uni_name, reports)
         universe = Universe(membership)
         if not universe.all_codes():
-            return done("failed", "JPX400 membership is empty; public JSON left untouched")
+            return done("failed", f"{uni_label} membership is empty; public JSON left untouched")
 
         # ---- 価格
         price_run: dict[str, Any] = {"ok": None}
@@ -351,19 +400,10 @@ def run(*, db_path: Path | None = None, state_dir: Path, out_dir: Path, cfg: Cfg
         prices_ok = store.last_success("prices")
         if price_run["ok"]:
             prices_ok = _iso(now)
-        if offline:
-            checked = membership.get("last_checked_at")
-            jpx_status = "stale"
-            if checked:
-                stamp = datetime.fromisoformat(checked)
-                stamp = stamp if stamp.tzinfo else stamp.replace(tzinfo=JST)
-                if now - stamp <= timedelta(days=cfg.pipeline.jpx400_stale_days):
-                    jpx_status = "ok"
-        else:
-            jpx_status = jpx["status"]
+        jpx_status = _membership_freshness(membership, now, cfg) if offline else jpx["status"]
         sources = {"edinet": _edinet_source(conn, now, cfg),
                    "prices": {"status": "ok", "lastSuccessAt": prices_ok, "coverage": round(c.coverage, 4)},
-                   "jpx400": {"status": jpx_status, "lastSuccessAt": membership.get("last_checked_at"),
+                   uni_name: {"status": jpx_status, "lastSuccessAt": membership.get("last_checked_at"),
                               "memberCount": c.universe_count},
                    "margin": {"status": margin_status, "asOf": latest["as_of"] if latest and margin_status != "disabled"
                               else None}}

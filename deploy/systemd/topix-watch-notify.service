@@ -1,0 +1,11 @@
+# ~/.config/systemd/user/topix-watch-notify.service
+# topix-watch.service が失敗したときに呼ばれる。通知手段は環境に合わせて ExecStart を差し替える。
+# 例: Gmail アプリパスワードで送るなら scripts/notify_failure.py のような小スクリプトを用意し、
+#     ~/.config/topix-watch.env に SMTP 情報を置く（リポジトリにはコミットしない）。
+[Unit]
+Description=Notify TOPIX Watch Radar failure
+
+[Service]
+Type=oneshot
+EnvironmentFile=-%h/.config/topix-watch.env
+ExecStart=/bin/sh -c 'journalctl --user -u topix-watch.service -n 50 --no-pager | tail -n 50; echo "topix-watch failed at $(date -Is)" >> %h/topix-watch-failures.log'

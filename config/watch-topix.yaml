@@ -1,0 +1,22 @@
+# TOPIX Watch Radar。config/watch.yaml（既定値）の上にここのキーだけを重ねる。
+# 実行: python scripts/update_watch.py --universe topix
+# 判定ロジックの閾値（price_setup / episodes / ranking の点数）は JPX400 と同じ。
+universe:
+  name: topix
+  label: TOPIX
+  source: topix                       # src/watch/sources/topix.py（月次ウエイト CSV）
+  min_members: 900                    # 986 の約 9 割。CSV 解析失敗を弾く
+  transition_file: transition.json    # 移行措置 683 銘柄。スナップショットから常に除く
+  snapshot_min_as_of: "2026-10-30"    # これより古い CSV（旧 TOPIX）は適用しない
+  continuing_effective_from: "2026-04-01"   # 継続 951 銘柄の在籍開始（replay_days より前。初日から Episode を出す）
+  added_effective_from: "2026-10-30"        # 新規追加 35 銘柄
+
+ranking:
+  weekly_size: 10                     # 母数が 2.5 倍なので JPX400 の 5 / 10 から増やす
+  monthly_size: 20
+
+margin:
+  min_universe_coverage: 0.85         # スタンダード・グロース銘柄分の欠落を許容
+
+pipeline:
+  jpx400_stale_days: 45               # 月次 CSV なので鮮度判定は 45 日（キー名は互換のため据え置き）

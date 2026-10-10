@@ -50,10 +50,28 @@ def _require(cond: bool, message: str) -> None:
         raise ConfigError(message)
 
 
+UNIVERSE_DEFAULTS = {
+    "name": "jpx400",        # state のサブパス・job_runs の source 名
+    "label": "JPX400",       # ログ・公開 JSON の表示名
+    "source": "jpx400",      # sources/<source>.py の fetch_constituents を使う
+    "seed_file": None,       # name != jpx400 で membership が空のとき、このファイルからシードする
+    "transition_file": None,  # 除外リスト（TOPIX 移行措置銘柄など）。スナップショットから常に除く
+    "snapshot_min_as_of": None,  # これより古い基準日のスナップショットは適用しない（ISO 日付）
+}
+KNOWN_SOURCES = ("jpx400", "topix")
+
+
 def validate(cfg: dict) -> None:
     for section in ("calendar", "universe", "events", "prices", "indicators", "price_setup",
                     "episodes", "ranking", "performance", "margin", "pipeline", "export"):
         _require(isinstance(cfg.get(section), dict), f"config section missing: {section}")
+    universe = cfg["universe"]
+    for key, default in UNIVERSE_DEFAULTS.items():
+        universe.setdefault(key, default)
+    _require(bool(universe["name"]) and str(universe["name"]).isidentifier(),
+             "universe.name must be a simple identifier (e.g. jpx400, topix)")
+    _require(universe["source"] in KNOWN_SOURCES, f"universe.source must be one of {KNOWN_SOURCES}")
+    _require(universe["min_members"] > 0, "universe.min_members must be positive")
     hh, mm = str(cfg["calendar"]["market_close"]).split(":")
     _require(0 <= int(hh) < 24 and 0 <= int(mm) < 60, "calendar.market_close must be HH:MM")
     _require(0 < cfg["prices"]["min_coverage"] <= 1, "prices.min_coverage must be in (0,1]")

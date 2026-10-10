@@ -57,6 +57,10 @@ jobs:
         if: steps.key.outputs.configured == 'true'
         continue-on-error: true
         run: python scripts/update_watch.py
+      - name: Update TOPIX watch radar (v3)
+        if: steps.key.outputs.configured == 'true'
+        continue-on-error: true
+        run: python scripts/update_watch.py --universe topix
       - name: Test
         if: steps.key.outputs.configured == 'true'
         run: python -m pytest -q
