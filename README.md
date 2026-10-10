@@ -64,6 +64,21 @@ mainへコミットします。手動実行では`days`（既定90）を指定�
 - 環境変数`DB_PATH` / `WATCH_STATE_DIR` / `WATCH_OUT_DIR`で入出力先を切り替えられます
 - TDnetは取得しません。決算イベントは対象外です
 
+## v3: TOPIX Watch Radar（同一パイプライン・別ユニバース）
+
+v2 の判定ロジックをそのまま、ユニバースを新 TOPIX（2026-10-30 初回定期入替後の 986 銘柄 = 構成銘柄 1,669 −
+移行措置 683）に差し替えて実行します。設定は `config/watch-topix.yaml`（`watch.yaml` の上に差分だけ重ねる）、
+state は `state/topix/`、公開 JSON は `public/data/watch-topix/`（スキーマは v2 と同じ。`sources.topix` が
+ユニバースの状態）。JPX400 側のファイル・出力は変わりません。
+
+- `src/watch/sources/topix.py`: 選定結果 PDF（初回シード用）と月次「構成銘柄別ウエイト一覧」CSV（差分検知用）の解析
+- `scripts/seed_topix.py --pdf topix_j.pdf`: `state/topix/{membership,transition,seed_2026}.json` を生成（コミット済み）。
+  継続 951 銘柄は `effective_from=2026-04-01`、新規追加 35 銘柄は `2026-10-30`
+- `state/topix/transition.json`: 移行措置 683 銘柄。CSV に残っていてもユニバースに入れない（`exclude_until: 2028-07-31`）
+- `universe.snapshot_min_as_of: 2026-10-30`: それより古い CSV（旧 TOPIX）は適用せず job_runs に `skipped`
+- 実行: `python scripts/update_watch.py --universe topix`。Linux PC での日次運用は `deploy/systemd/README.md`
+- 銘柄の随時変更（TOB・合併）は `state/topix/adjustments.json` に手で追記（形式は JPX400 と同じ）
+
 ## テスト
 
 ```bash
