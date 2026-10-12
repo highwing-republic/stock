@@ -3,6 +3,30 @@
 作成: 2026-10-12（Claude Code による調査結果）。元仕様: `docs/watch-radar-spec.md`（JPX400 版）。
 JPX400 版の仕組みをそのまま「新TOPIX」ユニバースへ横展開する。
 
+## 実装結果（2026-10-12 完了。PR #3 でマージ、同日 Actions 手動実行で公開済み）
+
+以下は本仕様に対する実装時の確定事項・変更点。以降の節は計画時の記述で、ここに書いた内容が優先する。
+
+- 推奨案をすべて採用: 移行措置 683 銘柄は対象外（`include_transition: false`）、継続採用 951 銘柄は
+  `effective_from=2026-04-01`、新規 35 銘柄は `2026-10-30`、URL は `/edinet-investment-radar/topix/`。
+- 移行措置銘柄の除外リストは独立ファイルではなく `state/topix/topix_membership.json` の `excluded_codes` に持つ
+  （membership と一緒に移動・複製できるようにするため）。`topix_rebalance_2026.json` は監査用の写し。
+- `apply_snapshot` は、適用済み `last_as_of` より古いスナップショットを `rejected` ではなく `ignored` で返す。
+  取得成功扱いになり、月次 CSV が 10/30 に追いつく 11 月末まで UI が「更新が古い」にならない。
+- 設定キーは `pipeline.jpx400_stale_days` → `pipeline.universe_stale_days` に改名（旧キーも読む）。
+  `config/watch-topix.yaml` は `watch.yaml` に重ねる差分ファイル（`load_config(path)` の既存機能を利用）。
+- `events.is_jpx400_at_event` は `is_member_at_event` に改名。`state/events/*.json` に 1 回だけ差分が出た。
+- `summary.universe = {key, label, memberCount, note}` を追加。`sources` のキーは `kind`（`jpx400` / `topix`）。
+  `validate_public` は `summary.universe` の 4 キーと `sources[universe.key]` を検査する。
+- 銘柄名は ウエイト一覧 CSV → EDINET コードリスト ZIP（`src.radar.parse_code_list_zip` を再利用）→ v1 SQLite の順。
+  641A（NOK Group）だけどこにも無く手動で仮登録。11 月末の CSV 更新で上書きされる。
+- UI（makoto_consul）は `watch/` の 2 ページを `summary.universe` 対応に汎用化し、`topix/` は `DEFAULT_BASE` と
+  meta・文言だけ違うコピー。詳細ページの v1 価格パスは `/\/watch(-[a-z0-9]+)?$/` で両方に対応。
+- 実測: テスト 151 件通過。Actions の TOPIX ステップ 1 分 53 秒（JPX400 ステップ 1 分 1 秒）。初回公開時の
+  `universeCount` は 951、株価カバー率 1.0、今週 TOP5・今月 TOP10 とも埋まった。
+- 運用メモ: 2027-10 の再評価で復帰する銘柄は `state/topix/topix_adjustments.json` に `add` を書く
+  （`excluded_codes` から自動的に外れる）。上場廃止などの除外は月次 CSV の反映（約 1 か月遅れ）か adjustments の `remove`。
+
 ---
 
 ## Goal
