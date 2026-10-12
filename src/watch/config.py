@@ -12,6 +12,10 @@ ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_PATH = ROOT / "config" / "watch.yaml"
 
 
+UNIVERSE_KINDS = ("jpx400", "topix")
+UNIVERSE_LABELS = {"jpx400": "JPX日経400", "topix": "新TOPIX"}
+
+
 class ConfigError(ValueError):
     pass
 
@@ -54,6 +58,14 @@ def validate(cfg: dict) -> None:
     for section in ("calendar", "universe", "events", "prices", "indicators", "price_setup",
                     "episodes", "ranking", "performance", "margin", "pipeline", "export"):
         _require(isinstance(cfg.get(section), dict), f"config section missing: {section}")
+    universe = cfg["universe"]
+    universe.setdefault("kind", "jpx400")
+    universe.setdefault("label", UNIVERSE_LABELS.get(universe["kind"], universe["kind"]))
+    universe.setdefault("include_transition", True)
+    _require(universe["kind"] in UNIVERSE_KINDS, f"universe.kind must be one of {sorted(UNIVERSE_KINDS)}")
+    pipeline = cfg["pipeline"]
+    if "universe_stale_days" not in pipeline:
+        pipeline["universe_stale_days"] = pipeline.get("jpx400_stale_days", 14)
     hh, mm = str(cfg["calendar"]["market_close"]).split(":")
     _require(0 <= int(hh) < 24 and 0 <= int(mm) < 60, "calendar.market_close must be HH:MM")
     _require(0 < cfg["prices"]["min_coverage"] <= 1, "prices.min_coverage must be in (0,1]")

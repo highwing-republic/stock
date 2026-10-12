@@ -19,7 +19,7 @@ import unicodedata
 from dataclasses import dataclass, replace
 from datetime import date, timedelta
 
-from src.watch.sources.jpx400 import USER_AGENT, normalize_security_code
+from src.watch.sources.common import USER_AGENT, normalize_security_code
 
 log = logging.getLogger(__name__)
 
@@ -271,7 +271,7 @@ def validate(
         coverage = covered / len(universe_codes)
         if coverage < min_universe_coverage:
             raise MarginValidationError(
-                f"JPX400 カバー率 {coverage:.3f} が下限 {min_universe_coverage} 未満"
+                f"ユニバースのカバー率 {coverage:.3f} が下限 {min_universe_coverage} 未満"
             )
 
 

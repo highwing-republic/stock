@@ -87,7 +87,7 @@ def compute(conn: sqlite3.Connection, universe, store: Store, cfg: Cfg, as_of: d
 
     members_last = universe.members_on(date.fromisoformat(last))
     if not members_last:
-        raise QualityGateError("no JPX400 members on the latest business day")
+        raise QualityGateError(f"no {cfg.universe.label} members on the latest business day")
     have = sum(1 for c in members_last if tickers[c] in frames and last_ts in frames[tickers[c]].index)
     coverage = have / len(members_last)
     if coverage < cfg.prices.min_coverage:
@@ -230,15 +230,17 @@ def _job(source: str, started: datetime, finished: datetime, status: str, record
 def run(*, db_path: Path | None = None, state_dir: Path, out_dir: Path, cfg: Cfg | None = None,
         as_of: date | None = None, offline: bool = False, now: datetime | None = None,
         downloader=None, jpx_fetcher=None, margin_fetcher=None) -> RunResult:
+    from .sources.topix import exclude_codes
     from .universe import (Universe, apply_adjustments, apply_snapshot, dumps_membership, load_adjustments,
                            load_membership, save_membership)
     from ..radar import connect
 
     cfg = cfg or load_config()
+    kind, label = cfg.universe.kind, cfg.universe.label
     fixed_now = now is not None
     now = now or datetime.now(JST)
     as_of = as_of or now.astimezone(JST).date()
-    store = Store(state_dir)
+    store = Store(state_dir, kind)
     conn = connect(db_path)
     runs: list[dict] = []
     finish = lambda: now if fixed_now else datetime.now(JST)  # noqa: E731
@@ -253,7 +255,18 @@ def run(*, db_path: Path | None = None, state_dir: Path, out_dir: Path, cfg: Cfg
     membership = loaded
     jpx = {"status": None}
     try:
-        # ---- JPX400 更新確認（取得→ apply_snapshot、その上に公表済みの随時変更 apply_adjustments）
+        # ---- 構成銘柄の更新確認（取得→ apply_snapshot、その上に公表済みの随時変更 apply_adjustments）
+        #      membership["excluded_codes"]（topix の移行措置銘柄など）はスナップショットから除く。
+        #      adjustments で add された銘柄は除外対象から外す（再評価で復帰した銘柄の運用）。
+        adjustments: list[dict] = []
+        adj_error = None
+        try:
+            adjustments = load_adjustments(store.adjustments_path)
+        except Exception as exc:  # 調整ファイル不正でも本体は続行
+            LOG.warning("%s adjustments skipped: %s", label, exc)
+            adj_error = exc
+        excluded = set(membership.get("excluded_codes") or []) - {a["security_code"] for a in adjustments
+                                                                   if a["action"] == "add"}
         cal_db = MarketCalendar(pd.read_sql_query("SELECT trade_date FROM prices WHERE ticker=?", conn,
                                                   params=[cfg.pipeline.benchmark_ticker])["trade_date"],
                                 cfg.calendar.extra_holidays, cfg.calendar.market_close)
@@ -263,8 +276,11 @@ def run(*, db_path: Path | None = None, state_dir: Path, out_dir: Path, cfg: Cfg
         if not offline:
             try:
                 if jpx_fetcher is None:
-                    from .sources.jpx400 import fetch_constituents as jpx_fetcher
-                snap = jpx_fetcher()
+                    if kind == "topix":
+                        from .sources.topix import fetch_constituents as jpx_fetcher
+                    else:
+                        from .sources.jpx400 import fetch_constituents as jpx_fetcher
+                snap = exclude_codes(jpx_fetcher(), excluded)
                 membership, rep = apply_snapshot(membership, snap, min_members=cfg.universe.min_members,
                                                  previous_business_day=pbd)
                 reports["snapshot"] = rep
@@ -272,16 +288,15 @@ def run(*, db_path: Path | None = None, state_dir: Path, out_dir: Path, cfg: Cfg
                     raise ValueError(rep.get("error") or "membership update rejected")
                 fetch_ok = True
             except Exception as exc:
-                LOG.warning("JPX400 update failed; keeping stored membership: %s", exc)
+                LOG.warning("%s update failed; keeping stored membership: %s", label, exc)
                 fetch_error = exc
-        adj_error = None
-        try:
-            membership, rep2 = apply_adjustments(membership, load_adjustments(store.adjustments_path),
-                                                 previous_business_day=pbd)
-            reports["adjustments"] = rep2
-        except Exception as exc:  # 調整ファイル不正でも本体は続行
-            LOG.warning("JPX400 adjustments skipped: %s", exc)
-            adj_error = exc
+        if adj_error is None:
+            try:
+                membership, rep2 = apply_adjustments(membership, adjustments, previous_business_day=pbd)
+                reports["adjustments"] = rep2
+            except Exception as exc:
+                LOG.warning("%s adjustments skipped: %s", label, exc)
+                adj_error = exc
         if fetch_ok:
             membership = dict(membership)
             membership["last_checked_at"] = _iso(now)
@@ -289,15 +304,15 @@ def run(*, db_path: Path | None = None, state_dir: Path, out_dir: Path, cfg: Cfg
         if not offline:
             jpx = {"status": "ok" if fetch_ok else "stale"}
             err = fetch_error or adj_error
-            runs.append(_job("jpx400", started, finish(), "ok" if fetch_ok and not adj_error else
+            runs.append(_job(kind, started, finish(), "ok" if fetch_ok and not adj_error else
                              ("partial" if fetch_ok else "failed"),
                              (reports.get("snapshot") or reports.get("adjustments") or {}).get("member_count"),
                              (str(err) if err else None), reports))
             if reports:
-                LOG.info("jpx400 reports: %s", reports)
+                LOG.info("%s reports: %s", kind, reports)
         universe = Universe(membership)
         if not universe.all_codes():
-            return done("failed", "JPX400 membership is empty; public JSON left untouched")
+            return done("failed", f"{label} membership is empty; public JSON left untouched")
 
         # ---- 価格
         price_run: dict[str, Any] = {"ok": None}
@@ -357,19 +372,22 @@ def run(*, db_path: Path | None = None, state_dir: Path, out_dir: Path, cfg: Cfg
             if checked:
                 stamp = datetime.fromisoformat(checked)
                 stamp = stamp if stamp.tzinfo else stamp.replace(tzinfo=JST)
-                if now - stamp <= timedelta(days=cfg.pipeline.jpx400_stale_days):
+                if now - stamp <= timedelta(days=cfg.pipeline.universe_stale_days):
                     jpx_status = "ok"
         else:
             jpx_status = jpx["status"]
         sources = {"edinet": _edinet_source(conn, now, cfg),
                    "prices": {"status": "ok", "lastSuccessAt": prices_ok, "coverage": round(c.coverage, 4)},
-                   "jpx400": {"status": jpx_status, "lastSuccessAt": membership.get("last_checked_at"),
-                              "memberCount": c.universe_count},
+                   kind: {"status": jpx_status, "lastSuccessAt": membership.get("last_checked_at"),
+                          "memberCount": c.universe_count},
                    "margin": {"status": margin_status, "asOf": latest["as_of"] if latest and margin_status != "disabled"
                               else None}}
+        universe_info = {"key": kind, "label": label, "memberCount": c.universe_count,
+                         "note": ("移行措置銘柄を除く" if kind == "topix" and not cfg.universe.include_transition
+                                  else None)}
         ctx = export.PublicContext(
             cfg=cfg, now=_iso(now), as_of=c.days[-1], days=c.days, day_index=c.day_index, sources=sources,
-            universe_count=c.universe_count, names=c.names, weekly=c.rankings["weekly"],
+            universe_count=c.universe_count, names=c.names, weekly=c.rankings["weekly"], universe=universe_info,
             monthly=c.rankings["monthly"], episodes=c.episodes, events=c.events, setup_changes=c.setup_changes,
             rows=c.rows, series=c.series, bench_close=c.bench_close, margin_views=c.margin_views)
         files = export.build_public(ctx)

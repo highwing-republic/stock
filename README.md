@@ -53,6 +53,7 @@ mainへコミットします。手動実行では`days`（既定90）を指定�
 仕様は`docs/watch-radar-spec.md`、閾値はすべて`config/watch.yaml`にあります。
 
 - `src/watch/`: 設定・営業日・イベント正規化・価格/指標・Setup・Episode状態機械・ランキング・成績・出力
+  （`sources/common.py` にコード正規化、`sources/jpx400.py` / `sources/topix.py` に構成銘柄ソース）
 - `scripts/update_watch.py [--as-of YYYY-MM-DD] [--offline]`: v1のDBを読み、JPX400構成・価格・信用残
   （任意）を更新して計算します。`--offline`はネットワーク取得をせずDBと`state/`だけで再計算します
 - `state/`: 履歴の正本（Git管理）。JPX400 membership、正規化イベント、Episode、Setup履歴、
@@ -63,6 +64,28 @@ mainへコミットします。手動実行では`days`（既定90）を指定�
   変更しません（job_runsに`failed`を記録）。公開JSONにスコアや推奨表現は含めません
 - 環境変数`DB_PATH` / `WATCH_STATE_DIR` / `WATCH_OUT_DIR`で入出力先を切り替えられます
 - TDnetは取得しません。決算イベントは対象外です
+
+## v2: 新TOPIX Watch Radar
+
+JPX400 版と同じエンジンを、ユニバースだけ新TOPIX（2026-10-30 初回定期入替後の構成銘柄から
+移行措置銘柄 683 件を除いた 986 件）に替えて回します。仕様は `docs/topix-radar-spec.md`。
+
+- 設定: `config/watch-topix.yaml`（`watch.yaml` に重ねて読む差分）。`universe.kind: topix`、
+  `include_transition: false`
+- 構成銘柄ソース: `src/watch/sources/topix.py`。継続更新は JPX の「TOPIX 構成銘柄ウエイト一覧」CSV
+  （cp932、翌月末更新のため約 1 か月遅れ）。初回シードは 2026-10-07 公表の定期入替 PDF
+- state: `state/topix/`（`topix_membership.json` の `excluded_codes` が移行措置銘柄。再評価で復帰した銘柄は
+  `topix_adjustments.json` に `add` を書くと除外対象から外れる）。公開 JSON は `public/data/watch-topix/`
+- 公開 JSON の `summary.universe = {key, label, memberCount, note}` と `sources.<key>` でユニバースを表す
+  （JPX400 版は `key: jpx400`、`sources.jpx400` のまま）
+
+```bash
+# 初回シード（一回限り。PDF/CSV はローカルファイルでも URL 取得でも可）
+python scripts/seed_topix.py --pdf topix_j.pdf --weight-csv topixweight_j.csv
+
+# 更新
+python scripts/update_watch.py --config config/watch-topix.yaml --state-dir state/topix --out-dir public/data/watch-topix
+```
 
 ## テスト
 

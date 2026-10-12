@@ -41,17 +41,18 @@ def read_json(path: Path, default: Any = None) -> Any:
 
 
 class Store:
-    def __init__(self, root: Path):
+    def __init__(self, root: Path, kind: str = "jpx400"):
         self.root = Path(root)
+        self.kind = kind
 
-    # -- パス
+    # -- パス（membership / adjustments はユニバース種別ごと）
     @property
     def membership_path(self) -> Path:
-        return self.root / "jpx400_membership.json"
+        return self.root / f"{self.kind}_membership.json"
 
     @property
     def adjustments_path(self) -> Path:
-        return self.root / "jpx400_adjustments.json"
+        return self.root / f"{self.kind}_adjustments.json"
 
     def ranking_path(self, kind: str, key: str) -> Path:
         return self.root / "rankings" / kind / f"{key}.json"

@@ -16,7 +16,7 @@ from datetime import date, datetime, timedelta
 from pathlib import Path
 from typing import Callable
 
-from src.watch.sources.jpx400 import CODE_RE, ConstituentsSnapshot, normalize_security_code
+from src.watch.sources.common import CODE_RE, ConstituentsSnapshot, normalize_security_code
 
 DEFAULT_SEED_DATE = date(2026, 8, 31)
 REBALANCE_REMOVED_TO = date(2026, 8, 28)
@@ -79,9 +79,9 @@ def _default_previous_business_day(day: date) -> date:
     return prev
 
 
-def _rejected(membership: dict, error: str, count: int) -> tuple[dict, dict]:
+def _rejected(membership: dict, error: str, count: int, status: str = "rejected") -> tuple[dict, dict]:
     return copy.deepcopy(membership), {
-        "status": "rejected",
+        "status": status,
         "added": [],
         "removed": [],
         "member_count": count,
@@ -118,10 +118,13 @@ def apply_snapshot(
 
     last_as_of = membership.get("last_as_of")
     if last_as_of and snapshot.as_of.isoformat() < last_as_of:
+        # 取得自体は成功しているが情報が古い（例: 月次 CSV が定期入替の実施日に追いつくまで）。
+        # 失敗ではなく "ignored" として呼び出し側が区別できるようにする。
         return _rejected(
             membership,
             f"スナップショット基準日 {snapshot.as_of} が適用済み {last_as_of} より古い",
             len(snapshot.rows),
+            status="ignored",
         )
 
     result = copy.deepcopy(membership)
@@ -385,3 +388,64 @@ class Universe:
 
     def company_name(self, code: str) -> str | None:
         return self._names.get(normalize_security_code(code) or str(code))
+
+
+# --------------------------------------------------------------------------- 新TOPIX 初回シード
+TOPIX_CONTINUING_FROM = date(2026, 4, 1)  # 継続採用銘柄は 2026 年を通じて TOPIX 構成銘柄（リプレイ窓より前なら可）
+
+
+def seed_topix(
+    rebalance,
+    names: dict[str, str],
+    *,
+    include_transition: bool = False,
+    continuing_from: date = TOPIX_CONTINUING_FROM,
+    source_url: str | None = None,
+) -> tuple[dict, dict]:
+    """2026-10-07 公表の初回定期入替 PDF（sources.topix.RebalanceLists）から新TOPIX の membership を作る。
+
+    - 継続採用 = 構成銘柄 − 移行措置 − 新規追加: effective_from=continuing_from, seeded=true
+    - 新規追加: effective_from=入替実施日（2026-10-30）, seeded=false
+    - 移行措置: include_transition=False なら登録せず、membership["excluded_codes"] に記録して
+      以後のスナップショット適用から除外する。True なら継続採用と同じ扱い（除外リストは空）。
+    names は証券コード→銘柄名（無いコードは証券コードを名前にし report["unnamed"] に載せる）。
+    """
+    effective = rebalance.effective_date
+    constituents = dict(rebalance.constituents)
+    transition = rebalance.codes("transition")
+    new = rebalance.codes("new")
+    src = source_url or rebalance.source_url
+    members: list[dict] = []
+    unnamed: list[str] = []
+
+    def add(code: str, start: date, seeded: bool) -> None:
+        name = names.get(code) or ""
+        if not name:
+            unnamed.append(code)
+            name = code
+        members.append({
+            "security_code": code, "company_name": name, "effective_from": start.isoformat(),
+            "effective_to": None, "source_url": src, "source_published_at": rebalance.published_at.isoformat(),
+            "seeded": seeded,
+        })
+
+    for code in sorted(constituents):
+        if code in new:
+            add(code, effective, False)
+        elif code in transition:
+            if include_transition:
+                add(code, continuing_from, True)
+        else:
+            add(code, continuing_from, True)
+    membership = _empty_membership()
+    membership["members"] = _sorted_members(members)
+    membership["last_as_of"] = effective.isoformat()
+    membership["last_source_sha256"] = rebalance.sha256
+    membership["excluded_codes"] = [] if include_transition else sorted(transition)
+    membership["rebalance"] = {"published_at": rebalance.published_at.isoformat(),
+                               "effective_date": effective.isoformat(), "source_url": src,
+                               "new": len(new), "transition": len(transition), "constituents": len(constituents)}
+    report = {"status": "ok", "member_count": len(members), "continuing": len(constituents) - len(new)
+              - (0 if include_transition else len(transition)), "new": len(new),
+              "excluded": 0 if include_transition else len(transition), "unnamed": sorted(unnamed), "error": None}
+    return membership, report

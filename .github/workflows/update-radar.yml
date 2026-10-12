@@ -53,10 +53,14 @@ jobs:
         env:
           EDINET_API_KEY: ${{ secrets.EDINET_API_KEY || secrets.EDINET }}
         run: python scripts/update.py --days "${{ github.event.inputs.days || '7' }}"
-      - name: Update watch radar (v2)
+      - name: Update watch radar (v2, JPX400)
         if: steps.key.outputs.configured == 'true'
         continue-on-error: true
         run: python scripts/update_watch.py
+      - name: Update watch radar (v2, TOPIX)
+        if: steps.key.outputs.configured == 'true'
+        continue-on-error: true
+        run: python scripts/update_watch.py --config config/watch-topix.yaml --state-dir state/topix --out-dir public/data/watch-topix
       - name: Test
         if: steps.key.outputs.configured == 'true'
         run: python -m pytest -q
