@@ -1,0 +1,382 @@
+{
+ "company": {
+  "name": "スクウェア・エニックス・ホールディングス",
+  "securityCode": "9684",
+  "tradingViewSymbol": "TSE:9684"
+ },
+ "episode": {
+  "closeReason": "EXPIRED",
+  "closedAt": "2026-10-09",
+  "id": "9684-2026-07-07",
+  "overextended": true,
+  "setupType": "RECOVERY",
+  "setups": [],
+  "startedAt": "2026-07-07",
+  "status": "CLOSED",
+  "statusHistory": [
+   {
+    "date": "2026-07-07",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-07-10",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   },
+   {
+    "date": "2026-07-27",
+    "from": "WATCH",
+    "reason_code": "SETUP_IMPROVED",
+    "to": "STRENGTHENING"
+   },
+   {
+    "date": "2026-07-29",
+    "from": "STRENGTHENING",
+    "reason_code": "NEW_HIGH60_VOLUME",
+    "to": "CONFIRMED"
+   },
+   {
+    "date": "2026-07-30",
+    "from": "CONFIRMED",
+    "reason_code": "EXCESS_THRESHOLD",
+    "to": "REACTED"
+   },
+   {
+    "date": "2026-10-09",
+    "from": "REACTED",
+    "reason_code": "EXPIRED",
+    "to": "CLOSED"
+   }
+  ],
+  "watchStartedAt": "2026-07-10"
+ },
+ "eventReactions": [
+  {
+   "d1": 1.8,
+   "d20": 5.5,
+   "d5": 0.7,
+   "eventId": "edinet:S100YP5Y",
+   "excess5": 2.9
+  },
+  {
+   "d1": -1.6,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z6RN",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 323700,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 2.24,
+  "sellBalance": 144300,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": 2.5,
+  "currentPrice": 2851.5,
+  "d20": {
+   "benchReturn": 1.3,
+   "excessReturn": 10.3,
+   "pendingDays": 0,
+   "stockReturn": 11.6
+  },
+  "d5": {
+   "benchReturn": -3.4,
+   "excessReturn": 2.6,
+   "pendingDays": 0,
+   "stockReturn": -0.8
+  },
+  "d60": {
+   "benchReturn": 2.5,
+   "excessReturn": 9.1,
+   "pendingDays": 0,
+   "stockReturn": 11.6
+  },
+  "excessReturn": 9.1,
+  "initialDate": "2026-07-10",
+  "initialPrice": 2555.8,
+  "stockReturn": 11.6
+ },
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.14,
+  "labels": [
+   "60日線の上"
+  ],
+  "ma20": 2893.7,
+  "ma200": 2651.4,
+  "ma60": 2815.4,
+  "rangePos60": 0.49,
+  "rel20": -2.3,
+  "rel60": 9.1,
+  "volumeRatio20": 0.97
+ },
+ "reasons": [
+  "新規大量保有 5.5%（野村證券株式会社）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-07-07",
+   "detail": "保有割合 5.49%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YP5Y"
+  },
+  {
+   "date": "2026-07-07",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-09",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-10",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-10",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-17",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-23",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-27",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-27",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-27",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-27",
+   "detail": "Price Setupが改善",
+   "kind": "STATUS",
+   "label": "STRENGTHENING",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-28",
+   "detail": "RECOVERY → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-29",
+   "detail": "BREAKOUT → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup変化",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-29",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-29",
+   "detail": "60日高値を出来高増で更新",
+   "kind": "STATUS",
+   "label": "CONFIRMED",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-30",
+   "detail": "TOPIX連動ETFとの差が大きくなった",
+   "kind": "STATUS",
+   "label": "REACTED",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-05",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-06",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-07",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-10",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-12",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-17",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-18",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-19",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-26",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-31",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-01",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-02",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-10",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-14",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-28",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-29",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-29",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "5.49% → 4.16%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z6RN"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "観察期限に到達",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}

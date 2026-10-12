@@ -1,0 +1,184 @@
+{
+ "company": {
+  "name": "あい ホールディングス",
+  "securityCode": "3076",
+  "tradingViewSymbol": "TSE:3076"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "3076-2026-10-05",
+  "overextended": false,
+  "setupType": "BREAKOUT",
+  "setups": [
+   "BREAKOUT",
+   "TREND"
+  ],
+  "startedAt": "2026-10-05",
+  "status": "STRENGTHENING",
+  "statusHistory": [
+   {
+    "date": "2026-10-05",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-10-06",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   },
+   {
+    "date": "2026-10-09",
+    "from": "WATCH",
+    "reason_code": "SETUP_IMPROVED",
+    "to": "STRENGTHENING"
+   }
+  ],
+  "watchStartedAt": "2026-10-06"
+ },
+ "eventReactions": [
+  {
+   "d1": -1.1,
+   "d20": null,
+   "d5": -1.6,
+   "eventId": "edinet:S100Z3HK",
+   "excess5": -1.6
+  },
+  {
+   "d1": 0.4,
+   "d20": null,
+   "d5": 0.8,
+   "eventId": "edinet:S100Z5CK",
+   "excess5": 0.3
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 107500,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 5.38,
+  "sellBalance": 20000,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": -1.8,
+  "currentPrice": 2995.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 17,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 2,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 57,
+   "stockReturn": null
+  },
+  "excessReturn": 1.1,
+  "initialDate": "2026-10-06",
+  "initialPrice": 3015.0,
+  "stockReturn": -0.7
+ },
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.01,
+  "labels": [
+   "20日線の上",
+   "60日レンジ上位11%",
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 2987.1,
+  "ma200": 2765.6,
+  "ma60": 2917.6,
+  "rangePos60": 0.89,
+  "rel20": -1.7,
+  "rel60": 9.6,
+  "volumeRatio20": 0.79
+ },
+ "reasons": [
+  "新規大量保有 5%（株式会社三菱ＵＦＪフィナンシャル・グループ）",
+  "60日レンジ上位11%",
+  "20日線を回復",
+  "52週高値まで1%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-09-28",
+   "detail": "6.75% → 6.86%（光通信株式会社）",
+   "kind": "EVENT",
+   "label": "買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z3HK"
+  },
+  {
+   "date": "2026-10-05",
+   "detail": "保有割合 5.01%（株式会社三菱ＵＦＪフィナンシャル・グループ）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z5CK"
+  },
+  {
+   "date": "2026-10-06",
+   "detail": "なし → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-06",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-06",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "BREAKOUT → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "なし → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "Price Setupが改善",
+   "kind": "STATUS",
+   "label": "STRENGTHENING",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}

@@ -1,0 +1,387 @@
+{
+ "company": {
+  "name": "オカモト",
+  "securityCode": "5122",
+  "tradingViewSymbol": "TSE:5122"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "5122-2026-07-03",
+  "overextended": true,
+  "setupType": "BREAKOUT",
+  "setups": [
+   "BREAKOUT",
+   "TREND",
+   "RECOVERY"
+  ],
+  "startedAt": "2026-07-03",
+  "status": "REACTED",
+  "statusHistory": [
+   {
+    "date": "2026-07-03",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-07-24",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   },
+   {
+    "date": "2026-07-31",
+    "from": "WATCH",
+    "reason_code": "NEW_HIGH60_VOLUME",
+    "to": "CONFIRMED"
+   },
+   {
+    "date": "2026-08-03",
+    "from": "CONFIRMED",
+    "reason_code": "EXCESS_THRESHOLD",
+    "to": "REACTED"
+   }
+  ],
+  "watchStartedAt": "2026-07-24"
+ },
+ "eventReactions": [
+  {
+   "d1": 1.1,
+   "d20": 11.9,
+   "d5": 1.5,
+   "eventId": "edinet:S100YOC4",
+   "excess5": 3.2
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 1700,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 0.31,
+  "sellBalance": 5400,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": 3.6,
+  "currentPrice": 6360.0,
+  "d20": {
+   "benchReturn": 1.7,
+   "excessReturn": 14.7,
+   "pendingDays": 0,
+   "stockReturn": 16.4
+  },
+  "d5": {
+   "benchReturn": -0.1,
+   "excessReturn": 7.2,
+   "pendingDays": 0,
+   "stockReturn": 7.1
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 9,
+   "stockReturn": null
+  },
+  "excessReturn": 11.2,
+  "initialDate": "2026-07-24",
+  "initialPrice": 5542.2,
+  "stockReturn": 14.8
+ },
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.05,
+  "labels": [
+   "20日線の上",
+   "60日レンジ上位21%",
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 6182.1,
+  "ma200": 5727.3,
+  "ma60": 6067.3,
+  "rangePos60": 0.79,
+  "rel20": 3.6,
+  "rel60": 15.0,
+  "volumeRatio20": 1.49
+ },
+ "reasons": [
+  "1pt買い増し 5%→6%",
+  "60日レンジ上位21%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +3.6pt（20日）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-07-03",
+   "detail": "5.01% → 6.05%（コバス・アセット・マネジメント・エスジーアイアイシー・エスエー）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YOC4"
+  },
+  {
+   "date": "2026-07-10",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-21",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-21",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-24",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-24",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-24",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-31",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-31",
+   "detail": "60日高値を出来高増で更新",
+   "kind": "STATUS",
+   "label": "CONFIRMED",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-03",
+   "detail": "RECOVERY → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-03",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-03",
+   "detail": "TOPIX連動ETFとの差が大きくなった",
+   "kind": "STATUS",
+   "label": "REACTED",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-04",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-05",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-07",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-21",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-26",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-28",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-28",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-02",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-08",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-17",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-17",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-18",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-24",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-24",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-25",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-29",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-01",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-01",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-02",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-05",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-05",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-06",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "TREND → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup変化",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}

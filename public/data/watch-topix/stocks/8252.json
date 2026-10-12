@@ -1,0 +1,173 @@
+{
+ "company": {
+  "name": "丸井グループ",
+  "securityCode": "8252",
+  "tradingViewSymbol": "TSE:8252"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "8252-2026-09-16",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-09-16",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-09-16",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": 2.3,
+   "d20": 0.8,
+   "d5": 2.4,
+   "eventId": "edinet:S100YUQ0",
+   "excess5": -0.9
+  },
+  {
+   "d1": -1.8,
+   "d20": -3.3,
+   "d5": -2.4,
+   "eventId": "edinet:S100Z0SO",
+   "excess5": -0.6
+  },
+  {
+   "d1": -0.1,
+   "d20": null,
+   "d5": -0.1,
+   "eventId": "edinet:S100Z2IK",
+   "excess5": -2.2
+  },
+  {
+   "d1": 1.4,
+   "d20": null,
+   "d5": -0.6,
+   "eventId": "edinet:S100Z30Y",
+   "excess5": -1.6
+  },
+  {
+   "d1": -1.6,
+   "d20": null,
+   "d5": -3.1,
+   "eventId": "edinet:S100Z357",
+   "excess5": -2.6
+  },
+  {
+   "d1": 0.9,
+   "d20": null,
+   "d5": -0.9,
+   "eventId": "edinet:S100Z3NQ",
+   "excess5": -3.2
+  },
+  {
+   "d1": 1.0,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z6EY",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 453000,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 9.7,
+  "sellBalance": 46700,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-09-03",
+   "id": "8252-2026-08-07",
+   "setupType": "TREND",
+   "startedAt": "2026-08-07"
+  }
+ ],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.12,
+  "labels": [],
+  "ma20": 2787.9,
+  "ma200": 2897.5,
+  "ma60": 2852.0,
+  "rangePos60": 0.12,
+  "rel20": -5.2,
+  "rel60": -6.4,
+  "volumeRatio20": 0.98
+ },
+ "reasons": [
+  "0.5pt買い増し 11%→11.5%",
+  "30日以内に2回買い増し"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-08-07",
+   "detail": "6.31% → 7.47%（みずほ証券株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YUQ0"
+  },
+  {
+   "date": "2026-09-07",
+   "detail": "8.36% → 8.73%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z0SO"
+  },
+  {
+   "date": "2026-09-16",
+   "detail": "8.73% → 10.83%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z2IK"
+  },
+  {
+   "date": "2026-09-17",
+   "detail": "10.83% → 10.89%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z30Y"
+  },
+  {
+   "date": "2026-09-17",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-18",
+   "detail": "10.89% → 10.98%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z357"
+  },
+  {
+   "date": "2026-09-25",
+   "detail": "7.47% → 7.91%（みずほ証券株式会社）",
+   "kind": "EVENT",
+   "label": "買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z3NQ"
+  },
+  {
+   "date": "2026-10-06",
+   "detail": "10.98% → 11.5%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z6EY"
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}

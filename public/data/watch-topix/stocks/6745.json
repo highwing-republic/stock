@@ -1,0 +1,236 @@
+{
+ "company": {
+  "name": "ホーチキ",
+  "securityCode": "6745",
+  "tradingViewSymbol": "TSE:6745"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "6745-2026-09-17",
+  "overextended": false,
+  "setupType": "RECOVERY",
+  "setups": [
+   "RECOVERY"
+  ],
+  "startedAt": "2026-09-17",
+  "status": "STRENGTHENING",
+  "statusHistory": [
+   {
+    "date": "2026-09-17",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-10-06",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   },
+   {
+    "date": "2026-10-09",
+    "from": "WATCH",
+    "reason_code": "SETUP_IMPROVED",
+    "to": "STRENGTHENING"
+   }
+  ],
+  "watchStartedAt": "2026-10-06"
+ },
+ "eventReactions": [
+  {
+   "d1": -1.0,
+   "d20": -4.9,
+   "d5": -4.4,
+   "eventId": "edinet:S100YCWQ",
+   "excess5": -2.9
+  },
+  {
+   "d1": 6.2,
+   "d20": -4.6,
+   "d5": 1.6,
+   "eventId": "edinet:S100YU4T",
+   "excess5": -1.7
+  },
+  {
+   "d1": 0.9,
+   "d20": null,
+   "d5": 0.1,
+   "eventId": "edinet:S100Z2V1",
+   "excess5": -0.9
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 75100,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 4.34,
+  "sellBalance": 17300,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": -1.8,
+  "currentPrice": 1936.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 17,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 2,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 57,
+   "stockReturn": null
+  },
+  "excessReturn": -0.7,
+  "initialDate": "2026-10-06",
+  "initialPrice": 1985.0,
+  "stockReturn": -2.5
+ },
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.17,
+  "labels": [
+   "20日線の上",
+   "20日線が上向き"
+  ],
+  "ma20": 1912.1,
+  "ma200": 1896.6,
+  "ma60": 1937.5,
+  "rangePos60": 0.43,
+  "rel20": 2.2,
+  "rel60": -6.1,
+  "volumeRatio20": 0.71
+ },
+ "reasons": [
+  "1.3pt買い増し 6.8%→8.2%",
+  "20日線を回復",
+  "TOPIX連動ETF比 +2.2pt（20日）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-06-19",
+   "detail": "7.04% → 5.99%（東京海上日動火災保険株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCWQ"
+  },
+  {
+   "date": "2026-08-06",
+   "detail": "5.99% → 4.94%（東京海上日動火災保険株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YU4T"
+  },
+  {
+   "date": "2026-09-17",
+   "detail": "6.85% → 8.16%（ニューバーガー・バーマン株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z2V1"
+  },
+  {
+   "date": "2026-09-17",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-18",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-30",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-01",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-01",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-05",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-06",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-06",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-06",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "Price Setupが改善",
+   "kind": "STATUS",
+   "label": "STRENGTHENING",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}

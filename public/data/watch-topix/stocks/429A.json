@@ -1,0 +1,156 @@
+{
+ "company": {
+  "name": "テクセンドフォトマスク",
+  "securityCode": "429A",
+  "tradingViewSymbol": "TSE:429A"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "429A-2026-09-03",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-09-03",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-09-03",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": 6.8,
+   "d20": 12.3,
+   "d5": 7.3,
+   "eventId": "edinet:S100YZYO",
+   "excess5": 8.0
+  },
+  {
+   "d1": 2.9,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z5MB",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 1216900,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 67.23,
+  "sellBalance": 18100,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.26,
+  "labels": [
+   "20日線の上",
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 3823.4,
+  "ma200": 3590.6,
+  "ma60": 3817.1,
+  "rangePos60": 0.48,
+  "rel20": 1.1,
+  "rel60": -12.5,
+  "volumeRatio20": 0.7
+ },
+ "reasons": [
+  "1.4pt買い増し 5%→6.4%",
+  "20日線を回復",
+  "TOPIX連動ETF比 +1.1pt（20日）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-09-03",
+   "detail": "保有割合 5.04%（イーストスプリング・インベストメンツ（シンガポール）リミテッド）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YZYO"
+  },
+  {
+   "date": "2026-09-03",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-07",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-07",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-16",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-18",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-01",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-06",
+   "detail": "5.04% → 6.43%（イーストスプリング・インベストメンツ（シンガポール）リミテッド）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z5MB"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}

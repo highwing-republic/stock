@@ -1,0 +1,109 @@
+{
+ "company": {
+  "name": "丸紅",
+  "securityCode": "8002",
+  "tradingViewSymbol": "TSE:8002"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "8002-2026-09-25",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-09-25",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-09-25",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": 3.0,
+   "d20": 11.3,
+   "d5": 6.3,
+   "eventId": "edinet:S100YO1O",
+   "excess5": 6.1
+  },
+  {
+   "d1": 1.5,
+   "d20": 7.0,
+   "d5": 2.3,
+   "eventId": "edinet:S100YTXU",
+   "excess5": -1.0
+  },
+  {
+   "d1": 0.8,
+   "d20": null,
+   "d5": 0.2,
+   "eventId": "edinet:S100Z41Z",
+   "excess5": -2.1
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 3460900,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 18.06,
+  "sellBalance": 191600,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-07-13",
+   "id": "8002-2026-07-02",
+   "setupType": "RECOVERY",
+   "startedAt": "2026-07-02"
+  }
+ ],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.24,
+  "labels": [],
+  "ma20": 4857.1,
+  "ma200": 5128.3,
+  "ma60": 4945.0,
+  "rangePos60": 0.1,
+  "rel20": -8.8,
+  "rel60": -4.9,
+  "volumeRatio20": 0.71
+ },
+ "reasons": [
+  "新規大量保有 5%（野村證券株式会社）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-07-01",
+   "detail": "9.3% → 10.32%（Ｎａｔｉｏｎａｌ　Ｉｎｄｅｍｎｉｔｙ　Ｃｏｍｐａｎｙ）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YO1O"
+  },
+  {
+   "date": "2026-08-06",
+   "detail": "5.42% → 4.4%（三井住友信託銀行株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YTXU"
+  },
+  {
+   "date": "2026-09-25",
+   "detail": "保有割合 5.03%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z41Z"
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}

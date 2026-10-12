@@ -1,0 +1,215 @@
+{
+ "company": {
+  "name": "日本製紙",
+  "securityCode": "3863",
+  "tradingViewSymbol": "TSE:3863"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "3863-2026-07-07",
+  "overextended": false,
+  "setupType": "RECOVERY",
+  "setups": [],
+  "startedAt": "2026-07-07",
+  "status": "REACTED",
+  "statusHistory": [
+   {
+    "date": "2026-07-07",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-07-07",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   },
+   {
+    "date": "2026-07-17",
+    "from": "WATCH",
+    "reason_code": "EXCESS_THRESHOLD",
+    "to": "REACTED"
+   }
+  ],
+  "watchStartedAt": "2026-07-07"
+ },
+ "eventReactions": [
+  {
+   "d1": 0.1,
+   "d20": 0.1,
+   "d5": 0.4,
+   "eventId": "edinet:S100YODA",
+   "excess5": 2.6
+  },
+  {
+   "d1": -5.1,
+   "d20": -12.2,
+   "d5": -9.1,
+   "eventId": "edinet:S100YRLU",
+   "excess5": -6.9
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 344500,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 4.21,
+  "sellBalance": 81800,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": 2.1,
+  "currentPrice": 1272.0,
+  "d20": {
+   "benchReturn": -0.6,
+   "excessReturn": -2.1,
+   "pendingDays": 0,
+   "stockReturn": -2.7
+  },
+  "d5": {
+   "benchReturn": -0.6,
+   "excessReturn": 2.2,
+   "pendingDays": 0,
+   "stockReturn": 1.6
+  },
+  "d60": {
+   "benchReturn": 4.0,
+   "excessReturn": -7.1,
+   "pendingDays": 0,
+   "stockReturn": -3.1
+  },
+  "excessReturn": -6.7,
+  "initialDate": "2026-07-07",
+  "initialPrice": 1334.0,
+  "stockReturn": -4.6
+ },
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.21,
+  "labels": [],
+  "ma20": 1304.4,
+  "ma200": 1285.4,
+  "ma60": 1362.7,
+  "rangePos60": 0.08,
+  "rel20": -2.5,
+  "rel60": -6.2,
+  "volumeRatio20": 1.08
+ },
+ "reasons": [
+  "1.1pt買い増し 8.7%→9.8%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-07-06",
+   "detail": "保有割合 5.38%（ブラックロック・ジャパン株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YODA"
+  },
+  {
+   "date": "2026-07-07",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-10",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-17",
+   "detail": "TOPIX連動ETFとの差が大きくなった",
+   "kind": "STATUS",
+   "label": "REACTED",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-23",
+   "detail": "8.73% → 9.78%（株式会社シティインデックスイレブンス）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YRLU"
+  },
+  {
+   "date": "2026-07-23",
+   "detail": "RECOVERY → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-24",
+   "detail": "TREND → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup変化",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-27",
+   "detail": "RECOVERY → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-30",
+   "detail": "TREND → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup変化",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-31",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-06",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-06",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-27",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-14",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-01",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}

@@ -1,0 +1,121 @@
+{
+ "company": {
+  "name": "三菱マテリアル",
+  "securityCode": "5711",
+  "tradingViewSymbol": "TSE:5711"
+ },
+ "episode": {
+  "closeReason": "NO_SETUP",
+  "closedAt": "2026-10-08",
+  "id": "5711-2026-09-07",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-09-07",
+  "status": "CLOSED",
+  "statusHistory": [
+   {
+    "date": "2026-09-07",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-10-08",
+    "from": "CANDIDATE",
+    "reason_code": "NO_SETUP",
+    "to": "CLOSED"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": 1.9,
+   "d20": 22.5,
+   "d5": -2.2,
+   "eventId": "edinet:S100YR14",
+   "excess5": -0.9
+  },
+  {
+   "d1": -2.5,
+   "d20": -10.6,
+   "d5": -1.9,
+   "eventId": "edinet:S100YYCJ",
+   "excess5": -4.0
+  },
+  {
+   "d1": 0.6,
+   "d20": -2.8,
+   "d5": -4.0,
+   "eventId": "edinet:S100Z0P5",
+   "excess5": -2.2
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 2451100,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 66.61,
+  "sellBalance": 36800,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.2,
+  "labels": [],
+  "ma20": 5031.4,
+  "ma200": 4778.8,
+  "ma60": 4885.3,
+  "rangePos60": 0.46,
+  "rel20": -6.6,
+  "rel60": 17.3,
+  "volumeRatio20": 0.88
+ },
+ "reasons": [
+  "新規大量保有 5.1%（野村證券株式会社）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-07-22",
+   "detail": "5.13% → 4.41%（三井住友トラスト・アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YR14"
+  },
+  {
+   "date": "2026-08-24",
+   "detail": "5.64% → 4.62%（シルチェスター・インターナショナル・インベスターズ・エルエルピー）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YYCJ"
+  },
+  {
+   "date": "2026-09-07",
+   "detail": "保有割合 5.06%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z0P5"
+  },
+  {
+   "date": "2026-10-06",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "期限内にPrice Setupが成立しなかった",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}

@@ -1,0 +1,286 @@
+{
+ "company": {
+  "name": "ラサ工業",
+  "securityCode": "4022",
+  "tradingViewSymbol": "TSE:4022"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "4022-2026-08-07",
+  "overextended": false,
+  "setupType": "RECOVERY",
+  "setups": [
+   "RECOVERY"
+  ],
+  "startedAt": "2026-08-07",
+  "status": "REACTED",
+  "statusHistory": [
+   {
+    "date": "2026-08-07",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-08-13",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   },
+   {
+    "date": "2026-08-17",
+    "from": "WATCH",
+    "reason_code": "RETURN_THRESHOLD",
+    "to": "REACTED"
+   }
+  ],
+  "watchStartedAt": "2026-08-13"
+ },
+ "eventReactions": [
+  {
+   "d1": 3.0,
+   "d20": -12.0,
+   "d5": 6.3,
+   "eventId": "edinet:S100YUCH",
+   "excess5": 3.0
+  },
+  {
+   "d1": -0.6,
+   "d20": -17.7,
+   "d5": -2.5,
+   "eventId": "edinet:S100YXIO",
+   "excess5": -5.1
+  },
+  {
+   "d1": -3.8,
+   "d20": -18.3,
+   "d5": -1.2,
+   "eventId": "edinet:S100YXQC",
+   "excess5": -2.8
+  },
+  {
+   "d1": 1.8,
+   "d20": 13.1,
+   "d5": -0.6,
+   "eventId": "edinet:S100Z0BP",
+   "excess5": 0.5
+  },
+  {
+   "d1": -4.8,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z3EA",
+   "excess5": null
+  },
+  {
+   "d1": -4.8,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z4P6",
+   "excess5": null
+  },
+  {
+   "d1": 1.6,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z62K",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 2976700,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 16.78,
+  "sellBalance": 177400,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": -0.7,
+  "currentPrice": 2050.0,
+  "d20": {
+   "benchReturn": -2.9,
+   "excessReturn": -8.9,
+   "pendingDays": 0,
+   "stockReturn": -11.8
+  },
+  "d5": {
+   "benchReturn": -2.9,
+   "excessReturn": 4.1,
+   "pendingDays": 0,
+   "stockReturn": 1.2
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 22,
+   "stockReturn": null
+  },
+  "excessReturn": -4.0,
+  "initialDate": "2026-08-13",
+  "initialPrice": 2150.1,
+  "stockReturn": -4.7
+ },
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.26,
+  "labels": [
+   "20日線の上",
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 1933.5,
+  "ma200": 1831.1,
+  "ma60": 1995.1,
+  "rangePos60": 0.51,
+  "rel20": 4.3,
+  "rel60": 4.0,
+  "volumeRatio20": 0.82
+ },
+ "reasons": [
+  "新規大量保有 5.6%（森谷　誠司）",
+  "20日線上向き",
+  "TOPIX連動ETF比 +4.3pt（20日）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-08-07",
+   "detail": "保有割合 5.15%（ゴールドマン・サックス・インターナショナル）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YUCH"
+  },
+  {
+   "date": "2026-08-13",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-13",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-17",
+   "detail": "Watch開始後の値上がりが大きくなった",
+   "kind": "STATUS",
+   "label": "REACTED",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-20",
+   "detail": "保有割合 5.25%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YXIO"
+  },
+  {
+   "date": "2026-08-20",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-21",
+   "detail": "5.15% → 4.47%（ゴールドマン・サックス・インターナショナル）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YXQC"
+  },
+  {
+   "date": "2026-08-26",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-26",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-26",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-28",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-04",
+   "detail": "5.25% → 4.3%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z0BP"
+  },
+  {
+   "date": "2026-09-30",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-30",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-02",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-06",
+   "detail": "保有割合 5.38%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z62K"
+  },
+  {
+   "date": "2026-10-06",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "5.01% → 0%（船橋　光和）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z3EA"
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "保有割合 5.62%（森谷　誠司）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z4P6"
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}

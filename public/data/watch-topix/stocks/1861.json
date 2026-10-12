@@ -1,0 +1,165 @@
+{
+ "company": {
+  "name": "熊谷組",
+  "securityCode": "1861",
+  "tradingViewSymbol": "TSE:1861"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "1861-2026-10-05",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-10-05",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-10-05",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": -0.6,
+   "d20": -0.2,
+   "d5": 2.7,
+   "eventId": "edinet:S100YN71",
+   "excess5": 0.8
+  },
+  {
+   "d1": -0.6,
+   "d20": -0.2,
+   "d5": 2.7,
+   "eventId": "edinet:S100YNES",
+   "excess5": 0.8
+  },
+  {
+   "d1": -2.9,
+   "d20": -9.7,
+   "d5": -8.8,
+   "eventId": "edinet:S100YUQ8",
+   "excess5": -12.1
+  },
+  {
+   "d1": 0.4,
+   "d20": -3.9,
+   "d5": -1.0,
+   "eventId": "edinet:S100Z0EZ",
+   "excess5": 0.8
+  },
+  {
+   "d1": -0.6,
+   "d20": null,
+   "d5": -2.9,
+   "eventId": "edinet:S100Z2NY",
+   "excess5": -4.1
+  },
+  {
+   "d1": -0.8,
+   "d20": null,
+   "d5": -2.8,
+   "eventId": "edinet:S100Z3LF",
+   "excess5": -5.1
+  },
+  {
+   "d1": -0.6,
+   "d20": null,
+   "d5": -3.8,
+   "eventId": "edinet:S100Z62Z",
+   "excess5": -4.3
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 951600,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 22.29,
+  "sellBalance": 42700,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-07-31",
+   "id": "1861-2026-07-01",
+   "setupType": "RECOVERY",
+   "startedAt": "2026-07-01"
+  }
+ ],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.39,
+  "labels": [],
+  "ma20": 1258.8,
+  "ma200": 1479.7,
+  "ma60": 1312.3,
+  "rangePos60": 0.04,
+  "rel20": -8.6,
+  "rel60": -20.3,
+  "volumeRatio20": 1.11
+ },
+ "reasons": [
+  "新規大量保有 5.2%（ＪＰモルガン証券株式会社）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-07-01",
+   "detail": "5.09% → 0%（新妻　尚祐）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YN71"
+  },
+  {
+   "date": "2026-07-01",
+   "detail": "保有割合 5.61%（片山　篤）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YNES"
+  },
+  {
+   "date": "2026-08-07",
+   "detail": "6.74% → 5.69%（アセットマネジメントＯｎｅ株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YUQ8"
+  },
+  {
+   "date": "2026-09-07",
+   "detail": "8.22% → 6.22%（キャピタル・リサーチ・アンド・マネージメント・カンパニー）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z0EZ"
+  },
+  {
+   "date": "2026-09-24",
+   "detail": "8.94% → 7.59%（三井住友トラスト・アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z2NY"
+  },
+  {
+   "date": "2026-09-25",
+   "detail": "6.22% → 4.84%（キャピタル・リサーチ・アンド・マネージメント・カンパニー）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z3LF"
+  },
+  {
+   "date": "2026-10-05",
+   "detail": "保有割合 5.21%（ＪＰモルガン証券株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z62Z"
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}

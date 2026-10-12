@@ -1,0 +1,176 @@
+{
+ "company": {
+  "name": "小林製薬",
+  "securityCode": "4967",
+  "tradingViewSymbol": "TSE:4967"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "4967-2026-09-10",
+  "overextended": true,
+  "setupType": "TREND",
+  "setups": [
+   "TREND"
+  ],
+  "startedAt": "2026-09-10",
+  "status": "REACTED",
+  "statusHistory": [
+   {
+    "date": "2026-09-10",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-09-10",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   },
+   {
+    "date": "2026-09-25",
+    "from": "WATCH",
+    "reason_code": "RETURN_THRESHOLD",
+    "to": "REACTED"
+   }
+  ],
+  "watchStartedAt": "2026-09-10"
+ },
+ "eventReactions": [
+  {
+   "d1": 1.4,
+   "d20": null,
+   "d5": 1.7,
+   "eventId": "edinet:S100Z130",
+   "excess5": 1.1
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 94100,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 0.91,
+  "sellBalance": 103800,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": 2.3,
+  "currentPrice": 7238.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 2,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": 1.1,
+   "excessReturn": 0.4,
+   "pendingDays": 0,
+   "stockReturn": 1.5
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 42,
+   "stockReturn": null
+  },
+  "excessReturn": 23.0,
+  "initialDate": "2026-09-10",
+  "initialPrice": 5777.0,
+  "stockReturn": 25.3
+ },
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.0,
+  "labels": [
+   "20日線の上",
+   "60日レンジ上位1%",
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 6481.6,
+  "ma200": 5672.6,
+  "ma60": 5896.6,
+  "rangePos60": 0.99,
+  "rel20": 20.0,
+  "rel60": 28.1,
+  "volumeRatio20": 0.67
+ },
+ "reasons": [
+  "1pt買い増し 13.4%→14.4%",
+  "60日レンジ上位1%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +20pt（20日）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-09-09",
+   "detail": "13.37% → 14.41%（Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z130"
+  },
+  {
+   "date": "2026-09-10",
+   "detail": "TREND → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup変化",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-10",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-25",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-25",
+   "detail": "BREAKOUT → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-25",
+   "detail": "Watch開始後の値上がりが大きくなった",
+   "kind": "STATUS",
+   "label": "REACTED",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-28",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-02",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}

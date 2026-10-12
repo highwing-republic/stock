@@ -1,0 +1,398 @@
+{
+ "company": {
+  "name": "前田工繊",
+  "securityCode": "7821",
+  "tradingViewSymbol": "TSE:7821"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "7821-2026-06-18",
+  "overextended": true,
+  "setupType": "TREND",
+  "setups": [],
+  "startedAt": "2026-06-18",
+  "status": "REACTED",
+  "statusHistory": [
+   {
+    "date": "2026-06-18",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-07-03",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   },
+   {
+    "date": "2026-07-23",
+    "from": "WATCH",
+    "reason_code": "INCREASE_EVENT",
+    "to": "STRENGTHENING"
+   },
+   {
+    "date": "2026-07-29",
+    "from": "STRENGTHENING",
+    "reason_code": "NEW_HIGH60_VOLUME",
+    "to": "CONFIRMED"
+   },
+   {
+    "date": "2026-07-30",
+    "from": "CONFIRMED",
+    "reason_code": "EXCESS_THRESHOLD",
+    "to": "REACTED"
+   }
+  ],
+  "watchStartedAt": "2026-07-03"
+ },
+ "eventReactions": [
+  {
+   "d1": -0.9,
+   "d20": 8.2,
+   "d5": 1.0,
+   "eventId": "edinet:S100YCM5",
+   "excess5": 2.3
+  },
+  {
+   "d1": 0.6,
+   "d20": 10.9,
+   "d5": 6.8,
+   "eventId": "edinet:S100YRCZ",
+   "excess5": 8.1
+  },
+  {
+   "d1": 1.5,
+   "d20": null,
+   "d5": 1.7,
+   "eventId": "edinet:S100Z1D2",
+   "excess5": -0.4
+  },
+  {
+   "d1": -0.6,
+   "d20": null,
+   "d5": -2.0,
+   "eventId": "edinet:S100Z2HH",
+   "excess5": -3.2
+  },
+  {
+   "d1": -0.6,
+   "d20": null,
+   "d5": -2.0,
+   "eventId": "edinet:S100Z2R4",
+   "excess5": -3.2
+  },
+  {
+   "d1": 0.2,
+   "d20": null,
+   "d5": -1.4,
+   "eventId": "edinet:S100Z3BK",
+   "excess5": -3.7
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 33300,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 8.32,
+  "sellBalance": 4000,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": 2.1,
+  "currentPrice": 1960.0,
+  "d20": {
+   "benchReturn": -2.8,
+   "excessReturn": 7.9,
+   "pendingDays": 0,
+   "stockReturn": 5.1
+  },
+  "d5": {
+   "benchReturn": -0.3,
+   "excessReturn": 0.5,
+   "pendingDays": 0,
+   "stockReturn": 0.2
+  },
+  "d60": {
+   "benchReturn": 1.6,
+   "excessReturn": 3.5,
+   "pendingDays": 0,
+   "stockReturn": 5.1
+  },
+  "excessReturn": 4.1,
+  "initialDate": "2026-07-03",
+  "initialPrice": 1845.0,
+  "stockReturn": 6.2
+ },
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.12,
+  "labels": [
+   "20日線の上"
+  ],
+  "ma20": 1953.2,
+  "ma200": 1917.1,
+  "ma60": 1961.5,
+  "rangePos60": 0.45,
+  "rel20": -2.1,
+  "rel60": 3.5,
+  "volumeRatio20": 1.07
+ },
+ "reasons": [
+  "5.5pt買い増し 21.9%→27.4%",
+  "30日以内に2回買い増し"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-06-17",
+   "detail": "6.07% → 7.16%（スパークス・アセット・マネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCM5"
+  },
+  {
+   "date": "2026-06-22",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-06-24",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-06-29",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-02",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-03",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-03",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-03",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-23",
+   "detail": "6.58% → 6.62%（Ｆｉｄｅｌｉｔｙ　Ｍａｎａｇｅｍｅｎｔ　＆　Ｒｅｓｅａｒｃｈ　Ｃｏｍｐａｎｙ　ＬＬＣ）",
+   "kind": "EVENT",
+   "label": "買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YRCZ"
+  },
+  {
+   "date": "2026-07-23",
+   "detail": "大量保有の買い増しを確認",
+   "kind": "STATUS",
+   "label": "STRENGTHENING",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-29",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-29",
+   "detail": "60日高値を出来高増で更新",
+   "kind": "STATUS",
+   "label": "CONFIRMED",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-30",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-30",
+   "detail": "TOPIX連動ETFとの差が大きくなった",
+   "kind": "STATUS",
+   "label": "REACTED",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-03",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-04",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-05",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-06",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-07",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-10",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-10",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-19",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-20",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-31",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-02",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-03",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-16",
+   "detail": "21.89% → 21.9%（前田尚宏）",
+   "kind": "EVENT",
+   "label": "買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z1D2"
+  },
+  {
+   "date": "2026-09-17",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-24",
+   "detail": "7.59% → 0%（前田　佳宏）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z2R4"
+  },
+  {
+   "date": "2026-09-24",
+   "detail": "6.62% → 7.56%（Ｆｉｄｅｌｉｔｙ　Ｍａｎａｇｅｍｅｎｔ　＆　Ｒｅｓｅａｒｃｈ　Ｃｏｍｐａｎｙ　ＬＬＣ）",
+   "kind": "EVENT",
+   "label": "買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z3BK"
+  },
+  {
+   "date": "2026-09-24",
+   "detail": "21.9% → 27.35%（前田尚宏）",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z2HH"
+  },
+  {
+   "date": "2026-09-30",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}

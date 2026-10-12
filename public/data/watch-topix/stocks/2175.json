@@ -1,0 +1,366 @@
+{
+ "company": {
+  "name": "エス・エム・エス",
+  "securityCode": "2175",
+  "tradingViewSymbol": "TSE:2175"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "2175-2026-08-07",
+  "overextended": false,
+  "setupType": "BREAKOUT",
+  "setups": [
+   "BREAKOUT",
+   "TREND"
+  ],
+  "startedAt": "2026-08-07",
+  "status": "REACTED",
+  "statusHistory": [
+   {
+    "date": "2026-08-07",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-08-21",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   },
+   {
+    "date": "2026-08-28",
+    "from": "WATCH",
+    "reason_code": "REL20_POSITIVE",
+    "to": "STRENGTHENING"
+   },
+   {
+    "date": "2026-09-11",
+    "from": "STRENGTHENING",
+    "reason_code": "EXCESS_THRESHOLD",
+    "to": "REACTED"
+   }
+  ],
+  "watchStartedAt": "2026-08-21"
+ },
+ "eventReactions": [
+  {
+   "d1": 0.0,
+   "d20": -0.8,
+   "d5": -9.1,
+   "eventId": "edinet:S100YR7P",
+   "excess5": -6.9
+  },
+  {
+   "d1": -0.8,
+   "d20": -9.4,
+   "d5": -5.1,
+   "eventId": "edinet:S100YRBQ",
+   "excess5": -3.8
+  },
+  {
+   "d1": -0.4,
+   "d20": 9.4,
+   "d5": 2.2,
+   "eventId": "edinet:S100YTXX",
+   "excess5": -1.1
+  },
+  {
+   "d1": 3.8,
+   "d20": 17.4,
+   "d5": 5.8,
+   "eventId": "edinet:S100YXBF",
+   "excess5": 4.2
+  },
+  {
+   "d1": 0.9,
+   "d20": 3.7,
+   "d5": 2.2,
+   "eventId": "edinet:S100YZ18",
+   "excess5": 5.3
+  },
+  {
+   "d1": 2.0,
+   "d20": 4.8,
+   "d5": 2.6,
+   "eventId": "edinet:S100YZT5",
+   "excess5": 4.4
+  },
+  {
+   "d1": 1.8,
+   "d20": null,
+   "d5": 5.4,
+   "eventId": "edinet:S100Z0TO",
+   "excess5": 4.3
+  },
+  {
+   "d1": 0.9,
+   "d20": null,
+   "d5": -0.6,
+   "eventId": "edinet:S100Z1UF",
+   "excess5": -1.6
+  },
+  {
+   "d1": -0.8,
+   "d20": null,
+   "d5": 0.1,
+   "eventId": "edinet:S100Z32S",
+   "excess5": -1.1
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 91400,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 1.52,
+  "sellBalance": 60200,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-07-31",
+   "id": "2175-2026-07-22",
+   "setupType": "TREND",
+   "startedAt": "2026-07-22"
+  }
+ ],
+ "performance": {
+  "benchReturn": 2.0,
+  "currentPrice": 2642.0,
+  "d20": {
+   "benchReturn": 0.5,
+   "excessReturn": 12.5,
+   "pendingDays": 0,
+   "stockReturn": 13.0
+  },
+  "d5": {
+   "benchReturn": 1.9,
+   "excessReturn": 2.2,
+   "pendingDays": 0,
+   "stockReturn": 4.1
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 28,
+   "stockReturn": null
+  },
+  "excessReturn": 9.7,
+  "initialDate": "2026-08-21",
+  "initialPrice": 2366.0,
+  "stockReturn": 11.7
+ },
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.02,
+  "labels": [
+   "20日線の上",
+   "60日レンジ上位11%",
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 2629.5,
+  "ma200": 1958.7,
+  "ma60": 2463.0,
+  "rangePos60": 0.89,
+  "rel20": 1.9,
+  "rel60": 10.3,
+  "volumeRatio20": 0.72
+ },
+ "reasons": [
+  "1pt買い増し 25.9%→27%",
+  "30日以内に2回買い増し",
+  "60日レンジ上位11%",
+  "20日線を回復"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-07-22",
+   "detail": "5.16% → 6.29%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YRBQ"
+  },
+  {
+   "date": "2026-07-23",
+   "detail": "18.3% → 19.31%（Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YR7P"
+  },
+  {
+   "date": "2026-08-06",
+   "detail": "19.31% → 20.31%（Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．）",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YTXX"
+  },
+  {
+   "date": "2026-08-14",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-20",
+   "detail": "20.31% → 21.34%（Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．）",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YXBF"
+  },
+  {
+   "date": "2026-08-21",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-21",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-21",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-28",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-28",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "STATUS",
+   "label": "STRENGTHENING",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-01",
+   "detail": "21.34% → 22.38%（Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．）",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YZ18"
+  },
+  {
+   "date": "2026-09-02",
+   "detail": "TREND → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup変化",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-03",
+   "detail": "BREAKOUT → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup変化",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-04",
+   "detail": "22.38% → 24.65%（Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．）",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YZT5"
+  },
+  {
+   "date": "2026-09-10",
+   "detail": "24.65% → 25.93%（Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．）",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z0TO"
+  },
+  {
+   "date": "2026-09-11",
+   "detail": "TOPIX連動ETFとの差が大きくなった",
+   "kind": "STATUS",
+   "label": "REACTED",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-14",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-16",
+   "detail": "25.93% → 26.97%（Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．）",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z1UF"
+  },
+  {
+   "date": "2026-09-18",
+   "detail": "TREND → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup変化",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-24",
+   "detail": "6.29% → 5.72%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z32S"
+  },
+  {
+   "date": "2026-10-02",
+   "detail": "BREAKOUT → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "なし → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "BREAKOUT → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "なし → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}

@@ -1,0 +1,197 @@
+{
+ "company": {
+  "name": "IDEC",
+  "securityCode": "6652",
+  "tradingViewSymbol": "TSE:6652"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "6652-2026-09-04",
+  "overextended": false,
+  "setupType": "TREND",
+  "setups": [
+   "TREND",
+   "RECOVERY"
+  ],
+  "startedAt": "2026-09-04",
+  "status": "REACTED",
+  "statusHistory": [
+   {
+    "date": "2026-09-04",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-09-16",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   },
+   {
+    "date": "2026-10-05",
+    "from": "WATCH",
+    "reason_code": "NEW_HIGH60_VOLUME",
+    "to": "CONFIRMED"
+   },
+   {
+    "date": "2026-10-06",
+    "from": "CONFIRMED",
+    "reason_code": "EXCESS_THRESHOLD",
+    "to": "REACTED"
+   }
+  ],
+  "watchStartedAt": "2026-09-16"
+ },
+ "eventReactions": [
+  {
+   "d1": -0.3,
+   "d20": 15.3,
+   "d5": -1.6,
+   "eventId": "edinet:S100YZWF",
+   "excess5": -0.5
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 87400,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 4.37,
+  "sellBalance": 20000,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": 2.0,
+  "currentPrice": 4065.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 6,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": 1.0,
+   "excessReturn": 3.1,
+   "pendingDays": 0,
+   "stockReturn": 4.1
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 46,
+   "stockReturn": null
+  },
+  "excessReturn": 10.4,
+  "initialDate": "2026-09-16",
+  "initialPrice": 3617.5,
+  "stockReturn": 12.4
+ },
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.04,
+  "labels": [
+   "20日線の上",
+   "60日レンジ上位13%",
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 3777.8,
+  "ma200": 3230.4,
+  "ma60": 3574.3,
+  "rangePos60": 0.87,
+  "rel20": 13.9,
+  "rel60": 22.1,
+  "volumeRatio20": 1.69
+ },
+ "reasons": [
+  "新規大量保有 5.1%（三井住友トラスト・アセットマネジメント株式会社）",
+  "60日レンジ上位13%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +13.9pt（20日）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-09-04",
+   "detail": "保有割合 5.11%（三井住友トラスト・アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YZWF"
+  },
+  {
+   "date": "2026-09-16",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-16",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-16",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-16",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-01",
+   "detail": "TREND → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup変化",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-05",
+   "detail": "BREAKOUT → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup変化",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-05",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-05",
+   "detail": "60日高値を出来高増で更新",
+   "kind": "STATUS",
+   "label": "CONFIRMED",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-06",
+   "detail": "TOPIX連動ETFとの差が大きくなった",
+   "kind": "STATUS",
+   "label": "REACTED",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}

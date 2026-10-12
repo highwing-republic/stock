@@ -1,0 +1,215 @@
+{
+ "company": {
+  "name": "ライフネット生命保険",
+  "securityCode": "7157",
+  "tradingViewSymbol": "TSE:7157"
+ },
+ "episode": {
+  "closeReason": "BROKEN",
+  "closedAt": "2026-10-09",
+  "id": "7157-2026-09-15",
+  "overextended": false,
+  "setupType": "RECOVERY",
+  "setups": [
+   "RECOVERY"
+  ],
+  "startedAt": "2026-09-15",
+  "status": "CLOSED",
+  "statusHistory": [
+   {
+    "date": "2026-09-15",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-10-05",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   },
+   {
+    "date": "2026-10-08",
+    "from": "WATCH",
+    "reason_code": "BELOW_MA60",
+    "to": "BROKEN"
+   },
+   {
+    "date": "2026-10-09",
+    "from": "BROKEN",
+    "reason_code": "BROKEN",
+    "to": "CLOSED"
+   }
+  ],
+  "watchStartedAt": "2026-10-05"
+ },
+ "eventReactions": [
+  {
+   "d1": -1.9,
+   "d20": -1.7,
+   "d5": -10.0,
+   "eventId": "edinet:S100YFHQ",
+   "excess5": -7.8
+  },
+  {
+   "d1": -4.0,
+   "d20": 1.3,
+   "d5": -6.0,
+   "eventId": "edinet:S100YGHY",
+   "excess5": -3.1
+  },
+  {
+   "d1": 1.0,
+   "d20": null,
+   "d5": -1.7,
+   "eventId": "edinet:S100Z1FP",
+   "excess5": -2.1
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 432200,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 5.8,
+  "sellBalance": 74500,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-07-14",
+   "id": "7157-2026-06-22",
+   "setupType": "RECOVERY",
+   "startedAt": "2026-06-22"
+  }
+ ],
+ "performance": {
+  "benchReturn": -0.9,
+  "currentPrice": 1524.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 16,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 1,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 56,
+   "stockReturn": null
+  },
+  "excessReturn": 2.8,
+  "initialDate": "2026-10-05",
+  "initialPrice": 1496.0,
+  "stockReturn": 1.9
+ },
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.36,
+  "labels": [
+   "20日線の上",
+   "20日線が上向き"
+  ],
+  "ma20": 1451.3,
+  "ma200": 1823.5,
+  "ma60": 1535.8,
+  "rangePos60": 0.42,
+  "rel20": 5.3,
+  "rel60": -10.8,
+  "volumeRatio20": 0.87
+ },
+ "reasons": [
+  "1pt買い増し 7.4%→8.4%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +5.3pt（20日）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-06-19",
+   "detail": "保有割合 18.33%（日本航空株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFHQ"
+  },
+  {
+   "date": "2026-06-22",
+   "detail": "18.33% → 0%（ａｕフィナンシャルホールディングス株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YGHY"
+  },
+  {
+   "date": "2026-09-14",
+   "detail": "7.39% → 8.39%（ありあけキャピタル株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z1FP"
+  },
+  {
+   "date": "2026-09-17",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-28",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-30",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-01",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-05",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-05",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "60日線を下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "Price Setupが崩れた",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}

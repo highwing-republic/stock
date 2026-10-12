@@ -1,0 +1,176 @@
+{
+ "company": {
+  "name": "日清紡ホールディングス",
+  "securityCode": "3105",
+  "tradingViewSymbol": "TSE:3105"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "3105-2026-09-25",
+  "overextended": false,
+  "setupType": "TREND",
+  "setups": [
+   "TREND"
+  ],
+  "startedAt": "2026-09-25",
+  "status": "STRENGTHENING",
+  "statusHistory": [
+   {
+    "date": "2026-09-25",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-09-25",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   },
+   {
+    "date": "2026-09-28",
+    "from": "WATCH",
+    "reason_code": "SETUP_IMPROVED",
+    "to": "STRENGTHENING"
+   }
+  ],
+  "watchStartedAt": "2026-09-25"
+ },
+ "eventReactions": [
+  {
+   "d1": 1.6,
+   "d20": null,
+   "d5": 5.3,
+   "eventId": "edinet:S100Z3W4",
+   "excess5": 3.0
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 310000,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 2.42,
+  "sellBalance": 128000,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": 0.5,
+  "currentPrice": 2664.5,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 10,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": -0.0,
+   "excessReturn": 5.5,
+   "pendingDays": 0,
+   "stockReturn": 5.5
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 50,
+   "stockReturn": null
+  },
+  "excessReturn": 3.6,
+  "initialDate": "2026-09-25",
+  "initialPrice": 2559.0,
+  "stockReturn": 4.1
+ },
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.06,
+  "labels": [
+   "20日線の上",
+   "60日レンジ上位21%",
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 2527.0,
+  "ma200": 1962.0,
+  "ma60": 2345.3,
+  "rangePos60": 0.79,
+  "rel20": 17.9,
+  "rel60": 17.3,
+  "volumeRatio20": 1.1
+ },
+ "reasons": [
+  "新規大量保有 5.1%（三井住友ＤＳアセットマネジメント株式会社）",
+  "60日レンジ上位21%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +17.9pt（20日）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-09-25",
+   "detail": "保有割合 5.06%（三井住友ＤＳアセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z3W4"
+  },
+  {
+   "date": "2026-09-25",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-28",
+   "detail": "RECOVERY → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-28",
+   "detail": "Price Setupが改善",
+   "kind": "STATUS",
+   "label": "STRENGTHENING",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-02",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-05",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "TREND → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup変化",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "BREAKOUT → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup変化",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}

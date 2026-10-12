@@ -1,0 +1,235 @@
+{
+ "company": {
+  "name": "リョービ",
+  "securityCode": "5851",
+  "tradingViewSymbol": "TSE:5851"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "5851-2026-09-16",
+  "overextended": false,
+  "setupType": "TREND",
+  "setups": [],
+  "startedAt": "2026-09-16",
+  "status": "BROKEN",
+  "statusHistory": [
+   {
+    "date": "2026-09-16",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-09-17",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   },
+   {
+    "date": "2026-09-30",
+    "from": "WATCH",
+    "reason_code": "SETUP_IMPROVED",
+    "to": "STRENGTHENING"
+   },
+   {
+    "date": "2026-10-09",
+    "from": "STRENGTHENING",
+    "reason_code": "BELOW_MA20",
+    "to": "BROKEN"
+   }
+  ],
+  "watchStartedAt": "2026-09-17"
+ },
+ "eventReactions": [
+  {
+   "d1": 1.5,
+   "d20": 0.7,
+   "d5": 5.2,
+   "eventId": "edinet:S100YUSB",
+   "excess5": 1.9
+  },
+  {
+   "d1": 1.5,
+   "d20": null,
+   "d5": 3.7,
+   "eventId": "edinet:S100Z27P",
+   "excess5": 1.6
+  },
+  {
+   "d1": 1.0,
+   "d20": null,
+   "d5": -1.3,
+   "eventId": "edinet:S100Z61H",
+   "excess5": -1.8
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 122600,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 4.72,
+  "sellBalance": 26000,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": 1.2,
+  "currentPrice": 2666.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 7,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": -0.5,
+   "excessReturn": -2.3,
+   "pendingDays": 0,
+   "stockReturn": -2.8
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 47,
+   "stockReturn": null
+  },
+  "excessReturn": -5.1,
+  "initialDate": "2026-09-17",
+  "initialPrice": 2773.0,
+  "stockReturn": -3.9
+ },
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.11,
+  "labels": [],
+  "ma20": 2707.2,
+  "ma200": 2649.3,
+  "ma60": 2688.7,
+  "rangePos60": 0.52,
+  "rel20": -3.8,
+  "rel60": 2.9,
+  "volumeRatio20": 0.89
+ },
+ "reasons": [
+  "1pt買い増し 5.9%→6.9%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-08-06",
+   "detail": "6.53% → 5.45%（明治安田生命保険相互会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YUSB"
+  },
+  {
+   "date": "2026-09-16",
+   "detail": "5.91% → 6.91%（後藤　展幸）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z27P"
+  },
+  {
+   "date": "2026-09-17",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-17",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-17",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-18",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-25",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-30",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-30",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-30",
+   "detail": "Price Setupが改善",
+   "kind": "STATUS",
+   "label": "STRENGTHENING",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-01",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-02",
+   "detail": "5.45% → 4.41%（明治安田生命保険相互会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z61H"
+  },
+  {
+   "date": "2026-10-05",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-05",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "20日線を連続で下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}

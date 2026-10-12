@@ -1,0 +1,286 @@
+{
+ "company": {
+  "name": "ニトリホールディングス",
+  "securityCode": "9843",
+  "tradingViewSymbol": "TSE:9843"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "9843-2026-07-23",
+  "overextended": true,
+  "setupType": "TREND",
+  "setups": [
+   "TREND"
+  ],
+  "startedAt": "2026-07-23",
+  "status": "REACTED",
+  "statusHistory": [
+   {
+    "date": "2026-07-23",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-07-27",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   },
+   {
+    "date": "2026-07-29",
+    "from": "WATCH",
+    "reason_code": "EXCESS_THRESHOLD",
+    "to": "REACTED"
+   }
+  ],
+  "watchStartedAt": "2026-07-27"
+ },
+ "eventReactions": [
+  {
+   "d1": 1.5,
+   "d20": 12.9,
+   "d5": 1.7,
+   "eventId": "edinet:S100YO7H",
+   "excess5": 2.0
+  },
+  {
+   "d1": 0.4,
+   "d20": 28.4,
+   "d5": 14.8,
+   "eventId": "edinet:S100YR5Z",
+   "excess5": 16.1
+  },
+  {
+   "d1": -0.2,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z6RR",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 984400,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 2.82,
+  "sellBalance": 349100,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": 1.9,
+  "currentPrice": 3176.0,
+  "d20": {
+   "benchReturn": 0.6,
+   "excessReturn": 21.5,
+   "pendingDays": 0,
+   "stockReturn": 22.1
+  },
+  "d5": {
+   "benchReturn": -2.9,
+   "excessReturn": 7.9,
+   "pendingDays": 0,
+   "stockReturn": 5.0
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 10,
+   "stockReturn": null
+  },
+  "excessReturn": 25.0,
+  "initialDate": "2026-07-27",
+  "initialPrice": 2502.4,
+  "stockReturn": 26.9
+ },
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.08,
+  "labels": [
+   "20日線の上",
+   "60日レンジ上位22%",
+   "60日線の上"
+  ],
+  "ma20": 3092.3,
+  "ma200": 2697.2,
+  "ma60": 2897.4,
+  "rangePos60": 0.78,
+  "rel20": -8.3,
+  "rel60": 31.7,
+  "volumeRatio20": 0.79
+ },
+ "reasons": [
+  "1pt買い増し 5%→6%",
+  "60日レンジ上位22%",
+  "52週高値まで8%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-07-06",
+   "detail": "6.3% → 7.26%（三井住友信託銀行株式会社）",
+   "kind": "EVENT",
+   "label": "買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YO7H"
+  },
+  {
+   "date": "2026-07-23",
+   "detail": "5.01% → 6.01%（キャピタル・リサーチ・アンド・マネージメント・カンパニー）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YR5Z"
+  },
+  {
+   "date": "2026-07-24",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-27",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-27",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-27",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-27",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-29",
+   "detail": "TOPIX連動ETFとの差が大きくなった",
+   "kind": "STATUS",
+   "label": "REACTED",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-07",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-10",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-18",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-19",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-25",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-03",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-03",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-08",
+   "detail": "TREND → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup変化",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-08",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-15",
+   "detail": "BREAKOUT → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup変化",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-16",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-02",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-05",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-05",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "6.73% → 6.87%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z6RR"
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}

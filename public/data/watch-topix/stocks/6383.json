@@ -1,0 +1,165 @@
+{
+ "company": {
+  "name": "ダイフク",
+  "securityCode": "6383",
+  "tradingViewSymbol": "TSE:6383"
+ },
+ "episode": {
+  "closeReason": "BROKEN",
+  "closedAt": "2026-10-09",
+  "id": "6383-2026-10-06",
+  "overextended": false,
+  "setupType": "RECOVERY",
+  "setups": [
+   "RECOVERY"
+  ],
+  "startedAt": "2026-10-06",
+  "status": "CLOSED",
+  "statusHistory": [
+   {
+    "date": "2026-10-06",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-10-06",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   },
+   {
+    "date": "2026-10-08",
+    "from": "WATCH",
+    "reason_code": "BELOW_MA60",
+    "to": "BROKEN"
+   },
+   {
+    "date": "2026-10-09",
+    "from": "BROKEN",
+    "reason_code": "BROKEN",
+    "to": "CLOSED"
+   }
+  ],
+  "watchStartedAt": "2026-10-06"
+ },
+ "eventReactions": [
+  {
+   "d1": -0.9,
+   "d20": -8.5,
+   "d5": -9.8,
+   "eventId": "edinet:S100YROM",
+   "excess5": -8.5
+  },
+  {
+   "d1": 0.4,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z5XS",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 738000,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 24.36,
+  "sellBalance": 30300,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": -1.8,
+  "currentPrice": 5773.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 17,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 2,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 57,
+   "stockReturn": null
+  },
+  "excessReturn": -0.3,
+  "initialDate": "2026-10-06",
+  "initialPrice": 5899.0,
+  "stockReturn": -2.1
+ },
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.26,
+  "labels": [
+   "20日線の上",
+   "20日線が上向き"
+  ],
+  "ma20": 5615.6,
+  "ma200": 6088.2,
+  "ma60": 5908.6,
+  "rangePos60": 0.3,
+  "rel20": 1.7,
+  "rel60": -18.4,
+  "volumeRatio20": 0.98
+ },
+ "reasons": [
+  "1.1pt買い増し 7.8%→8.9%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +1.7pt（20日）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-07-23",
+   "detail": "5.72% → 4.71%（株式会社みずほ銀行）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YROM"
+  },
+  {
+   "date": "2026-10-05",
+   "detail": "7.78% → 8.86%（ブラックロック・ジャパン株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z5XS"
+  },
+  {
+   "date": "2026-10-06",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "60日線を下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "Price Setupが崩れた",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}

@@ -1,0 +1,179 @@
+{
+ "company": {
+  "name": "サワイグループホールディングス",
+  "securityCode": "4887",
+  "tradingViewSymbol": "TSE:4887"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "4887-2026-09-28",
+  "overextended": false,
+  "setupType": "RECOVERY",
+  "setups": [],
+  "startedAt": "2026-09-28",
+  "status": "STRENGTHENING",
+  "statusHistory": [
+   {
+    "date": "2026-09-28",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-09-28",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   },
+   {
+    "date": "2026-10-05",
+    "from": "WATCH",
+    "reason_code": "SETUP_IMPROVED",
+    "to": "STRENGTHENING"
+   }
+  ],
+  "watchStartedAt": "2026-09-28"
+ },
+ "eventReactions": [
+  {
+   "d1": -0.0,
+   "d20": -4.3,
+   "d5": -0.4,
+   "eventId": "edinet:S100YRFS",
+   "excess5": 0.9
+  },
+  {
+   "d1": 0.2,
+   "d20": null,
+   "d5": -3.0,
+   "eventId": "edinet:S100Z48W",
+   "excess5": -3.0
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 391800,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 4.64,
+  "sellBalance": 84400,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": 1.0,
+  "currentPrice": 1629.5,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 11,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": 1.9,
+   "excessReturn": -4.6,
+   "pendingDays": 0,
+   "stockReturn": -2.7
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 51,
+   "stockReturn": null
+  },
+  "excessReturn": -1.8,
+  "initialDate": "2026-09-28",
+  "initialPrice": 1642.0,
+  "stockReturn": -0.8
+ },
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.31,
+  "labels": [
+   "20日線の上",
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 1610.5,
+  "ma200": 1926.9,
+  "ma60": 1607.8,
+  "rangePos60": 0.61,
+  "rel20": 1.4,
+  "rel60": -3.4,
+  "volumeRatio20": 0.53
+ },
+ "reasons": [
+  "1pt買い増し 5.8%→6.8%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +1.4pt（20日）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-07-22",
+   "detail": "7.89% → 6.95%（野村アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YRFS"
+  },
+  {
+   "date": "2026-09-28",
+   "detail": "5.82% → 6.85%（シルチェスター・インターナショナル・インベスターズ・エルエルピー）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z48W"
+  },
+  {
+   "date": "2026-09-28",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-01",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-05",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-05",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-05",
+   "detail": "Price Setupが改善",
+   "kind": "STATUS",
+   "label": "STRENGTHENING",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-06",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}

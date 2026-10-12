@@ -1,0 +1,96 @@
+{
+ "company": {
+  "name": "ジンズホールディングス",
+  "securityCode": "3046",
+  "tradingViewSymbol": "TSE:3046"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "3046-2026-09-28",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-09-28",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-09-28",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": -0.3,
+   "d20": null,
+   "d5": -4.5,
+   "eventId": "edinet:S100Z3GW",
+   "excess5": -4.5
+  },
+  {
+   "d1": -1.4,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z6ER",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 281800,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 24.5,
+  "sellBalance": 11500,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.39,
+  "labels": [
+   "20日線が上向き"
+  ],
+  "ma20": 5738.5,
+  "ma200": 6198.4,
+  "ma60": 6097.3,
+  "rangePos60": 0.19,
+  "rel20": -2.4,
+  "rel60": -28.4,
+  "volumeRatio20": 1.36
+ },
+ "reasons": [
+  "新規大量保有 5.3%（ゴールドマン・サックス証券株式会社）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-09-25",
+   "detail": "保有割合 5.29%（ゴールドマン・サックス証券株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z3GW"
+  },
+  {
+   "date": "2026-10-06",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "5.29% → 3.71%（ゴールドマン・サックス証券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z6ER"
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}

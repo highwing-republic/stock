@@ -1,0 +1,373 @@
+{
+ "company": {
+  "name": "Sansan",
+  "securityCode": "4443",
+  "tradingViewSymbol": "TSE:4443"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "4443-2026-06-22",
+  "overextended": true,
+  "setupType": "BREAKOUT",
+  "setups": [
+   "BREAKOUT",
+   "TREND",
+   "RECOVERY"
+  ],
+  "startedAt": "2026-06-22",
+  "status": "REACTED",
+  "statusHistory": [
+   {
+    "date": "2026-06-22",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-07-06",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   },
+   {
+    "date": "2026-07-14",
+    "from": "WATCH",
+    "reason_code": "NEW_HIGH60_VOLUME",
+    "to": "CONFIRMED"
+   },
+   {
+    "date": "2026-07-17",
+    "from": "CONFIRMED",
+    "reason_code": "EXCESS_THRESHOLD",
+    "to": "REACTED"
+   }
+  ],
+  "watchStartedAt": "2026-07-06"
+ },
+ "eventReactions": [
+  {
+   "d1": 3.3,
+   "d20": 27.1,
+   "d5": -3.8,
+   "eventId": "edinet:S100YETV",
+   "excess5": -1.6
+  },
+  {
+   "d1": 4.1,
+   "d20": 6.7,
+   "d5": -4.4,
+   "eventId": "edinet:S100YSK4",
+   "excess5": -4.3
+  },
+  {
+   "d1": 1.6,
+   "d20": 2.2,
+   "d5": 2.0,
+   "eventId": "edinet:S100YVKH",
+   "excess5": 1.2
+  },
+  {
+   "d1": 9.7,
+   "d20": 2.6,
+   "d5": 3.9,
+   "eventId": "edinet:S100YXLS",
+   "excess5": 1.3
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 592600,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 4.35,
+  "sellBalance": 136200,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": 1.2,
+  "currentPrice": 2219.0,
+  "d20": {
+   "benchReturn": -3.5,
+   "excessReturn": 13.2,
+   "pendingDays": 0,
+   "stockReturn": 9.7
+  },
+  "d5": {
+   "benchReturn": -2.2,
+   "excessReturn": 0.9,
+   "pendingDays": 0,
+   "stockReturn": -1.3
+  },
+  "d60": {
+   "benchReturn": 2.1,
+   "excessReturn": 19.7,
+   "pendingDays": 0,
+   "stockReturn": 21.8
+  },
+  "excessReturn": 28.0,
+  "initialDate": "2026-07-06",
+  "initialPrice": 1718.0,
+  "stockReturn": 29.2
+ },
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.06,
+  "labels": [
+   "20日線の上",
+   "60日レンジ上位20%",
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 2077.6,
+  "ma200": 1605.1,
+  "ma60": 2028.2,
+  "rangePos60": 0.8,
+  "rel20": 8.8,
+  "rel60": 26.3,
+  "volumeRatio20": 1.68
+ },
+ "reasons": [
+  "1pt買い増し 12.6%→13.7%",
+  "30日以内に2回買い増し",
+  "60日レンジ上位20%",
+  "20日線上向き"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-06-19",
+   "detail": "10.44% → 11.57%（いちごアセットマネジメント・インタ－ナショナル・ピ－ティ－イ－・リミテッド）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YETV"
+  },
+  {
+   "date": "2026-06-29",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-06-29",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-02",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-06",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-06",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-14",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-14",
+   "detail": "60日高値を出来高増で更新",
+   "kind": "STATUS",
+   "label": "CONFIRMED",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-17",
+   "detail": "TOPIX連動ETFとの差が大きくなった",
+   "kind": "STATUS",
+   "label": "REACTED",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-27",
+   "detail": "RECOVERY → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-28",
+   "detail": "11.57% → 12.64%（いちごアセットマネジメント・インタ－ナショナル・ピ－ティ－イ－・リミテッド）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YSK4"
+  },
+  {
+   "date": "2026-07-28",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-29",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-04",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-07",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-10",
+   "detail": "12.64% → 13.67%（いちごアセットマネジメント・インタ－ナショナル・ピ－ティ－イ－・リミテッド）",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YVKH"
+  },
+  {
+   "date": "2026-08-14",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-20",
+   "detail": "5.08% → 4.29%（ウエリントン・マネージメント・カンパニー・エルエルピー）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YXLS"
+  },
+  {
+   "date": "2026-08-20",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-21",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-24",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-28",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-02",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-03",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-07",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-14",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-18",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-18",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-24",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-02",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-06",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "TREND → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup変化",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}

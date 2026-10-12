@@ -1,0 +1,110 @@
+{
+ "company": {
+  "name": "日本精工",
+  "securityCode": "6471",
+  "tradingViewSymbol": "TSE:6471"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "6471-2026-10-08",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-10-08",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-10-08",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": 0.0,
+   "d20": -5.2,
+   "d5": 0.1,
+   "eventId": "edinet:S100YUKH",
+   "excess5": -3.2
+  },
+  {
+   "d1": 0.0,
+   "d20": -5.2,
+   "d5": 0.1,
+   "eventId": "edinet:S100YUPN",
+   "excess5": -3.2
+  },
+  {
+   "d1": -3.8,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z6ES",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 1382400,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 33.64,
+  "sellBalance": 41100,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.23,
+  "labels": [
+   "20日線が上向き"
+  ],
+  "ma20": 1073.7,
+  "ma200": 1128.2,
+  "ma60": 1100.7,
+  "rangePos60": 0.28,
+  "rel20": -0.1,
+  "rel60": -8.7,
+  "volumeRatio20": 1.0
+ },
+ "reasons": [
+  "新規大量保有 5.1%（ゴールドマン・サックス証券株式会社）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-08-07",
+   "detail": "6.38% → 5.28%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YUKH"
+  },
+  {
+   "date": "2026-08-07",
+   "detail": "7.01% → 6.89%（株式会社みずほ銀行）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YUPN"
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "保有割合 5.06%（ゴールドマン・サックス証券株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z6ES"
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}

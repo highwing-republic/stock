@@ -1,0 +1,137 @@
+{
+ "company": {
+  "name": "日本取引所グループ",
+  "securityCode": "8697",
+  "tradingViewSymbol": "TSE:8697"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "8697-2026-10-05",
+  "overextended": false,
+  "setupType": "BREAKOUT",
+  "setups": [
+   "BREAKOUT",
+   "TREND",
+   "RECOVERY"
+  ],
+  "startedAt": "2026-10-05",
+  "status": "WATCH",
+  "statusHistory": [
+   {
+    "date": "2026-10-05",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-10-05",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   }
+  ],
+  "watchStartedAt": "2026-10-05"
+ },
+ "eventReactions": [
+  {
+   "d1": -0.7,
+   "d20": null,
+   "d5": -1.5,
+   "eventId": "edinet:S100Z630",
+   "excess5": -2.0
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 383200,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 0.85,
+  "sellBalance": 450300,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": -0.9,
+  "currentPrice": 2270.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 16,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 1,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 56,
+   "stockReturn": null
+  },
+  "excessReturn": 0.1,
+  "initialDate": "2026-10-05",
+  "initialPrice": 2289.0,
+  "stockReturn": -0.8
+ },
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.03,
+  "labels": [
+   "20日線の上",
+   "60日レンジ上位24%",
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 2240.3,
+  "ma200": 1951.9,
+  "ma60": 2208.6,
+  "rangePos60": 0.76,
+  "rel20": 2.4,
+  "rel60": 3.7,
+  "volumeRatio20": 1.58
+ },
+ "reasons": [
+  "新規大量保有 5.2%（ＪＰモルガン証券株式会社）",
+  "60日レンジ上位24%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +2.4pt（20日）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-10-05",
+   "detail": "保有割合 5.18%（ＪＰモルガン証券株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z630"
+  },
+  {
+   "date": "2026-10-05",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "BREAKOUT → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup変化",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "TREND → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup変化",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}

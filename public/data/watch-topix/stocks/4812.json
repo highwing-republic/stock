@@ -1,0 +1,246 @@
+{
+ "company": {
+  "name": "電通総研",
+  "securityCode": "4812",
+  "tradingViewSymbol": "TSE:4812"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "4812-2026-08-18",
+  "overextended": false,
+  "setupType": "BREAKOUT",
+  "setups": [
+   "BREAKOUT",
+   "TREND"
+  ],
+  "startedAt": "2026-08-18",
+  "status": "CONFIRMED",
+  "statusHistory": [
+   {
+    "date": "2026-08-18",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-08-18",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   },
+   {
+    "date": "2026-08-19",
+    "from": "WATCH",
+    "reason_code": "REL20_POSITIVE",
+    "to": "STRENGTHENING"
+   },
+   {
+    "date": "2026-08-28",
+    "from": "STRENGTHENING",
+    "reason_code": "NEW_HIGH60_VOLUME",
+    "to": "CONFIRMED"
+   }
+  ],
+  "watchStartedAt": "2026-08-18"
+ },
+ "eventReactions": [
+  {
+   "d1": 3.5,
+   "d20": 7.8,
+   "d5": 2.7,
+   "eventId": "edinet:S100YW1L",
+   "excess5": 5.3
+  },
+  {
+   "d1": -0.1,
+   "d20": 0.4,
+   "d5": 0.2,
+   "eventId": "edinet:S100YZLA",
+   "excess5": 1.3
+  },
+  {
+   "d1": -0.0,
+   "d20": null,
+   "d5": 0.0,
+   "eventId": "edinet:S100Z1SK",
+   "excess5": -2.3
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 135300,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 0.51,
+  "sellBalance": 265600,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": 0.3,
+  "currentPrice": 2868.0,
+  "d20": {
+   "benchReturn": -2.3,
+   "excessReturn": 6.5,
+   "pendingDays": 0,
+   "stockReturn": 4.2
+  },
+  "d5": {
+   "benchReturn": -1.0,
+   "excessReturn": 0.2,
+   "pendingDays": 0,
+   "stockReturn": -0.8
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 25,
+   "stockReturn": null
+  },
+  "excessReturn": 4.0,
+  "initialDate": "2026-08-18",
+  "initialPrice": 2749.0,
+  "stockReturn": 4.3
+ },
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.02,
+  "labels": [
+   "20日線の上",
+   "60日レンジ上位21%",
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 2862.8,
+  "ma200": 2358.5,
+  "ma60": 2775.5,
+  "rangePos60": 0.79,
+  "rel20": -1.9,
+  "rel60": 3.7,
+  "volumeRatio20": 0.86
+ },
+ "reasons": [
+  "新規大量保有 5%（Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．）",
+  "60日レンジ上位21%",
+  "20日線上向き",
+  "52週高値まで2%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-08-17",
+   "detail": "保有割合 5%（Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YW1L"
+  },
+  {
+   "date": "2026-08-18",
+   "detail": "なし → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-18",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-18",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-19",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-19",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "STATUS",
+   "label": "STRENGTHENING",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-28",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-28",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-28",
+   "detail": "60日高値を出来高増で更新",
+   "kind": "STATUS",
+   "label": "CONFIRMED",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-02",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-04",
+   "detail": "61.76% → 61.76%（株式会社電通グループ）",
+   "kind": "EVENT",
+   "label": "変更報告（増減不明）",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YZLA"
+  },
+  {
+   "date": "2026-09-25",
+   "detail": "61.76% → 61.76%（株式会社電通グループ）",
+   "kind": "EVENT",
+   "label": "変更報告（増減不明）",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z1SK"
+  },
+  {
+   "date": "2026-10-01",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-06",
+   "detail": "BREAKOUT → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup変化",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "TREND → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup変化",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}

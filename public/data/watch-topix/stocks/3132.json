@@ -1,0 +1,316 @@
+{
+ "company": {
+  "name": "マクニカホールディングス",
+  "securityCode": "3132",
+  "tradingViewSymbol": "TSE:3132"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "3132-2026-09-07",
+  "overextended": true,
+  "setupType": "TREND",
+  "setups": [
+   "TREND",
+   "RECOVERY"
+  ],
+  "startedAt": "2026-09-07",
+  "status": "REACTED",
+  "statusHistory": [
+   {
+    "date": "2026-09-07",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-09-07",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   },
+   {
+    "date": "2026-09-10",
+    "from": "WATCH",
+    "reason_code": "SETUP_IMPROVED",
+    "to": "STRENGTHENING"
+   },
+   {
+    "date": "2026-09-18",
+    "from": "STRENGTHENING",
+    "reason_code": "NEW_HIGH60_VOLUME",
+    "to": "CONFIRMED"
+   },
+   {
+    "date": "2026-09-24",
+    "from": "CONFIRMED",
+    "reason_code": "RETURN_THRESHOLD",
+    "to": "REACTED"
+   }
+  ],
+  "watchStartedAt": "2026-09-07"
+ },
+ "eventReactions": [
+  {
+   "d1": -3.9,
+   "d20": 4.3,
+   "d5": -4.4,
+   "eventId": "edinet:S100YP1L",
+   "excess5": -2.2
+  },
+  {
+   "d1": -3.5,
+   "d20": 11.1,
+   "d5": -0.3,
+   "eventId": "edinet:S100YPX2",
+   "excess5": 0.5
+  },
+  {
+   "d1": 2.9,
+   "d20": 25.8,
+   "d5": 6.0,
+   "eventId": "edinet:S100Z0J4",
+   "excess5": 7.8
+  },
+  {
+   "d1": 1.2,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z5R2",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 427600,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 7.45,
+  "sellBalance": 57400,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-07-29",
+   "id": "3132-2026-07-07",
+   "setupType": "TREND",
+   "startedAt": "2026-07-07"
+  }
+ ],
+ "performance": {
+  "benchReturn": 0.6,
+  "currentPrice": 4634.0,
+  "d20": {
+   "benchReturn": -0.1,
+   "excessReturn": 25.4,
+   "pendingDays": 0,
+   "stockReturn": 25.3
+  },
+  "d5": {
+   "benchReturn": -1.6,
+   "excessReturn": 4.6,
+   "pendingDays": 0,
+   "stockReturn": 3.0
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 39,
+   "stockReturn": null
+  },
+  "excessReturn": 27.6,
+  "initialDate": "2026-09-07",
+  "initialPrice": 3614.4,
+  "stockReturn": 28.2
+ },
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.02,
+  "labels": [
+   "20日線の上",
+   "60日レンジ上位5%",
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 4096.3,
+  "ma200": 2973.1,
+  "ma60": 3651.3,
+  "rangePos60": 0.95,
+  "rel20": 33.4,
+  "rel60": 41.2,
+  "volumeRatio20": 1.9
+ },
+ "reasons": [
+  "1.3pt買い増し 5.1%→6.4%",
+  "出来高 1.9倍で60日高値更新",
+  "60日レンジ上位5%",
+  "20日線上向き"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-07-07",
+   "detail": "保有割合 5.06%（アセットマネジメントＯｎｅ株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YP1L"
+  },
+  {
+   "date": "2026-07-15",
+   "detail": "8.18% → 9.18%（ダルトン　インベストメンツ　インク）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YPX2"
+  },
+  {
+   "date": "2026-09-07",
+   "detail": "5.06% → 6.36%（アセットマネジメントＯｎｅ株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z0J4"
+  },
+  {
+   "date": "2026-09-07",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-07",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-07",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-08",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-10",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-10",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-10",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-10",
+   "detail": "Price Setupが改善",
+   "kind": "STATUS",
+   "label": "STRENGTHENING",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-16",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-17",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-18",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-18",
+   "detail": "60日高値を出来高増で更新",
+   "kind": "STATUS",
+   "label": "CONFIRMED",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-24",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-24",
+   "detail": "Watch開始後の値上がりが大きくなった",
+   "kind": "STATUS",
+   "label": "REACTED",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-25",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-06",
+   "detail": "7.04% → 5.79%（三井住友トラスト・アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z5R2"
+  },
+  {
+   "date": "2026-10-06",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}

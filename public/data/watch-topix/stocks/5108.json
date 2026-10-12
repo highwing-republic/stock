@@ -1,0 +1,83 @@
+{
+ "company": {
+  "name": "ブリヂストン",
+  "securityCode": "5108",
+  "tradingViewSymbol": "TSE:5108"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "5108-2026-10-06",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-10-06",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-10-06",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": -0.2,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z640",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 659800,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 1.33,
+  "sellBalance": 495400,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.11,
+  "labels": [
+   "20日線の上"
+  ],
+  "ma20": 3803.8,
+  "ma200": 3559.5,
+  "ma60": 3920.0,
+  "rangePos60": 0.43,
+  "rel20": 0.6,
+  "rel60": 7.2,
+  "volumeRatio20": 0.69
+ },
+ "reasons": [
+  "新規大量保有 5.2%（野村證券株式会社）",
+  "TOPIX連動ETF比 +0.6pt（20日）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-10-06",
+   "detail": "保有割合 5.18%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z640"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}

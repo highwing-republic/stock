@@ -1,0 +1,337 @@
+{
+ "company": {
+  "name": "霞ヶ関キャピタル",
+  "securityCode": "3498",
+  "tradingViewSymbol": "TSE:3498"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "3498-2026-07-17",
+  "overextended": false,
+  "setupType": "RECOVERY",
+  "setups": [
+   "RECOVERY"
+  ],
+  "startedAt": "2026-07-17",
+  "status": "REACTED",
+  "statusHistory": [
+   {
+    "date": "2026-07-17",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-07-28",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   },
+   {
+    "date": "2026-08-04",
+    "from": "WATCH",
+    "reason_code": "EXCESS_THRESHOLD",
+    "to": "REACTED"
+   }
+  ],
+  "watchStartedAt": "2026-07-28"
+ },
+ "eventReactions": [
+  {
+   "d1": -1.4,
+   "d20": 15.3,
+   "d5": 0.4,
+   "eventId": "edinet:S100YQXK",
+   "excess5": 0.9
+  },
+  {
+   "d1": 6.3,
+   "d20": 13.0,
+   "d5": 7.1,
+   "eventId": "edinet:S100YS6I",
+   "excess5": 7.2
+  },
+  {
+   "d1": -2.0,
+   "d20": -10.5,
+   "d5": -3.3,
+   "eventId": "edinet:S100YWWK",
+   "excess5": -0.2
+  },
+  {
+   "d1": -2.4,
+   "d20": -2.6,
+   "d5": 0.3,
+   "eventId": "edinet:S100YY7N",
+   "excess5": -1.8
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 1190600,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 6.11,
+  "sellBalance": 194800,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": 4.7,
+  "currentPrice": 7960.0,
+  "d20": {
+   "benchReturn": 3.7,
+   "excessReturn": 4.2,
+   "pendingDays": 0,
+   "stockReturn": 7.9
+  },
+  "d5": {
+   "benchReturn": -0.1,
+   "excessReturn": 10.8,
+   "pendingDays": 0,
+   "stockReturn": 10.7
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 11,
+   "stockReturn": null
+  },
+  "excessReturn": 7.8,
+  "initialDate": "2026-07-28",
+  "initialPrice": 7072.7,
+  "stockReturn": 12.5
+ },
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.25,
+  "labels": [
+   "20日線の上",
+   "60日レンジ上位8%",
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 7445.0,
+  "ma200": 6896.3,
+  "ma60": 7397.7,
+  "rangePos60": 0.92,
+  "rel20": 5.4,
+  "rel60": 15.5,
+  "volumeRatio20": 1.92
+ },
+ "reasons": [
+  "1.1pt買い増し 5.2%→6.3%",
+  "60日レンジ上位8%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +5.4pt（20日）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-07-17",
+   "detail": "保有割合 5.17%（グランサム、マヨ、ヴァン　オッテルロー　アンド　カンパニー　エルエルシー）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YQXK"
+  },
+  {
+   "date": "2026-07-27",
+   "detail": "5.17% → 6.3%（グランサム、マヨ、ヴァン　オッテルロー　アンド　カンパニー　エルエルシー）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YS6I"
+  },
+  {
+   "date": "2026-07-27",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-28",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-28",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-03",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-04",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-04",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-04",
+   "detail": "TOPIX連動ETFとの差が大きくなった",
+   "kind": "STATUS",
+   "label": "REACTED",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-13",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-17",
+   "detail": "11.1% → 11.08%（みずほ証券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YWWK"
+  },
+  {
+   "date": "2026-08-18",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-19",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-24",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-25",
+   "detail": "11.08% → 11.05%（みずほ証券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YY7N"
+  },
+  {
+   "date": "2026-08-25",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-27",
+   "detail": "なし → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-27",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-31",
+   "detail": "BREAKOUT → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-14",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-17",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-24",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-28",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-02",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "なし → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "BREAKOUT → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup変化",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}

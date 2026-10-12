@@ -1,0 +1,371 @@
+{
+ "company": {
+  "name": "日本光電工業",
+  "securityCode": "6849",
+  "tradingViewSymbol": "TSE:6849"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "6849-2026-06-19",
+  "overextended": false,
+  "setupType": "RECOVERY",
+  "setups": [
+   "RECOVERY"
+  ],
+  "startedAt": "2026-06-19",
+  "status": "REACTED",
+  "statusHistory": [
+   {
+    "date": "2026-06-19",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-07-01",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   },
+   {
+    "date": "2026-07-02",
+    "from": "WATCH",
+    "reason_code": "REL20_POSITIVE",
+    "to": "STRENGTHENING"
+   },
+   {
+    "date": "2026-07-17",
+    "from": "STRENGTHENING",
+    "reason_code": "EXCESS_THRESHOLD",
+    "to": "REACTED"
+   }
+  ],
+  "watchStartedAt": "2026-07-01"
+ },
+ "eventReactions": [
+  {
+   "d1": 0.0,
+   "d20": 12.1,
+   "d5": 2.2,
+   "eventId": "edinet:S100YDUU",
+   "excess5": 3.7
+  },
+  {
+   "d1": -3.8,
+   "d20": -3.4,
+   "d5": -2.2,
+   "eventId": "edinet:S100YVZA",
+   "excess5": 1.2
+  },
+  {
+   "d1": 0.2,
+   "d20": null,
+   "d5": 3.2,
+   "eventId": "edinet:S100Z27R",
+   "excess5": 2.8
+  },
+  {
+   "d1": 1.4,
+   "d20": null,
+   "d5": 2.0,
+   "eventId": "edinet:S100Z2OR",
+   "excess5": 0.8
+  },
+  {
+   "d1": -0.4,
+   "d20": null,
+   "d5": 1.7,
+   "eventId": "edinet:S100Z2WG",
+   "excess5": 2.2
+  },
+  {
+   "d1": 1.1,
+   "d20": null,
+   "d5": 1.1,
+   "eventId": "edinet:S100Z388",
+   "excess5": -1.2
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 81300,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 0.91,
+  "sellBalance": 89200,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": 3.5,
+  "currentPrice": 1643.0,
+  "d20": {
+   "benchReturn": -1.2,
+   "excessReturn": 17.2,
+   "pendingDays": 0,
+   "stockReturn": 16.0
+  },
+  "d5": {
+   "benchReturn": 0.2,
+   "excessReturn": 6.7,
+   "pendingDays": 0,
+   "stockReturn": 6.9
+  },
+  "d60": {
+   "benchReturn": 3.3,
+   "excessReturn": 10.7,
+   "pendingDays": 0,
+   "stockReturn": 14.0
+  },
+  "excessReturn": 13.5,
+  "initialDate": "2026-07-01",
+  "initialPrice": 1404.5,
+  "stockReturn": 17.0
+ },
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.11,
+  "labels": [
+   "20日線の上",
+   "60日レンジ上位3%",
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 1573.8,
+  "ma200": 1535.3,
+  "ma60": 1533.3,
+  "rangePos60": 0.97,
+  "rel20": 8.9,
+  "rel60": 8.2,
+  "volumeRatio20": 0.72
+ },
+ "reasons": [
+  "新規大量保有 5.1%（ブラックロック・ジャパン株式会社）",
+  "60日レンジ上位3%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +8.9pt（20日）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-06-18",
+   "detail": "6.01% → 7.29%（ファースト・イーグル・インベストメント・マネジメント・エルエルシー）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDUU"
+  },
+  {
+   "date": "2026-06-23",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-06-29",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-01",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-01",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-02",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-02",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-02",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "STATUS",
+   "label": "STRENGTHENING",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-07",
+   "detail": "RECOVERY → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-17",
+   "detail": "TOPIX連動ETFとの差が大きくなった",
+   "kind": "STATUS",
+   "label": "REACTED",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-27",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-28",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-29",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-03",
+   "detail": "BREAKOUT → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-10",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-12",
+   "detail": "6.09% → 5.01%（スプラウスグローブインベストメントマネジメントリミテッド）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YVZA"
+  },
+  {
+   "date": "2026-08-14",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-18",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-26",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-31",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-07",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-10",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-11",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-11",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-11",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-15",
+   "detail": "保有割合 6.2%（ジャパン・アクティベーション・キャピタル株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z27R"
+  },
+  {
+   "date": "2026-09-17",
+   "detail": "保有割合 5.08%（ブラックロック・ジャパン株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z2WG"
+  },
+  {
+   "date": "2026-09-17",
+   "detail": "RECOVERY → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-24",
+   "detail": "6.08% → 4.46%（三井住友信託銀行株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z2OR"
+  },
+  {
+   "date": "2026-09-25",
+   "detail": "6.85% → 4.22%（株式会社りそな銀行）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z388"
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "BREAKOUT → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup変化",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}

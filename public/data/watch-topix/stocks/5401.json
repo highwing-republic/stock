@@ -1,0 +1,138 @@
+{
+ "company": {
+  "name": "日本製鉄",
+  "securityCode": "5401",
+  "tradingViewSymbol": "TSE:5401"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "5401-2026-09-24",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-09-24",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-09-24",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": 1.7,
+   "d20": 4.9,
+   "d5": 0.8,
+   "eventId": "edinet:S100YTXR",
+   "excess5": -2.5
+  },
+  {
+   "d1": -2.3,
+   "d20": -2.2,
+   "d5": -3.1,
+   "eventId": "edinet:S100YXG9",
+   "excess5": -2.1
+  },
+  {
+   "d1": 1.9,
+   "d20": -5.9,
+   "d5": -2.3,
+   "eventId": "edinet:S100Z094",
+   "excess5": -1.6
+  },
+  {
+   "d1": -2.0,
+   "d20": null,
+   "d5": -3.9,
+   "eventId": "edinet:S100Z38Q",
+   "excess5": -5.1
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 41127000,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 24.54,
+  "sellBalance": 1676200,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-08-25",
+   "id": "5401-2026-08-06",
+   "setupType": "TREND",
+   "startedAt": "2026-08-06"
+  }
+ ],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.11,
+  "labels": [],
+  "ma20": 660.1,
+  "ma200": 603.0,
+  "ma60": 649.1,
+  "rangePos60": 0.53,
+  "rel20": -7.9,
+  "rel60": 14.0,
+  "volumeRatio20": 0.94
+ },
+ "reasons": [
+  "0.1pt買い増し 5.1%→5.2%",
+  "30日以内に2回買い増し"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-08-06",
+   "detail": "保有割合 5%（三井住友信託銀行株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YTXR"
+  },
+  {
+   "date": "2026-08-19",
+   "detail": "保有割合 5.08%（ジェー・ピー・モルガン・セキュリティーズ・ピーエルシー）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YXG9"
+  },
+  {
+   "date": "2026-09-03",
+   "detail": "5.08% → 5.12%（ジェー・ピー・モルガン・セキュリティーズ・ピーエルシー）",
+   "kind": "EVENT",
+   "label": "買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z094"
+  },
+  {
+   "date": "2026-09-18",
+   "detail": "5.12% → 5.17%（ジェー・ピー・モルガン・セキュリティーズ・ピーエルシー）",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z38Q"
+  },
+  {
+   "date": "2026-09-24",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-06",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}

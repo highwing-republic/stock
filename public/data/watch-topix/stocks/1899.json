@@ -1,0 +1,260 @@
+{
+ "company": {
+  "name": "福田組",
+  "securityCode": "1899",
+  "tradingViewSymbol": "TSE:1899"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "1899-2026-07-24",
+  "overextended": true,
+  "setupType": "TREND",
+  "setups": [],
+  "startedAt": "2026-07-24",
+  "status": "REACTED",
+  "statusHistory": [
+   {
+    "date": "2026-07-24",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-07-27",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   },
+   {
+    "date": "2026-08-07",
+    "from": "WATCH",
+    "reason_code": "NEW_HIGH60_VOLUME",
+    "to": "CONFIRMED"
+   },
+   {
+    "date": "2026-08-10",
+    "from": "CONFIRMED",
+    "reason_code": "RETURN_THRESHOLD",
+    "to": "REACTED"
+   }
+  ],
+  "watchStartedAt": "2026-07-27"
+ },
+ "eventReactions": [
+  {
+   "d1": -0.5,
+   "d20": 21.8,
+   "d5": -2.6,
+   "eventId": "edinet:S100YRQ0",
+   "excess5": -0.4
+  },
+  {
+   "d1": -1.9,
+   "d20": 22.2,
+   "d5": -2.7,
+   "eventId": "edinet:S100YSFW",
+   "excess5": 0.2
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 63400,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 4.53,
+  "sellBalance": 14000,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": 1.9,
+  "currentPrice": 4675.0,
+  "d20": {
+   "benchReturn": 0.6,
+   "excessReturn": 21.6,
+   "pendingDays": 0,
+   "stockReturn": 22.2
+  },
+  "d5": {
+   "benchReturn": -2.9,
+   "excessReturn": 0.2,
+   "pendingDays": 0,
+   "stockReturn": -2.7
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 10,
+   "stockReturn": null
+  },
+  "excessReturn": 16.2,
+  "initialDate": "2026-07-27",
+  "initialPrice": 3960.0,
+  "stockReturn": 18.1
+ },
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.09,
+  "labels": [
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 4699.0,
+  "ma200": 4085.3,
+  "ma60": 4465.4,
+  "rangePos60": 0.69,
+  "rel20": -0.6,
+  "rel60": 21.9,
+  "volumeRatio20": 0.66
+ },
+ "reasons": [
+  "1.1pt買い増し 5%→6.1%",
+  "52週高値まで9%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-07-23",
+   "detail": "5.04% → 6.11%（ＫＯＰＥＲＮＩＫ　ＧＬＯＢＡＬ　ＩＮＶＥＳＴＯＲＳ，　ＬＬＣ）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YRQ0"
+  },
+  {
+   "date": "2026-07-27",
+   "detail": "5.04% → 6.11%（ＫＯＰＥＲＮＩＫ　ＧＬＯＢＡＬ　ＩＮＶＥＳＴＯＲＳ，　ＬＬＣ）",
+   "kind": "EVENT",
+   "label": "訂正報告",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YSFW"
+  },
+  {
+   "date": "2026-07-27",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-27",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-06",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-07",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-07",
+   "detail": "60日高値を出来高増で更新",
+   "kind": "STATUS",
+   "label": "CONFIRMED",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-10",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-10",
+   "detail": "Watch開始後の値上がりが大きくなった",
+   "kind": "STATUS",
+   "label": "REACTED",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-12",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-17",
+   "detail": "RECOVERY → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-26",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-02",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-10",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-17",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-17",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-01",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-06",
+   "detail": "TREND → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup変化",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "BREAKOUT → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup変化",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}

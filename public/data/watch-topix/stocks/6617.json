@@ -1,0 +1,141 @@
+{
+ "company": {
+  "name": "東光高岳",
+  "securityCode": "6617",
+  "tradingViewSymbol": "TSE:6617"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "6617-2026-10-07",
+  "overextended": false,
+  "setupType": "RECOVERY",
+  "setups": [
+   "RECOVERY"
+  ],
+  "startedAt": "2026-10-07",
+  "status": "WATCH",
+  "statusHistory": [
+   {
+    "date": "2026-10-07",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-10-07",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   }
+  ],
+  "watchStartedAt": "2026-10-07"
+ },
+ "eventReactions": [
+  {
+   "d1": -5.2,
+   "d20": -17.3,
+   "d5": -5.0,
+   "eventId": "edinet:S100YUY9",
+   "excess5": -8.3
+  },
+  {
+   "d1": 0.3,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z6O1",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 150600,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 14.48,
+  "sellBalance": 10400,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-08-20",
+   "id": "6617-2026-08-07",
+   "setupType": "RECOVERY",
+   "startedAt": "2026-08-07"
+  }
+ ],
+ "performance": {
+  "benchReturn": -1.0,
+  "currentPrice": 7560.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 18,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 3,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 58,
+   "stockReturn": null
+  },
+  "excessReturn": -2.0,
+  "initialDate": "2026-10-07",
+  "initialPrice": 7790.0,
+  "stockReturn": -3.0
+ },
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.14,
+  "labels": [
+   "20日線の上",
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 7069.6,
+  "ma200": 6244.2,
+  "ma60": 7259.1,
+  "rangePos60": 0.58,
+  "rel20": 15.0,
+  "rel60": 3.4,
+  "volumeRatio20": 0.93
+ },
+ "reasons": [
+  "1.1pt買い増し 7.7%→8.8%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +15pt（20日）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-08-07",
+   "detail": "6.5% → 7.69%（三井住友ＤＳアセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YUY9"
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "7.69% → 8.81%（三井住友ＤＳアセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z6O1"
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}

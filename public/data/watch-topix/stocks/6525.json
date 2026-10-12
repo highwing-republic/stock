@@ -1,0 +1,185 @@
+{
+ "company": {
+  "name": "KOKUSAI ELECTRIC",
+  "securityCode": "6525",
+  "tradingViewSymbol": "TSE:6525"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "6525-2026-10-06",
+  "overextended": false,
+  "setupType": "BREAKOUT",
+  "setups": [
+   "BREAKOUT",
+   "RECOVERY"
+  ],
+  "startedAt": "2026-10-06",
+  "status": "STRENGTHENING",
+  "statusHistory": [
+   {
+    "date": "2026-10-06",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-10-06",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   },
+   {
+    "date": "2026-10-07",
+    "from": "WATCH",
+    "reason_code": "INCREASE_EVENT",
+    "to": "STRENGTHENING"
+   }
+  ],
+  "watchStartedAt": "2026-10-06"
+ },
+ "eventReactions": [
+  {
+   "d1": 4.8,
+   "d20": -12.9,
+   "d5": -15.6,
+   "eventId": "edinet:S100YQI2",
+   "excess5": -15.4
+  },
+  {
+   "d1": 7.6,
+   "d20": 18.9,
+   "d5": -1.6,
+   "eventId": "edinet:S100Z08W",
+   "excess5": 0.2
+  },
+  {
+   "d1": -1.5,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z5R7",
+   "excess5": null
+  },
+  {
+   "d1": -4.8,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z6M1",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 1974500,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 3.93,
+  "sellBalance": 501900,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-09-09",
+   "id": "6525-2026-09-07",
+   "setupType": "RECOVERY",
+   "startedAt": "2026-09-07"
+  }
+ ],
+ "performance": {
+  "benchReturn": -1.8,
+  "currentPrice": 10090.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 17,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 2,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 57,
+   "stockReturn": null
+  },
+  "excessReturn": -0.5,
+  "initialDate": "2026-10-06",
+  "initialPrice": 10330.0,
+  "stockReturn": -2.3
+ },
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.17,
+  "labels": [
+   "20日線の上",
+   "60日レンジ上位24%",
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 9221.0,
+  "ma200": 7408.2,
+  "ma60": 8767.2,
+  "rangePos60": 0.76,
+  "rel20": 12.9,
+  "rel60": -9.1,
+  "volumeRatio20": 0.74
+ },
+ "reasons": [
+  "新規大量保有 8%（野村證券株式会社）",
+  "60日レンジ上位24%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +12.9pt（20日）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-07-15",
+   "detail": "11.33% → 10.17%（キャピタル・リサーチ・アンド・マネージメント・カンパニー）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YQI2"
+  },
+  {
+   "date": "2026-09-04",
+   "detail": "保有割合 6.49%（ブラックロック・ジャパン株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z08W"
+  },
+  {
+   "date": "2026-10-06",
+   "detail": "保有割合 6.05%（三井住友トラスト・アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z5R7"
+  },
+  {
+   "date": "2026-10-06",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "保有割合 7.98%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z6M1"
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "大量保有の買い増しを確認",
+   "kind": "STATUS",
+   "label": "STRENGTHENING",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}

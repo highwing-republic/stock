@@ -1,0 +1,344 @@
+{
+ "company": {
+  "name": "東海カーボン",
+  "securityCode": "5301",
+  "tradingViewSymbol": "TSE:5301"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "5301-2026-09-24",
+  "overextended": false,
+  "setupType": "TREND",
+  "setups": [
+   "TREND"
+  ],
+  "startedAt": "2026-09-24",
+  "status": "CONFIRMED",
+  "statusHistory": [
+   {
+    "date": "2026-09-24",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-09-24",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   },
+   {
+    "date": "2026-09-28",
+    "from": "WATCH",
+    "reason_code": "SETUP_IMPROVED",
+    "to": "STRENGTHENING"
+   },
+   {
+    "date": "2026-09-29",
+    "from": "STRENGTHENING",
+    "reason_code": "NEW_HIGH60_VOLUME",
+    "to": "CONFIRMED"
+   }
+  ],
+  "watchStartedAt": "2026-09-24"
+ },
+ "eventReactions": [
+  {
+   "d1": -1.3,
+   "d20": -6.7,
+   "d5": -4.8,
+   "eventId": "edinet:S100YE2X",
+   "excess5": -3.5
+  },
+  {
+   "d1": -0.7,
+   "d20": -4.8,
+   "d5": -0.5,
+   "eventId": "edinet:S100YGJ6",
+   "excess5": 2.4
+  },
+  {
+   "d1": -0.2,
+   "d20": 3.5,
+   "d5": -1.8,
+   "eventId": "edinet:S100YPOW",
+   "excess5": -3.9
+  },
+  {
+   "d1": 0.7,
+   "d20": 5.9,
+   "d5": -4.3,
+   "eventId": "edinet:S100YR13",
+   "excess5": -3.0
+  },
+  {
+   "d1": 8.3,
+   "d20": 12.7,
+   "d5": 11.7,
+   "eventId": "edinet:S100YTXF",
+   "excess5": 8.4
+  },
+  {
+   "d1": 8.3,
+   "d20": 12.7,
+   "d5": 11.7,
+   "eventId": "edinet:S100YURJ",
+   "excess5": 8.4
+  },
+  {
+   "d1": 0.2,
+   "d20": -0.2,
+   "d5": 1.7,
+   "eventId": "edinet:S100YVV3",
+   "excess5": 0.9
+  },
+  {
+   "d1": 3.0,
+   "d20": 8.4,
+   "d5": -7.9,
+   "eventId": "edinet:S100YXBT",
+   "excess5": -5.3
+  },
+  {
+   "d1": 5.3,
+   "d20": 27.7,
+   "d5": 3.6,
+   "eventId": "edinet:S100YZGN",
+   "excess5": 4.4
+  },
+  {
+   "d1": 6.8,
+   "d20": null,
+   "d5": 9.8,
+   "eventId": "edinet:S100Z2O5",
+   "excess5": 8.6
+  },
+  {
+   "d1": 6.8,
+   "d20": null,
+   "d5": 9.8,
+   "eventId": "edinet:S100Z3KT",
+   "excess5": 8.6
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 606700,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 2.35,
+  "sellBalance": 258300,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-07-09",
+   "id": "5301-2026-06-18",
+   "setupType": "TREND",
+   "startedAt": "2026-06-18"
+  },
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-08-25",
+   "id": "5301-2026-07-10",
+   "setupType": "RECOVERY",
+   "startedAt": "2026-07-10"
+  }
+ ],
+ "performance": {
+  "benchReturn": 1.8,
+  "currentPrice": 2277.5,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 9,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": 2.3,
+   "excessReturn": -0.6,
+   "pendingDays": 0,
+   "stockReturn": 1.7
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 49,
+   "stockReturn": null
+  },
+  "excessReturn": -1.6,
+  "initialDate": "2026-09-24",
+  "initialPrice": 2273.0,
+  "stockReturn": 0.2
+ },
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.06,
+  "labels": [
+   "20日線の上",
+   "60日レンジ上位16%",
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 2198.0,
+  "ma200": 1417.8,
+  "ma60": 1864.3,
+  "rangePos60": 0.84,
+  "rel20": 23.3,
+  "rel60": 33.8,
+  "volumeRatio20": 0.55
+ },
+ "reasons": [
+  "2.3pt買い増し 10.1%→12.4%",
+  "60日レンジ上位16%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +23.3pt（20日）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-06-18",
+   "detail": "9.94% → 11.09%（野村アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YE2X"
+  },
+  {
+   "date": "2026-06-23",
+   "detail": "11.09% → 10.03%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YGJ6"
+  },
+  {
+   "date": "2026-07-10",
+   "detail": "10.03% → 10.08%（野村アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YPOW"
+  },
+  {
+   "date": "2026-07-22",
+   "detail": "6.34% → 6.01%（三井住友トラスト・アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YR13"
+  },
+  {
+   "date": "2026-08-06",
+   "detail": "6.01% → 6%（三井住友トラスト・アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YTXF"
+  },
+  {
+   "date": "2026-08-06",
+   "detail": "10.08% → 10.5%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YURJ"
+  },
+  {
+   "date": "2026-08-12",
+   "detail": "10.5% → 10.44%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YVV3"
+  },
+  {
+   "date": "2026-08-18",
+   "detail": "10.44% → 10.76%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YXBT"
+  },
+  {
+   "date": "2026-09-01",
+   "detail": "10.76% → 10.11%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YZGN"
+  },
+  {
+   "date": "2026-09-24",
+   "detail": "10.11% → 12.38%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z3KT"
+  },
+  {
+   "date": "2026-09-24",
+   "detail": "6% → 6.39%（三井住友トラスト・アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z2O5"
+  },
+  {
+   "date": "2026-09-24",
+   "detail": "TREND → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup変化",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-24",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-24",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-25",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-28",
+   "detail": "RECOVERY → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-28",
+   "detail": "Price Setupが改善",
+   "kind": "STATUS",
+   "label": "STRENGTHENING",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-29",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-29",
+   "detail": "60日高値を出来高増で更新",
+   "kind": "STATUS",
+   "label": "CONFIRMED",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-05",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}

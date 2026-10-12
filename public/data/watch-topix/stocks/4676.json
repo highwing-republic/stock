@@ -1,0 +1,119 @@
+{
+ "company": {
+  "name": "フジ・メディア・ホールディングス",
+  "securityCode": "4676",
+  "tradingViewSymbol": "TSE:4676"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "4676-2026-09-18",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-09-18",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-09-18",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": -2.8,
+   "d20": null,
+   "d5": -4.0,
+   "eventId": "edinet:S100YZYY",
+   "excess5": -3.5
+  },
+  {
+   "d1": 0.9,
+   "d20": null,
+   "d5": 0.1,
+   "eventId": "edinet:S100Z3CB",
+   "excess5": -1.1
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 305100,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 2.89,
+  "sellBalance": 105500,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.07,
+  "labels": [
+   "20日線の上",
+   "60日線の上"
+  ],
+  "ma20": 3957.9,
+  "ma200": 3805.6,
+  "ma60": 3996.1,
+  "rangePos60": 0.65,
+  "rel20": -0.6,
+  "rel60": -1.9,
+  "volumeRatio20": 0.91
+ },
+ "reasons": [
+  "新規大量保有 5.6%（大和証券株式会社）",
+  "52週高値まで7%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-09-17",
+   "detail": "7.19% → 8.62%（東宝株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YZYY"
+  },
+  {
+   "date": "2026-09-18",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-24",
+   "detail": "保有割合 5.6%（大和証券株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z3CB"
+  },
+  {
+   "date": "2026-09-28",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}

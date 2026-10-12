@@ -1,0 +1,160 @@
+{
+ "company": {
+  "name": "三越伊勢丹ホールディングス",
+  "securityCode": "3099",
+  "tradingViewSymbol": "TSE:3099"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "3099-2026-09-18",
+  "overextended": false,
+  "setupType": "RECOVERY",
+  "setups": [
+   "RECOVERY"
+  ],
+  "startedAt": "2026-09-18",
+  "status": "WATCH",
+  "statusHistory": [
+   {
+    "date": "2026-09-18",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-10-07",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   }
+  ],
+  "watchStartedAt": "2026-10-07"
+ },
+ "eventReactions": [
+  {
+   "d1": -0.9,
+   "d20": -5.3,
+   "d5": -1.9,
+   "eventId": "edinet:S100YR7V",
+   "excess5": 0.3
+  },
+  {
+   "d1": 0.1,
+   "d20": null,
+   "d5": -0.5,
+   "eventId": "edinet:S100Z2WD",
+   "excess5": 0.0
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 1246600,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 2.21,
+  "sellBalance": 565100,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": -1.0,
+  "currentPrice": 1716.5,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 18,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 3,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 58,
+   "stockReturn": null
+  },
+  "excessReturn": -0.7,
+  "initialDate": "2026-10-07",
+  "initialPrice": 1747.0,
+  "stockReturn": -1.7
+ },
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.17,
+  "labels": [
+   "20日線の上",
+   "20日線が上向き"
+  ],
+  "ma20": 1631.9,
+  "ma200": 1572.2,
+  "ma60": 1727.6,
+  "rangePos60": 0.41,
+  "rel20": 9.0,
+  "rel60": -12.0,
+  "volumeRatio20": 0.85
+ },
+ "reasons": [
+  "新規大量保有 5.2%（ブラックロック・ジャパン株式会社）",
+  "20日線上向き",
+  "TOPIX連動ETF比 +9pt（20日）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-07-23",
+   "detail": "6.02% → 4.61%（Ｔ．Ｒｏｗｅ　Ｐｒｉｃｅ　Ａｓｓｏｃｉａｔｅｓ，Ｉｎｃ．）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YR7V"
+  },
+  {
+   "date": "2026-09-17",
+   "detail": "保有割合 5.16%（ブラックロック・ジャパン株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z2WD"
+  },
+  {
+   "date": "2026-09-24",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-06",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}

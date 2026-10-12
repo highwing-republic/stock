@@ -1,0 +1,294 @@
+{
+ "company": {
+  "name": "北海道電力",
+  "securityCode": "9509",
+  "tradingViewSymbol": "TSE:9509"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "9509-2026-07-23",
+  "overextended": false,
+  "setupType": "BREAKOUT",
+  "setups": [],
+  "startedAt": "2026-07-23",
+  "status": "REACTED",
+  "statusHistory": [
+   {
+    "date": "2026-07-23",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-07-23",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   },
+   {
+    "date": "2026-08-13",
+    "from": "WATCH",
+    "reason_code": "SETUP_IMPROVED",
+    "to": "STRENGTHENING"
+   },
+   {
+    "date": "2026-09-01",
+    "from": "STRENGTHENING",
+    "reason_code": "NEW_HIGH60_VOLUME",
+    "to": "CONFIRMED"
+   },
+   {
+    "date": "2026-09-02",
+    "from": "CONFIRMED",
+    "reason_code": "EXCESS_THRESHOLD",
+    "to": "REACTED"
+   }
+  ],
+  "watchStartedAt": "2026-07-23"
+ },
+ "eventReactions": [
+  {
+   "d1": 0.6,
+   "d20": 10.0,
+   "d5": 6.0,
+   "eventId": "edinet:S100YO08",
+   "excess5": 5.8
+  },
+  {
+   "d1": -0.6,
+   "d20": 5.6,
+   "d5": 1.0,
+   "eventId": "edinet:S100YROR",
+   "excess5": 2.3
+  },
+  {
+   "d1": -0.6,
+   "d20": 5.6,
+   "d5": 1.0,
+   "eventId": "edinet:S100YRXN",
+   "excess5": 2.3
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 4343700,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 1.63,
+  "sellBalance": 2662800,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": 2.5,
+  "currentPrice": 1099.5,
+  "d20": {
+   "benchReturn": 0.5,
+   "excessReturn": 7.0,
+   "pendingDays": 0,
+   "stockReturn": 7.5
+  },
+  "d5": {
+   "benchReturn": -2.2,
+   "excessReturn": 2.7,
+   "pendingDays": 0,
+   "stockReturn": 0.5
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 8,
+   "stockReturn": null
+  },
+  "excessReturn": 7.7,
+  "initialDate": "2026-07-23",
+  "initialPrice": 997.8,
+  "stockReturn": 10.2
+ },
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.13,
+  "labels": [
+   "60日レンジ上位26%",
+   "60日線の上"
+  ],
+  "ma20": 1104.7,
+  "ma200": 1027.3,
+  "ma60": 1059.7,
+  "rangePos60": 0.74,
+  "rel20": -3.8,
+  "rel60": 12.6,
+  "volumeRatio20": 0.71
+ },
+ "reasons": [
+  "新規大量保有 5.2%（野村證券株式会社）",
+  "60日レンジ上位26%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-07-02",
+   "detail": "10.33% → 10.76%（株式会社みずほ銀行）",
+   "kind": "EVENT",
+   "label": "買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YO08"
+  },
+  {
+   "date": "2026-07-23",
+   "detail": "10.76% → 10.48%（株式会社みずほ銀行）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YROR"
+  },
+  {
+   "date": "2026-07-23",
+   "detail": "保有割合 5.16%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YRXN"
+  },
+  {
+   "date": "2026-07-23",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-12",
+   "detail": "BREAKOUT → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-13",
+   "detail": "なし → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-13",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-13",
+   "detail": "Price Setupが改善",
+   "kind": "STATUS",
+   "label": "STRENGTHENING",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-17",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-17",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-18",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-20",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-21",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-01",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-01",
+   "detail": "60日高値を出来高増で更新",
+   "kind": "STATUS",
+   "label": "CONFIRMED",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-02",
+   "detail": "TOPIX連動ETFとの差が大きくなった",
+   "kind": "STATUS",
+   "label": "REACTED",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-24",
+   "detail": "BREAKOUT → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-28",
+   "detail": "なし → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-28",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-29",
+   "detail": "BREAKOUT → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-30",
+   "detail": "なし → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-30",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-01",
+   "detail": "BREAKOUT → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}

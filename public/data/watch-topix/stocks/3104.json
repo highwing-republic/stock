@@ -1,0 +1,141 @@
+{
+ "company": {
+  "name": "富士紡ホールディングス",
+  "securityCode": "3104",
+  "tradingViewSymbol": "TSE:3104"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "3104-2026-10-06",
+  "overextended": false,
+  "setupType": "RECOVERY",
+  "setups": [
+   "RECOVERY"
+  ],
+  "startedAt": "2026-10-06",
+  "status": "WATCH",
+  "statusHistory": [
+   {
+    "date": "2026-10-06",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-10-06",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   }
+  ],
+  "watchStartedAt": "2026-10-06"
+ },
+ "eventReactions": [
+  {
+   "d1": -5.2,
+   "d20": -15.5,
+   "d5": -5.2,
+   "eventId": "edinet:S100YTXB",
+   "excess5": -8.5
+  },
+  {
+   "d1": 4.8,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z4YH",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 119900,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 36.33,
+  "sellBalance": 3300,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [
+  {
+   "closeReason": "NO_SETUP",
+   "closedAt": "2026-09-04",
+   "id": "3104-2026-08-06",
+   "setupType": null,
+   "startedAt": "2026-08-06"
+  }
+ ],
+ "performance": {
+  "benchReturn": -1.8,
+  "currentPrice": 3735.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 17,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 2,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 57,
+   "stockReturn": null
+  },
+  "excessReturn": 2.7,
+  "initialDate": "2026-10-06",
+  "initialPrice": 3700.0,
+  "stockReturn": 0.9
+ },
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.18,
+  "labels": [
+   "20日線の上",
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 3371.8,
+  "ma200": 3516.4,
+  "ma60": 3505.4,
+  "rangePos60": 0.6,
+  "rel20": 12.9,
+  "rel60": -4.5,
+  "volumeRatio20": 1.05
+ },
+ "reasons": [
+  "1.1pt買い増し 19.7%→20.8%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +12.9pt（20日）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-08-06",
+   "detail": "保有割合 5.04%（三井住友トラスト・アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YTXB"
+  },
+  {
+   "date": "2026-10-05",
+   "detail": "19.7% → 20.76%（エフィッシモ　キャピタル　マネージメント　ピーティーイー　エルティーディー（Ｅｆｆｉｓｓｉｍｏ　Ｃａｐｉｔａｌ　Ｍａｎａｇｅｍｅｎｔ　Ｐｔｅ　Ｌｔｄ））",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z4YH"
+  },
+  {
+   "date": "2026-10-06",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}

@@ -1,0 +1,83 @@
+{
+ "company": {
+  "name": "東芝テック",
+  "securityCode": "6588",
+  "tradingViewSymbol": "TSE:6588"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "6588-2026-10-06",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-10-06",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-10-06",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": 1.5,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z6FK",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 140800,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 5.33,
+  "sellBalance": 26400,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.14,
+  "labels": [
+   "20日線の上"
+  ],
+  "ma20": 2869.7,
+  "ma200": 2929.2,
+  "ma60": 3002.7,
+  "rangePos60": 0.34,
+  "rel20": 3.1,
+  "rel60": -3.0,
+  "volumeRatio20": 0.74
+ },
+ "reasons": [
+  "新規大量保有 5.4%（モルガン・スタンレーＭＵＦＧ証券株式会社）",
+  "TOPIX連動ETF比 +3.1pt（20日）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-10-06",
+   "detail": "保有割合 5.43%（モルガン・スタンレーＭＵＦＧ証券株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z6FK"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}

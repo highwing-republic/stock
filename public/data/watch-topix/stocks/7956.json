@@ -1,0 +1,186 @@
+{
+ "company": {
+  "name": "ピジョン",
+  "securityCode": "7956",
+  "tradingViewSymbol": "TSE:7956"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "7956-2026-09-18",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-09-18",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-09-18",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": -0.5,
+   "d20": 5.3,
+   "d5": 3.7,
+   "eventId": "edinet:S100YG9E",
+   "excess5": 5.9
+  },
+  {
+   "d1": 1.2,
+   "d20": -4.6,
+   "d5": -1.0,
+   "eventId": "edinet:S100YOLB",
+   "excess5": -0.7
+  },
+  {
+   "d1": -0.9,
+   "d20": -6.3,
+   "d5": -3.1,
+   "eventId": "edinet:S100YPAI",
+   "excess5": -0.9
+  },
+  {
+   "d1": 1.0,
+   "d20": -6.8,
+   "d5": 2.1,
+   "eventId": "edinet:S100YXB4",
+   "excess5": -0.5
+  },
+  {
+   "d1": -0.6,
+   "d20": 1.4,
+   "d5": -7.0,
+   "eventId": "edinet:S100Z0SG",
+   "excess5": -5.2
+  },
+  {
+   "d1": 1.2,
+   "d20": null,
+   "d5": 1.0,
+   "eventId": "edinet:S100Z34W",
+   "excess5": 1.5
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 265500,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 3.43,
+  "sellBalance": 77500,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-07-22",
+   "id": "7956-2026-07-06",
+   "setupType": "TREND",
+   "startedAt": "2026-07-06"
+  },
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-09-07",
+   "id": "7956-2026-08-20",
+   "setupType": "TREND",
+   "startedAt": "2026-08-20"
+  }
+ ],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.04,
+  "labels": [
+   "20日線の上",
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 2012.4,
+  "ma200": 1807.2,
+  "ma60": 2045.6,
+  "rangePos60": 0.68,
+  "rel20": 4.2,
+  "rel60": -0.6,
+  "volumeRatio20": 0.91
+ },
+ "reasons": [
+  "1.1pt買い増し 9.8%→10.9%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +4.2pt（20日）",
+  "52週高値まで4%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-06-22",
+   "detail": "6.62% → 7.43%（野村アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YG9E"
+  },
+  {
+   "date": "2026-07-06",
+   "detail": "保有割合 5.12%（大和アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YOLB"
+  },
+  {
+   "date": "2026-07-07",
+   "detail": "7.43% → 8.51%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YPAI"
+  },
+  {
+   "date": "2026-08-20",
+   "detail": "保有割合 5%（三井住友トラスト・アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YXB4"
+  },
+  {
+   "date": "2026-09-07",
+   "detail": "8.51% → 9.75%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z0SG"
+  },
+  {
+   "date": "2026-09-18",
+   "detail": "9.75% → 10.87%（野村アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z34W"
+  },
+  {
+   "date": "2026-09-25",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-06",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}

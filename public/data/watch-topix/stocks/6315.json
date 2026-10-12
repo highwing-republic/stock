@@ -1,0 +1,161 @@
+{
+ "company": {
+  "name": "TOWA",
+  "securityCode": "6315",
+  "tradingViewSymbol": "TSE:6315"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "6315-2026-09-07",
+  "overextended": false,
+  "setupType": "RECOVERY",
+  "setups": [
+   "RECOVERY"
+  ],
+  "startedAt": "2026-09-07",
+  "status": "WATCH",
+  "statusHistory": [
+   {
+    "date": "2026-09-07",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-10-05",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   }
+  ],
+  "watchStartedAt": "2026-10-05"
+ },
+ "eventReactions": [
+  {
+   "d1": 4.4,
+   "d20": 16.9,
+   "d5": -4.3,
+   "eventId": "edinet:S100Z0FE",
+   "excess5": -2.5
+  },
+  {
+   "d1": 0.5,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z6LT",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 4424100,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 32.51,
+  "sellBalance": 136100,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": -0.9,
+  "currentPrice": 2650.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 16,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 1,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 56,
+   "stockReturn": null
+  },
+  "excessReturn": 7.3,
+  "initialDate": "2026-10-05",
+  "initialPrice": 2491.0,
+  "stockReturn": 6.4
+ },
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.29,
+  "labels": [
+   "20日線の上",
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 2294.3,
+  "ma200": 2671.0,
+  "ma60": 2484.8,
+  "rangePos60": 0.46,
+  "rel20": 18.7,
+  "rel60": -17.8,
+  "volumeRatio20": 1.4
+ },
+ "reasons": [
+  "新規大量保有 5.3%（野村證券株式会社）",
+  "20日線上向き",
+  "TOPIX連動ETF比 +18.7pt（20日）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-09-07",
+   "detail": "保有割合 5.35%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z0FE"
+  },
+  {
+   "date": "2026-09-28",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-01",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-05",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-05",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-06",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "5.35% → 4.32%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z6LT"
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}

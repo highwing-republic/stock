@@ -1,0 +1,197 @@
+{
+ "company": {
+  "name": "メイコー",
+  "securityCode": "6787",
+  "tradingViewSymbol": "TSE:6787"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "6787-2026-09-25",
+  "overextended": false,
+  "setupType": "RECOVERY",
+  "setups": [
+   "RECOVERY"
+  ],
+  "startedAt": "2026-09-25",
+  "status": "REACTED",
+  "statusHistory": [
+   {
+    "date": "2026-09-25",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-09-25",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   },
+   {
+    "date": "2026-10-06",
+    "from": "WATCH",
+    "reason_code": "EXCESS_THRESHOLD",
+    "to": "REACTED"
+   }
+  ],
+  "watchStartedAt": "2026-09-25"
+ },
+ "eventReactions": [
+  {
+   "d1": -3.0,
+   "d20": -28.0,
+   "d5": -20.3,
+   "eventId": "edinet:S100YR5X",
+   "excess5": -18.1
+  },
+  {
+   "d1": -3.0,
+   "d20": -28.0,
+   "d5": -20.3,
+   "eventId": "edinet:S100YS09",
+   "excess5": -18.1
+  },
+  {
+   "d1": 0.4,
+   "d20": null,
+   "d5": 6.7,
+   "eventId": "edinet:S100Z3N4",
+   "excess5": 4.4
+  },
+  {
+   "d1": -1.5,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z6J6",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 460400,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 16.38,
+  "sellBalance": 28100,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": 0.5,
+  "currentPrice": 26310.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 10,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": -0.0,
+   "excessReturn": 0.3,
+   "pendingDays": 0,
+   "stockReturn": 0.3
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 50,
+   "stockReturn": null
+  },
+  "excessReturn": 10.1,
+  "initialDate": "2026-09-25",
+  "initialPrice": 23787.5,
+  "stockReturn": 10.6
+ },
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.42,
+  "labels": [
+   "20日線の上",
+   "60日レンジ上位12%",
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 23077.4,
+  "ma200": 23366.9,
+  "ma60": 21289.2,
+  "rangePos60": 0.88,
+  "rel20": 37.8,
+  "rel60": -1.5,
+  "volumeRatio20": 0.77
+ },
+ "reasons": [
+  "新規大量保有 5.8%（株式会社みずほ銀行）",
+  "60日レンジ上位12%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +37.8pt（20日）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-07-23",
+   "detail": "5.25% → 4.28%（三井住友ＤＳアセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YS09"
+  },
+  {
+   "date": "2026-07-24",
+   "detail": "20.17% → 20.17%（有限会社ユーホー）",
+   "kind": "EVENT",
+   "label": "変更報告（増減不明）",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YR5X"
+  },
+  {
+   "date": "2026-09-25",
+   "detail": "保有割合 5.85%（株式会社みずほ銀行）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z3N4"
+  },
+  {
+   "date": "2026-09-25",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-06",
+   "detail": "TOPIX連動ETFとの差が大きくなった",
+   "kind": "STATUS",
+   "label": "REACTED",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "5.85% → 4.65%（株式会社みずほ銀行）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z6J6"
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "RECOVERY → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "BREAKOUT → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}

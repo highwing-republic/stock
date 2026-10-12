@@ -1,0 +1,123 @@
+{
+ "company": {
+  "name": "十六フィナンシャルグループ",
+  "securityCode": "7380",
+  "tradingViewSymbol": "TSE:7380"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "7380-2026-10-07",
+  "overextended": false,
+  "setupType": "TREND",
+  "setups": [],
+  "startedAt": "2026-10-07",
+  "status": "WATCH",
+  "statusHistory": [
+   {
+    "date": "2026-10-07",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-10-07",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   }
+  ],
+  "watchStartedAt": "2026-10-07"
+ },
+ "eventReactions": [
+  {
+   "d1": -3.0,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z6SL",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 455200,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 11.58,
+  "sellBalance": 39300,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": -1.0,
+  "currentPrice": 2703.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 18,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 3,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 58,
+   "stockReturn": null
+  },
+  "excessReturn": -4.1,
+  "initialDate": "2026-10-07",
+  "initialPrice": 2849.0,
+  "stockReturn": -5.1
+ },
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.08,
+  "labels": [
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 2741.3,
+  "ma200": 2103.2,
+  "ma60": 2582.7,
+  "rangePos60": 0.65,
+  "rel20": 2.8,
+  "rel60": 7.4,
+  "volumeRatio20": 1.38
+ },
+ "reasons": [
+  "新規大量保有 5.2%（野村ホールディングス株式会社）",
+  "TOPIX連動ETF比 +2.8pt（20日）",
+  "52週高値まで8%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-10-07",
+   "detail": "保有割合 5.23%（野村ホールディングス株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z6SL"
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}

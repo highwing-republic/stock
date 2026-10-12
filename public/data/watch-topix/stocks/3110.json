@@ -1,0 +1,220 @@
+{
+ "company": {
+  "name": "日東紡績",
+  "securityCode": "3110",
+  "tradingViewSymbol": "TSE:3110"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "3110-2026-09-28",
+  "overextended": true,
+  "setupType": "BREAKOUT",
+  "setups": [
+   "BREAKOUT",
+   "RECOVERY"
+  ],
+  "startedAt": "2026-09-28",
+  "status": "REACTED",
+  "statusHistory": [
+   {
+    "date": "2026-09-28",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-09-28",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   },
+   {
+    "date": "2026-10-06",
+    "from": "WATCH",
+    "reason_code": "RETURN_THRESHOLD",
+    "to": "REACTED"
+   }
+  ],
+  "watchStartedAt": "2026-09-28"
+ },
+ "eventReactions": [
+  {
+   "d1": 6.1,
+   "d20": -22.2,
+   "d5": 0.7,
+   "eventId": "edinet:S100YFDF",
+   "excess5": 2.9
+  },
+  {
+   "d1": -17.9,
+   "d20": -16.7,
+   "d5": -9.0,
+   "eventId": "edinet:S100YTXQ",
+   "excess5": -12.3
+  },
+  {
+   "d1": 4.0,
+   "d20": null,
+   "d5": 13.5,
+   "eventId": "edinet:S100Z3UV",
+   "excess5": 13.5
+  },
+  {
+   "d1": -4.1,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z6HT",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 5409100,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 3.55,
+  "sellBalance": 1522900,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-08-25",
+   "id": "3110-2026-08-06",
+   "setupType": "RECOVERY",
+   "startedAt": "2026-08-06"
+  }
+ ],
+ "performance": {
+  "benchReturn": 1.0,
+  "currentPrice": 3415.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 11,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": 1.9,
+   "excessReturn": 6.9,
+   "pendingDays": 0,
+   "stockReturn": 8.8
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 51,
+   "stockReturn": null
+  },
+  "excessReturn": 9.6,
+  "initialDate": "2026-09-28",
+  "initialPrice": 3088.0,
+  "stockReturn": 10.6
+ },
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.48,
+  "labels": [
+   "20日線の上",
+   "60日レンジ上位26%",
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 3149.0,
+  "ma200": 3727.4,
+  "ma60": 3095.9,
+  "rangePos60": 0.74,
+  "rel20": 14.4,
+  "rel60": -2.9,
+  "volumeRatio20": 0.76
+ },
+ "reasons": [
+  "新規大量保有 5%（ゴールドマン・サックス証券株式会社）",
+  "60日レンジ上位26%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +14.4pt（20日）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-06-22",
+   "detail": "9.44% → 8.34%（株式会社みずほ銀行）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFDF"
+  },
+  {
+   "date": "2026-08-06",
+   "detail": "保有割合 5.06%（三井住友信託銀行株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YTXQ"
+  },
+  {
+   "date": "2026-09-25",
+   "detail": "保有割合 5.02%（ゴールドマン・サックス証券株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z3UV"
+  },
+  {
+   "date": "2026-09-28",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-28",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-28",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-28",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-30",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-06",
+   "detail": "Watch開始後の値上がりが大きくなった",
+   "kind": "STATUS",
+   "label": "REACTED",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "5.02% → 3.34%（ゴールドマン・サックス証券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z6HT"
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "RECOVERY → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}

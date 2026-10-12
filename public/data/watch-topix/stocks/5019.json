@@ -1,0 +1,307 @@
+{
+ "company": {
+  "name": "出光興産",
+  "securityCode": "5019",
+  "tradingViewSymbol": "TSE:5019"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "5019-2026-08-06",
+  "overextended": true,
+  "setupType": "TREND",
+  "setups": [],
+  "startedAt": "2026-08-06",
+  "status": "REACTED",
+  "statusHistory": [
+   {
+    "date": "2026-08-06",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-08-20",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   },
+   {
+    "date": "2026-08-25",
+    "from": "WATCH",
+    "reason_code": "SETUP_IMPROVED",
+    "to": "STRENGTHENING"
+   },
+   {
+    "date": "2026-08-31",
+    "from": "STRENGTHENING",
+    "reason_code": "NEW_HIGH60_VOLUME",
+    "to": "CONFIRMED"
+   },
+   {
+    "date": "2026-09-08",
+    "from": "CONFIRMED",
+    "reason_code": "EXCESS_THRESHOLD",
+    "to": "REACTED"
+   }
+  ],
+  "watchStartedAt": "2026-08-20"
+ },
+ "eventReactions": [
+  {
+   "d1": 0.5,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100XZUM",
+   "excess5": null
+  },
+  {
+   "d1": 0.5,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Y713",
+   "excess5": null
+  },
+  {
+   "d1": 1.4,
+   "d20": 20.0,
+   "d5": 3.4,
+   "eventId": "edinet:S100YU85",
+   "excess5": 0.1
+  },
+  {
+   "d1": 0.5,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z6YQ",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 785600,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 4.83,
+  "sellBalance": 162600,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": 2.3,
+  "currentPrice": 1504.5,
+  "d20": {
+   "benchReturn": 1.1,
+   "excessReturn": 22.9,
+   "pendingDays": 0,
+   "stockReturn": 24.0
+  },
+  "d5": {
+   "benchReturn": 1.6,
+   "excessReturn": -0.1,
+   "pendingDays": 0,
+   "stockReturn": 1.5
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 27,
+   "stockReturn": null
+  },
+  "excessReturn": 10.4,
+  "initialDate": "2026-08-20",
+  "initialPrice": 1334.9,
+  "stockReturn": 12.7
+ },
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.11,
+  "labels": [
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 1591.9,
+  "ma200": 1355.8,
+  "ma60": 1415.1,
+  "rangePos60": 0.61,
+  "rel20": -3.9,
+  "rel60": 20.2,
+  "volumeRatio20": 0.93
+ },
+ "reasons": [
+  "1.7pt買い増し 7.8%→9.4%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-08-06",
+   "detail": "保有割合 4.47%（野村アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YU85"
+  },
+  {
+   "date": "2026-08-07",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-07",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-14",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-14",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-17",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-20",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-20",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-24",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-25",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-25",
+   "detail": "Price Setupが改善",
+   "kind": "STATUS",
+   "label": "STRENGTHENING",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-26",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-27",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-31",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-31",
+   "detail": "60日高値を出来高増で更新",
+   "kind": "STATUS",
+   "label": "CONFIRMED",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-01",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-08",
+   "detail": "RECOVERY → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-08",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-08",
+   "detail": "TOPIX連動ETFとの差が大きくなった",
+   "kind": "STATUS",
+   "label": "REACTED",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-09",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-01",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "9.45% → 0%（アラムコ・オーバーシーズ・カンパニー・ビー・ヴィ）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100XZUM"
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "7.76% → 9.45%（アラムコ・オーバーシーズ・カンパニー・ビー・ヴィ）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z6YQ"
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "保有割合 9.45%（Ａｒａｍｃｏ　Ｄｏｗｎｓｔｒｅａｍ　Ａｓｉａ　Ｐｔｅ．　Ｌｔｄ．）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Y713"
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}

@@ -1,0 +1,304 @@
+{
+ "company": {
+  "name": "コーセーホールディングス",
+  "securityCode": "4922",
+  "tradingViewSymbol": "TSE:4922"
+ },
+ "episode": {
+  "closeReason": "EXPIRED",
+  "closedAt": "2026-10-09",
+  "id": "4922-2026-07-06",
+  "overextended": false,
+  "setupType": "TREND",
+  "setups": [],
+  "startedAt": "2026-07-06",
+  "status": "CLOSED",
+  "statusHistory": [
+   {
+    "date": "2026-07-06",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-07-10",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   },
+   {
+    "date": "2026-07-13",
+    "from": "WATCH",
+    "reason_code": "REL20_POSITIVE",
+    "to": "STRENGTHENING"
+   },
+   {
+    "date": "2026-07-28",
+    "from": "STRENGTHENING",
+    "reason_code": "EXCESS_THRESHOLD",
+    "to": "REACTED"
+   },
+   {
+    "date": "2026-10-09",
+    "from": "REACTED",
+    "reason_code": "EXPIRED",
+    "to": "CLOSED"
+   }
+  ],
+  "watchStartedAt": "2026-07-10"
+ },
+ "eventReactions": [
+  {
+   "d1": 0.4,
+   "d20": 4.5,
+   "d5": -3.2,
+   "eventId": "edinet:S100YO7Q",
+   "excess5": -2.9
+  },
+  {
+   "d1": 0.4,
+   "d20": 4.5,
+   "d5": -3.2,
+   "eventId": "edinet:S100YOCQ",
+   "excess5": -2.9
+  },
+  {
+   "d1": -1.9,
+   "d20": 3.2,
+   "d5": 3.9,
+   "eventId": "edinet:S100YR12",
+   "excess5": 5.2
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-08",
+  "buyBalance": 191800,
+  "buyChangePct": null,
+  "labels": [],
+  "ratio": 0.69,
+  "sellBalance": 276100,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": 2.5,
+  "currentPrice": 5514.0,
+  "d20": {
+   "benchReturn": 1.3,
+   "excessReturn": 11.7,
+   "pendingDays": 0,
+   "stockReturn": 13.0
+  },
+  "d5": {
+   "benchReturn": -3.4,
+   "excessReturn": 8.3,
+   "pendingDays": 0,
+   "stockReturn": 4.9
+  },
+  "d60": {
+   "benchReturn": 2.5,
+   "excessReturn": 3.2,
+   "pendingDays": 0,
+   "stockReturn": 5.7
+  },
+  "excessReturn": 3.2,
+  "initialDate": "2026-07-10",
+  "initialPrice": 5218.0,
+  "stockReturn": 5.7
+ },
+ "priceSetup": {
+  "asOf": "2026-10-09",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.14,
+  "labels": [],
+  "ma20": 5558.2,
+  "ma200": 5539.2,
+  "ma60": 5661.6,
+  "rangePos60": 0.33,
+  "rel20": -4.8,
+  "rel60": 3.2,
+  "volumeRatio20": 0.98
+ },
+ "reasons": [
+  "1.6pt買い増し 5.7%→7.2%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-07-06",
+   "detail": "7.61% → 6.22%（マサチューセッツ・ファイナンシャル・サービセズ・カンパニー）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YOCQ"
+  },
+  {
+   "date": "2026-07-06",
+   "detail": "5.65% → 7.24%（三井住友トラスト・アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YO7Q"
+  },
+  {
+   "date": "2026-07-07",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-10",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-10",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-13",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-13",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "STATUS",
+   "label": "STRENGTHENING",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-14",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-21",
+   "detail": "RECOVERY → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-22",
+   "detail": "7.24% → 7.21%（三井住友トラスト・アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YR12"
+  },
+  {
+   "date": "2026-07-22",
+   "detail": "BREAKOUT → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup変化",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-28",
+   "detail": "TOPIX連動ETFとの差が大きくなった",
+   "kind": "STATUS",
+   "label": "REACTED",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-29",
+   "detail": "RECOVERY → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-29",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-31",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-06",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-13",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-18",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-19",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-20",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-02",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-03",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-11",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-11",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "観察期限に到達",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-12T19:23:39+09:00"
+}
