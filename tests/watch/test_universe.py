@@ -109,8 +109,9 @@ def test_rejects_malformed_and_duplicate_codes():
 
 def test_rejects_older_snapshot():
     m = seeded()
-    _, rep = apply_snapshot(m, snap(codes(360)[1:], date(2026, 7, 1), sha="old"))
-    assert rep["status"] == "rejected" and "古い" in rep["error"]
+    m2, rep = apply_snapshot(m, snap(codes(360)[1:], date(2026, 7, 1), sha="old"))
+    assert rep["status"] == "ignored" and "古い" in rep["error"]
+    assert m2 == m                                   # 取得は成功扱いだが membership は変えない
 
 
 def test_alphanumeric_codes_supported():

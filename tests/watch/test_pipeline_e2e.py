@@ -237,7 +237,8 @@ def test_validate_public_rejects_bad_files():
     good = {"schemaVersion": 1, "updatedAt": "x", "asOfMarketDate": "d", "benchmarkLabel": "b",
             "sources": {"edinet": {}, "prices": {}, "jpx400": {}, "margin": {}},
             "weekly": {"periodKey": "k", "entries": []}, "monthly": {"periodKey": "k", "entries": []},
-            "stateChanges": [], "universeCount": 0, "disclaimer": "d"}
+            "stateChanges": [], "universeCount": 0, "disclaimer": "d",
+            "universe": {"key": "jpx400", "label": "JPX日経400", "memberCount": 0, "note": None}}
     export.validate_public({"summary.json": good})
     with pytest.raises(export.ExportValidationError):
         export.validate_public({"summary.json": dict(good, priorityScore=1)})

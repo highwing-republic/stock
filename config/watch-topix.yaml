@@ -1,0 +1,14 @@
+# 新TOPIX Watch Radar 用の差分設定。config/watch.yaml の上に重ねて読む（load_config(path)）。
+# 実行例:
+#   python scripts/update_watch.py --config config/watch-topix.yaml --state-dir state/topix --out-dir public/data/watch-topix
+universe:
+  kind: topix
+  label: "新TOPIX"
+  include_transition: false    # 2026-10-30 の初回定期入替で移行措置となった 683 銘柄を対象外にする
+  min_members: 900             # 移行措置銘柄を除いた構成銘柄は 986 件（2026-10-30 時点）
+
+pipeline:
+  universe_stale_days: 45      # ウエイト一覧 CSV は月次更新（翌月末）のため、JPX400 より長めに取る
+
+export:
+  state_change_limit: 50

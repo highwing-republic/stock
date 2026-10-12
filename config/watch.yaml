@@ -4,6 +4,9 @@ calendar:
   extra_holidays: []           # 例: ["2026-11-03"]（ベンチマーク価格が無い先の日付にだけ効く）
 
 universe:
+  kind: jpx400                 # jpx400 | topix（sources/<kind>.py が構成銘柄を取得する）
+  label: "JPX日経400"
+  include_transition: true     # topix のみ有効: 移行措置銘柄を対象に含めるか
   min_members: 350
 
 events:
@@ -88,7 +91,7 @@ pipeline:
   replay_days: 180
   benchmark_ticker: "1306.T"
   edinet_stale_days: 5
-  jpx400_stale_days: 14
+  universe_stale_days: 14      # 構成銘柄ソースの最終確認からこの日数を超えたら stale
 
 export:
   state_change_days: 10

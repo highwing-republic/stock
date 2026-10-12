@@ -12,7 +12,7 @@ INCREASE_FAMILY = ("NEW_HOLDER", "LARGE_INCREASE", "CONSECUTIVE_INCREASE", "INCR
 EVENT_FIELDS = ("event_id", "security_code", "company_name", "filer_name", "event_type", "tags",
                 "disclosed_at", "event_market_date", "source", "source_document_id", "source_url",
                 "raw_title", "holding_ratio", "previous_holding_ratio", "holding_change",
-                "important_proposal", "is_jpx400_at_event")
+                "important_proposal", "is_member_at_event")
 
 
 def load_filings(conn: sqlite3.Connection) -> list[dict]:
@@ -83,7 +83,7 @@ def normalize_events(filings: Iterable[dict], calendar: MarketCalendar, cfg, uni
             "raw_title": f.get("doc_description") or "",
             "holding_ratio": f.get("holding_ratio"), "previous_holding_ratio": f.get("previous_holding_ratio"),
             "holding_change": f.get("holding_change"),
-            "important_proposal": bool(f.get("important_proposal")), "is_jpx400_at_event": member,
+            "important_proposal": bool(f.get("important_proposal")), "is_member_at_event": member,
         })
     events.sort(key=lambda e: e["event_id"])
     return events

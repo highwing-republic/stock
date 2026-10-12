@@ -41,7 +41,7 @@ def test_types_and_priority(cfg):
     assert by["D"]["event_type"] == "DECREASE"
     assert by["I"]["event_type"] == "INCREASE"
     assert by["L"]["event_type"] == "LARGE_INCREASE" and "PURPOSE_CHANGE" in by["L"]["tags"]
-    assert by["N"]["is_jpx400_at_event"] is True and by["I"]["is_jpx400_at_event"] is False
+    assert by["N"]["is_member_at_event"] is True and by["I"]["is_member_at_event"] is False
     assert by["N"]["source_url"] == "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?N"
     assert [e["event_id"] for e in ev] == sorted(e["event_id"] for e in ev)
 

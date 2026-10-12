@@ -26,14 +26,16 @@ REASON_TEXT = {
     "RETURN_THRESHOLD": "Watch開始後の値上がりが大きくなった", "EXCESS_THRESHOLD": "TOPIX連動ETFとの差が大きくなった",
     "BELOW_MA20": "20日線を連続で下回った", "BELOW_MA60": "60日線を下回った", "BROKEN": "Price Setupが崩れた",
     "NO_SETUP": "期限内にPrice Setupが成立しなかった", "EXPIRED": "観察期限に到達",
-    "UNIVERSE_EXIT": "JPX400から除外された"}
+    "UNIVERSE_EXIT": "{universe}から除外された"}
+DEFAULT_UNIVERSE = {"key": "jpx400", "label": "JPX日経400", "memberCount": None, "note": None}
 EVENT_LABEL = {"NEW_HOLDER": "新規大量保有", "LARGE_INCREASE": "大幅な買い増し", "CONSECUTIVE_INCREASE": "連続の買い増し",
                "INCREASE": "買い増し", "DECREASE": "保有割合の減少", "CORRECTION": "訂正報告",
                "CHANGE_UNKNOWN": "変更報告（増減不明）"}
 MILESTONE_LABEL = {"MA20_RECLAIMED": "20日線を回復", "MA60_RECLAIMED": "60日線を回復",
                    "NEW_HIGH60": "60日高値を更新", "REL20_TURNED_POSITIVE": "TOPIX連動ETFを上回りに転換"}
 SUMMARY_KEYS = {"schemaVersion", "updatedAt", "asOfMarketDate", "benchmarkLabel", "sources", "weekly", "monthly",
-                "stateChanges", "universeCount", "disclaimer"}
+                "stateChanges", "universeCount", "universe", "disclaimer"}
+UNIVERSE_KEYS = {"key", "label", "memberCount", "note"}
 ENTRY_KEYS = {"rank", "securityCode", "companyName", "setupType", "status", "reasons", "watchStartedAt",
               "returnSinceWatch", "excessSinceWatch", "rankChange"}
 STOCK_KEYS = {"schemaVersion", "updatedAt", "company", "episode", "pastEpisodes", "reasons", "timeline",
@@ -65,6 +67,11 @@ class PublicContext:
     series: Callable[[str], tuple[list[str], list[float]]]  # code → (dates, adj close)
     bench_close: dict[str, float]
     margin_views: dict[str, dict] = field(default_factory=dict)
+    universe: dict = field(default_factory=lambda: dict(DEFAULT_UNIVERSE))
+
+
+def reason_text(ctx: PublicContext, code: str) -> str:
+    return REASON_TEXT.get(code, "").format(universe=ctx.universe.get("label") or "ユニバース")
 
 
 def _r1(x):
@@ -127,7 +134,7 @@ def _state_changes(ctx: PublicContext) -> list[dict]:
                 out.append({"date": h["date"], "securityCode": ep["security_code"],
                             "companyName": ctx.names.get(ep["security_code"], ep["security_code"]),
                             "change": change, "setupType": ep["setup_type"],
-                            "reason": REASON_TEXT.get(h["reason_code"], "")})
+                            "reason": reason_text(ctx, h["reason_code"])})
     out.sort(key=lambda c: (c["date"], c["securityCode"], c["change"]), reverse=True)
     return out[:ctx.cfg.export.state_change_limit]
 
@@ -196,7 +203,7 @@ def _timeline(ctx: PublicContext, code: str, shown: dict | None, events_by_id: d
             if h["to"] == "CANDIDATE":
                 continue
             out.append({"date": h["date"], "kind": "STATUS", "label": h["to"],
-                        "detail": REASON_TEXT.get(h["reason_code"], ""), "sourceUrl": None})
+                        "detail": reason_text(ctx, h["reason_code"]), "sourceUrl": None})
     order = {"EVENT": 0, "SETUP": 1, "STATUS": 2}
     out.sort(key=lambda t: (t["date"], order[t["kind"]], t["label"], t["detail"]))
     return out[-ctx.cfg.export.timeline_limit:]
@@ -241,6 +248,7 @@ def build_public(ctx: PublicContext) -> dict[str, Any]:
                "weekly": {"periodKey": ctx.weekly["key"], "entries": weekly},
                "monthly": {"periodKey": ctx.monthly["key"], "entries": monthly},
                "stateChanges": changes, "universeCount": ctx.universe_count,
+               "universe": dict(ctx.universe, memberCount=ctx.universe_count),
                "disclaimer": ctx.cfg.export.disclaimer}
     codes = {e["securityCode"] for e in weekly + monthly} | {c["securityCode"] for c in changes} \
         | {e["security_code"] for e in ctx.episodes if e["status"] != "CLOSED"}
@@ -282,7 +290,12 @@ def validate_public(files: dict[str, Any]) -> None:
         raise ExportValidationError("; ".join(errors))
     if not summary.get("updatedAt"):
         errors.append("summary.json: updatedAt missing")
-    for src in ("edinet", "prices", "jpx400", "margin"):
+    universe = summary.get("universe")
+    if not isinstance(universe, dict) or set(universe) != UNIVERSE_KEYS or not universe.get("key") \
+            or not universe.get("label"):
+        errors.append("summary.universe: keys missing")
+        universe = {}
+    for src in ("edinet", "prices", universe.get("key") or "jpx400", "margin"):
         if src not in summary["sources"]:
             errors.append(f"summary.sources.{src} missing")
     for kind in ("weekly", "monthly"):

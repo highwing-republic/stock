@@ -7,51 +7,20 @@
 from __future__ import annotations
 
 import hashlib
-import io
 import re
 import unicodedata
-from dataclasses import dataclass
 from datetime import date
 
-CONSTITUENTS_URL = "https://www.jpx.co.jp/markets/indices/line-up/files/mei2_1_jpx400.pdf"
-USER_AGENT = "Mozilla/5.0 (compatible; stock-radar-watch/1.0; +https://github.com/highwing-republic/stock)"
+from .common import (CODE_RE, USER_AGENT, ConstituentsSnapshot, extract_pdf_text,  # noqa: F401 (再エクスポート)
+                     normalize_security_code)
 
-CODE_RE = re.compile(r"^\d{3}[0-9A-Z]$")
+CONSTITUENTS_URL = "https://www.jpx.co.jp/markets/indices/line-up/files/mei2_1_jpx400.pdf"
+
 _ROW_RE = re.compile(
     r"(?<![0-9A-Za-z])(\d{3}[0-9A-Z])\s+([PSG])\s+(.+?)(?=\s+\d{3}[0-9A-Z]\s+[PSG]\s+|\s*$)"
 )
 _PUBLISHED_RE = re.compile(r"(\d{4})\s*年\s*(\d{1,2})\s*月\s*(\d{1,2})\s*日\s*公表")
 _COUNT_RE = re.compile(r"構成銘柄数\s*[：:]\s*(\d+)\s*銘柄")
-
-
-def normalize_security_code(raw: object) -> str | None:
-    """証券コードを 4 文字（英数字可。例 285A）へ正規化する。不正なら None。
-
-    全角→半角、大文字化、5 桁で末尾 0 のコードは先頭 4 文字。
-    """
-    if raw is None:
-        return None
-    text = unicodedata.normalize("NFKC", str(raw)).strip().upper()
-    text = text.replace(" ", "")
-    if len(text) == 5 and text.endswith("0"):
-        text = text[:4]
-    return text if CODE_RE.match(text) else None
-
-
-@dataclass(frozen=True)
-class ConstituentsSnapshot:
-    as_of: date
-    source_url: str
-    published_at: str | None
-    rows: tuple[tuple[str, str], ...]  # (security_code, company_name)
-    sha256: str
-
-
-def extract_pdf_text(content: bytes) -> str:
-    from pypdf import PdfReader
-
-    reader = PdfReader(io.BytesIO(content))
-    return "\n".join((page.extract_text() or "") for page in reader.pages)
 
 
 def parse_constituents_text(text: str, *, source_url: str, sha256: str = "") -> ConstituentsSnapshot:
