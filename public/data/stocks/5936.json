@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T03:38:16+09:00",
+  "updatedAt": "2026-10-13T16:05:05+09:00",
   "company": {
     "securityCode": "5936",
     "ticker": "5936.T",
@@ -20,10 +20,12 @@
       "purpose": "発行会社の取引先持株会として、発行会社との関係強化を図るため。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": 0.45,
+      "volumeRatio": 3.96,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [
+        "出来高2倍以上",
+        "出来高3倍以上",
         "保有割合減少"
       ],
       "stockUnreacted": false,
@@ -31,8 +33,8 @@
         "return1d": -0.79,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -0.79,
-        "volumeRatio": 0.45,
+        "returnCurrent": -0.57,
+        "volumeRatio": 3.96,
         "marketExcessReturn": null
       }
     },
@@ -62,7 +64,7 @@
         "return1d": 0.0,
         "return5d": 1.47,
         "return20d": 3.04,
-        "returnCurrent": -1.13,
+        "returnCurrent": -0.9,
         "volumeRatio": 0.52,
         "marketExcessReturn": -1.4
       }
@@ -93,7 +95,7 @@
         "return1d": -1.24,
         "return5d": 0.34,
         "return20d": 3.95,
-        "returnCurrent": -1.02,
+        "returnCurrent": -0.79,
         "volumeRatio": 0.34,
         "marketExcessReturn": -4.54
       }
@@ -2929,6 +2931,16 @@
       "close": 877.0,
       "adj_close": 877.0,
       "volume": 3500
+    },
+    {
+      "ticker": "5936.T",
+      "trade_date": "2026-10-13",
+      "open": 880.0,
+      "high": 885.0,
+      "low": 875.0,
+      "close": 879.0,
+      "adj_close": 879.0,
+      "volume": 57500
     }
   ],
   "benchmark": [
@@ -6751,6 +6763,16 @@
       "close": 432.5,
       "adj_close": 432.5,
       "volume": 12209880
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-13",
+      "open": 430.8999938964844,
+      "high": 432.6000061035156,
+      "low": 428.8999938964844,
+      "close": 432.5,
+      "adj_close": 432.5,
+      "volume": 12558260
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

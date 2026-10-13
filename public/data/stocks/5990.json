@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T03:38:16+09:00",
+  "updatedAt": "2026-10-13T16:05:05+09:00",
   "company": {
     "securityCode": "5990",
     "ticker": "5990.T",
@@ -19,21 +19,22 @@
       "holdingChange": 1.01,
       "purpose": "純投資および中長期的な企業価値の向上を期待して保有しております。現時点で具体的な重要提案行為等の予定はありませんが、今後の業績や対話の状況等に応じて、株主還元や役員選任などの提案を検討する可能性があります。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 1.76,
-      "marketExcessReturn": null,
-      "signalScore": 20,
+      "priceChange": 0.21,
+      "volumeRatio": 1.49,
+      "marketExcessReturn": -0.32,
+      "signalScore": 30,
       "signalReasons": [
-        "1pt以上買い増し"
+        "1pt以上買い増し",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": -0.21,
-        "return5d": null,
+        "return5d": 0.21,
         "return20d": null,
-        "returnCurrent": -0.41,
-        "volumeRatio": 1.76,
-        "marketExcessReturn": null
+        "returnCurrent": 0.21,
+        "volumeRatio": 1.49,
+        "marketExcessReturn": -0.32
       }
     }
   ],
@@ -2727,6 +2728,16 @@
       "close": 1920.0,
       "adj_close": 1920.0,
       "volume": 1100
+    },
+    {
+      "ticker": "5990.T",
+      "trade_date": "2026-10-13",
+      "open": 1932.0,
+      "high": 1932.0,
+      "low": 1932.0,
+      "close": 1932.0,
+      "adj_close": 1932.0,
+      "volume": 200
     }
   ],
   "benchmark": [
@@ -6549,6 +6560,16 @@
       "close": 432.5,
       "adj_close": 432.5,
       "volume": 12209880
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-13",
+      "open": 430.8999938964844,
+      "high": 432.6000061035156,
+      "low": 428.8999938964844,
+      "close": 432.5,
+      "adj_close": 432.5,
+      "volume": 12558260
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

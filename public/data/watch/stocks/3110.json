@@ -10,10 +10,7 @@
   "id": "3110-2026-09-28",
   "overextended": true,
   "setupType": "BREAKOUT",
-  "setups": [
-   "BREAKOUT",
-   "RECOVERY"
-  ],
+  "setups": [],
   "startedAt": "2026-09-28",
   "status": "REACTED",
   "statusHistory": [
@@ -69,22 +66,22 @@
   }
  ],
  "margin": {
-  "asOf": "2026-10-08",
-  "buyBalance": 5409100,
-  "buyChangePct": -1.4,
+  "asOf": "2026-10-09",
+  "buyBalance": 5309600,
+  "buyChangePct": -2.7,
   "labels": [],
-  "ratio": 3.55,
-  "sellBalance": 1522900,
-  "sellChangePct": 4.8
+  "ratio": 3.62,
+  "sellBalance": 1467900,
+  "sellChangePct": 1.6
  },
  "pastEpisodes": [],
  "performance": {
   "benchReturn": 1.0,
-  "currentPrice": 3415.0,
+  "currentPrice": 3300.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 11,
+   "pendingDays": 10,
    "stockReturn": null
   },
   "d5": {
@@ -96,37 +93,36 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 51,
+   "pendingDays": 50,
    "stockReturn": null
   },
-  "excessReturn": 9.6,
+  "excessReturn": 5.9,
   "initialDate": "2026-09-28",
   "initialPrice": 3088.0,
-  "stockReturn": 10.6
+  "stockReturn": 6.9
  },
  "priceSetup": {
-  "asOf": "2026-10-09",
+  "asOf": "2026-10-13",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.48,
+  "distFrom52wHigh": 0.5,
   "labels": [
    "20日線の上",
-   "60日レンジ上位26%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 3149.0,
-  "ma200": 3727.4,
-  "ma60": 3095.9,
-  "rangePos60": 0.74,
-  "rel20": 14.4,
-  "rel60": -2.9,
-  "volumeRatio20": 0.76
+  "ma20": 3161.3,
+  "ma200": 3732.3,
+  "ma60": 3094.5,
+  "rangePos60": 0.65,
+  "rel20": 5.5,
+  "rel60": -6.1,
+  "volumeRatio20": 0.94
  },
  "reasons": [
   "新規大量保有 5%（ゴールドマン・サックス証券株式会社）",
-  "60日レンジ上位26%",
   "20日線上向き",
-  "TOPIX連動ETF比 +14.4pt（20日）"
+  "TOPIX連動ETF比 +5.5pt（20日）",
+  "信用買残 -3%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -206,7 +202,14 @@
    "kind": "SETUP",
    "label": "Price Setup改善",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-13",
+   "detail": "BREAKOUT → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-13T03:38:28+09:00"
+ "updatedAt": "2026-10-13T16:05:12+09:00"
 }

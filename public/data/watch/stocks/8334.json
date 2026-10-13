@@ -12,7 +12,7 @@
   "setupType": "TREND",
   "setups": [],
   "startedAt": "2026-10-07",
-  "status": "WATCH",
+  "status": "BROKEN",
   "statusHistory": [
    {
     "date": "2026-10-07",
@@ -25,6 +25,12 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
+   },
+   {
+    "date": "2026-10-13",
+    "from": "WATCH",
+    "reason_code": "BELOW_MA20",
+    "to": "BROKEN"
    }
   ],
   "watchStartedAt": "2026-10-07"
@@ -39,64 +45,61 @@
   }
  ],
  "margin": {
-  "asOf": "2026-10-08",
-  "buyBalance": 363500,
-  "buyChangePct": 35.3,
-  "labels": [
-   "信用買残急増",
-   "信用倍率悪化"
-  ],
-  "ratio": 3.66,
-  "sellBalance": 99400,
-  "sellChangePct": -10.6
+  "asOf": "2026-10-09",
+  "buyBalance": 369700,
+  "buyChangePct": 14.3,
+  "labels": [],
+  "ratio": 3.73,
+  "sellBalance": 99100,
+  "sellChangePct": -2.4
  },
  "pastEpisodes": [],
  "performance": {
   "benchReturn": -1.0,
-  "currentPrice": 2909.5,
+  "currentPrice": 2940.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 18,
+   "pendingDays": 17,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 3,
+   "pendingDays": 2,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 58,
+   "pendingDays": 57,
    "stockReturn": null
   },
-  "excessReturn": -3.4,
+  "excessReturn": -2.4,
   "initialDate": "2026-10-07",
   "initialPrice": 3044.0,
-  "stockReturn": -4.4
+  "stockReturn": -3.4
  },
  "priceSetup": {
-  "asOf": "2026-10-09",
+  "asOf": "2026-10-13",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.09,
+  "distFrom52wHigh": 0.08,
   "labels": [
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2978.6,
-  "ma200": 2291.0,
-  "ma60": 2754.2,
-  "rangePos60": 0.65,
-  "rel20": 0.5,
-  "rel60": 15.6,
-  "volumeRatio20": 0.87
+  "ma20": 2987.1,
+  "ma200": 2297.3,
+  "ma60": 2761.8,
+  "rangePos60": 0.69,
+  "rel20": 3.5,
+  "rel60": 14.7,
+  "volumeRatio20": 0.85
  },
  "reasons": [
   "新規大量保有 5.4%（野村ホールディングス株式会社）",
-  "TOPIX連動ETF比 +0.5pt（20日）",
-  "52週高値まで9%"
+  "TOPIX連動ETF比 +3.5pt（20日）",
+  "52週高値まで8%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -120,7 +123,14 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-13",
+   "detail": "20日線を連続で下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-13T03:38:28+09:00"
+ "updatedAt": "2026-10-13T16:05:12+09:00"
 }

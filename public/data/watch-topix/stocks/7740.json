@@ -9,9 +9,8 @@
   "closedAt": null,
   "id": "7740-2026-10-09",
   "overextended": false,
-  "setupType": "BREAKOUT",
+  "setupType": "TREND",
   "setups": [
-   "BREAKOUT",
    "TREND"
   ],
   "startedAt": "2026-10-09",
@@ -42,64 +41,64 @@
   }
  ],
  "margin": {
-  "asOf": "2026-10-08",
-  "buyBalance": 703100,
+  "asOf": "2026-10-09",
+  "buyBalance": 672900,
   "buyChangePct": null,
   "labels": [],
-  "ratio": 7.08,
-  "sellBalance": 99300,
+  "ratio": 7.21,
+  "sellBalance": 93300,
   "sellChangePct": null
  },
  "pastEpisodes": [],
  "performance": {
   "benchReturn": 0.0,
-  "currentPrice": 1550.0,
+  "currentPrice": 1525.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 20,
+   "pendingDays": 19,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 5,
+   "pendingDays": 4,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 60,
+   "pendingDays": 59,
    "stockReturn": null
   },
-  "excessReturn": 0.0,
+  "excessReturn": -1.6,
   "initialDate": "2026-10-09",
   "initialPrice": 1550.0,
-  "stockReturn": 0.0
+  "stockReturn": -1.6
  },
  "priceSetup": {
-  "asOf": "2026-10-09",
-  "atrState": "低ボラ",
-  "distFrom52wHigh": 0.01,
+  "asOf": "2026-10-13",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.03,
   "labels": [
    "20日線の上",
-   "60日レンジ上位5%",
+   "60日レンジ上位10%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 1388.9,
-  "ma200": 1129.1,
-  "ma60": 1341.7,
-  "rangePos60": 0.95,
-  "rel20": 12.0,
-  "rel60": 33.1,
-  "volumeRatio20": 1.4
+  "ma20": 1397.9,
+  "ma200": 1131.7,
+  "ma60": 1348.1,
+  "rangePos60": 0.9,
+  "rel20": 10.7,
+  "rel60": 30.0,
+  "volumeRatio20": 1.03
  },
  "reasons": [
   "1.2pt買い増し 17.4%→18.5%",
-  "60日レンジ上位5%",
+  "60日レンジ上位10%",
   "20日線上向き",
-  "TOPIX連動ETF比 +12pt（20日）"
+  "TOPIX連動ETF比 +10.7pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -116,7 +115,14 @@
    "kind": "STATUS",
    "label": "WATCH",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-13",
+   "detail": "BREAKOUT → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup変化",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-13T03:39:31+09:00"
+ "updatedAt": "2026-10-13T16:06:01+09:00"
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T03:38:16+09:00",
+  "updatedAt": "2026-10-13T16:05:05+09:00",
   "company": {
     "securityCode": "6420",
     "ticker": "6420.T",
@@ -20,7 +20,7 @@
       "purpose": "発行会社に対する経営の参加及び支配権の維持のため政策的に保有 / 発行会社に対する支配権の維持のため政策的に保有",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.64,
       "marketExcessReturn": null,
       "signalScore": 30,
       "signalReasons": [
@@ -29,11 +29,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": 4.7,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 2.27,
-        "volumeRatio": null,
+        "returnCurrent": 4.7,
+        "volumeRatio": 0.64,
         "marketExcessReturn": null
       }
     },
@@ -64,7 +64,7 @@
         "return1d": -2.43,
         "return5d": 1.0,
         "return20d": -2.14,
-        "returnCurrent": -3.71,
+        "returnCurrent": -1.43,
         "volumeRatio": 0.67,
         "marketExcessReturn": 3.11
       }
@@ -3810,6 +3810,16 @@
       "close": 3375.0,
       "adj_close": 3375.0,
       "volume": 71200
+    },
+    {
+      "ticker": "6420.T",
+      "trade_date": "2026-10-13",
+      "open": 3400.0,
+      "high": 3455.0,
+      "low": 3375.0,
+      "close": 3455.0,
+      "adj_close": 3455.0,
+      "volume": 30300
     }
   ],
   "benchmark": [
@@ -7632,6 +7642,16 @@
       "close": 432.5,
       "adj_close": 432.5,
       "volume": 12209880
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-13",
+      "open": 430.8999938964844,
+      "high": 432.6000061035156,
+      "low": 428.8999938964844,
+      "close": 432.5,
+      "adj_close": 432.5,
+      "volume": 12558260
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

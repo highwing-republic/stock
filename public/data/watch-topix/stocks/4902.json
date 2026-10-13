@@ -9,8 +9,9 @@
   "closedAt": null,
   "id": "4902-2026-06-22",
   "overextended": true,
-  "setupType": "RECOVERY",
+  "setupType": "TREND",
   "setups": [
+   "TREND",
    "RECOVERY"
   ],
   "startedAt": "2026-06-22",
@@ -55,31 +56,31 @@
   {
    "d1": 1.3,
    "d20": null,
-   "d5": null,
+   "d5": 1.9,
    "eventId": "edinet:S100Z5R5",
-   "excess5": null
+   "excess5": 2.8
   },
   {
    "d1": 1.3,
    "d20": null,
-   "d5": null,
+   "d5": 1.9,
    "eventId": "edinet:S100Z63Z",
-   "excess5": null
+   "excess5": 2.8
   }
  ],
  "margin": {
-  "asOf": "2026-10-08",
-  "buyBalance": 1111000,
+  "asOf": "2026-10-09",
+  "buyBalance": 1123300,
   "buyChangePct": null,
   "labels": [],
-  "ratio": 4.85,
-  "sellBalance": 229300,
+  "ratio": 5.5,
+  "sellBalance": 204100,
   "sellChangePct": null
  },
  "pastEpisodes": [],
  "performance": {
   "benchReturn": 1.6,
-  "currentPrice": 639.2,
+  "currentPrice": 656.0,
   "d20": {
    "benchReturn": 2.9,
    "excessReturn": 8.8,
@@ -95,35 +96,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 3,
+   "pendingDays": 2,
    "stockReturn": null
   },
-  "excessReturn": 3.1,
+  "excessReturn": 5.9,
   "initialDate": "2026-07-15",
   "initialPrice": 610.3,
-  "stockReturn": 4.7
+  "stockReturn": 7.5
  },
  "priceSetup": {
-  "asOf": "2026-10-09",
+  "asOf": "2026-10-13",
   "atrState": "通常",
-  "distFrom52wHigh": 0.11,
+  "distFrom52wHigh": 0.08,
   "labels": [
    "20日線の上",
+   "60日レンジ上位28%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 634.8,
-  "ma200": 600.8,
-  "ma60": 634.7,
-  "rangePos60": 0.61,
-  "rel20": 7.8,
-  "rel60": 8.5,
-  "volumeRatio20": 0.78
+  "ma20": 639.3,
+  "ma200": 600.6,
+  "ma60": 635.9,
+  "rangePos60": 0.72,
+  "rel20": 13.0,
+  "rel60": 9.3,
+  "volumeRatio20": 0.71
  },
  "reasons": [
   "新規大量保有 5.1%（野村證券株式会社）",
+  "60日レンジ上位28%",
   "20日線上向き",
-  "TOPIX連動ETF比 +7.8pt（20日）"
+  "TOPIX連動ETF比 +13pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -392,7 +395,14 @@
    "kind": "SETUP",
    "label": "Price Setup改善",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-13",
+   "detail": "RECOVERY → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-13T03:39:31+09:00"
+ "updatedAt": "2026-10-13T16:06:01+09:00"
 }

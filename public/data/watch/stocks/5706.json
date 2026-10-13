@@ -14,7 +14,7 @@
    "RECOVERY"
   ],
   "startedAt": "2026-10-07",
-  "status": "WATCH",
+  "status": "BROKEN",
   "statusHistory": [
    {
     "date": "2026-10-07",
@@ -27,6 +27,12 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
+   },
+   {
+    "date": "2026-10-13",
+    "from": "WATCH",
+    "reason_code": "BELOW_MA60",
+    "to": "BROKEN"
    }
   ],
   "watchStartedAt": "2026-10-07"
@@ -83,65 +89,64 @@
   }
  ],
  "margin": {
-  "asOf": "2026-10-08",
-  "buyBalance": 14740700,
-  "buyChangePct": 29.5,
+  "asOf": "2026-10-09",
+  "buyBalance": 16304100,
+  "buyChangePct": 38.1,
   "labels": [
    "信用買残急増",
    "信用倍率悪化"
   ],
-  "ratio": 12.76,
-  "sellBalance": 1155500,
-  "sellChangePct": -6.5
+  "ratio": 14.94,
+  "sellBalance": 1091500,
+  "sellChangePct": -7.8
  },
  "pastEpisodes": [],
  "performance": {
   "benchReturn": -1.0,
-  "currentPrice": 2659.0,
+  "currentPrice": 2544.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 18,
+   "pendingDays": 17,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 3,
+   "pendingDays": 2,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 58,
+   "pendingDays": 57,
    "stockReturn": null
   },
-  "excessReturn": -3.3,
+  "excessReturn": -7.4,
   "initialDate": "2026-10-07",
   "initialPrice": 2777.5,
-  "stockReturn": -4.3
+  "stockReturn": -8.4
  },
  "priceSetup": {
-  "asOf": "2026-10-09",
+  "asOf": "2026-10-13",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.51,
+  "distFrom52wHigh": 0.53,
   "labels": [
    "20日線の上",
-   "20日線が上向き",
-   "60日線の上"
+   "20日線が上向き"
   ],
-  "ma20": 2357.2,
-  "ma200": 3011.4,
-  "ma60": 2656.0,
-  "rangePos60": 0.45,
-  "rel20": 11.2,
-  "rel60": -24.8,
-  "volumeRatio20": 0.85
+  "ma20": 2361.4,
+  "ma200": 3015.6,
+  "ma60": 2643.2,
+  "rangePos60": 0.4,
+  "rel20": 0.7,
+  "rel60": -26.8,
+  "volumeRatio20": 0.9
  },
  "reasons": [
   "1.1pt買い増し 6.2%→7.4%",
   "20日線上向き",
-  "TOPIX連動ETF比 +11.2pt（20日）"
+  "TOPIX連動ETF比 +0.7pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -207,7 +212,14 @@
    "kind": "STATUS",
    "label": "WATCH",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-13",
+   "detail": "60日線を下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-13T03:38:28+09:00"
+ "updatedAt": "2026-10-13T16:05:12+09:00"
 }

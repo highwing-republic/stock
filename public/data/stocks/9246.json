@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T03:38:16+09:00",
+  "updatedAt": "2026-10-13T16:05:05+09:00",
   "company": {
     "securityCode": "9246",
     "ticker": "9246.T",
@@ -20,7 +20,7 @@
       "purpose": "株式会社キャプスタン・メディカルが無限責任組合員となっているDY投資事業有限責任組合1号による純投資",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": 2.16,
+      "volumeRatio": 2.33,
       "marketExcessReturn": null,
       "signalScore": 30,
       "signalReasons": [
@@ -32,8 +32,8 @@
         "return1d": 0.05,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.0,
-        "volumeRatio": 2.16,
+        "returnCurrent": 0.05,
+        "volumeRatio": 2.33,
         "marketExcessReturn": null
       }
     },
@@ -50,24 +50,25 @@
       "holdingChange": 2.49,
       "purpose": "発行者との資本業務提携、純投資",
       "importantProposal": true,
-      "priceChange": null,
-      "volumeRatio": 2.47,
-      "marketExcessReturn": null,
-      "signalScore": 60,
+      "priceChange": 0.05,
+      "volumeRatio": 2.7,
+      "marketExcessReturn": -0.48,
+      "signalScore": 70,
       "signalReasons": [
         "1pt以上買い増し",
         "2pt以上買い増し",
         "重要提案行為あり",
-        "出来高2倍以上"
+        "出来高2倍以上",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": 0.0,
-        "return5d": null,
+        "return5d": 0.05,
         "return20d": null,
-        "returnCurrent": 0.0,
-        "volumeRatio": 2.47,
-        "marketExcessReturn": null
+        "returnCurrent": 0.05,
+        "volumeRatio": 2.7,
+        "marketExcessReturn": -0.48
       }
     },
     {
@@ -83,9 +84,9 @@
       "holdingChange": 0.0,
       "purpose": "発行会社の代表取締役であり、安定株主として保有しております。ただし、（６）「当該株券等に関する担保契約等重要な契約」に記載のとおり、提出者は、2026年９月28日付で、TX1株式会社（以下「公開買付者」といいます。）との間で公開買付応募契約（以下「本応募契約」といいます。）を締結し、提出者が所有する発行者普通株式の全てである883,000株について、公開買付者が実施する2026年９月29日から2026年11月11日までを公開買付期間とする公開買付け（以下「本公開買付け」といいます。）に応募することに公開買付者と合意しました。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 2.47,
-      "marketExcessReturn": null,
+      "priceChange": 0.05,
+      "volumeRatio": 2.7,
+      "marketExcessReturn": -0.48,
       "signalScore": 10,
       "signalReasons": [
         "出来高2倍以上"
@@ -93,11 +94,11 @@
       "stockUnreacted": false,
       "metrics": {
         "return1d": 0.0,
-        "return5d": null,
+        "return5d": 0.05,
         "return20d": null,
-        "returnCurrent": 0.0,
-        "volumeRatio": 2.47,
-        "marketExcessReturn": null
+        "returnCurrent": 0.05,
+        "volumeRatio": 2.7,
+        "marketExcessReturn": -0.48
       }
     },
     {
@@ -113,22 +114,23 @@
       "holdingChange": 1.05,
       "purpose": "発行会社の代表取締役であり、安定株主として保有しております。ただし、（６）「当該株券等に関する担保契約等重要な契約」に記載のとおり、提出者は、2026年９月28日付で、TX1株式会社（以下「公開買付者」といいます。）との間で公開買付応募契約（以下「本応募契約」といいます。）を締結し、提出者が所有する発行者普通株式の全てである883,000株について、公開買付者が実施する2026年９月29日から2026年11月11日までを公開買付期間とする公開買付け（以下「本公開買付け」といいます。）に応募することに公開買付者と合意しました。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 2.47,
-      "marketExcessReturn": null,
-      "signalScore": 30,
+      "priceChange": 0.05,
+      "volumeRatio": 2.7,
+      "marketExcessReturn": -0.48,
+      "signalScore": 40,
       "signalReasons": [
         "1pt以上買い増し",
-        "出来高2倍以上"
+        "出来高2倍以上",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": 0.0,
-        "return5d": null,
+        "return5d": 0.05,
         "return20d": null,
-        "returnCurrent": 0.0,
-        "volumeRatio": 2.47,
-        "marketExcessReturn": null
+        "returnCurrent": 0.05,
+        "volumeRatio": 2.7,
+        "marketExcessReturn": -0.48
       }
     }
   ],
@@ -2822,6 +2824,16 @@
       "close": 2194.0,
       "adj_close": 2194.0,
       "volume": 89700
+    },
+    {
+      "ticker": "9246.T",
+      "trade_date": "2026-10-13",
+      "open": 2195.0,
+      "high": 2196.0,
+      "low": 2194.0,
+      "close": 2195.0,
+      "adj_close": 2195.0,
+      "volume": 64900
     }
   ],
   "benchmark": [
@@ -6644,6 +6656,16 @@
       "close": 432.5,
       "adj_close": 432.5,
       "volume": 12209880
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-13",
+      "open": 430.8999938964844,
+      "high": 432.6000061035156,
+      "low": 428.8999938964844,
+      "close": 432.5,
+      "adj_close": 432.5,
+      "volume": 12558260
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

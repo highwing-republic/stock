@@ -40,31 +40,34 @@
   }
  ],
  "margin": {
-  "asOf": "2026-10-08",
-  "buyBalance": 1048300,
+  "asOf": "2026-10-09",
+  "buyBalance": 1040200,
   "buyChangePct": null,
   "labels": [],
-  "ratio": 43.32,
-  "sellBalance": 24200,
+  "ratio": 50.01,
+  "sellBalance": 20800,
   "sellChangePct": null
  },
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-10-09",
+  "asOf": "2026-10-13",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.25,
-  "labels": [],
-  "ma20": 2117.2,
-  "ma200": 2292.1,
-  "ma60": 2195.7,
-  "rangePos60": 0.23,
-  "rel20": -0.9,
-  "rel60": -10.4,
-  "volumeRatio20": 0.83
+  "distFrom52wHigh": 0.24,
+  "labels": [
+   "20日線の上"
+  ],
+  "ma20": 2117.6,
+  "ma200": 2291.1,
+  "ma60": 2193.4,
+  "rangePos60": 0.27,
+  "rel20": -2.3,
+  "rel60": -9.7,
+  "volumeRatio20": 0.8
  },
  "reasons": [
-  "1.3pt買い増し 5.8%→7.1%"
+  "1.3pt買い増し 5.8%→7.1%",
+  "20日線を回復"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -116,7 +119,14 @@
    "kind": "EVENT",
    "label": "大幅な買い増し",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z424"
+  },
+  {
+   "date": "2026-10-13",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-13T03:39:31+09:00"
+ "updatedAt": "2026-10-13T16:06:01+09:00"
 }

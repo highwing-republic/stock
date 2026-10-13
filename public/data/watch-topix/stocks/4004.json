@@ -14,7 +14,7 @@
    "RECOVERY"
   ],
   "startedAt": "2026-10-06",
-  "status": "WATCH",
+  "status": "STRENGTHENING",
   "statusHistory": [
    {
     "date": "2026-10-06",
@@ -27,6 +27,12 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
+   },
+   {
+    "date": "2026-10-13",
+    "from": "WATCH",
+    "reason_code": "INCREASE_EVENT",
+    "to": "STRENGTHENING"
    }
   ],
   "watchStartedAt": "2026-10-06"
@@ -91,25 +97,32 @@
   {
    "d1": -0.3,
    "d20": null,
-   "d5": null,
+   "d5": -9.8,
    "eventId": "edinet:S100Z5UP",
-   "excess5": null
+   "excess5": -8.9
   },
   {
    "d1": -0.3,
    "d20": null,
-   "d5": null,
+   "d5": -9.8,
    "eventId": "edinet:S100Z62D",
+   "excess5": -8.9
+  },
+  {
+   "d1": -7.6,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z6RQ",
    "excess5": null
   }
  ],
  "margin": {
-  "asOf": "2026-10-08",
-  "buyBalance": 829100,
+  "asOf": "2026-10-09",
+  "buyBalance": 788700,
   "buyChangePct": null,
   "labels": [],
-  "ratio": 6.04,
-  "sellBalance": 137200,
+  "ratio": 5.74,
+  "sellBalance": 137400,
   "sellChangePct": null
  },
  "pastEpisodes": [
@@ -130,53 +143,51 @@
  ],
  "performance": {
   "benchReturn": -1.8,
-  "currentPrice": 17575.0,
+  "currentPrice": 16245.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 17,
+   "pendingDays": 16,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 2,
+   "pendingDays": 1,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 57,
+   "pendingDays": 56,
    "stockReturn": null
   },
-  "excessReturn": -0.2,
+  "excessReturn": -7.6,
   "initialDate": "2026-10-06",
   "initialPrice": 17940.0,
-  "stockReturn": -2.0
+  "stockReturn": -9.4
  },
  "priceSetup": {
-  "asOf": "2026-10-09",
+  "asOf": "2026-10-13",
   "atrState": "通常",
-  "distFrom52wHigh": 0.14,
+  "distFrom52wHigh": 0.21,
   "labels": [
    "20日線の上",
-   "60日レンジ上位13%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 15497.6,
-  "ma200": 13411.1,
-  "ma60": 15440.3,
-  "rangePos60": 0.87,
-  "rel20": 9.7,
-  "rel60": 6.4,
-  "volumeRatio20": 1.0
+  "ma20": 15506.4,
+  "ma200": 13460.8,
+  "ma60": 15455.5,
+  "rangePos60": 0.67,
+  "rel20": -1.5,
+  "rel60": 2.5,
+  "volumeRatio20": 1.41
  },
  "reasons": [
-  "1.1pt買い増し 6.2%→7.3%",
-  "60日レンジ上位13%",
-  "20日線上向き",
-  "TOPIX連動ETF比 +9.7pt（20日）"
+  "0.9pt買い増し 12.4%→13.3%",
+  "30日以内に2回買い増し",
+  "20日線上向き"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -256,7 +267,21 @@
    "kind": "STATUS",
    "label": "WATCH",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-13",
+   "detail": "12.42% → 13.35%（キャピタル・リサーチ・アンド・マネージメント・カンパニー）",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z6RQ"
+  },
+  {
+   "date": "2026-10-13",
+   "detail": "大量保有の買い増しを確認",
+   "kind": "STATUS",
+   "label": "STRENGTHENING",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-13T03:39:31+09:00"
+ "updatedAt": "2026-10-13T16:06:01+09:00"
 }

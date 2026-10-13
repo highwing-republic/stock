@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T03:38:16+09:00",
+  "updatedAt": "2026-10-13T16:05:05+09:00",
   "company": {
     "securityCode": "7640",
     "ticker": "7640.T",
@@ -20,7 +20,7 @@
       "purpose": "純投資",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": 0.91,
+      "volumeRatio": 0.9,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [
@@ -32,8 +32,8 @@
         "return1d": 0.0,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -0.5,
-        "volumeRatio": 0.91,
+        "returnCurrent": -1.01,
+        "volumeRatio": 0.9,
         "marketExcessReturn": null
       }
     },
@@ -50,9 +50,9 @@
       "holdingChange": -20.41,
       "purpose": "純投資",
       "importantProposal": false,
-      "priceChange": null,
+      "priceChange": -1.5,
       "volumeRatio": 0.9,
-      "marketExcessReturn": null,
+      "marketExcessReturn": -2.03,
       "signalScore": 0,
       "signalReasons": [
         "保有割合減少",
@@ -61,11 +61,11 @@
       "stockUnreacted": false,
       "metrics": {
         "return1d": -0.5,
-        "return5d": null,
+        "return5d": -1.5,
         "return20d": null,
-        "returnCurrent": -1.0,
+        "returnCurrent": -1.5,
         "volumeRatio": 0.9,
-        "marketExcessReturn": null
+        "marketExcessReturn": -2.03
       }
     },
     {
@@ -81,22 +81,23 @@
       "holdingChange": 5969.81,
       "purpose": "発行会社の創業者にして取締役会長であり、同社の経営権を確保するために保有しております。 / 発行会社の取締役会長である清水秀雄の資産管理会社であり、安定株主として保有しております。 / 発行会社の取締役会長である清水秀雄の配偶者であり、安定株主として保有しております。 / 発行会社の代表取締役社長であり安定株主として保有、及び株式会社ヒーズの筆頭株主でもあります。",
       "importantProposal": false,
-      "priceChange": null,
+      "priceChange": -1.5,
       "volumeRatio": 0.9,
-      "marketExcessReturn": null,
-      "signalScore": 30,
+      "marketExcessReturn": -2.03,
+      "signalScore": 40,
       "signalReasons": [
         "1pt以上買い増し",
-        "2pt以上買い増し"
+        "2pt以上買い増し",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": -0.5,
-        "return5d": null,
+        "return5d": -1.5,
         "return20d": null,
-        "returnCurrent": -1.0,
+        "returnCurrent": -1.5,
         "volumeRatio": 0.9,
-        "marketExcessReturn": null
+        "marketExcessReturn": -2.03
       }
     },
     {
@@ -126,7 +127,7 @@
         "return1d": -0.51,
         "return5d": -5.1,
         "return20d": 1.53,
-        "returnCurrent": 1.02,
+        "returnCurrent": 0.51,
         "volumeRatio": 0.75,
         "marketExcessReturn": -4.12
       }
@@ -158,7 +159,7 @@
         "return1d": -0.51,
         "return5d": -1.52,
         "return20d": 1.02,
-        "returnCurrent": 0.51,
+        "returnCurrent": 0.0,
         "volumeRatio": 1.07,
         "marketExcessReturn": -1.1
       }
@@ -2994,6 +2995,16 @@
       "close": 198.0,
       "adj_close": 198.0,
       "volume": 20900
+    },
+    {
+      "ticker": "7640.T",
+      "trade_date": "2026-10-13",
+      "open": 199.0,
+      "high": 199.0,
+      "low": 197.0,
+      "close": 197.0,
+      "adj_close": 197.0,
+      "volume": 26700
     }
   ],
   "benchmark": [
@@ -6816,6 +6827,16 @@
       "close": 432.5,
       "adj_close": 432.5,
       "volume": 12209880
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-13",
+      "open": 430.8999938964844,
+      "high": 432.6000061035156,
+      "low": 428.8999938964844,
+      "close": 432.5,
+      "adj_close": 432.5,
+      "volume": 12558260
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

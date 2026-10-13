@@ -9,8 +9,9 @@
   "closedAt": null,
   "id": "7745-2026-09-04",
   "overextended": false,
-  "setupType": "RECOVERY",
+  "setupType": "TREND",
   "setups": [
+   "TREND",
    "RECOVERY"
   ],
   "startedAt": "2026-09-04",
@@ -61,12 +62,12 @@
   }
  ],
  "margin": {
-  "asOf": "2026-10-08",
-  "buyBalance": 73600,
+  "asOf": "2026-10-09",
+  "buyBalance": 74400,
   "buyChangePct": null,
   "labels": [],
-  "ratio": 18.4,
-  "sellBalance": 4000,
+  "ratio": 13.78,
+  "sellBalance": 5400,
   "sellChangePct": null
  },
  "pastEpisodes": [
@@ -87,11 +88,11 @@
  ],
  "performance": {
   "benchReturn": 1.5,
-  "currentPrice": 2976.0,
+  "currentPrice": 3045.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 8,
+   "pendingDays": 7,
    "stockReturn": null
   },
   "d5": {
@@ -103,35 +104,36 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 48,
+   "pendingDays": 47,
    "stockReturn": null
   },
-  "excessReturn": 2.4,
+  "excessReturn": 4.8,
   "initialDate": "2026-09-18",
   "initialPrice": 2864.7,
-  "stockReturn": 3.9
+  "stockReturn": 6.3
  },
  "priceSetup": {
-  "asOf": "2026-10-09",
+  "asOf": "2026-10-13",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.12,
+  "distFrom52wHigh": 0.1,
   "labels": [
    "20日線の上",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2903.0,
-  "ma200": 2663.3,
-  "ma60": 2883.2,
-  "rangePos60": 0.43,
-  "rel20": 6.9,
-  "rel60": 0.4,
-  "volumeRatio20": 1.1
+  "ma20": 2916.5,
+  "ma200": 2669.5,
+  "ma60": 2886.1,
+  "rangePos60": 0.53,
+  "rel20": 7.1,
+  "rel60": 2.6,
+  "volumeRatio20": 1.34
  },
  "reasons": [
   "1pt買い増し 15.7%→16.7%",
   "20日線上向き",
-  "TOPIX連動ETF比 +6.9pt（20日）"
+  "TOPIX連動ETF比 +7.1pt（20日）",
+  "52週高値まで10%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -239,7 +241,14 @@
    "kind": "STATUS",
    "label": "STRENGTHENING",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-13",
+   "detail": "RECOVERY → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-13T03:39:31+09:00"
+ "updatedAt": "2026-10-13T16:06:01+09:00"
 }

@@ -181,6 +181,10 @@
    "event_id": "edinet:S100Z62D"
   },
   {
+   "episode_id": "4004-2026-10-06",
+   "event_id": "edinet:S100Z6RQ"
+  },
+  {
    "episode_id": "4182-2026-07-22",
    "event_id": "edinet:S100YRF5"
   },
@@ -567,6 +571,10 @@
   {
    "episode_id": "9507-2026-09-04",
    "event_id": "edinet:S100Z34P"
+  },
+  {
+   "episode_id": "9507-2026-10-13",
+   "event_id": "edinet:S100Z6E4"
   },
   {
    "episode_id": "9682-2026-10-07",
@@ -2211,7 +2219,7 @@
     "RECOVERY"
    ],
    "started_at": "2026-09-08",
-   "status": "CONFIRMED",
+   "status": "REACTED",
    "status_history": [
     {
      "date": "2026-09-08",
@@ -2230,6 +2238,12 @@
      "from": "WATCH",
      "reason_code": "NEW_HIGH60_VOLUME",
      "to": "CONFIRMED"
+    },
+    {
+     "date": "2026-10-13",
+     "from": "CONFIRMED",
+     "reason_code": "EXCESS_THRESHOLD",
+     "to": "REACTED"
     }
    ],
    "watch_started_at": "2026-09-08"
@@ -2306,8 +2320,8 @@
   },
   {
    "base_close": 1473.0,
-   "close_reason": null,
-   "closed_at": null,
+   "close_reason": "NO_SETUP",
+   "closed_at": "2026-10-13",
    "company_name": "ジャパンエレベーターサービスホールディングス",
    "episode_id": "6544-2026-09-09",
    "event_ids": [
@@ -2322,13 +2336,19 @@
    "setup_type": null,
    "setups": [],
    "started_at": "2026-09-09",
-   "status": "CANDIDATE",
+   "status": "CLOSED",
    "status_history": [
     {
      "date": "2026-09-09",
      "from": null,
      "reason_code": "TRIGGER_EVENT",
      "to": "CANDIDATE"
+    },
+    {
+     "date": "2026-10-13",
+     "from": "CANDIDATE",
+     "reason_code": "NO_SETUP",
+     "to": "CLOSED"
     }
    ],
    "watch_started_at": null
@@ -2917,7 +2937,7 @@
    "setup_type": "RECOVERY",
    "setups": [],
    "started_at": "2026-09-24",
-   "status": "STRENGTHENING",
+   "status": "BROKEN",
    "status_history": [
     {
      "date": "2026-09-24",
@@ -2936,6 +2956,12 @@
      "from": "WATCH",
      "reason_code": "INCREASE_EVENT",
      "to": "STRENGTHENING"
+    },
+    {
+     "date": "2026-10-13",
+     "from": "STRENGTHENING",
+     "reason_code": "BELOW_MA60",
+     "to": "BROKEN"
     }
    ],
    "watch_started_at": "2026-10-01"
@@ -2956,8 +2982,9 @@
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z3M6",
    "security_code": "4613",
-   "setup_type": "TREND",
+   "setup_type": "BREAKOUT",
    "setups": [
+    "BREAKOUT",
     "TREND",
     "RECOVERY"
    ],
@@ -3203,25 +3230,33 @@
     "edinet:S100Z41Y",
     "edinet:S100Z6PV"
    ],
-   "initial_bench": null,
-   "initial_price": null,
+   "initial_bench": 432.5,
+   "initial_price": 2546.5,
    "last_trigger_at": "2026-10-07",
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z41Y",
    "security_code": "7988",
-   "setup_type": null,
-   "setups": [],
+   "setup_type": "RECOVERY",
+   "setups": [
+    "RECOVERY"
+   ],
    "started_at": "2026-09-25",
-   "status": "CANDIDATE",
+   "status": "WATCH",
    "status_history": [
     {
      "date": "2026-09-25",
      "from": null,
      "reason_code": "TRIGGER_EVENT",
      "to": "CANDIDATE"
+    },
+    {
+     "date": "2026-10-13",
+     "from": "CANDIDATE",
+     "reason_code": "SETUP_OK",
+     "to": "WATCH"
     }
    ],
-   "watch_started_at": null
+   "watch_started_at": "2026-10-13"
   },
   {
    "base_close": 4820.03662109375,
@@ -3391,10 +3426,7 @@
    "primary_trigger_event_id": "edinet:S100Z3UV",
    "security_code": "3110",
    "setup_type": "BREAKOUT",
-   "setups": [
-    "BREAKOUT",
-    "RECOVERY"
-   ],
+   "setups": [],
    "started_at": "2026-09-28",
    "status": "REACTED",
    "status_history": [
@@ -3557,8 +3589,8 @@
   },
   {
    "base_close": 1992.5,
-   "close_reason": null,
-   "closed_at": null,
+   "close_reason": "BROKEN",
+   "closed_at": "2026-10-13",
    "company_name": "神戸製鋼所",
    "episode_id": "5406-2026-10-05",
    "event_ids": [
@@ -3573,7 +3605,7 @@
    "setup_type": "BREAKOUT",
    "setups": [],
    "started_at": "2026-10-05",
-   "status": "BROKEN",
+   "status": "CLOSED",
    "status_history": [
     {
      "date": "2026-10-05",
@@ -3592,6 +3624,12 @@
      "from": "WATCH",
      "reason_code": "BELOW_MA20",
      "to": "BROKEN"
+    },
+    {
+     "date": "2026-10-13",
+     "from": "BROKEN",
+     "reason_code": "BROKEN",
+     "to": "CLOSED"
     }
    ],
    "watch_started_at": "2026-10-06"
@@ -3682,7 +3720,8 @@
    "security_code": "1721",
    "setup_type": "TREND",
    "setups": [
-    "TREND"
+    "TREND",
+    "RECOVERY"
    ],
    "started_at": "2026-10-06",
    "status": "WATCH",
@@ -3738,11 +3777,12 @@
    "company_name": "レゾナック・ホールディングス",
    "episode_id": "4004-2026-10-06",
    "event_ids": [
-    "edinet:S100Z62D"
+    "edinet:S100Z62D",
+    "edinet:S100Z6RQ"
    ],
    "initial_bench": 440.3999938964844,
    "initial_price": 17940.0,
-   "last_trigger_at": "2026-10-06",
+   "last_trigger_at": "2026-10-13",
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z62D",
    "security_code": "4004",
@@ -3751,7 +3791,7 @@
     "RECOVERY"
    ],
    "started_at": "2026-10-06",
-   "status": "WATCH",
+   "status": "STRENGTHENING",
    "status_history": [
     {
      "date": "2026-10-06",
@@ -3764,6 +3804,12 @@
      "from": "CANDIDATE",
      "reason_code": "SETUP_OK",
      "to": "WATCH"
+    },
+    {
+     "date": "2026-10-13",
+     "from": "WATCH",
+     "reason_code": "INCREASE_EVENT",
+     "to": "STRENGTHENING"
     }
    ],
    "watch_started_at": "2026-10-06"
@@ -3948,9 +3994,11 @@
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z5XU",
    "security_code": "6869",
-   "setup_type": "TREND",
+   "setup_type": "BREAKOUT",
    "setups": [
-    "TREND"
+    "BREAKOUT",
+    "TREND",
+    "RECOVERY"
    ],
    "started_at": "2026-10-06",
    "status": "STRENGTHENING",
@@ -4062,7 +4110,7 @@
     "RECOVERY"
    ],
    "started_at": "2026-10-07",
-   "status": "WATCH",
+   "status": "BROKEN",
    "status_history": [
     {
      "date": "2026-10-07",
@@ -4075,6 +4123,12 @@
      "from": "CANDIDATE",
      "reason_code": "SETUP_OK",
      "to": "WATCH"
+    },
+    {
+     "date": "2026-10-13",
+     "from": "WATCH",
+     "reason_code": "BELOW_MA60",
+     "to": "BROKEN"
     }
    ],
    "watch_started_at": "2026-10-07"
@@ -4097,7 +4151,7 @@
    "setup_type": "TREND",
    "setups": [],
    "started_at": "2026-10-07",
-   "status": "WATCH",
+   "status": "BROKEN",
    "status_history": [
     {
      "date": "2026-10-07",
@@ -4110,6 +4164,12 @@
      "from": "CANDIDATE",
      "reason_code": "SETUP_OK",
      "to": "WATCH"
+    },
+    {
+     "date": "2026-10-13",
+     "from": "WATCH",
+     "reason_code": "BELOW_MA20",
+     "to": "BROKEN"
     }
    ],
    "watch_started_at": "2026-10-07"
@@ -4124,25 +4184,33 @@
     "edinet:S100Z5ZR",
     "edinet:S100Z6JD"
    ],
-   "initial_bench": null,
-   "initial_price": null,
+   "initial_bench": 432.5,
+   "initial_price": 1144.0,
    "last_trigger_at": "2026-10-07",
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z5ZR",
    "security_code": "9682",
-   "setup_type": null,
-   "setups": [],
+   "setup_type": "RECOVERY",
+   "setups": [
+    "RECOVERY"
+   ],
    "started_at": "2026-10-07",
-   "status": "CANDIDATE",
+   "status": "WATCH",
    "status_history": [
     {
      "date": "2026-10-07",
      "from": null,
      "reason_code": "TRIGGER_EVENT",
      "to": "CANDIDATE"
+    },
+    {
+     "date": "2026-10-13",
+     "from": "CANDIDATE",
+     "reason_code": "SETUP_OK",
+     "to": "WATCH"
     }
    ],
-   "watch_started_at": null
+   "watch_started_at": "2026-10-13"
   },
   {
    "base_close": 1496.5,
@@ -4190,9 +4258,8 @@
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z6HM",
    "security_code": "7740",
-   "setup_type": "BREAKOUT",
+   "setup_type": "TREND",
    "setups": [
-    "BREAKOUT",
     "TREND"
    ],
    "started_at": "2026-10-09",
@@ -4212,6 +4279,43 @@
     }
    ],
    "watch_started_at": "2026-10-09"
+  },
+  {
+   "base_close": 2159.0,
+   "close_reason": null,
+   "closed_at": null,
+   "company_name": "四国電力",
+   "episode_id": "9507-2026-10-13",
+   "event_ids": [
+    "edinet:S100Z6E4"
+   ],
+   "initial_bench": 432.5,
+   "initial_price": 2240.5,
+   "last_trigger_at": "2026-10-13",
+   "overextended": false,
+   "primary_trigger_event_id": "edinet:S100Z6E4",
+   "security_code": "9507",
+   "setup_type": "TREND",
+   "setups": [
+    "TREND"
+   ],
+   "started_at": "2026-10-13",
+   "status": "WATCH",
+   "status_history": [
+    {
+     "date": "2026-10-13",
+     "from": null,
+     "reason_code": "TRIGGER_EVENT",
+     "to": "CANDIDATE"
+    },
+    {
+     "date": "2026-10-13",
+     "from": "CANDIDATE",
+     "reason_code": "SETUP_OK",
+     "to": "WATCH"
+    }
+   ],
+   "watch_started_at": "2026-10-13"
   }
  ],
  "schema_version": 1

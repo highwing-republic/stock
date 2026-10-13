@@ -9,8 +9,9 @@
   "closedAt": null,
   "id": "4613-2026-09-25",
   "overextended": false,
-  "setupType": "TREND",
+  "setupType": "BREAKOUT",
   "setups": [
+   "BREAKOUT",
    "TREND",
    "RECOVERY"
   ],
@@ -62,12 +63,12 @@
   }
  ],
  "margin": {
-  "asOf": "2026-10-08",
-  "buyBalance": 114200,
+  "asOf": "2026-10-09",
+  "buyBalance": 117600,
   "buyChangePct": null,
   "labels": [],
-  "ratio": 1.11,
-  "sellBalance": 102800,
+  "ratio": 1.14,
+  "sellBalance": 103600,
   "sellChangePct": null
  },
  "pastEpisodes": [
@@ -81,11 +82,11 @@
  ],
  "performance": {
   "benchReturn": 0.5,
-  "currentPrice": 2877.0,
+  "currentPrice": 2903.5,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 10,
+   "pendingDays": 9,
    "stockReturn": null
   },
   "d5": {
@@ -97,36 +98,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 50,
+   "pendingDays": 49,
    "stockReturn": null
   },
-  "excessReturn": 1.9,
+  "excessReturn": 2.9,
   "initialDate": "2026-09-25",
   "initialPrice": 2808.8,
-  "stockReturn": 2.4
+  "stockReturn": 3.4
  },
  "priceSetup": {
-  "asOf": "2026-10-09",
+  "asOf": "2026-10-13",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.05,
+  "distFrom52wHigh": 0.04,
   "labels": [
    "20日線の上",
+   "60日レンジ上位28%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2798.0,
-  "ma200": 2535.7,
-  "ma60": 2780.1,
-  "rangePos60": 0.66,
-  "rel20": 2.1,
-  "rel60": 7.3,
-  "volumeRatio20": 0.92
+  "ma20": 2806.1,
+  "ma200": 2538.7,
+  "ma60": 2785.0,
+  "rangePos60": 0.72,
+  "rel20": 3.3,
+  "rel60": 7.8,
+  "volumeRatio20": 0.84
  },
  "reasons": [
   "新規大量保有 5.1%（キャピタル・リサーチ・アンド・マネージメント・カンパニー）",
+  "60日レンジ上位28%",
   "20日線上向き",
-  "TOPIX連動ETF比 +2.1pt（20日）",
-  "52週高値まで5%"
+  "TOPIX連動ETF比 +3.3pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -234,7 +236,14 @@
    "kind": "SETUP",
    "label": "Price Setup改善",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-13",
+   "detail": "TREND → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup変化",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-13T03:39:31+09:00"
+ "updatedAt": "2026-10-13T16:06:01+09:00"
 }

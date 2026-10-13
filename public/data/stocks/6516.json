@@ -1,11 +1,69 @@
 {
-  "updatedAt": "2026-10-13T03:38:16+09:00",
+  "updatedAt": "2026-10-13T16:05:05+09:00",
   "company": {
     "securityCode": "6516",
     "ticker": "6516.T",
     "name": "山洋電気株式会社"
   },
   "events": [
+    {
+      "docId": "S100Z6ZS",
+      "ticker": "6516.T",
+      "securityCode": "6516",
+      "companyName": "山洋電気株式会社",
+      "submitDatetime": "2026-10-13 09:21",
+      "filerName": "株式会社ストラテジックキャピタル",
+      "reportType": "correction",
+      "holdingRatio": 12.07,
+      "previousHoldingRatio": 11.1,
+      "holdingChange": 0.97,
+      "purpose": "純投資及び状況に応じて重要提案行為等を行うこと。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -0.7,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
+    {
+      "docId": "S100Z6ZR",
+      "ticker": "6516.T",
+      "securityCode": "6516",
+      "companyName": "山洋電気株式会社",
+      "submitDatetime": "2026-10-13 09:20",
+      "filerName": "株式会社ストラテジックキャピタル",
+      "reportType": "correction",
+      "holdingRatio": 11.1,
+      "previousHoldingRatio": 10.0,
+      "holdingChange": 1.1,
+      "purpose": "純投資及び状況に応じて重要提案行為等を行うこと。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 20,
+      "signalReasons": [
+        "1pt以上買い増し"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -0.7,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YWB3",
       "ticker": "6516.T",
@@ -31,7 +89,7 @@
         "return1d": -5.66,
         "return5d": -6.69,
         "return20d": -10.12,
-        "returnCurrent": -1.13,
+        "returnCurrent": -1.83,
         "volumeRatio": 0.48,
         "marketExcessReturn": -6.04
       }
@@ -61,7 +119,7 @@
         "return1d": -3.27,
         "return5d": -2.95,
         "return20d": -2.95,
-        "returnCurrent": -5.66,
+        "returnCurrent": -6.33,
         "volumeRatio": 0.69,
         "marketExcessReturn": -3.41
       }
@@ -91,7 +149,7 @@
         "return1d": -0.3,
         "return5d": -7.42,
         "return20d": -22.12,
-        "returnCurrent": -12.67,
+        "returnCurrent": -13.28,
         "volumeRatio": 0.83,
         "marketExcessReturn": -9.82
       }
@@ -3837,6 +3895,16 @@
       "close": 5680.0,
       "adj_close": 5680.0,
       "volume": 107500
+    },
+    {
+      "ticker": "6516.T",
+      "trade_date": "2026-10-13",
+      "open": 5670.0,
+      "high": 5700.0,
+      "low": 5580.0,
+      "close": 5640.0,
+      "adj_close": 5640.0,
+      "volume": 92700
     }
   ],
   "benchmark": [
@@ -7659,6 +7727,16 @@
       "close": 432.5,
       "adj_close": 432.5,
       "volume": 12209880
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-13",
+      "open": 430.8999938964844,
+      "high": 432.6000061035156,
+      "low": 428.8999938964844,
+      "close": 432.5,
+      "adj_close": 432.5,
+      "volume": 12558260
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T03:38:16+09:00",
+  "updatedAt": "2026-10-13T16:05:05+09:00",
   "company": {
     "securityCode": "5451",
     "ticker": "5451.T",
@@ -7,16 +7,16 @@
   },
   "events": [
     {
-      "docId": "S100Z6SK",
+      "docId": "S100Z6ZO",
       "ticker": "5451.T",
       "securityCode": "5451",
       "companyName": "株式会社ヨドコウ",
-      "submitDatetime": "2026-10-09 09:11",
+      "submitDatetime": "2026-10-13 09:18",
       "filerName": "株式会社ストラテジックキャピタル",
       "reportType": "correction",
-      "holdingRatio": 6.63,
-      "previousHoldingRatio": 7.84,
-      "holdingChange": -1.21,
+      "holdingRatio": 5.63,
+      "previousHoldingRatio": 6.63,
+      "holdingChange": -1.0,
       "purpose": "純投資及び状況に応じて重要提案行為等を行うこと。",
       "importantProposal": false,
       "priceChange": null,
@@ -31,8 +31,38 @@
         "return1d": null,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.43,
+        "returnCurrent": 1.87,
         "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
+    {
+      "docId": "S100Z6SK",
+      "ticker": "5451.T",
+      "securityCode": "5451",
+      "companyName": "株式会社ヨドコウ",
+      "submitDatetime": "2026-10-09 09:11",
+      "filerName": "株式会社ストラテジックキャピタル",
+      "reportType": "correction",
+      "holdingRatio": 6.63,
+      "previousHoldingRatio": 7.84,
+      "holdingChange": -1.21,
+      "purpose": "純投資及び状況に応じて重要提案行為等を行うこと。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": 1.36,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": 2.31,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 2.31,
+        "volumeRatio": 1.36,
         "marketExcessReturn": null
       }
     },
@@ -50,7 +80,7 @@
       "purpose": "純投資及び状況に応じて重要提案行為等を行うこと。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 1.36,
       "marketExcessReturn": null,
       "signalScore": 20,
       "signalReasons": [
@@ -58,11 +88,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": 2.31,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.43,
-        "volumeRatio": null,
+        "returnCurrent": 2.31,
+        "volumeRatio": 1.36,
         "marketExcessReturn": null
       }
     },
@@ -79,9 +109,9 @@
       "holdingChange": -1.06,
       "purpose": "株主価値向上のために発行者との建設的対話及び発行者への重要提案行為等を行うこと、並びに純投資。重要提案行為等：当該目的を達成するため、自己資本比率の圧縮、政策保有株式の売却、保有不動産の売却、事業ポートフォリオの見直し（海外事業やロール・グレーチング事業等の不採算事業の収益改善又は当該事業からの撤退）、増配（年度毎にDOE8％、配当性向 100％の高い方を株主還元方針とすること）の重要提案行為等を行っております。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.99,
-      "marketExcessReturn": null,
+      "priceChange": 2.9,
+      "volumeRatio": 1.07,
+      "marketExcessReturn": 2.37,
       "signalScore": 0,
       "signalReasons": [
         "保有割合減少"
@@ -89,11 +119,11 @@
       "stockUnreacted": false,
       "metrics": {
         "return1d": 0.14,
-        "return5d": null,
+        "return5d": 2.9,
         "return20d": null,
-        "returnCurrent": 1.01,
-        "volumeRatio": 0.99,
-        "marketExcessReturn": null
+        "returnCurrent": 2.9,
+        "volumeRatio": 1.07,
+        "marketExcessReturn": 2.37
       }
     }
   ],
@@ -3837,6 +3867,16 @@
       "close": 1394.0,
       "adj_close": 1394.0,
       "volume": 306400
+    },
+    {
+      "ticker": "5451.T",
+      "trade_date": "2026-10-13",
+      "open": 1403.0,
+      "high": 1422.0,
+      "low": 1402.0,
+      "close": 1420.0,
+      "adj_close": 1420.0,
+      "volume": 347400
     }
   ],
   "benchmark": [
@@ -7659,6 +7699,16 @@
       "close": 432.5,
       "adj_close": 432.5,
       "volume": 12209880
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-13",
+      "open": 430.8999938964844,
+      "high": 432.6000061035156,
+      "low": 428.8999938964844,
+      "close": 432.5,
+      "adj_close": 432.5,
+      "volume": 12558260
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

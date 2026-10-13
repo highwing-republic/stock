@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-10-13T03:38:16+09:00",
+  "updatedAt": "2026-10-13T16:05:05+09:00",
   "company": {
     "securityCode": "5820",
     "ticker": "5820.T",
     "name": "株式会社三ッ星"
   },
   "events": [
+    {
+      "docId": "S100Z6EU",
+      "ticker": "5820.T",
+      "securityCode": "5820",
+      "companyName": "株式会社三ッ星",
+      "submitDatetime": "2026-10-13 12:23",
+      "filerName": "Ｆｒａｎｃｉｓ　Ｃａｐｉｔａｌ　Ｉｎｃ",
+      "reportType": "change",
+      "holdingRatio": 38.63,
+      "previousHoldingRatio": 39.65,
+      "holdingChange": -1.02,
+      "purpose": "純投資",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -0.71,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YQD5",
       "ticker": "5820.T",
@@ -32,7 +62,7 @@
         "return1d": -0.14,
         "return5d": -3.25,
         "return20d": 10.55,
-        "returnCurrent": 15.02,
+        "returnCurrent": 14.21,
         "volumeRatio": 0.41,
         "marketExcessReturn": -4.35
       }
@@ -2868,6 +2898,16 @@
       "close": 850.0,
       "adj_close": 850.0,
       "volume": 13100
+    },
+    {
+      "ticker": "5820.T",
+      "trade_date": "2026-10-13",
+      "open": 850.0,
+      "high": 858.0,
+      "low": 836.0,
+      "close": 844.0,
+      "adj_close": 844.0,
+      "volume": 20700
     }
   ],
   "benchmark": [
@@ -6690,6 +6730,16 @@
       "close": 432.5,
       "adj_close": 432.5,
       "volume": 12209880
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-13",
+      "open": 430.8999938964844,
+      "high": 432.6000061035156,
+      "low": 428.8999938964844,
+      "close": 432.5,
+      "adj_close": 432.5,
+      "volume": 12558260
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"
