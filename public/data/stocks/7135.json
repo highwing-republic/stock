@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T01:47:07+09:00",
+  "updatedAt": "2026-10-14T14:17:07+09:00",
   "company": {
     "securityCode": "7135",
     "ticker": "7135.T",
@@ -19,22 +19,23 @@
       "holdingChange": 17.36,
       "purpose": "発行者の事業をさらに成長発展させ、その企業価値を高めるとともに、株主利益を最大化することを目的としています。提出者、発行者及び株式会社キーストーン・パートナース（以下「KSP社」といいます。）は、令和4年12月21日付で資本業務提携契約書を締結しており、提出者は発行者に対して取締役の指名権を有し、また提出者及びKSP社は発行者と第三者との業務提携において協業する予定です。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.79,
-      "marketExcessReturn": null,
-      "signalScore": 30,
+      "priceChange": -0.59,
+      "volumeRatio": 0.63,
+      "marketExcessReturn": 0.21,
+      "signalScore": 40,
       "signalReasons": [
         "1pt以上買い増し",
-        "2pt以上買い増し"
+        "2pt以上買い増し",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": -0.59,
-        "return5d": null,
+        "return5d": -0.59,
         "return20d": null,
-        "returnCurrent": -1.18,
-        "volumeRatio": 0.79,
-        "marketExcessReturn": null
+        "returnCurrent": -0.59,
+        "volumeRatio": 0.63,
+        "marketExcessReturn": 0.21
       }
     },
     {
@@ -50,9 +51,9 @@
       "holdingChange": -17.36,
       "purpose": "発行者の事業をさらに成長発展させ、その企業価値を高めるとともに、株主利益を最大化することを目的としています。提出者、発行者及び株式会社キーストーン・パートナース（以下「KSP社」といいます。）は、令和4年12月21日付で資本業務提携契約書を締結しており、提出者は発行者に対して取締役の指名権を有し、また提出者及びKSP社は発行者と第三者との業務提携において協業する予定です。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.79,
-      "marketExcessReturn": null,
+      "priceChange": -0.59,
+      "volumeRatio": 0.63,
+      "marketExcessReturn": 0.21,
       "signalScore": 0,
       "signalReasons": [
         "保有割合減少",
@@ -61,11 +62,11 @@
       "stockUnreacted": false,
       "metrics": {
         "return1d": -0.59,
-        "return5d": null,
+        "return5d": -0.59,
         "return20d": null,
-        "returnCurrent": -1.18,
-        "volumeRatio": 0.79,
-        "marketExcessReturn": null
+        "returnCurrent": -0.59,
+        "volumeRatio": 0.63,
+        "marketExcessReturn": 0.21
       }
     }
   ],
@@ -2766,9 +2767,19 @@
       "open": 168.0,
       "high": 170.0,
       "low": 168.0,
-      "close": null,
-      "adj_close": null,
+      "close": 169.0,
+      "adj_close": 169.0,
       "volume": 15700
+    },
+    {
+      "ticker": "7135.T",
+      "trade_date": "2026-10-14",
+      "open": 168.0,
+      "high": 169.0,
+      "low": 168.0,
+      "close": 169.0,
+      "adj_close": 169.0,
+      "volume": 7400
     }
   ],
   "benchmark": [
@@ -6601,6 +6612,16 @@
       "close": 432.5,
       "adj_close": 432.5,
       "volume": 12558260
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-14",
+      "open": 433.29998779296875,
+      "high": 433.3999938964844,
+      "low": 430.8999938964844,
+      "close": 432.79998779296875,
+      "adj_close": 432.79998779296875,
+      "volume": 4178460
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

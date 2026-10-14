@@ -89,7 +89,7 @@
   },
   {
    "d1": 1.8,
-   "d20": null,
+   "d20": 8.1,
    "d5": 5.4,
    "eventId": "edinet:S100Z0TO",
    "excess5": 4.3
@@ -129,7 +129,7 @@
  ],
  "performance": {
   "benchReturn": 2.0,
-  "currentPrice": 2694.0,
+  "currentPrice": 2743.0,
   "d20": {
    "benchReturn": 0.5,
    "excessReturn": 12.5,
@@ -145,36 +145,36 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 27,
+   "pendingDays": 26,
    "stockReturn": null
   },
-  "excessReturn": 11.9,
+  "excessReturn": 13.9,
   "initialDate": "2026-08-21",
   "initialPrice": 2366.0,
-  "stockReturn": 13.9
+  "stockReturn": 15.9
  },
  "priceSetup": {
-  "asOf": "2026-10-13",
+  "asOf": "2026-10-14",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.01,
+  "distFrom52wHigh": 0.0,
   "labels": [
    "20日線の上",
-   "60日レンジ上位6%",
+   "60日レンジ上位1%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2637.7,
-  "ma200": 1965.5,
-  "ma60": 2467.2,
-  "rangePos60": 0.94,
-  "rel20": 3.8,
-  "rel60": 6.8,
-  "volumeRatio20": 1.12
+  "ma20": 2647.9,
+  "ma200": 1972.5,
+  "ma60": 2470.9,
+  "rangePos60": 0.99,
+  "rel20": 5.8,
+  "rel60": 6.2,
+  "volumeRatio20": 0.58
  },
  "reasons": [
   "1pt買い増し 25.9%→27%",
   "30日以内に2回買い増し",
-  "60日レンジ上位6%",
+  "60日レンジ上位1%",
   "20日線上向き"
  ],
  "schemaVersion": 1,
@@ -360,7 +360,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-14",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-13T23:39:00+09:00"
+ "updatedAt": "2026-10-14T14:18:23+09:00"
 }

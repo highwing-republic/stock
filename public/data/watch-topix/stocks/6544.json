@@ -57,23 +57,25 @@
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-10-13",
+  "asOf": "2026-10-14",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.25,
+  "distFrom52wHigh": 0.23,
   "labels": [
-   "20日線の上"
+   "20日線の上",
+   "20日線が上向き"
   ],
-  "ma20": 1484.7,
-  "ma200": 1642.5,
-  "ma60": 1556.0,
-  "rangePos60": 0.16,
-  "rel20": -1.4,
-  "rel60": -22.3,
-  "volumeRatio20": 0.88
+  "ma20": 1487.2,
+  "ma200": 1641.3,
+  "ma60": 1550.6,
+  "rangePos60": 0.21,
+  "rel20": 1.1,
+  "rel60": -20.6,
+  "volumeRatio20": 0.32
  },
  "reasons": [
   "1pt買い増し 5%→6.1%",
-  "20日線を回復"
+  "20日線上向き",
+  "TOPIX連動ETF比 +1.1pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -125,7 +127,21 @@
    "kind": "STATUS",
    "label": "CLOSED",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-14",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-14",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-13T23:39:00+09:00"
+ "updatedAt": "2026-10-14T14:18:23+09:00"
 }

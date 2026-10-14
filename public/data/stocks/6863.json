@@ -1,11 +1,42 @@
 {
-  "updatedAt": "2026-10-14T01:47:07+09:00",
+  "updatedAt": "2026-10-14T14:17:07+09:00",
   "company": {
     "securityCode": "6863",
     "ticker": "6863.T",
     "name": "株式会社ニレコ"
   },
   "events": [
+    {
+      "docId": "S100Z73B",
+      "ticker": "6863.T",
+      "securityCode": "6863",
+      "companyName": "株式会社ニレコ",
+      "submitDatetime": "2026-10-14 13:50",
+      "filerName": "若菜　秀之",
+      "reportType": "correction",
+      "holdingRatio": 0.0,
+      "previousHoldingRatio": 6.22,
+      "holdingChange": -6.22,
+      "purpose": "株式会社ニレコと取引関係のある企業が株式会社ニレコ株式の取得により相互間の親睦関係増進に寄与する。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少",
+        "大幅売却"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 2.94,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z3VC",
       "ticker": "6863.T",
@@ -33,7 +64,7 @@
         "return1d": 0.36,
         "return5d": -3.8,
         "return20d": null,
-        "returnCurrent": 0.09,
+        "returnCurrent": 1.44,
         "volumeRatio": 2.15,
         "marketExcessReturn": -5.07
       }
@@ -65,7 +96,7 @@
         "return1d": 0.36,
         "return5d": -3.8,
         "return20d": null,
-        "returnCurrent": 0.09,
+        "returnCurrent": 1.44,
         "volumeRatio": 2.15,
         "marketExcessReturn": -5.07
       }
@@ -2838,9 +2869,19 @@
       "open": 1119.0,
       "high": 1127.0,
       "low": 1088.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1090.0,
+      "adj_close": 1090.0,
       "volume": 83200
+    },
+    {
+      "ticker": "6863.T",
+      "trade_date": "2026-10-14",
+      "open": 1090.0,
+      "high": 1126.0,
+      "low": 1073.0,
+      "close": 1122.0,
+      "adj_close": 1122.0,
+      "volume": 84000
     }
   ],
   "benchmark": [
@@ -6673,6 +6714,16 @@
       "close": 432.5,
       "adj_close": 432.5,
       "volume": 12558260
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-14",
+      "open": 433.29998779296875,
+      "high": 433.3999938964844,
+      "low": 430.8999938964844,
+      "close": 432.79998779296875,
+      "adj_close": 432.79998779296875,
+      "volume": 4178460
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

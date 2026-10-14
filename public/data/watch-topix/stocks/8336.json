@@ -5,14 +5,14 @@
   "tradingViewSymbol": "TSE:8336"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "BROKEN",
+  "closedAt": "2026-10-14",
   "id": "8336-2026-10-07",
   "overextended": false,
   "setupType": "BREAKOUT",
   "setups": [],
   "startedAt": "2026-10-07",
-  "status": "BROKEN",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-10-07",
@@ -31,6 +31,12 @@
     "from": "WATCH",
     "reason_code": "BELOW_MA20",
     "to": "BROKEN"
+   },
+   {
+    "date": "2026-10-14",
+    "from": "BROKEN",
+    "reason_code": "BROKEN",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-10-07"
@@ -39,9 +45,9 @@
   {
    "d1": -2.6,
    "d20": null,
-   "d5": null,
+   "d5": -9.6,
    "eventId": "edinet:S100Z6RV",
-   "excess5": null
+   "excess5": -7.8
   }
  ],
  "margin": {
@@ -56,50 +62,48 @@
  "pastEpisodes": [],
  "performance": {
   "benchReturn": -1.0,
-  "currentPrice": 2809.0,
+  "currentPrice": 2725.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 17,
+   "pendingDays": 16,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 2,
+   "pendingDays": 1,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 57,
+   "pendingDays": 56,
    "stockReturn": null
   },
-  "excessReturn": -3.3,
+  "excessReturn": -6.2,
   "initialDate": "2026-10-07",
   "initialPrice": 2936.0,
-  "stockReturn": -4.3
+  "stockReturn": -7.2
  },
  "priceSetup": {
-  "asOf": "2026-10-13",
+  "asOf": "2026-10-14",
   "atrState": "通常",
-  "distFrom52wHigh": 0.07,
+  "distFrom52wHigh": 0.1,
   "labels": [
-   "20日線が上向き",
-   "60日線の上"
+   "20日線が上向き"
   ],
-  "ma20": 2858.7,
-  "ma200": 2308.6,
-  "ma60": 2733.4,
-  "rangePos60": 0.63,
-  "rel20": 2.4,
-  "rel60": 6.4,
-  "volumeRatio20": 0.72
+  "ma20": 2856.8,
+  "ma200": 2314.5,
+  "ma60": 2735.8,
+  "rangePos60": 0.49,
+  "rel20": -3.7,
+  "rel60": 2.8,
+  "volumeRatio20": 0.52
  },
  "reasons": [
   "新規大量保有 5.4%（野村ホールディングス株式会社）",
-  "TOPIX連動ETF比 +2.4pt（20日）",
-  "52週高値まで7%"
+  "52週高値まで10%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -130,7 +134,14 @@
    "kind": "STATUS",
    "label": "BROKEN",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-14",
+   "detail": "Price Setupが崩れた",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-13T23:39:00+09:00"
+ "updatedAt": "2026-10-14T14:18:23+09:00"
 }
