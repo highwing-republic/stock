@@ -9,13 +9,12 @@
   "closedAt": null,
   "id": "7988-2026-09-25",
   "overextended": false,
-  "setupType": "BREAKOUT",
+  "setupType": "RECOVERY",
   "setups": [
-   "BREAKOUT",
    "RECOVERY"
   ],
   "startedAt": "2026-09-25",
-  "status": "STRENGTHENING",
+  "status": "WATCH",
   "statusHistory": [
    {
     "date": "2026-09-25",
@@ -28,12 +27,6 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
-   },
-   {
-    "date": "2026-10-14",
-    "from": "WATCH",
-    "reason_code": "SETUP_IMPROVED",
-    "to": "STRENGTHENING"
    }
   ],
   "watchStartedAt": "2026-10-13"
@@ -56,24 +49,24 @@
   {
    "d1": 0.9,
    "d20": null,
-   "d5": 6.3,
+   "d5": 5.8,
    "eventId": "edinet:S100Z6PV",
-   "excess5": 8.1
+   "excess5": 7.9
   }
  ],
  "margin": {
-  "asOf": "2026-10-09",
-  "buyBalance": 162700,
+  "asOf": "2026-10-13",
+  "buyBalance": 158800,
   "buyChangePct": null,
   "labels": [],
-  "ratio": 3.86,
-  "sellBalance": 42200,
+  "ratio": 3.9,
+  "sellBalance": 40700,
   "sellChangePct": null
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 0.0,
-  "currentPrice": 2582.0,
+  "benchReturn": -0.3,
+  "currentPrice": 2569.5,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
@@ -92,10 +85,10 @@
    "pendingDays": 59,
    "stockReturn": null
   },
-  "excessReturn": 1.4,
+  "excessReturn": 1.2,
   "initialDate": "2026-10-13",
   "initialPrice": 2546.5,
-  "stockReturn": 1.4
+  "stockReturn": 0.9
  },
  "priceSetup": {
   "asOf": "2026-10-14",
@@ -103,23 +96,22 @@
   "distFrom52wHigh": 0.04,
   "labels": [
    "20日線の上",
-   "60日レンジ上位30%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2431.6,
-  "ma200": 2351.0,
-  "ma60": 2466.4,
-  "rangePos60": 0.7,
-  "rel20": 5.6,
-  "rel60": 2.7,
-  "volumeRatio20": 0.65
+  "ma20": 2431.0,
+  "ma200": 2350.9,
+  "ma60": 2466.2,
+  "rangePos60": 0.67,
+  "rel20": 5.3,
+  "rel60": 2.5,
+  "volumeRatio20": 1.42
  },
  "reasons": [
   "0pt買い増し 6.4%→6.5%",
   "30日以内に2回買い増し",
-  "60日レンジ上位30%",
-  "20日線上向き"
+  "20日線上向き",
+  "TOPIX連動ETF比 +5.3pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -185,21 +177,7 @@
    "kind": "STATUS",
    "label": "WATCH",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-10-14",
-   "detail": "RECOVERY → BREAKOUT",
-   "kind": "SETUP",
-   "label": "Price Setup改善",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-10-14",
-   "detail": "Price Setupが改善",
-   "kind": "STATUS",
-   "label": "STRENGTHENING",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-14T14:18:23+09:00"
+ "updatedAt": "2026-10-14T18:07:13+09:00"
 }

@@ -4342,7 +4342,9 @@
    "primary_trigger_event_id": "edinet:S100YDUU",
    "security_code": "6849",
    "setup_type": "RECOVERY",
-   "setups": [],
+   "setups": [
+    "RECOVERY"
+   ],
    "started_at": "2026-06-19",
    "status": "REACTED",
    "status_history": [
@@ -16757,12 +16759,13 @@
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z0BH",
    "security_code": "5105",
-   "setup_type": "RECOVERY",
+   "setup_type": "BREAKOUT",
    "setups": [
+    "BREAKOUT",
     "RECOVERY"
    ],
    "started_at": "2026-09-04",
-   "status": "WATCH",
+   "status": "STRENGTHENING",
    "status_history": [
     {
      "date": "2026-09-04",
@@ -16775,6 +16778,12 @@
      "from": "CANDIDATE",
      "reason_code": "SETUP_OK",
      "to": "WATCH"
+    },
+    {
+     "date": "2026-10-14",
+     "from": "WATCH",
+     "reason_code": "SETUP_IMPROVED",
+     "to": "STRENGTHENING"
     }
    ],
    "watch_started_at": "2026-09-28"
@@ -16924,10 +16933,8 @@
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100YZ8F",
    "security_code": "7745",
-   "setup_type": "RECOVERY",
-   "setups": [
-    "RECOVERY"
-   ],
+   "setup_type": "TREND",
+   "setups": [],
    "started_at": "2026-09-04",
    "status": "STRENGTHENING",
    "status_history": [
@@ -17138,8 +17145,9 @@
    "overextended": true,
    "primary_trigger_event_id": "edinet:S100Z0J4",
    "security_code": "3132",
-   "setup_type": "RECOVERY",
+   "setup_type": "TREND",
    "setups": [
+    "TREND",
     "RECOVERY"
    ],
    "started_at": "2026-09-07",
@@ -18649,8 +18657,8 @@
     "edinet:S100YZYY",
     "edinet:S100Z3CB"
    ],
-   "initial_bench": 432.5,
-   "initial_price": 4024.0,
+   "initial_bench": 431.29998779296875,
+   "initial_price": 4037.0,
    "last_trigger_at": "2026-09-24",
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100YZYY",
@@ -18956,8 +18964,8 @@
    "event_ids": [
     "edinet:S100Z335"
    ],
-   "initial_bench": 432.5,
-   "initial_price": 1867.5,
+   "initial_bench": 431.29998779296875,
+   "initial_price": 1863.0,
    "last_trigger_at": "2026-09-24",
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z335",
@@ -19609,9 +19617,7 @@
    "primary_trigger_event_id": "edinet:S100Z3N5",
    "security_code": "7966",
    "setup_type": "RECOVERY",
-   "setups": [
-    "RECOVERY"
-   ],
+   "setups": [],
    "started_at": "2026-09-25",
    "status": "WATCH",
    "status_history": [
@@ -19646,13 +19652,12 @@
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z41Y",
    "security_code": "7988",
-   "setup_type": "BREAKOUT",
+   "setup_type": "RECOVERY",
    "setups": [
-    "BREAKOUT",
     "RECOVERY"
    ],
    "started_at": "2026-09-25",
-   "status": "STRENGTHENING",
+   "status": "WATCH",
    "status_history": [
     {
      "date": "2026-09-25",
@@ -19665,12 +19670,6 @@
      "from": "CANDIDATE",
      "reason_code": "SETUP_OK",
      "to": "WATCH"
-    },
-    {
-     "date": "2026-10-14",
-     "from": "WATCH",
-     "reason_code": "SETUP_IMPROVED",
-     "to": "STRENGTHENING"
     }
    ],
    "watch_started_at": "2026-10-13"
@@ -19713,8 +19712,8 @@
    "event_ids": [
     "edinet:S100Z3DO"
    ],
-   "initial_bench": 432.5,
-   "initial_price": 3825.0,
+   "initial_bench": 431.29998779296875,
+   "initial_price": 3835.0,
    "last_trigger_at": "2026-09-25",
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z3DO",
@@ -20057,9 +20056,7 @@
    "primary_trigger_event_id": "edinet:S100Z5CS",
    "security_code": "8361",
    "setup_type": "TREND",
-   "setups": [
-    "TREND"
-   ],
+   "setups": [],
    "started_at": "2026-10-02",
    "status": "WATCH",
    "status_history": [
@@ -20601,8 +20598,8 @@
    "event_ids": [
     "edinet:S100Z640"
    ],
-   "initial_bench": 432.5,
-   "initial_price": 3969.0,
+   "initial_bench": 431.29998779296875,
+   "initial_price": 3976.0,
    "last_trigger_at": "2026-10-06",
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z640",
@@ -21033,13 +21030,12 @@
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z6O1",
    "security_code": "6617",
-   "setup_type": "BREAKOUT",
+   "setup_type": "RECOVERY",
    "setups": [
-    "BREAKOUT",
     "RECOVERY"
    ],
    "started_at": "2026-10-07",
-   "status": "STRENGTHENING",
+   "status": "WATCH",
    "status_history": [
     {
      "date": "2026-10-07",
@@ -21052,12 +21048,6 @@
      "from": "CANDIDATE",
      "reason_code": "SETUP_OK",
      "to": "WATCH"
-    },
-    {
-     "date": "2026-10-14",
-     "from": "WATCH",
-     "reason_code": "SETUP_IMPROVED",
-     "to": "STRENGTHENING"
     }
    ],
    "watch_started_at": "2026-10-07"
@@ -21285,33 +21275,25 @@
    "event_ids": [
     "edinet:S100Z6ES"
    ],
-   "initial_bench": 432.5,
-   "initial_price": 1078.5,
+   "initial_bench": null,
+   "initial_price": null,
    "last_trigger_at": "2026-10-08",
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z6ES",
    "security_code": "6471",
-   "setup_type": "RECOVERY",
-   "setups": [
-    "RECOVERY"
-   ],
+   "setup_type": null,
+   "setups": [],
    "started_at": "2026-10-08",
-   "status": "WATCH",
+   "status": "CANDIDATE",
    "status_history": [
     {
      "date": "2026-10-08",
      "from": null,
      "reason_code": "TRIGGER_EVENT",
      "to": "CANDIDATE"
-    },
-    {
-     "date": "2026-10-14",
-     "from": "CANDIDATE",
-     "reason_code": "SETUP_OK",
-     "to": "WATCH"
     }
    ],
-   "watch_started_at": "2026-10-14"
+   "watch_started_at": null
   },
   {
    "base_close": 1510.0,

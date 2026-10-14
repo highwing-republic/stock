@@ -9,12 +9,13 @@
   "closedAt": null,
   "id": "5105-2026-09-04",
   "overextended": false,
-  "setupType": "RECOVERY",
+  "setupType": "BREAKOUT",
   "setups": [
+   "BREAKOUT",
    "RECOVERY"
   ],
   "startedAt": "2026-09-04",
-  "status": "WATCH",
+  "status": "STRENGTHENING",
   "statusHistory": [
    {
     "date": "2026-09-04",
@@ -27,6 +28,12 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
+   },
+   {
+    "date": "2026-10-14",
+    "from": "WATCH",
+    "reason_code": "SETUP_IMPROVED",
+    "to": "STRENGTHENING"
    }
   ],
   "watchStartedAt": "2026-09-28"
@@ -48,21 +55,20 @@
   }
  ],
  "margin": {
-  "asOf": "2026-10-09",
-  "buyBalance": 295800,
-  "buyChangePct": -17.4,
+  "asOf": "2026-10-13",
+  "buyBalance": 292500,
+  "buyChangePct": -14.5,
   "labels": [
-   "信用買残減少",
-   "信用倍率改善"
+   "信用買残減少"
   ],
-  "ratio": 10.45,
-  "sellBalance": 28300,
-  "sellChangePct": 0.7
+  "ratio": 11.34,
+  "sellBalance": 25800,
+  "sellChangePct": -23.2
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 1.0,
-  "currentPrice": 4096.0,
+  "benchReturn": 0.7,
+  "currentPrice": 4099.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
@@ -81,10 +87,10 @@
    "pendingDays": 49,
    "stockReturn": null
   },
-  "excessReturn": 4.0,
+  "excessReturn": 4.4,
   "initialDate": "2026-09-28",
   "initialPrice": 3900.0,
-  "stockReturn": 5.0
+  "stockReturn": 5.1
  },
  "priceSetup": {
   "asOf": "2026-10-14",
@@ -92,22 +98,23 @@
   "distFrom52wHigh": 0.14,
   "labels": [
    "20日線の上",
+   "60日レンジ上位30%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 3884.1,
-  "ma200": 3941.5,
+  "ma20": 3884.2,
+  "ma200": 3941.6,
   "ma60": 3889.4,
   "rangePos60": 0.7,
-  "rel20": 8.8,
-  "rel60": 1.5,
-  "volumeRatio20": 0.26
+  "rel20": 9.1,
+  "rel60": 1.8,
+  "volumeRatio20": 0.5
  },
  "reasons": [
   "新規大量保有 5%（アライアンス・バーンスタイン・エル・ピー）",
+  "60日レンジ上位30%",
   "20日線上向き",
-  "TOPIX連動ETF比 +8.8pt（20日）",
-  "信用買残 -17%"
+  "TOPIX連動ETF比 +9.1pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -187,7 +194,21 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-14",
+   "detail": "RECOVERY → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-14",
+   "detail": "Price Setupが改善",
+   "kind": "STATUS",
+   "label": "STRENGTHENING",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-14T14:17:19+09:00"
+ "updatedAt": "2026-10-14T18:06:20+09:00"
 }

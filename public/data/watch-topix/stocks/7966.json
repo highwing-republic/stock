@@ -10,9 +10,7 @@
   "id": "7966-2026-09-25",
   "overextended": false,
   "setupType": "RECOVERY",
-  "setups": [
-   "RECOVERY"
-  ],
+  "setups": [],
   "startedAt": "2026-09-25",
   "status": "WATCH",
   "statusHistory": [
@@ -56,24 +54,24 @@
   {
    "d1": -0.3,
    "d20": null,
-   "d5": -3.8,
+   "d5": -4.3,
    "eventId": "edinet:S100Z6JA",
-   "excess5": -2.0
+   "excess5": -2.2
   }
  ],
  "margin": {
-  "asOf": "2026-10-09",
-  "buyBalance": 1884700,
+  "asOf": "2026-10-13",
+  "buyBalance": 1888500,
   "buyChangePct": null,
   "labels": [],
-  "ratio": 8.27,
-  "sellBalance": 228000,
+  "ratio": 10.16,
+  "sellBalance": 185900,
   "sellChangePct": null
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -0.4,
-  "currentPrice": 5810.0,
+  "benchReturn": -0.7,
+  "currentPrice": 5780.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
@@ -92,31 +90,31 @@
    "pendingDays": 52,
    "stockReturn": null
   },
-  "excessReturn": -1.6,
+  "excessReturn": -1.8,
   "initialDate": "2026-10-01",
   "initialPrice": 5930.0,
-  "stockReturn": -2.0
+  "stockReturn": -2.5
  },
  "priceSetup": {
   "asOf": "2026-10-14",
   "atrState": "通常",
-  "distFrom52wHigh": 0.2,
+  "distFrom52wHigh": 0.21,
   "labels": [
    "20日線の上",
    "20日線が上向き"
   ],
-  "ma20": 5698.9,
-  "ma200": 5354.7,
-  "ma60": 5846.2,
-  "rangePos60": 0.39,
-  "rel20": 8.0,
-  "rel60": -12.8,
-  "volumeRatio20": 0.32
+  "ma20": 5697.4,
+  "ma200": 5354.6,
+  "ma60": 5845.7,
+  "rangePos60": 0.38,
+  "rel20": 7.7,
+  "rel60": -12.9,
+  "volumeRatio20": 0.6
  },
  "reasons": [
   "新規大量保有 7.7%（株式会社みずほ銀行）",
   "20日線上向き",
-  "TOPIX連動ETF比 +8pt（20日）"
+  "TOPIX連動ETF比 +7.7pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -175,7 +173,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-14",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-14T14:18:23+09:00"
+ "updatedAt": "2026-10-14T18:07:13+09:00"
 }
