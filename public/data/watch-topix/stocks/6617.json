@@ -10,9 +10,7 @@
   "id": "6617-2026-10-07",
   "overextended": false,
   "setupType": "RECOVERY",
-  "setups": [
-   "RECOVERY"
-  ],
+  "setups": [],
   "startedAt": "2026-10-07",
   "status": "STRENGTHENING",
   "statusHistory": [
@@ -53,7 +51,7 @@
    "excess5": 2.5
   },
   {
-   "d1": -7.2,
+   "d1": -8.7,
    "d20": null,
    "d5": null,
    "eventId": "edinet:S100Z82C",
@@ -61,12 +59,12 @@
   }
  ],
  "margin": {
-  "asOf": "2026-10-13",
-  "buyBalance": 152100,
+  "asOf": "2026-10-14",
+  "buyBalance": 148100,
   "buyChangePct": null,
   "labels": [],
-  "ratio": 13.95,
-  "sellBalance": 10900,
+  "ratio": 12.66,
+  "sellBalance": 11700,
   "sellChangePct": null
  },
  "pastEpisodes": [
@@ -79,8 +77,8 @@
   }
  ],
  "performance": {
-  "benchReturn": -3.4,
-  "currentPrice": 7240.0,
+  "benchReturn": -3.7,
+  "currentPrice": 7120.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
@@ -88,10 +86,10 @@
    "stockReturn": null
   },
   "d5": {
-   "benchReturn": -3.4,
-   "excessReturn": -3.7,
+   "benchReturn": -3.7,
+   "excessReturn": -4.9,
    "pendingDays": 0,
-   "stockReturn": -7.1
+   "stockReturn": -8.6
   },
   "d60": {
    "benchReturn": null,
@@ -99,32 +97,30 @@
    "pendingDays": 55,
    "stockReturn": null
   },
-  "excessReturn": -3.7,
+  "excessReturn": -4.9,
   "initialDate": "2026-10-07",
   "initialPrice": 7790.0,
-  "stockReturn": -7.1
+  "stockReturn": -8.6
  },
  "priceSetup": {
   "asOf": "2026-10-15",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.17,
+  "distFrom52wHigh": 0.19,
   "labels": [
-   "20日線の上",
    "20日線が上向き"
   ],
-  "ma20": 7215.9,
-  "ma200": 6303.7,
-  "ma60": 7251.8,
-  "rangePos60": 0.44,
-  "rel20": 11.3,
-  "rel60": -11.1,
-  "volumeRatio20": 0.8
+  "ma20": 7209.9,
+  "ma200": 6303.1,
+  "ma60": 7249.8,
+  "rangePos60": 0.39,
+  "rel20": 9.8,
+  "rel60": -12.2,
+  "volumeRatio20": 1.31
  },
  "reasons": [
   "1.2pt買い増し 8.8%→10.1%",
   "30日以内に2回買い増し",
-  "20日線上向き",
-  "TOPIX連動ETF比 +11.3pt（20日）"
+  "TOPIX連動ETF比 +9.8pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -158,11 +154,18 @@
   },
   {
    "date": "2026-10-15",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-15",
    "detail": "大量保有の買い増しを確認",
    "kind": "STATUS",
    "label": "STRENGTHENING",
    "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-15T14:07:43+09:00"
+ "updatedAt": "2026-10-15T17:38:45+09:00"
 }
