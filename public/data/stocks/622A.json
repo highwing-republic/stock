@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T23:23:31+09:00",
+  "updatedAt": "2026-10-15T14:06:25+09:00",
   "company": {
     "securityCode": "622A",
     "ticker": "622A.T",
@@ -19,21 +19,22 @@
       "holdingChange": null,
       "purpose": "証券業務に係る一時保有のため",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.09,
-      "marketExcessReturn": null,
-      "signalScore": 30,
+      "priceChange": -2.41,
+      "volumeRatio": 0.11,
+      "marketExcessReturn": 1.86,
+      "signalScore": 40,
       "signalReasons": [
-        "新規大量保有"
+        "新規大量保有",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": 4.83,
-        "return5d": null,
+        "return5d": -2.41,
         "return20d": null,
-        "returnCurrent": 2.62,
-        "volumeRatio": 0.09,
-        "marketExcessReturn": null
+        "returnCurrent": -2.41,
+        "volumeRatio": 0.11,
+        "marketExcessReturn": 1.86
       }
     },
     {
@@ -49,19 +50,19 @@
       "holdingChange": null,
       "purpose": "発行会社の創業者であり、安定株主として長期保有するためであります。 / 株式会社テクノクラフトの創業者である栂坂昌業の資産管理会社であり、長期安定株主として保有しております。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.09,
-      "marketExcessReturn": null,
+      "priceChange": -2.41,
+      "volumeRatio": 0.11,
+      "marketExcessReturn": 1.86,
       "signalScore": 0,
       "signalReasons": [],
       "stockUnreacted": false,
       "metrics": {
         "return1d": 4.83,
-        "return5d": null,
+        "return5d": -2.41,
         "return20d": null,
-        "returnCurrent": 2.62,
-        "volumeRatio": 0.09,
-        "marketExcessReturn": null
+        "returnCurrent": -2.41,
+        "volumeRatio": 0.11,
+        "marketExcessReturn": 1.86
       }
     },
     {
@@ -90,7 +91,7 @@
         "return1d": -2.24,
         "return5d": -3.74,
         "return20d": null,
-        "returnCurrent": -4.67,
+        "returnCurrent": -9.35,
         "volumeRatio": 0.28,
         "marketExcessReturn": -6.47
       }
@@ -246,6 +247,16 @@
       "close": 510.0,
       "adj_close": 510.0,
       "volume": 15700
+    },
+    {
+      "ticker": "622A.T",
+      "trade_date": "2026-10-15",
+      "open": 500.0,
+      "high": 503.0,
+      "low": 482.0,
+      "close": 485.0,
+      "adj_close": 485.0,
+      "volume": 55000
     }
   ],
   "benchmark": [
@@ -4088,6 +4099,16 @@
       "close": 431.29998779296875,
       "adj_close": 431.29998779296875,
       "volume": 8675290
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-15",
+      "open": 424.70001220703125,
+      "high": 424.70001220703125,
+      "low": 418.29998779296875,
+      "close": 421.6000061035156,
+      "adj_close": 421.6000061035156,
+      "volume": 16910860
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

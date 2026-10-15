@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T23:23:31+09:00",
+  "updatedAt": "2026-10-15T14:06:25+09:00",
   "company": {
     "securityCode": "7674",
     "ticker": "7674.T",
@@ -19,9 +19,9 @@
       "holdingChange": -1.22,
       "purpose": "・ディーリング(短期売買)目的で保有するもの・レンディングその他取引に基づく一時的保有",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.39,
-      "marketExcessReturn": null,
+      "priceChange": 0.14,
+      "volumeRatio": 0.47,
+      "marketExcessReturn": 4.41,
       "signalScore": 0,
       "signalReasons": [
         "保有割合減少"
@@ -29,11 +29,11 @@
       "stockUnreacted": false,
       "metrics": {
         "return1d": 0.22,
-        "return5d": null,
+        "return5d": 0.14,
         "return20d": null,
-        "returnCurrent": 0.25,
-        "volumeRatio": 0.39,
-        "marketExcessReturn": null
+        "returnCurrent": 0.14,
+        "volumeRatio": 0.47,
+        "marketExcessReturn": 4.41
       }
     },
     {
@@ -63,7 +63,7 @@
         "return1d": 0.18,
         "return5d": -8.3,
         "return20d": -7.95,
-        "returnCurrent": -1.18,
+        "returnCurrent": -1.28,
         "volumeRatio": 2.23,
         "marketExcessReturn": -6.49
       }
@@ -2919,6 +2919,16 @@
       "close": 2773.0,
       "adj_close": 2773.0,
       "volume": 1200
+    },
+    {
+      "ticker": "7674.T",
+      "trade_date": "2026-10-15",
+      "open": 2771.0,
+      "high": 2780.0,
+      "low": 2770.0,
+      "close": 2770.0,
+      "adj_close": 2770.0,
+      "volume": 3300
     }
   ],
   "benchmark": [
@@ -6761,6 +6771,16 @@
       "close": 431.29998779296875,
       "adj_close": 431.29998779296875,
       "volume": 8675290
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-15",
+      "open": 424.70001220703125,
+      "high": 424.70001220703125,
+      "low": 418.29998779296875,
+      "close": 421.6000061035156,
+      "adj_close": 421.6000061035156,
+      "volume": 16910860
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

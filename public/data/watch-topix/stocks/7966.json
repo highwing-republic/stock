@@ -12,7 +12,7 @@
   "setupType": "RECOVERY",
   "setups": [],
   "startedAt": "2026-09-25",
-  "status": "WATCH",
+  "status": "BROKEN",
   "statusHistory": [
    {
     "date": "2026-09-25",
@@ -25,6 +25,12 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
+   },
+   {
+    "date": "2026-10-15",
+    "from": "WATCH",
+    "reason_code": "BELOW_MA60",
+    "to": "BROKEN"
    }
   ],
   "watchStartedAt": "2026-10-01"
@@ -70,12 +76,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -0.7,
-  "currentPrice": 5780.0,
+  "benchReturn": -2.8,
+  "currentPrice": 5430.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 12,
+   "pendingDays": 11,
    "stockReturn": null
   },
   "d5": {
@@ -87,34 +93,32 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 52,
+   "pendingDays": 51,
    "stockReturn": null
   },
-  "excessReturn": -1.8,
+  "excessReturn": -5.6,
   "initialDate": "2026-10-01",
   "initialPrice": 5930.0,
-  "stockReturn": -2.5
+  "stockReturn": -8.4
  },
  "priceSetup": {
-  "asOf": "2026-10-14",
+  "asOf": "2026-10-15",
   "atrState": "通常",
-  "distFrom52wHigh": 0.21,
+  "distFrom52wHigh": 0.25,
   "labels": [
-   "20日線の上",
    "20日線が上向き"
   ],
-  "ma20": 5697.4,
-  "ma200": 5354.6,
-  "ma60": 5845.7,
-  "rangePos60": 0.38,
-  "rel20": 7.7,
-  "rel60": -12.9,
-  "volumeRatio20": 0.6
+  "ma20": 5713.5,
+  "ma200": 5361.3,
+  "ma60": 5824.0,
+  "rangePos60": 0.21,
+  "rel20": 5.7,
+  "rel60": -18.5,
+  "volumeRatio20": 1.42
  },
  "reasons": [
   "新規大量保有 7.7%（株式会社みずほ銀行）",
-  "20日線上向き",
-  "TOPIX連動ETF比 +7.7pt（20日）"
+  "TOPIX連動ETF比 +5.7pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -180,7 +184,14 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-15",
+   "detail": "60日線を下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-14T23:24:41+09:00"
+ "updatedAt": "2026-10-15T14:07:43+09:00"
 }

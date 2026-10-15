@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T23:23:31+09:00",
+  "updatedAt": "2026-10-15T14:06:25+09:00",
   "company": {
     "securityCode": "5449",
     "ticker": "5449.T",
@@ -20,7 +20,7 @@
       "purpose": "純投資及び状況に応じて重要提案行為等を行うこと。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": 0.85,
+      "volumeRatio": 0.72,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [],
@@ -29,8 +29,8 @@
         "return1d": -1.28,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.38,
-        "volumeRatio": 0.85,
+        "returnCurrent": 0.55,
+        "volumeRatio": 0.72,
         "marketExcessReturn": null
       }
     },
@@ -48,7 +48,7 @@
       "purpose": "純投資及び状況に応じて重要提案行為等を行うこと。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": 0.85,
+      "volumeRatio": 0.72,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [],
@@ -57,8 +57,8 @@
         "return1d": -1.28,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.38,
-        "volumeRatio": 0.85,
+        "returnCurrent": 0.55,
+        "volumeRatio": 0.72,
         "marketExcessReturn": null
       }
     },
@@ -76,7 +76,7 @@
       "purpose": "純投資及び状況に応じて重要提案行為等を行うこと。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": 0.85,
+      "volumeRatio": 0.72,
       "marketExcessReturn": null,
       "signalScore": 20,
       "signalReasons": [
@@ -87,8 +87,8 @@
         "return1d": -1.28,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.38,
-        "volumeRatio": 0.85,
+        "returnCurrent": 0.55,
+        "volumeRatio": 0.72,
         "marketExcessReturn": null
       }
     },
@@ -105,21 +105,22 @@
       "holdingChange": 1.1,
       "purpose": "純投資及び状況に応じて重要提案行為等を行うこと。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 1.08,
-      "marketExcessReturn": null,
-      "signalScore": 20,
+      "priceChange": -2.31,
+      "volumeRatio": 0.93,
+      "marketExcessReturn": 1.96,
+      "signalScore": 30,
       "signalReasons": [
-        "1pt以上買い増し"
+        "1pt以上買い増し",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": -6.49,
-        "return5d": null,
+        "return5d": -2.31,
         "return20d": null,
-        "returnCurrent": -2.48,
-        "volumeRatio": 1.08,
-        "marketExcessReturn": null
+        "returnCurrent": -2.31,
+        "volumeRatio": 0.93,
+        "marketExcessReturn": 1.96
       }
     }
   ],
@@ -2823,6 +2824,16 @@
       "close": 2360.0,
       "adj_close": 2360.0,
       "volume": 17900
+    },
+    {
+      "ticker": "5449.T",
+      "trade_date": "2026-10-15",
+      "open": 2360.0,
+      "high": 2373.0,
+      "low": 2347.0,
+      "close": 2364.0,
+      "adj_close": 2364.0,
+      "volume": 7900
     }
   ],
   "benchmark": [
@@ -6665,6 +6676,16 @@
       "close": 431.29998779296875,
       "adj_close": 431.29998779296875,
       "volume": 8675290
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-15",
+      "open": 424.70001220703125,
+      "high": 424.70001220703125,
+      "low": 418.29998779296875,
+      "close": 421.6000061035156,
+      "adj_close": 421.6000061035156,
+      "volume": 16910860
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

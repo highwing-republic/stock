@@ -12,7 +12,8 @@
   "setupType": "BREAKOUT",
   "setups": [
    "BREAKOUT",
-   "TREND"
+   "TREND",
+   "RECOVERY"
   ],
   "startedAt": "2026-07-07",
   "status": "REACTED",
@@ -112,9 +113,9 @@
   {
    "d1": -0.0,
    "d20": null,
-   "d5": null,
+   "d5": 3.6,
    "eventId": "edinet:S100Z6OH",
-   "excess5": null
+   "excess5": 7.0
   }
  ],
  "margin": {
@@ -128,8 +129,8 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 1.8,
-  "currentPrice": 2519.0,
+  "benchReturn": -0.3,
+  "currentPrice": 2567.5,
   "d20": {
    "benchReturn": -0.6,
    "excessReturn": -1.9,
@@ -148,34 +149,34 @@
    "pendingDays": 0,
    "stockReturn": 6.2
   },
-  "excessReturn": 5.5,
+  "excessReturn": 9.7,
   "initialDate": "2026-07-07",
   "initialPrice": 2347.3,
-  "stockReturn": 7.3
+  "stockReturn": 9.4
  },
  "priceSetup": {
-  "asOf": "2026-10-14",
+  "asOf": "2026-10-15",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.02,
+  "distFrom52wHigh": 0.0,
   "labels": [
    "20日線の上",
-   "60日レンジ上位19%",
+   "60日レンジ上位3%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2486.8,
-  "ma200": 2282.8,
-  "ma60": 2437.9,
-  "rangePos60": 0.81,
-  "rel20": 1.6,
-  "rel60": 2.5,
-  "volumeRatio20": 0.78
+  "ma20": 2493.6,
+  "ma200": 2283.5,
+  "ma60": 2440.7,
+  "rangePos60": 0.97,
+  "rel20": 5.0,
+  "rel60": 7.9,
+  "volumeRatio20": 0.43
  },
  "reasons": [
   "1.1pt買い増し 8.9%→10%",
-  "60日レンジ上位19%",
+  "60日レンジ上位3%",
   "20日線上向き",
-  "TOPIX連動ETF比 +1.6pt（20日）"
+  "TOPIX連動ETF比 +5pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -460,5 +461,5 @@
    "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-14T23:24:41+09:00"
+ "updatedAt": "2026-10-15T14:07:43+09:00"
 }

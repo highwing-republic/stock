@@ -5,20 +5,26 @@
   "tradingViewSymbol": "TSE:3086"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "NO_SETUP",
+  "closedAt": "2026-10-15",
   "id": "3086-2026-09-04",
   "overextended": false,
   "setupType": null,
   "setups": [],
   "startedAt": "2026-09-04",
-  "status": "CANDIDATE",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-09-04",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-10-15",
+    "from": "CANDIDATE",
+    "reason_code": "NO_SETUP",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": null
@@ -135,23 +141,26 @@
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-10-14",
-  "atrState": "低ボラ",
-  "distFrom52wHigh": 0.26,
+  "asOf": "2026-10-15",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.24,
   "labels": [
+   "20日線の上",
    "20日線が上向き"
   ],
-  "ma20": 2666.8,
-  "ma200": 2568.7,
-  "ma60": 2850.3,
-  "rangePos60": 0.14,
-  "rel20": -0.8,
-  "rel60": -19.3,
-  "volumeRatio20": 4.24
+  "ma20": 2671.8,
+  "ma200": 2571.4,
+  "ma60": 2842.3,
+  "rangePos60": 0.23,
+  "rel20": 3.3,
+  "rel60": -14.3,
+  "volumeRatio20": 0.88
  },
  "reasons": [
   "1.3pt買い増し 10.3%→11.6%",
-  "30日以内に2回買い増し"
+  "30日以内に2回買い増し",
+  "20日線を回復",
+  "TOPIX連動ETF比 +3.3pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -266,7 +275,28 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-15",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-15",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-15",
+   "detail": "期限内にPrice Setupが成立しなかった",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-14T23:23:43+09:00"
+ "updatedAt": "2026-10-15T14:06:36+09:00"
 }

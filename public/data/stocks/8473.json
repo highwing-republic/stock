@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T23:23:31+09:00",
+  "updatedAt": "2026-10-15T14:06:25+09:00",
   "company": {
     "securityCode": "8473",
     "ticker": "8473.T",
@@ -19,9 +19,9 @@
       "holdingChange": -0.31,
       "purpose": "証券業務に係る商品在庫として保有している。 / 証券業務に係わる商品在庫として保有している。 / 信託財産の運用として保有している。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.97,
-      "marketExcessReturn": null,
+      "priceChange": -4.05,
+      "volumeRatio": 0.9,
+      "marketExcessReturn": 0.22,
       "signalScore": 0,
       "signalReasons": [
         "保有割合減少"
@@ -29,11 +29,11 @@
       "stockUnreacted": false,
       "metrics": {
         "return1d": -5.36,
-        "return5d": null,
+        "return5d": -4.05,
         "return20d": null,
-        "returnCurrent": -2.3,
-        "volumeRatio": 0.97,
-        "marketExcessReturn": null
+        "returnCurrent": -4.05,
+        "volumeRatio": 0.9,
+        "marketExcessReturn": 0.22
       }
     }
   ],
@@ -3877,6 +3877,16 @@
       "close": 3061.0,
       "adj_close": 3061.0,
       "volume": 2630200
+    },
+    {
+      "ticker": "8473.T",
+      "trade_date": "2026-10-15",
+      "open": 2997.0,
+      "high": 3034.0,
+      "low": 2969.5,
+      "close": 3006.0,
+      "adj_close": 3006.0,
+      "volume": 2165000
     }
   ],
   "benchmark": [
@@ -7719,6 +7729,16 @@
       "close": 431.29998779296875,
       "adj_close": 431.29998779296875,
       "volume": 8675290
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-15",
+      "open": 424.70001220703125,
+      "high": 424.70001220703125,
+      "low": 418.29998779296875,
+      "close": 421.6000061035156,
+      "adj_close": 421.6000061035156,
+      "volume": 16910860
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

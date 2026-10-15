@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T23:23:31+09:00",
+  "updatedAt": "2026-10-15T14:06:25+09:00",
   "company": {
     "securityCode": "5408",
     "ticker": "5408.T",
@@ -19,21 +19,22 @@
       "holdingChange": null,
       "purpose": "両社の強みを活かした付加価値の高い電気炉鋼材の普及拡大を実現し、当社グループの企業価値向上を図るための資本業務提携。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 1.38,
-      "marketExcessReturn": null,
-      "signalScore": 30,
+      "priceChange": -4.88,
+      "volumeRatio": 1.32,
+      "marketExcessReturn": -0.61,
+      "signalScore": 40,
       "signalReasons": [
-        "新規大量保有"
+        "新規大量保有",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": -3.25,
-        "return5d": null,
+        "return5d": -4.88,
         "return20d": null,
-        "returnCurrent": -3.74,
-        "volumeRatio": 1.38,
-        "marketExcessReturn": null
+        "returnCurrent": -4.88,
+        "volumeRatio": 1.32,
+        "marketExcessReturn": -0.61
       }
     },
     {
@@ -64,7 +65,7 @@
         "return1d": -0.16,
         "return5d": -2.6,
         "return20d": null,
-        "returnCurrent": -3.9,
+        "returnCurrent": -5.03,
         "volumeRatio": 1.32,
         "marketExcessReturn": -3.13
       }
@@ -2780,6 +2781,16 @@
       "close": 592.0,
       "adj_close": 592.0,
       "volume": 224500
+    },
+    {
+      "ticker": "5408.T",
+      "trade_date": "2026-10-15",
+      "open": 591.0,
+      "high": 592.0,
+      "low": 581.0,
+      "close": 585.0,
+      "adj_close": 585.0,
+      "volume": 184200
     }
   ],
   "benchmark": [
@@ -6622,6 +6633,16 @@
       "close": 431.29998779296875,
       "adj_close": 431.29998779296875,
       "volume": 8675290
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-15",
+      "open": 424.70001220703125,
+      "high": 424.70001220703125,
+      "low": 418.29998779296875,
+      "close": 421.6000061035156,
+      "adj_close": 421.6000061035156,
+      "volume": 16910860
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

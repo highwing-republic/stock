@@ -10,9 +10,11 @@
   "id": "9024-2026-10-06",
   "overextended": false,
   "setupType": "BREAKOUT",
-  "setups": [],
+  "setups": [
+   "BREAKOUT"
+  ],
   "startedAt": "2026-10-06",
-  "status": "WATCH",
+  "status": "STRENGTHENING",
   "statusHistory": [
    {
     "date": "2026-10-06",
@@ -25,6 +27,12 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
+   },
+   {
+    "date": "2026-10-15",
+    "from": "WATCH",
+    "reason_code": "SETUP_IMPROVED",
+    "to": "STRENGTHENING"
    }
   ],
   "watchStartedAt": "2026-10-08"
@@ -77,50 +85,54 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 0.4,
-  "currentPrice": 3551.0,
+  "benchReturn": -1.7,
+  "currentPrice": 3595.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 17,
+   "pendingDays": 16,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 2,
+   "pendingDays": 1,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 57,
+   "pendingDays": 56,
    "stockReturn": null
   },
-  "excessReturn": -1.6,
+  "excessReturn": 1.8,
   "initialDate": "2026-10-08",
   "initialPrice": 3593.0,
-  "stockReturn": -1.2
+  "stockReturn": 0.1
  },
  "priceSetup": {
-  "asOf": "2026-10-14",
+  "asOf": "2026-10-15",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.39,
+  "distFrom52wHigh": 0.38,
   "labels": [
+   "20日線の上",
+   "60日レンジ上位28%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 3561.5,
-  "ma200": 3745.8,
-  "ma60": 3483.6,
-  "rangePos60": 0.65,
-  "rel20": -1.9,
-  "rel60": -3.1,
-  "volumeRatio20": 0.62
+  "ma20": 3566.9,
+  "ma200": 3741.1,
+  "ma60": 3484.9,
+  "rangePos60": 0.72,
+  "rel20": 2.5,
+  "rel60": 2.9,
+  "volumeRatio20": 0.35
  },
  "reasons": [
   "新規大量保有 5%（モルガン・スタンレーＭＵＦＧ証券株式会社）",
-  "信用買残 -6%"
+  "60日レンジ上位28%",
+  "20日線を回復",
+  "TOPIX連動ETF比 +2.5pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -186,7 +198,35 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-15",
+   "detail": "なし → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-15",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-15",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-15",
+   "detail": "Price Setupが改善",
+   "kind": "STATUS",
+   "label": "STRENGTHENING",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-14T23:23:43+09:00"
+ "updatedAt": "2026-10-15T14:06:36+09:00"
 }

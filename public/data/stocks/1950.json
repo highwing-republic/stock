@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T23:23:31+09:00",
+  "updatedAt": "2026-10-15T14:06:25+09:00",
   "company": {
     "securityCode": "1950",
     "ticker": "1950.T",
@@ -19,21 +19,22 @@
       "holdingChange": null,
       "purpose": "顧客の財産を投資信託約款および投資一任契約等に基づき運用するために保有。しかしながら、当該保有証券の名義人は弊社ではなく、顧客の選択した銀行等（カストディアンバンク又は信託銀行等）になります。 / 顧客の財産を投資信託約款および投資一任契約等に基づき運用するために保有しております。なお、当該有価証券の名義人は当社ではなく、顧客又は顧客が選択したカストディアンバンク若しくは信託銀行等となります。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.91,
-      "marketExcessReturn": null,
-      "signalScore": 30,
+      "priceChange": -3.47,
+      "volumeRatio": 0.82,
+      "marketExcessReturn": 0.8,
+      "signalScore": 40,
       "signalReasons": [
-        "新規大量保有"
+        "新規大量保有",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": -2.7,
-        "return5d": null,
+        "return5d": -3.47,
         "return20d": null,
-        "returnCurrent": -0.51,
-        "volumeRatio": 0.91,
-        "marketExcessReturn": null
+        "returnCurrent": -3.47,
+        "volumeRatio": 0.82,
+        "marketExcessReturn": 0.8
       }
     }
   ],
@@ -3797,6 +3798,16 @@
       "close": 3875.0,
       "adj_close": 3875.0,
       "volume": 85700
+    },
+    {
+      "ticker": "1950.T",
+      "trade_date": "2026-10-15",
+      "open": 3855.0,
+      "high": 3855.0,
+      "low": 3735.0,
+      "close": 3760.0,
+      "adj_close": 3760.0,
+      "volume": 46300
     }
   ],
   "benchmark": [
@@ -7639,6 +7650,16 @@
       "close": 431.29998779296875,
       "adj_close": 431.29998779296875,
       "volume": 8675290
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-15",
+      "open": 424.70001220703125,
+      "high": 424.70001220703125,
+      "low": 418.29998779296875,
+      "close": 421.6000061035156,
+      "adj_close": 421.6000061035156,
+      "volume": 16910860
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

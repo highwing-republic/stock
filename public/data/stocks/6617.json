@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-10-14T23:23:31+09:00",
+  "updatedAt": "2026-10-15T14:06:25+09:00",
   "company": {
     "securityCode": "6617",
     "ticker": "6617.T",
     "name": "株式会社東光高岳"
   },
   "events": [
+    {
+      "docId": "S100Z82C",
+      "ticker": "6617.T",
+      "securityCode": "6617",
+      "companyName": "株式会社東光高岳",
+      "submitDatetime": "2026-10-15 12:04",
+      "filerName": "三井住友ＤＳアセットマネジメント株式会社",
+      "reportType": "change",
+      "holdingRatio": 10.05,
+      "previousHoldingRatio": 8.81,
+      "holdingChange": 1.24,
+      "purpose": "純投資（投資収益性を重視して行う投資）",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 20,
+      "signalReasons": [
+        "1pt以上買い増し"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -7.31,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z6O1",
       "ticker": "6617.T",
@@ -19,21 +49,22 @@
       "holdingChange": 1.12,
       "purpose": "純投資（投資収益性を重視して行う投資） / 証券業務に係る一時保有のため（共同保有者から除外）",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 1.0,
-      "marketExcessReturn": null,
-      "signalScore": 20,
+      "priceChange": -6.95,
+      "volumeRatio": 0.96,
+      "marketExcessReturn": -2.68,
+      "signalScore": 30,
       "signalReasons": [
-        "1pt以上買い増し"
+        "1pt以上買い増し",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": -4.25,
-        "return5d": null,
+        "return5d": -6.95,
         "return20d": null,
-        "returnCurrent": 0.39,
-        "volumeRatio": 1.0,
-        "marketExcessReturn": null
+        "returnCurrent": -6.95,
+        "volumeRatio": 0.96,
+        "marketExcessReturn": -2.68
       }
     },
     {
@@ -62,7 +93,7 @@
         "return1d": -6.63,
         "return5d": -3.93,
         "return20d": -13.64,
-        "returnCurrent": -3.27,
+        "returnCurrent": -10.34,
         "volumeRatio": 0.54,
         "marketExcessReturn": -6.81
       }
@@ -3828,6 +3859,16 @@
       "close": 7800.0,
       "adj_close": 7800.0,
       "volume": 60800
+    },
+    {
+      "ticker": "6617.T",
+      "trade_date": "2026-10-15",
+      "open": 7500.0,
+      "high": 7500.0,
+      "low": 7120.0,
+      "close": 7230.0,
+      "adj_close": 7230.0,
+      "volume": 68800
     }
   ],
   "benchmark": [
@@ -7670,6 +7711,16 @@
       "close": 431.29998779296875,
       "adj_close": 431.29998779296875,
       "volume": 8675290
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-15",
+      "open": 424.70001220703125,
+      "high": 424.70001220703125,
+      "low": 418.29998779296875,
+      "close": 421.6000061035156,
+      "adj_close": 421.6000061035156,
+      "volume": 16910860
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

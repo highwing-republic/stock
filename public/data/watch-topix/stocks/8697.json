@@ -12,7 +12,7 @@
   "setupType": "BREAKOUT",
   "setups": [],
   "startedAt": "2026-10-05",
-  "status": "WATCH",
+  "status": "STRENGTHENING",
   "statusHistory": [
    {
     "date": "2026-10-05",
@@ -25,6 +25,12 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
+   },
+   {
+    "date": "2026-10-15",
+    "from": "WATCH",
+    "reason_code": "REL20_POSITIVE",
+    "to": "STRENGTHENING"
    }
   ],
   "watchStartedAt": "2026-10-05"
@@ -49,12 +55,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -1.1,
-  "currentPrice": 2189.0,
+  "benchReturn": -3.2,
+  "currentPrice": 2195.5,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 14,
+   "pendingDays": 13,
    "stockReturn": null
   },
   "d5": {
@@ -66,31 +72,32 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 54,
+   "pendingDays": 53,
    "stockReturn": null
   },
-  "excessReturn": -3.3,
+  "excessReturn": -0.9,
   "initialDate": "2026-10-05",
   "initialPrice": 2289.0,
-  "stockReturn": -4.4
+  "stockReturn": -4.1
  },
  "priceSetup": {
-  "asOf": "2026-10-14",
+  "asOf": "2026-10-15",
   "atrState": "低ボラ",
   "distFrom52wHigh": 0.06,
   "labels": [
    "20日線が上向き"
   ],
-  "ma20": 2245.3,
-  "ma200": 1957.2,
-  "ma60": 2210.5,
-  "rangePos60": 0.46,
-  "rel20": -1.9,
-  "rel60": -1.6,
-  "volumeRatio20": 1.54
+  "ma20": 2246.5,
+  "ma200": 1960.1,
+  "ma60": 2210.3,
+  "rangePos60": 0.48,
+  "rel20": 0.5,
+  "rel60": 0.2,
+  "volumeRatio20": 0.65
  },
  "reasons": [
   "新規大量保有 5.2%（ＪＰモルガン証券株式会社）",
+  "TOPIX連動ETF比 +0.5pt（20日）",
   "52週高値まで6%"
  ],
  "schemaVersion": 1,
@@ -129,7 +136,21 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-15",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-15",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "STATUS",
+   "label": "STRENGTHENING",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-14T23:24:41+09:00"
+ "updatedAt": "2026-10-15T14:07:43+09:00"
 }

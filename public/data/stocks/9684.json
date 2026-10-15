@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T23:23:31+09:00",
+  "updatedAt": "2026-10-15T14:06:25+09:00",
   "company": {
     "securityCode": "9684",
     "ticker": "9684.T",
@@ -19,21 +19,22 @@
       "holdingChange": -1.33,
       "purpose": "証券業務に係る商品在庫、及び累積投資業務の運営目的として保有している。 / 証券業務に係わる商品在庫として保有している。 / 信託財産の運用として保有している。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.85,
-      "marketExcessReturn": null,
+      "priceChange": 2.86,
+      "volumeRatio": 0.78,
+      "marketExcessReturn": 7.13,
       "signalScore": 0,
       "signalReasons": [
+        "市場超過5%以上",
         "保有割合減少"
       ],
       "stockUnreacted": false,
       "metrics": {
         "return1d": -1.48,
-        "return5d": null,
+        "return5d": 2.86,
         "return20d": null,
-        "returnCurrent": 2.56,
-        "volumeRatio": 0.85,
-        "marketExcessReturn": null
+        "returnCurrent": 2.86,
+        "volumeRatio": 0.78,
+        "marketExcessReturn": 7.13
       }
     },
     {
@@ -62,7 +63,7 @@
         "return1d": 0.18,
         "return5d": 1.49,
         "return20d": 4.31,
-        "returnCurrent": 14.57,
+        "returnCurrent": 14.91,
         "volumeRatio": 0.7,
         "marketExcessReturn": 2.87
       }
@@ -3908,6 +3909,16 @@
       "close": 2909.5,
       "adj_close": 2909.5,
       "volume": 839900
+    },
+    {
+      "ticker": "9684.T",
+      "trade_date": "2026-10-15",
+      "open": 2909.5,
+      "high": 2942.0,
+      "low": 2886.0,
+      "close": 2918.0,
+      "adj_close": 2918.0,
+      "volume": 529900
     }
   ],
   "benchmark": [
@@ -7750,6 +7761,16 @@
       "close": 431.29998779296875,
       "adj_close": 431.29998779296875,
       "volume": 8675290
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-15",
+      "open": 424.70001220703125,
+      "high": 424.70001220703125,
+      "low": 418.29998779296875,
+      "close": 421.6000061035156,
+      "adj_close": 421.6000061035156,
+      "volume": 16910860
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

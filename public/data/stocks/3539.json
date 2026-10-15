@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T23:23:31+09:00",
+  "updatedAt": "2026-10-15T14:06:25+09:00",
   "company": {
     "securityCode": "3539",
     "ticker": "3539.T",
@@ -19,21 +19,22 @@
       "holdingChange": null,
       "purpose": "当該有価証券は、グループの資産運用および管理機能に関連して保有されているものです。 / 当該有価証券は、当社の投資運用および資産管理機能に関連して保有されています。 / 信託契約および投資一任契約に基づき顧客資産を運用する目的で保有。当該証券の名義は当社ではなく、顧客指定のカストディアンバンクの名義となります。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.75,
-      "marketExcessReturn": null,
-      "signalScore": 30,
+      "priceChange": 4.43,
+      "volumeRatio": 0.7,
+      "marketExcessReturn": 8.7,
+      "signalScore": 40,
       "signalReasons": [
-        "新規大量保有"
+        "新規大量保有",
+        "市場超過5%以上"
       ],
       "stockUnreacted": false,
       "metrics": {
         "return1d": 0.0,
-        "return5d": null,
+        "return5d": 4.43,
         "return20d": null,
-        "returnCurrent": 2.84,
-        "volumeRatio": 0.75,
-        "marketExcessReturn": null
+        "returnCurrent": 4.43,
+        "volumeRatio": 0.7,
+        "marketExcessReturn": 8.7
       }
     }
   ],
@@ -2737,6 +2738,16 @@
       "close": 1485.0,
       "adj_close": 1485.0,
       "volume": 133800
+    },
+    {
+      "ticker": "3539.T",
+      "trade_date": "2026-10-15",
+      "open": 1485.0,
+      "high": 1513.0,
+      "low": 1470.0,
+      "close": 1508.0,
+      "adj_close": 1508.0,
+      "volume": 88600
     }
   ],
   "benchmark": [
@@ -6579,6 +6590,16 @@
       "close": 431.29998779296875,
       "adj_close": 431.29998779296875,
       "volume": 8675290
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-15",
+      "open": 424.70001220703125,
+      "high": 424.70001220703125,
+      "low": 418.29998779296875,
+      "close": 421.6000061035156,
+      "adj_close": 421.6000061035156,
+      "volume": 16910860
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

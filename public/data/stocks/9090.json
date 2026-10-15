@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T23:23:31+09:00",
+  "updatedAt": "2026-10-15T14:06:25+09:00",
   "company": {
     "securityCode": "9090",
     "ticker": "9090.T",
@@ -19,19 +19,21 @@
       "holdingChange": 0.0,
       "purpose": "当該有価証券は、グループの資産運用および管理機能に関連して保有されているものです。 / 当該有価証券は、当社の投資運用および資産管理機能に関連して保有されています。 / 信託契約および投資一任契約に基づき顧客資産を運用する目的で保有。当該証券の名義は当社ではなく、顧客指定のカストディアンバンクの名義となります。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.34,
-      "marketExcessReturn": null,
-      "signalScore": 0,
-      "signalReasons": [],
+      "priceChange": 2.4,
+      "volumeRatio": 0.33,
+      "marketExcessReturn": 6.67,
+      "signalScore": 10,
+      "signalReasons": [
+        "市場超過5%以上"
+      ],
       "stockUnreacted": false,
       "metrics": {
         "return1d": 0.96,
-        "return5d": null,
+        "return5d": 2.4,
         "return20d": null,
-        "returnCurrent": 1.44,
-        "volumeRatio": 0.34,
-        "marketExcessReturn": null
+        "returnCurrent": 2.4,
+        "volumeRatio": 0.33,
+        "marketExcessReturn": 6.67
       }
     },
     {
@@ -59,7 +61,7 @@
         "return1d": -0.11,
         "return5d": -3.68,
         "return20d": null,
-        "returnCurrent": -4.81,
+        "returnCurrent": -3.91,
         "volumeRatio": 1.72,
         "marketExcessReturn": -5.58
       }
@@ -87,7 +89,7 @@
         "return1d": 2.93,
         "return5d": 7.08,
         "return20d": 9.65,
-        "returnCurrent": 5.19,
+        "returnCurrent": 6.18,
         "volumeRatio": 0.77,
         "marketExcessReturn": 4.2
       }
@@ -119,7 +121,7 @@
         "return1d": 3.44,
         "return5d": 9.5,
         "return20d": 4.16,
-        "returnCurrent": 2.31,
+        "returnCurrent": 3.28,
         "volumeRatio": 3.18,
         "marketExcessReturn": 11.4
       }
@@ -150,7 +152,7 @@
         "return1d": 0.0,
         "return5d": 4.91,
         "return20d": 8.47,
-        "returnCurrent": 5.7,
+        "returnCurrent": 6.7,
         "volumeRatio": 1.02,
         "marketExcessReturn": 6.29
       }
@@ -180,7 +182,7 @@
         "return1d": 0.0,
         "return5d": 4.91,
         "return20d": 8.47,
-        "returnCurrent": 5.7,
+        "returnCurrent": 6.7,
         "volumeRatio": 1.02,
         "marketExcessReturn": 6.29
       }
@@ -211,7 +213,7 @@
         "return1d": 0.65,
         "return5d": 4.02,
         "return20d": 13.1,
-        "returnCurrent": 11.73,
+        "returnCurrent": 12.79,
         "volumeRatio": 0.83,
         "marketExcessReturn": 5.88
       }
@@ -242,7 +244,7 @@
         "return1d": 0.65,
         "return5d": 4.02,
         "return20d": 13.1,
-        "returnCurrent": 11.73,
+        "returnCurrent": 12.79,
         "volumeRatio": 0.83,
         "marketExcessReturn": 5.88
       }
@@ -273,7 +275,7 @@
         "return1d": 0.65,
         "return5d": 4.02,
         "return20d": 13.1,
-        "returnCurrent": 11.73,
+        "returnCurrent": 12.79,
         "volumeRatio": 0.83,
         "marketExcessReturn": 5.88
       }
@@ -304,7 +306,7 @@
         "return1d": 0.65,
         "return5d": 4.02,
         "return20d": 13.1,
-        "returnCurrent": 11.73,
+        "returnCurrent": 12.79,
         "volumeRatio": 0.83,
         "marketExcessReturn": 5.88
       }
@@ -4150,6 +4152,16 @@
       "close": 846.0,
       "adj_close": 846.0,
       "volume": 152500
+    },
+    {
+      "ticker": "9090.T",
+      "trade_date": "2026-10-15",
+      "open": 846.0,
+      "high": 856.0,
+      "low": 841.0,
+      "close": 854.0,
+      "adj_close": 854.0,
+      "volume": 172500
     }
   ],
   "benchmark": [
@@ -7992,6 +8004,16 @@
       "close": 431.29998779296875,
       "adj_close": 431.29998779296875,
       "volume": 8675290
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-15",
+      "open": 424.70001220703125,
+      "high": 424.70001220703125,
+      "low": 418.29998779296875,
+      "close": 421.6000061035156,
+      "adj_close": 421.6000061035156,
+      "volume": 16910860
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

@@ -10,9 +10,7 @@
   "id": "4022-2026-08-07",
   "overextended": false,
   "setupType": "RECOVERY",
-  "setups": [
-   "RECOVERY"
-  ],
+  "setups": [],
   "startedAt": "2026-08-07",
   "status": "REACTED",
   "statusHistory": [
@@ -69,16 +67,16 @@
   {
    "d1": -4.8,
    "d20": null,
-   "d5": null,
+   "d5": -13.9,
    "eventId": "edinet:S100Z3EA",
-   "excess5": null
+   "excess5": -10.5
   },
   {
    "d1": -4.8,
    "d20": null,
-   "d5": null,
+   "d5": -13.9,
    "eventId": "edinet:S100Z4P6",
-   "excess5": null
+   "excess5": -10.5
   },
   {
    "d1": 1.6,
@@ -99,8 +97,8 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -0.9,
-  "currentPrice": 2006.0,
+  "benchReturn": -3.0,
+  "currentPrice": 1832.0,
   "d20": {
    "benchReturn": -2.9,
    "excessReturn": -8.9,
@@ -116,35 +114,32 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 20,
+   "pendingDays": 19,
    "stockReturn": null
   },
-  "excessReturn": -5.8,
+  "excessReturn": -11.8,
   "initialDate": "2026-08-13",
   "initialPrice": 2150.1,
-  "stockReturn": -6.7
+  "stockReturn": -14.8
  },
  "priceSetup": {
-  "asOf": "2026-10-14",
-  "atrState": "低ボラ",
-  "distFrom52wHigh": 0.28,
+  "asOf": "2026-10-15",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.34,
   "labels": [
-   "20日線の上",
-   "20日線が上向き",
-   "60日線の上"
+   "20日線が上向き"
   ],
-  "ma20": 1945.2,
-  "ma200": 1839.2,
-  "ma60": 1999.9,
-  "rangePos60": 0.46,
-  "rel20": 3.7,
-  "rel60": 1.6,
-  "volumeRatio20": 0.66
+  "ma20": 1946.2,
+  "ma200": 1842.6,
+  "ma60": 1998.1,
+  "rangePos60": 0.29,
+  "rel20": 0.5,
+  "rel60": -4.7,
+  "volumeRatio20": 1.04
  },
  "reasons": [
   "新規大量保有 5.6%（森谷　誠司）",
-  "20日線上向き",
-  "TOPIX連動ETF比 +3.7pt（20日）"
+  "TOPIX連動ETF比 +0.5pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -280,7 +275,14 @@
    "kind": "EVENT",
    "label": "新規大量保有",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z4P6"
+  },
+  {
+   "date": "2026-10-15",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-14T23:24:41+09:00"
+ "updatedAt": "2026-10-15T14:07:43+09:00"
 }

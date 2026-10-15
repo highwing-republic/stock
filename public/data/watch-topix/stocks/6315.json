@@ -10,11 +10,9 @@
   "id": "6315-2026-09-07",
   "overextended": false,
   "setupType": "RECOVERY",
-  "setups": [
-   "RECOVERY"
-  ],
+  "setups": [],
   "startedAt": "2026-09-07",
-  "status": "WATCH",
+  "status": "BROKEN",
   "statusHistory": [
    {
     "date": "2026-09-07",
@@ -27,6 +25,12 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
+   },
+   {
+    "date": "2026-10-15",
+    "from": "WATCH",
+    "reason_code": "BELOW_MA60",
+    "to": "BROKEN"
    }
   ],
   "watchStartedAt": "2026-10-05"
@@ -58,12 +62,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -1.1,
-  "currentPrice": 2419.0,
+  "benchReturn": -3.2,
+  "currentPrice": 2142.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 14,
+   "pendingDays": 13,
    "stockReturn": null
   },
   "d5": {
@@ -75,34 +79,32 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 54,
+   "pendingDays": 53,
    "stockReturn": null
   },
-  "excessReturn": -1.8,
+  "excessReturn": -10.8,
   "initialDate": "2026-10-05",
   "initialPrice": 2491.0,
-  "stockReturn": -2.9
+  "stockReturn": -14.0
  },
  "priceSetup": {
-  "asOf": "2026-10-14",
+  "asOf": "2026-10-15",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.35,
+  "distFrom52wHigh": 0.43,
   "labels": [
-   "20日線の上",
    "20日線が上向き"
   ],
-  "ma20": 2318.2,
-  "ma200": 2675.4,
-  "ma60": 2460.4,
-  "rangePos60": 0.29,
-  "rel20": 6.8,
-  "rel60": -26.8,
-  "volumeRatio20": 1.04
+  "ma20": 2319.4,
+  "ma200": 2676.6,
+  "ma60": 2439.4,
+  "rangePos60": 0.1,
+  "rel20": 0.6,
+  "rel60": -36.2,
+  "volumeRatio20": 1.13
  },
  "reasons": [
   "新規大量保有 5.3%（野村證券株式会社）",
-  "20日線上向き",
-  "TOPIX連動ETF比 +6.8pt（20日）"
+  "TOPIX連動ETF比 +0.6pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -154,7 +156,21 @@
    "kind": "EVENT",
    "label": "保有割合の減少",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z6LT"
+  },
+  {
+   "date": "2026-10-15",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-15",
+   "detail": "60日線を下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-14T23:24:41+09:00"
+ "updatedAt": "2026-10-15T14:07:43+09:00"
 }

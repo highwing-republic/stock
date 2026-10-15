@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T23:23:31+09:00",
+  "updatedAt": "2026-10-15T14:06:25+09:00",
   "company": {
     "securityCode": "4587",
     "ticker": "4587.T",
@@ -19,9 +19,9 @@
       "holdingChange": -1.0,
       "purpose": "純投資（投資一任契約に基づく顧客資産の運用に係るもの）",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 1.13,
-      "marketExcessReturn": null,
+      "priceChange": -2.13,
+      "volumeRatio": 1.04,
+      "marketExcessReturn": 2.14,
       "signalScore": 0,
       "signalReasons": [
         "保有割合減少"
@@ -29,11 +29,11 @@
       "stockUnreacted": false,
       "metrics": {
         "return1d": -0.57,
-        "return5d": null,
+        "return5d": -2.13,
         "return20d": null,
-        "returnCurrent": -1.61,
-        "volumeRatio": 1.13,
-        "marketExcessReturn": null
+        "returnCurrent": -2.13,
+        "volumeRatio": 1.04,
+        "marketExcessReturn": 2.14
       }
     },
     {
@@ -62,7 +62,7 @@
         "return1d": 1.36,
         "return5d": 11.12,
         "return20d": 1.53,
-        "returnCurrent": 8.51,
+        "returnCurrent": 7.94,
         "volumeRatio": 0.88,
         "marketExcessReturn": 12.98
       }
@@ -3908,6 +3908,16 @@
       "close": 1041.5,
       "adj_close": 1041.5,
       "volume": 1532900
+    },
+    {
+      "ticker": "4587.T",
+      "trade_date": "2026-10-15",
+      "open": 1044.5,
+      "high": 1053.5,
+      "low": 1022.5,
+      "close": 1036.0,
+      "adj_close": 1036.0,
+      "volume": 490500
     }
   ],
   "benchmark": [
@@ -7750,6 +7760,16 @@
       "close": 431.29998779296875,
       "adj_close": 431.29998779296875,
       "volume": 8675290
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-15",
+      "open": 424.70001220703125,
+      "high": 424.70001220703125,
+      "low": 418.29998779296875,
+      "close": 421.6000061035156,
+      "adj_close": 421.6000061035156,
+      "volume": 16910860
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"
