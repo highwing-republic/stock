@@ -72,4 +72,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add backfill
           git diff --cached --quiet || git commit -m "data: EDINET large-holding backfill (verification only)"
-          git push
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
