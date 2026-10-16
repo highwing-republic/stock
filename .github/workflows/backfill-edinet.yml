@@ -25,14 +25,8 @@ jobs:
       fail-fast: false
       max-parallel: 1        # 1本ずつ。EDINET API の利用制限に当たらないように
       matrix:
-        period:   # 1回目の取得で短期間だけ空になった日（前後1〜2日を含めて取り直す）
-          - { start: "2023-01-14", end: "2023-01-27" }
-          - { start: "2023-09-23", end: "2023-10-05" }
-          - { start: "2023-12-23", end: "2023-12-29" }
-          - { start: "2024-04-10", end: "2024-04-24" }
-          - { start: "2024-09-21", end: "2024-10-04" }
-          - { start: "2024-10-26", end: "2024-11-08" }
-          - { start: "2026-03-28", end: "2026-04-04" }
+        period:   # 2026-04〜10 のジョブが時間切れで止まった残り（10/5 は途中までだったので含める）
+          - { start: "2026-10-05", end: "2026-10-16" }
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
