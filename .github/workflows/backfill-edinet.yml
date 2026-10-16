@@ -1,0 +1,77 @@
+name: Backfill EDINET large-holding history (one-off, verification only)
+
+# このブランチ（backfill/edinet-history）専用。main にはマージしない。
+# 新TOPIX 構成銘柄が対象の大量保有報告・変更報告を期間ごとに取得し、結果の CSV.gz をこのブランチにコミットする。
+on:
+  push:
+    branches: [backfill/edinet-history]
+    paths:
+      - .github/workflows/backfill-edinet.yml
+      - scripts/backfill_filings.py
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: edinet-backfill
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    strategy:
+      fail-fast: false
+      max-parallel: 3
+      matrix:
+        period:
+          - { start: "2022-01-01", end: "2022-06-30" }
+          - { start: "2022-07-01", end: "2022-12-31" }
+          - { start: "2023-01-01", end: "2023-06-30" }
+          - { start: "2023-07-01", end: "2023-12-31" }
+          - { start: "2024-01-01", end: "2024-06-30" }
+          - { start: "2024-07-01", end: "2024-12-31" }
+          - { start: "2025-01-01", end: "2025-06-30" }
+          - { start: "2025-07-01", end: "2025-12-31" }
+          - { start: "2026-01-01", end: "2026-10-16" }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Fetch filings
+        env:
+          EDINET_API_KEY: ${{ secrets.EDINET_API_KEY || secrets.EDINET }}
+        run: >
+          python scripts/backfill_filings.py --start "${{ matrix.period.start }}" --end "${{ matrix.period.end }}"
+          --out "backfill_out/filings_${{ matrix.period.start }}.csv.gz"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: filings-${{ matrix.period.start }}
+          path: backfill_out/
+          if-no-files-found: warn
+          retention-days: 7
+
+  collect:
+    needs: fetch
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: filings-*
+          path: backfill
+          merge-multiple: true
+      - name: Commit results to this branch
+        run: |
+          ls -la backfill || true
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add backfill
+          git diff --cached --quiet || git commit -m "data: EDINET large-holding backfill (verification only)"
+          git push
