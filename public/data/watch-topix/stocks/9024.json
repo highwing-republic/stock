@@ -75,13 +75,16 @@
   }
  ],
  "margin": {
-  "asOf": "2026-10-14",
-  "buyBalance": 204800,
-  "buyChangePct": null,
-  "labels": [],
-  "ratio": 0.55,
-  "sellBalance": 371200,
-  "sellChangePct": null
+  "asOf": "2026-10-15",
+  "buyBalance": 198400,
+  "buyChangePct": -4.1,
+  "labels": [
+   "信用倍率改善",
+   "売残増加"
+  ],
+  "ratio": 0.45,
+  "sellBalance": 443100,
+  "sellChangePct": 20.1
  },
  "pastEpisodes": [
   {
@@ -108,7 +111,7 @@
  ],
  "performance": {
   "benchReturn": -0.3,
-  "currentPrice": 3617.0,
+  "currentPrice": 3620.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
@@ -117,9 +120,9 @@
   },
   "d5": {
    "benchReturn": -0.3,
-   "excessReturn": 1.0,
+   "excessReturn": 1.1,
    "pendingDays": 0,
-   "stockReturn": 0.7
+   "stockReturn": 0.8
   },
   "d60": {
    "benchReturn": null,
@@ -127,10 +130,10 @@
    "pendingDays": 55,
    "stockReturn": null
   },
-  "excessReturn": 1.0,
+  "excessReturn": 1.1,
   "initialDate": "2026-10-08",
   "initialPrice": 3593.0,
-  "stockReturn": 0.7
+  "stockReturn": 0.8
  },
  "priceSetup": {
   "asOf": "2026-10-16",
@@ -138,22 +141,23 @@
   "distFrom52wHigh": 0.38,
   "labels": [
    "20日線の上",
-   "60日レンジ上位24%",
+   "60日レンジ上位23%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 3567.6,
+  "ma20": 3567.8,
   "ma200": 3736.7,
-  "ma60": 3485.2,
-  "rangePos60": 0.76,
-  "rel20": -0.4,
-  "rel60": -1.0,
-  "volumeRatio20": 0.25
+  "ma60": 3485.3,
+  "rangePos60": 0.77,
+  "rel20": -0.3,
+  "rel60": -0.9,
+  "volumeRatio20": 0.54
  },
  "reasons": [
   "新規大量保有 5%（モルガン・スタンレーＭＵＦＧ証券株式会社）",
-  "60日レンジ上位24%",
-  "20日線上向き"
+  "60日レンジ上位23%",
+  "20日線上向き",
+  "信用買残 -4%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -249,5 +253,5 @@
    "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-16T13:58:54+09:00"
+ "updatedAt": "2026-10-16T17:34:33+09:00"
 }

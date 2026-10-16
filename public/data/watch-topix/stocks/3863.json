@@ -52,18 +52,22 @@
   }
  ],
  "margin": {
-  "asOf": "2026-10-14",
-  "buyBalance": 336400,
-  "buyChangePct": null,
-  "labels": [],
-  "ratio": 3.16,
-  "sellBalance": 106300,
-  "sellChangePct": null
+  "asOf": "2026-10-15",
+  "buyBalance": 298700,
+  "buyChangePct": -13.3,
+  "labels": [
+   "信用買残減少",
+   "信用倍率改善",
+   "売残増加"
+  ],
+  "ratio": 2.5,
+  "sellBalance": 119600,
+  "sellChangePct": 46.2
  },
  "pastEpisodes": [],
  "performance": {
   "benchReturn": 1.1,
-  "currentPrice": 1284.0,
+  "currentPrice": 1283.0,
   "d20": {
    "benchReturn": -0.6,
    "excessReturn": -2.1,
@@ -82,10 +86,10 @@
    "pendingDays": 0,
    "stockReturn": -3.1
   },
-  "excessReturn": -4.8,
+  "excessReturn": -4.9,
   "initialDate": "2026-07-07",
   "initialPrice": 1334.0,
-  "stockReturn": -3.7
+  "stockReturn": -3.8
  },
  "priceSetup": {
   "asOf": "2026-10-16",
@@ -96,12 +100,13 @@
   "ma200": 1288.7,
   "ma60": 1354.6,
   "rangePos60": 0.15,
-  "rel20": -2.4,
-  "rel60": -13.5,
-  "volumeRatio20": 0.42
+  "rel20": -2.5,
+  "rel60": -13.6,
+  "volumeRatio20": 0.83
  },
  "reasons": [
-  "1.1pt買い増し 8.7%→9.8%"
+  "1.1pt買い増し 8.7%→9.8%",
+  "信用買残 -13%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -211,5 +216,5 @@
    "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-16T13:58:54+09:00"
+ "updatedAt": "2026-10-16T17:34:33+09:00"
 }

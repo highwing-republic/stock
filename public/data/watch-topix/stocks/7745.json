@@ -60,14 +60,14 @@
    "excess5": 2.2
   },
   {
-   "d1": 1.7,
+   "d1": 2.2,
    "d20": null,
    "d5": null,
    "eventId": "edinet:S100Z7G6",
    "excess5": null
   },
   {
-   "d1": 1.7,
+   "d1": 2.2,
    "d20": null,
    "d5": null,
    "eventId": "edinet:S100Z7G8",
@@ -75,13 +75,16 @@
   }
  ],
  "margin": {
-  "asOf": "2026-10-14",
-  "buyBalance": 74600,
-  "buyChangePct": null,
-  "labels": [],
-  "ratio": 9.32,
-  "sellBalance": 8000,
-  "sellChangePct": null
+  "asOf": "2026-10-15",
+  "buyBalance": 71600,
+  "buyChangePct": -2.7,
+  "labels": [
+   "信用倍率改善",
+   "売残増加"
+  ],
+  "ratio": 6.23,
+  "sellBalance": 11500,
+  "sellChangePct": 187.5
  },
  "pastEpisodes": [
   {
@@ -101,7 +104,7 @@
  ],
  "performance": {
   "benchReturn": 0.5,
-  "currentPrice": 2950.0,
+  "currentPrice": 2965.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
@@ -120,32 +123,33 @@
    "pendingDays": 44,
    "stockReturn": null
   },
-  "excessReturn": 2.5,
+  "excessReturn": 3.0,
   "initialDate": "2026-09-18",
   "initialPrice": 2864.7,
-  "stockReturn": 3.0
+  "stockReturn": 3.5
  },
  "priceSetup": {
   "asOf": "2026-10-16",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.13,
+  "distFrom52wHigh": 0.12,
   "labels": [
    "20日線の上",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2938.0,
-  "ma200": 2686.3,
-  "ma60": 2885.7,
-  "rangePos60": 0.39,
-  "rel20": 5.2,
-  "rel60": 0.0,
-  "volumeRatio20": 0.54
+  "ma20": 2938.7,
+  "ma200": 2686.4,
+  "ma60": 2886.0,
+  "rangePos60": 0.42,
+  "rel20": 5.7,
+  "rel60": 0.5,
+  "volumeRatio20": 1.04
  },
  "reasons": [
   "1pt買い増し 15.7%→16.7%",
   "20日線を回復",
-  "TOPIX連動ETF比 +5.2pt（20日）"
+  "TOPIX連動ETF比 +5.7pt（20日）",
+  "信用買残 -3%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -270,6 +274,13 @@
   },
   {
    "date": "2026-10-16",
+   "detail": "16.72% → 17.83%（株式会社ストラテジックキャピタル）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z77Z"
+  },
+  {
+   "date": "2026-10-16",
    "detail": "5.24% → 6.36%（株式会社ストラテジックキャピタル）",
    "kind": "EVENT",
    "label": "訂正報告",
@@ -297,5 +308,5 @@
    "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-16T13:58:54+09:00"
+ "updatedAt": "2026-10-16T17:34:33+09:00"
 }

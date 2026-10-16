@@ -10,13 +10,9 @@
   "id": "6869-2026-10-06",
   "overextended": false,
   "setupType": "BREAKOUT",
-  "setups": [
-   "BREAKOUT",
-   "TREND",
-   "RECOVERY"
-  ],
+  "setups": [],
   "startedAt": "2026-10-06",
-  "status": "STRENGTHENING",
+  "status": "BROKEN",
   "statusHistory": [
    {
     "date": "2026-10-06",
@@ -35,6 +31,12 @@
     "from": "WATCH",
     "reason_code": "REL20_POSITIVE",
     "to": "STRENGTHENING"
+   },
+   {
+    "date": "2026-10-16",
+    "from": "STRENGTHENING",
+    "reason_code": "BELOW_MA20",
+    "to": "BROKEN"
    }
   ],
   "watchStartedAt": "2026-10-06"
@@ -49,18 +51,18 @@
   }
  ],
  "margin": {
-  "asOf": "2026-10-14",
-  "buyBalance": 862100,
-  "buyChangePct": null,
+  "asOf": "2026-10-15",
+  "buyBalance": 827800,
+  "buyChangePct": -1.3,
   "labels": [],
-  "ratio": 5.84,
-  "sellBalance": 147600,
-  "sellChangePct": null
+  "ratio": 5.42,
+  "sellBalance": 152800,
+  "sellChangePct": -5.9
  },
  "pastEpisodes": [],
  "performance": {
   "benchReturn": -2.7,
-  "currentPrice": 1860.0,
+  "currentPrice": 1853.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
@@ -79,34 +81,33 @@
    "pendingDays": 53,
    "stockReturn": null
   },
-  "excessReturn": 0.8,
+  "excessReturn": 0.5,
   "initialDate": "2026-10-06",
   "initialPrice": 1895.5,
-  "stockReturn": -1.9
+  "stockReturn": -2.2
  },
  "priceSetup": {
   "asOf": "2026-10-16",
   "atrState": "低ボラ",
   "distFrom52wHigh": 0.07,
   "labels": [
-   "20日線の上",
-   "60日レンジ上位26%",
+   "60日レンジ上位27%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 1856.5,
+  "ma20": 1856.1,
   "ma200": 1538.2,
-  "ma60": 1801.7,
-  "rangePos60": 0.74,
-  "rel20": 2.0,
-  "rel60": 19.1,
-  "volumeRatio20": 0.97
+  "ma60": 1801.6,
+  "rangePos60": 0.73,
+  "rel20": 1.6,
+  "rel60": 18.7,
+  "volumeRatio20": 1.99
  },
  "reasons": [
   "新規大量保有 5%（ブラックロック・ジャパン株式会社）",
-  "60日レンジ上位26%",
-  "20日線を回復",
-  "TOPIX連動ETF比 +2pt（20日）"
+  "60日レンジ上位27%",
+  "TOPIX連動ETF比 +1.6pt（20日）",
+  "52週高値まで7%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -175,18 +176,11 @@
   },
   {
    "date": "2026-10-16",
-   "detail": "なし → BREAKOUT",
-   "kind": "SETUP",
-   "label": "Price Setup改善",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-10-16",
-   "detail": "20日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
+   "detail": "20日線を連続で下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
    "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-16T13:58:54+09:00"
+ "updatedAt": "2026-10-16T17:34:33+09:00"
 }

@@ -70,18 +70,21 @@
   }
  ],
  "margin": {
-  "asOf": "2026-10-14",
-  "buyBalance": 53700,
-  "buyChangePct": null,
-  "labels": [],
-  "ratio": 0.22,
-  "sellBalance": 243300,
-  "sellChangePct": null
+  "asOf": "2026-10-15",
+  "buyBalance": 48600,
+  "buyChangePct": -45.9,
+  "labels": [
+   "信用買残減少",
+   "信用倍率改善"
+  ],
+  "ratio": 0.18,
+  "sellBalance": 267000,
+  "sellChangePct": 10.6
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 2.0,
-  "currentPrice": 4176.0,
+  "benchReturn": 2.1,
+  "currentPrice": 4156.0,
   "d20": {
    "benchReturn": 3.9,
    "excessReturn": -0.7,
@@ -95,39 +98,39 @@
    "stockReturn": -0.1
   },
   "d60": {
-   "benchReturn": 2.0,
-   "excessReturn": 13.8,
+   "benchReturn": 2.1,
+   "excessReturn": 13.2,
    "pendingDays": 0,
-   "stockReturn": 15.8
+   "stockReturn": 15.3
   },
-  "excessReturn": 13.8,
+  "excessReturn": 13.2,
   "initialDate": "2026-07-16",
   "initialPrice": 3605.5,
-  "stockReturn": 15.8
+  "stockReturn": 15.3
  },
  "priceSetup": {
   "asOf": "2026-10-16",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.0,
+  "distFrom52wHigh": 0.01,
   "labels": [
    "20日線の上",
-   "60日レンジ上位3%",
+   "60日レンジ上位5%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 3771.8,
-  "ma200": 3344.9,
-  "ma60": 3772.3,
-  "rangePos60": 0.97,
-  "rel20": 7.5,
-  "rel60": 13.8,
-  "volumeRatio20": 0.51
+  "ma20": 3770.8,
+  "ma200": 3344.8,
+  "ma60": 3772.0,
+  "rangePos60": 0.95,
+  "rel20": 6.9,
+  "rel60": 13.2,
+  "volumeRatio20": 0.89
  },
  "reasons": [
   "新規大量保有 5%（野村證券株式会社）",
-  "60日レンジ上位3%",
+  "60日レンジ上位5%",
   "20日線上向き",
-  "TOPIX連動ETF比 +7.5pt（20日）"
+  "TOPIX連動ETF比 +6.9pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -350,18 +353,11 @@
   },
   {
    "date": "2026-10-16",
-   "detail": "60日高値を更新",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-10-16",
    "detail": "観察期限に到達",
    "kind": "STATUS",
    "label": "CLOSED",
    "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-16T13:58:54+09:00"
+ "updatedAt": "2026-10-16T17:34:33+09:00"
 }

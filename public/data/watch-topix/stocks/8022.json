@@ -16,7 +16,7 @@
    "RECOVERY"
   ],
   "startedAt": "2026-09-24",
-  "status": "REACTED",
+  "status": "CONFIRMED",
   "statusHistory": [
    {
     "date": "2026-09-24",
@@ -33,8 +33,8 @@
    {
     "date": "2026-10-16",
     "from": "WATCH",
-    "reason_code": "EXCESS_THRESHOLD",
-    "to": "REACTED"
+    "reason_code": "NEW_HIGH60_VOLUME",
+    "to": "CONFIRMED"
    }
   ],
   "watchStartedAt": "2026-09-24"
@@ -63,13 +63,13 @@
   }
  ],
  "margin": {
-  "asOf": "2026-10-14",
-  "buyBalance": 30100,
-  "buyChangePct": null,
+  "asOf": "2026-10-15",
+  "buyBalance": 32800,
+  "buyChangePct": 8.6,
   "labels": [],
-  "ratio": 1.51,
-  "sellBalance": 19900,
-  "sellChangePct": null
+  "ratio": 1.83,
+  "sellBalance": 17900,
+  "sellChangePct": 1.7
  },
  "pastEpisodes": [
   {
@@ -89,7 +89,7 @@
  ],
  "performance": {
   "benchReturn": 0.8,
-  "currentPrice": 4610.0,
+  "currentPrice": 4560.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
@@ -108,34 +108,34 @@
    "pendingDays": 45,
    "stockReturn": null
   },
-  "excessReturn": 12.4,
+  "excessReturn": 11.2,
   "initialDate": "2026-09-24",
   "initialPrice": 4072.4,
-  "stockReturn": 13.2
+  "stockReturn": 12.0
  },
  "priceSetup": {
   "asOf": "2026-10-16",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.01,
+  "distFrom52wHigh": 0.02,
   "labels": [
    "20日線の上",
-   "60日レンジ上位4%",
+   "60日レンジ上位9%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 4201.7,
-  "ma200": 3584.8,
-  "ma60": 4009.1,
-  "rangePos60": 0.96,
-  "rel20": 14.8,
-  "rel60": 24.4,
-  "volumeRatio20": 1.2
+  "ma20": 4199.2,
+  "ma200": 3584.5,
+  "ma60": 4008.3,
+  "rangePos60": 0.91,
+  "rel20": 13.6,
+  "rel60": 23.0,
+  "volumeRatio20": 1.89
  },
  "reasons": [
   "新規大量保有 5.2%（三井住友信託銀行株式会社）",
-  "60日レンジ上位4%",
-  "20日線上向き",
-  "TOPIX連動ETF比 +14.8pt（20日）"
+  "出来高 1.9倍で60日高値更新",
+  "60日レンジ上位9%",
+  "20日線上向き"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -218,11 +218,11 @@
   },
   {
    "date": "2026-10-16",
-   "detail": "TOPIX連動ETFとの差が大きくなった",
+   "detail": "60日高値を出来高増で更新",
    "kind": "STATUS",
-   "label": "REACTED",
+   "label": "CONFIRMED",
    "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-16T13:58:54+09:00"
+ "updatedAt": "2026-10-16T17:34:33+09:00"
 }

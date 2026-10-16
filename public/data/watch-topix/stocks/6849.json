@@ -12,8 +12,7 @@
   "setupType": "BREAKOUT",
   "setups": [
    "BREAKOUT",
-   "TREND",
-   "RECOVERY"
+   "TREND"
   ],
   "startedAt": "2026-06-19",
   "status": "REACTED",
@@ -62,7 +61,7 @@
   },
   {
    "d1": 0.2,
-   "d20": 9.2,
+   "d20": 8.7,
    "d5": 3.2,
    "eventId": "edinet:S100Z27R",
    "excess5": 2.8
@@ -90,18 +89,21 @@
   }
  ],
  "margin": {
-  "asOf": "2026-10-14",
-  "buyBalance": 73800,
-  "buyChangePct": null,
-  "labels": [],
-  "ratio": 0.84,
-  "sellBalance": 87400,
-  "sellChangePct": null
+  "asOf": "2026-10-15",
+  "buyBalance": 68100,
+  "buyChangePct": -16.2,
+  "labels": [
+   "信用買残減少",
+   "信用倍率改善"
+  ],
+  "ratio": 0.78,
+  "sellBalance": 87000,
+  "sellChangePct": -2.5
  },
  "pastEpisodes": [],
  "performance": {
   "benchReturn": 2.5,
-  "currentPrice": 1684.5,
+  "currentPrice": 1677.5,
   "d20": {
    "benchReturn": -1.2,
    "excessReturn": 17.2,
@@ -120,10 +122,10 @@
    "pendingDays": 0,
    "stockReturn": 14.0
   },
-  "excessReturn": 17.4,
+  "excessReturn": 16.9,
   "initialDate": "2026-07-01",
   "initialPrice": 1404.5,
-  "stockReturn": 19.9
+  "stockReturn": 19.4
  },
  "priceSetup": {
   "asOf": "2026-10-16",
@@ -131,23 +133,23 @@
   "distFrom52wHigh": 0.09,
   "labels": [
    "20日線の上",
-   "60日レンジ上位1%",
+   "60日レンジ上位3%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 1606.9,
+  "ma20": 1606.6,
   "ma200": 1536.8,
-  "ma60": 1542.1,
-  "rangePos60": 0.99,
-  "rel20": 8.0,
-  "rel60": 7.5,
-  "volumeRatio20": 0.25
+  "ma60": 1541.9,
+  "rangePos60": 0.97,
+  "rel20": 7.5,
+  "rel60": 7.0,
+  "volumeRatio20": 0.64
  },
  "reasons": [
   "新規大量保有 5.1%（ブラックロック・ジャパン株式会社）",
-  "60日レンジ上位1%",
+  "60日レンジ上位3%",
   "20日線上向き",
-  "TOPIX連動ETF比 +8pt（20日）"
+  "TOPIX連動ETF比 +7.5pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -390,5 +392,5 @@
    "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-16T13:58:54+09:00"
+ "updatedAt": "2026-10-16T17:34:33+09:00"
 }
