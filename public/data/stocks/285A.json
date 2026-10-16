@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T22:57:55+09:00",
+  "updatedAt": "2026-10-16T13:57:32+09:00",
   "company": {
     "securityCode": "285A",
     "ticker": "285A.T",
@@ -19,9 +19,9 @@
       "holdingChange": -1.04,
       "purpose": "発行会社の株式価値の向上（事業面でのシナジー等、キオクシアグループの企業価値向上含む）を目的として保有するもの。",
       "importantProposal": true,
-      "priceChange": null,
-      "volumeRatio": 0.84,
-      "marketExcessReturn": null,
+      "priceChange": -26.28,
+      "volumeRatio": 0.81,
+      "marketExcessReturn": -24.27,
       "signalScore": 0,
       "signalReasons": [
         "重要提案行為あり",
@@ -30,11 +30,11 @@
       "stockUnreacted": false,
       "metrics": {
         "return1d": -2.21,
-        "return5d": null,
+        "return5d": -26.28,
         "return20d": null,
-        "returnCurrent": -28.04,
-        "volumeRatio": 0.84,
-        "marketExcessReturn": null
+        "returnCurrent": -26.28,
+        "volumeRatio": 0.81,
+        "marketExcessReturn": -24.27
       }
     },
     {
@@ -62,8 +62,8 @@
       "metrics": {
         "return1d": -4.22,
         "return5d": 1.02,
-        "return20d": null,
-        "returnCurrent": -28.48,
+        "return20d": -26.74,
+        "returnCurrent": -26.74,
         "volumeRatio": 0.83,
         "marketExcessReturn": -0.2
       }
@@ -95,7 +95,7 @@
         "return1d": 4.48,
         "return5d": 19.74,
         "return20d": 20.28,
-        "returnCurrent": -19.04,
+        "returnCurrent": -17.06,
         "volumeRatio": 0.94,
         "marketExcessReturn": 18.35
       }
@@ -126,7 +126,7 @@
         "return1d": -12.85,
         "return5d": -38.54,
         "return20d": -15.48,
-        "returnCurrent": -39.88,
+        "returnCurrent": -38.41,
         "volumeRatio": 1.44,
         "marketExcessReturn": -36.73
       }
@@ -3898,10 +3898,20 @@
       "trade_date": "2026-10-15",
       "open": 13790.0,
       "high": 13825.0,
-      "low": 12730.0,
+      "low": 12675.0,
       "close": 12880.0,
       "adj_close": 12880.0,
       "volume": 79013300
+    },
+    {
+      "ticker": "285A.T",
+      "trade_date": "2026-10-16",
+      "open": 13055.0,
+      "high": 13750.0,
+      "low": 12855.0,
+      "close": 13195.0,
+      "adj_close": 13195.0,
+      "volume": 45582100
     }
   ],
   "benchmark": [
@@ -7754,6 +7764,16 @@
       "close": 421.0,
       "adj_close": 421.0,
       "volume": 25093330
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-16",
+      "open": 425.6000061035156,
+      "high": 428.70001220703125,
+      "low": 424.79998779296875,
+      "close": 428.20001220703125,
+      "adj_close": 428.20001220703125,
+      "volume": 6666920
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

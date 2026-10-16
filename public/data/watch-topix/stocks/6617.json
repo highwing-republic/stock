@@ -12,7 +12,7 @@
   "setupType": "RECOVERY",
   "setups": [],
   "startedAt": "2026-10-07",
-  "status": "STRENGTHENING",
+  "status": "BROKEN",
   "statusHistory": [
    {
     "date": "2026-10-07",
@@ -31,6 +31,12 @@
     "from": "WATCH",
     "reason_code": "INCREASE_EVENT",
     "to": "STRENGTHENING"
+   },
+   {
+    "date": "2026-10-16",
+    "from": "STRENGTHENING",
+    "reason_code": "BELOW_MA60",
+    "to": "BROKEN"
    }
   ],
   "watchStartedAt": "2026-10-07"
@@ -77,12 +83,12 @@
   }
  ],
  "performance": {
-  "benchReturn": -3.7,
-  "currentPrice": 7120.0,
+  "benchReturn": -2.0,
+  "currentPrice": 6880.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 15,
+   "pendingDays": 14,
    "stockReturn": null
   },
   "d5": {
@@ -94,33 +100,33 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 55,
+   "pendingDays": 54,
    "stockReturn": null
   },
-  "excessReturn": -4.9,
+  "excessReturn": -9.7,
   "initialDate": "2026-10-07",
   "initialPrice": 7790.0,
-  "stockReturn": -8.6
+  "stockReturn": -11.7
  },
  "priceSetup": {
-  "asOf": "2026-10-15",
-  "atrState": "低ボラ",
-  "distFrom52wHigh": 0.19,
+  "asOf": "2026-10-16",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.22,
   "labels": [
    "20日線が上向き"
   ],
-  "ma20": 7209.9,
-  "ma200": 6303.1,
-  "ma60": 7249.8,
-  "rangePos60": 0.39,
-  "rel20": 9.8,
-  "rel60": -12.2,
-  "volumeRatio20": 1.31
+  "ma20": 7229.5,
+  "ma200": 6319.8,
+  "ma60": 7231.6,
+  "rangePos60": 0.28,
+  "rel20": 4.9,
+  "rel60": -15.8,
+  "volumeRatio20": 0.81
  },
  "reasons": [
   "1.2pt買い増し 8.8%→10.1%",
   "30日以内に2回買い増し",
-  "TOPIX連動ETF比 +9.8pt（20日）"
+  "TOPIX連動ETF比 +4.9pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -165,7 +171,14 @@
    "kind": "STATUS",
    "label": "STRENGTHENING",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-16",
+   "detail": "60日線を下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-15T22:59:06+09:00"
+ "updatedAt": "2026-10-16T13:58:54+09:00"
 }

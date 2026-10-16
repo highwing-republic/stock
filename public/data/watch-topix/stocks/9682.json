@@ -9,12 +9,13 @@
   "closedAt": null,
   "id": "9682-2026-10-07",
   "overextended": false,
-  "setupType": "RECOVERY",
+  "setupType": "TREND",
   "setups": [
+   "TREND",
    "RECOVERY"
   ],
   "startedAt": "2026-10-07",
-  "status": "WATCH",
+  "status": "STRENGTHENING",
   "statusHistory": [
    {
     "date": "2026-10-07",
@@ -27,6 +28,12 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
+   },
+   {
+    "date": "2026-10-16",
+    "from": "WATCH",
+    "reason_code": "SETUP_IMPROVED",
+    "to": "STRENGTHENING"
    }
   ],
   "watchStartedAt": "2026-10-13"
@@ -80,54 +87,54 @@
   }
  ],
  "performance": {
-  "benchReturn": -2.7,
-  "currentPrice": 1162.0,
+  "benchReturn": -1.0,
+  "currentPrice": 1199.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 18,
+   "pendingDays": 17,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 3,
+   "pendingDays": 2,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 58,
+   "pendingDays": 57,
    "stockReturn": null
   },
-  "excessReturn": 4.3,
+  "excessReturn": 5.8,
   "initialDate": "2026-10-13",
   "initialPrice": 1144.0,
-  "stockReturn": 1.6
+  "stockReturn": 4.8
  },
  "priceSetup": {
-  "asOf": "2026-10-15",
+  "asOf": "2026-10-16",
   "atrState": "通常",
-  "distFrom52wHigh": 0.12,
+  "distFrom52wHigh": 0.09,
   "labels": [
    "20日線の上",
-   "60日レンジ上位9%",
+   "60日レンジ上位7%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 1115.2,
-  "ma200": 1080.1,
-  "ma60": 1095.6,
-  "rangePos60": 0.91,
-  "rel20": 9.6,
-  "rel60": 11.6,
-  "volumeRatio20": 0.56
+  "ma20": 1121.2,
+  "ma200": 1080.2,
+  "ma60": 1097.9,
+  "rangePos60": 0.93,
+  "rel20": 9.9,
+  "rel60": 11.3,
+  "volumeRatio20": 0.48
  },
  "reasons": [
   "新規大量保有 5.1%（株式会社みずほ銀行）",
-  "60日レンジ上位9%",
+  "60日レンジ上位7%",
   "20日線上向き",
-  "TOPIX連動ETF比 +9.6pt（20日）"
+  "TOPIX連動ETF比 +9.9pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -193,7 +200,28 @@
    "kind": "STATUS",
    "label": "WATCH",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-16",
+   "detail": "RECOVERY → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-16",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-16",
+   "detail": "Price Setupが改善",
+   "kind": "STATUS",
+   "label": "STRENGTHENING",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-15T22:59:06+09:00"
+ "updatedAt": "2026-10-16T13:58:54+09:00"
 }

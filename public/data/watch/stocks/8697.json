@@ -12,7 +12,7 @@
   "setupType": "BREAKOUT",
   "setups": [],
   "startedAt": "2026-10-05",
-  "status": "STRENGTHENING",
+  "status": "BROKEN",
   "statusHistory": [
    {
     "date": "2026-10-05",
@@ -31,6 +31,12 @@
     "from": "WATCH",
     "reason_code": "REL20_POSITIVE",
     "to": "STRENGTHENING"
+   },
+   {
+    "date": "2026-10-16",
+    "from": "STRENGTHENING",
+    "reason_code": "BELOW_MA20",
+    "to": "BROKEN"
    }
   ],
   "watchStartedAt": "2026-10-05"
@@ -58,12 +64,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -3.5,
-  "currentPrice": 2199.0,
+  "benchReturn": -1.8,
+  "currentPrice": 2223.5,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 13,
+   "pendingDays": 12,
    "stockReturn": null
   },
   "d5": {
@@ -75,33 +81,34 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 53,
+   "pendingDays": 52,
    "stockReturn": null
   },
-  "excessReturn": -0.4,
+  "excessReturn": -1.1,
   "initialDate": "2026-10-05",
   "initialPrice": 2289.0,
-  "stockReturn": -3.9
+  "stockReturn": -2.9
  },
  "priceSetup": {
-  "asOf": "2026-10-15",
+  "asOf": "2026-10-16",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.06,
+  "distFrom52wHigh": 0.05,
   "labels": [
-   "20日線が上向き"
+   "20日線が上向き",
+   "60日線の上"
   ],
-  "ma20": 2246.6,
-  "ma200": 1960.1,
-  "ma60": 2210.4,
-  "rangePos60": 0.5,
+  "ma20": 2249.0,
+  "ma200": 1963.2,
+  "ma60": 2210.8,
+  "rangePos60": 0.59,
   "rel20": 1.0,
-  "rel60": 0.7,
-  "volumeRatio20": 1.39
+  "rel60": -0.9,
+  "volumeRatio20": 0.47
  },
  "reasons": [
   "新規大量保有 5.2%（ＪＰモルガン証券株式会社）",
   "TOPIX連動ETF比 +1pt（20日）",
-  "52週高値まで6%"
+  "52週高値まで5%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -153,7 +160,21 @@
    "kind": "STATUS",
    "label": "STRENGTHENING",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-16",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-16",
+   "detail": "20日線を連続で下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-15T22:58:07+09:00"
+ "updatedAt": "2026-10-16T13:57:44+09:00"
 }

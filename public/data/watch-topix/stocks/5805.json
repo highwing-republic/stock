@@ -105,12 +105,12 @@
   }
  ],
  "performance": {
-  "benchReturn": -3.5,
-  "currentPrice": 2501.0,
+  "benchReturn": -1.8,
+  "currentPrice": 2522.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 13,
+   "pendingDays": 12,
    "stockReturn": null
   },
   "d5": {
@@ -122,31 +122,32 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 53,
+   "pendingDays": 52,
    "stockReturn": null
   },
-  "excessReturn": -8.7,
+  "excessReturn": -9.6,
   "initialDate": "2026-10-05",
   "initialPrice": 2847.0,
-  "stockReturn": -12.2
+  "stockReturn": -11.4
  },
  "priceSetup": {
-  "asOf": "2026-10-15",
-  "atrState": "通常",
-  "distFrom52wHigh": 0.33,
+  "asOf": "2026-10-16",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.32,
   "labels": [
    "20日線が上向き"
   ],
-  "ma20": 2665.9,
-  "ma200": 2532.5,
-  "ma60": 2529.4,
-  "rangePos60": 0.55,
-  "rel20": -3.3,
-  "rel60": 12.0,
-  "volumeRatio20": 1.33
+  "ma20": 2671.0,
+  "ma200": 2535.4,
+  "ma60": 2536.5,
+  "rangePos60": 0.57,
+  "rel20": 3.1,
+  "rel60": 18.1,
+  "volumeRatio20": 0.56
  },
  "reasons": [
-  "新規大量保有 5.1%（アセットマネジメントＯｎｅ株式会社）"
+  "新規大量保有 5.1%（アセットマネジメントＯｎｅ株式会社）",
+  "TOPIX連動ETF比 +3.1pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -261,7 +262,14 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-16",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-15T22:59:06+09:00"
+ "updatedAt": "2026-10-16T13:58:54+09:00"
 }

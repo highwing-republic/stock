@@ -5,14 +5,14 @@
   "tradingViewSymbol": "TSE:9861"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "EXPIRED",
+  "closedAt": "2026-10-16",
   "id": "9861-2026-07-07",
   "overextended": true,
   "setupType": "TREND",
   "setups": [],
   "startedAt": "2026-07-07",
-  "status": "REACTED",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-07-07",
@@ -43,6 +43,12 @@
     "from": "CONFIRMED",
     "reason_code": "EXCESS_THRESHOLD",
     "to": "REACTED"
+   },
+   {
+    "date": "2026-10-16",
+    "from": "REACTED",
+    "reason_code": "EXPIRED",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-07-16"
@@ -74,8 +80,8 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 0.3,
-  "currentPrice": 4141.0,
+  "benchReturn": 2.0,
+  "currentPrice": 4176.0,
   "d20": {
    "benchReturn": 3.9,
    "excessReturn": -0.7,
@@ -89,39 +95,39 @@
    "stockReturn": -0.1
   },
   "d60": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 1,
-   "stockReturn": null
+   "benchReturn": 2.0,
+   "excessReturn": 13.8,
+   "pendingDays": 0,
+   "stockReturn": 15.8
   },
-  "excessReturn": 14.6,
+  "excessReturn": 13.8,
   "initialDate": "2026-07-16",
   "initialPrice": 3605.5,
-  "stockReturn": 14.9
+  "stockReturn": 15.8
  },
  "priceSetup": {
-  "asOf": "2026-10-15",
+  "asOf": "2026-10-16",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.01,
+  "distFrom52wHigh": 0.0,
   "labels": [
    "20日線の上",
-   "60日レンジ上位4%",
+   "60日レンジ上位3%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 3755.2,
-  "ma200": 3339.0,
-  "ma60": 3762.8,
-  "rangePos60": 0.96,
-  "rel20": 9.0,
-  "rel60": 15.6,
-  "volumeRatio20": 1.72
+  "ma20": 3771.8,
+  "ma200": 3344.9,
+  "ma60": 3772.3,
+  "rangePos60": 0.97,
+  "rel20": 7.5,
+  "rel60": 13.8,
+  "volumeRatio20": 0.51
  },
  "reasons": [
   "新規大量保有 5%（野村證券株式会社）",
-  "出来高 1.7倍で60日高値更新",
-  "60日レンジ上位4%",
-  "20日線上向き"
+  "60日レンジ上位3%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +7.5pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -341,7 +347,21 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-16",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-16",
+   "detail": "観察期限に到達",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-15T22:59:06+09:00"
+ "updatedAt": "2026-10-16T13:58:54+09:00"
 }

@@ -118,6 +118,13 @@
    "d5": 9.8,
    "eventId": "edinet:S100Z3KT",
    "excess5": 8.6
+  },
+  {
+   "d1": 1.6,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z8JS",
+   "excess5": null
   }
  ],
  "margin": {
@@ -146,12 +153,12 @@
   }
  ],
  "performance": {
-  "benchReturn": -0.9,
-  "currentPrice": 2016.0,
+  "benchReturn": 0.8,
+  "currentPrice": 2048.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 6,
+   "pendingDays": 5,
    "stockReturn": null
   },
   "d5": {
@@ -163,33 +170,33 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 46,
+   "pendingDays": 45,
    "stockReturn": null
   },
-  "excessReturn": -10.4,
+  "excessReturn": -10.7,
   "initialDate": "2026-09-24",
   "initialPrice": 2273.0,
-  "stockReturn": -11.3
+  "stockReturn": -9.9
  },
  "priceSetup": {
-  "asOf": "2026-10-15",
+  "asOf": "2026-10-16",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.17,
+  "distFrom52wHigh": 0.15,
   "labels": [
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2223.9,
-  "ma200": 1436.0,
-  "ma60": 1890.7,
-  "rangePos60": 0.55,
-  "rel20": 1.1,
-  "rel60": 22.7,
-  "volumeRatio20": 0.94
+  "ma20": 2229.2,
+  "ma200": 1441.6,
+  "ma60": 1897.4,
+  "rangePos60": 0.59,
+  "rel20": 4.2,
+  "rel60": 22.4,
+  "volumeRatio20": 0.34
  },
  "reasons": [
   "2.3pt買い増し 10.1%→12.4%",
-  "TOPIX連動ETF比 +1.1pt（20日）"
+  "TOPIX連動ETF比 +4.2pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -339,7 +346,14 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-16",
+   "detail": "12.38% → 10.13%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8JS"
   }
  ],
- "updatedAt": "2026-10-15T22:59:06+09:00"
+ "updatedAt": "2026-10-16T13:58:54+09:00"
 }

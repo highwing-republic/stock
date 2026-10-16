@@ -66,8 +66,8 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 0.3,
-  "currentPrice": 4275.0,
+  "benchReturn": 2.1,
+  "currentPrice": 4430.0,
   "d20": {
    "benchReturn": 0.3,
    "excessReturn": 11.1,
@@ -83,37 +83,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 40,
+   "pendingDays": 39,
    "stockReturn": null
   },
-  "excessReturn": 11.1,
+  "excessReturn": 13.3,
   "initialDate": "2026-09-11",
   "initialPrice": 3837.8,
-  "stockReturn": 11.4
+  "stockReturn": 15.4
  },
  "priceSetup": {
-  "asOf": "2026-10-15",
+  "asOf": "2026-10-16",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.19,
+  "distFrom52wHigh": 0.16,
   "labels": [
    "20日線の上",
-   "60日レンジ上位1%",
+   "60日レンジ上位5%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 4034.1,
-  "ma200": 3709.8,
-  "ma60": 3831.8,
-  "rangePos60": 0.99,
-  "rel20": 11.1,
-  "rel60": 27.9,
-  "volumeRatio20": 1.0
+  "ma20": 4053.6,
+  "ma200": 3705.9,
+  "ma60": 3848.5,
+  "rangePos60": 0.95,
+  "rel20": 8.4,
+  "rel60": 27.0,
+  "volumeRatio20": 0.56
  },
  "reasons": [
   "新規大量保有 5.2%（ファースト・イーグル・インベストメント・マネジメント・エルエルシー）",
-  "60日レンジ上位1%",
+  "60日レンジ上位5%",
   "20日線上向き",
-  "TOPIX連動ETF比 +11.1pt（20日）"
+  "TOPIX連動ETF比 +8.4pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -235,7 +235,14 @@
    "kind": "STATUS",
    "label": "REACTED",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-16",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-15T22:58:07+09:00"
+ "updatedAt": "2026-10-16T13:57:44+09:00"
 }

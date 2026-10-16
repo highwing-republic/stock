@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T22:57:55+09:00",
+  "updatedAt": "2026-10-16T13:57:32+09:00",
   "company": {
     "securityCode": "5019",
     "ticker": "5019.T",
@@ -19,21 +19,22 @@
       "holdingChange": null,
       "purpose": "純投資",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.89,
-      "marketExcessReturn": null,
-      "signalScore": 30,
+      "priceChange": 0.39,
+      "volumeRatio": 0.77,
+      "marketExcessReturn": 2.4,
+      "signalScore": 40,
       "signalReasons": [
-        "新規大量保有"
+        "新規大量保有",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": -2.18,
-        "return5d": null,
+        "return5d": 0.39,
         "return20d": null,
-        "returnCurrent": 0.78,
-        "volumeRatio": 0.89,
-        "marketExcessReturn": null
+        "returnCurrent": 0.39,
+        "volumeRatio": 0.77,
+        "marketExcessReturn": 2.4
       }
     },
     {
@@ -49,9 +50,9 @@
       "holdingChange": -9.45,
       "purpose": "経営参加",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.89,
-      "marketExcessReturn": null,
+      "priceChange": 0.39,
+      "volumeRatio": 0.77,
+      "marketExcessReturn": 2.4,
       "signalScore": 0,
       "signalReasons": [
         "保有割合減少",
@@ -60,11 +61,11 @@
       "stockUnreacted": false,
       "metrics": {
         "return1d": -2.18,
-        "return5d": null,
+        "return5d": 0.39,
         "return20d": null,
-        "returnCurrent": 0.78,
-        "volumeRatio": 0.89,
-        "marketExcessReturn": null
+        "returnCurrent": 0.39,
+        "volumeRatio": 0.77,
+        "marketExcessReturn": 2.4
       }
     },
     {
@@ -80,21 +81,22 @@
       "holdingChange": 1.69,
       "purpose": "経営参加",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.89,
-      "marketExcessReturn": null,
-      "signalScore": 20,
+      "priceChange": 0.39,
+      "volumeRatio": 0.77,
+      "marketExcessReturn": 2.4,
+      "signalScore": 30,
       "signalReasons": [
-        "1pt以上買い増し"
+        "1pt以上買い増し",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": -2.18,
-        "return5d": null,
+        "return5d": 0.39,
         "return20d": null,
-        "returnCurrent": 0.78,
-        "volumeRatio": 0.89,
-        "marketExcessReturn": null
+        "returnCurrent": 0.39,
+        "volumeRatio": 0.77,
+        "marketExcessReturn": 2.4
       }
     },
     {
@@ -123,7 +125,7 @@
         "return1d": 6.45,
         "return5d": 5.28,
         "return20d": 18.45,
-        "returnCurrent": 26.26,
+        "returnCurrent": 25.77,
         "volumeRatio": 1.18,
         "marketExcessReturn": 1.36
       }
@@ -3979,6 +3981,16 @@
       "close": 1550.0,
       "adj_close": 1550.0,
       "volume": 5295600
+    },
+    {
+      "ticker": "5019.T",
+      "trade_date": "2026-10-16",
+      "open": 1542.5,
+      "high": 1572.0,
+      "low": 1540.0,
+      "close": 1544.0,
+      "adj_close": 1544.0,
+      "volume": 1777500
     }
   ],
   "benchmark": [
@@ -7831,6 +7843,16 @@
       "close": 421.0,
       "adj_close": 421.0,
       "volume": 25093330
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-16",
+      "open": 425.6000061035156,
+      "high": 428.70001220703125,
+      "low": 424.79998779296875,
+      "close": 428.20001220703125,
+      "adj_close": 428.20001220703125,
+      "volume": 6666920
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

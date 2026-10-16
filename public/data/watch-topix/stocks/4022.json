@@ -97,8 +97,8 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -3.3,
-  "currentPrice": 1783.0,
+  "benchReturn": -1.6,
+  "currentPrice": 1813.0,
   "d20": {
    "benchReturn": -2.9,
    "excessReturn": -8.9,
@@ -114,31 +114,32 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 19,
+   "pendingDays": 18,
    "stockReturn": null
   },
-  "excessReturn": -13.8,
+  "excessReturn": -14.1,
   "initialDate": "2026-08-13",
   "initialPrice": 2150.1,
-  "stockReturn": -17.1
+  "stockReturn": -15.7
  },
  "priceSetup": {
-  "asOf": "2026-10-15",
+  "asOf": "2026-10-16",
   "atrState": "通常",
-  "distFrom52wHigh": 0.36,
+  "distFrom52wHigh": 0.35,
   "labels": [
    "20日線が上向き"
   ],
-  "ma20": 1943.8,
-  "ma200": 1842.4,
-  "ma60": 1997.3,
-  "rangePos60": 0.24,
-  "rel20": -1.9,
-  "rel60": -6.9,
-  "volumeRatio20": 1.77
+  "ma20": 1945.7,
+  "ma200": 1845.6,
+  "ma60": 1996.6,
+  "rangePos60": 0.27,
+  "rel20": 1.0,
+  "rel60": -4.2,
+  "volumeRatio20": 0.76
  },
  "reasons": [
-  "新規大量保有 5.6%（森谷　誠司）"
+  "新規大量保有 5.6%（森谷　誠司）",
+  "TOPIX連動ETF比 +1pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -281,7 +282,14 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-16",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-15T22:59:06+09:00"
+ "updatedAt": "2026-10-16T13:58:54+09:00"
 }

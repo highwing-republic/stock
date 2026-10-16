@@ -12,7 +12,7 @@
   "setupType": "BREAKOUT",
   "setups": [],
   "startedAt": "2026-09-07",
-  "status": "STRENGTHENING",
+  "status": "BROKEN",
   "statusHistory": [
    {
     "date": "2026-09-07",
@@ -31,6 +31,12 @@
     "from": "WATCH",
     "reason_code": "REL20_POSITIVE",
     "to": "STRENGTHENING"
+   },
+   {
+    "date": "2026-10-16",
+    "from": "STRENGTHENING",
+    "reason_code": "BELOW_MA20",
+    "to": "BROKEN"
    }
   ],
   "watchStartedAt": "2026-09-07"
@@ -77,8 +83,8 @@
   }
  ],
  "performance": {
-  "benchReturn": -2.1,
-  "currentPrice": 2436.0,
+  "benchReturn": -0.4,
+  "currentPrice": 2481.0,
   "d20": {
    "benchReturn": -0.1,
    "excessReturn": 1.1,
@@ -94,33 +100,35 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 36,
+   "pendingDays": 35,
    "stockReturn": null
   },
   "excessReturn": -1.8,
   "initialDate": "2026-09-07",
   "initialPrice": 2535.5,
-  "stockReturn": -3.9
+  "stockReturn": -2.2
  },
  "priceSetup": {
-  "asOf": "2026-10-15",
+  "asOf": "2026-10-16",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.09,
+  "distFrom52wHigh": 0.07,
   "labels": [
+   "60日レンジ上位28%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2559.0,
-  "ma200": 2211.4,
-  "ma60": 2409.8,
-  "rangePos60": 0.66,
-  "rel20": -1.9,
-  "rel60": 19.2,
-  "volumeRatio20": 1.58
+  "ma20": 2559.9,
+  "ma200": 2211.6,
+  "ma60": 2417.5,
+  "rangePos60": 0.72,
+  "rel20": -0.5,
+  "rel60": 20.9,
+  "volumeRatio20": 0.67
  },
  "reasons": [
   "新規大量保有 5.3%（ゴールドマン・サックス証券株式会社）",
-  "52週高値まで9%"
+  "60日レンジ上位28%",
+  "52週高値まで7%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -186,7 +194,14 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-16",
+   "detail": "20日線を連続で下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-15T22:59:06+09:00"
+ "updatedAt": "2026-10-16T13:58:54+09:00"
 }

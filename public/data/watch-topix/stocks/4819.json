@@ -87,12 +87,12 @@
   }
  ],
  "performance": {
-  "benchReturn": -0.7,
-  "currentPrice": 2481.0,
+  "benchReturn": 1.0,
+  "currentPrice": 2561.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 3,
+   "pendingDays": 2,
    "stockReturn": null
   },
   "d5": {
@@ -104,36 +104,36 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 43,
+   "pendingDays": 42,
    "stockReturn": null
   },
-  "excessReturn": 7.5,
+  "excessReturn": 9.2,
   "initialDate": "2026-09-16",
   "initialPrice": 2323.0,
-  "stockReturn": 6.8
+  "stockReturn": 10.2
  },
  "priceSetup": {
-  "asOf": "2026-10-15",
+  "asOf": "2026-10-16",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.29,
+  "distFrom52wHigh": 0.27,
   "labels": [
    "20日線の上",
-   "60日レンジ上位4%",
+   "60日レンジ上位9%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2405.2,
-  "ma200": 2242.3,
-  "ma60": 2321.3,
-  "rangePos60": 0.96,
-  "rel20": 10.5,
-  "rel60": 7.7,
-  "volumeRatio20": 0.76
+  "ma20": 2416.3,
+  "ma200": 2241.3,
+  "ma60": 2325.7,
+  "rangePos60": 0.91,
+  "rel20": 8.4,
+  "rel60": 9.4,
+  "volumeRatio20": 0.55
  },
  "reasons": [
   "1pt買い増し 7.3%→8.3%",
   "30日以内に2回買い増し",
-  "60日レンジ上位4%",
+  "60日レンジ上位9%",
   "20日線上向き"
  ],
  "schemaVersion": 1,
@@ -214,7 +214,14 @@
    "kind": "EVENT",
    "label": "連続の買い増し",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z4YW"
+  },
+  {
+   "date": "2026-10-16",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-15T22:59:06+09:00"
+ "updatedAt": "2026-10-16T13:58:54+09:00"
 }

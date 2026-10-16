@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T22:57:55+09:00",
+  "updatedAt": "2026-10-16T13:57:32+09:00",
   "company": {
     "securityCode": "3580",
     "ticker": "3580.T",
@@ -20,7 +20,7 @@
       "purpose": "純投資及び状況に応じて重要提案行為を行うこともありうる",
       "importantProposal": true,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.7,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [
@@ -29,11 +29,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": 0.29,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -0.29,
-        "volumeRatio": null,
+        "returnCurrent": 0.29,
+        "volumeRatio": 0.7,
         "marketExcessReturn": null
       }
     },
@@ -63,7 +63,7 @@
         "return1d": -2.31,
         "return5d": -1.09,
         "return20d": 2.31,
-        "returnCurrent": -6.12,
+        "returnCurrent": -5.58,
         "volumeRatio": 1.18,
         "marketExcessReturn": 0.81
       }
@@ -2929,6 +2929,16 @@
       "close": 690.0,
       "adj_close": 690.0,
       "volume": 161600
+    },
+    {
+      "ticker": "3580.T",
+      "trade_date": "2026-10-16",
+      "open": 687.0,
+      "high": 700.0,
+      "low": 686.0,
+      "close": 694.0,
+      "adj_close": 694.0,
+      "volume": 69800
     }
   ],
   "benchmark": [
@@ -6781,6 +6791,16 @@
       "close": 421.0,
       "adj_close": 421.0,
       "volume": 25093330
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-16",
+      "open": 425.6000061035156,
+      "high": 428.70001220703125,
+      "low": 424.79998779296875,
+      "close": 428.20001220703125,
+      "adj_close": 428.20001220703125,
+      "volume": 6666920
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

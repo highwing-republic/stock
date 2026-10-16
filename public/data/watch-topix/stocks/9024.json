@@ -10,7 +10,9 @@
   "id": "9024-2026-10-06",
   "overextended": false,
   "setupType": "BREAKOUT",
-  "setups": [],
+  "setups": [
+   "BREAKOUT"
+  ],
   "startedAt": "2026-10-06",
   "status": "STRENGTHENING",
   "statusHistory": [
@@ -105,52 +107,53 @@
   }
  ],
  "performance": {
-  "benchReturn": -2.0,
-  "currentPrice": 3580.0,
+  "benchReturn": -0.3,
+  "currentPrice": 3617.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 16,
+   "pendingDays": 15,
    "stockReturn": null
   },
   "d5": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 1,
-   "stockReturn": null
+   "benchReturn": -0.3,
+   "excessReturn": 1.0,
+   "pendingDays": 0,
+   "stockReturn": 0.7
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 56,
+   "pendingDays": 55,
    "stockReturn": null
   },
-  "excessReturn": 1.6,
+  "excessReturn": 1.0,
   "initialDate": "2026-10-08",
   "initialPrice": 3593.0,
-  "stockReturn": -0.4
+  "stockReturn": 0.7
  },
  "priceSetup": {
-  "asOf": "2026-10-15",
+  "asOf": "2026-10-16",
   "atrState": "低ボラ",
   "distFrom52wHigh": 0.38,
   "labels": [
    "20日線の上",
+   "60日レンジ上位24%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 3566.2,
-  "ma200": 3741.0,
-  "ma60": 3484.6,
-  "rangePos60": 0.7,
-  "rel20": 2.4,
-  "rel60": 2.7,
-  "volumeRatio20": 0.74
+  "ma20": 3567.6,
+  "ma200": 3736.7,
+  "ma60": 3485.2,
+  "rangePos60": 0.76,
+  "rel20": -0.4,
+  "rel60": -1.0,
+  "volumeRatio20": 0.25
  },
  "reasons": [
   "新規大量保有 5%（モルガン・スタンレーＭＵＦＧ証券株式会社）",
-  "20日線を回復",
-  "TOPIX連動ETF比 +2.4pt（20日）"
+  "60日レンジ上位24%",
+  "20日線上向き"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -237,7 +240,14 @@
    "kind": "STATUS",
    "label": "STRENGTHENING",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-16",
+   "detail": "なし → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-15T22:59:06+09:00"
+ "updatedAt": "2026-10-16T13:58:54+09:00"
 }

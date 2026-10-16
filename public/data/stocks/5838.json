@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T22:57:55+09:00",
+  "updatedAt": "2026-10-16T13:57:32+09:00",
   "company": {
     "securityCode": "5838",
     "ticker": "5838.T",
@@ -19,22 +19,23 @@
       "holdingChange": null,
       "purpose": "・グループ戦略の一環として保有するもの・重要提案行為　(なお、提出者は、発行会社との間の2026年5月20日付資本業務提携契約書に基づき、一定数以上の発行会社株式を保有する限りにおいて、発行者の子会社である楽天カード株式会社の社外取締役1名を指名する権利を有しており、当該権利に基づき、発行者に対し、同社の社外取締役候補者の指名又は当該社外取締役の解任の通知を行うことがあります。) / ・投資信託または投資一任契約に基づき投資権限を有するもの",
       "importantProposal": true,
-      "priceChange": null,
-      "volumeRatio": 0.97,
-      "marketExcessReturn": null,
-      "signalScore": 50,
+      "priceChange": -8.22,
+      "volumeRatio": 0.84,
+      "marketExcessReturn": -6.21,
+      "signalScore": 60,
       "signalReasons": [
         "新規大量保有",
-        "重要提案行為あり"
+        "重要提案行為あり",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": -5.55,
-        "return5d": null,
+        "return5d": -8.22,
         "return20d": null,
-        "returnCurrent": -10.31,
-        "volumeRatio": 0.97,
-        "marketExcessReturn": null
+        "returnCurrent": -8.22,
+        "volumeRatio": 0.84,
+        "marketExcessReturn": -6.21
       }
     },
     {
@@ -65,7 +66,7 @@
         "return1d": 4.9,
         "return5d": -0.74,
         "return20d": null,
-        "returnCurrent": -7.37,
+        "returnCurrent": -5.2,
         "volumeRatio": 1.02,
         "marketExcessReturn": -1.27
       }
@@ -95,7 +96,7 @@
         "return1d": 5.88,
         "return5d": 4.55,
         "return20d": 4.18,
-        "returnCurrent": -8.0,
+        "returnCurrent": -5.85,
         "volumeRatio": 0.92,
         "marketExcessReturn": 4.97
       }
@@ -123,7 +124,7 @@
         "return1d": -5.17,
         "return5d": 0.94,
         "return20d": -2.08,
-        "returnCurrent": -8.29,
+        "returnCurrent": -6.15,
         "volumeRatio": 0.78,
         "marketExcessReturn": 1.59
       }
@@ -151,7 +152,7 @@
         "return1d": -0.72,
         "return5d": -3.12,
         "return20d": 7.6,
-        "returnCurrent": 12.09,
+        "returnCurrent": 14.71,
         "volumeRatio": 0.37,
         "marketExcessReturn": -3.21
       }
@@ -4007,6 +4008,16 @@
       "close": 5785.0,
       "adj_close": 5785.0,
       "volume": 1067900
+    },
+    {
+      "ticker": "5838.T",
+      "trade_date": "2026-10-16",
+      "open": 5860.0,
+      "high": 5925.0,
+      "low": 5823.0,
+      "close": 5920.0,
+      "adj_close": 5920.0,
+      "volume": 350300
     }
   ],
   "benchmark": [
@@ -7859,6 +7870,16 @@
       "close": 421.0,
       "adj_close": 421.0,
       "volume": 25093330
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-16",
+      "open": 425.6000061035156,
+      "high": 428.70001220703125,
+      "low": 424.79998779296875,
+      "close": 428.20001220703125,
+      "adj_close": 428.20001220703125,
+      "volume": 6666920
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

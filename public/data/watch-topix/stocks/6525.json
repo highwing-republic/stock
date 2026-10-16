@@ -5,14 +5,14 @@
   "tradingViewSymbol": "TSE:6525"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "BROKEN",
+  "closedAt": "2026-10-16",
   "id": "6525-2026-10-06",
   "overextended": false,
   "setupType": "BREAKOUT",
   "setups": [],
   "startedAt": "2026-10-06",
-  "status": "BROKEN",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-10-06",
@@ -37,6 +37,12 @@
     "from": "STRENGTHENING",
     "reason_code": "BELOW_MA60",
     "to": "BROKEN"
+   },
+   {
+    "date": "2026-10-16",
+    "from": "BROKEN",
+    "reason_code": "BROKEN",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-10-06"
@@ -90,12 +96,12 @@
   }
  ],
  "performance": {
-  "benchReturn": -4.4,
-  "currentPrice": 7716.0,
+  "benchReturn": -2.7,
+  "currentPrice": 7989.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 14,
+   "pendingDays": 13,
    "stockReturn": null
   },
   "d5": {
@@ -107,28 +113,28 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 54,
+   "pendingDays": 53,
    "stockReturn": null
   },
-  "excessReturn": -20.9,
+  "excessReturn": -20.0,
   "initialDate": "2026-10-06",
   "initialPrice": 10330.0,
-  "stockReturn": -25.3
+  "stockReturn": -22.7
  },
  "priceSetup": {
-  "asOf": "2026-10-15",
+  "asOf": "2026-10-16",
   "atrState": "通常",
-  "distFrom52wHigh": 0.37,
+  "distFrom52wHigh": 0.34,
   "labels": [
    "20日線が上向き"
   ],
-  "ma20": 9230.7,
-  "ma200": 7468.8,
-  "ma60": 8668.0,
-  "rangePos60": 0.39,
-  "rel20": -5.4,
-  "rel60": -27.6,
-  "volumeRatio20": 1.12
+  "ma20": 9231.5,
+  "ma200": 7486.1,
+  "ma60": 8636.9,
+  "rangePos60": 0.45,
+  "rel20": -1.0,
+  "rel60": -21.0,
+  "volumeRatio20": 0.55
  },
  "reasons": [
   "新規大量保有 8%（野村證券株式会社）"
@@ -190,7 +196,14 @@
    "kind": "STATUS",
    "label": "BROKEN",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-16",
+   "detail": "Price Setupが崩れた",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-15T22:59:06+09:00"
+ "updatedAt": "2026-10-16T13:58:54+09:00"
 }

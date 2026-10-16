@@ -5,14 +5,14 @@
   "tradingViewSymbol": "TSE:6315"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "BROKEN",
+  "closedAt": "2026-10-16",
   "id": "6315-2026-09-07",
   "overextended": false,
   "setupType": "RECOVERY",
   "setups": [],
   "startedAt": "2026-09-07",
-  "status": "BROKEN",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-09-07",
@@ -31,6 +31,12 @@
     "from": "WATCH",
     "reason_code": "BELOW_MA60",
     "to": "BROKEN"
+   },
+   {
+    "date": "2026-10-16",
+    "from": "BROKEN",
+    "reason_code": "BROKEN",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-10-05"
@@ -62,12 +68,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -3.5,
-  "currentPrice": 2120.0,
+  "benchReturn": -1.8,
+  "currentPrice": 2162.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 13,
+   "pendingDays": 12,
    "stockReturn": null
   },
   "d5": {
@@ -79,31 +85,32 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 53,
+   "pendingDays": 52,
    "stockReturn": null
   },
   "excessReturn": -11.4,
   "initialDate": "2026-10-05",
   "initialPrice": 2491.0,
-  "stockReturn": -14.9
+  "stockReturn": -13.2
  },
  "priceSetup": {
-  "asOf": "2026-10-15",
+  "asOf": "2026-10-16",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.43,
+  "distFrom52wHigh": 0.42,
   "labels": [
    "20日線が上向き"
   ],
-  "ma20": 2318.3,
-  "ma200": 2676.5,
-  "ma60": 2439.0,
-  "rangePos60": 0.09,
-  "rel20": -0.1,
-  "rel60": -36.6,
-  "volumeRatio20": 1.52
+  "ma20": 2321.2,
+  "ma200": 2677.6,
+  "ma60": 2422.3,
+  "rangePos60": 0.14,
+  "rel20": 1.5,
+  "rel60": -33.7,
+  "volumeRatio20": 0.81
  },
  "reasons": [
-  "新規大量保有 5.3%（野村證券株式会社）"
+  "新規大量保有 5.3%（野村證券株式会社）",
+  "TOPIX連動ETF比 +1.5pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -169,7 +176,21 @@
    "kind": "STATUS",
    "label": "BROKEN",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-16",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-16",
+   "detail": "Price Setupが崩れた",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-15T22:59:06+09:00"
+ "updatedAt": "2026-10-16T13:58:54+09:00"
 }

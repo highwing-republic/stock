@@ -68,7 +68,7 @@
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 14,
+   "pendingDays": 13,
    "stockReturn": null
   },
   "d5": {
@@ -80,7 +80,7 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 54,
+   "pendingDays": 53,
    "stockReturn": null
   },
   "excessReturn": 2.1,
@@ -89,22 +89,25 @@
   "stockReturn": 0.3
  },
  "priceSetup": {
-  "asOf": "2026-10-15",
+  "asOf": "2026-10-16",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.13,
+  "distFrom52wHigh": 0.12,
   "labels": [
-   "20日線が上向き"
+   "60日レンジ上位26%",
+   "20日線が上向き",
+   "60日線の上"
   ],
-  "ma20": 2012.5,
-  "ma200": 1979.8,
-  "ma60": 1991.0,
-  "rangePos60": 0.61,
-  "rel20": -0.1,
-  "rel60": 5.7,
-  "volumeRatio20": 1.23
+  "ma20": 2013.1,
+  "ma200": 1980.3,
+  "ma60": 1992.7,
+  "rangePos60": 0.74,
+  "rel20": -0.6,
+  "rel60": 3.0,
+  "volumeRatio20": 0.45
  },
  "reasons": [
   "新規大量保有 5%（株式会社三菱ＵＦＪフィナンシャル・グループ）",
+  "60日レンジ上位26%",
   "信用買残 -7%"
  ],
  "schemaVersion": 1,
@@ -185,7 +188,14 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-16",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-15T22:58:07+09:00"
+ "updatedAt": "2026-10-16T13:57:44+09:00"
 }

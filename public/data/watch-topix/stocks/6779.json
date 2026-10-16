@@ -12,7 +12,7 @@
   "setupType": "RECOVERY",
   "setups": [],
   "startedAt": "2026-10-07",
-  "status": "WATCH",
+  "status": "BROKEN",
   "statusHistory": [
    {
     "date": "2026-10-07",
@@ -25,6 +25,12 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
+   },
+   {
+    "date": "2026-10-16",
+    "from": "WATCH",
+    "reason_code": "BELOW_MA20",
+    "to": "BROKEN"
    }
   ],
   "watchStartedAt": "2026-10-07"
@@ -113,12 +119,12 @@
   }
  ],
  "performance": {
-  "benchReturn": -3.7,
-  "currentPrice": 2892.0,
+  "benchReturn": -2.0,
+  "currentPrice": 2887.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 15,
+   "pendingDays": 14,
    "stockReturn": null
   },
   "d5": {
@@ -130,32 +136,32 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 55,
+   "pendingDays": 54,
    "stockReturn": null
   },
-  "excessReturn": -16.7,
+  "excessReturn": -18.6,
   "initialDate": "2026-10-07",
   "initialPrice": 3635.0,
-  "stockReturn": -20.4
+  "stockReturn": -20.6
  },
  "priceSetup": {
-  "asOf": "2026-10-15",
+  "asOf": "2026-10-16",
   "atrState": "通常",
   "distFrom52wHigh": 0.42,
   "labels": [
    "20日線が上向き"
   ],
-  "ma20": 3310.3,
-  "ma200": 2287.5,
-  "ma60": 2945.7,
+  "ma20": 3313.6,
+  "ma200": 2297.4,
+  "ma60": 2943.5,
   "rangePos60": 0.46,
-  "rel20": 1.8,
-  "rel60": -8.6,
-  "volumeRatio20": 0.91
+  "rel20": 1.1,
+  "rel60": -6.3,
+  "volumeRatio20": 0.48
  },
  "reasons": [
   "新規大量保有 6.6%（みずほ証券株式会社）",
-  "TOPIX連動ETF比 +1.8pt（20日）"
+  "TOPIX連動ETF比 +1.1pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -228,7 +234,14 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-16",
+   "detail": "20日線を連続で下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-15T22:59:06+09:00"
+ "updatedAt": "2026-10-16T13:58:54+09:00"
 }

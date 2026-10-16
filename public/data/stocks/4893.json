@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-10-15T22:57:55+09:00",
+  "updatedAt": "2026-10-16T13:57:32+09:00",
   "company": {
     "securityCode": "4893",
     "ticker": "4893.T",
     "name": "ノイルイミューン・バイオテック株式会社"
   },
   "events": [
+    {
+      "docId": "S100Z7P5",
+      "ticker": "4893.T",
+      "securityCode": "4893",
+      "companyName": "ノイルイミューン・バイオテック株式会社",
+      "submitDatetime": "2026-10-16 09:08",
+      "filerName": "岡三証券株式会社",
+      "reportType": "change",
+      "holdingRatio": 18.26,
+      "previousHoldingRatio": 19.29,
+      "holdingChange": -1.03,
+      "purpose": "証券業務に係る商品在庫として保有している。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 3.23,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z6DJ",
       "ticker": "4893.T",
@@ -20,19 +50,20 @@
       "purpose": "証券業務に係る商品在庫として保有している。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": 1.7,
+      "volumeRatio": 2.3,
       "marketExcessReturn": null,
-      "signalScore": 30,
+      "signalScore": 40,
       "signalReasons": [
-        "新規大量保有"
+        "新規大量保有",
+        "出来高2倍以上"
       ],
       "stockUnreacted": false,
       "metrics": {
         "return1d": -1.0,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -7.0,
-        "volumeRatio": 1.7,
+        "returnCurrent": -4.0,
+        "volumeRatio": 2.3,
         "marketExcessReturn": null
       }
     }
@@ -2727,6 +2758,16 @@
       "close": 93.0,
       "adj_close": 93.0,
       "volume": 426200
+    },
+    {
+      "ticker": "4893.T",
+      "trade_date": "2026-10-16",
+      "open": 90.0,
+      "high": 97.0,
+      "low": 89.0,
+      "close": 96.0,
+      "adj_close": 96.0,
+      "volume": 755000
     }
   ],
   "benchmark": [
@@ -6579,6 +6620,16 @@
       "close": 421.0,
       "adj_close": 421.0,
       "volume": 25093330
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-16",
+      "open": 425.6000061035156,
+      "high": 428.70001220703125,
+      "low": 424.79998779296875,
+      "close": 428.20001220703125,
+      "adj_close": 428.20001220703125,
+      "volume": 6666920
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"
