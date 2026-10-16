@@ -34,7 +34,7 @@ EVENT_LABEL = {"NEW_HOLDER": "新規大量保有", "LARGE_INCREASE": "大幅な�
 MILESTONE_LABEL = {"MA20_RECLAIMED": "20日線を回復", "MA60_RECLAIMED": "60日線を回復",
                    "NEW_HIGH60": "60日高値を更新", "REL20_TURNED_POSITIVE": "TOPIX連動ETFを上回りに転換"}
 SUMMARY_KEYS = {"schemaVersion", "updatedAt", "asOfMarketDate", "benchmarkLabel", "sources", "weekly", "monthly",
-                "stateChanges", "universeCount", "universe", "disclaimer"}
+                "stateChanges", "watchlist", "universeCount", "universe", "disclaimer"}
 UNIVERSE_KEYS = {"key", "label", "memberCount", "note"}
 ENTRY_KEYS = {"rank", "securityCode", "companyName", "setupType", "status", "reasons", "watchStartedAt",
               "returnSinceWatch", "excessSinceWatch", "rankChange"}
@@ -237,21 +237,105 @@ def build_stock(ctx: PublicContext, code: str, events_by_id: dict) -> dict:
             "eventReactions": sorted(reactions, key=lambda r: r["eventId"])}
 
 
+# --------------------------------------------------------------------------- 監視ボード（順位なしの一覧）
+WATCHLIST_STATUSES = ("WATCH", "STRENGTHENING", "CONFIRMED", "REACTED", "BROKEN")
+WATCHLIST_CLOSED_REASONS = ("EXPIRED", "UNIVERSE_EXIT")  # その日に監視を終えた銘柄として載せる終了理由
+WATCHLIST_ITEM_KEYS = {"securityCode", "companyName", "setupType", "status", "watchStartedAt", "daysSinceWatch",
+                       "statusChangedAt", "statusReason", "trigger", "returnSinceWatch", "excessSinceWatch", "chart"}
+TRIGGER_KEYS = {"label", "detail", "disclosedAt", "marketDate", "sourceUrl", "eventCount"}
+CHART_KEYS = {"startIndex", "stock", "market"}
+SHOWN_EVENT_TYPES = ("NEW_HOLDER", "LARGE_INCREASE", "CONSECUTIVE_INCREASE", "INCREASE")
+
+
+def _trigger(ep: dict, events_by_id: dict) -> dict | None:
+    """Episode のイベントのうち、最も新しい取得・買い増しの報告（無ければ最初の報告）。"""
+    evs = [events_by_id[i] for i in ep["event_ids"] if i in events_by_id]
+    if not evs:
+        return None
+    shown = [e for e in evs if e["event_type"] in SHOWN_EVENT_TYPES] or evs
+    ev = sorted(shown, key=lambda e: (e["disclosed_at"], e["event_id"]))[-1]
+    ratio, prev = ev.get("holding_ratio"), ev.get("previous_holding_ratio")
+    if ev["event_type"] == "NEW_HOLDER" and ratio is not None:
+        detail = f"保有割合 {ratio:g}%（{ev['filer_name']}）"
+    elif ratio is not None and prev is not None:
+        detail = f"{prev:g}% → {ratio:g}%（{ev['filer_name']}）"
+    else:
+        detail = ev["filer_name"]
+    return {"label": EVENT_LABEL.get(ev["event_type"], ev["event_type"]), "detail": detail,
+            "disclosedAt": ev["disclosed_at"][:10], "marketDate": ev["event_market_date"],
+            "sourceUrl": ev["source_url"], "eventCount": len(evs)}
+
+
+def _chart(ctx: PublicContext, ep: dict) -> dict | None:
+    """監視開始の lead 営業日前から最終日（終了済みなら終了日）までの株価と市場平均。監視開始日 = 100。"""
+    start = ep.get("watch_started_at")
+    dates, close = ctx.series(ep["security_code"])
+    if not start or start not in dates:
+        return None
+    end = ep.get("closed_at") or ctx.as_of
+    i0 = dates.index(start)
+    lead = ctx.cfg.export.watchlist_chart_lead_days
+    s0, b0 = close[i0], ctx.bench_close.get(start)
+    if not s0 or not b0:
+        return None
+    stock, market = [], []
+    for d, c in zip(dates[max(0, i0 - lead):], close[max(0, i0 - lead):]):
+        if d > end:
+            break
+        b = ctx.bench_close.get(d)
+        if c is None or b is None:
+            continue
+        stock.append(round(c / s0 * 100, 1))
+        market.append(round(b / b0 * 100, 1))
+    start_index = min(i0, lead)
+    if len(stock) < 2 or start_index >= len(stock):
+        return None
+    return {"startIndex": start_index, "stock": stock, "market": market}
+
+
+def _watchlist(ctx: PublicContext, events_by_id: dict) -> list[dict]:
+    """監視中〜反応済み・今回外れた銘柄を、順位なしで「監視開始日が新しい順」に並べる。"""
+    out = []
+    for ep in ctx.episodes:
+        live = ep["status"] in WATCHLIST_STATUSES
+        closed_today = ep["status"] == "CLOSED" and ep.get("closed_at") == ctx.as_of \
+            and ep.get("close_reason") in WATCHLIST_CLOSED_REASONS and ep.get("watch_started_at")
+        if not (live or closed_today):
+            continue
+        last = ep["status_history"][-1]
+        perf = _perf(ctx, ep)
+        start = ep["watch_started_at"]
+        end = ep.get("closed_at") or ctx.as_of
+        days = (ctx.day_index[end] - ctx.day_index[start]) if start in ctx.day_index and end in ctx.day_index else None
+        out.append({"securityCode": ep["security_code"],
+                    "companyName": ctx.names.get(ep["security_code"], ep["security_code"]),
+                    "setupType": ep["setup_type"], "status": ep["status"], "watchStartedAt": start,
+                    "daysSinceWatch": days, "statusChangedAt": last["date"], "statusReason": last["reason_code"],
+                    "trigger": _trigger(ep, events_by_id),
+                    "returnSinceWatch": perf["stockReturn"] if perf else None,
+                    "excessSinceWatch": perf["excessReturn"] if perf else None,
+                    "chart": _chart(ctx, ep)})
+    out.sort(key=lambda w: (w["watchStartedAt"] or "", w["securityCode"]), reverse=True)
+    return out
+
+
 def build_public(ctx: PublicContext) -> dict[str, Any]:
     """相対パス → JSON 値。"""
     events_by_id = {e["event_id"]: e for e in ctx.events}
     weekly = [_entry(ctx, e, ctx.weekly.get("previous"), events_by_id) for e in ctx.weekly["entries"]]
     monthly = [_entry(ctx, e, ctx.monthly.get("previous"), events_by_id) for e in ctx.monthly["entries"]]
     changes = _state_changes(ctx)
+    watchlist = _watchlist(ctx, events_by_id)
     summary = {"schemaVersion": SCHEMA_VERSION, "updatedAt": ctx.now, "asOfMarketDate": ctx.as_of,
                "benchmarkLabel": BENCHMARK_LABEL, "sources": ctx.sources,
                "weekly": {"periodKey": ctx.weekly["key"], "entries": weekly},
                "monthly": {"periodKey": ctx.monthly["key"], "entries": monthly},
-               "stateChanges": changes, "universeCount": ctx.universe_count,
+               "stateChanges": changes, "watchlist": watchlist, "universeCount": ctx.universe_count,
                "universe": dict(ctx.universe, memberCount=ctx.universe_count),
                "disclaimer": ctx.cfg.export.disclaimer}
     codes = {e["securityCode"] for e in weekly + monthly} | {c["securityCode"] for c in changes} \
-        | {e["security_code"] for e in ctx.episodes if e["status"] != "CLOSED"}
+        | {e["security_code"] for e in ctx.episodes if e["status"] != "CLOSED"} \
+        | {w["securityCode"] for w in watchlist}
     files: dict[str, Any] = {"summary.json": summary}
     for code in sorted(codes):
         files[f"stocks/{code}.json"] = build_stock(ctx, code, events_by_id)
@@ -313,6 +397,28 @@ def validate_public(files: dict[str, Any]) -> None:
     for c in summary["stateChanges"]:
         if f"stocks/{c['securityCode']}.json" not in files:
             errors.append(f"stateChanges: missing stock file {c['securityCode']}")
+    watchlist = summary.get("watchlist")
+    if not isinstance(watchlist, list):
+        errors.append("summary.watchlist must be a list")
+        watchlist = []
+    starts = [w.get("watchStartedAt") or "" for w in watchlist]
+    if starts != sorted(starts, reverse=True):
+        errors.append("summary.watchlist must be ordered by watchStartedAt (newest first)")
+    for w in watchlist:
+        code = w.get("securityCode")
+        if set(w) != WATCHLIST_ITEM_KEYS:
+            errors.append(f"watchlist {code}: keys mismatch {sorted(set(w) ^ WATCHLIST_ITEM_KEYS)}")
+            continue
+        if w["status"] not in WATCHLIST_STATUSES + ("CLOSED",):
+            errors.append(f"watchlist {code}: unexpected status {w['status']}")
+        if w["trigger"] is not None and set(w["trigger"]) != TRIGGER_KEYS:
+            errors.append(f"watchlist {code}: trigger keys mismatch")
+        chart = w["chart"]
+        if chart is not None and (set(chart) != CHART_KEYS or len(chart["stock"]) != len(chart["market"])
+                                  or not 0 <= chart["startIndex"] < len(chart["stock"])):
+            errors.append(f"watchlist {code}: chart malformed")
+        if f"stocks/{code}.json" not in files:
+            errors.append(f"watchlist: missing stock file {code}")
     for name, obj in files.items():
         if name.startswith("stocks/") and not STOCK_KEYS <= set(obj):
             errors.append(f"{name}: required keys missing")

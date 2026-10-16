@@ -213,6 +213,11 @@ def test_export_matches_ui_sample_shape(env):
     assert keys_of(mine["weekly"]["entries"][0]) == keys_of(sample["weekly"]["entries"][0])
     assert keys_of(mine["monthly"]["entries"][0]) == keys_of(sample["monthly"]["entries"][0])
     assert mine["stateChanges"] and keys_of(mine["stateChanges"][0]) == keys_of(sample["stateChanges"][0])
+    assert mine["watchlist"] and keys_of(mine["watchlist"][0]) == keys_of(sample["watchlist"][0])
+    w_trig = next(w["trigger"] for w in mine["watchlist"] if w["trigger"])
+    assert keys_of(w_trig) == keys_of(sample["watchlist"][0]["trigger"])
+    w_chart = next(w["chart"] for w in mine["watchlist"] if w["chart"])
+    assert keys_of(w_chart) == keys_of(sample["watchlist"][0]["chart"])
     s_stock = load(FIX / "ui_sample_stock.json")
     stock = load(env.out / "stocks" / "1003.json")
     assert keys_of(stock) == keys_of(s_stock)
@@ -237,7 +242,7 @@ def test_validate_public_rejects_bad_files():
     good = {"schemaVersion": 1, "updatedAt": "x", "asOfMarketDate": "d", "benchmarkLabel": "b",
             "sources": {"edinet": {}, "prices": {}, "jpx400": {}, "margin": {}},
             "weekly": {"periodKey": "k", "entries": []}, "monthly": {"periodKey": "k", "entries": []},
-            "stateChanges": [], "universeCount": 0, "disclaimer": "d",
+            "stateChanges": [], "watchlist": [], "universeCount": 0, "disclaimer": "d",
             "universe": {"key": "jpx400", "label": "JPX日経400", "memberCount": 0, "note": None}}
     export.validate_public({"summary.json": good})
     with pytest.raises(export.ExportValidationError):
