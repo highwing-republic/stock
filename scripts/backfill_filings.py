@@ -54,10 +54,39 @@ def main() -> int:
     out.parent.mkdir(parents=True, exist_ok=True)
     start, end = date.fromisoformat(args.start), date.fromisoformat(args.end)
     failed_days: list[str] = []
-    totals = {"days": 0, "docs": 0, "large": 0, "in_universe": 0, "parse_errors": 0}
+    zero_weekdays: list[str] = []
+    totals = {"days": 0, "docs": 0, "large": 0, "in_universe": 0, "parse_errors": 0, "throttle_waits": 0}
+    waits = [60, 120, 300, 600, 900]
+
+    def list_documents_checked(day: date) -> list:
+        """書類一覧を取得。metadata.status が 200 でない、または平日に 0 件なら制限とみなして待って再試行する。"""
+        for attempt in range(len(waits) + 1):
+            problem = None
+            try:
+                resp = client._get("documents.json", {"date": day.isoformat(), "type": 2})
+                body = resp.json()
+                status = str((body.get("metadata") or {}).get("status") or body.get("StatusCode") or "")
+                results = body.get("results") or []
+                if status != "200":
+                    problem = f"metadata status={status!r} body={str(body)[:300]}"
+                elif not results and day.weekday() < 5:
+                    problem = "weekday returned 0 documents"
+                else:
+                    return results
+            except Exception as exc:
+                problem = f"error {exc}"[:300]
+            if attempt == len(waits):
+                if problem == "weekday returned 0 documents":
+                    zero_weekdays.append(day.isoformat())  # 祝日の可能性。記録して先へ進む
+                    return []
+                raise RuntimeError(problem)
+            totals["throttle_waits"] += 1
+            logging.warning("%s: %s; waiting %ss", day, problem, waits[attempt])
+            time.sleep(waits[attempt])
+        return []
 
     def process_day(writer, day: date) -> None:
-        docs = client.list_documents(day.isoformat())
+        docs = list_documents_checked(day)
         totals["docs"] += len(docs)
         for doc in docs:
             if not is_large_holding_document(doc):
@@ -73,10 +102,17 @@ def main() -> int:
                    "security_code": sec, "doc_description": doc.get("docDescription"),
                    "csv_flag": doc.get("csvFlag"), "parse_error": None}
             if int(doc.get("csvFlag") or 0) == 1:
-                try:
-                    row.update(parse_filing_csv_zip(client.download_csv(doc["docID"])))
-                except Exception as exc:  # 1 件の失敗で止めない
-                    row["parse_error"] = str(exc)[:200]
+                for attempt in range(3):
+                    try:
+                        row.update(parse_filing_csv_zip(client.download_csv(doc["docID"])))
+                        row["parse_error"] = None
+                        break
+                    except Exception as exc:  # 制限中は ZIP でない応答が返る。待って取り直す
+                        row["parse_error"] = str(exc)[:200]
+                        if attempt < 2:
+                            totals["throttle_waits"] += 1
+                            time.sleep(30 * (attempt + 1))
+                if row["parse_error"]:
                     totals["parse_errors"] += 1
                 time.sleep(args.sleep)
             writer.writerow({k: row.get(k) for k in FIELDS})
@@ -103,7 +139,7 @@ def main() -> int:
                 totals["days"] += 1
             except Exception:
                 logging.exception("retry failed: %s", iso)
-    summary = dict(totals, start=args.start, end=args.end, failed_days=failed_days)
+    summary = dict(totals, start=args.start, end=args.end, failed_days=failed_days, zero_weekdays=zero_weekdays)
     out.with_suffix("").with_suffix(".summary.json").write_text(json.dumps(summary, ensure_ascii=False, indent=1),
                                                                 encoding="utf-8")
     logging.info("done %s", summary)

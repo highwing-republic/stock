@@ -23,18 +23,12 @@ jobs:
     timeout-minutes: 330
     strategy:
       fail-fast: false
-      max-parallel: 3
+      max-parallel: 1        # 1本ずつ。EDINET API の利用制限に当たらないように
       matrix:
-        period:
-          - { start: "2022-01-01", end: "2022-06-30" }
-          - { start: "2022-07-01", end: "2022-12-31" }
-          - { start: "2023-01-01", end: "2023-06-30" }
-          - { start: "2023-07-01", end: "2023-12-31" }
-          - { start: "2024-01-01", end: "2024-06-30" }
-          - { start: "2024-07-01", end: "2024-12-31" }
-          - { start: "2025-01-01", end: "2025-06-30" }
-          - { start: "2025-07-01", end: "2025-12-31" }
-          - { start: "2026-01-01", end: "2026-10-16" }
+        period:   # 1回目の取得で制限に当たって空になった期間だけを取り直す
+          - { start: "2025-05-01", end: "2025-06-30" }
+          - { start: "2025-09-01", end: "2025-12-31" }
+          - { start: "2026-04-01", end: "2026-10-16" }
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -47,11 +41,11 @@ jobs:
           EDINET_API_KEY: ${{ secrets.EDINET_API_KEY || secrets.EDINET }}
         run: >
           python scripts/backfill_filings.py --start "${{ matrix.period.start }}" --end "${{ matrix.period.end }}"
-          --out "backfill_out/filings_${{ matrix.period.start }}.csv.gz"
+          --sleep 0.4 --out "backfill_out/rerun_${{ matrix.period.start }}.csv.gz"
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: filings-${{ matrix.period.start }}
+          name: rerun-${{ matrix.period.start }}
           path: backfill_out/
           if-no-files-found: warn
           retention-days: 7
@@ -64,7 +58,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/download-artifact@v4
         with:
-          pattern: filings-*
+          pattern: rerun-*
           path: backfill
           merge-multiple: true
       - name: Commit results to this branch
