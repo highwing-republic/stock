@@ -12,7 +12,7 @@
   "setupType": "TREND",
   "setups": [],
   "startedAt": "2026-10-02",
-  "status": "BROKEN",
+  "status": "WATCH",
   "statusHistory": [
    {
     "date": "2026-10-02",
@@ -25,12 +25,6 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
-   },
-   {
-    "date": "2026-10-19",
-    "from": "WATCH",
-    "reason_code": "BELOW_MA20",
-    "to": "BROKEN"
    }
   ],
   "watchStartedAt": "2026-10-02"
@@ -58,12 +52,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -0.7,
-  "currentPrice": 1648.0,
+  "benchReturn": -0.4,
+  "currentPrice": 1675.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 10,
+   "pendingDays": 11,
    "stockReturn": null
   },
   "d5": {
@@ -75,33 +69,33 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 50,
+   "pendingDays": 51,
    "stockReturn": null
   },
-  "excessReturn": -8.3,
+  "excessReturn": -7.1,
   "initialDate": "2026-10-02",
   "initialPrice": 1810.0,
-  "stockReturn": -9.0
+  "stockReturn": -7.5
  },
  "priceSetup": {
-  "asOf": "2026-10-19",
-  "atrState": "高ボラ",
-  "distFrom52wHigh": 0.15,
+  "asOf": "2026-10-16",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.14,
   "labels": [
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 1739.6,
-  "ma200": 1354.8,
-  "ma60": 1586.0,
-  "rangePos60": 0.54,
-  "rel20": 3.2,
-  "rel60": 12.4,
-  "volumeRatio20": 0.86
+  "ma20": 1736.0,
+  "ma200": 1350.9,
+  "ma60": 1582.0,
+  "rangePos60": 0.58,
+  "rel20": 5.5,
+  "rel60": 7.8,
+  "volumeRatio20": 0.89
  },
  "reasons": [
   "1pt買い増し 8.6%→9.6%",
-  "TOPIX連動ETF比 +3.2pt（20日）"
+  "TOPIX連動ETF比 +5.5pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -153,14 +147,7 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-10-19",
-   "detail": "20日線を連続で下回った",
-   "kind": "STATUS",
-   "label": "BROKEN",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-19T22:58:10+09:00"
+ "updatedAt": "2026-10-20T01:14:39+09:00"
 }

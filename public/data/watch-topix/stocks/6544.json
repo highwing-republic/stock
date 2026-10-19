@@ -1,0 +1,151 @@
+{
+ "company": {
+  "name": "ジャパンエレベーターサービスホールディングス",
+  "securityCode": "6544",
+  "tradingViewSymbol": "TSE:6544"
+ },
+ "episode": {
+  "closeReason": "NO_SETUP",
+  "closedAt": "2026-10-13",
+  "id": "6544-2026-09-09",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-09-09",
+  "status": "CLOSED",
+  "statusHistory": [
+   {
+    "date": "2026-09-09",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-10-13",
+    "from": "CANDIDATE",
+    "reason_code": "NO_SETUP",
+    "to": "CLOSED"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": -1.7,
+   "d20": -6.7,
+   "d5": 2.3,
+   "eventId": "edinet:S100YRDI",
+   "excess5": 3.6
+  },
+  {
+   "d1": -0.3,
+   "d20": -0.8,
+   "d5": 2.9,
+   "eventId": "edinet:S100Z0Q2",
+   "excess5": 3.1
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-16",
+  "buyBalance": 392600,
+  "buyChangePct": -11.1,
+  "labels": [
+   "信用買残減少",
+   "信用倍率改善"
+  ],
+  "ratio": 4.61,
+  "sellBalance": 85200,
+  "sellChangePct": 1.5
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-10-16",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.23,
+  "labels": [
+   "20日線の上",
+   "20日線が上向き"
+  ],
+  "ma20": 1492.7,
+  "ma200": 1639.1,
+  "ma60": 1542.8,
+  "rangePos60": 0.31,
+  "rel20": 0.5,
+  "rel60": -14.9,
+  "volumeRatio20": 0.87
+ },
+ "reasons": [
+  "1pt買い増し 5%→6.1%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +0.5pt（20日）",
+  "信用買残 -11%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-07-23",
+   "detail": "5.05% → 5.32%（ＦＭＲ　Ｉｎｖｅｓｔｍｅｎｔ　Ｍａｎａｇｅｍｅｎｔ　（ＵＫ）　Ｌｉｍｉｔｅｄ）",
+   "kind": "EVENT",
+   "label": "買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YRDI"
+  },
+  {
+   "date": "2026-09-09",
+   "detail": "5.04% → 6.08%（グランジャー・ピーク・グローバル・アドバイザーズ・エルエルシー）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z0Q2"
+  },
+  {
+   "date": "2026-09-14",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-15",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-17",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-13",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-13",
+   "detail": "期限内にPrice Setupが成立しなかった",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-14",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-14",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-20T01:14:39+09:00"
+}

@@ -9,9 +9,8 @@
   "closedAt": null,
   "id": "4722-2026-09-18",
   "overextended": false,
-  "setupType": "BREAKOUT",
+  "setupType": "TREND",
   "setups": [
-   "BREAKOUT",
    "TREND"
   ],
   "startedAt": "2026-09-18",
@@ -83,54 +82,53 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -1.2,
-  "currentPrice": 2428.0,
+  "benchReturn": -0.9,
+  "currentPrice": 2427.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 15,
+   "pendingDays": 16,
    "stockReturn": null
   },
   "d5": {
-   "benchReturn": -1.2,
-   "excessReturn": 1.2,
-   "pendingDays": 0,
-   "stockReturn": 0.0
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 1,
+   "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 55,
+   "pendingDays": 56,
    "stockReturn": null
   },
-  "excessReturn": 1.2,
+  "excessReturn": 0.9,
   "initialDate": "2026-10-09",
   "initialPrice": 2427.0,
   "stockReturn": 0.0
  },
  "priceSetup": {
-  "asOf": "2026-10-19",
+  "asOf": "2026-10-16",
   "atrState": "低ボラ",
   "distFrom52wHigh": 0.02,
   "labels": [
    "20日線の上",
    "60日レンジ上位12%",
-   "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2426.0,
-  "ma200": 1905.6,
-  "ma60": 2418.4,
+  "ma20": 2425.9,
+  "ma200": 1903.0,
+  "ma60": 2413.9,
   "rangePos60": 0.88,
-  "rel20": -1.3,
-  "rel60": 7.6,
-  "volumeRatio20": 0.18
+  "rel20": -1.2,
+  "rel60": 10.8,
+  "volumeRatio20": 0.28
  },
  "reasons": [
   "39.5pt買い増し 43.3%→82.9%",
   "60日レンジ上位12%",
-  "20日線上向き",
-  "52週高値まで2%"
+  "52週高値まで2%",
+  "信用買残 -27%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -196,14 +194,7 @@
    "kind": "STATUS",
    "label": "WATCH",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-10-19",
-   "detail": "TREND → BREAKOUT",
-   "kind": "SETUP",
-   "label": "Price Setup変化",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-19T22:58:10+09:00"
+ "updatedAt": "2026-10-20T01:14:39+09:00"
 }

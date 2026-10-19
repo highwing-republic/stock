@@ -12,7 +12,7 @@
   "setupType": "TREND",
   "setups": [],
   "startedAt": "2026-09-24",
-  "status": "BROKEN",
+  "status": "CONFIRMED",
   "statusHistory": [
    {
     "date": "2026-09-24",
@@ -37,12 +37,6 @@
     "from": "STRENGTHENING",
     "reason_code": "NEW_HIGH60_VOLUME",
     "to": "CONFIRMED"
-   },
-   {
-    "date": "2026-10-19",
-    "from": "CONFIRMED",
-    "reason_code": "BELOW_MA20",
-    "to": "BROKEN"
    }
   ],
   "watchStartedAt": "2026-09-24"
@@ -162,12 +156,12 @@
   }
  ],
  "performance": {
-  "benchReturn": 0.5,
-  "currentPrice": 2039.5,
+  "benchReturn": 0.8,
+  "currentPrice": 2035.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 4,
+   "pendingDays": 5,
    "stockReturn": null
   },
   "d5": {
@@ -179,33 +173,33 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 44,
+   "pendingDays": 45,
    "stockReturn": null
   },
-  "excessReturn": -10.8,
+  "excessReturn": -11.3,
   "initialDate": "2026-09-24",
   "initialPrice": 2273.0,
-  "stockReturn": -10.3
+  "stockReturn": -10.5
  },
  "priceSetup": {
-  "asOf": "2026-10-19",
+  "asOf": "2026-10-16",
   "atrState": "高ボラ",
   "distFrom52wHigh": 0.16,
   "labels": [
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2231.7,
-  "ma200": 1447.1,
-  "ma60": 1904.3,
+  "ma20": 2228.6,
+  "ma200": 1441.6,
+  "ma60": 1897.2,
   "rangePos60": 0.58,
-  "rel20": 1.8,
-  "rel60": 21.5,
-  "volumeRatio20": 0.7
+  "rel20": 3.5,
+  "rel60": 21.6,
+  "volumeRatio20": 0.64
  },
  "reasons": [
   "2.3pt買い増し 10.1%→12.4%",
-  "TOPIX連動ETF比 +1.8pt（20日）",
+  "TOPIX連動ETF比 +3.5pt（20日）",
   "信用買残 -16%"
  ],
  "schemaVersion": 1,
@@ -363,14 +357,7 @@
    "kind": "EVENT",
    "label": "保有割合の減少",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8JS"
-  },
-  {
-   "date": "2026-10-19",
-   "detail": "20日線を連続で下回った",
-   "kind": "STATUS",
-   "label": "BROKEN",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-19T22:58:10+09:00"
+ "updatedAt": "2026-10-20T01:14:39+09:00"
 }

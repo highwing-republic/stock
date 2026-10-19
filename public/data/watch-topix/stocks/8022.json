@@ -16,7 +16,7 @@
    "RECOVERY"
   ],
   "startedAt": "2026-09-24",
-  "status": "REACTED",
+  "status": "CONFIRMED",
   "statusHistory": [
    {
     "date": "2026-09-24",
@@ -35,12 +35,6 @@
     "from": "WATCH",
     "reason_code": "NEW_HIGH60_VOLUME",
     "to": "CONFIRMED"
-   },
-   {
-    "date": "2026-10-19",
-    "from": "CONFIRMED",
-    "reason_code": "EXCESS_THRESHOLD",
-    "to": "REACTED"
    }
   ],
   "watchStartedAt": "2026-09-24"
@@ -96,12 +90,12 @@
   }
  ],
  "performance": {
-  "benchReturn": 0.5,
-  "currentPrice": 4585.0,
+  "benchReturn": 0.8,
+  "currentPrice": 4560.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 4,
+   "pendingDays": 5,
    "stockReturn": null
   },
   "d5": {
@@ -113,37 +107,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 44,
+   "pendingDays": 45,
    "stockReturn": null
   },
-  "excessReturn": 12.1,
+  "excessReturn": 11.2,
   "initialDate": "2026-09-24",
   "initialPrice": 4072.4,
-  "stockReturn": 12.6
+  "stockReturn": 12.0
  },
  "priceSetup": {
-  "asOf": "2026-10-19",
+  "asOf": "2026-10-16",
   "atrState": "低ボラ",
   "distFrom52wHigh": 0.02,
   "labels": [
    "20日線の上",
-   "60日レンジ上位7%",
+   "60日レンジ上位9%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 4229.3,
-  "ma200": 3592.7,
-  "ma60": 4023.8,
-  "rangePos60": 0.93,
-  "rel20": 13.7,
-  "rel60": 20.9,
-  "volumeRatio20": 0.81
+  "ma20": 4199.2,
+  "ma200": 3584.5,
+  "ma60": 4008.3,
+  "rangePos60": 0.91,
+  "rel20": 13.6,
+  "rel60": 23.0,
+  "volumeRatio20": 1.89
  },
  "reasons": [
   "新規大量保有 5.2%（三井住友信託銀行株式会社）",
-  "60日レンジ上位7%",
-  "20日線上向き",
-  "TOPIX連動ETF比 +13.7pt（20日）"
+  "出来高 1.9倍で60日高値更新",
+  "60日レンジ上位9%",
+  "20日線上向き"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -230,14 +224,7 @@
    "kind": "STATUS",
    "label": "CONFIRMED",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-10-19",
-   "detail": "TOPIX連動ETFとの差が大きくなった",
-   "kind": "STATUS",
-   "label": "REACTED",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-19T22:58:10+09:00"
+ "updatedAt": "2026-10-20T01:14:39+09:00"
 }

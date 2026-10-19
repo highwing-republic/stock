@@ -90,7 +90,7 @@
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 9,
+   "pendingDays": 10,
    "stockReturn": null
   },
   "d5": {
@@ -102,7 +102,7 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 49,
+   "pendingDays": 50,
    "stockReturn": null
   },
   "excessReturn": -1.1,
@@ -111,23 +111,25 @@
   "stockReturn": -2.5
  },
  "priceSetup": {
-  "asOf": "2026-10-19",
+  "asOf": "2026-10-16",
   "atrState": "通常",
   "distFrom52wHigh": 0.21,
   "labels": [
+   "20日線の上",
    "20日線が上向き"
   ],
-  "ma20": 5761.0,
-  "ma200": 5376.8,
-  "ma60": 5790.8,
-  "rangePos60": 0.36,
-  "rel20": 7.2,
-  "rel60": -18.9,
-  "volumeRatio20": 1.04
+  "ma20": 5738.2,
+  "ma200": 5369.0,
+  "ma60": 5806.7,
+  "rangePos60": 0.38,
+  "rel20": 10.0,
+  "rel60": -16.2,
+  "volumeRatio20": 1.36
  },
  "reasons": [
   "新規大量保有 7.7%（株式会社みずほ銀行）",
-  "TOPIX連動ETF比 +7.2pt（20日）",
+  "20日線を回復",
+  "TOPIX連動ETF比 +10pt（20日）",
   "信用買残 -25%"
  ],
  "schemaVersion": 1,
@@ -222,14 +224,7 @@
    "kind": "STATUS",
    "label": "CLOSED",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-10-19",
-   "detail": "RECOVERY → なし",
-   "kind": "SETUP",
-   "label": "Price Setup解消",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-19T22:58:10+09:00"
+ "updatedAt": "2026-10-20T01:14:39+09:00"
 }

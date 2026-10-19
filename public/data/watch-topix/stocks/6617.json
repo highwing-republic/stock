@@ -5,14 +5,14 @@
   "tradingViewSymbol": "TSE:6617"
  },
  "episode": {
-  "closeReason": "BROKEN",
-  "closedAt": "2026-10-19",
+  "closeReason": null,
+  "closedAt": null,
   "id": "6617-2026-10-07",
   "overextended": false,
   "setupType": "RECOVERY",
   "setups": [],
   "startedAt": "2026-10-07",
-  "status": "CLOSED",
+  "status": "BROKEN",
   "statusHistory": [
    {
     "date": "2026-10-07",
@@ -37,12 +37,6 @@
     "from": "STRENGTHENING",
     "reason_code": "BELOW_MA60",
     "to": "BROKEN"
-   },
-   {
-    "date": "2026-10-19",
-    "from": "BROKEN",
-    "reason_code": "BROKEN",
-    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-10-07"
@@ -91,12 +85,12 @@
   }
  ],
  "performance": {
-  "benchReturn": -2.3,
-  "currentPrice": 6940.0,
+  "benchReturn": -2.0,
+  "currentPrice": 6900.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 13,
+   "pendingDays": 14,
    "stockReturn": null
   },
   "d5": {
@@ -108,33 +102,33 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 53,
+   "pendingDays": 54,
    "stockReturn": null
   },
-  "excessReturn": -8.6,
+  "excessReturn": -9.4,
   "initialDate": "2026-10-07",
   "initialPrice": 7790.0,
-  "stockReturn": -10.9
+  "stockReturn": -11.4
  },
  "priceSetup": {
-  "asOf": "2026-10-19",
+  "asOf": "2026-10-16",
   "atrState": "通常",
   "distFrom52wHigh": 0.21,
   "labels": [
    "20日線が上向き"
   ],
-  "ma20": 7252.6,
-  "ma200": 6337.0,
-  "ma60": 7221.2,
-  "rangePos60": 0.31,
-  "rel20": 5.4,
-  "rel60": -13.1,
-  "volumeRatio20": 1.02
+  "ma20": 7230.5,
+  "ma200": 6319.9,
+  "ma60": 7231.9,
+  "rangePos60": 0.29,
+  "rel20": 5.1,
+  "rel60": -15.5,
+  "volumeRatio20": 1.42
  },
  "reasons": [
   "1.2pt買い増し 8.8%→10.1%",
   "30日以内に2回買い増し",
-  "TOPIX連動ETF比 +5.4pt（20日）"
+  "TOPIX連動ETF比 +5.1pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -186,14 +180,7 @@
    "kind": "STATUS",
    "label": "BROKEN",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-10-19",
-   "detail": "Price Setupが崩れた",
-   "kind": "STATUS",
-   "label": "CLOSED",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-19T22:58:10+09:00"
+ "updatedAt": "2026-10-20T01:14:39+09:00"
 }

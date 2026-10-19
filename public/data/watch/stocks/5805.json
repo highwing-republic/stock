@@ -12,7 +12,7 @@
   "setupType": "BREAKOUT",
   "setups": [],
   "startedAt": "2026-09-25",
-  "status": "BROKEN",
+  "status": "CONFIRMED",
   "statusHistory": [
    {
     "date": "2026-09-25",
@@ -31,12 +31,6 @@
     "from": "WATCH",
     "reason_code": "NEW_HIGH60_VOLUME",
     "to": "CONFIRMED"
-   },
-   {
-    "date": "2026-10-19",
-    "from": "CONFIRMED",
-    "reason_code": "BELOW_MA60",
-    "to": "BROKEN"
    }
   ],
   "watchStartedAt": "2026-10-05"
@@ -105,12 +99,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -2.1,
-  "currentPrice": 2458.0,
+  "benchReturn": -1.8,
+  "currentPrice": 2496.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 11,
+   "pendingDays": 12,
    "stockReturn": null
   },
   "d5": {
@@ -122,31 +116,32 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 51,
+   "pendingDays": 52,
    "stockReturn": null
   },
-  "excessReturn": -11.6,
+  "excessReturn": -10.5,
   "initialDate": "2026-10-05",
   "initialPrice": 2847.0,
-  "stockReturn": -13.7
+  "stockReturn": -12.3
  },
  "priceSetup": {
-  "asOf": "2026-10-19",
-  "atrState": "通常",
-  "distFrom52wHigh": 0.34,
+  "asOf": "2026-10-16",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.33,
   "labels": [
    "20日線が上向き"
   ],
-  "ma20": 2670.2,
-  "ma200": 2538.1,
-  "ma60": 2543.9,
-  "rangePos60": 0.51,
-  "rel20": -1.0,
-  "rel60": 19.1,
-  "volumeRatio20": 1.33
+  "ma20": 2669.7,
+  "ma200": 2535.3,
+  "ma60": 2536.0,
+  "rangePos60": 0.54,
+  "rel20": 2.0,
+  "rel60": 16.9,
+  "volumeRatio20": 0.9
  },
  "reasons": [
-  "新規大量保有 5.1%（アセットマネジメントＯｎｅ株式会社）"
+  "新規大量保有 5.1%（アセットマネジメントＯｎｅ株式会社）",
+  "TOPIX連動ETF比 +2pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -268,14 +263,7 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-10-19",
-   "detail": "60日線を下回った",
-   "kind": "STATUS",
-   "label": "BROKEN",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-19T22:57:01+09:00"
+ "updatedAt": "2026-10-20T01:13:39+09:00"
 }
