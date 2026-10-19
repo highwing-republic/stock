@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-10-16T22:50:40+09:00",
+  "updatedAt": "2026-10-19T14:07:54+09:00",
   "company": {
     "securityCode": "6857",
     "ticker": "6857.T",
     "name": "株式会社アドバンテスト"
   },
   "events": [
+    {
+      "docId": "S100Z7YC",
+      "ticker": "6857.T",
+      "securityCode": "6857",
+      "companyName": "株式会社アドバンテスト",
+      "submitDatetime": "2026-10-19 10:25",
+      "filerName": "株式会社三菱ＵＦＪフィナンシャル・グループ",
+      "reportType": "change",
+      "holdingRatio": 4.94,
+      "previousHoldingRatio": 6.07,
+      "holdingChange": -1.13,
+      "purpose": "純投資 / 商品有価証券等として保有するもの",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -0.87,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z8I0",
       "ticker": "6857.T",
@@ -20,7 +50,7 @@
       "purpose": "証券業務に係る商品在庫、及び累積投資業務の運営目的として保有している。 / 証券業務に係わる商品在庫として保有している。 / 信託財産の運用として保有している。",
       "importantProposal": true,
       "priceChange": null,
-      "volumeRatio": 1.26,
+      "volumeRatio": 1.09,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [
@@ -32,8 +62,8 @@
         "return1d": -14.49,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -14.49,
-        "volumeRatio": 1.26,
+        "returnCurrent": -15.23,
+        "volumeRatio": 1.09,
         "marketExcessReturn": null
       }
     },
@@ -62,7 +92,7 @@
         "return1d": 6.82,
         "return5d": -1.73,
         "return20d": 27.91,
-        "returnCurrent": 6.97,
+        "returnCurrent": 6.04,
         "volumeRatio": 1.25,
         "marketExcessReturn": 0.03
       }
@@ -92,7 +122,7 @@
         "return1d": -1.52,
         "return5d": -1.79,
         "return20d": 5.64,
-        "returnCurrent": 17.67,
+        "returnCurrent": 16.65,
         "volumeRatio": 0.92,
         "marketExcessReturn": -0.43
       }
@@ -3958,6 +3988,16 @@
       "close": 34530.0,
       "adj_close": 34530.0,
       "volume": 15706300
+    },
+    {
+      "ticker": "6857.T",
+      "trade_date": "2026-10-19",
+      "open": 32430.0,
+      "high": 34370.0,
+      "low": 32420.0,
+      "close": 34230.0,
+      "adj_close": 34230.0,
+      "volume": 11513300
     }
   ],
   "benchmark": [
@@ -7816,10 +7856,20 @@
       "trade_date": "2026-10-16",
       "open": 425.6000061035156,
       "high": 428.8999938964844,
-      "low": 424.79998779296875,
+      "low": 424.8999938964844,
       "close": 428.3999938964844,
       "adj_close": 428.3999938964844,
       "volume": 12961080
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-19",
+      "open": 424.0,
+      "high": 427.79998779296875,
+      "low": 421.6000061035156,
+      "close": 427.5,
+      "adj_close": 427.5,
+      "volume": 13166560
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

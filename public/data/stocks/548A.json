@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T22:50:40+09:00",
+  "updatedAt": "2026-10-19T14:07:54+09:00",
   "company": {
     "securityCode": "548A",
     "ticker": "548A.T",
@@ -30,8 +30,8 @@
       "metrics": {
         "return1d": -0.84,
         "return5d": 0.42,
-        "return20d": null,
-        "returnCurrent": 0.0,
+        "return20d": -0.63,
+        "returnCurrent": -0.63,
         "volumeRatio": 0.7,
         "marketExcessReturn": -1.23
       }
@@ -59,7 +59,7 @@
         "return1d": -1.88,
         "return5d": -0.31,
         "return20d": -1.67,
-        "returnCurrent": -0.31,
+        "returnCurrent": -0.94,
         "volumeRatio": 0.8,
         "marketExcessReturn": 0.67
       }
@@ -1365,6 +1365,16 @@
       "close": 953.0,
       "adj_close": 953.0,
       "volume": 7800
+    },
+    {
+      "ticker": "548A.T",
+      "trade_date": "2026-10-19",
+      "open": 951.0,
+      "high": 953.0,
+      "low": 942.0,
+      "close": 947.0,
+      "adj_close": 947.0,
+      "volume": 7200
     }
   ],
   "benchmark": [
@@ -5223,10 +5233,20 @@
       "trade_date": "2026-10-16",
       "open": 425.6000061035156,
       "high": 428.8999938964844,
-      "low": 424.79998779296875,
+      "low": 424.8999938964844,
       "close": 428.3999938964844,
       "adj_close": 428.3999938964844,
       "volume": 12961080
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-19",
+      "open": 424.0,
+      "high": 427.79998779296875,
+      "low": 421.6000061035156,
+      "close": 427.5,
+      "adj_close": 427.5,
+      "volume": 13166560
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

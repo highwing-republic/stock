@@ -12,7 +12,7 @@
   "setupType": "BREAKOUT",
   "setups": [],
   "startedAt": "2026-09-25",
-  "status": "CONFIRMED",
+  "status": "BROKEN",
   "statusHistory": [
    {
     "date": "2026-09-25",
@@ -31,6 +31,12 @@
     "from": "WATCH",
     "reason_code": "NEW_HIGH60_VOLUME",
     "to": "CONFIRMED"
+   },
+   {
+    "date": "2026-10-19",
+    "from": "CONFIRMED",
+    "reason_code": "BELOW_MA60",
+    "to": "BROKEN"
    }
   ],
   "watchStartedAt": "2026-10-05"
@@ -105,12 +111,12 @@
   }
  ],
  "performance": {
-  "benchReturn": -1.8,
-  "currentPrice": 2496.0,
+  "benchReturn": -2.0,
+  "currentPrice": 2466.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 12,
+   "pendingDays": 11,
    "stockReturn": null
   },
   "d5": {
@@ -122,32 +128,31 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 52,
+   "pendingDays": 51,
    "stockReturn": null
   },
-  "excessReturn": -10.5,
+  "excessReturn": -11.4,
   "initialDate": "2026-10-05",
   "initialPrice": 2847.0,
-  "stockReturn": -12.3
+  "stockReturn": -13.4
  },
  "priceSetup": {
-  "asOf": "2026-10-16",
-  "atrState": "低ボラ",
-  "distFrom52wHigh": 0.33,
+  "asOf": "2026-10-19",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.34,
   "labels": [
    "20日線が上向き"
   ],
-  "ma20": 2669.7,
-  "ma200": 2535.3,
-  "ma60": 2536.0,
-  "rangePos60": 0.54,
-  "rel20": 2.0,
-  "rel60": 16.9,
-  "volumeRatio20": 0.9
+  "ma20": 2670.6,
+  "ma200": 2538.1,
+  "ma60": 2544.1,
+  "rangePos60": 0.52,
+  "rel20": -0.8,
+  "rel60": 19.4,
+  "volumeRatio20": 1.01
  },
  "reasons": [
-  "新規大量保有 5.1%（アセットマネジメントＯｎｅ株式会社）",
-  "TOPIX連動ETF比 +2pt（20日）"
+  "新規大量保有 5.1%（アセットマネジメントＯｎｅ株式会社）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -269,7 +274,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-19",
+   "detail": "60日線を下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-16T22:52:06+09:00"
+ "updatedAt": "2026-10-19T14:09:00+09:00"
 }

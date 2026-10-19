@@ -5,14 +5,14 @@
   "tradingViewSymbol": "TSE:6810"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "BROKEN",
+  "closedAt": "2026-10-19",
   "id": "6810-2026-09-07",
   "overextended": false,
   "setupType": "BREAKOUT",
   "setups": [],
   "startedAt": "2026-09-07",
-  "status": "BROKEN",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-09-07",
@@ -37,6 +37,12 @@
     "from": "STRENGTHENING",
     "reason_code": "BELOW_MA20",
     "to": "BROKEN"
+   },
+   {
+    "date": "2026-10-19",
+    "from": "BROKEN",
+    "reason_code": "BROKEN",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-09-07"
@@ -86,8 +92,8 @@
   }
  ],
  "performance": {
-  "benchReturn": -0.4,
-  "currentPrice": 2473.0,
+  "benchReturn": -0.6,
+  "currentPrice": 2509.0,
   "d20": {
    "benchReturn": -0.1,
    "excessReturn": 1.1,
@@ -103,35 +109,35 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 35,
+   "pendingDays": 34,
    "stockReturn": null
   },
-  "excessReturn": -2.1,
+  "excessReturn": -0.4,
   "initialDate": "2026-09-07",
   "initialPrice": 2535.5,
-  "stockReturn": -2.5
+  "stockReturn": -1.0
  },
  "priceSetup": {
-  "asOf": "2026-10-16",
+  "asOf": "2026-10-19",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.08,
+  "distFrom52wHigh": 0.06,
   "labels": [
-   "60日レンジ上位29%",
+   "60日レンジ上位25%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2559.5,
-  "ma200": 2211.6,
-  "ma60": 2417.4,
-  "rangePos60": 0.71,
-  "rel20": -0.8,
-  "rel60": 20.5,
-  "volumeRatio20": 1.34
+  "ma20": 2560.9,
+  "ma200": 2212.3,
+  "ma60": 2425.8,
+  "rangePos60": 0.75,
+  "rel20": -0.4,
+  "rel60": 20.4,
+  "volumeRatio20": 0.45
  },
  "reasons": [
   "新規大量保有 5.3%（ゴールドマン・サックス証券株式会社）",
-  "60日レンジ上位29%",
-  "52週高値まで8%",
+  "60日レンジ上位25%",
+  "52週高値まで6%",
   "信用買残 -18%"
  ],
  "schemaVersion": 1,
@@ -205,7 +211,14 @@
    "kind": "STATUS",
    "label": "BROKEN",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-19",
+   "detail": "Price Setupが崩れた",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-16T22:52:06+09:00"
+ "updatedAt": "2026-10-19T14:09:00+09:00"
 }

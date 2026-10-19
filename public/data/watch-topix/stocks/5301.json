@@ -12,7 +12,7 @@
   "setupType": "TREND",
   "setups": [],
   "startedAt": "2026-09-24",
-  "status": "CONFIRMED",
+  "status": "BROKEN",
   "statusHistory": [
    {
     "date": "2026-09-24",
@@ -37,6 +37,12 @@
     "from": "STRENGTHENING",
     "reason_code": "NEW_HIGH60_VOLUME",
     "to": "CONFIRMED"
+   },
+   {
+    "date": "2026-10-19",
+    "from": "CONFIRMED",
+    "reason_code": "BELOW_MA20",
+    "to": "BROKEN"
    }
   ],
   "watchStartedAt": "2026-09-24"
@@ -156,12 +162,12 @@
   }
  ],
  "performance": {
-  "benchReturn": 0.8,
+  "benchReturn": 0.7,
   "currentPrice": 2035.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 5,
+   "pendingDays": 4,
    "stockReturn": null
   },
   "d5": {
@@ -173,33 +179,33 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 45,
+   "pendingDays": 44,
    "stockReturn": null
   },
-  "excessReturn": -11.3,
+  "excessReturn": -11.2,
   "initialDate": "2026-09-24",
   "initialPrice": 2273.0,
   "stockReturn": -10.5
  },
  "priceSetup": {
-  "asOf": "2026-10-16",
+  "asOf": "2026-10-19",
   "atrState": "高ボラ",
   "distFrom52wHigh": 0.16,
   "labels": [
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2228.6,
-  "ma200": 1441.6,
-  "ma60": 1897.2,
+  "ma20": 2231.4,
+  "ma200": 1447.1,
+  "ma60": 1904.2,
   "rangePos60": 0.58,
-  "rel20": 3.5,
-  "rel60": 21.6,
-  "volumeRatio20": 0.64
+  "rel20": 1.4,
+  "rel60": 21.1,
+  "volumeRatio20": 0.4
  },
  "reasons": [
   "2.3pt買い増し 10.1%→12.4%",
-  "TOPIX連動ETF比 +3.5pt（20日）",
+  "TOPIX連動ETF比 +1.4pt（20日）",
   "信用買残 -19%"
  ],
  "schemaVersion": 1,
@@ -357,7 +363,14 @@
    "kind": "EVENT",
    "label": "保有割合の減少",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8JS"
+  },
+  {
+   "date": "2026-10-19",
+   "detail": "20日線を連続で下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-16T22:52:06+09:00"
+ "updatedAt": "2026-10-19T14:09:00+09:00"
 }

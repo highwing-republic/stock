@@ -2577,9 +2577,9 @@
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z2D9",
    "security_code": "3549",
-   "setup_type": "RECOVERY",
+   "setup_type": "TREND",
    "setups": [
-    "RECOVERY"
+    "TREND"
    ],
    "started_at": "2026-09-17",
    "status": "STRENGTHENING",
@@ -2660,8 +2660,9 @@
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z1LN",
    "security_code": "4722",
-   "setup_type": "TREND",
+   "setup_type": "BREAKOUT",
    "setups": [
+    "BREAKOUT",
     "TREND"
    ],
    "started_at": "2026-09-18",
@@ -2863,25 +2864,33 @@
    "event_ids": [
     "edinet:S100Z338"
    ],
-   "initial_bench": null,
-   "initial_price": null,
+   "initial_bench": 427.79998779296875,
+   "initial_price": 10535.0,
    "last_trigger_at": "2026-09-24",
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z338",
    "security_code": "2875",
-   "setup_type": null,
-   "setups": [],
+   "setup_type": "RECOVERY",
+   "setups": [
+    "RECOVERY"
+   ],
    "started_at": "2026-09-24",
-   "status": "CANDIDATE",
+   "status": "WATCH",
    "status_history": [
     {
      "date": "2026-09-24",
      "from": null,
      "reason_code": "TRIGGER_EVENT",
      "to": "CANDIDATE"
+    },
+    {
+     "date": "2026-10-19",
+     "from": "CANDIDATE",
+     "reason_code": "SETUP_OK",
+     "to": "WATCH"
     }
    ],
-   "watch_started_at": null
+   "watch_started_at": "2026-10-19"
   },
   {
    "base_close": 682.7874145507812,
@@ -3064,7 +3073,7 @@
    "setup_type": "BREAKOUT",
    "setups": [],
    "started_at": "2026-09-25",
-   "status": "CONFIRMED",
+   "status": "BROKEN",
    "status_history": [
     {
      "date": "2026-09-25",
@@ -3083,6 +3092,12 @@
      "from": "WATCH",
      "reason_code": "NEW_HIGH60_VOLUME",
      "to": "CONFIRMED"
+    },
+    {
+     "date": "2026-10-19",
+     "from": "CONFIRMED",
+     "reason_code": "BELOW_MA60",
+     "to": "BROKEN"
     }
    ],
    "watch_started_at": "2026-10-05"
@@ -3274,9 +3289,8 @@
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z41Y",
    "security_code": "7988",
-   "setup_type": "BREAKOUT",
+   "setup_type": "RECOVERY",
    "setups": [
-    "BREAKOUT",
     "RECOVERY"
    ],
    "started_at": "2026-09-25",
@@ -3726,8 +3740,8 @@
   },
   {
    "base_close": 2304.0,
-   "close_reason": null,
-   "closed_at": null,
+   "close_reason": "BROKEN",
+   "closed_at": "2026-10-19",
    "company_name": "日本取引所グループ",
    "episode_id": "8697-2026-10-05",
    "event_ids": [
@@ -3742,7 +3756,7 @@
    "setup_type": "BREAKOUT",
    "setups": [],
    "started_at": "2026-10-05",
-   "status": "BROKEN",
+   "status": "CLOSED",
    "status_history": [
     {
      "date": "2026-10-05",
@@ -3767,6 +3781,12 @@
      "from": "STRENGTHENING",
      "reason_code": "BELOW_MA20",
      "to": "BROKEN"
+    },
+    {
+     "date": "2026-10-19",
+     "from": "BROKEN",
+     "reason_code": "BROKEN",
+     "to": "CLOSED"
     }
    ],
    "watch_started_at": "2026-10-05"
@@ -3864,7 +3884,7 @@
    "setup_type": "RECOVERY",
    "setups": [],
    "started_at": "2026-10-06",
-   "status": "STRENGTHENING",
+   "status": "BROKEN",
    "status_history": [
     {
      "date": "2026-10-06",
@@ -3883,6 +3903,12 @@
      "from": "WATCH",
      "reason_code": "INCREASE_EVENT",
      "to": "STRENGTHENING"
+    },
+    {
+     "date": "2026-10-19",
+     "from": "STRENGTHENING",
+     "reason_code": "BELOW_MA20",
+     "to": "BROKEN"
     }
    ],
    "watch_started_at": "2026-10-06"
@@ -4077,8 +4103,8 @@
   },
   {
    "base_close": 1831.5,
-   "close_reason": null,
-   "closed_at": null,
+   "close_reason": "BROKEN",
+   "closed_at": "2026-10-19",
    "company_name": "シスメックス",
    "episode_id": "6869-2026-10-06",
    "event_ids": [
@@ -4093,7 +4119,7 @@
    "setup_type": "BREAKOUT",
    "setups": [],
    "started_at": "2026-10-06",
-   "status": "BROKEN",
+   "status": "CLOSED",
    "status_history": [
     {
      "date": "2026-10-06",
@@ -4118,6 +4144,12 @@
      "from": "STRENGTHENING",
      "reason_code": "BELOW_MA20",
      "to": "BROKEN"
+    },
+    {
+     "date": "2026-10-19",
+     "from": "BROKEN",
+     "reason_code": "BROKEN",
+     "to": "CLOSED"
     }
    ],
    "watch_started_at": "2026-10-06"

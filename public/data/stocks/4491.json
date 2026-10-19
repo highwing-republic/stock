@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-10-16T22:50:40+09:00",
+  "updatedAt": "2026-10-19T14:07:54+09:00",
   "company": {
     "securityCode": "4491",
     "ticker": "4491.T",
     "name": "コンピューターマネージメント株式会社"
   },
   "events": [
+    {
+      "docId": "S100Z8CZ",
+      "ticker": "4491.T",
+      "securityCode": "4491",
+      "companyName": "コンピューターマネージメント株式会社",
+      "submitDatetime": "2026-10-16 15:08",
+      "filerName": "有限会社シー・エム・ケー",
+      "reportType": "change",
+      "holdingRatio": 35.81,
+      "previousHoldingRatio": 35.93,
+      "holdingChange": -0.12,
+      "purpose": "発行会社の安定株主として保有しております。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": 0.22,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": 1.18,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 1.18,
+        "volumeRatio": 0.22,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YZFS",
       "ticker": "4491.T",
@@ -31,7 +61,7 @@
         "return1d": 2.6,
         "return5d": 1.37,
         "return20d": -8.52,
-        "returnCurrent": -8.76,
+        "returnCurrent": -8.09,
         "volumeRatio": 1.18,
         "marketExcessReturn": 1.79
       }
@@ -2907,6 +2937,16 @@
       "close": 2988.0,
       "adj_close": 2988.0,
       "volume": 900
+    },
+    {
+      "ticker": "4491.T",
+      "trade_date": "2026-10-19",
+      "open": 2988.0,
+      "high": 3010.0,
+      "low": 2980.0,
+      "close": 3010.0,
+      "adj_close": 3010.0,
+      "volume": 1000
     }
   ],
   "benchmark": [
@@ -6765,10 +6805,20 @@
       "trade_date": "2026-10-16",
       "open": 425.6000061035156,
       "high": 428.8999938964844,
-      "low": 424.79998779296875,
+      "low": 424.8999938964844,
       "close": 428.3999938964844,
       "adj_close": 428.3999938964844,
       "volume": 12961080
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-19",
+      "open": 424.0,
+      "high": 427.79998779296875,
+      "low": 421.6000061035156,
+      "close": 427.5,
+      "adj_close": 427.5,
+      "volume": 13166560
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

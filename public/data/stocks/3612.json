@@ -1,11 +1,39 @@
 {
-  "updatedAt": "2026-10-16T22:50:40+09:00",
+  "updatedAt": "2026-10-19T14:07:54+09:00",
   "company": {
     "securityCode": "3612",
     "ticker": "3612.T",
     "name": "株式会社ワールド"
   },
   "events": [
+    {
+      "docId": "S100Z7J3",
+      "ticker": "3612.T",
+      "securityCode": "3612",
+      "companyName": "株式会社ワールド",
+      "submitDatetime": "2026-10-19 09:15",
+      "filerName": "寺井　秀藏",
+      "reportType": "change",
+      "holdingRatio": 16.09,
+      "previousHoldingRatio": 16.09,
+      "holdingChange": 0.0,
+      "purpose": "安定株主として株式を保有しております。 / 安定株主として保有しております。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -1.79,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z6ZP",
       "ticker": "3612.T",
@@ -20,20 +48,19 @@
       "purpose": "安定株主として株式を保有しております。 / 安定株主として保有しております。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": 3.06,
+      "volumeRatio": 2.61,
       "marketExcessReturn": null,
-      "signalScore": 15,
+      "signalScore": 10,
       "signalReasons": [
-        "出来高2倍以上",
-        "出来高3倍以上"
+        "出来高2倍以上"
       ],
       "stockUnreacted": false,
       "metrics": {
         "return1d": 0.19,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -0.32,
-        "volumeRatio": 3.06,
+        "returnCurrent": -2.1,
+        "volumeRatio": 2.61,
         "marketExcessReturn": null
       }
     },
@@ -62,7 +89,7 @@
         "return1d": 1.11,
         "return5d": 4.79,
         "return20d": 0.11,
-        "returnCurrent": -2.14,
+        "returnCurrent": -3.9,
         "volumeRatio": 1.95,
         "marketExcessReturn": 6.9
       }
@@ -90,7 +117,7 @@
         "return1d": 1.12,
         "return5d": 2.68,
         "return20d": 0.21,
-        "returnCurrent": -0.86,
+        "returnCurrent": -2.64,
         "volumeRatio": 1.84,
         "marketExcessReturn": 1.29
       }
@@ -118,7 +145,7 @@
         "return1d": -0.74,
         "return5d": -0.74,
         "return20d": 1.23,
-        "returnCurrent": -2.26,
+        "returnCurrent": -4.01,
         "volumeRatio": 0.8,
         "marketExcessReturn": -1.84
       }
@@ -146,7 +173,7 @@
         "return1d": 1.32,
         "return5d": 1.7,
         "return20d": 2.14,
-        "returnCurrent": 0.13,
+        "returnCurrent": -1.66,
         "volumeRatio": 0.65,
         "marketExcessReturn": 2.6
       }
@@ -3932,6 +3959,16 @@
       "close": 1563.0,
       "adj_close": 1563.0,
       "volume": 618000
+    },
+    {
+      "ticker": "3612.T",
+      "trade_date": "2026-10-19",
+      "open": 1563.0,
+      "high": 1568.0,
+      "low": 1527.0,
+      "close": 1535.0,
+      "adj_close": 1535.0,
+      "volume": 370100
     }
   ],
   "benchmark": [
@@ -7790,10 +7827,20 @@
       "trade_date": "2026-10-16",
       "open": 425.6000061035156,
       "high": 428.8999938964844,
-      "low": 424.79998779296875,
+      "low": 424.8999938964844,
       "close": 428.3999938964844,
       "adj_close": 428.3999938964844,
       "volume": 12961080
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-19",
+      "open": 424.0,
+      "high": 427.79998779296875,
+      "low": 421.6000061035156,
+      "close": 427.5,
+      "adj_close": 427.5,
+      "volume": 13166560
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

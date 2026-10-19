@@ -5,14 +5,14 @@
   "tradingViewSymbol": "TSE:6779"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "BROKEN",
+  "closedAt": "2026-10-19",
   "id": "6779-2026-10-07",
   "overextended": false,
   "setupType": "RECOVERY",
   "setups": [],
   "startedAt": "2026-10-07",
-  "status": "BROKEN",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-10-07",
@@ -31,6 +31,12 @@
     "from": "WATCH",
     "reason_code": "BELOW_MA20",
     "to": "BROKEN"
+   },
+   {
+    "date": "2026-10-19",
+    "from": "BROKEN",
+    "reason_code": "BROKEN",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-10-07"
@@ -121,12 +127,12 @@
   }
  ],
  "performance": {
-  "benchReturn": -2.0,
-  "currentPrice": 2881.0,
+  "benchReturn": -2.1,
+  "currentPrice": 2892.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 14,
+   "pendingDays": 13,
    "stockReturn": null
   },
   "d5": {
@@ -138,32 +144,31 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 54,
+   "pendingDays": 53,
    "stockReturn": null
   },
-  "excessReturn": -18.7,
+  "excessReturn": -18.3,
   "initialDate": "2026-10-07",
   "initialPrice": 3635.0,
-  "stockReturn": -20.7
+  "stockReturn": -20.4
  },
  "priceSetup": {
-  "asOf": "2026-10-16",
+  "asOf": "2026-10-19",
   "atrState": "通常",
   "distFrom52wHigh": 0.42,
   "labels": [
    "20日線が上向き"
   ],
-  "ma20": 3313.3,
-  "ma200": 2297.4,
-  "ma60": 2943.4,
+  "ma20": 3306.6,
+  "ma200": 2307.2,
+  "ma60": 2946.5,
   "rangePos60": 0.46,
-  "rel20": 0.9,
-  "rel60": -6.6,
-  "volumeRatio20": 0.74
+  "rel20": -5.9,
+  "rel60": 2.0,
+  "volumeRatio20": 0.83
  },
  "reasons": [
   "新規大量保有 6.6%（みずほ証券株式会社）",
-  "TOPIX連動ETF比 +0.9pt（20日）",
   "信用買残 -6%"
  ],
  "schemaVersion": 1,
@@ -244,7 +249,14 @@
    "kind": "STATUS",
    "label": "BROKEN",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-19",
+   "detail": "Price Setupが崩れた",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-16T22:52:06+09:00"
+ "updatedAt": "2026-10-19T14:09:00+09:00"
 }
