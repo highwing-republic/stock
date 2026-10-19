@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T14:07:54+09:00",
+  "updatedAt": "2026-10-19T18:23:15+09:00",
   "company": {
     "securityCode": "5987",
     "ticker": "5987.T",
@@ -20,17 +20,17 @@
       "purpose": "純投資",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.02,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": 1.6,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 3.69,
-        "volumeRatio": null,
+        "returnCurrent": 1.6,
+        "volumeRatio": 0.02,
         "marketExcessReturn": null
       }
     },
@@ -48,7 +48,7 @@
       "purpose": "純投資",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": 1.06,
+      "volumeRatio": 0.54,
       "marketExcessReturn": null,
       "signalScore": 30,
       "signalReasons": [
@@ -59,8 +59,8 @@
         "return1d": 4.14,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 4.14,
-        "volumeRatio": 1.06,
+        "returnCurrent": 2.04,
+        "volumeRatio": 0.54,
         "marketExcessReturn": null
       }
     }
@@ -2725,6 +2725,16 @@
       "close": 1685.0,
       "adj_close": 1685.0,
       "volume": 4500
+    },
+    {
+      "ticker": "5987.T",
+      "trade_date": "2026-10-19",
+      "open": 1651.0,
+      "high": 1651.0,
+      "low": 1651.0,
+      "close": 1651.0,
+      "adj_close": 1651.0,
+      "volume": 100
     }
   ],
   "benchmark": [
@@ -6592,11 +6602,11 @@
       "ticker": "1306.T",
       "trade_date": "2026-10-19",
       "open": 424.0,
-      "high": 427.79998779296875,
+      "high": 428.29998779296875,
       "low": 421.6000061035156,
-      "close": 427.5,
-      "adj_close": 427.5,
-      "volume": 13166560
+      "close": 427.1000061035156,
+      "adj_close": 427.1000061035156,
+      "volume": 17238230
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

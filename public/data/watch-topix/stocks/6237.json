@@ -10,7 +10,9 @@
   "id": "6237-2026-06-29",
   "overextended": true,
   "setupType": "RECOVERY",
-  "setups": [],
+  "setups": [
+   "RECOVERY"
+  ],
   "startedAt": "2026-06-29",
   "status": "REACTED",
   "statusHistory": [
@@ -113,21 +115,21 @@
   }
  ],
  "margin": {
-  "asOf": "2026-10-15",
-  "buyBalance": 84500,
-  "buyChangePct": 6.0,
+  "asOf": "2026-10-16",
+  "buyBalance": 82600,
+  "buyChangePct": 5.5,
   "labels": [
    "信用倍率改善",
    "売残増加"
   ],
-  "ratio": 4.4,
-  "sellBalance": 19200,
-  "sellChangePct": 64.1
+  "ratio": 4.05,
+  "sellBalance": 20400,
+  "sellChangePct": 54.5
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 3.4,
-  "currentPrice": 4045.0,
+  "benchReturn": 3.2,
+  "currentPrice": 4060.0,
   "d20": {
    "benchReturn": -0.2,
    "excessReturn": 34.5,
@@ -146,30 +148,32 @@
    "pendingDays": 0,
    "stockReturn": 13.0
   },
-  "excessReturn": 9.7,
+  "excessReturn": 10.4,
   "initialDate": "2026-06-29",
   "initialPrice": 3575.2,
-  "stockReturn": 13.1
+  "stockReturn": 13.6
  },
  "priceSetup": {
   "asOf": "2026-10-19",
   "atrState": "低ボラ",
   "distFrom52wHigh": 0.32,
   "labels": [
+   "20日線の上",
    "20日線が上向き"
   ],
-  "ma20": 4045.8,
-  "ma200": 3353.1,
-  "ma60": 4341.6,
-  "rangePos60": 0.16,
-  "rel20": 4.3,
-  "rel60": -12.0,
-  "volumeRatio20": 0.32
+  "ma20": 4046.5,
+  "ma200": 3353.2,
+  "ma60": 4341.8,
+  "rangePos60": 0.17,
+  "rel20": 4.8,
+  "rel60": -11.5,
+  "volumeRatio20": 0.58
  },
  "reasons": [
   "2pt買い増し 17%→18.9%",
   "30日以内に2回買い増し",
-  "TOPIX連動ETF比 +4.3pt（20日）"
+  "20日線を回復",
+  "TOPIX連動ETF比 +4.8pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -445,7 +449,21 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-19",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-19",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-19T14:09:00+09:00"
+ "updatedAt": "2026-10-19T18:24:39+09:00"
 }

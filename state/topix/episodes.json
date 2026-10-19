@@ -4559,7 +4559,9 @@
    "primary_trigger_event_id": "edinet:S100YFL5",
    "security_code": "3086",
    "setup_type": "RECOVERY",
-   "setups": [],
+   "setups": [
+    "RECOVERY"
+   ],
    "started_at": "2026-06-22",
    "status": "REACTED",
    "status_history": [
@@ -6421,7 +6423,9 @@
    "primary_trigger_event_id": "edinet:S100YHR4",
    "security_code": "6237",
    "setup_type": "RECOVERY",
-   "setups": [],
+   "setups": [
+    "RECOVERY"
+   ],
    "started_at": "2026-06-29",
    "status": "REACTED",
    "status_history": [
@@ -18157,7 +18161,7 @@
     "RECOVERY"
    ],
    "started_at": "2026-09-10",
-   "status": "STRENGTHENING",
+   "status": "CONFIRMED",
    "status_history": [
     {
      "date": "2026-09-10",
@@ -18176,6 +18180,12 @@
      "from": "WATCH",
      "reason_code": "SETUP_IMPROVED",
      "to": "STRENGTHENING"
+    },
+    {
+     "date": "2026-10-19",
+     "from": "STRENGTHENING",
+     "reason_code": "NEW_HIGH60_VOLUME",
+     "to": "CONFIRMED"
     }
    ],
    "watch_started_at": "2026-09-10"
@@ -19044,8 +19054,8 @@
    "event_ids": [
     "edinet:S100Z338"
    ],
-   "initial_bench": 427.70001220703125,
-   "initial_price": 10535.0,
+   "initial_bench": 427.1000061035156,
+   "initial_price": 10495.0,
    "last_trigger_at": "2026-09-24",
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z338",
@@ -21640,25 +21650,33 @@
    "event_ids": [
     "edinet:S100Z7KG"
    ],
-   "initial_bench": null,
-   "initial_price": null,
+   "initial_bench": 427.1000061035156,
+   "initial_price": 2962.5,
    "last_trigger_at": "2026-10-16",
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z7KG",
    "security_code": "2531",
-   "setup_type": null,
-   "setups": [],
+   "setup_type": "TREND",
+   "setups": [
+    "TREND"
+   ],
    "started_at": "2026-10-16",
-   "status": "CANDIDATE",
+   "status": "WATCH",
    "status_history": [
     {
      "date": "2026-10-16",
      "from": null,
      "reason_code": "TRIGGER_EVENT",
      "to": "CANDIDATE"
+    },
+    {
+     "date": "2026-10-19",
+     "from": "CANDIDATE",
+     "reason_code": "SETUP_OK",
+     "to": "WATCH"
     }
    ],
-   "watch_started_at": null
+   "watch_started_at": "2026-10-19"
   }
  ],
  "schema_version": 1

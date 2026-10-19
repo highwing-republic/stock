@@ -14,7 +14,7 @@
    "RECOVERY"
   ],
   "startedAt": "2026-09-10",
-  "status": "STRENGTHENING",
+  "status": "CONFIRMED",
   "statusHistory": [
    {
     "date": "2026-09-10",
@@ -33,6 +33,12 @@
     "from": "WATCH",
     "reason_code": "SETUP_IMPROVED",
     "to": "STRENGTHENING"
+   },
+   {
+    "date": "2026-10-19",
+    "from": "STRENGTHENING",
+    "reason_code": "NEW_HIGH60_VOLUME",
+    "to": "CONFIRMED"
    }
   ],
   "watchStartedAt": "2026-09-10"
@@ -47,20 +53,20 @@
   }
  ],
  "margin": {
-  "asOf": "2026-10-15",
-  "buyBalance": 23900,
-  "buyChangePct": -11.5,
+  "asOf": "2026-10-16",
+  "buyBalance": 25200,
+  "buyChangePct": -9.0,
   "labels": [
-   "信用買残減少"
+   "信用倍率悪化"
   ],
-  "ratio": 0.75,
-  "sellBalance": 31800,
-  "sellChangePct": -17.4
+  "ratio": 0.88,
+  "sellBalance": 28700,
+  "sellChangePct": -24.7
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 1.2,
-  "currentPrice": 2794.0,
+  "benchReturn": 1.0,
+  "currentPrice": 2774.5,
   "d20": {
    "benchReturn": 2.0,
    "excessReturn": 1.6,
@@ -79,10 +85,10 @@
    "pendingDays": 37,
    "stockReturn": null
   },
-  "excessReturn": 8.8,
+  "excessReturn": 8.2,
   "initialDate": "2026-09-10",
   "initialPrice": 2539.6,
-  "stockReturn": 10.0
+  "stockReturn": 9.2
  },
  "priceSetup": {
   "asOf": "2026-10-19",
@@ -90,23 +96,23 @@
   "distFrom52wHigh": 0.14,
   "labels": [
    "20日線の上",
-   "60日レンジ上位18%",
+   "60日レンジ上位21%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2618.4,
-  "ma200": 2725.0,
-  "ma60": 2537.4,
-  "rangePos60": 0.82,
-  "rel20": 8.1,
-  "rel60": 5.8,
-  "volumeRatio20": 1.11
+  "ma20": 2617.4,
+  "ma200": 2724.9,
+  "ma60": 2537.1,
+  "rangePos60": 0.79,
+  "rel20": 7.5,
+  "rel60": 5.2,
+  "volumeRatio20": 1.91
  },
  "reasons": [
   "1pt買い増し 8.2%→9.3%",
-  "60日レンジ上位18%",
-  "20日線上向き",
-  "TOPIX連動ETF比 +8.1pt（20日）"
+  "出来高 1.9倍で60日高値更新",
+  "60日レンジ上位21%",
+  "20日線上向き"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -235,7 +241,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-19",
+   "detail": "60日高値を出来高増で更新",
+   "kind": "STATUS",
+   "label": "CONFIRMED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-19T14:09:00+09:00"
+ "updatedAt": "2026-10-19T18:24:39+09:00"
 }
