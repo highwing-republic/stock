@@ -12197,11 +12197,7 @@
    "primary_trigger_event_id": "edinet:S100YRQ0",
    "security_code": "1899",
    "setup_type": "BREAKOUT",
-   "setups": [
-    "BREAKOUT",
-    "TREND",
-    "RECOVERY"
-   ],
+   "setups": [],
    "started_at": "2026-07-24",
    "status": "REACTED",
    "status_history": [
@@ -13563,8 +13559,7 @@
    "setup_type": "BREAKOUT",
    "setups": [
     "BREAKOUT",
-    "TREND",
-    "RECOVERY"
+    "TREND"
    ],
    "started_at": "2026-08-07",
    "status": "REACTED",
@@ -16624,7 +16619,7 @@
     "BREAKOUT"
    ],
    "started_at": "2026-09-01",
-   "status": "STRENGTHENING",
+   "status": "REACTED",
    "status_history": [
     {
      "date": "2026-09-01",
@@ -16643,6 +16638,12 @@
      "from": "WATCH",
      "reason_code": "REL20_POSITIVE",
      "to": "STRENGTHENING"
+    },
+    {
+     "date": "2026-10-20",
+     "from": "STRENGTHENING",
+     "reason_code": "EXCESS_THRESHOLD",
+     "to": "REACTED"
     }
    ],
    "watch_started_at": "2026-09-16"
@@ -18667,9 +18668,7 @@
    "primary_trigger_event_id": "edinet:S100Z2CM",
    "security_code": "6104",
    "setup_type": "TREND",
-   "setups": [
-    "TREND"
-   ],
+   "setups": [],
    "started_at": "2026-09-17",
    "status": "STRENGTHENING",
    "status_history": [

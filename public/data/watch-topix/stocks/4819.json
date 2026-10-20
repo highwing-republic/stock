@@ -14,7 +14,7 @@
    "BREAKOUT"
   ],
   "startedAt": "2026-09-01",
-  "status": "STRENGTHENING",
+  "status": "REACTED",
   "statusHistory": [
    {
     "date": "2026-09-01",
@@ -33,6 +33,12 @@
     "from": "WATCH",
     "reason_code": "REL20_POSITIVE",
     "to": "STRENGTHENING"
+   },
+   {
+    "date": "2026-10-20",
+    "from": "STRENGTHENING",
+    "reason_code": "EXCESS_THRESHOLD",
+    "to": "REACTED"
    }
   ],
   "watchStartedAt": "2026-09-16"
@@ -68,15 +74,13 @@
   }
  ],
  "margin": {
-  "asOf": "2026-10-16",
-  "buyBalance": 367500,
-  "buyChangePct": -7.7,
-  "labels": [
-   "信用倍率悪化"
-  ],
-  "ratio": 15.19,
-  "sellBalance": 24200,
-  "sellChangePct": -26.4
+  "asOf": "2026-10-19",
+  "buyBalance": 368200,
+  "buyChangePct": -7.5,
+  "labels": [],
+  "ratio": 13.69,
+  "sellBalance": 26900,
+  "sellChangePct": -18.2
  },
  "pastEpisodes": [
   {
@@ -89,12 +93,12 @@
  ],
  "performance": {
   "benchReturn": -0.5,
-  "currentPrice": 2531.0,
+  "currentPrice": 2550.0,
   "d20": {
    "benchReturn": -0.5,
-   "excessReturn": 9.5,
+   "excessReturn": 10.3,
    "pendingDays": 0,
-   "stockReturn": 9.0
+   "stockReturn": 9.8
   },
   "d5": {
    "benchReturn": 1.0,
@@ -108,33 +112,33 @@
    "pendingDays": 40,
    "stockReturn": null
   },
-  "excessReturn": 9.5,
+  "excessReturn": 10.3,
   "initialDate": "2026-09-16",
   "initialPrice": 2323.0,
-  "stockReturn": 9.0
+  "stockReturn": 9.8
  },
  "priceSetup": {
   "asOf": "2026-10-20",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.28,
+  "distFrom52wHigh": 0.27,
   "labels": [
    "20日線の上",
-   "60日レンジ上位15%",
+   "60日レンジ上位11%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2438.7,
-  "ma200": 2239.7,
-  "ma60": 2332.6,
-  "rangePos60": 0.85,
-  "rel20": 9.4,
-  "rel60": 7.3,
-  "volumeRatio20": 0.32
+  "ma20": 2439.6,
+  "ma200": 2239.8,
+  "ma60": 2332.9,
+  "rangePos60": 0.89,
+  "rel20": 10.3,
+  "rel60": 8.1,
+  "volumeRatio20": 0.66
  },
  "reasons": [
   "1pt買い増し 7.3%→8.3%",
   "30日以内に2回買い増し",
-  "60日レンジ上位15%",
+  "60日レンジ上位11%",
   "20日線上向き"
  ],
  "schemaVersion": 1,
@@ -222,7 +226,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-20",
+   "detail": "TOPIX連動ETFとの差が大きくなった",
+   "kind": "STATUS",
+   "label": "REACTED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-20T14:14:02+09:00"
+ "updatedAt": "2026-10-20T17:56:06+09:00"
 }

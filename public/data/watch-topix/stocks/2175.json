@@ -12,8 +12,7 @@
   "setupType": "BREAKOUT",
   "setups": [
    "BREAKOUT",
-   "TREND",
-   "RECOVERY"
+   "TREND"
   ],
   "startedAt": "2026-08-07",
   "status": "REACTED",
@@ -97,7 +96,7 @@
   },
   {
    "d1": 0.9,
-   "d20": 0.7,
+   "d20": 0.3,
    "d5": -0.6,
    "eventId": "edinet:S100Z1UF",
    "excess5": -1.6
@@ -111,13 +110,15 @@
   }
  ],
  "margin": {
-  "asOf": "2026-10-16",
-  "buyBalance": 93700,
-  "buyChangePct": 3.3,
-  "labels": [],
-  "ratio": 1.48,
-  "sellBalance": 63500,
-  "sellChangePct": -2.5
+  "asOf": "2026-10-19",
+  "buyBalance": 106500,
+  "buyChangePct": 17.4,
+  "labels": [
+   "信用倍率悪化"
+  ],
+  "ratio": 1.69,
+  "sellBalance": 63100,
+  "sellChangePct": -3.1
  },
  "pastEpisodes": [
   {
@@ -130,7 +131,7 @@
  ],
  "performance": {
   "benchReturn": -0.5,
-  "currentPrice": 2670.0,
+  "currentPrice": 2660.0,
   "d20": {
    "benchReturn": 0.5,
    "excessReturn": 12.5,
@@ -149,10 +150,10 @@
    "pendingDays": 22,
    "stockReturn": null
   },
-  "excessReturn": 13.3,
+  "excessReturn": 12.9,
   "initialDate": "2026-08-21",
   "initialPrice": 2366.0,
-  "stockReturn": 12.8
+  "stockReturn": 12.4
  },
  "priceSetup": {
   "asOf": "2026-10-20",
@@ -160,22 +161,22 @@
   "distFrom52wHigh": 0.03,
   "labels": [
    "20日線の上",
-   "60日レンジ上位12%",
+   "60日レンジ上位14%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2659.4,
-  "ma200": 2000.2,
-  "ma60": 2484.9,
-  "rangePos60": 0.88,
-  "rel20": 1.2,
-  "rel60": 6.9,
-  "volumeRatio20": 0.44
+  "ma20": 2658.9,
+  "ma200": 2000.1,
+  "ma60": 2484.8,
+  "rangePos60": 0.86,
+  "rel20": 0.8,
+  "rel60": 6.5,
+  "volumeRatio20": 1.07
  },
  "reasons": [
   "1pt買い増し 25.9%→27%",
   "30日以内に2回買い増し",
-  "60日レンジ上位12%",
+  "60日レンジ上位14%",
   "20日線上向き"
  ],
  "schemaVersion": 1,
@@ -370,5 +371,5 @@
    "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-20T14:14:02+09:00"
+ "updatedAt": "2026-10-20T17:56:06+09:00"
 }

@@ -89,13 +89,15 @@
   }
  ],
  "margin": {
-  "asOf": "2026-10-16",
-  "buyBalance": 154000,
-  "buyChangePct": -8.9,
-  "labels": [],
-  "ratio": 1.72,
-  "sellBalance": 89300,
-  "sellChangePct": -8.2
+  "asOf": "2026-10-19",
+  "buyBalance": 143700,
+  "buyChangePct": -15.0,
+  "labels": [
+   "信用買残減少"
+  ],
+  "ratio": 1.64,
+  "sellBalance": 87400,
+  "sellChangePct": -10.2
  },
  "pastEpisodes": [
   {
@@ -112,21 +114,22 @@
   "atrState": "低ボラ",
   "distFrom52wHigh": 0.08,
   "labels": [
-   "20日線の上"
+   "20日線の上",
+   "60日線の上"
   ],
-  "ma20": 2133.6,
+  "ma20": 2133.9,
   "ma200": 2000.9,
-  "ma60": 2144.5,
-  "rangePos60": 0.37,
-  "rel20": -1.0,
-  "rel60": 0.8,
-  "volumeRatio20": 0.31
+  "ma60": 2144.6,
+  "rangePos60": 0.39,
+  "rel20": -0.8,
+  "rel60": 1.0,
+  "volumeRatio20": 0.8
  },
  "reasons": [
   "0.1pt買い増し 9.4%→9.5%",
   "30日以内に2回買い増し",
   "52週高値まで8%",
-  "信用買残 -9%"
+  "信用買残 -15%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -199,7 +202,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-20",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-20T14:13:13+09:00"
+ "updatedAt": "2026-10-20T17:55:06+09:00"
 }

@@ -10,9 +10,7 @@
   "id": "6104-2026-09-17",
   "overextended": false,
   "setupType": "TREND",
-  "setups": [
-   "TREND"
-  ],
+  "setups": [],
   "startedAt": "2026-09-17",
   "status": "STRENGTHENING",
   "statusHistory": [
@@ -68,7 +66,7 @@
   },
   {
    "d1": 2.6,
-   "d20": 10.9,
+   "d20": 9.8,
    "d5": 8.2,
    "eventId": "edinet:S100Z2CM",
    "excess5": 7.2
@@ -103,13 +101,13 @@
   }
  ],
  "margin": {
-  "asOf": "2026-10-16",
-  "buyBalance": 48200,
-  "buyChangePct": 0.2,
+  "asOf": "2026-10-19",
+  "buyBalance": 47500,
+  "buyChangePct": -1.2,
   "labels": [],
-  "ratio": 1.39,
-  "sellBalance": 34800,
-  "sellChangePct": 4.8
+  "ratio": 1.35,
+  "sellBalance": 35100,
+  "sellChangePct": 5.7
  },
  "pastEpisodes": [
   {
@@ -122,7 +120,7 @@
  ],
  "performance": {
   "benchReturn": -2.0,
-  "currentPrice": 4825.0,
+  "currentPrice": 4775.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
@@ -141,34 +139,33 @@
    "pendingDays": 44,
    "stockReturn": null
   },
-  "excessReturn": 6.5,
+  "excessReturn": 5.4,
   "initialDate": "2026-09-25",
   "initialPrice": 4616.3,
-  "stockReturn": 4.5
+  "stockReturn": 3.4
  },
  "priceSetup": {
   "asOf": "2026-10-20",
   "atrState": "通常",
-  "distFrom52wHigh": 0.05,
+  "distFrom52wHigh": 0.06,
   "labels": [
-   "20日線の上",
-   "60日レンジ上位21%",
+   "60日レンジ上位25%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 4823.0,
-  "ma200": 4270.2,
-  "ma60": 4455.2,
-  "rangePos60": 0.79,
-  "rel20": 11.4,
-  "rel60": 9.8,
-  "volumeRatio20": 0.47
+  "ma20": 4820.5,
+  "ma200": 4269.9,
+  "ma60": 4454.4,
+  "rangePos60": 0.75,
+  "rel20": 10.3,
+  "rel60": 8.7,
+  "volumeRatio20": 0.99
  },
  "reasons": [
   "1.1pt買い増し 10.1%→11.3%",
   "30日以内に2回買い増し",
-  "60日レンジ上位21%",
-  "20日線上向き"
+  "60日レンジ上位25%",
+  "TOPIX連動ETF比 +10.3pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -276,7 +273,14 @@
    "kind": "EVENT",
    "label": "連続の買い増し",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z78C"
+  },
+  {
+   "date": "2026-10-20",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-20T14:14:02+09:00"
+ "updatedAt": "2026-10-20T17:56:06+09:00"
 }
