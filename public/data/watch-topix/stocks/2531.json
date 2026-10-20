@@ -9,19 +9,25 @@
   "closedAt": null,
   "id": "2531-2026-10-16",
   "overextended": false,
-  "setupType": null,
+  "setupType": "TREND",
   "setups": [],
   "startedAt": "2026-10-16",
-  "status": "CANDIDATE",
+  "status": "WATCH",
   "statusHistory": [
    {
     "date": "2026-10-16",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-10-19",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
    }
   ],
-  "watchStartedAt": null
+  "watchStartedAt": "2026-10-19"
  },
  "eventReactions": [
   {
@@ -60,30 +66,55 @@
    "startedAt": "2026-07-23"
   }
  ],
- "performance": null,
+ "performance": {
+  "benchReturn": -1.2,
+  "currentPrice": 2870.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 19,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 4,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 59,
+   "stockReturn": null
+  },
+  "excessReturn": -1.9,
+  "initialDate": "2026-10-19",
+  "initialPrice": 2962.5,
+  "stockReturn": -3.1
+ },
  "priceSetup": {
-  "asOf": "2026-10-16",
+  "asOf": "2026-10-20",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.03,
+  "distFrom52wHigh": 0.11,
   "labels": [
    "20日線の上",
-   "60日レンジ上位8%",
+   "60日レンジ上位28%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2609.0,
-  "ma200": 1952.9,
-  "ma60": 2327.3,
-  "rangePos60": 0.92,
-  "rel20": 25.0,
-  "rel60": 42.8,
-  "volumeRatio20": 2.71
+  "ma20": 2654.8,
+  "ma200": 1966.2,
+  "ma60": 2352.1,
+  "rangePos60": 0.72,
+  "rel20": 16.9,
+  "rel60": 29.7,
+  "volumeRatio20": 0.36
  },
  "reasons": [
   "新規大量保有 5.1%（Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．）",
-  "出来高 2.7倍で60日高値更新",
-  "60日レンジ上位8%",
-  "20日線上向き"
+  "60日レンジ上位28%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +16.9pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -114,7 +145,28 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-19",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-19",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-20",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-20T01:14:39+09:00"
+ "updatedAt": "2026-10-20T14:14:02+09:00"
 }

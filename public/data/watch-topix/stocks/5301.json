@@ -5,14 +5,14 @@
   "tradingViewSymbol": "TSE:5301"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "BROKEN",
+  "closedAt": "2026-10-20",
   "id": "5301-2026-09-24",
   "overextended": false,
   "setupType": "TREND",
   "setups": [],
   "startedAt": "2026-09-24",
-  "status": "CONFIRMED",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-09-24",
@@ -37,6 +37,18 @@
     "from": "STRENGTHENING",
     "reason_code": "NEW_HIGH60_VOLUME",
     "to": "CONFIRMED"
+   },
+   {
+    "date": "2026-10-19",
+    "from": "CONFIRMED",
+    "reason_code": "BELOW_MA20",
+    "to": "BROKEN"
+   },
+   {
+    "date": "2026-10-20",
+    "from": "BROKEN",
+    "reason_code": "BROKEN",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-09-24"
@@ -156,12 +168,12 @@
   }
  ],
  "performance": {
-  "benchReturn": 0.8,
-  "currentPrice": 2035.0,
+  "benchReturn": -0.7,
+  "currentPrice": 1951.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 5,
+   "pendingDays": 3,
    "stockReturn": null
   },
   "d5": {
@@ -173,33 +185,32 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 45,
+   "pendingDays": 43,
    "stockReturn": null
   },
-  "excessReturn": -11.3,
+  "excessReturn": -13.5,
   "initialDate": "2026-09-24",
   "initialPrice": 2273.0,
-  "stockReturn": -10.5
+  "stockReturn": -14.2
  },
  "priceSetup": {
-  "asOf": "2026-10-16",
+  "asOf": "2026-10-20",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.16,
+  "distFrom52wHigh": 0.19,
   "labels": [
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2228.6,
-  "ma200": 1441.6,
-  "ma60": 1897.2,
-  "rangePos60": 0.58,
-  "rel20": 3.5,
-  "rel60": 21.6,
-  "volumeRatio20": 0.64
+  "ma20": 2226.4,
+  "ma200": 1452.2,
+  "ma60": 1909.5,
+  "rangePos60": 0.48,
+  "rel20": -4.6,
+  "rel60": 18.3,
+  "volumeRatio20": 0.28
  },
  "reasons": [
   "2.3pt買い増し 10.1%→12.4%",
-  "TOPIX連動ETF比 +3.5pt（20日）",
   "信用買残 -16%"
  ],
  "schemaVersion": 1,
@@ -357,7 +368,21 @@
    "kind": "EVENT",
    "label": "保有割合の減少",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8JS"
+  },
+  {
+   "date": "2026-10-19",
+   "detail": "20日線を連続で下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-20",
+   "detail": "Price Setupが崩れた",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-20T01:14:39+09:00"
+ "updatedAt": "2026-10-20T14:14:02+09:00"
 }

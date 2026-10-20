@@ -1,11 +1,42 @@
 {
-  "updatedAt": "2026-10-20T01:13:27+09:00",
+  "updatedAt": "2026-10-20T14:13:06+09:00",
   "company": {
     "securityCode": "1812",
     "ticker": "1812.T",
     "name": "鹿島建設株式会社"
   },
   "events": [
+    {
+      "docId": "S100Z8Z3",
+      "ticker": "1812.T",
+      "securityCode": "1812",
+      "companyName": "鹿島建設株式会社",
+      "submitDatetime": "2026-10-20 11:59",
+      "filerName": "ジェー・ピー・モルガン・セキュリティーズ・ピーエルシー",
+      "reportType": "change",
+      "holdingRatio": 2.66,
+      "previousHoldingRatio": 5.95,
+      "holdingChange": -3.29,
+      "purpose": "顧客または投資信託等の資産運用（純投資） / 金融商品取引業務にかかる保有 / 顧客資産の運用（純投資）。みなし共同保有者から除外する。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少",
+        "大幅売却"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -1.35,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z632",
       "ticker": "1812.T",
@@ -29,7 +60,7 @@
         "return1d": -1.86,
         "return5d": -3.09,
         "return20d": null,
-        "returnCurrent": -3.56,
+        "returnCurrent": -3.99,
         "volumeRatio": 0.83,
         "marketExcessReturn": -3.62
       }
@@ -60,7 +91,7 @@
         "return1d": -1.72,
         "return5d": -0.89,
         "return20d": null,
-        "returnCurrent": -5.67,
+        "returnCurrent": -6.09,
         "volumeRatio": 1.47,
         "marketExcessReturn": -1.85
       }
@@ -91,7 +122,7 @@
         "return1d": 1.91,
         "return5d": -0.51,
         "return20d": -0.55,
-        "returnCurrent": -2.86,
+        "returnCurrent": -3.29,
         "volumeRatio": 1.04,
         "marketExcessReturn": 1.25
       }
@@ -3964,9 +3995,19 @@
       "open": 4748.0,
       "high": 4753.0,
       "low": 4680.0,
-      "close": null,
-      "adj_close": null,
+      "close": 4753.0,
+      "adj_close": 4753.0,
       "volume": 1349600
+    },
+    {
+      "ticker": "1812.T",
+      "trade_date": "2026-10-20",
+      "open": 4715.0,
+      "high": 4734.0,
+      "low": 4666.0,
+      "close": 4689.0,
+      "adj_close": 4689.0,
+      "volume": 638000
     }
   ],
   "benchmark": [
@@ -7836,9 +7877,19 @@
       "open": 424.0,
       "high": 428.29998779296875,
       "low": 421.6000061035156,
-      "close": null,
-      "adj_close": null,
+      "close": 427.1000061035156,
+      "adj_close": 427.1000061035156,
       "volume": 17238230
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-20",
+      "open": 426.20001220703125,
+      "high": 427.0,
+      "low": 421.79998779296875,
+      "close": 422.0,
+      "adj_close": 422.0,
+      "volume": 9630560
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

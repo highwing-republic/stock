@@ -5,14 +5,14 @@
   "tradingViewSymbol": "TSE:5805"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "BROKEN",
+  "closedAt": "2026-10-20",
   "id": "5805-2026-09-25",
   "overextended": false,
   "setupType": "BREAKOUT",
   "setups": [],
   "startedAt": "2026-09-25",
-  "status": "CONFIRMED",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-09-25",
@@ -31,6 +31,18 @@
     "from": "WATCH",
     "reason_code": "NEW_HIGH60_VOLUME",
     "to": "CONFIRMED"
+   },
+   {
+    "date": "2026-10-19",
+    "from": "CONFIRMED",
+    "reason_code": "BELOW_MA60",
+    "to": "BROKEN"
+   },
+   {
+    "date": "2026-10-20",
+    "from": "BROKEN",
+    "reason_code": "BROKEN",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-10-05"
@@ -99,12 +111,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -1.8,
-  "currentPrice": 2496.0,
+  "benchReturn": -3.3,
+  "currentPrice": 2298.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 12,
+   "pendingDays": 10,
    "stockReturn": null
   },
   "d5": {
@@ -116,32 +128,31 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 52,
+   "pendingDays": 50,
    "stockReturn": null
   },
-  "excessReturn": -10.5,
+  "excessReturn": -16.0,
   "initialDate": "2026-10-05",
   "initialPrice": 2847.0,
-  "stockReturn": -12.3
+  "stockReturn": -19.3
  },
  "priceSetup": {
-  "asOf": "2026-10-16",
-  "atrState": "低ボラ",
-  "distFrom52wHigh": 0.33,
+  "asOf": "2026-10-20",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.38,
   "labels": [
    "20日線が上向き"
   ],
-  "ma20": 2669.7,
-  "ma200": 2535.3,
-  "ma60": 2536.0,
-  "rangePos60": 0.54,
-  "rel20": 2.0,
-  "rel60": 16.9,
-  "volumeRatio20": 0.9
+  "ma20": 2661.8,
+  "ma200": 2539.7,
+  "ma60": 2548.3,
+  "rangePos60": 0.36,
+  "rel20": -6.3,
+  "rel60": 12.0,
+  "volumeRatio20": 0.69
  },
  "reasons": [
-  "新規大量保有 5.1%（アセットマネジメントＯｎｅ株式会社）",
-  "TOPIX連動ETF比 +2pt（20日）"
+  "新規大量保有 5.1%（アセットマネジメントＯｎｅ株式会社）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -263,7 +274,21 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-19",
+   "detail": "60日線を下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-20",
+   "detail": "Price Setupが崩れた",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-20T01:13:39+09:00"
+ "updatedAt": "2026-10-20T14:13:13+09:00"
 }

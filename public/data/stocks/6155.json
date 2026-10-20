@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T01:13:27+09:00",
+  "updatedAt": "2026-10-20T14:13:06+09:00",
   "company": {
     "securityCode": "6155",
     "ticker": "6155.T",
@@ -20,20 +20,21 @@
       "purpose": "高松機械工業株式会社と取引関係にある企業および個人が高松機械工業株式会社の株式を取得することにより、相互の親睦関係の増進に寄与するため",
       "importantProposal": true,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 2.46,
       "marketExcessReturn": null,
-      "signalScore": 40,
+      "signalScore": 50,
       "signalReasons": [
         "1pt以上買い増し",
-        "重要提案行為あり"
+        "重要提案行為あり",
+        "出来高2倍以上"
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": 2.19,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.0,
-        "volumeRatio": null,
+        "returnCurrent": 2.19,
+        "volumeRatio": 2.46,
         "marketExcessReturn": null
       }
     }
@@ -2675,9 +2676,19 @@
       "open": 551.0,
       "high": 560.0,
       "low": 550.0,
-      "close": null,
-      "adj_close": null,
+      "close": 558.0,
+      "adj_close": 558.0,
       "volume": 1800
+    },
+    {
+      "ticker": "6155.T",
+      "trade_date": "2026-10-20",
+      "open": 555.0,
+      "high": 570.0,
+      "low": 555.0,
+      "close": 561.0,
+      "adj_close": 561.0,
+      "volume": 12700
     }
   ],
   "benchmark": [
@@ -6547,9 +6558,19 @@
       "open": 424.0,
       "high": 428.29998779296875,
       "low": 421.6000061035156,
-      "close": null,
-      "adj_close": null,
+      "close": 427.1000061035156,
+      "adj_close": 427.1000061035156,
       "volume": 17238230
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-20",
+      "open": 426.20001220703125,
+      "high": 427.0,
+      "low": 421.79998779296875,
+      "close": 422.0,
+      "adj_close": 422.0,
+      "volume": 9630560
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

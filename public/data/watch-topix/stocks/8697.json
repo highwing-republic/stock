@@ -5,14 +5,14 @@
   "tradingViewSymbol": "TSE:8697"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "BROKEN",
+  "closedAt": "2026-10-19",
   "id": "8697-2026-10-05",
   "overextended": false,
   "setupType": "BREAKOUT",
   "setups": [],
   "startedAt": "2026-10-05",
-  "status": "BROKEN",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-10-05",
@@ -37,6 +37,12 @@
     "from": "STRENGTHENING",
     "reason_code": "BELOW_MA20",
     "to": "BROKEN"
+   },
+   {
+    "date": "2026-10-19",
+    "from": "BROKEN",
+    "reason_code": "BROKEN",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-10-05"
@@ -48,6 +54,13 @@
    "d5": -1.5,
    "eventId": "edinet:S100Z630",
    "excess5": -2.0
+  },
+  {
+   "d1": -2.9,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z8XD",
+   "excess5": null
   }
  ],
  "margin": {
@@ -64,12 +77,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -1.8,
-  "currentPrice": 2219.0,
+  "benchReturn": -2.1,
+  "currentPrice": 2242.5,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 12,
+   "pendingDays": 10,
    "stockReturn": null
   },
   "d5": {
@@ -81,34 +94,33 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 52,
+   "pendingDays": 50,
    "stockReturn": null
   },
-  "excessReturn": -1.3,
+  "excessReturn": 0.1,
   "initialDate": "2026-10-05",
   "initialPrice": 2289.0,
-  "stockReturn": -3.1
+  "stockReturn": -2.0
  },
  "priceSetup": {
-  "asOf": "2026-10-16",
+  "asOf": "2026-10-20",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.05,
+  "distFrom52wHigh": 0.07,
   "labels": [
-   "20日線が上向き",
-   "60日線の上"
+   "20日線が上向き"
   ],
-  "ma20": 2248.8,
-  "ma200": 1963.1,
-  "ma60": 2210.7,
-  "rangePos60": 0.57,
-  "rel20": 0.8,
-  "rel60": -1.1,
-  "volumeRatio20": 1.08
+  "ma20": 2253.3,
+  "ma200": 1969.2,
+  "ma60": 2212.4,
+  "rangePos60": 0.41,
+  "rel20": 0.7,
+  "rel60": -2.6,
+  "volumeRatio20": 0.73
  },
  "reasons": [
   "新規大量保有 5.2%（ＪＰモルガン証券株式会社）",
-  "TOPIX連動ETF比 +0.8pt（20日）",
-  "52週高値まで5%"
+  "TOPIX連動ETF比 +0.7pt（20日）",
+  "52週高値まで7%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -174,7 +186,21 @@
    "kind": "STATUS",
    "label": "BROKEN",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-19",
+   "detail": "Price Setupが崩れた",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-20",
+   "detail": "5.18% → 4.14%（ＪＰモルガン証券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8XD"
   }
  ],
- "updatedAt": "2026-10-20T01:14:39+09:00"
+ "updatedAt": "2026-10-20T14:14:02+09:00"
 }

@@ -5,14 +5,14 @@
   "tradingViewSymbol": "TSE:8361"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "BROKEN",
+  "closedAt": "2026-10-20",
   "id": "8361-2026-10-02",
   "overextended": false,
   "setupType": "TREND",
   "setups": [],
   "startedAt": "2026-10-02",
-  "status": "WATCH",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-10-02",
@@ -25,6 +25,18 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
+   },
+   {
+    "date": "2026-10-19",
+    "from": "WATCH",
+    "reason_code": "BELOW_MA20",
+    "to": "BROKEN"
+   },
+   {
+    "date": "2026-10-20",
+    "from": "BROKEN",
+    "reason_code": "BROKEN",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-10-02"
@@ -52,12 +64,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -0.4,
-  "currentPrice": 1675.0,
+  "benchReturn": -2.0,
+  "currentPrice": 1553.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 11,
+   "pendingDays": 9,
    "stockReturn": null
   },
   "d5": {
@@ -69,33 +81,31 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 51,
+   "pendingDays": 49,
    "stockReturn": null
   },
-  "excessReturn": -7.1,
+  "excessReturn": -12.2,
   "initialDate": "2026-10-02",
   "initialPrice": 1810.0,
-  "stockReturn": -7.5
+  "stockReturn": -14.2
  },
  "priceSetup": {
-  "asOf": "2026-10-16",
-  "atrState": "通常",
-  "distFrom52wHigh": 0.14,
+  "asOf": "2026-10-20",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.2,
   "labels": [
-   "20日線が上向き",
-   "60日線の上"
+   "20日線が上向き"
   ],
   "ma20": 1736.0,
-  "ma200": 1350.9,
-  "ma60": 1582.0,
-  "rangePos60": 0.58,
-  "rel20": 5.5,
-  "rel60": 7.8,
-  "volumeRatio20": 0.89
+  "ma200": 1358.2,
+  "ma60": 1587.2,
+  "rangePos60": 0.39,
+  "rel20": -4.0,
+  "rel60": 3.8,
+  "volumeRatio20": 0.6
  },
  "reasons": [
-  "1pt買い増し 8.6%→9.6%",
-  "TOPIX連動ETF比 +5.5pt（20日）"
+  "1pt買い増し 8.6%→9.6%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -147,7 +157,21 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-19",
+   "detail": "20日線を連続で下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-20",
+   "detail": "Price Setupが崩れた",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-20T01:14:39+09:00"
+ "updatedAt": "2026-10-20T14:14:02+09:00"
 }

@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-10-20T01:13:27+09:00",
+  "updatedAt": "2026-10-20T14:13:06+09:00",
   "company": {
     "securityCode": "6877",
     "ticker": "6877.T",
     "name": "ＯＢＡＲＡ　ＧＲＯＵＰ株式会社"
   },
   "events": [
+    {
+      "docId": "S100Z92V",
+      "ticker": "6877.T",
+      "securityCode": "6877",
+      "companyName": "ＯＢＡＲＡ　ＧＲＯＵＰ株式会社",
+      "submitDatetime": "2026-10-20 13:06",
+      "filerName": "野村證券株式会社",
+      "reportType": "change",
+      "holdingRatio": 13.08,
+      "previousHoldingRatio": 12.76,
+      "holdingChange": 0.32,
+      "purpose": "証券業務に係る商品在庫として保有している。 / 証券業務に係わる商品在庫として保有している。 / 信託財産の運用として保有している。",
+      "importantProposal": true,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 20,
+      "signalReasons": [
+        "重要提案行為あり"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -1.71,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z6GS",
       "ticker": "6877.T",
@@ -19,21 +49,22 @@
       "holdingChange": 1.01,
       "purpose": "投資（投資一任契約に係る顧客資産の運用）を主な目的とするが、スチュワードシップ責任を果たすため、JPXガイドライン及びコーポレートガバナンス・コードに沿った企業価値向上を目的として、発行者の経営陣、社外取締役その他の関係者との対話及び意見交換を行うことがある。また、継続的なエンゲージメント活動の一環として、ガバナンス、サステナビリティ又は業務・資本効率の改善に関する提言を行う場合があり、状況に応じて発行者の経営陣との積極的な意見交換を行うことがある。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 1.69,
-      "marketExcessReturn": null,
-      "signalScore": 20,
+      "priceChange": 0.0,
+      "volumeRatio": 1.44,
+      "marketExcessReturn": 2.43,
+      "signalScore": 30,
       "signalReasons": [
-        "1pt以上買い増し"
+        "1pt以上買い増し",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": 2.91,
-        "return5d": null,
+        "return5d": 0.0,
         "return20d": null,
-        "returnCurrent": 0.15,
-        "volumeRatio": 1.69,
-        "marketExcessReturn": null
+        "returnCurrent": 0.0,
+        "volumeRatio": 1.44,
+        "marketExcessReturn": 2.43
       }
     },
     {
@@ -63,7 +94,7 @@
         "return1d": 5.66,
         "return5d": 18.01,
         "return20d": null,
-        "returnCurrent": 18.18,
+        "returnCurrent": 18.01,
         "volumeRatio": 1.82,
         "marketExcessReturn": 18.45
       }
@@ -91,7 +122,7 @@
         "return1d": -1.36,
         "return5d": -3.41,
         "return20d": -11.07,
-        "returnCurrent": 17.38,
+        "returnCurrent": 17.21,
         "volumeRatio": 0.41,
         "marketExcessReturn": -5.59
       }
@@ -122,7 +153,7 @@
         "return1d": -0.67,
         "return5d": -2.85,
         "return20d": -12.08,
-        "returnCurrent": 15.6,
+        "returnCurrent": 15.44,
         "volumeRatio": 0.62,
         "marketExcessReturn": 0.14
       }
@@ -150,7 +181,7 @@
         "return1d": 0.0,
         "return5d": 1.89,
         "return20d": -7.4,
-        "returnCurrent": 18.59,
+        "returnCurrent": 18.42,
         "volumeRatio": 0.63,
         "marketExcessReturn": 0.5
       }
@@ -180,7 +211,7 @@
         "return1d": 0.0,
         "return5d": 5.18,
         "return20d": -3.97,
-        "returnCurrent": 19.0,
+        "returnCurrent": 18.83,
         "volumeRatio": 0.68,
         "marketExcessReturn": 2.3
       }
@@ -210,7 +241,7 @@
         "return1d": -0.97,
         "return5d": -0.97,
         "return20d": -5.84,
-        "returnCurrent": 11.85,
+        "returnCurrent": 11.69,
         "volumeRatio": 0.78,
         "marketExcessReturn": 0.89
       }
@@ -3093,9 +3124,19 @@
       "open": 6810.0,
       "high": 7030.0,
       "low": 6740.0,
-      "close": null,
-      "adj_close": null,
+      "close": 7000.0,
+      "adj_close": 7000.0,
       "volume": 68300
+    },
+    {
+      "ticker": "6877.T",
+      "trade_date": "2026-10-20",
+      "open": 7150.0,
+      "high": 7200.0,
+      "low": 6820.0,
+      "close": 6880.0,
+      "adj_close": 6880.0,
+      "volume": 53100
     }
   ],
   "benchmark": [
@@ -6965,9 +7006,19 @@
       "open": 424.0,
       "high": 428.29998779296875,
       "low": 421.6000061035156,
-      "close": null,
-      "adj_close": null,
+      "close": 427.1000061035156,
+      "adj_close": 427.1000061035156,
       "volume": 17238230
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-20",
+      "open": 426.20001220703125,
+      "high": 427.0,
+      "low": 421.79998779296875,
+      "close": 422.0,
+      "adj_close": 422.0,
+      "volume": 9630560
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

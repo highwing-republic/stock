@@ -14,7 +14,7 @@
    "RECOVERY"
   ],
   "startedAt": "2026-09-10",
-  "status": "STRENGTHENING",
+  "status": "REACTED",
   "statusHistory": [
    {
     "date": "2026-09-10",
@@ -33,6 +33,18 @@
     "from": "WATCH",
     "reason_code": "SETUP_IMPROVED",
     "to": "STRENGTHENING"
+   },
+   {
+    "date": "2026-10-19",
+    "from": "STRENGTHENING",
+    "reason_code": "NEW_HIGH60_VOLUME",
+    "to": "CONFIRMED"
+   },
+   {
+    "date": "2026-10-20",
+    "from": "CONFIRMED",
+    "reason_code": "EXCESS_THRESHOLD",
+    "to": "REACTED"
    }
   ],
   "watchStartedAt": "2026-09-10"
@@ -59,8 +71,8 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 1.3,
-  "currentPrice": 2702.5,
+  "benchReturn": -0.2,
+  "currentPrice": 2793.0,
   "d20": {
    "benchReturn": 2.0,
    "excessReturn": 1.6,
@@ -76,37 +88,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 38,
+   "pendingDays": 36,
    "stockReturn": null
   },
-  "excessReturn": 5.1,
+  "excessReturn": 10.2,
   "initialDate": "2026-09-10",
   "initialPrice": 2539.6,
-  "stockReturn": 6.4
+  "stockReturn": 10.0
  },
  "priceSetup": {
-  "asOf": "2026-10-16",
+  "asOf": "2026-10-20",
   "atrState": "通常",
-  "distFrom52wHigh": 0.16,
+  "distFrom52wHigh": 0.14,
   "labels": [
    "20日線の上",
-   "60日レンジ上位3%",
+   "60日レンジ上位18%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2606.1,
-  "ma200": 2726.0,
-  "ma60": 2533.0,
-  "rangePos60": 0.97,
-  "rel20": 4.0,
-  "rel60": 6.2,
-  "volumeRatio20": 0.82
+  "ma20": 2629.5,
+  "ma200": 2723.7,
+  "ma60": 2541.5,
+  "rangePos60": 0.82,
+  "rel20": 9.9,
+  "rel60": 9.6,
+  "volumeRatio20": 0.36
  },
  "reasons": [
   "1pt買い増し 8.2%→9.3%",
-  "60日レンジ上位3%",
+  "60日レンジ上位18%",
   "20日線上向き",
-  "TOPIX連動ETF比 +4pt（20日）"
+  "TOPIX連動ETF比 +9.9pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -228,7 +240,28 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-19",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-19",
+   "detail": "60日高値を出来高増で更新",
+   "kind": "STATUS",
+   "label": "CONFIRMED",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-20",
+   "detail": "TOPIX連動ETFとの差が大きくなった",
+   "kind": "STATUS",
+   "label": "REACTED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-20T01:14:39+09:00"
+ "updatedAt": "2026-10-20T14:14:02+09:00"
 }

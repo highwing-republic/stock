@@ -1,0 +1,92 @@
+{
+ "company": {
+  "name": "オプトラン",
+  "securityCode": "6235",
+  "tradingViewSymbol": "TSE:6235"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "6235-2026-10-20",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-10-20",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-10-20",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": -5.2,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z8PF",
+   "excess5": null
+  },
+  {
+   "d1": -5.2,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z8UY",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-16",
+  "buyBalance": 528500,
+  "buyChangePct": 5.2,
+  "labels": [
+   "信用倍率改善",
+   "売残増加"
+  ],
+  "ratio": 9.37,
+  "sellBalance": 56400,
+  "sellChangePct": 2250.0
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-10-20",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.52,
+  "labels": [
+   "20日線が上向き"
+  ],
+  "ma20": 2620.6,
+  "ma200": 3001.2,
+  "ma60": 2763.9,
+  "rangePos60": 0.04,
+  "rel20": -3.4,
+  "rel60": -27.5,
+  "volumeRatio20": 0.74
+ },
+ "reasons": [
+  "新規大量保有 5.3%（ウエリントン・マネージメント・カンパニー・エルエルピー）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-10-20",
+   "detail": "5.13% → 8.52%（シュローダー・インベストメント・マネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8PF"
+  },
+  {
+   "date": "2026-10-20",
+   "detail": "保有割合 5.3%（ウエリントン・マネージメント・カンパニー・エルエルピー）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8UY"
+  }
+ ],
+ "updatedAt": "2026-10-20T14:14:02+09:00"
+}

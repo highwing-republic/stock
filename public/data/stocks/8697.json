@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-10-20T01:13:27+09:00",
+  "updatedAt": "2026-10-20T14:13:06+09:00",
   "company": {
     "securityCode": "8697",
     "ticker": "8697.T",
     "name": "株式会社日本取引所グループ"
   },
   "events": [
+    {
+      "docId": "S100Z8XD",
+      "ticker": "8697.T",
+      "securityCode": "8697",
+      "companyName": "株式会社日本取引所グループ",
+      "submitDatetime": "2026-10-20 12:01",
+      "filerName": "ＪＰモルガン証券株式会社",
+      "reportType": "change",
+      "holdingRatio": 4.14,
+      "previousHoldingRatio": 5.18,
+      "holdingChange": -1.04,
+      "purpose": "顧客または投資信託等の資産運用（純投資） / 顧客資産の運用及び顧客取引に係る保有 / 金融商品取引業務にかかる保有 / 顧客資産の運用（純投資）。みなし共同保有者から除外する。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -2.92,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z630",
       "ticker": "8697.T",
@@ -32,7 +62,7 @@
         "return1d": 0.22,
         "return5d": -2.02,
         "return20d": null,
-        "returnCurrent": -3.69,
+        "returnCurrent": -5.51,
         "volumeRatio": 1.01,
         "marketExcessReturn": -2.55
       }
@@ -3905,9 +3935,19 @@
       "open": 2196.0,
       "high": 2256.0,
       "low": 2196.0,
-      "close": null,
-      "adj_close": null,
+      "close": 2242.5,
+      "adj_close": 2242.5,
       "volume": 4221200
+    },
+    {
+      "ticker": "8697.T",
+      "trade_date": "2026-10-20",
+      "open": 2215.5,
+      "high": 2223.0,
+      "low": 2173.5,
+      "close": 2177.0,
+      "adj_close": 2177.0,
+      "volume": 2745600
     }
   ],
   "benchmark": [
@@ -7777,9 +7817,19 @@
       "open": 424.0,
       "high": 428.29998779296875,
       "low": 421.6000061035156,
-      "close": null,
-      "adj_close": null,
+      "close": 427.1000061035156,
+      "adj_close": 427.1000061035156,
       "volume": 17238230
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-20",
+      "open": 426.20001220703125,
+      "high": 427.0,
+      "low": 421.79998779296875,
+      "close": 422.0,
+      "adj_close": 422.0,
+      "volume": 9630560
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

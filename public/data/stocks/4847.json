@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T01:13:27+09:00",
+  "updatedAt": "2026-10-20T14:13:06+09:00",
   "company": {
     "securityCode": "4847",
     "ticker": "4847.T",
@@ -19,9 +19,9 @@
       "holdingChange": -1.0,
       "purpose": "発行会社の創業者であり、安定株主として株式を保有しております。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 1.69,
-      "marketExcessReturn": null,
+      "priceChange": 2.24,
+      "volumeRatio": 1.56,
+      "marketExcessReturn": 2.8,
       "signalScore": 0,
       "signalReasons": [
         "保有割合減少"
@@ -29,11 +29,11 @@
       "stockUnreacted": false,
       "metrics": {
         "return1d": 1.71,
-        "return5d": null,
+        "return5d": 2.24,
         "return20d": null,
-        "returnCurrent": 3.03,
-        "volumeRatio": 1.69,
-        "marketExcessReturn": null
+        "returnCurrent": -1.25,
+        "volumeRatio": 1.56,
+        "marketExcessReturn": 2.8
       }
     }
   ],
@@ -2744,9 +2744,19 @@
       "open": 1559.0,
       "high": 1580.0,
       "low": 1543.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1551.0,
+      "adj_close": 1551.0,
       "volume": 86000
+    },
+    {
+      "ticker": "4847.T",
+      "trade_date": "2026-10-20",
+      "open": 1546.0,
+      "high": 1546.0,
+      "low": 1496.0,
+      "close": 1498.0,
+      "adj_close": 1498.0,
+      "volume": 68900
     }
   ],
   "benchmark": [
@@ -6616,9 +6626,19 @@
       "open": 424.0,
       "high": 428.29998779296875,
       "low": 421.6000061035156,
-      "close": null,
-      "adj_close": null,
+      "close": 427.1000061035156,
+      "adj_close": 427.1000061035156,
       "volume": 17238230
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-20",
+      "open": 426.20001220703125,
+      "high": 427.0,
+      "low": 421.79998779296875,
+      "close": 422.0,
+      "adj_close": 422.0,
+      "volume": 9630560
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

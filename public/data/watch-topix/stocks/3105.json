@@ -5,14 +5,14 @@
   "tradingViewSymbol": "TSE:3105"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "BROKEN",
+  "closedAt": "2026-10-20",
   "id": "3105-2026-09-25",
   "overextended": false,
   "setupType": "TREND",
   "setups": [],
   "startedAt": "2026-09-25",
-  "status": "STRENGTHENING",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-09-25",
@@ -31,6 +31,18 @@
     "from": "WATCH",
     "reason_code": "SETUP_IMPROVED",
     "to": "STRENGTHENING"
+   },
+   {
+    "date": "2026-10-19",
+    "from": "STRENGTHENING",
+    "reason_code": "BELOW_MA20",
+    "to": "BROKEN"
+   },
+   {
+    "date": "2026-10-20",
+    "from": "BROKEN",
+    "reason_code": "BROKEN",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-09-25"
@@ -57,12 +69,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -0.4,
-  "currentPrice": 2504.5,
+  "benchReturn": -2.0,
+  "currentPrice": 2431.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 6,
+   "pendingDays": 4,
    "stockReturn": null
   },
   "d5": {
@@ -74,33 +86,33 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 46,
+   "pendingDays": 44,
    "stockReturn": null
   },
-  "excessReturn": -1.7,
+  "excessReturn": -3.0,
   "initialDate": "2026-09-25",
   "initialPrice": 2559.0,
-  "stockReturn": -2.1
+  "stockReturn": -5.0
  },
  "priceSetup": {
-  "asOf": "2026-10-16",
+  "asOf": "2026-10-20",
   "atrState": "通常",
-  "distFrom52wHigh": 0.12,
+  "distFrom52wHigh": 0.14,
   "labels": [
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2589.5,
-  "ma200": 1988.0,
-  "ma60": 2365.4,
-  "rangePos60": 0.59,
-  "rel20": 10.6,
-  "rel60": 4.7,
-  "volumeRatio20": 0.73
+  "ma20": 2605.7,
+  "ma200": 2000.1,
+  "ma60": 2373.0,
+  "rangePos60": 0.5,
+  "rel20": 2.9,
+  "rel60": 5.0,
+  "volumeRatio20": 0.34
  },
  "reasons": [
   "新規大量保有 5.1%（三井住友ＤＳアセットマネジメント株式会社）",
-  "TOPIX連動ETF比 +10.6pt（20日）"
+  "TOPIX連動ETF比 +2.9pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -173,7 +185,21 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-19",
+   "detail": "20日線を連続で下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-20",
+   "detail": "Price Setupが崩れた",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-20T01:14:39+09:00"
+ "updatedAt": "2026-10-20T14:14:02+09:00"
 }
