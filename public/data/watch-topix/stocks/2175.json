@@ -10,9 +10,7 @@
   "id": "2175-2026-08-07",
   "overextended": false,
   "setupType": "BREAKOUT",
-  "setups": [
-   "BREAKOUT"
-  ],
+  "setups": [],
   "startedAt": "2026-08-07",
   "status": "REACTED",
   "statusHistory": [
@@ -116,15 +114,13 @@
   }
  ],
  "margin": {
-  "asOf": "2026-10-19",
-  "buyBalance": 106500,
-  "buyChangePct": 17.4,
-  "labels": [
-   "信用倍率悪化"
-  ],
-  "ratio": 1.69,
-  "sellBalance": 63100,
-  "sellChangePct": -3.1
+  "asOf": "2026-10-20",
+  "buyBalance": 106100,
+  "buyChangePct": 12.2,
+  "labels": [],
+  "ratio": 1.66,
+  "sellBalance": 63900,
+  "sellChangePct": 0.0
  },
  "pastEpisodes": [
   {
@@ -137,7 +133,7 @@
  ],
  "performance": {
   "benchReturn": 0.4,
-  "currentPrice": 2658.0,
+  "currentPrice": 2657.0,
   "d20": {
    "benchReturn": 0.5,
    "excessReturn": 12.5,
@@ -164,26 +160,25 @@
  "priceSetup": {
   "asOf": "2026-10-21",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.03,
+  "distFrom52wHigh": 0.04,
   "labels": [
-   "20日線の上",
    "60日レンジ上位14%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2658.0,
+  "ma20": 2657.9,
   "ma200": 2006.8,
   "ma60": 2488.1,
   "rangePos60": 0.86,
   "rel20": -0.3,
   "rel60": 6.9,
-  "volumeRatio20": 0.6
+  "volumeRatio20": 1.21
  },
  "reasons": [
   "1pt買い増し 25.9%→27%",
   "30日以内に2回買い増し",
   "60日レンジ上位14%",
-  "20日線上向き"
+  "52週高値まで4%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -382,7 +377,14 @@
    "kind": "EVENT",
    "label": "買い増し",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8Y7"
+  },
+  {
+   "date": "2026-10-21",
+   "detail": "BREAKOUT → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-21T14:16:12+09:00"
+ "updatedAt": "2026-10-21T17:56:57+09:00"
 }

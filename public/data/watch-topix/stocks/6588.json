@@ -38,24 +38,31 @@
    "d5": 6.1,
    "eventId": "edinet:S100Z6FK",
    "excess5": 7.0
+  },
+  {
+   "d1": 2.2,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z9A9",
+   "excess5": null
   }
  ],
  "margin": {
-  "asOf": "2026-10-19",
-  "buyBalance": 131400,
-  "buyChangePct": -7.7,
+  "asOf": "2026-10-20",
+  "buyBalance": 97800,
+  "buyChangePct": -28.4,
   "labels": [
-   "信用倍率改善",
-   "売残増加"
+   "信用買残減少",
+   "信用倍率改善"
   ],
-  "ratio": 3.95,
-  "sellBalance": 33300,
-  "sellChangePct": 27.1
+  "ratio": 3.13,
+  "sellBalance": 31200,
+  "sellChangePct": 11.8
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -1.5,
-  "currentPrice": 3070.0,
+  "benchReturn": -1.6,
+  "currentPrice": 3080.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
@@ -74,10 +81,10 @@
    "pendingDays": 54,
    "stockReturn": null
   },
-  "excessReturn": 2.3,
+  "excessReturn": 2.7,
   "initialDate": "2026-10-13",
   "initialPrice": 3045.0,
-  "stockReturn": 0.8
+  "stockReturn": 1.1
  },
  "priceSetup": {
   "asOf": "2026-10-21",
@@ -88,19 +95,19 @@
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2951.3,
-  "ma200": 2940.0,
-  "ma60": 3013.4,
-  "rangePos60": 0.52,
-  "rel20": 5.8,
-  "rel60": -3.2,
-  "volumeRatio20": 0.36
+  "ma20": 2951.8,
+  "ma200": 2940.1,
+  "ma60": 3013.6,
+  "rangePos60": 0.53,
+  "rel20": 6.2,
+  "rel60": -2.8,
+  "volumeRatio20": 0.82
  },
  "reasons": [
   "新規大量保有 5.4%（モルガン・スタンレーＭＵＦＧ証券株式会社）",
   "20日線上向き",
-  "TOPIX連動ETF比 +5.8pt（20日）",
-  "信用買残 -8%"
+  "TOPIX連動ETF比 +6.2pt（20日）",
+  "信用買残 -28%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -145,7 +152,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-21",
+   "detail": "5.43% → 2.31%（モルガン・スタンレーＭＵＦＧ証券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9A9"
   }
  ],
- "updatedAt": "2026-10-21T14:16:12+09:00"
+ "updatedAt": "2026-10-21T17:56:57+09:00"
 }

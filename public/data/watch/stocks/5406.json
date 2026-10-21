@@ -51,13 +51,15 @@
   }
  ],
  "margin": {
-  "asOf": "2026-10-19",
-  "buyBalance": 1551400,
-  "buyChangePct": -6.0,
-  "labels": [],
-  "ratio": 7.02,
-  "sellBalance": 220900,
-  "sellChangePct": -1.9
+  "asOf": "2026-10-20",
+  "buyBalance": 1287900,
+  "buyChangePct": -17.8,
+  "labels": [
+   "信用買残減少"
+  ],
+  "ratio": 6.2,
+  "sellBalance": 207700,
+  "sellChangePct": -13.1
  },
  "pastEpisodes": [],
  "performance": {
@@ -91,22 +93,24 @@
   "atrState": "低ボラ",
   "distFrom52wHigh": 0.12,
   "labels": [
-   "60日レンジ上位30%",
+   "20日線の上",
+   "60日レンジ上位25%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2012.4,
-  "ma200": 1981.4,
-  "ma60": 1996.8,
-  "rangePos60": 0.7,
-  "rel20": -1.5,
-  "rel60": 1.8,
-  "volumeRatio20": 0.49
+  "ma20": 2012.9,
+  "ma200": 1981.5,
+  "ma60": 1996.9,
+  "rangePos60": 0.75,
+  "rel20": -1.0,
+  "rel60": 2.3,
+  "volumeRatio20": 0.87
  },
  "reasons": [
   "新規大量保有 5%（株式会社三菱ＵＦＪフィナンシャル・グループ）",
-  "60日レンジ上位30%",
-  "信用買残 -6%"
+  "60日レンジ上位25%",
+  "20日線を回復",
+  "信用買残 -18%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -221,7 +225,21 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-21",
+   "detail": "なし → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-21",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-21T14:15:25+09:00"
+ "updatedAt": "2026-10-21T17:55:55+09:00"
 }

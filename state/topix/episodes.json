@@ -2041,6 +2041,10 @@
    "event_id": "edinet:S100Z6FK"
   },
   {
+   "episode_id": "6588-2026-10-06",
+   "event_id": "edinet:S100Z9A9"
+  },
+  {
    "episode_id": "6590-2026-06-22",
    "event_id": "edinet:S100YE03"
   },
@@ -3095,6 +3099,10 @@
   {
    "episode_id": "9024-2026-10-06",
    "event_id": "edinet:S100Z6FB"
+  },
+  {
+   "episode_id": "9024-2026-10-06",
+   "event_id": "edinet:S100Z992"
   },
   {
    "episode_id": "9039-2026-06-22",
@@ -7312,7 +7320,10 @@
    "primary_trigger_event_id": "edinet:S100YOC4",
    "security_code": "5122",
    "setup_type": "TREND",
-   "setups": [],
+   "setups": [
+    "TREND",
+    "RECOVERY"
+   ],
    "started_at": "2026-07-03",
    "status": "REACTED",
    "status_history": [
@@ -13677,9 +13688,7 @@
    "primary_trigger_event_id": "edinet:S100YTXX",
    "security_code": "2175",
    "setup_type": "BREAKOUT",
-   "setups": [
-    "BREAKOUT"
-   ],
+   "setups": [],
    "started_at": "2026-08-07",
    "status": "REACTED",
    "status_history": [
@@ -16448,7 +16457,8 @@
    "security_code": "1721",
    "setup_type": "TREND",
    "setups": [
-    "TREND"
+    "TREND",
+    "RECOVERY"
    ],
    "started_at": "2026-08-27",
    "status": "CONFIRMED",
@@ -18754,9 +18764,8 @@
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z2D9",
    "security_code": "3549",
-   "setup_type": "TREND",
+   "setup_type": "RECOVERY",
    "setups": [
-    "TREND",
     "RECOVERY"
    ],
    "started_at": "2026-09-17",
@@ -20877,7 +20886,9 @@
    "primary_trigger_event_id": "edinet:S100Z4YH",
    "security_code": "3104",
    "setup_type": "RECOVERY",
-   "setups": [],
+   "setups": [
+    "RECOVERY"
+   ],
    "started_at": "2026-10-06",
    "status": "WATCH",
    "status_history": [
@@ -21321,7 +21332,8 @@
    "company_name": "東芝テック",
    "episode_id": "6588-2026-10-06",
    "event_ids": [
-    "edinet:S100Z6FK"
+    "edinet:S100Z6FK",
+    "edinet:S100Z9A9"
    ],
    "initial_bench": 432.5,
    "initial_price": 3045.0,
@@ -21411,7 +21423,8 @@
    "company_name": "西武ホールディングス",
    "episode_id": "9024-2026-10-06",
    "event_ids": [
-    "edinet:S100Z6FB"
+    "edinet:S100Z6FB",
+    "edinet:S100Z992"
    ],
    "initial_bench": 429.5,
    "initial_price": 3593.0,
@@ -21810,9 +21823,8 @@
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z5ZR",
    "security_code": "9682",
-   "setup_type": "BREAKOUT",
+   "setup_type": "TREND",
    "setups": [
-    "BREAKOUT",
     "TREND",
     "RECOVERY"
    ],
@@ -22036,8 +22048,8 @@
    "event_ids": [
     "edinet:S100Z8JI"
    ],
-   "initial_bench": 425.79998779296875,
-   "initial_price": 738.4000244140625,
+   "initial_bench": 425.6000061035156,
+   "initial_price": 737.9000244140625,
    "last_trigger_at": "2026-10-20",
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z8JI",
@@ -22102,8 +22114,8 @@
    "event_ids": [
     "edinet:S100Z8YE"
    ],
-   "initial_bench": 425.79998779296875,
-   "initial_price": 2537.5,
+   "initial_bench": 425.6000061035156,
+   "initial_price": 2547.0,
    "last_trigger_at": "2026-10-21",
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z8YE",
@@ -22169,8 +22181,8 @@
    "event_ids": [
     "edinet:S100Z948"
    ],
-   "initial_bench": 425.79998779296875,
-   "initial_price": 3265.0,
+   "initial_bench": 425.6000061035156,
+   "initial_price": 3260.0,
    "last_trigger_at": "2026-10-21",
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z948",

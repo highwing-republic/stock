@@ -39,20 +39,21 @@
   }
  ],
  "margin": {
-  "asOf": "2026-10-19",
-  "buyBalance": 563000,
-  "buyChangePct": -16.3,
+  "asOf": "2026-10-20",
+  "buyBalance": 535900,
+  "buyChangePct": -20.2,
   "labels": [
-   "信用買残減少"
+   "信用買残減少",
+   "信用倍率改善"
   ],
-  "ratio": 6.6,
-  "sellBalance": 85300,
-  "sellChangePct": -8.6
+  "ratio": 5.58,
+  "sellBalance": 96000,
+  "sellChangePct": 3.1
  },
  "pastEpisodes": [],
  "performance": {
   "benchReturn": -1.6,
-  "currentPrice": 1412.0,
+  "currentPrice": 1415.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
@@ -71,10 +72,10 @@
    "pendingDays": 53,
    "stockReturn": null
   },
-  "excessReturn": -7.3,
+  "excessReturn": -7.1,
   "initialDate": "2026-10-09",
   "initialPrice": 1550.0,
-  "stockReturn": -8.9
+  "stockReturn": -8.7
  },
  "priceSetup": {
   "asOf": "2026-10-21",
@@ -84,18 +85,19 @@
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 1435.2,
+  "ma20": 1435.3,
   "ma200": 1145.7,
-  "ma60": 1380.8,
+  "ma60": 1380.9,
   "rangePos60": 0.66,
-  "rel20": 4.5,
-  "rel60": 23.3,
-  "volumeRatio20": 0.36
+  "rel20": 4.7,
+  "rel60": 23.6,
+  "volumeRatio20": 0.68
  },
  "reasons": [
   "1.2pt買い増し 17.4%→18.5%",
-  "TOPIX連動ETF比 +4.5pt（20日）",
-  "信用買残 -16%"
+  "TOPIX連動ETF比 +4.7pt（20日）",
+  "52週高値まで10%",
+  "信用買残 -20%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -122,11 +124,18 @@
   },
   {
    "date": "2026-10-21",
+   "detail": "18.54% → 18.9%（エフィッシモ　キャピタル　マネージメント　ピーティーイー　エルティーディー（Ｅｆｆｉｓｓｉｍｏ　Ｃａｐｉｔａｌ　Ｍａｎａｇｅｍｅｎｔ　Ｐｔｅ　Ｌｔｄ））",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z91W"
+  },
+  {
+   "date": "2026-10-21",
    "detail": "TREND → なし",
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-21T14:15:25+09:00"
+ "updatedAt": "2026-10-21T17:55:55+09:00"
 }

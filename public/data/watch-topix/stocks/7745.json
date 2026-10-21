@@ -121,14 +121,14 @@
    "excess5": null
   },
   {
-   "d1": 1.4,
+   "d1": 2.2,
    "d20": null,
    "d5": null,
    "eventId": "edinet:S100Z8T9",
    "excess5": null
   },
   {
-   "d1": 1.4,
+   "d1": 2.2,
    "d20": null,
    "d5": null,
    "eventId": "edinet:S100Z8TA",
@@ -136,16 +136,16 @@
   }
  ],
  "margin": {
-  "asOf": "2026-10-19",
-  "buyBalance": 73200,
-  "buyChangePct": -1.6,
+  "asOf": "2026-10-20",
+  "buyBalance": 74600,
+  "buyChangePct": 4.3,
   "labels": [
    "信用倍率改善",
    "売残増加"
   ],
-  "ratio": 4.98,
-  "sellBalance": 14700,
-  "sellChangePct": 172.2
+  "ratio": 5.41,
+  "sellBalance": 13800,
+  "sellChangePct": 50.0
  },
  "pastEpisodes": [
   {
@@ -164,8 +164,8 @@
   }
  ],
  "performance": {
-  "benchReturn": -0.1,
-  "currentPrice": 2933.0,
+  "benchReturn": -0.2,
+  "currentPrice": 2956.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
@@ -184,31 +184,32 @@
    "pendingDays": 41,
    "stockReturn": null
   },
-  "excessReturn": 2.5,
+  "excessReturn": 3.4,
   "initialDate": "2026-09-18",
   "initialPrice": 2864.7,
-  "stockReturn": 2.4
+  "stockReturn": 3.2
  },
  "priceSetup": {
   "asOf": "2026-10-21",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.13,
+  "distFrom52wHigh": 0.12,
   "labels": [
+   "20日線の上",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2951.5,
-  "ma200": 2702.6,
-  "ma60": 2892.5,
-  "rangePos60": 0.37,
-  "rel20": 2.7,
-  "rel60": 2.1,
-  "volumeRatio20": 0.72
+  "ma20": 2952.7,
+  "ma200": 2702.7,
+  "ma60": 2892.9,
+  "rangePos60": 0.4,
+  "rel20": 3.5,
+  "rel60": 3.0,
+  "volumeRatio20": 1.13
  },
  "reasons": [
   "1.1pt買い増し 16.7%→17.8%",
-  "TOPIX連動ETF比 +2.7pt（20日）",
-  "信用買残 -2%"
+  "20日線を回復",
+  "TOPIX連動ETF比 +3.5pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -428,7 +429,14 @@
    "kind": "EVENT",
    "label": "訂正報告",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8TA"
+  },
+  {
+   "date": "2026-10-21",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-21T14:16:12+09:00"
+ "updatedAt": "2026-10-21T17:56:57+09:00"
 }
