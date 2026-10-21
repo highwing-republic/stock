@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T23:10:51+09:00",
+  "updatedAt": "2026-10-21T14:15:18+09:00",
   "company": {
     "securityCode": "3542",
     "ticker": "3542.T",
@@ -19,22 +19,24 @@
       "holdingChange": -0.45,
       "purpose": "発行会社の創業者であり、経営参加を目的とした安定株主として保有しております。発行会社の役員として経営に参加するため、また経営の安定化を図るため保有しております。 / 創業者の出資会社の代表取締役であり、安定株主として長期保有することを目的としています。 / 創業者の出資会社である株式会社アルタイルの代表取締役であり、安定株主として長期保有することを目的としています。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 2.21,
-      "marketExcessReturn": null,
-      "signalScore": 0,
+      "priceChange": 10.91,
+      "volumeRatio": 3.28,
+      "marketExcessReturn": 12.51,
+      "signalScore": 5,
       "signalReasons": [
         "出来高2倍以上",
+        "出来高3倍以上",
+        "市場超過5%以上",
         "保有割合減少"
       ],
       "stockUnreacted": false,
       "metrics": {
         "return1d": 0.33,
-        "return5d": null,
+        "return5d": 10.91,
         "return20d": null,
-        "returnCurrent": 13.77,
-        "volumeRatio": 2.21,
-        "marketExcessReturn": null
+        "returnCurrent": 10.91,
+        "volumeRatio": 3.28,
+        "marketExcessReturn": 12.51
       }
     }
   ],
@@ -2728,6 +2730,16 @@
       "close": 1710.0,
       "adj_close": 1710.0,
       "volume": 53100
+    },
+    {
+      "ticker": "3542.T",
+      "trade_date": "2026-10-21",
+      "open": 1750.0,
+      "high": 1785.0,
+      "low": 1610.0,
+      "close": 1667.0,
+      "adj_close": 1667.0,
+      "volume": 86300
     }
   ],
   "benchmark": [
@@ -6610,6 +6622,16 @@
       "close": 421.79998779296875,
       "adj_close": 421.79998779296875,
       "volume": 13259900
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-21",
+      "open": 426.79998779296875,
+      "high": 427.5,
+      "low": 425.0,
+      "close": 425.6000061035156,
+      "adj_close": 425.6000061035156,
+      "volume": 10491950
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

@@ -10,7 +10,11 @@
   "id": "4565-2026-08-21",
   "overextended": false,
   "setupType": "BREAKOUT",
-  "setups": [],
+  "setups": [
+   "BREAKOUT",
+   "TREND",
+   "RECOVERY"
+  ],
   "startedAt": "2026-08-21",
   "status": "REACTED",
   "statusHistory": [
@@ -81,8 +85,8 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -0.5,
-  "currentPrice": 1196.0,
+  "benchReturn": 0.4,
+  "currentPrice": 1336.0,
   "d20": {
    "benchReturn": 0.5,
    "excessReturn": 17.3,
@@ -98,35 +102,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 22,
+   "pendingDays": 21,
    "stockReturn": null
   },
-  "excessReturn": 8.9,
+  "excessReturn": 20.7,
   "initialDate": "2026-08-21",
   "initialPrice": 1103.0,
-  "stockReturn": 8.4
+  "stockReturn": 21.1
  },
  "priceSetup": {
-  "asOf": "2026-10-20",
+  "asOf": "2026-10-21",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.09,
+  "distFrom52wHigh": 0.01,
   "labels": [
-   "60日レンジ上位25%",
+   "20日線の上",
+   "60日レンジ上位3%",
+   "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 1234.2,
-  "ma200": 994.7,
-  "ma60": 1113.7,
-  "rangePos60": 0.75,
-  "rel20": 0.6,
-  "rel60": 30.3,
-  "volumeRatio20": 0.62
+  "ma20": 1237.7,
+  "ma200": 997.5,
+  "ma60": 1120.6,
+  "rangePos60": 0.97,
+  "rel20": 5.9,
+  "rel60": 43.8,
+  "volumeRatio20": 2.29
  },
  "reasons": [
   "新規大量保有 5.1%（ゴールドマン・サックス証券株式会社）",
-  "60日レンジ上位25%",
-  "TOPIX連動ETF比 +0.6pt（20日）",
-  "52週高値まで9%"
+  "出来高 2.3倍で60日高値更新",
+  "60日レンジ上位3%",
+  "20日線を回復"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -311,7 +317,28 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-21",
+   "detail": "なし → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-21",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-21",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-20T23:12:08+09:00"
+ "updatedAt": "2026-10-21T14:16:12+09:00"
 }

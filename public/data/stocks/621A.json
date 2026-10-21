@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T23:10:51+09:00",
+  "updatedAt": "2026-10-21T14:15:18+09:00",
   "company": {
     "securityCode": "621A",
     "ticker": "621A.T",
@@ -20,7 +20,7 @@
       "purpose": "発行会社の代表取締役社長の資産管理会社であり、安定株主として保有しております。 / 発行会社の創業者かつ代表取締役社長であり、安定株主として保有しております。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.01,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [
@@ -29,11 +29,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": -1.7,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -2.03,
-        "volumeRatio": null,
+        "returnCurrent": -1.7,
+        "volumeRatio": 0.01,
         "marketExcessReturn": null
       }
     },
@@ -60,7 +60,7 @@
         "return1d": 1.35,
         "return5d": -9.77,
         "return20d": null,
-        "returnCurrent": -9.17,
+        "returnCurrent": -8.87,
         "volumeRatio": 0.05,
         "marketExcessReturn": -7.8
       }
@@ -88,7 +88,7 @@
         "return1d": -5.75,
         "return5d": -16.25,
         "return20d": null,
-        "returnCurrent": -25.28,
+        "returnCurrent": -25.03,
         "volumeRatio": 0.39,
         "marketExcessReturn": -19.1
       }
@@ -119,7 +119,7 @@
         "return1d": 5.64,
         "return5d": -3.71,
         "return20d": null,
-        "returnCurrent": -16.85,
+        "returnCurrent": -16.57,
         "volumeRatio": 0.51,
         "marketExcessReturn": -5.1
       }
@@ -150,7 +150,7 @@
         "return1d": 4.12,
         "return5d": -6.05,
         "return20d": null,
-        "returnCurrent": -22.2,
+        "returnCurrent": -21.94,
         "volumeRatio": 0.7,
         "marketExcessReturn": -7.32
       }
@@ -180,7 +180,7 @@
         "return1d": 6.91,
         "return5d": 5.66,
         "return20d": null,
-        "returnCurrent": -11.1,
+        "returnCurrent": -10.81,
         "volumeRatio": 0.75,
         "marketExcessReturn": 3.76
       }
@@ -396,6 +396,16 @@
       "close": 1209.0,
       "adj_close": 1209.0,
       "volume": 117300
+    },
+    {
+      "ticker": "621A.T",
+      "trade_date": "2026-10-21",
+      "open": 1202.0,
+      "high": 1231.0,
+      "low": 1202.0,
+      "close": 1213.0,
+      "adj_close": 1213.0,
+      "volume": 38000
     }
   ],
   "benchmark": [
@@ -4278,6 +4288,16 @@
       "close": 421.79998779296875,
       "adj_close": 421.79998779296875,
       "volume": 13259900
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-21",
+      "open": 426.79998779296875,
+      "high": 427.5,
+      "low": 425.0,
+      "close": 425.6000061035156,
+      "adj_close": 425.6000061035156,
+      "volume": 10491950
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

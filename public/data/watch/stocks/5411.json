@@ -80,20 +80,23 @@
  ],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-10-20",
+  "asOf": "2026-10-21",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.24,
-  "labels": [],
-  "ma20": 1740.6,
-  "ma200": 1791.4,
-  "ma60": 1771.8,
-  "rangePos60": 0.27,
-  "rel20": -4.5,
-  "rel60": 0.6,
-  "volumeRatio20": 0.96
+  "distFrom52wHigh": 0.23,
+  "labels": [
+   "20日線の上"
+  ],
+  "ma20": 1734.8,
+  "ma200": 1790.8,
+  "ma60": 1772.8,
+  "rangePos60": 0.32,
+  "rel20": -5.9,
+  "rel60": 2.3,
+  "volumeRatio20": 0.37
  },
  "reasons": [
   "新規大量保有 5%（ブラックロック・ジャパン株式会社）",
+  "20日線を回復",
   "信用買残 -7%"
  ],
  "schemaVersion": 1,
@@ -132,7 +135,14 @@
    "kind": "EVENT",
    "label": "新規大量保有",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z5XQ"
+  },
+  {
+   "date": "2026-10-21",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-20T23:11:04+09:00"
+ "updatedAt": "2026-10-21T14:15:25+09:00"
 }

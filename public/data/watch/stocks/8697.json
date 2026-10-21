@@ -82,7 +82,7 @@
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 10,
+   "pendingDays": 9,
    "stockReturn": null
   },
   "d5": {
@@ -94,7 +94,7 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 50,
+   "pendingDays": 49,
    "stockReturn": null
   },
   "excessReturn": 0.1,
@@ -103,24 +103,25 @@
   "stockReturn": -2.0
  },
  "priceSetup": {
-  "asOf": "2026-10-20",
+  "asOf": "2026-10-21",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.07,
+  "distFrom52wHigh": 0.04,
   "labels": [
-   "20日線が上向き"
+   "20日線が上向き",
+   "60日線の上"
   ],
-  "ma20": 2252.6,
-  "ma200": 1969.1,
-  "ma60": 2212.2,
-  "rangePos60": 0.37,
-  "rel20": 0.1,
-  "rel60": -3.2,
-  "volumeRatio20": 1.46
+  "ma20": 2253.8,
+  "ma200": 1972.3,
+  "ma60": 2213.2,
+  "rangePos60": 0.63,
+  "rel20": 1.5,
+  "rel60": 1.4,
+  "volumeRatio20": 0.6
  },
  "reasons": [
   "新規大量保有 5.2%（ＪＰモルガン証券株式会社）",
-  "TOPIX連動ETF比 +0.1pt（20日）",
-  "52週高値まで7%"
+  "TOPIX連動ETF比 +1.5pt（20日）",
+  "52週高値まで4%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -200,7 +201,14 @@
    "kind": "EVENT",
    "label": "保有割合の減少",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8XD"
+  },
+  {
+   "date": "2026-10-21",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-20T23:11:04+09:00"
+ "updatedAt": "2026-10-21T14:15:25+09:00"
 }

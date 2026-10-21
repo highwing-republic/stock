@@ -1,0 +1,104 @@
+{
+ "company": {
+  "name": "高島屋",
+  "securityCode": "8233",
+  "tradingViewSymbol": "TSE:8233"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "8233-2026-10-21",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-10-21",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-10-21",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": 0.2,
+   "d20": null,
+   "d5": -0.5,
+   "eventId": "edinet:S100Z2OD",
+   "excess5": -1.7
+  },
+  {
+   "d1": 0.7,
+   "d20": null,
+   "d5": -1.7,
+   "eventId": "edinet:S100Z3LX",
+   "excess5": -4.0
+  },
+  {
+   "d1": 0.2,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z8PZ",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-19",
+  "buyBalance": 976100,
+  "buyChangePct": 5.5,
+  "labels": [],
+  "ratio": 2.66,
+  "sellBalance": 367400,
+  "sellChangePct": 3.9
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-10-21",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.19,
+  "labels": [
+   "20日線が上向き"
+  ],
+  "ma20": 2119.1,
+  "ma200": 2068.8,
+  "ma60": 2211.0,
+  "rangePos60": 0.1,
+  "rel20": -2.3,
+  "rel60": -13.9,
+  "volumeRatio20": 0.32
+ },
+ "reasons": [
+  "0.1pt買い増し 5.8%→5.9%",
+  "30日以内に2回買い増し"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-09-24",
+   "detail": "5.14% → 5.77%（三井住友トラスト・アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z2OD"
+  },
+  {
+   "date": "2026-09-25",
+   "detail": "6.31% → 7.29%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z3LX"
+  },
+  {
+   "date": "2026-10-21",
+   "detail": "5.77% → 5.89%（三井住友トラスト・アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8PZ"
+  }
+ ],
+ "updatedAt": "2026-10-21T14:16:12+09:00"
+}

@@ -119,6 +119,20 @@
    "d5": null,
    "eventId": "edinet:S100Z8JN",
    "excess5": null
+  },
+  {
+   "d1": 1.4,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z8T9",
+   "excess5": null
+  },
+  {
+   "d1": 1.4,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z8TA",
+   "excess5": null
   }
  ],
  "margin": {
@@ -150,12 +164,12 @@
   }
  ],
  "performance": {
-  "benchReturn": -1.1,
-  "currentPrice": 2892.0,
+  "benchReturn": -0.1,
+  "currentPrice": 2933.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 2,
+   "pendingDays": 1,
    "stockReturn": null
   },
   "d5": {
@@ -167,33 +181,33 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 42,
+   "pendingDays": 41,
    "stockReturn": null
   },
-  "excessReturn": 2.1,
+  "excessReturn": 2.5,
   "initialDate": "2026-09-18",
   "initialPrice": 2864.7,
-  "stockReturn": 1.0
+  "stockReturn": 2.4
  },
  "priceSetup": {
-  "asOf": "2026-10-20",
+  "asOf": "2026-10-21",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.14,
+  "distFrom52wHigh": 0.13,
   "labels": [
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2948.2,
-  "ma200": 2697.4,
-  "ma60": 2890.9,
-  "rangePos60": 0.31,
-  "rel20": 1.7,
-  "rel60": 1.8,
-  "volumeRatio20": 1.09
+  "ma20": 2951.5,
+  "ma200": 2702.6,
+  "ma60": 2892.5,
+  "rangePos60": 0.37,
+  "rel20": 2.7,
+  "rel60": 2.1,
+  "volumeRatio20": 0.72
  },
  "reasons": [
   "1.1pt買い増し 16.7%→17.8%",
-  "TOPIX連動ETF比 +1.7pt（20日）",
+  "TOPIX連動ETF比 +2.7pt（20日）",
   "信用買残 -2%"
  ],
  "schemaVersion": 1,
@@ -400,7 +414,21 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-21",
+   "detail": "12.91% → 13.99%（株式会社ストラテジックキャピタル）",
+   "kind": "EVENT",
+   "label": "訂正報告",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8T9"
+  },
+  {
+   "date": "2026-10-21",
+   "detail": "13.99% → 15.01%（株式会社ストラテジックキャピタル）",
+   "kind": "EVENT",
+   "label": "訂正報告",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8TA"
   }
  ],
- "updatedAt": "2026-10-20T23:12:08+09:00"
+ "updatedAt": "2026-10-21T14:16:12+09:00"
 }

@@ -52,6 +52,13 @@
    "d5": 0.5,
    "eventId": "edinet:S100Z0BH",
    "excess5": 1.6
+  },
+  {
+   "d1": 1.1,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z984",
+   "excess5": null
   }
  ],
  "margin": {
@@ -69,12 +76,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -1.5,
-  "currentPrice": 4125.0,
+  "benchReturn": -0.6,
+  "currentPrice": 4171.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 5,
+   "pendingDays": 4,
    "stockReturn": null
   },
   "d5": {
@@ -86,37 +93,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 45,
+   "pendingDays": 44,
    "stockReturn": null
   },
-  "excessReturn": 7.3,
+  "excessReturn": 7.5,
   "initialDate": "2026-09-28",
   "initialPrice": 3900.0,
-  "stockReturn": 5.8
+  "stockReturn": 6.9
  },
  "priceSetup": {
-  "asOf": "2026-10-20",
+  "asOf": "2026-10-21",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.14,
+  "distFrom52wHigh": 0.13,
   "labels": [
    "20日線の上",
-   "60日レンジ上位27%",
+   "60日レンジ上位21%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 3977.7,
-  "ma200": 3939.6,
-  "ma60": 3898.7,
-  "rangePos60": 0.73,
-  "rel20": 11.4,
-  "rel60": -0.8,
-  "volumeRatio20": 0.92
+  "ma20": 3995.9,
+  "ma200": 3938.9,
+  "ma60": 3901.0,
+  "rangePos60": 0.79,
+  "rel20": 10.0,
+  "rel60": 2.2,
+  "volumeRatio20": 0.56
  },
  "reasons": [
-  "新規大量保有 5%（アライアンス・バーンスタイン・エル・ピー）",
-  "60日レンジ上位27%",
+  "1.2pt買い増し 5%→6.2%",
+  "60日レンジ上位21%",
   "20日線上向き",
-  "TOPIX連動ETF比 +11.4pt（20日）"
+  "TOPIX連動ETF比 +10pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -210,7 +217,14 @@
    "kind": "STATUS",
    "label": "STRENGTHENING",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-21",
+   "detail": "5.01% → 6.2%（アライアンス・バーンスタイン・エル・ピー）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z984"
   }
  ],
- "updatedAt": "2026-10-20T23:12:08+09:00"
+ "updatedAt": "2026-10-21T14:16:12+09:00"
 }

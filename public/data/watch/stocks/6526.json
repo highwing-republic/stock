@@ -5,47 +5,23 @@
   "tradingViewSymbol": "TSE:6526"
  },
  "episode": {
-  "closeReason": "BROKEN",
-  "closedAt": "2026-10-14",
-  "id": "6526-2026-09-24",
+  "closeReason": null,
+  "closedAt": null,
+  "id": "6526-2026-10-21",
   "overextended": false,
-  "setupType": "RECOVERY",
+  "setupType": null,
   "setups": [],
-  "startedAt": "2026-09-24",
-  "status": "CLOSED",
+  "startedAt": "2026-10-21",
+  "status": "CANDIDATE",
   "statusHistory": [
    {
-    "date": "2026-09-24",
+    "date": "2026-10-21",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
-   },
-   {
-    "date": "2026-10-01",
-    "from": "CANDIDATE",
-    "reason_code": "SETUP_OK",
-    "to": "WATCH"
-   },
-   {
-    "date": "2026-10-02",
-    "from": "WATCH",
-    "reason_code": "INCREASE_EVENT",
-    "to": "STRENGTHENING"
-   },
-   {
-    "date": "2026-10-13",
-    "from": "STRENGTHENING",
-    "reason_code": "BELOW_MA60",
-    "to": "BROKEN"
-   },
-   {
-    "date": "2026-10-14",
-    "from": "BROKEN",
-    "reason_code": "BROKEN",
-    "to": "CLOSED"
    }
   ],
-  "watchStartedAt": "2026-10-01"
+  "watchStartedAt": null
  },
  "eventReactions": [
   {
@@ -117,6 +93,27 @@
    "d5": -18.5,
    "eventId": "edinet:S100Z73K",
    "excess5": -14.8
+  },
+  {
+   "d1": 1.8,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z7SI",
+   "excess5": null
+  },
+  {
+   "d1": 1.8,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z8PX",
+   "excess5": null
+  },
+  {
+   "d1": 1.8,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z994",
+   "excess5": null
   }
  ],
  "margin": {
@@ -130,50 +127,31 @@
   "sellBalance": 881500,
   "sellChangePct": -7.0
  },
- "pastEpisodes": [],
- "performance": {
-  "benchReturn": -0.7,
-  "currentPrice": 1979.0,
-  "d20": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 8,
-   "stockReturn": null
-  },
-  "d5": {
-   "benchReturn": -1.1,
-   "excessReturn": -1.2,
-   "pendingDays": 0,
-   "stockReturn": -2.3
-  },
-  "d60": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 48,
-   "stockReturn": null
-  },
-  "excessReturn": -9.0,
-  "initialDate": "2026-10-01",
-  "initialPrice": 2191.0,
-  "stockReturn": -9.7
- },
+ "pastEpisodes": [
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-10-14",
+   "id": "6526-2026-09-24",
+   "setupType": "RECOVERY",
+   "startedAt": "2026-09-24"
+  }
+ ],
+ "performance": null,
  "priceSetup": {
-  "asOf": "2026-10-20",
+  "asOf": "2026-10-21",
   "atrState": "通常",
   "distFrom52wHigh": 0.46,
-  "labels": [
-   "20日線が上向き"
-  ],
-  "ma20": 2075.2,
-  "ma200": 2137.2,
-  "ma60": 2023.4,
-  "rangePos60": 0.07,
-  "rel20": -3.6,
-  "rel60": -26.2,
-  "volumeRatio20": 0.65
+  "labels": [],
+  "ma20": 2070.9,
+  "ma200": 2135.8,
+  "ma60": 2013.3,
+  "rangePos60": 0.11,
+  "rel20": -4.1,
+  "rel60": -25.8,
+  "volumeRatio20": 0.56
  },
  "reasons": [
-  "2pt買い増し 8.7%→10.7%",
+  "0.6pt買い増し 9.7%→10.2%",
   "30日以内に2回買い増し"
  ],
  "schemaVersion": 1,
@@ -221,53 +199,11 @@
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z2O8"
   },
   {
-   "date": "2026-09-24",
-   "detail": "60日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-09-24",
-   "detail": "TOPIX連動ETFを上回りに転換",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
    "date": "2026-10-01",
    "detail": "8.69% → 10.66%（野村證券株式会社）",
    "kind": "EVENT",
    "label": "連続の買い増し",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z5RY"
-  },
-  {
-   "date": "2026-10-01",
-   "detail": "なし → RECOVERY",
-   "kind": "SETUP",
-   "label": "Price Setup改善",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-10-01",
-   "detail": "60日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-10-01",
-   "detail": "Price Setupが成立",
-   "kind": "STATUS",
-   "label": "WATCH",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-10-02",
-   "detail": "大量保有の買い増しを確認",
-   "kind": "STATUS",
-   "label": "STRENGTHENING",
-   "sourceUrl": null
   },
   {
    "date": "2026-10-07",
@@ -291,26 +227,26 @@
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z73K"
   },
   {
-   "date": "2026-10-08",
-   "detail": "RECOVERY → なし",
-   "kind": "SETUP",
-   "label": "Price Setup解消",
-   "sourceUrl": null
+   "date": "2026-10-21",
+   "detail": "5.29% → 1.83%（ビーエヌピーパリバセキュリティーズジャパンリミテッド）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7SI"
   },
   {
-   "date": "2026-10-13",
-   "detail": "60日線を下回った",
-   "kind": "STATUS",
-   "label": "BROKEN",
-   "sourceUrl": null
+   "date": "2026-10-21",
+   "detail": "6.94% → 6.94%（三井住友トラスト・アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "変更報告（増減不明）",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8PX"
   },
   {
-   "date": "2026-10-14",
-   "detail": "Price Setupが崩れた",
-   "kind": "STATUS",
-   "label": "CLOSED",
-   "sourceUrl": null
+   "date": "2026-10-21",
+   "detail": "9.65% → 10.21%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z994"
   }
  ],
- "updatedAt": "2026-10-20T23:11:04+09:00"
+ "updatedAt": "2026-10-21T14:15:25+09:00"
 }

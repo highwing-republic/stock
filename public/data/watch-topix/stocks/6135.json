@@ -1,0 +1,121 @@
+{
+ "company": {
+  "name": "牧野フライス製作所",
+  "securityCode": "6135",
+  "tradingViewSymbol": "TSE:6135"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "6135-2026-10-21",
+  "overextended": false,
+  "setupType": "TREND",
+  "setups": [
+   "TREND"
+  ],
+  "startedAt": "2026-10-21",
+  "status": "WATCH",
+  "statusHistory": [
+   {
+    "date": "2026-10-21",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-10-21",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   }
+  ],
+  "watchStartedAt": "2026-10-21"
+ },
+ "eventReactions": [
+  {
+   "d1": 1.6,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z948",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-19",
+  "buyBalance": 262900,
+  "buyChangePct": -0.9,
+  "labels": [],
+  "ratio": null,
+  "sellBalance": 0,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": 0.0,
+  "currentPrice": 3265.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 20,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 5,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 60,
+   "stockReturn": null
+  },
+  "excessReturn": 0.0,
+  "initialDate": "2026-10-21",
+  "initialPrice": 3265.0,
+  "stockReturn": 0.0
+ },
+ "priceSetup": {
+  "asOf": "2026-10-21",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.05,
+  "labels": [
+   "20日線の上",
+   "60日レンジ上位15%",
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 3186.1,
+  "ma200": 2536.0,
+  "ma60": 2962.8,
+  "rangePos60": 0.85,
+  "rel20": 13.8,
+  "rel60": 17.4,
+  "volumeRatio20": 0.51
+ },
+ "reasons": [
+  "新規大量保有 5.2%（大和アセットマネジメント株式会社）",
+  "60日レンジ上位15%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +13.8pt（20日）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-10-21",
+   "detail": "保有割合 5.2%（大和アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z948"
+  },
+  {
+   "date": "2026-10-21",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-21T14:16:12+09:00"
+}

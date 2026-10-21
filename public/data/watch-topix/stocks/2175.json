@@ -11,8 +11,7 @@
   "overextended": false,
   "setupType": "BREAKOUT",
   "setups": [
-   "BREAKOUT",
-   "TREND"
+   "BREAKOUT"
   ],
   "startedAt": "2026-08-07",
   "status": "REACTED",
@@ -107,6 +106,13 @@
    "d5": 0.1,
    "eventId": "edinet:S100Z32S",
    "excess5": -1.1
+  },
+  {
+   "d1": -0.1,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z8Y7",
+   "excess5": null
   }
  ],
  "margin": {
@@ -130,8 +136,8 @@
   }
  ],
  "performance": {
-  "benchReturn": -0.5,
-  "currentPrice": 2660.0,
+  "benchReturn": 0.4,
+  "currentPrice": 2658.0,
   "d20": {
    "benchReturn": 0.5,
    "excessReturn": 12.5,
@@ -147,16 +153,16 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 22,
+   "pendingDays": 21,
    "stockReturn": null
   },
-  "excessReturn": 12.9,
+  "excessReturn": 11.9,
   "initialDate": "2026-08-21",
   "initialPrice": 2366.0,
-  "stockReturn": 12.4
+  "stockReturn": 12.3
  },
  "priceSetup": {
-  "asOf": "2026-10-20",
+  "asOf": "2026-10-21",
   "atrState": "低ボラ",
   "distFrom52wHigh": 0.03,
   "labels": [
@@ -165,13 +171,13 @@
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2658.9,
-  "ma200": 2000.1,
-  "ma60": 2484.8,
+  "ma20": 2658.0,
+  "ma200": 2006.8,
+  "ma60": 2488.1,
   "rangePos60": 0.86,
-  "rel20": 0.8,
-  "rel60": 6.5,
-  "volumeRatio20": 1.07
+  "rel20": -0.3,
+  "rel60": 6.9,
+  "volumeRatio20": 0.6
  },
  "reasons": [
   "1pt買い増し 25.9%→27%",
@@ -369,7 +375,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-21",
+   "detail": "5.72% → 6.37%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8Y7"
   }
  ],
- "updatedAt": "2026-10-20T23:12:08+09:00"
+ "updatedAt": "2026-10-21T14:16:12+09:00"
 }

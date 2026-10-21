@@ -17,6 +17,10 @@
    "event_id": "edinet:S100Z5XN"
   },
   {
+   "episode_id": "1803-2026-10-21",
+   "event_id": "edinet:S100Z8Y6"
+  },
+  {
    "episode_id": "1808-2026-09-07",
    "event_id": "edinet:S100Z0F4"
   },
@@ -83,6 +87,10 @@
   {
    "episode_id": "2871-2026-10-06",
    "event_id": "edinet:S100Z61M"
+  },
+  {
+   "episode_id": "2871-2026-10-06",
+   "event_id": "edinet:S100Z8YA"
   },
   {
    "episode_id": "2875-2026-09-24",
@@ -193,6 +201,10 @@
    "event_id": "edinet:S100Z795"
   },
   {
+   "episode_id": "4004-2026-10-21",
+   "event_id": "edinet:S100Z8P0"
+  },
+  {
    "episode_id": "4182-2026-07-22",
    "event_id": "edinet:S100YRF5"
   },
@@ -251,6 +263,10 @@
   {
    "episode_id": "5105-2026-09-04",
    "event_id": "edinet:S100Z0BH"
+  },
+  {
+   "episode_id": "5105-2026-09-04",
+   "event_id": "edinet:S100Z984"
   },
   {
    "episode_id": "5108-2026-10-06",
@@ -373,6 +389,10 @@
    "event_id": "edinet:S100Z6CY"
   },
   {
+   "episode_id": "646A-2026-10-02",
+   "event_id": "edinet:S100Z8V3"
+  },
+  {
    "episode_id": "6506-2026-09-25",
    "event_id": "edinet:S100Z3N3"
   },
@@ -399,6 +419,18 @@
   {
    "episode_id": "6526-2026-09-24",
    "event_id": "edinet:S100Z73K"
+  },
+  {
+   "episode_id": "6526-2026-10-21",
+   "event_id": "edinet:S100Z7SI"
+  },
+  {
+   "episode_id": "6526-2026-10-21",
+   "event_id": "edinet:S100Z8PX"
+  },
+  {
+   "episode_id": "6526-2026-10-21",
+   "event_id": "edinet:S100Z994"
   },
   {
    "episode_id": "6532-2026-09-04",
@@ -483,6 +515,10 @@
   {
    "episode_id": "7173-2026-09-15",
    "event_id": "edinet:S100Z1GA"
+  },
+  {
+   "episode_id": "7173-2026-10-21",
+   "event_id": "edinet:S100Z8SM"
   },
   {
    "episode_id": "7202-2026-09-25",
@@ -1153,8 +1189,8 @@
   },
   {
    "base_close": 7078.0,
-   "close_reason": null,
-   "closed_at": null,
+   "close_reason": "BROKEN",
+   "closed_at": "2026-10-21",
    "company_name": "アルバック",
    "episode_id": "6728-2026-09-03",
    "event_ids": [
@@ -1170,7 +1206,7 @@
    "setup_type": "RECOVERY",
    "setups": [],
    "started_at": "2026-09-03",
-   "status": "BROKEN",
+   "status": "CLOSED",
    "status_history": [
     {
      "date": "2026-09-03",
@@ -1189,6 +1225,12 @@
      "from": "WATCH",
      "reason_code": "BELOW_MA60",
      "to": "BROKEN"
+    },
+    {
+     "date": "2026-10-21",
+     "from": "BROKEN",
+     "reason_code": "BROKEN",
+     "to": "CLOSED"
     }
    ],
    "watch_started_at": "2026-09-30"
@@ -1429,11 +1471,12 @@
    "company_name": "TOYO TIRE",
    "episode_id": "5105-2026-09-04",
    "event_ids": [
-    "edinet:S100Z0BH"
+    "edinet:S100Z0BH",
+    "edinet:S100Z984"
    ],
    "initial_bench": 428.20001220703125,
    "initial_price": 3900.0,
-   "last_trigger_at": "2026-09-04",
+   "last_trigger_at": "2026-10-21",
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z0BH",
    "security_code": "5105",
@@ -3053,8 +3096,9 @@
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z3M6",
    "security_code": "4613",
-   "setup_type": "TREND",
+   "setup_type": "BREAKOUT",
    "setups": [
+    "BREAKOUT",
     "TREND",
     "RECOVERY"
    ],
@@ -3323,8 +3367,9 @@
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z41Y",
    "security_code": "7988",
-   "setup_type": "RECOVERY",
+   "setup_type": "TREND",
    "setups": [
+    "TREND",
     "RECOVERY"
    ],
    "started_at": "2026-09-25",
@@ -3623,11 +3668,12 @@
     "edinet:S100Z5EP",
     "edinet:S100Z5EV",
     "edinet:S100Z5XT",
-    "edinet:S100Z6CY"
+    "edinet:S100Z6CY",
+    "edinet:S100Z8V3"
    ],
    "initial_bench": null,
    "initial_price": null,
-   "last_trigger_at": "2026-10-07",
+   "last_trigger_at": "2026-10-21",
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z5EP",
    "security_code": "646A",
@@ -3843,7 +3889,9 @@
    "primary_trigger_event_id": "edinet:S100Z5XN",
    "security_code": "1721",
    "setup_type": "TREND",
-   "setups": [],
+   "setups": [
+    "TREND"
+   ],
    "started_at": "2026-10-06",
    "status": "STRENGTHENING",
    "status_history": [
@@ -3875,7 +3923,8 @@
    "company_name": "ニチレイ",
    "episode_id": "2871-2026-10-06",
    "event_ids": [
-    "edinet:S100Z61M"
+    "edinet:S100Z61M",
+    "edinet:S100Z8YA"
    ],
    "initial_bench": null,
    "initial_price": null,
@@ -4375,8 +4424,9 @@
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z5ZR",
    "security_code": "9682",
-   "setup_type": "TREND",
+   "setup_type": "BREAKOUT",
    "setups": [
+    "BREAKOUT",
     "TREND",
     "RECOVERY"
    ],
@@ -4451,9 +4501,7 @@
    "primary_trigger_event_id": "edinet:S100Z6HM",
    "security_code": "7740",
    "setup_type": "TREND",
-   "setups": [
-    "TREND"
-   ],
+   "setups": [],
    "started_at": "2026-10-09",
    "status": "WATCH",
    "status_history": [
@@ -4474,8 +4522,8 @@
   },
   {
    "base_close": 2159.0,
-   "close_reason": null,
-   "closed_at": null,
+   "close_reason": "BROKEN",
+   "closed_at": "2026-10-21",
    "company_name": "四国電力",
    "episode_id": "9507-2026-10-13",
    "event_ids": [
@@ -4490,7 +4538,7 @@
    "setup_type": "TREND",
    "setups": [],
    "started_at": "2026-10-13",
-   "status": "BROKEN",
+   "status": "CLOSED",
    "status_history": [
     {
      "date": "2026-10-13",
@@ -4509,9 +4557,133 @@
      "from": "WATCH",
      "reason_code": "BELOW_MA20",
      "to": "BROKEN"
+    },
+    {
+     "date": "2026-10-21",
+     "from": "BROKEN",
+     "reason_code": "BROKEN",
+     "to": "CLOSED"
     }
    ],
    "watch_started_at": "2026-10-13"
+  },
+  {
+   "base_close": 1996.5,
+   "close_reason": null,
+   "closed_at": null,
+   "company_name": "清水建設",
+   "episode_id": "1803-2026-10-21",
+   "event_ids": [
+    "edinet:S100Z8Y6"
+   ],
+   "initial_bench": null,
+   "initial_price": null,
+   "last_trigger_at": "2026-10-21",
+   "overextended": false,
+   "primary_trigger_event_id": "edinet:S100Z8Y6",
+   "security_code": "1803",
+   "setup_type": null,
+   "setups": [],
+   "started_at": "2026-10-21",
+   "status": "CANDIDATE",
+   "status_history": [
+    {
+     "date": "2026-10-21",
+     "from": null,
+     "reason_code": "TRIGGER_EVENT",
+     "to": "CANDIDATE"
+    }
+   ],
+   "watch_started_at": null
+  },
+  {
+   "base_close": 13875.0,
+   "close_reason": null,
+   "closed_at": null,
+   "company_name": "レゾナック・ホールディングス",
+   "episode_id": "4004-2026-10-21",
+   "event_ids": [
+    "edinet:S100Z8P0"
+   ],
+   "initial_bench": null,
+   "initial_price": null,
+   "last_trigger_at": "2026-10-21",
+   "overextended": false,
+   "primary_trigger_event_id": "edinet:S100Z8P0",
+   "security_code": "4004",
+   "setup_type": null,
+   "setups": [],
+   "started_at": "2026-10-21",
+   "status": "CANDIDATE",
+   "status_history": [
+    {
+     "date": "2026-10-21",
+     "from": null,
+     "reason_code": "TRIGGER_EVENT",
+     "to": "CANDIDATE"
+    }
+   ],
+   "watch_started_at": null
+  },
+  {
+   "base_close": 1823.5,
+   "close_reason": null,
+   "closed_at": null,
+   "company_name": "ソシオネクスト",
+   "episode_id": "6526-2026-10-21",
+   "event_ids": [
+    "edinet:S100Z994",
+    "edinet:S100Z7SI",
+    "edinet:S100Z8PX"
+   ],
+   "initial_bench": null,
+   "initial_price": null,
+   "last_trigger_at": "2026-10-21",
+   "overextended": false,
+   "primary_trigger_event_id": "edinet:S100Z994",
+   "security_code": "6526",
+   "setup_type": null,
+   "setups": [],
+   "started_at": "2026-10-21",
+   "status": "CANDIDATE",
+   "status_history": [
+    {
+     "date": "2026-10-21",
+     "from": null,
+     "reason_code": "TRIGGER_EVENT",
+     "to": "CANDIDATE"
+    }
+   ],
+   "watch_started_at": null
+  },
+  {
+   "base_close": 1479.0,
+   "close_reason": null,
+   "closed_at": null,
+   "company_name": "東京きらぼしフィナンシャルグループ",
+   "episode_id": "7173-2026-10-21",
+   "event_ids": [
+    "edinet:S100Z8SM"
+   ],
+   "initial_bench": null,
+   "initial_price": null,
+   "last_trigger_at": "2026-10-21",
+   "overextended": false,
+   "primary_trigger_event_id": "edinet:S100Z8SM",
+   "security_code": "7173",
+   "setup_type": null,
+   "setups": [],
+   "started_at": "2026-10-21",
+   "status": "CANDIDATE",
+   "status_history": [
+    {
+     "date": "2026-10-21",
+     "from": null,
+     "reason_code": "TRIGGER_EVENT",
+     "to": "CANDIDATE"
+    }
+   ],
+   "watch_started_at": null
   }
  ],
  "schema_version": 1

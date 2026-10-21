@@ -1,0 +1,75 @@
+{
+ "company": {
+  "name": "清水建設",
+  "securityCode": "1803",
+  "tradingViewSymbol": "TSE:1803"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "1803-2026-10-21",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-10-21",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-10-21",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": 1.6,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z8Y6",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-19",
+  "buyBalance": 3270000,
+  "buyChangePct": 1.0,
+  "labels": [
+   "信用倍率悪化"
+  ],
+  "ratio": 48.81,
+  "sellBalance": 67000,
+  "sellChangePct": -16.2
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-10-21",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.42,
+  "labels": [],
+  "ma20": 2093.1,
+  "ma200": 2620.6,
+  "ma60": 2268.2,
+  "rangePos60": 0.15,
+  "rel20": -14.0,
+  "rel60": -17.8,
+  "volumeRatio20": 0.31
+ },
+ "reasons": [
+  "新規大量保有 5.4%（野村證券株式会社）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-10-21",
+   "detail": "保有割合 5.41%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8Y6"
+  }
+ ],
+ "updatedAt": "2026-10-21T14:15:25+09:00"
+}

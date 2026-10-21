@@ -14,7 +14,7 @@
    "RECOVERY"
   ],
   "startedAt": "2026-09-24",
-  "status": "WATCH",
+  "status": "STRENGTHENING",
   "statusHistory": [
    {
     "date": "2026-09-24",
@@ -27,6 +27,12 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
+   },
+   {
+    "date": "2026-10-21",
+    "from": "WATCH",
+    "reason_code": "INCREASE_EVENT",
+    "to": "STRENGTHENING"
    }
   ],
   "watchStartedAt": "2026-10-14"
@@ -59,6 +65,20 @@
    "d5": 2.5,
    "eventId": "edinet:S100Z335",
    "excess5": 1.3
+  },
+  {
+   "d1": -0.4,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z8PP",
+   "excess5": null
+  },
+  {
+   "d1": -0.4,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z8YQ",
+   "excess5": null
   }
  ],
  "margin": {
@@ -83,52 +103,51 @@
   }
  ],
  "performance": {
-  "benchReturn": -2.2,
-  "currentPrice": 1837.0,
+  "benchReturn": -1.3,
+  "currentPrice": 1830.5,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 16,
+   "pendingDays": 15,
    "stockReturn": null
   },
   "d5": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 1,
-   "stockReturn": null
+   "benchReturn": -1.3,
+   "excessReturn": -0.4,
+   "pendingDays": 0,
+   "stockReturn": -1.7
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 56,
+   "pendingDays": 55,
    "stockReturn": null
   },
-  "excessReturn": 0.8,
+  "excessReturn": -0.4,
   "initialDate": "2026-10-14",
   "initialPrice": 1863.0,
-  "stockReturn": -1.4
+  "stockReturn": -1.7
  },
  "priceSetup": {
-  "asOf": "2026-10-20",
+  "asOf": "2026-10-21",
   "atrState": "低ボラ",
   "distFrom52wHigh": 0.12,
   "labels": [
    "20日線の上",
-   "20日線が上向き",
-   "60日線の上"
+   "20日線が上向き"
   ],
-  "ma20": 1818.7,
-  "ma200": 1707.6,
-  "ma60": 1832.3,
-  "rangePos60": 0.28,
-  "rel20": 1.7,
-  "rel60": 0.8,
-  "volumeRatio20": 0.61
+  "ma20": 1819.3,
+  "ma200": 1709.1,
+  "ma60": 1832.7,
+  "rangePos60": 0.26,
+  "rel20": 1.0,
+  "rel60": 0.1,
+  "volumeRatio20": 0.36
  },
  "reasons": [
   "1.1pt買い増し 7%→8.1%",
   "20日線上向き",
-  "TOPIX連動ETF比 +1.7pt（20日）",
+  "TOPIX連動ETF比 +1pt（20日）",
   "信用買残 -9%"
  ],
  "schemaVersion": 1,
@@ -216,7 +235,28 @@
    "kind": "STATUS",
    "label": "WATCH",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-21",
+   "detail": "8.1% → 6.88%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8YQ"
+  },
+  {
+   "date": "2026-10-21",
+   "detail": "5.34% → 5.43%（三井住友トラスト・アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8PP"
+  },
+  {
+   "date": "2026-10-21",
+   "detail": "大量保有の買い増しを確認",
+   "kind": "STATUS",
+   "label": "STRENGTHENING",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-20T23:12:08+09:00"
+ "updatedAt": "2026-10-21T14:16:12+09:00"
 }

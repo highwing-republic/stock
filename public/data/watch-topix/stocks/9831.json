@@ -9,19 +9,27 @@
   "closedAt": null,
   "id": "9831-2026-10-20",
   "overextended": false,
-  "setupType": null,
-  "setups": [],
+  "setupType": "TREND",
+  "setups": [
+   "TREND"
+  ],
   "startedAt": "2026-10-20",
-  "status": "CANDIDATE",
+  "status": "WATCH",
   "statusHistory": [
    {
     "date": "2026-10-20",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-10-21",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
    }
   ],
-  "watchStartedAt": null
+  "watchStartedAt": "2026-10-21"
  },
  "eventReactions": [
   {
@@ -95,29 +103,55 @@
    "startedAt": "2026-09-11"
   }
  ],
- "performance": null,
+ "performance": {
+  "benchReturn": 0.0,
+  "currentPrice": 738.4,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 20,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 5,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 60,
+   "stockReturn": null
+  },
+  "excessReturn": 0.0,
+  "initialDate": "2026-10-21",
+  "initialPrice": 738.4,
+  "stockReturn": 0.0
+ },
  "priceSetup": {
-  "asOf": "2026-10-20",
+  "asOf": "2026-10-21",
   "atrState": "通常",
-  "distFrom52wHigh": 0.05,
+  "distFrom52wHigh": 0.04,
   "labels": [
    "20日線の上",
+   "60日レンジ上位25%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 716.2,
-  "ma200": 611.7,
-  "ma60": 709.7,
-  "rangePos60": 0.7,
-  "rel20": 2.4,
-  "rel60": -0.3,
-  "volumeRatio20": 0.5
+  "ma20": 716.9,
+  "ma200": 613.0,
+  "ma60": 710.2,
+  "rangePos60": 0.75,
+  "rel20": 2.3,
+  "rel60": 3.2,
+  "volumeRatio20": 0.39
  },
  "reasons": [
   "1pt買い増し 8.4%→9.4%",
+  "60日レンジ上位25%",
   "20日線上向き",
-  "TOPIX連動ETF比 +2.4pt（20日）",
-  "52週高値まで5%"
+  "TOPIX連動ETF比 +2.3pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -162,7 +196,21 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-21",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-21",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-20T23:12:08+09:00"
+ "updatedAt": "2026-10-21T14:16:12+09:00"
 }

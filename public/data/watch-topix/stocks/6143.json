@@ -1,0 +1,119 @@
+{
+ "company": {
+  "name": "ソディック",
+  "securityCode": "6143",
+  "tradingViewSymbol": "TSE:6143"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "6143-2026-10-21",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-10-21",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-10-21",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": -1.6,
+   "d20": -12.7,
+   "d5": -0.4,
+   "eventId": "edinet:S100YOJ4",
+   "excess5": -0.1
+  },
+  {
+   "d1": -4.3,
+   "d20": null,
+   "d5": -13.7,
+   "eventId": "edinet:S100Z63F",
+   "excess5": -10.0
+  },
+  {
+   "d1": 2.4,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z8MB",
+   "excess5": null
+  },
+  {
+   "d1": 2.4,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z8PV",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-19",
+  "buyBalance": 1025100,
+  "buyChangePct": -5.3,
+  "labels": [
+   "信用倍率改善",
+   "売残増加"
+  ],
+  "ratio": 0.27,
+  "sellBalance": 3843400,
+  "sellChangePct": 280.9
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-10-21",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.29,
+  "labels": [],
+  "ma20": 1672.9,
+  "ma200": 1547.6,
+  "ma60": 1699.7,
+  "rangePos60": 0.11,
+  "rel20": -6.9,
+  "rel60": -15.8,
+  "volumeRatio20": 4.56
+ },
+ "reasons": [
+  "新規大量保有 5.2%（三井住友トラスト・アセットマネジメント株式会社）",
+  "信用買残 -5%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-07-06",
+   "detail": "5.16% → 4.65%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YOJ4"
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "16.39% → 17.18%（ＡＡＧＳ　Ｉｎｖｅｓｔｍｅｎｔ，　Ｉｎｃ．）",
+   "kind": "EVENT",
+   "label": "買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z63F"
+  },
+  {
+   "date": "2026-10-21",
+   "detail": "17.18% → 13%（ＡＡＧＳ　Ｉｎｖｅｓｔｍｅｎｔ，　Ｉｎｃ．）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8MB"
+  },
+  {
+   "date": "2026-10-21",
+   "detail": "保有割合 5.19%（三井住友トラスト・アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8PV"
+  }
+ ],
+ "updatedAt": "2026-10-21T14:16:12+09:00"
+}

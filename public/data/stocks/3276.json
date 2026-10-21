@@ -1,11 +1,42 @@
 {
-  "updatedAt": "2026-10-20T23:10:51+09:00",
+  "updatedAt": "2026-10-21T14:15:18+09:00",
   "company": {
     "securityCode": "3276",
     "ticker": "3276.T",
     "name": "株式会社ＪＰＭＣ"
   },
   "events": [
+    {
+      "docId": "S100Z8YT",
+      "ticker": "3276.T",
+      "securityCode": "3276",
+      "companyName": "株式会社ＪＰＭＣ",
+      "submitDatetime": "2026-10-21 11:14",
+      "filerName": "野村アセットマネジメント株式会社",
+      "reportType": "change",
+      "holdingRatio": 2.47,
+      "previousHoldingRatio": 6.47,
+      "holdingChange": -4.0,
+      "purpose": "証券業務に係わる商品在庫として保有している。 / 信託財産の運用として保有している。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少",
+        "大幅売却"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 0.84,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z7EO",
       "ticker": "3276.T",
@@ -33,7 +64,7 @@
         "return1d": 1.29,
         "return5d": 0.04,
         "return20d": null,
-        "returnCurrent": 0.04,
+        "returnCurrent": 0.89,
         "volumeRatio": 0.75,
         "marketExcessReturn": 2.51
       }
@@ -63,7 +94,7 @@
         "return1d": 1.29,
         "return5d": 0.04,
         "return20d": null,
-        "returnCurrent": 0.04,
+        "returnCurrent": 0.89,
         "volumeRatio": 0.75,
         "marketExcessReturn": 2.51
       }
@@ -96,7 +127,7 @@
         "return1d": -0.13,
         "return5d": 4.35,
         "return20d": null,
-        "returnCurrent": -0.04,
+        "returnCurrent": 0.8,
         "volumeRatio": 0.59,
         "marketExcessReturn": 4.91
       }
@@ -127,7 +158,7 @@
         "return1d": -0.13,
         "return5d": 4.35,
         "return20d": null,
-        "returnCurrent": -0.04,
+        "returnCurrent": 0.8,
         "volumeRatio": 0.59,
         "marketExcessReturn": 4.91
       }
@@ -155,7 +186,7 @@
         "return1d": -0.18,
         "return5d": -0.04,
         "return20d": null,
-        "returnCurrent": -0.79,
+        "returnCurrent": 0.04,
         "volumeRatio": 0.31,
         "marketExcessReturn": -1.94
       }
@@ -183,7 +214,7 @@
         "return1d": -0.18,
         "return5d": -0.04,
         "return20d": null,
-        "returnCurrent": -0.79,
+        "returnCurrent": 0.04,
         "volumeRatio": 0.31,
         "marketExcessReturn": -1.94
       }
@@ -214,7 +245,7 @@
         "return1d": 0.0,
         "return5d": 0.09,
         "return20d": 0.94,
-        "returnCurrent": 0.31,
+        "returnCurrent": 1.16,
         "volumeRatio": 0.92,
         "marketExcessReturn": -2.78
       }
@@ -245,7 +276,7 @@
         "return1d": 0.0,
         "return5d": 0.0,
         "return20d": 0.09,
-        "returnCurrent": 0.31,
+        "returnCurrent": 1.16,
         "volumeRatio": 1.13,
         "marketExcessReturn": -1.39
       }
@@ -3141,6 +3172,16 @@
       "close": 2251.0,
       "adj_close": 2251.0,
       "volume": 74000
+    },
+    {
+      "ticker": "3276.T",
+      "trade_date": "2026-10-21",
+      "open": 2251.0,
+      "high": 2275.0,
+      "low": 2251.0,
+      "close": 2270.0,
+      "adj_close": 2270.0,
+      "volume": 7000
     }
   ],
   "benchmark": [
@@ -7023,6 +7064,16 @@
       "close": 421.79998779296875,
       "adj_close": 421.79998779296875,
       "volume": 13259900
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-21",
+      "open": 426.79998779296875,
+      "high": 427.5,
+      "low": 425.0,
+      "close": 425.6000061035156,
+      "adj_close": 425.6000061035156,
+      "volume": 10491950
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"
