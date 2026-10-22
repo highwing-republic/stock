@@ -5,14 +5,14 @@
   "tradingViewSymbol": "TSE:9509"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "EXPIRED",
+  "closedAt": "2026-10-22",
   "id": "9509-2026-07-23",
   "overextended": false,
   "setupType": "BREAKOUT",
   "setups": [],
   "startedAt": "2026-07-23",
-  "status": "REACTED",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-07-23",
@@ -43,6 +43,12 @@
     "from": "CONFIRMED",
     "reason_code": "EXCESS_THRESHOLD",
     "to": "REACTED"
+   },
+   {
+    "date": "2026-10-22",
+    "from": "REACTED",
+    "reason_code": "EXPIRED",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-07-23"
@@ -81,8 +87,8 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 0.8,
-  "currentPrice": 1098.5,
+  "benchReturn": -0.1,
+  "currentPrice": 1099.0,
   "d20": {
    "benchReturn": 0.5,
    "excessReturn": 7.0,
@@ -96,35 +102,35 @@
    "stockReturn": 0.5
   },
   "d60": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 1,
-   "stockReturn": null
+   "benchReturn": -0.1,
+   "excessReturn": 10.2,
+   "pendingDays": 0,
+   "stockReturn": 10.1
   },
-  "excessReturn": 9.3,
+  "excessReturn": 10.2,
   "initialDate": "2026-07-23",
   "initialPrice": 997.8,
   "stockReturn": 10.1
  },
  "priceSetup": {
-  "asOf": "2026-10-21",
+  "asOf": "2026-10-22",
   "atrState": "低ボラ",
   "distFrom52wHigh": 0.13,
   "labels": [
    "20日線の上",
    "60日線の上"
   ],
-  "ma20": 1098.3,
-  "ma200": 1030.5,
-  "ma60": 1073.0,
+  "ma20": 1097.8,
+  "ma200": 1030.9,
+  "ma60": 1074.6,
   "rangePos60": 0.66,
-  "rel20": -3.2,
-  "rel60": 8.2,
-  "volumeRatio20": 0.54
+  "rel20": 0.2,
+  "rel60": 10.2,
+  "volumeRatio20": 0.31
  },
  "reasons": [
   "新規大量保有 5.2%（野村證券株式会社）",
-  "20日線を回復",
+  "TOPIX連動ETF比 +0.2pt（20日）",
   "信用買残 -0%"
  ],
  "schemaVersion": 1,
@@ -303,7 +309,21 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-22",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-22",
+   "detail": "観察期限に到達",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-21T23:29:41+09:00"
+ "updatedAt": "2026-10-22T14:21:19+09:00"
 }

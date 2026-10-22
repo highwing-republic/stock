@@ -60,6 +60,13 @@
    "d5": 3.9,
    "eventId": "edinet:S100Z66L",
    "excess5": 6.0
+  },
+  {
+   "d1": 1.6,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z961",
+   "excess5": null
   }
  ],
  "margin": {
@@ -84,12 +91,12 @@
   }
  ],
  "performance": {
-  "benchReturn": -1.1,
-  "currentPrice": 2903.0,
+  "benchReturn": -2.0,
+  "currentPrice": 2950.5,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 3,
+   "pendingDays": 2,
    "stockReturn": null
   },
   "d5": {
@@ -101,37 +108,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 43,
+   "pendingDays": 42,
    "stockReturn": null
   },
-  "excessReturn": 4.5,
+  "excessReturn": 7.0,
   "initialDate": "2026-09-25",
   "initialPrice": 2808.8,
-  "stockReturn": 3.4
+  "stockReturn": 5.0
  },
  "priceSetup": {
-  "asOf": "2026-10-21",
+  "asOf": "2026-10-22",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.04,
+  "distFrom52wHigh": 0.03,
   "labels": [
    "20日線の上",
-   "60日レンジ上位28%",
+   "60日レンジ上位18%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2842.5,
-  "ma200": 2556.4,
-  "ma60": 2814.6,
-  "rangePos60": 0.72,
-  "rel20": 2.7,
-  "rel60": 9.6,
-  "volumeRatio20": 0.85
+  "ma20": 2851.1,
+  "ma200": 2559.4,
+  "ma60": 2819.7,
+  "rangePos60": 0.82,
+  "rel20": 7.2,
+  "rel60": 11.6,
+  "volumeRatio20": 0.41
  },
  "reasons": [
   "新規大量保有 5.1%（キャピタル・リサーチ・アンド・マネージメント・カンパニー）",
-  "60日レンジ上位28%",
+  "60日レンジ上位18%",
   "20日線上向き",
-  "TOPIX連動ETF比 +2.7pt（20日）"
+  "TOPIX連動ETF比 +7.2pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -274,7 +281,14 @@
    "kind": "SETUP",
    "label": "Price Setup変化",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-22",
+   "detail": "5.14% → 5.14%（キャピタル・リサーチ・アンド・マネージメント・カンパニー）",
+   "kind": "EVENT",
+   "label": "変更報告（増減不明）",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z961"
   }
  ],
- "updatedAt": "2026-10-21T23:29:41+09:00"
+ "updatedAt": "2026-10-22T14:21:19+09:00"
 }

@@ -12,7 +12,7 @@
   "setupType": "TREND",
   "setups": [],
   "startedAt": "2026-10-16",
-  "status": "WATCH",
+  "status": "STRENGTHENING",
   "statusHistory": [
    {
     "date": "2026-10-16",
@@ -25,6 +25,12 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
+   },
+   {
+    "date": "2026-10-22",
+    "from": "WATCH",
+    "reason_code": "INCREASE_EVENT",
+    "to": "STRENGTHENING"
    }
   ],
   "watchStartedAt": "2026-10-19"
@@ -38,11 +44,18 @@
    "excess5": 0.2
   },
   {
-   "d1": 14.3,
+   "d1": -1.1,
    "d20": null,
    "d5": null,
-   "eventId": "edinet:S100Z7KG",
+   "eventId": "edinet:S100Z2JF",
    "excess5": null
+  },
+  {
+   "d1": 14.3,
+   "d20": null,
+   "d5": 3.8,
+   "eventId": "edinet:S100Z7KG",
+   "excess5": 3.6
   }
  ],
  "margin": {
@@ -67,54 +80,54 @@
   }
  ],
  "performance": {
-  "benchReturn": -0.4,
-  "currentPrice": 2875.0,
+  "benchReturn": -1.2,
+  "currentPrice": 2844.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 18,
+   "pendingDays": 17,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 3,
+   "pendingDays": 2,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 58,
+   "pendingDays": 57,
    "stockReturn": null
   },
-  "excessReturn": -2.6,
+  "excessReturn": -2.8,
   "initialDate": "2026-10-19",
   "initialPrice": 2962.5,
-  "stockReturn": -3.0
+  "stockReturn": -4.0
  },
  "priceSetup": {
-  "asOf": "2026-10-21",
+  "asOf": "2026-10-22",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.11,
+  "distFrom52wHigh": 0.12,
   "labels": [
    "20日線の上",
-   "60日レンジ上位27%",
+   "60日レンジ上位30%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2670.5,
-  "ma200": 1972.5,
-  "ma60": 2363.1,
-  "rangePos60": 0.73,
-  "rel20": 14.2,
-  "rel60": 30.6,
-  "volumeRatio20": 0.61
+  "ma20": 2687.6,
+  "ma200": 1978.8,
+  "ma60": 2374.2,
+  "rangePos60": 0.7,
+  "rel20": 14.7,
+  "rel60": 30.9,
+  "volumeRatio20": 0.36
  },
  "reasons": [
-  "新規大量保有 5.1%（Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．）",
-  "60日レンジ上位27%",
+  "1pt買い増し 19%→20%",
+  "60日レンジ上位30%",
   "20日線上向き",
-  "TOPIX連動ETF比 +14.2pt（20日）"
+  "TOPIX連動ETF比 +14.7pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -166,7 +179,21 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-22",
+   "detail": "19.01% → 20.01%（ＶａｌｕｅＡｃｔ　Ｃａｐｉｔａｌ　Ｍａｎａｇｅｍｅｎｔ，　Ｌ．Ｐ．）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z2JF"
+  },
+  {
+   "date": "2026-10-22",
+   "detail": "大量保有の買い増しを確認",
+   "kind": "STATUS",
+   "label": "STRENGTHENING",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-21T23:29:41+09:00"
+ "updatedAt": "2026-10-22T14:21:19+09:00"
 }

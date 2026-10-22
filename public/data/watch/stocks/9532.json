@@ -1,0 +1,80 @@
+{
+ "company": {
+  "name": "大阪瓦斯",
+  "securityCode": "9532",
+  "tradingViewSymbol": "TSE:9532"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "9532-2026-10-22",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-10-22",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-10-22",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": 1.3,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z901",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-20",
+  "buyBalance": 52200,
+  "buyChangePct": -75.2,
+  "labels": [
+   "信用買残減少",
+   "信用倍率改善"
+  ],
+  "ratio": 1.07,
+  "sellBalance": 48700,
+  "sellChangePct": -4.7
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-10-22",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.13,
+  "labels": [
+   "20日線の上",
+   "60日線の上"
+  ],
+  "ma20": 5679.1,
+  "ma200": 5732.0,
+  "ma60": 5630.8,
+  "rangePos60": 0.6,
+  "rel20": -2.5,
+  "rel60": 7.5,
+  "volumeRatio20": 0.42
+ },
+ "reasons": [
+  "1.1pt買い増し 7.5%→8.5%",
+  "信用買残 -75%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-10-21",
+   "detail": "7.46% → 8.54%（ブラックロック・ジャパン株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z901"
+  }
+ ],
+ "updatedAt": "2026-10-22T14:20:02+09:00"
+}

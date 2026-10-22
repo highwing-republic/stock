@@ -1,0 +1,125 @@
+{
+ "company": {
+  "name": "テクマトリックス",
+  "securityCode": "3762",
+  "tradingViewSymbol": "TSE:3762"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "3762-2026-10-22",
+  "overextended": false,
+  "setupType": "TREND",
+  "setups": [
+   "TREND",
+   "RECOVERY"
+  ],
+  "startedAt": "2026-10-22",
+  "status": "WATCH",
+  "statusHistory": [
+   {
+    "date": "2026-10-22",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-10-22",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   }
+  ],
+  "watchStartedAt": "2026-10-22"
+ },
+ "eventReactions": [
+  {
+   "d1": 4.5,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z9A0",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-20",
+  "buyBalance": 120900,
+  "buyChangePct": -41.7,
+  "labels": [
+   "信用買残減少",
+   "信用倍率改善"
+  ],
+  "ratio": 1.52,
+  "sellBalance": 79700,
+  "sellChangePct": -31.9
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": 0.0,
+  "currentPrice": 3455.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 20,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 5,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 60,
+   "stockReturn": null
+  },
+  "excessReturn": 0.0,
+  "initialDate": "2026-10-22",
+  "initialPrice": 3455.0,
+  "stockReturn": 0.0
+ },
+ "priceSetup": {
+  "asOf": "2026-10-22",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.02,
+  "labels": [
+   "20日線の上",
+   "60日レンジ上位3%",
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 2897.2,
+  "ma200": 2060.1,
+  "ma60": 2502.7,
+  "rangePos60": 0.97,
+  "rel20": 38.7,
+  "rel60": 87.1,
+  "volumeRatio20": 0.67
+ },
+ "reasons": [
+  "新規大量保有 6.8%（アセットマネジメントＯｎｅ株式会社）",
+  "60日レンジ上位3%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +38.7pt（20日）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-10-22",
+   "detail": "保有割合 6.76%（アセットマネジメントＯｎｅ株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9A0"
+  },
+  {
+   "date": "2026-10-22",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-22T14:21:19+09:00"
+}

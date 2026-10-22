@@ -1,0 +1,99 @@
+{
+ "company": {
+  "name": "堀場製作所",
+  "securityCode": "6856",
+  "tradingViewSymbol": "TSE:6856"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "6856-2026-10-22",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-10-22",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-10-22",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": -4.7,
+   "d20": -3.1,
+   "d5": -0.6,
+   "eventId": "edinet:S100YODI",
+   "excess5": 1.6
+  },
+  {
+   "d1": -3.8,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z8ZV",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-20",
+  "buyBalance": 47600,
+  "buyChangePct": 8.7,
+  "labels": [
+   "信用倍率悪化"
+  ],
+  "ratio": 9.92,
+  "sellBalance": 4800,
+  "sellChangePct": -37.7
+ },
+ "pastEpisodes": [
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-07-23",
+   "id": "6856-2026-07-07",
+   "setupType": "TREND",
+   "startedAt": "2026-07-07"
+  }
+ ],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-10-22",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.25,
+  "labels": [
+   "20日線が上向き"
+  ],
+  "ma20": 24614.2,
+  "ma200": 22511.9,
+  "ma60": 24151.2,
+  "rangePos60": 0.19,
+  "rel20": -1.1,
+  "rel60": -17.2,
+  "volumeRatio20": 0.49
+ },
+ "reasons": [
+  "1.1pt買い増し 5.3%→6.4%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-07-06",
+   "detail": "保有割合 5.28%（ブラックロック・ジャパン株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YODI"
+  },
+  {
+   "date": "2026-10-21",
+   "detail": "5.28% → 6.43%（ブラックロック・ジャパン株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8ZV"
+  }
+ ],
+ "updatedAt": "2026-10-22T14:21:19+09:00"
+}

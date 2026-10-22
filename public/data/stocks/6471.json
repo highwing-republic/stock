@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-10-21T23:28:08+09:00",
+  "updatedAt": "2026-10-22T14:19:50+09:00",
   "company": {
     "securityCode": "6471",
     "ticker": "6471.T",
     "name": "日本精工株式会社"
   },
   "events": [
+    {
+      "docId": "S100Z96S",
+      "ticker": "6471.T",
+      "securityCode": "6471",
+      "companyName": "日本精工株式会社",
+      "submitDatetime": "2026-10-22 13:40",
+      "filerName": "ゴールドマン・サックス証券株式会社",
+      "reportType": "change",
+      "holdingRatio": 4.11,
+      "previousHoldingRatio": 5.06,
+      "holdingChange": -0.95,
+      "purpose": "有価証券関連業務の一部としてのトレーディング・有価証券の借入等 / 運用を目的とした証券投資信託による保有及び投資一任契約に基づく運用を目的とした保有",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -2.24,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z6ES",
       "ticker": "6471.T",
@@ -32,7 +62,7 @@
         "return1d": -3.89,
         "return5d": -8.81,
         "return20d": null,
-        "returnCurrent": -8.32,
+        "returnCurrent": -10.38,
         "volumeRatio": 0.92,
         "marketExcessReturn": -4.4
       }
@@ -62,7 +92,7 @@
         "return1d": 0.21,
         "return5d": 0.85,
         "return20d": -4.39,
-        "returnCurrent": -11.33,
+        "returnCurrent": -13.32,
         "volumeRatio": 0.53,
         "marketExcessReturn": -2.03
       }
@@ -92,7 +122,7 @@
         "return1d": 0.21,
         "return5d": 0.85,
         "return20d": -4.39,
-        "returnCurrent": -11.33,
+        "returnCurrent": -13.32,
         "volumeRatio": 0.53,
         "marketExcessReturn": -2.03
       }
@@ -3908,6 +3938,16 @@
       "close": 1024.5,
       "adj_close": 1024.5,
       "volume": 2071900
+    },
+    {
+      "ticker": "6471.T",
+      "trade_date": "2026-10-22",
+      "open": 1020.0,
+      "high": 1022.5,
+      "low": 999.4000244140625,
+      "close": 1001.5,
+      "adj_close": 1001.5,
+      "volume": 1156400
     }
   ],
   "benchmark": [
@@ -7800,6 +7840,16 @@
       "close": 425.6000061035156,
       "adj_close": 425.6000061035156,
       "volume": 16298710
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-22",
+      "open": 426.20001220703125,
+      "high": 428.3999938964844,
+      "low": 421.6000061035156,
+      "close": 422.20001220703125,
+      "adj_close": 422.20001220703125,
+      "volume": 14746180
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

@@ -1,0 +1,75 @@
+{
+ "company": {
+  "name": "りそなホールディングス",
+  "securityCode": "8308",
+  "tradingViewSymbol": "TSE:8308"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "8308-2026-10-22",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-10-22",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-10-22",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": -2.3,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z8Y1",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-20",
+  "buyBalance": 4941000,
+  "buyChangePct": 0.7,
+  "labels": [
+   "信用倍率悪化"
+  ],
+  "ratio": 12.22,
+  "sellBalance": 404300,
+  "sellChangePct": -53.3
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-10-22",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.15,
+  "labels": [],
+  "ma20": 2418.6,
+  "ma200": 2070.9,
+  "ma60": 2399.7,
+  "rangePos60": 0.16,
+  "rel20": -7.9,
+  "rel60": -5.0,
+  "volumeRatio20": 0.46
+ },
+ "reasons": [
+  "4.8pt買い増し 5.2%→10%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-10-22",
+   "detail": "5.24% → 10%（キャピタル・リサーチ・アンド・マネージメント・カンパニー）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8Y1"
+  }
+ ],
+ "updatedAt": "2026-10-22T14:20:02+09:00"
+}

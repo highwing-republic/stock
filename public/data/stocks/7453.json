@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-10-21T23:28:08+09:00",
+  "updatedAt": "2026-10-22T14:19:50+09:00",
   "company": {
     "securityCode": "7453",
     "ticker": "7453.T",
     "name": "株式会社　良品計画"
   },
   "events": [
+    {
+      "docId": "S100Z9HC",
+      "ticker": "7453.T",
+      "securityCode": "7453",
+      "companyName": "株式会社　良品計画",
+      "submitDatetime": "2026-10-22 13:19",
+      "filerName": "野村證券株式会社",
+      "reportType": "change",
+      "holdingRatio": 6.57,
+      "previousHoldingRatio": 7.0,
+      "holdingChange": -0.43,
+      "purpose": "証券業務に係る商品在庫、及び累積投資業務の運営目的として保有している。 / 証券業務に係わる商品在庫として保有している。 / 信託財産の運用として保有している。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -2.87,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z6SC",
       "ticker": "7453.T",
@@ -32,7 +62,7 @@
         "return1d": 0.46,
         "return5d": 10.18,
         "return20d": null,
-        "returnCurrent": 8.72,
+        "returnCurrent": 5.6,
         "volumeRatio": 1.68,
         "marketExcessReturn": 14.59
       }
@@ -62,8 +92,8 @@
       "metrics": {
         "return1d": -0.48,
         "return5d": 5.81,
-        "return20d": null,
-        "returnCurrent": 19.64,
+        "return20d": 16.2,
+        "returnCurrent": 16.2,
         "volumeRatio": 1.14,
         "marketExcessReturn": 4.85
       }
@@ -93,7 +123,7 @@
         "return1d": -0.28,
         "return5d": -6.54,
         "return20d": 2.59,
-        "returnCurrent": 11.53,
+        "returnCurrent": 8.33,
         "volumeRatio": 1.09,
         "marketExcessReturn": -6.12
       }
@@ -124,7 +154,7 @@
         "return1d": -0.09,
         "return5d": 1.32,
         "return20d": -6.23,
-        "returnCurrent": 12.18,
+        "returnCurrent": 8.97,
         "volumeRatio": 0.68,
         "marketExcessReturn": -1.55
       }
@@ -155,7 +185,7 @@
         "return1d": 1.77,
         "return5d": -0.14,
         "return20d": -7.84,
-        "returnCurrent": 10.57,
+        "returnCurrent": 7.4,
         "volumeRatio": 0.69,
         "marketExcessReturn": 0.51
       }
@@ -4051,6 +4081,16 @@
       "close": 4740.0,
       "adj_close": 4740.0,
       "volume": 2621900
+    },
+    {
+      "ticker": "7453.T",
+      "trade_date": "2026-10-22",
+      "open": 4719.0,
+      "high": 4727.0,
+      "low": 4592.0,
+      "close": 4604.0,
+      "adj_close": 4604.0,
+      "volume": 1489100
     }
   ],
   "benchmark": [
@@ -7943,6 +7983,16 @@
       "close": 425.6000061035156,
       "adj_close": 425.6000061035156,
       "volume": 16298710
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-22",
+      "open": 426.20001220703125,
+      "high": 428.3999938964844,
+      "low": 421.6000061035156,
+      "close": 422.20001220703125,
+      "adj_close": 422.20001220703125,
+      "volume": 14746180
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

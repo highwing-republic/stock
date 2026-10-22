@@ -47,20 +47,23 @@
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-10-21",
+  "asOf": "2026-10-22",
   "atrState": "低ボラ",
   "distFrom52wHigh": 0.27,
-  "labels": [],
-  "ma20": 3915.8,
-  "ma200": 4256.6,
-  "ma60": 3953.7,
-  "rangePos60": 0.36,
-  "rel20": -5.8,
-  "rel60": -5.3,
-  "volumeRatio20": 1.45
+  "labels": [
+   "20日線の上"
+  ],
+  "ma20": 3906.8,
+  "ma200": 4260.5,
+  "ma60": 3950.7,
+  "rangePos60": 0.47,
+  "rel20": -3.3,
+  "rel60": -4.3,
+  "volumeRatio20": 1.07
  },
  "reasons": [
   "新規大量保有 5.1%（フィデリティ投信株式会社）",
+  "20日線を回復",
   "信用買残 -49%"
  ],
  "schemaVersion": 1,
@@ -71,7 +74,14 @@
    "kind": "EVENT",
    "label": "新規大量保有",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z6HX"
+  },
+  {
+   "date": "2026-10-22",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-21T23:29:41+09:00"
+ "updatedAt": "2026-10-22T14:21:19+09:00"
 }

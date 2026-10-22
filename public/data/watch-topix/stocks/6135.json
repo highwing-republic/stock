@@ -10,9 +10,7 @@
   "id": "6135-2026-10-21",
   "overextended": false,
   "setupType": "TREND",
-  "setups": [
-   "TREND"
-  ],
+  "setups": [],
   "startedAt": "2026-10-21",
   "status": "WATCH",
   "statusHistory": [
@@ -53,54 +51,53 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 0.0,
-  "currentPrice": 3260.0,
+  "benchReturn": -0.9,
+  "currentPrice": 3175.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 20,
+   "pendingDays": 19,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 5,
+   "pendingDays": 4,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 60,
+   "pendingDays": 59,
    "stockReturn": null
   },
-  "excessReturn": 0.0,
+  "excessReturn": -1.7,
   "initialDate": "2026-10-21",
   "initialPrice": 3260.0,
-  "stockReturn": 0.0
+  "stockReturn": -2.6
  },
  "priceSetup": {
-  "asOf": "2026-10-21",
+  "asOf": "2026-10-22",
   "atrState": "通常",
-  "distFrom52wHigh": 0.05,
+  "distFrom52wHigh": 0.07,
   "labels": [
-   "20日線の上",
-   "60日レンジ上位16%",
+   "60日レンジ上位24%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 3185.9,
-  "ma200": 2536.0,
-  "ma60": 2962.8,
-  "rangePos60": 0.84,
-  "rel20": 13.6,
-  "rel60": 17.3,
-  "volumeRatio20": 0.85
+  "ma20": 3200.4,
+  "ma200": 2541.7,
+  "ma60": 2968.7,
+  "rangePos60": 0.76,
+  "rel20": 11.2,
+  "rel60": 12.6,
+  "volumeRatio20": 0.69
  },
  "reasons": [
   "新規大量保有 5.2%（大和アセットマネジメント株式会社）",
-  "60日レンジ上位16%",
-  "20日線上向き",
-  "TOPIX連動ETF比 +13.6pt（20日）"
+  "60日レンジ上位24%",
+  "TOPIX連動ETF比 +11.2pt（20日）",
+  "52週高値まで7%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -117,7 +114,14 @@
    "kind": "STATUS",
    "label": "WATCH",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-22",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-21T23:29:41+09:00"
+ "updatedAt": "2026-10-22T14:21:19+09:00"
 }

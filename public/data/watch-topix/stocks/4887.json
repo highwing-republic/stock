@@ -52,6 +52,13 @@
    "d5": -3.0,
    "eventId": "edinet:S100Z48W",
    "excess5": -3.0
+  },
+  {
+   "d1": 1.4,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z9DN",
+   "excess5": null
   }
  ],
  "margin": {
@@ -68,12 +75,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -0.6,
-  "currentPrice": 1700.0,
+  "benchReturn": -1.5,
+  "currentPrice": 1723.5,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 4,
+   "pendingDays": 3,
    "stockReturn": null
   },
   "d5": {
@@ -85,37 +92,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 44,
+   "pendingDays": 43,
    "stockReturn": null
   },
-  "excessReturn": 4.1,
+  "excessReturn": 6.5,
   "initialDate": "2026-09-28",
   "initialPrice": 1642.0,
-  "stockReturn": 3.5
+  "stockReturn": 5.0
  },
  "priceSetup": {
-  "asOf": "2026-10-21",
+  "asOf": "2026-10-22",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.28,
+  "distFrom52wHigh": 0.27,
   "labels": [
    "20日線の上",
-   "60日レンジ上位5%",
+   "60日レンジ上位2%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 1634.9,
-  "ma200": 1906.0,
-  "ma60": 1608.7,
-  "rangePos60": 0.95,
-  "rel20": 4.5,
-  "rel60": 1.6,
-  "volumeRatio20": 0.85
+  "ma20": 1640.5,
+  "ma200": 1903.1,
+  "ma60": 1610.2,
+  "rangePos60": 0.98,
+  "rel20": 8.0,
+  "rel60": 5.5,
+  "volumeRatio20": 0.57
  },
  "reasons": [
   "1pt買い増し 5.8%→6.8%",
-  "60日レンジ上位5%",
+  "60日レンジ上位2%",
   "20日線上向き",
-  "TOPIX連動ETF比 +4.5pt（20日）"
+  "TOPIX連動ETF比 +8pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -195,7 +202,21 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-22",
+   "detail": "6.95% → 5.83%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9DN"
+  },
+  {
+   "date": "2026-10-22",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-21T23:29:41+09:00"
+ "updatedAt": "2026-10-22T14:21:19+09:00"
 }

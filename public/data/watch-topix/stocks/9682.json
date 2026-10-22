@@ -15,7 +15,7 @@
    "RECOVERY"
   ],
   "startedAt": "2026-10-07",
-  "status": "STRENGTHENING",
+  "status": "REACTED",
   "statusHistory": [
    {
     "date": "2026-10-07",
@@ -34,6 +34,12 @@
     "from": "WATCH",
     "reason_code": "SETUP_IMPROVED",
     "to": "STRENGTHENING"
+   },
+   {
+    "date": "2026-10-22",
+    "from": "STRENGTHENING",
+    "reason_code": "EXCESS_THRESHOLD",
+    "to": "REACTED"
    }
   ],
   "watchStartedAt": "2026-10-13"
@@ -90,12 +96,12 @@
   }
  ],
  "performance": {
-  "benchReturn": -1.6,
-  "currentPrice": 1187.0,
+  "benchReturn": -2.5,
+  "currentPrice": 1239.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 14,
+   "pendingDays": 13,
    "stockReturn": null
   },
   "d5": {
@@ -107,37 +113,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 54,
+   "pendingDays": 53,
    "stockReturn": null
   },
-  "excessReturn": 5.4,
+  "excessReturn": 10.8,
   "initialDate": "2026-10-13",
   "initialPrice": 1144.0,
-  "stockReturn": 3.8
+  "stockReturn": 8.3
  },
  "priceSetup": {
-  "asOf": "2026-10-21",
+  "asOf": "2026-10-22",
   "atrState": "通常",
-  "distFrom52wHigh": 0.1,
+  "distFrom52wHigh": 0.06,
   "labels": [
    "20日線の上",
-   "60日レンジ上位13%",
+   "60日レンジ上位2%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 1136.0,
-  "ma200": 1080.1,
-  "ma60": 1104.0,
-  "rangePos60": 0.87,
-  "rel20": 8.5,
-  "rel60": 9.9,
-  "volumeRatio20": 0.48
+  "ma20": 1143.2,
+  "ma200": 1080.4,
+  "ma60": 1107.2,
+  "rangePos60": 0.98,
+  "rel20": 14.0,
+  "rel60": 18.5,
+  "volumeRatio20": 0.47
  },
  "reasons": [
   "新規大量保有 5.1%（株式会社みずほ銀行）",
-  "60日レンジ上位13%",
+  "60日レンジ上位2%",
   "20日線上向き",
-  "TOPIX連動ETF比 +8.5pt（20日）"
+  "TOPIX連動ETF比 +14pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -224,7 +230,21 @@
    "kind": "STATUS",
    "label": "STRENGTHENING",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-22",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-22",
+   "detail": "TOPIX連動ETFとの差が大きくなった",
+   "kind": "STATUS",
+   "label": "REACTED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-21T23:29:41+09:00"
+ "updatedAt": "2026-10-22T14:21:19+09:00"
 }

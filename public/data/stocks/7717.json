@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-10-21T23:28:08+09:00",
+  "updatedAt": "2026-10-22T14:19:50+09:00",
   "company": {
     "securityCode": "7717",
     "ticker": "7717.T",
     "name": "株式会社ブイ・テクノロジー"
   },
   "events": [
+    {
+      "docId": "S100Z96T",
+      "ticker": "7717.T",
+      "securityCode": "7717",
+      "companyName": "株式会社ブイ・テクノロジー",
+      "submitDatetime": "2026-10-22 13:45",
+      "filerName": "ゴールドマン・サックス証券株式会社",
+      "reportType": "change",
+      "holdingRatio": 4.64,
+      "previousHoldingRatio": 5.73,
+      "holdingChange": -1.09,
+      "purpose": "有価証券関連業務の一部としてのトレーディング・有価証券の借入等 / 運用を目的とした証券投資信託による保有及び投資一任契約に基づく運用を目的とした保有",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -8.66,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z0GG",
       "ticker": "7717.T",
@@ -32,7 +62,7 @@
         "return1d": 0.18,
         "return5d": -4.26,
         "return20d": 19.72,
-        "returnCurrent": -4.62,
+        "returnCurrent": -12.88,
         "volumeRatio": 0.8,
         "marketExcessReturn": -3.28
       }
@@ -2938,6 +2968,16 @@
       "close": 5370.0,
       "adj_close": 5370.0,
       "volume": 236100
+    },
+    {
+      "ticker": "7717.T",
+      "trade_date": "2026-10-22",
+      "open": 5430.0,
+      "high": 5430.0,
+      "low": 4875.0,
+      "close": 4905.0,
+      "adj_close": 4905.0,
+      "volume": 315900
     }
   ],
   "benchmark": [
@@ -6830,6 +6870,16 @@
       "close": 425.6000061035156,
       "adj_close": 425.6000061035156,
       "volume": 16298710
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-22",
+      "open": 426.20001220703125,
+      "high": 428.3999938964844,
+      "low": 421.6000061035156,
+      "close": 422.20001220703125,
+      "adj_close": 422.20001220703125,
+      "volume": 14746180
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

@@ -1,11 +1,39 @@
 {
-  "updatedAt": "2026-10-21T23:28:08+09:00",
+  "updatedAt": "2026-10-22T14:19:50+09:00",
   "company": {
     "securityCode": "2055",
     "ticker": "2055.T",
     "name": "日和産業株式会社"
   },
   "events": [
+    {
+      "docId": "S100Z99Q",
+      "ticker": "2055.T",
+      "securityCode": "2055",
+      "companyName": "日和産業株式会社",
+      "submitDatetime": "2026-10-22 10:29",
+      "filerName": "みずほ証券株式会社",
+      "reportType": "change",
+      "holdingRatio": 6.72,
+      "previousHoldingRatio": 6.72,
+      "holdingChange": 0.0,
+      "purpose": "・ディーリング(短期売買)目的で保有するもの・レンディングその他取引に基づく一時的保有",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -0.6,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z8EO",
       "ticker": "2055.T",
@@ -19,21 +47,22 @@
       "holdingChange": 1.0,
       "purpose": "政策保有目的のため",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.96,
-      "marketExcessReturn": null,
-      "signalScore": 20,
+      "priceChange": -3.22,
+      "volumeRatio": 0.85,
+      "marketExcessReturn": -1.11,
+      "signalScore": 30,
       "signalReasons": [
-        "1pt以上買い増し"
+        "1pt以上買い増し",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": -0.58,
-        "return5d": null,
+        "return5d": -3.22,
         "return20d": null,
-        "returnCurrent": -2.63,
-        "volumeRatio": 0.96,
-        "marketExcessReturn": null
+        "returnCurrent": -3.22,
+        "volumeRatio": 0.85,
+        "marketExcessReturn": -1.11
       }
     },
     {
@@ -59,7 +88,7 @@
         "return1d": -1.72,
         "return5d": -3.45,
         "return20d": null,
-        "returnCurrent": -4.31,
+        "returnCurrent": -4.89,
         "volumeRatio": 0.74,
         "marketExcessReturn": 0.96
       }
@@ -2815,6 +2844,16 @@
       "close": 333.0,
       "adj_close": 333.0,
       "volume": 5000
+    },
+    {
+      "ticker": "2055.T",
+      "trade_date": "2026-10-22",
+      "open": 333.0,
+      "high": 333.0,
+      "low": 331.0,
+      "close": 331.0,
+      "adj_close": 331.0,
+      "volume": 2600
     }
   ],
   "benchmark": [
@@ -6707,6 +6746,16 @@
       "close": 425.6000061035156,
       "adj_close": 425.6000061035156,
       "volume": 16298710
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-22",
+      "open": 426.20001220703125,
+      "high": 428.3999938964844,
+      "low": 421.6000061035156,
+      "close": 422.20001220703125,
+      "adj_close": 422.20001220703125,
+      "volume": 14746180
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

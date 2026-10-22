@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-10-21T23:28:08+09:00",
+  "updatedAt": "2026-10-22T14:19:50+09:00",
   "company": {
     "securityCode": "5105",
     "ticker": "5105.T",
     "name": "ＴＯＹＯ　ＴＩＲＥ株式会社"
   },
   "events": [
+    {
+      "docId": "S100Z99T",
+      "ticker": "5105.T",
+      "securityCode": "5105",
+      "companyName": "ＴＯＹＯ　ＴＩＲＥ株式会社",
+      "submitDatetime": "2026-10-22 10:29",
+      "filerName": "みずほ証券株式会社",
+      "reportType": "initial",
+      "holdingRatio": 5.12,
+      "previousHoldingRatio": null,
+      "holdingChange": null,
+      "purpose": "・ディーリング(短期売買)目的で保有するもの / ・投資信託または投資一任契約に基づき投資権限を有するもの",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 30,
+      "signalReasons": [
+        "新規大量保有"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -0.1,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z984",
       "ticker": "5105.T",
@@ -20,7 +50,7 @@
       "purpose": "資産運用契約に基づき、顧客の資産の運用のために保有している。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.31,
       "marketExcessReturn": null,
       "signalScore": 20,
       "signalReasons": [
@@ -28,11 +58,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": 1.04,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 1.14,
-        "volumeRatio": null,
+        "returnCurrent": 1.04,
+        "volumeRatio": 0.31,
         "marketExcessReturn": null
       }
     },
@@ -62,7 +92,7 @@
         "return1d": 1.42,
         "return5d": 0.63,
         "return20d": 9.73,
-        "returnCurrent": 13.68,
+        "returnCurrent": 13.57,
         "volumeRatio": 1.27,
         "marketExcessReturn": 2.39
       }
@@ -93,7 +123,7 @@
         "return1d": -0.45,
         "return5d": 0.63,
         "return20d": -2.34,
-        "returnCurrent": 9.79,
+        "returnCurrent": 9.68,
         "volumeRatio": 1.2,
         "marketExcessReturn": 3.62
       }
@@ -3989,6 +4019,16 @@
       "close": 4172.0,
       "adj_close": 4172.0,
       "volume": 958000
+    },
+    {
+      "ticker": "5105.T",
+      "trade_date": "2026-10-22",
+      "open": 4132.0,
+      "high": 4208.0,
+      "low": 4132.0,
+      "close": 4168.0,
+      "adj_close": 4168.0,
+      "volume": 294800
     }
   ],
   "benchmark": [
@@ -7881,6 +7921,16 @@
       "close": 425.6000061035156,
       "adj_close": 425.6000061035156,
       "volume": 16298710
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-22",
+      "open": 426.20001220703125,
+      "high": 428.3999938964844,
+      "low": 421.6000061035156,
+      "close": 422.20001220703125,
+      "adj_close": 422.20001220703125,
+      "volume": 14746180
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

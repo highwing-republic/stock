@@ -1,0 +1,123 @@
+{
+ "company": {
+  "name": "スズキ",
+  "securityCode": "7269",
+  "tradingViewSymbol": "TSE:7269"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "7269-2026-10-22",
+  "overextended": false,
+  "setupType": "RECOVERY",
+  "setups": [
+   "RECOVERY"
+  ],
+  "startedAt": "2026-10-22",
+  "status": "WATCH",
+  "statusHistory": [
+   {
+    "date": "2026-10-22",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-10-22",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   }
+  ],
+  "watchStartedAt": "2026-10-22"
+ },
+ "eventReactions": [
+  {
+   "d1": -0.6,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z8ZY",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-20",
+  "buyBalance": 2277400,
+  "buyChangePct": -30.2,
+  "labels": [
+   "信用買残減少",
+   "信用倍率悪化"
+  ],
+  "ratio": 12.2,
+  "sellBalance": 186700,
+  "sellChangePct": -54.1
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": 0.0,
+  "currentPrice": 2035.5,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 20,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 5,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 60,
+   "stockReturn": null
+  },
+  "excessReturn": 0.0,
+  "initialDate": "2026-10-22",
+  "initialPrice": 2035.5,
+  "stockReturn": 0.0
+ },
+ "priceSetup": {
+  "asOf": "2026-10-22",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.16,
+  "labels": [
+   "20日線の上",
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 2017.6,
+  "ma200": 2003.2,
+  "ma60": 2029.2,
+  "rangePos60": 0.53,
+  "rel20": 2.7,
+  "rel60": 0.9,
+  "volumeRatio20": 0.31
+ },
+ "reasons": [
+  "1pt買い増し 6.2%→7.2%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +2.7pt（20日）",
+  "信用買残 -30%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-10-21",
+   "detail": "6.22% → 7.25%（ブラックロック・ジャパン株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8ZY"
+  },
+  {
+   "date": "2026-10-22",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-22T14:21:19+09:00"
+}

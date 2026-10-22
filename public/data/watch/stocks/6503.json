@@ -1,0 +1,77 @@
+{
+ "company": {
+  "name": "三菱電機",
+  "securityCode": "6503",
+  "tradingViewSymbol": "TSE:6503"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "6503-2026-10-22",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-10-22",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-10-22",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": -1.4,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z8ZU",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-20",
+  "buyBalance": 2725100,
+  "buyChangePct": -26.8,
+  "labels": [
+   "信用買残減少",
+   "信用倍率改善"
+  ],
+  "ratio": 28.81,
+  "sellBalance": 94600,
+  "sellChangePct": 4.5
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-10-22",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.27,
+  "labels": [],
+  "ma20": 5131.6,
+  "ma200": 5524.6,
+  "ma60": 5374.3,
+  "rangePos60": 0.02,
+  "rel20": -3.3,
+  "rel60": -14.6,
+  "volumeRatio20": 0.41
+ },
+ "reasons": [
+  "1pt買い増し 7%→8.1%",
+  "信用買残 -27%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-10-21",
+   "detail": "7.05% → 8.09%（ブラックロック・ジャパン株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8ZU"
+  }
+ ],
+ "updatedAt": "2026-10-22T14:20:02+09:00"
+}

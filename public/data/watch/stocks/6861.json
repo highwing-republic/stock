@@ -1,0 +1,89 @@
+{
+ "company": {
+  "name": "キーエンス",
+  "securityCode": "6861",
+  "tradingViewSymbol": "TSE:6861"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "6861-2026-10-22",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-10-22",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-10-22",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": -0.8,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z8ZW",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-20",
+  "buyBalance": 88100,
+  "buyChangePct": -36.3,
+  "labels": [
+   "信用買残減少",
+   "信用倍率悪化"
+  ],
+  "ratio": 5.15,
+  "sellBalance": 17100,
+  "sellChangePct": -65.4
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-10-22",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.08,
+  "labels": [
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 80265.0,
+  "ma200": 70486.3,
+  "ma60": 80034.5,
+  "rangePos60": 0.59,
+  "rel20": 5.8,
+  "rel60": 11.5,
+  "volumeRatio20": 0.5
+ },
+ "reasons": [
+  "1pt買い増し 5.1%→6.1%",
+  "TOPIX連動ETF比 +5.8pt（20日）",
+  "52週高値まで8%",
+  "信用買残 -36%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-10-21",
+   "detail": "5.1% → 6.13%（ブラックロック・ジャパン株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8ZW"
+  },
+  {
+   "date": "2026-10-22",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-22T14:20:02+09:00"
+}

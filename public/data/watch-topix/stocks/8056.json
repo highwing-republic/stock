@@ -1,0 +1,182 @@
+{
+ "company": {
+  "name": "BIPROGY",
+  "securityCode": "8056",
+  "tradingViewSymbol": "TSE:8056"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "8056-2026-10-22",
+  "overextended": false,
+  "setupType": "BREAKOUT",
+  "setups": [
+   "BREAKOUT",
+   "RECOVERY"
+  ],
+  "startedAt": "2026-10-22",
+  "status": "WATCH",
+  "statusHistory": [
+   {
+    "date": "2026-10-22",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-10-22",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   }
+  ],
+  "watchStartedAt": "2026-10-22"
+ },
+ "eventReactions": [
+  {
+   "d1": 1.7,
+   "d20": 10.5,
+   "d5": 4.6,
+   "eventId": "edinet:S100YO91",
+   "excess5": 6.3
+  },
+  {
+   "d1": 1.8,
+   "d20": 6.6,
+   "d5": 2.0,
+   "eventId": "edinet:S100YOTQ",
+   "excess5": 2.3
+  },
+  {
+   "d1": 2.0,
+   "d20": 7.1,
+   "d5": 3.9,
+   "eventId": "edinet:S100YXJJ",
+   "excess5": 1.3
+  },
+  {
+   "d1": 3.2,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z9HR",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-20",
+  "buyBalance": 20900,
+  "buyChangePct": -46.0,
+  "labels": [
+   "信用買残減少",
+   "信用倍率改善"
+  ],
+  "ratio": 0.87,
+  "sellBalance": 24100,
+  "sellChangePct": -0.8
+ },
+ "pastEpisodes": [
+  {
+   "closeReason": "EXPIRED",
+   "closedAt": "2026-10-07",
+   "id": "8056-2026-07-03",
+   "setupType": "BREAKOUT",
+   "startedAt": "2026-07-03"
+  }
+ ],
+ "performance": {
+  "benchReturn": 0.0,
+  "currentPrice": 5199.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 20,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 5,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 60,
+   "stockReturn": null
+  },
+  "excessReturn": 0.0,
+  "initialDate": "2026-10-22",
+  "initialPrice": 5199.0,
+  "stockReturn": 0.0
+ },
+ "priceSetup": {
+  "asOf": "2026-10-22",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.15,
+  "labels": [
+   "20日線の上",
+   "60日レンジ上位3%",
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 4815.7,
+  "ma200": 4642.5,
+  "ma60": 4683.7,
+  "rangePos60": 0.97,
+  "rel20": 12.1,
+  "rel60": 15.6,
+  "volumeRatio20": 0.5
+ },
+ "reasons": [
+  "新規大量保有 5.1%（野村證券株式会社）",
+  "60日レンジ上位3%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +12.1pt（20日）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-07-03",
+   "detail": "保有割合 5.03%（ウエリントン・マネージメント・カンパニー・エルエルピー）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YO91"
+  },
+  {
+   "date": "2026-07-06",
+   "detail": "8.28% → 7.04%（三井住友ＤＳアセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YOTQ"
+  },
+  {
+   "date": "2026-08-20",
+   "detail": "7.04% → 5.97%（三井住友ＤＳアセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YXJJ"
+  },
+  {
+   "date": "2026-10-22",
+   "detail": "保有割合 5.08%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9HR"
+  },
+  {
+   "date": "2026-10-22",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-22",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-22T14:21:19+09:00"
+}

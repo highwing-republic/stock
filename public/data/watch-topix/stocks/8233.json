@@ -26,7 +26,7 @@
  "eventReactions": [
   {
    "d1": 0.2,
-   "d20": null,
+   "d20": 0.7,
    "d5": -0.5,
    "eventId": "edinet:S100Z2OD",
    "excess5": -1.7
@@ -43,6 +43,13 @@
    "d20": null,
    "d5": null,
    "eventId": "edinet:S100Z8PZ",
+   "excess5": null
+  },
+  {
+   "d1": 2.3,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z9H7",
    "excess5": null
   }
  ],
@@ -61,24 +68,25 @@
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-10-21",
+  "asOf": "2026-10-22",
   "atrState": "通常",
-  "distFrom52wHigh": 0.19,
+  "distFrom52wHigh": 0.18,
   "labels": [
-   "20日線が上向き"
+   "20日線の上"
   ],
-  "ma20": 2119.1,
-  "ma200": 2068.8,
-  "ma60": 2211.0,
-  "rangePos60": 0.1,
-  "rel20": -2.3,
-  "rel60": -13.9,
-  "volumeRatio20": 0.6
+  "ma20": 2119.8,
+  "ma200": 2071.5,
+  "ma60": 2209.2,
+  "rangePos60": 0.21,
+  "rel20": 1.7,
+  "rel60": -4.7,
+  "volumeRatio20": 0.47
  },
  "reasons": [
   "0.1pt買い増し 5.8%→5.9%",
   "30日以内に2回買い増し",
-  "信用買残 -16%"
+  "20日線を回復",
+  "TOPIX連動ETF比 +1.7pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -102,7 +110,28 @@
    "kind": "EVENT",
    "label": "連続の買い増し",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8PZ"
+  },
+  {
+   "date": "2026-10-22",
+   "detail": "7.29% → 6.11%（野村アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9H7"
+  },
+  {
+   "date": "2026-10-22",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-22",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-21T23:29:41+09:00"
+ "updatedAt": "2026-10-22T14:21:19+09:00"
 }
