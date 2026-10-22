@@ -9,13 +9,12 @@
   "closedAt": null,
   "id": "3076-2026-10-05",
   "overextended": false,
-  "setupType": "BREAKOUT",
+  "setupType": "TREND",
   "setups": [
-   "BREAKOUT",
    "TREND"
   ],
   "startedAt": "2026-10-05",
-  "status": "STRENGTHENING",
+  "status": "CONFIRMED",
   "statusHistory": [
    {
     "date": "2026-10-05",
@@ -34,6 +33,12 @@
     "from": "WATCH",
     "reason_code": "SETUP_IMPROVED",
     "to": "STRENGTHENING"
+   },
+   {
+    "date": "2026-10-22",
+    "from": "STRENGTHENING",
+    "reason_code": "NEW_HIGH60_VOLUME",
+    "to": "CONFIRMED"
    }
   ],
   "watchStartedAt": "2026-10-06"
@@ -68,8 +73,8 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -4.2,
-  "currentPrice": 3115.0,
+  "benchReturn": -4.5,
+  "currentPrice": 3160.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
@@ -88,34 +93,34 @@
    "pendingDays": 49,
    "stockReturn": null
   },
-  "excessReturn": 7.5,
+  "excessReturn": 9.3,
   "initialDate": "2026-10-06",
   "initialPrice": 3015.0,
-  "stockReturn": 3.3
+  "stockReturn": 4.8
  },
  "priceSetup": {
   "asOf": "2026-10-22",
-  "atrState": "低ボラ",
-  "distFrom52wHigh": 0.0,
+  "atrState": "通常",
+  "distFrom52wHigh": 0.01,
   "labels": [
    "20日線の上",
-   "60日レンジ上位2%",
+   "60日レンジ上位7%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 3021.7,
-  "ma200": 2782.0,
-  "ma60": 2968.6,
-  "rangePos60": 0.98,
-  "rel20": 4.5,
-  "rel60": 16.1,
-  "volumeRatio20": 0.58
+  "ma20": 3023.9,
+  "ma200": 2782.2,
+  "ma60": 2969.3,
+  "rangePos60": 0.93,
+  "rel20": 6.3,
+  "rel60": 18.1,
+  "volumeRatio20": 1.7
  },
  "reasons": [
   "新規大量保有 5%（株式会社三菱ＵＦＪフィナンシャル・グループ）",
-  "60日レンジ上位2%",
-  "20日線上向き",
-  "TOPIX連動ETF比 +4.5pt（20日）"
+  "出来高 1.7倍で60日高値更新",
+  "60日レンジ上位7%",
+  "20日線上向き"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -205,11 +210,25 @@
   },
   {
    "date": "2026-10-22",
+   "detail": "BREAKOUT → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup変化",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-22",
    "detail": "60日高値を更新",
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-22",
+   "detail": "60日高値を出来高増で更新",
+   "kind": "STATUS",
+   "label": "CONFIRMED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-22T14:21:19+09:00"
+ "updatedAt": "2026-10-22T17:58:46+09:00"
 }

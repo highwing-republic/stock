@@ -1,0 +1,148 @@
+{
+ "company": {
+  "name": "三菱化工機",
+  "securityCode": "6331",
+  "tradingViewSymbol": "TSE:6331"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "6331-2026-10-22",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-10-22",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-10-22",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": -1.9,
+   "d20": -20.4,
+   "d5": -13.3,
+   "eventId": "edinet:S100YOQR",
+   "excess5": -11.1
+  },
+  {
+   "d1": -1.7,
+   "d20": -2.0,
+   "d5": 0.5,
+   "eventId": "edinet:S100YUKD",
+   "excess5": -2.8
+  },
+  {
+   "d1": 3.7,
+   "d20": 6.1,
+   "d5": 5.2,
+   "eventId": "edinet:S100YXJC",
+   "excess5": 2.6
+  },
+  {
+   "d1": 1.4,
+   "d20": 5.4,
+   "d5": 1.9,
+   "eventId": "edinet:S100YXOO",
+   "excess5": 0.3
+  },
+  {
+   "d1": -1.6,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z9J1",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-20",
+  "buyBalance": 405600,
+  "buyChangePct": -47.3,
+  "labels": [
+   "信用買残減少",
+   "信用倍率改善"
+  ],
+  "ratio": 14.23,
+  "sellBalance": 28500,
+  "sellChangePct": 1.8
+ },
+ "pastEpisodes": [
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-07-13",
+   "id": "6331-2026-07-07",
+   "setupType": "TREND",
+   "startedAt": "2026-07-07"
+  },
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-09-01",
+   "id": "6331-2026-08-20",
+   "setupType": "RECOVERY",
+   "startedAt": "2026-08-20"
+  }
+ ],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-10-22",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.33,
+  "labels": [],
+  "ma20": 2994.0,
+  "ma200": 3273.1,
+  "ma60": 3124.9,
+  "rangePos60": 0.02,
+  "rel20": -16.0,
+  "rel60": -17.7,
+  "volumeRatio20": 0.65
+ },
+ "reasons": [
+  "1.8pt買い増し 5%→6.9%",
+  "信用買残 -47%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-07-07",
+   "detail": "保有割合 5.12%（キャピタル・リサーチ・アンド・マネージメント・カンパニー）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YOQR"
+  },
+  {
+   "date": "2026-08-07",
+   "detail": "5.64% → 4.6%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YUKD"
+  },
+  {
+   "date": "2026-08-20",
+   "detail": "保有割合 5.05%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YXJC"
+  },
+  {
+   "date": "2026-08-21",
+   "detail": "5.12% → 6.86%（キャピタル・リサーチ・アンド・マネージメント・カンパニー）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YXOO"
+  },
+  {
+   "date": "2026-10-22",
+   "detail": "5.05% → 6.87%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9J1"
+  }
+ ],
+ "updatedAt": "2026-10-22T17:58:46+09:00"
+}

@@ -112,6 +112,13 @@
    "d5": null,
    "eventId": "edinet:S100Z8XC",
    "excess5": null
+  },
+  {
+   "d1": -6.1,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z9JJ",
+   "excess5": null
   }
  ],
  "margin": {
@@ -128,8 +135,8 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 2.4,
-  "currentPrice": 1630.0,
+  "benchReturn": 2.1,
+  "currentPrice": 1624.0,
   "d20": {
    "benchReturn": 2.5,
    "excessReturn": -41.1,
@@ -148,26 +155,26 @@
    "pendingDays": 0,
    "stockReturn": -48.0
   },
-  "excessReturn": -72.0,
+  "excessReturn": -71.8,
   "initialDate": "2026-06-24",
   "initialPrice": 5360.0,
-  "stockReturn": -69.6
+  "stockReturn": -69.7
  },
  "priceSetup": {
   "asOf": "2026-10-22",
   "atrState": "通常",
   "distFrom52wHigh": 0.74,
   "labels": [],
-  "ma20": 2194.9,
+  "ma20": 2194.7,
   "ma200": 2683.2,
-  "ma60": 2659.1,
-  "rangePos60": 0.0,
-  "rel20": -40.5,
-  "rel60": -50.4,
-  "volumeRatio20": 0.53
+  "ma60": 2659.0,
+  "rangePos60": 0.01,
+  "rel20": -40.4,
+  "rel60": -50.3,
+  "volumeRatio20": 0.79
  },
  "reasons": [
-  "新規大量保有 5.1%（ＪＰモルガン証券株式会社）",
+  "新規大量保有 5.1%（野村證券株式会社）",
   "信用買残 -17%"
  ],
  "schemaVersion": 1,
@@ -374,7 +381,14 @@
    "kind": "EVENT",
    "label": "新規大量保有",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8XC"
+  },
+  {
+   "date": "2026-10-22",
+   "detail": "保有割合 5.11%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9JJ"
   }
  ],
- "updatedAt": "2026-10-22T14:21:19+09:00"
+ "updatedAt": "2026-10-22T17:58:46+09:00"
 }

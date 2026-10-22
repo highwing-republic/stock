@@ -89,7 +89,7 @@
   },
   {
    "d1": -0.8,
-   "d20": 5.6,
+   "d20": 5.7,
    "d5": -0.8,
    "eventId": "edinet:S100Z33K",
    "excess5": -2.0
@@ -99,6 +99,13 @@
    "d20": null,
    "d5": null,
    "eventId": "edinet:S100Z8PR",
+   "excess5": null
+  },
+  {
+   "d1": 0.5,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z955",
    "excess5": null
   }
  ],
@@ -116,8 +123,8 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 0.8,
-  "currentPrice": 3791.0,
+  "benchReturn": 0.5,
+  "currentPrice": 3796.0,
   "d20": {
    "benchReturn": -0.3,
    "excessReturn": 14.5,
@@ -136,10 +143,10 @@
    "pendingDays": 0,
    "stockReturn": 14.8
   },
-  "excessReturn": 21.3,
+  "excessReturn": 21.8,
   "initialDate": "2026-07-02",
   "initialPrice": 3105.0,
-  "stockReturn": 22.1
+  "stockReturn": 22.3
  },
  "priceSetup": {
   "asOf": "2026-10-22",
@@ -147,33 +154,26 @@
   "distFrom52wHigh": 0.03,
   "labels": [
    "20日線の上",
-   "60日レンジ上位18%",
+   "60日レンジ上位17%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 3639.2,
-  "ma200": 3219.0,
-  "ma60": 3625.5,
-  "rangePos60": 0.82,
-  "rel20": 6.6,
-  "rel60": 12.8,
-  "volumeRatio20": 0.51
+  "ma20": 3639.4,
+  "ma200": 3219.1,
+  "ma60": 3625.6,
+  "rangePos60": 0.83,
+  "rel20": 7.0,
+  "rel60": 13.3,
+  "volumeRatio20": 1.08
  },
  "reasons": [
   "0.1pt買い増し 7.7%→7.8%",
   "30日以内に2回買い増し",
-  "60日レンジ上位18%",
+  "60日レンジ上位17%",
   "20日線上向き"
  ],
  "schemaVersion": 1,
  "timeline": [
-  {
-   "date": "2026-06-19",
-   "detail": "5.82% → 7.65%（野村證券株式会社）",
-   "kind": "EVENT",
-   "label": "大幅な買い増し",
-   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDP6"
-  },
   {
    "date": "2026-06-22",
    "detail": "60日線を回復",
@@ -586,7 +586,14 @@
    "kind": "EVENT",
    "label": "保有割合の減少",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8PR"
+  },
+  {
+   "date": "2026-10-22",
+   "detail": "9.04% → 8.41%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z955"
   }
  ],
- "updatedAt": "2026-10-22T14:21:19+09:00"
+ "updatedAt": "2026-10-22T17:58:46+09:00"
 }

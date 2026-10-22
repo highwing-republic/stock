@@ -76,6 +76,13 @@
    "d5": -2.9,
    "eventId": "edinet:S100Z3TM",
    "excess5": -5.2
+  },
+  {
+   "d1": -3.5,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z9JP",
+   "excess5": null
   }
  ],
  "margin": {
@@ -91,8 +98,8 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -0.1,
-  "currentPrice": 4205.0,
+  "benchReturn": -0.4,
+  "currentPrice": 4170.0,
   "d20": {
    "benchReturn": 0.5,
    "excessReturn": 3.7,
@@ -106,28 +113,28 @@
    "stockReturn": 0.2
   },
   "d60": {
-   "benchReturn": -0.1,
-   "excessReturn": -0.1,
+   "benchReturn": -0.4,
+   "excessReturn": -0.6,
    "pendingDays": 0,
-   "stockReturn": -0.2
+   "stockReturn": -1.0
   },
-  "excessReturn": -0.1,
+  "excessReturn": -0.6,
   "initialDate": "2026-07-23",
   "initialPrice": 4213.4,
-  "stockReturn": -0.2
+  "stockReturn": -1.0
  },
  "priceSetup": {
   "asOf": "2026-10-22",
   "atrState": "低ボラ",
   "distFrom52wHigh": 0.3,
   "labels": [],
-  "ma20": 4596.9,
-  "ma200": 4305.6,
-  "ma60": 4548.0,
-  "rangePos60": 0.2,
-  "rel20": -15.5,
-  "rel60": -0.1,
-  "volumeRatio20": 0.46
+  "ma20": 4595.2,
+  "ma200": 4305.5,
+  "ma60": 4547.5,
+  "rangePos60": 0.17,
+  "rel20": -15.9,
+  "rel60": -0.7,
+  "volumeRatio20": 0.69
  },
  "reasons": [
   "新規大量保有 5.3%（野村證券株式会社）",
@@ -379,7 +386,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-22",
+   "detail": "5.28% → 5.58%（野村アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9JP"
   }
  ],
- "updatedAt": "2026-10-22T14:21:19+09:00"
+ "updatedAt": "2026-10-22T17:58:46+09:00"
 }
