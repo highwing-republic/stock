@@ -9,8 +9,9 @@
   "closedAt": null,
   "id": "7821-2026-06-18",
   "overextended": true,
-  "setupType": "RECOVERY",
+  "setupType": "BREAKOUT",
   "setups": [
+   "BREAKOUT",
    "RECOVERY"
   ],
   "startedAt": "2026-06-18",
@@ -87,29 +88,29 @@
   },
   {
    "d1": 0.2,
-   "d20": 3.3,
+   "d20": 3.8,
    "d5": -1.4,
    "eventId": "edinet:S100Z3BK",
    "excess5": -3.7
   }
  ],
  "margin": {
-  "asOf": "2026-10-21",
-  "buyBalance": 28800,
-  "buyChangePct": -11.1,
+  "asOf": "2026-10-22",
+  "buyBalance": 26900,
+  "buyChangePct": -13.2,
   "labels": [
    "信用買残減少",
    "信用倍率改善",
    "売残増加"
   ],
-  "ratio": 2.59,
-  "sellBalance": 11100,
-  "sellChangePct": 105.6
+  "ratio": 1.91,
+  "sellBalance": 14100,
+  "sellChangePct": 62.1
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -2.0,
-  "currentPrice": 2045.0,
+  "benchReturn": -1.7,
+  "currentPrice": 2054.0,
   "d20": {
    "benchReturn": -2.8,
    "excessReturn": 7.9,
@@ -128,10 +129,10 @@
    "pendingDays": 0,
    "stockReturn": 5.1
   },
-  "excessReturn": 12.8,
+  "excessReturn": 13.0,
   "initialDate": "2026-07-03",
   "initialPrice": 1845.0,
-  "stockReturn": 10.8
+  "stockReturn": 11.3
  },
  "priceSetup": {
   "asOf": "2026-10-23",
@@ -139,22 +140,23 @@
   "distFrom52wHigh": 0.08,
   "labels": [
    "20日線の上",
+   "60日レンジ上位27%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 1979.0,
-  "ma200": 1920.4,
-  "ma60": 1986.0,
-  "rangePos60": 0.7,
-  "rel20": 5.6,
-  "rel60": 11.5,
-  "volumeRatio20": 0.29
+  "ma20": 1979.4,
+  "ma200": 1920.5,
+  "ma60": 1986.2,
+  "rangePos60": 0.73,
+  "rel20": 5.8,
+  "rel60": 11.7,
+  "volumeRatio20": 0.54
  },
  "reasons": [
   "5.5pt買い増し 21.9%→27.4%",
   "30日以内に2回買い増し",
-  "20日線上向き",
-  "TOPIX連動ETF比 +5.6pt（20日）"
+  "60日レンジ上位27%",
+  "20日線上向き"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -437,14 +439,7 @@
    "kind": "SETUP",
    "label": "Price Setup改善",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-10-23",
-   "detail": "BREAKOUT → RECOVERY",
-   "kind": "SETUP",
-   "label": "Price Setup変化",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-23T14:20:50+09:00"
+ "updatedAt": "2026-10-23T17:56:43+09:00"
 }
