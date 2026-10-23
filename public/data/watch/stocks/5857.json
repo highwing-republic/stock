@@ -5,20 +5,26 @@
   "tradingViewSymbol": "TSE:5857"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "NO_SETUP",
+  "closedAt": "2026-10-23",
   "id": "5857-2026-09-04",
   "overextended": false,
   "setupType": null,
   "setups": [],
   "startedAt": "2026-09-04",
-  "status": "CANDIDATE",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-09-04",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-10-23",
+    "from": "CANDIDATE",
+    "reason_code": "NO_SETUP",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": null
@@ -79,17 +85,17 @@
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-10-22",
+  "asOf": "2026-10-23",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.3,
+  "distFrom52wHigh": 0.33,
   "labels": [],
-  "ma20": 3452.7,
-  "ma200": 3470.0,
-  "ma60": 3507.8,
-  "rangePos60": 0.23,
-  "rel20": -11.0,
-  "rel60": 3.1,
-  "volumeRatio20": 0.67
+  "ma20": 3425.7,
+  "ma200": 3469.6,
+  "ma60": 3508.4,
+  "rangePos60": 0.13,
+  "rel20": -12.8,
+  "rel60": 1.8,
+  "volumeRatio20": 1.09
  },
  "reasons": [
   "新規大量保有 5.8%（大和アセットマネジメント株式会社）"
@@ -151,7 +157,14 @@
    "kind": "EVENT",
    "label": "保有割合の減少",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8ZD"
+  },
+  {
+   "date": "2026-10-23",
+   "detail": "期限内にPrice Setupが成立しなかった",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-22T23:25:24+09:00"
+ "updatedAt": "2026-10-23T14:20:02+09:00"
 }

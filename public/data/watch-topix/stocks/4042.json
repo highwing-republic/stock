@@ -1,0 +1,76 @@
+{
+ "company": {
+  "name": "東ソー",
+  "securityCode": "4042",
+  "tradingViewSymbol": "TSE:4042"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "4042-2026-10-23",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-10-23",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-10-23",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": 0.0,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z9GY",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-21",
+  "buyBalance": 1033900,
+  "buyChangePct": -0.3,
+  "labels": [],
+  "ratio": 10.43,
+  "sellBalance": 99100,
+  "sellChangePct": -1.3
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-10-23",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.16,
+  "labels": [
+   "20日線が上向き"
+  ],
+  "ma20": 2601.2,
+  "ma200": 2550.7,
+  "ma60": 2611.6,
+  "rangePos60": 0.2,
+  "rel20": -0.2,
+  "rel60": -7.7,
+  "volumeRatio20": 0.6
+ },
+ "reasons": [
+  "1pt買い増し 6%→7%",
+  "信用買残 -0%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-10-22",
+   "detail": "5.98% → 6.99%（シルチェスター・インターナショナル・インベスターズ・エルエルピー）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9GY"
+  }
+ ],
+ "updatedAt": "2026-10-23T14:20:50+09:00"
+}

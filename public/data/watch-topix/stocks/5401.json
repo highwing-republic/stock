@@ -5,20 +5,26 @@
   "tradingViewSymbol": "TSE:5401"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "NO_SETUP",
+  "closedAt": "2026-10-23",
   "id": "5401-2026-09-24",
   "overextended": false,
   "setupType": null,
   "setups": [],
   "startedAt": "2026-09-24",
-  "status": "CANDIDATE",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-09-24",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-10-23",
+    "from": "CANDIDATE",
+    "reason_code": "NO_SETUP",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": null
@@ -80,26 +86,25 @@
  ],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-10-22",
+  "asOf": "2026-10-23",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.05,
+  "distFrom52wHigh": 0.07,
   "labels": [
-   "20日線の上",
-   "60日線の上"
+   "20日線の上"
   ],
-  "ma20": 651.5,
-  "ma200": 605.6,
-  "ma60": 659.7,
-  "rangePos60": 0.67,
-  "rel20": -0.9,
-  "rel60": 12.2,
-  "volumeRatio20": 1.11
+  "ma20": 650.8,
+  "ma200": 605.9,
+  "ma60": 660.5,
+  "rangePos60": 0.46,
+  "rel20": 0.2,
+  "rel60": 8.7,
+  "volumeRatio20": 0.54
  },
  "reasons": [
   "0.1pt買い増し 5.1%→5.2%",
   "30日以内に2回買い増し",
-  "52週高値まで5%",
-  "信用買残 -6%"
+  "TOPIX連動ETF比 +0.2pt（20日）",
+  "52週高値まで7%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -165,7 +170,21 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-23",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-23",
+   "detail": "期限内にPrice Setupが成立しなかった",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-22T23:26:20+09:00"
+ "updatedAt": "2026-10-23T14:20:50+09:00"
 }

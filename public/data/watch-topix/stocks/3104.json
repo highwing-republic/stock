@@ -12,7 +12,7 @@
   "setupType": "RECOVERY",
   "setups": [],
   "startedAt": "2026-10-06",
-  "status": "WATCH",
+  "status": "STRENGTHENING",
   "statusHistory": [
    {
     "date": "2026-10-06",
@@ -25,6 +25,12 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
+   },
+   {
+    "date": "2026-10-23",
+    "from": "WATCH",
+    "reason_code": "INCREASE_EVENT",
+    "to": "STRENGTHENING"
    }
   ],
   "watchStartedAt": "2026-10-06"
@@ -43,6 +49,13 @@
    "d5": 2.4,
    "eventId": "edinet:S100Z4YH",
    "excess5": 3.3
+  },
+  {
+   "d1": -0.6,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z8P8",
+   "excess5": null
   }
  ],
  "margin": {
@@ -66,12 +79,12 @@
   }
  ],
  "performance": {
-  "benchReturn": -4.5,
-  "currentPrice": 3400.0,
+  "benchReturn": -5.7,
+  "currentPrice": 3380.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 9,
+   "pendingDays": 8,
    "stockReturn": null
   },
   "d5": {
@@ -83,32 +96,33 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 49,
+   "pendingDays": 48,
    "stockReturn": null
   },
-  "excessReturn": -3.6,
+  "excessReturn": -2.9,
   "initialDate": "2026-10-06",
   "initialPrice": 3700.0,
-  "stockReturn": -8.1
+  "stockReturn": -8.6
  },
  "priceSetup": {
-  "asOf": "2026-10-22",
+  "asOf": "2026-10-23",
   "atrState": "通常",
   "distFrom52wHigh": 0.26,
   "labels": [
    "20日線が上向き"
   ],
-  "ma20": 3496.2,
-  "ma200": 3555.3,
-  "ma60": 3462.2,
-  "rangePos60": 0.34,
-  "rel20": 7.3,
-  "rel60": -15.1,
-  "volumeRatio20": 2.12
+  "ma20": 3502.8,
+  "ma200": 3559.0,
+  "ma60": 3453.0,
+  "rangePos60": 0.32,
+  "rel20": 6.3,
+  "rel60": -13.5,
+  "volumeRatio20": 1.81
  },
  "reasons": [
-  "1.1pt買い増し 19.7%→20.8%",
-  "TOPIX連動ETF比 +7.3pt（20日）",
+  "1.1pt買い増し 20.8%→21.8%",
+  "30日以内に2回買い増し",
+  "TOPIX連動ETF比 +6.3pt（20日）",
   "信用買残 -2%"
  ],
  "schemaVersion": 1,
@@ -161,7 +175,14 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-23",
+   "detail": "大量保有の買い増しを確認",
+   "kind": "STATUS",
+   "label": "STRENGTHENING",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-22T23:26:20+09:00"
+ "updatedAt": "2026-10-23T14:20:50+09:00"
 }

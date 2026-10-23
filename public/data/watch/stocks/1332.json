@@ -40,7 +40,7 @@
   },
   {
    "d1": 0.1,
-   "d20": null,
+   "d20": -2.6,
    "d5": -1.9,
    "eventId": "edinet:S100Z3TF",
    "excess5": -4.2
@@ -65,21 +65,24 @@
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-10-22",
+  "asOf": "2026-10-23",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.28,
-  "labels": [],
-  "ma20": 1106.6,
-  "ma200": 1257.0,
-  "ma60": 1194.5,
-  "rangePos60": 0.12,
-  "rel20": -3.0,
-  "rel60": -11.5,
-  "volumeRatio20": 0.63
+  "distFrom52wHigh": 0.27,
+  "labels": [
+   "20日線の上"
+  ],
+  "ma20": 1105.1,
+  "ma200": 1256.8,
+  "ma60": 1192.2,
+  "rangePos60": 0.18,
+  "rel20": -0.4,
+  "rel60": -10.6,
+  "volumeRatio20": 0.57
  },
  "reasons": [
   "0.1pt買い増し 11.9%→12%",
   "30日以内に2回買い増し",
+  "20日線を回復",
   "信用買残 -9%"
  ],
  "schemaVersion": 1,
@@ -111,7 +114,14 @@
    "kind": "EVENT",
    "label": "保有割合の減少",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z6HK"
+  },
+  {
+   "date": "2026-10-23",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-22T23:25:24+09:00"
+ "updatedAt": "2026-10-23T14:20:02+09:00"
 }

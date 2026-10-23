@@ -74,6 +74,13 @@
    "d5": 1.0,
    "eventId": "edinet:S100YRXN",
    "excess5": 2.3
+  },
+  {
+   "d1": -1.3,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z9GZ",
+   "excess5": null
   }
  ],
  "margin": {
@@ -113,22 +120,23 @@
   "stockReturn": 9.3
  },
  "priceSetup": {
-  "asOf": "2026-10-22",
+  "asOf": "2026-10-23",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.13,
+  "distFrom52wHigh": 0.14,
   "labels": [
    "60日線の上"
   ],
-  "ma20": 1097.3,
-  "ma200": 1030.8,
-  "ma60": 1074.5,
-  "rangePos60": 0.61,
-  "rel20": -0.3,
-  "rel60": 9.6,
-  "volumeRatio20": 0.61
+  "ma20": 1096.5,
+  "ma200": 1031.0,
+  "ma60": 1075.9,
+  "rangePos60": 0.52,
+  "rel20": 0.7,
+  "rel60": 8.9,
+  "volumeRatio20": 0.54
  },
  "reasons": [
   "新規大量保有 5.2%（野村證券株式会社）",
+  "TOPIX連動ETF比 +0.7pt（20日）",
   "信用買残 -1%"
  ],
  "schemaVersion": 1,
@@ -314,7 +322,21 @@
    "kind": "STATUS",
    "label": "CLOSED",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-23",
+   "detail": "10.48% → 11.14%（株式会社みずほ銀行）",
+   "kind": "EVENT",
+   "label": "買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9GZ"
+  },
+  {
+   "date": "2026-10-23",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-22T23:26:20+09:00"
+ "updatedAt": "2026-10-23T14:20:50+09:00"
 }

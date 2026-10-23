@@ -1,0 +1,96 @@
+{
+ "company": {
+  "name": "ジーエス・ユアサ コーポレーション",
+  "securityCode": "6674",
+  "tradingViewSymbol": "TSE:6674"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "6674-2026-10-23",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-10-23",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-10-23",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": -0.2,
+   "d20": 15.3,
+   "d5": 3.3,
+   "eventId": "edinet:S100YZWM",
+   "excess5": 4.4
+  },
+  {
+   "d1": -2.1,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z8TR",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-21",
+  "buyBalance": 621000,
+  "buyChangePct": -1.4,
+  "labels": [],
+  "ratio": 50.08,
+  "sellBalance": 12400,
+  "sellChangePct": -0.8
+ },
+ "pastEpisodes": [
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-09-28",
+   "id": "6674-2026-09-04",
+   "setupType": "RECOVERY",
+   "startedAt": "2026-09-04"
+  }
+ ],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-10-23",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.42,
+  "labels": [],
+  "ma20": 5275.1,
+  "ma200": 5442.8,
+  "ma60": 5305.2,
+  "rangePos60": 0.08,
+  "rel20": -13.5,
+  "rel60": -20.5,
+  "volumeRatio20": 0.71
+ },
+ "reasons": [
+  "新規大量保有 5.3%（レオス・キャピタルワークス株式会社）",
+  "信用買残 -1%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-09-04",
+   "detail": "5.18% → 6.35%（三井住友信託銀行株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YZWM"
+  },
+  {
+   "date": "2026-10-22",
+   "detail": "保有割合 5.33%（レオス・キャピタルワークス株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8TR"
+  }
+ ],
+ "updatedAt": "2026-10-23T14:20:50+09:00"
+}

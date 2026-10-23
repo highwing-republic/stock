@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T23:25:11+09:00",
+  "updatedAt": "2026-10-23T14:19:55+09:00",
   "company": {
     "securityCode": "6069",
     "ticker": "6069.T",
@@ -20,7 +20,7 @@
       "purpose": "フレンドリー・パートナーズ株式会社及びフレンドリー・パートナーズ株式会社が無限責任組合員となっているFP成長支援A号投資事業有限責任組合の保有目的は純投資です。",
       "importantProposal": true,
       "priceChange": null,
-      "volumeRatio": 0.91,
+      "volumeRatio": 0.75,
       "marketExcessReturn": null,
       "signalScore": 20,
       "signalReasons": [
@@ -31,8 +31,8 @@
         "return1d": 1.06,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 1.82,
-        "volumeRatio": 0.91,
+        "returnCurrent": 0.91,
+        "volumeRatio": 0.75,
         "marketExcessReturn": null
       }
     },
@@ -50,7 +50,7 @@
       "purpose": "フレンドリー・パートナーズ株式会社及びフレンドリー・パートナーズ株式会社が無限責任組合員となっているFP成長支援A号投資事業有限責任組合の保有目的は純投資です。",
       "importantProposal": true,
       "priceChange": null,
-      "volumeRatio": 0.91,
+      "volumeRatio": 0.75,
       "marketExcessReturn": null,
       "signalScore": 20,
       "signalReasons": [
@@ -61,8 +61,8 @@
         "return1d": 1.06,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 1.82,
-        "volumeRatio": 0.91,
+        "returnCurrent": 0.91,
+        "volumeRatio": 0.75,
         "marketExcessReturn": null
       }
     },
@@ -79,22 +79,23 @@
       "holdingChange": null,
       "purpose": "フレンドリー・パートナーズ株式会社及びフレンドリー・パートナーズ株式会社が無限責任組合員となっているFP成長支援A号投資事業有限責任組合の保有目的は純投資です。",
       "importantProposal": true,
-      "priceChange": null,
-      "volumeRatio": 1.57,
-      "marketExcessReturn": null,
-      "signalScore": 50,
+      "priceChange": 1.84,
+      "volumeRatio": 1.36,
+      "marketExcessReturn": 3.17,
+      "signalScore": 60,
       "signalReasons": [
         "新規大量保有",
-        "重要提案行為あり"
+        "重要提案行為あり",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": 4.14,
-        "return5d": null,
+        "return5d": 1.84,
         "return20d": null,
-        "returnCurrent": 2.76,
-        "volumeRatio": 1.57,
-        "marketExcessReturn": null
+        "returnCurrent": 1.84,
+        "volumeRatio": 1.36,
+        "marketExcessReturn": 3.17
       }
     }
   ],
@@ -2788,6 +2789,16 @@
       "close": 670.0,
       "adj_close": 670.0,
       "volume": 31400
+    },
+    {
+      "ticker": "6069.T",
+      "trade_date": "2026-10-23",
+      "open": 669.0,
+      "high": 671.0,
+      "low": 659.0,
+      "close": 664.0,
+      "adj_close": 664.0,
+      "volume": 9000
     }
   ],
   "benchmark": [
@@ -6690,6 +6701,16 @@
       "close": 420.6000061035156,
       "adj_close": 420.6000061035156,
       "volume": 26084910
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-23",
+      "open": 417.79998779296875,
+      "high": 417.79998779296875,
+      "low": 410.8999938964844,
+      "close": 415.3999938964844,
+      "adj_close": 415.3999938964844,
+      "volume": 17342140
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

@@ -9,9 +9,8 @@
   "closedAt": null,
   "id": "5105-2026-09-04",
   "overextended": false,
-  "setupType": "BREAKOUT",
+  "setupType": "RECOVERY",
   "setups": [
-   "BREAKOUT",
    "RECOVERY"
   ],
   "startedAt": "2026-09-04",
@@ -83,12 +82,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -1.8,
-  "currentPrice": 4147.0,
+  "benchReturn": -3.0,
+  "currentPrice": 4087.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 3,
+   "pendingDays": 2,
    "stockReturn": null
   },
   "d5": {
@@ -100,37 +99,36 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 43,
+   "pendingDays": 42,
    "stockReturn": null
   },
-  "excessReturn": 8.1,
+  "excessReturn": 7.8,
   "initialDate": "2026-09-28",
   "initialPrice": 3900.0,
-  "stockReturn": 6.3
+  "stockReturn": 4.8
  },
  "priceSetup": {
-  "asOf": "2026-10-22",
+  "asOf": "2026-10-23",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.13,
+  "distFrom52wHigh": 0.14,
   "labels": [
    "20日線の上",
-   "60日レンジ上位24%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 4013.2,
-  "ma200": 3938.2,
-  "ma60": 3902.1,
-  "rangePos60": 0.76,
-  "rel20": 10.4,
-  "rel60": 2.0,
-  "volumeRatio20": 0.63
+  "ma20": 4025.8,
+  "ma200": 3937.2,
+  "ma60": 3903.7,
+  "rangePos60": 0.69,
+  "rel20": 8.8,
+  "rel60": 2.9,
+  "volumeRatio20": 0.38
  },
  "reasons": [
   "新規大量保有 5.1%（みずほ証券株式会社）",
-  "60日レンジ上位24%",
   "20日線上向き",
-  "TOPIX連動ETF比 +10.4pt（20日）"
+  "TOPIX連動ETF比 +8.8pt（20日）",
+  "信用買残 -11%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -238,7 +236,14 @@
    "kind": "EVENT",
    "label": "新規大量保有",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z99T"
+  },
+  {
+   "date": "2026-10-23",
+   "detail": "BREAKOUT → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup変化",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-22T23:26:20+09:00"
+ "updatedAt": "2026-10-23T14:20:50+09:00"
 }
