@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T22:37:33+09:00",
+  "updatedAt": "2026-10-27T00:55:09+09:00",
   "company": {
     "securityCode": "1994",
     "ticker": "1994.T",
@@ -20,17 +20,19 @@
       "purpose": "・ディーリング(短期売買)目的で保有するもの・レンディングその他取引に基づく一時的保有",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": 1.38,
+      "volumeRatio": 2.29,
       "marketExcessReturn": null,
-      "signalScore": 0,
-      "signalReasons": [],
+      "signalScore": 10,
+      "signalReasons": [
+        "出来高2倍以上"
+      ],
       "stockUnreacted": false,
       "metrics": {
         "return1d": -2.12,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -0.82,
-        "volumeRatio": 1.38,
+        "returnCurrent": -2.12,
+        "volumeRatio": 2.29,
         "marketExcessReturn": null
       }
     },
@@ -57,7 +59,7 @@
         "return1d": -1.31,
         "return5d": -2.29,
         "return20d": null,
-        "returnCurrent": -0.65,
+        "returnCurrent": -1.96,
         "volumeRatio": 1.13,
         "marketExcessReturn": 2.12
       }
@@ -88,7 +90,7 @@
         "return1d": -1.94,
         "return5d": 0.65,
         "return20d": -2.43,
-        "returnCurrent": -1.78,
+        "returnCurrent": -3.07,
         "volumeRatio": 0.36,
         "marketExcessReturn": 1.63
       }
@@ -119,7 +121,7 @@
         "return1d": 2.18,
         "return5d": 5.04,
         "return20d": 2.86,
-        "returnCurrent": 2.02,
+        "returnCurrent": 0.67,
         "volumeRatio": 1.57,
         "marketExcessReturn": 2.82
       }
@@ -147,7 +149,7 @@
         "return1d": -0.36,
         "return5d": 0.89,
         "return20d": 10.54,
-        "returnCurrent": 8.39,
+        "returnCurrent": 6.96,
         "volumeRatio": 1.6,
         "marketExcessReturn": -1.99
       }
@@ -178,7 +180,7 @@
         "return1d": -0.88,
         "return5d": -2.82,
         "return20d": -0.35,
-        "returnCurrent": 7.05,
+        "returnCurrent": 5.64,
         "volumeRatio": 1.14,
         "marketExcessReturn": -1.44
       }
@@ -210,7 +212,7 @@
         "return1d": -0.88,
         "return5d": -2.82,
         "return20d": -0.35,
-        "returnCurrent": 7.05,
+        "returnCurrent": 5.64,
         "volumeRatio": 1.14,
         "marketExcessReturn": -1.44
       }
@@ -238,7 +240,7 @@
         "return1d": -0.88,
         "return5d": -2.82,
         "return20d": -0.35,
-        "returnCurrent": 7.05,
+        "returnCurrent": 5.64,
         "volumeRatio": 1.14,
         "marketExcessReturn": -1.44
       }
@@ -3171,8 +3173,8 @@
       "open": 600.0,
       "high": 607.0,
       "low": 599.0,
-      "close": 607.0,
-      "adj_close": 607.0,
+      "close": null,
+      "adj_close": null,
       "volume": 4400
     }
   ],
