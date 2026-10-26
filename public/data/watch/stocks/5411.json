@@ -61,15 +61,16 @@
   }
  ],
  "margin": {
-  "asOf": "2026-10-22",
-  "buyBalance": 4480700,
-  "buyChangePct": -7.2,
+  "asOf": "2026-10-23",
+  "buyBalance": 4360600,
+  "buyChangePct": -10.2,
   "labels": [
+   "信用買残減少",
    "信用倍率改善"
   ],
-  "ratio": 3.77,
-  "sellBalance": 1188800,
-  "sellChangePct": 6.8
+  "ratio": 3.78,
+  "sellBalance": 1154000,
+  "sellChangePct": 0.8
  },
  "pastEpisodes": [
   {
@@ -86,20 +87,21 @@
   "atrState": "低ボラ",
   "distFrom52wHigh": 0.21,
   "labels": [
-   "20日線の上"
+   "20日線の上",
+   "60日線の上"
   ],
   "ma20": 1725.7,
   "ma200": 1789.0,
   "ma60": 1774.9,
   "rangePos60": 0.47,
-  "rel20": 0.9,
-  "rel60": 1.8,
-  "volumeRatio20": 0.47
+  "rel20": 1.1,
+  "rel60": 2.0,
+  "volumeRatio20": 0.9
  },
  "reasons": [
   "新規大量保有 5%（ブラックロック・ジャパン株式会社）",
-  "TOPIX連動ETF比 +0.9pt（20日）",
-  "信用買残 -7%"
+  "TOPIX連動ETF比 +1.1pt（20日）",
+  "信用買残 -10%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -147,11 +149,18 @@
   },
   {
    "date": "2026-10-26",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-26",
    "detail": "TOPIX連動ETFを上回りに転換",
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-26T14:15:55+09:00"
+ "updatedAt": "2026-10-26T18:23:29+09:00"
 }

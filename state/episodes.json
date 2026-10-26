@@ -229,6 +229,10 @@
    "event_id": "edinet:S100Z63X"
   },
   {
+   "episode_id": "4536-2026-10-26",
+   "event_id": "edinet:S100Z9VH"
+  },
+  {
    "episode_id": "4613-2026-09-25",
    "event_id": "edinet:S100Z3M6"
   },
@@ -2778,13 +2782,12 @@
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z2WD",
    "security_code": "3099",
-   "setup_type": "BREAKOUT",
+   "setup_type": "RECOVERY",
    "setups": [
-    "BREAKOUT",
     "RECOVERY"
    ],
    "started_at": "2026-09-18",
-   "status": "STRENGTHENING",
+   "status": "WATCH",
    "status_history": [
     {
      "date": "2026-09-18",
@@ -2797,12 +2800,6 @@
      "from": "CANDIDATE",
      "reason_code": "SETUP_OK",
      "to": "WATCH"
-    },
-    {
-     "date": "2026-10-26",
-     "from": "WATCH",
-     "reason_code": "SETUP_IMPROVED",
-     "to": "STRENGTHENING"
     }
    ],
    "watch_started_at": "2026-10-07"
@@ -4627,8 +4624,8 @@
     "edinet:S100XZUM",
     "edinet:S100Y713"
    ],
-   "initial_bench": 419.1000061035156,
-   "initial_price": 1582.0,
+   "initial_bench": 418.3999938964844,
+   "initial_price": 1577.0,
    "last_trigger_at": "2026-10-09",
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z6YQ",
@@ -4952,7 +4949,7 @@
    "setup_type": "TREND",
    "setups": [],
    "started_at": "2026-10-22",
-   "status": "WATCH",
+   "status": "BROKEN",
    "status_history": [
     {
      "date": "2026-10-22",
@@ -4965,6 +4962,12 @@
      "from": "CANDIDATE",
      "reason_code": "SETUP_OK",
      "to": "WATCH"
+    },
+    {
+     "date": "2026-10-26",
+     "from": "WATCH",
+     "reason_code": "BELOW_MA60",
+     "to": "BROKEN"
     }
    ],
    "watch_started_at": "2026-10-22"
@@ -5227,6 +5230,43 @@
     }
    ],
    "watch_started_at": null
+  },
+  {
+   "base_close": 1734.0,
+   "close_reason": null,
+   "closed_at": null,
+   "company_name": "参天製薬",
+   "episode_id": "4536-2026-10-26",
+   "event_ids": [
+    "edinet:S100Z9VH"
+   ],
+   "initial_bench": 418.3999938964844,
+   "initial_price": 1753.5,
+   "last_trigger_at": "2026-10-26",
+   "overextended": false,
+   "primary_trigger_event_id": "edinet:S100Z9VH",
+   "security_code": "4536",
+   "setup_type": "RECOVERY",
+   "setups": [
+    "RECOVERY"
+   ],
+   "started_at": "2026-10-26",
+   "status": "WATCH",
+   "status_history": [
+    {
+     "date": "2026-10-26",
+     "from": null,
+     "reason_code": "TRIGGER_EVENT",
+     "to": "CANDIDATE"
+    },
+    {
+     "date": "2026-10-26",
+     "from": "CANDIDATE",
+     "reason_code": "SETUP_OK",
+     "to": "WATCH"
+    }
+   ],
+   "watch_started_at": "2026-10-26"
   }
  ],
  "schema_version": 1

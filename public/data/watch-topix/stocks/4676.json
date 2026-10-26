@@ -9,11 +9,8 @@
   "closedAt": null,
   "id": "4676-2026-09-18",
   "overextended": false,
-  "setupType": "TREND",
-  "setups": [
-   "TREND",
-   "RECOVERY"
-  ],
+  "setupType": "BREAKOUT",
+  "setups": [],
   "startedAt": "2026-09-18",
   "status": "STRENGTHENING",
   "statusHistory": [
@@ -55,20 +52,18 @@
   }
  ],
  "margin": {
-  "asOf": "2026-10-22",
-  "buyBalance": 277000,
-  "buyChangePct": -4.2,
-  "labels": [
-   "信用倍率改善"
-  ],
-  "ratio": 2.25,
+  "asOf": "2026-10-23",
+  "buyBalance": 299400,
+  "buyChangePct": 7.0,
+  "labels": [],
+  "ratio": 2.43,
   "sellBalance": 123100,
-  "sellChangePct": 11.1
+  "sellChangePct": 10.2
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -2.8,
-  "currentPrice": 4079.0,
+  "benchReturn": -3.0,
+  "currentPrice": 4031.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
@@ -87,33 +82,31 @@
    "pendingDays": 52,
    "stockReturn": null
   },
-  "excessReturn": 3.8,
+  "excessReturn": 2.9,
   "initialDate": "2026-10-14",
   "initialPrice": 4037.0,
-  "stockReturn": 1.0
+  "stockReturn": -0.1
  },
  "priceSetup": {
   "asOf": "2026-10-26",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.06,
+  "distFrom52wHigh": 0.07,
   "labels": [
-   "20日線の上",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 4034.1,
-  "ma200": 3839.9,
-  "ma60": 4015.7,
-  "rangePos60": 0.64,
-  "rel20": 5.2,
-  "rel60": 1.5,
-  "volumeRatio20": 0.73
+  "ma20": 4031.7,
+  "ma200": 3839.6,
+  "ma60": 4014.9,
+  "rangePos60": 0.55,
+  "rel20": 4.2,
+  "rel60": 0.6,
+  "volumeRatio20": 1.28
  },
  "reasons": [
   "新規大量保有 5.6%（大和証券株式会社）",
-  "20日線上向き",
-  "TOPIX連動ETF比 +5.2pt（20日）",
-  "52週高値まで6%"
+  "TOPIX連動ETF比 +4.2pt（20日）",
+  "52週高値まで7%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -210,11 +203,11 @@
   },
   {
    "date": "2026-10-26",
-   "detail": "BREAKOUT → TREND",
+   "detail": "BREAKOUT → なし",
    "kind": "SETUP",
-   "label": "Price Setup変化",
+   "label": "Price Setup解消",
    "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-26T14:17:01+09:00"
+ "updatedAt": "2026-10-26T18:24:29+09:00"
 }

@@ -1,0 +1,121 @@
+{
+ "company": {
+  "name": "参天製薬",
+  "securityCode": "4536",
+  "tradingViewSymbol": "TSE:4536"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "4536-2026-10-26",
+  "overextended": false,
+  "setupType": "RECOVERY",
+  "setups": [
+   "RECOVERY"
+  ],
+  "startedAt": "2026-10-26",
+  "status": "WATCH",
+  "statusHistory": [
+   {
+    "date": "2026-10-26",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-10-26",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   }
+  ],
+  "watchStartedAt": "2026-10-26"
+ },
+ "eventReactions": [
+  {
+   "d1": 1.1,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z9VH",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-23",
+  "buyBalance": 120600,
+  "buyChangePct": -9.5,
+  "labels": [
+   "信用倍率改善"
+  ],
+  "ratio": 5.69,
+  "sellBalance": 21200,
+  "sellChangePct": 2.9
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": 0.0,
+  "currentPrice": 1753.5,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 20,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 5,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 60,
+   "stockReturn": null
+  },
+  "excessReturn": 0.0,
+  "initialDate": "2026-10-26",
+  "initialPrice": 1753.5,
+  "stockReturn": 0.0
+ },
+ "priceSetup": {
+  "asOf": "2026-10-26",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.21,
+  "labels": [
+   "20日線の上",
+   "20日線が上向き"
+  ],
+  "ma20": 1698.7,
+  "ma200": 1790.5,
+  "ma60": 1787.2,
+  "rangePos60": 0.32,
+  "rel20": 4.3,
+  "rel60": -8.6,
+  "volumeRatio20": 0.85
+ },
+ "reasons": [
+  "1pt買い増し 9.2%→10.2%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +4.3pt（20日）",
+  "信用買残 -10%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-10-26",
+   "detail": "9.23% → 10.25%（シルチェスター・インターナショナル・インベスターズ・エルエルピー）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9VH"
+  },
+  {
+   "date": "2026-10-26",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-26T18:24:29+09:00"
+}

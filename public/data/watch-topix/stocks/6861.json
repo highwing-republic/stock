@@ -12,7 +12,7 @@
   "setupType": "TREND",
   "setups": [],
   "startedAt": "2026-10-22",
-  "status": "WATCH",
+  "status": "BROKEN",
   "statusHistory": [
    {
     "date": "2026-10-22",
@@ -25,6 +25,12 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
+   },
+   {
+    "date": "2026-10-26",
+    "from": "WATCH",
+    "reason_code": "BELOW_MA60",
+    "to": "BROKEN"
    }
   ],
   "watchStartedAt": "2026-10-22"
@@ -39,21 +45,20 @@
   }
  ],
  "margin": {
-  "asOf": "2026-10-22",
-  "buyBalance": 120600,
-  "buyChangePct": -15.5,
+  "asOf": "2026-10-23",
+  "buyBalance": 134200,
+  "buyChangePct": 5.6,
   "labels": [
-   "信用買残減少",
-   "信用倍率改善"
+   "信用倍率悪化"
   ],
-  "ratio": 2.6,
-  "sellBalance": 46400,
-  "sellChangePct": 6.9
+  "ratio": 3.11,
+  "sellBalance": 43200,
+  "sellChangePct": -12.4
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -0.3,
-  "currentPrice": 78140.0,
+  "benchReturn": -0.5,
+  "currentPrice": 77270.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
@@ -72,30 +77,28 @@
    "pendingDays": 58,
    "stockReturn": null
   },
-  "excessReturn": -2.5,
+  "excessReturn": -3.3,
   "initialDate": "2026-10-22",
   "initialPrice": 80360.0,
-  "stockReturn": -2.8
+  "stockReturn": -3.8
  },
  "priceSetup": {
   "asOf": "2026-10-26",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.11,
+  "distFrom52wHigh": 0.12,
   "labels": [
    "20日線が上向き"
   ],
-  "ma20": 80254.5,
-  "ma200": 70700.3,
-  "ma60": 80221.2,
-  "rangePos60": 0.47,
-  "rel20": 0.7,
-  "rel60": 6.9,
-  "volumeRatio20": 0.6
+  "ma20": 80211.0,
+  "ma200": 70695.9,
+  "ma60": 80206.7,
+  "rangePos60": 0.42,
+  "rel20": -0.2,
+  "rel60": 5.9,
+  "volumeRatio20": 1.08
  },
  "reasons": [
-  "1pt買い増し 5.1%→6.1%",
-  "TOPIX連動ETF比 +0.7pt（20日）",
-  "信用買残 -16%"
+  "1pt買い増し 5.1%→6.1%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -119,7 +122,14 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-26",
+   "detail": "60日線を下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-26T14:17:01+09:00"
+ "updatedAt": "2026-10-26T18:24:29+09:00"
 }
