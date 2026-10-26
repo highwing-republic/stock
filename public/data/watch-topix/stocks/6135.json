@@ -12,7 +12,7 @@
   "setupType": "TREND",
   "setups": [],
   "startedAt": "2026-10-21",
-  "status": "WATCH",
+  "status": "BROKEN",
   "statusHistory": [
    {
     "date": "2026-10-21",
@@ -25,6 +25,12 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
+   },
+   {
+    "date": "2026-10-26",
+    "from": "WATCH",
+    "reason_code": "BELOW_MA20",
+    "to": "BROKEN"
    }
   ],
   "watchStartedAt": "2026-10-21"
@@ -51,50 +57,50 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -2.2,
-  "currentPrice": 3070.0,
+  "benchReturn": -1.5,
+  "currentPrice": 3045.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 18,
+   "pendingDays": 17,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 3,
+   "pendingDays": 2,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 58,
+   "pendingDays": 57,
    "stockReturn": null
   },
-  "excessReturn": -3.6,
+  "excessReturn": -5.1,
   "initialDate": "2026-10-21",
   "initialPrice": 3260.0,
-  "stockReturn": -5.8
+  "stockReturn": -6.6
  },
  "priceSetup": {
-  "asOf": "2026-10-23",
+  "asOf": "2026-10-26",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.1,
+  "distFrom52wHigh": 0.11,
   "labels": [
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 3206.0,
-  "ma200": 2546.9,
-  "ma60": 2972.9,
-  "rangePos60": 0.66,
-  "rel20": 6.6,
-  "rel60": 10.2,
-  "volumeRatio20": 1.29
+  "ma20": 3208.8,
+  "ma200": 2552.0,
+  "ma60": 2976.8,
+  "rangePos60": 0.63,
+  "rel20": 4.4,
+  "rel60": 9.6,
+  "volumeRatio20": 0.5
  },
  "reasons": [
   "新規大量保有 5.2%（大和アセットマネジメント株式会社）",
-  "TOPIX連動ETF比 +6.6pt（20日）",
+  "TOPIX連動ETF比 +4.4pt（20日）",
   "信用買残 -17%"
  ],
  "schemaVersion": 1,
@@ -119,7 +125,14 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-26",
+   "detail": "20日線を連続で下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-23T23:11:52+09:00"
+ "updatedAt": "2026-10-26T14:17:01+09:00"
 }

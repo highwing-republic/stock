@@ -5,8 +5,8 @@
   "tradingViewSymbol": "TSE:9722"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "EXPIRED",
+  "closedAt": "2026-10-26",
   "id": "9722-2026-07-27",
   "overextended": true,
   "setupType": "BREAKOUT",
@@ -16,7 +16,7 @@
    "RECOVERY"
   ],
   "startedAt": "2026-07-27",
-  "status": "REACTED",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-07-27",
@@ -47,6 +47,12 @@
     "from": "CONFIRMED",
     "reason_code": "RETURN_THRESHOLD",
     "to": "REACTED"
+   },
+   {
+    "date": "2026-10-26",
+    "from": "REACTED",
+    "reason_code": "EXPIRED",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-07-27"
@@ -74,8 +80,8 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -1.9,
-  "currentPrice": 3050.0,
+  "benchReturn": -1.2,
+  "currentPrice": 3020.0,
   "d20": {
    "benchReturn": 0.6,
    "excessReturn": 36.3,
@@ -89,39 +95,38 @@
    "stockReturn": -0.4
   },
   "d60": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 1,
-   "stockReturn": null
+   "benchReturn": -1.2,
+   "excessReturn": 52.9,
+   "pendingDays": 0,
+   "stockReturn": 51.7
   },
-  "excessReturn": 55.1,
+  "excessReturn": 52.9,
   "initialDate": "2026-07-27",
   "initialPrice": 1991.0,
-  "stockReturn": 53.2
+  "stockReturn": 51.7
  },
  "priceSetup": {
-  "asOf": "2026-10-23",
+  "asOf": "2026-10-26",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.05,
+  "distFrom52wHigh": 0.06,
   "labels": [
-   "20日線の上",
-   "60日レンジ上位13%",
+   "60日レンジ上位15%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 3041.9,
-  "ma200": 2316.6,
-  "ma60": 2694.4,
-  "rangePos60": 0.87,
-  "rel20": 11.5,
-  "rel60": 58.4,
-  "volumeRatio20": 0.91
+  "ma20": 3056.2,
+  "ma200": 2318.8,
+  "ma60": 2711.6,
+  "rangePos60": 0.85,
+  "rel20": 13.0,
+  "rel60": 52.9,
+  "volumeRatio20": 0.36
  },
  "reasons": [
   "1.1pt買い増し 7.2%→8.2%",
-  "60日レンジ上位13%",
-  "20日線上向き",
-  "TOPIX連動ETF比 +11.5pt（20日）"
+  "60日レンジ上位15%",
+  "TOPIX連動ETF比 +13pt（20日）",
+  "52週高値まで6%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -397,7 +402,21 @@
    "kind": "SETUP",
    "label": "Price Setup変化",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-26",
+   "detail": "BREAKOUT → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-26",
+   "detail": "観察期限に到達",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-23T23:11:52+09:00"
+ "updatedAt": "2026-10-26T14:17:01+09:00"
 }

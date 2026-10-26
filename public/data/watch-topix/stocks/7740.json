@@ -5,14 +5,14 @@
   "tradingViewSymbol": "TSE:7740"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "BROKEN",
+  "closedAt": "2026-10-26",
   "id": "7740-2026-10-09",
   "overextended": false,
   "setupType": "TREND",
   "setups": [],
   "startedAt": "2026-10-09",
-  "status": "BROKEN",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-10-09",
@@ -37,6 +37,12 @@
     "from": "STRENGTHENING",
     "reason_code": "BELOW_MA20",
     "to": "BROKEN"
+   },
+   {
+    "date": "2026-10-26",
+    "from": "BROKEN",
+    "reason_code": "BROKEN",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-10-09"
@@ -70,12 +76,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -3.7,
-  "currentPrice": 1418.0,
+  "benchReturn": -3.1,
+  "currentPrice": 1415.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 11,
+   "pendingDays": 10,
    "stockReturn": null
   },
   "d5": {
@@ -87,34 +93,34 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 51,
+   "pendingDays": 50,
    "stockReturn": null
   },
-  "excessReturn": -4.8,
+  "excessReturn": -5.6,
   "initialDate": "2026-10-09",
   "initialPrice": 1550.0,
-  "stockReturn": -8.5
+  "stockReturn": -8.7
  },
  "priceSetup": {
-  "asOf": "2026-10-23",
+  "asOf": "2026-10-26",
   "atrState": "高ボラ",
   "distFrom52wHigh": 0.1,
   "labels": [
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 1442.9,
-  "ma200": 1149.9,
-  "ma60": 1391.0,
-  "rangePos60": 0.66,
-  "rel20": 7.3,
-  "rel60": 27.3,
-  "volumeRatio20": 0.69
+  "ma20": 1445.6,
+  "ma200": 1151.9,
+  "ma60": 1395.7,
+  "rangePos60": 0.65,
+  "rel20": 6.5,
+  "rel60": 26.0,
+  "volumeRatio20": 0.23
  },
  "reasons": [
   "0.4pt買い増し 18.5%→18.9%",
   "30日以内に2回買い増し",
-  "TOPIX連動ETF比 +7.3pt（20日）",
+  "TOPIX連動ETF比 +6.5pt（20日）",
   "52週高値まで10%"
  ],
  "schemaVersion": 1,
@@ -167,7 +173,14 @@
    "kind": "STATUS",
    "label": "BROKEN",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-26",
+   "detail": "Price Setupが崩れた",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-23T23:11:52+09:00"
+ "updatedAt": "2026-10-26T14:17:01+09:00"
 }

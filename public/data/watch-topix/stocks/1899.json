@@ -5,8 +5,8 @@
   "tradingViewSymbol": "TSE:1899"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "EXPIRED",
+  "closedAt": "2026-10-26",
   "id": "1899-2026-07-24",
   "overextended": true,
   "setupType": "BREAKOUT",
@@ -16,7 +16,7 @@
    "RECOVERY"
   ],
   "startedAt": "2026-07-24",
-  "status": "REACTED",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-07-24",
@@ -41,6 +41,12 @@
     "from": "CONFIRMED",
     "reason_code": "RETURN_THRESHOLD",
     "to": "REACTED"
+   },
+   {
+    "date": "2026-10-26",
+    "from": "REACTED",
+    "reason_code": "EXPIRED",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-07-27"
@@ -72,8 +78,8 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -1.9,
-  "currentPrice": 4915.0,
+  "benchReturn": -1.2,
+  "currentPrice": 4945.0,
   "d20": {
    "benchReturn": 0.6,
    "excessReturn": 21.6,
@@ -87,39 +93,39 @@
    "stockReturn": -2.7
   },
   "d60": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 1,
-   "stockReturn": null
+   "benchReturn": -1.2,
+   "excessReturn": 26.1,
+   "pendingDays": 0,
+   "stockReturn": 24.9
   },
-  "excessReturn": 26.0,
+  "excessReturn": 26.1,
   "initialDate": "2026-07-27",
   "initialPrice": 3960.0,
-  "stockReturn": 24.1
+  "stockReturn": 24.9
  },
  "priceSetup": {
-  "asOf": "2026-10-23",
+  "asOf": "2026-10-26",
   "atrState": "低ボラ",
   "distFrom52wHigh": 0.04,
   "labels": [
    "20日線の上",
-   "60日レンジ上位16%",
+   "60日レンジ上位14%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 4793.8,
-  "ma200": 4136.0,
-  "ma60": 4622.7,
-  "rangePos60": 0.84,
-  "rel20": 5.1,
-  "rel60": 26.3,
-  "volumeRatio20": 0.79
+  "ma20": 4800.8,
+  "ma200": 4141.3,
+  "ma60": 4639.1,
+  "rangePos60": 0.86,
+  "rel20": 5.5,
+  "rel60": 26.1,
+  "volumeRatio20": 0.24
  },
  "reasons": [
   "1.1pt買い増し 5%→6.1%",
-  "60日レンジ上位16%",
+  "60日レンジ上位14%",
   "20日線上向き",
-  "TOPIX連動ETF比 +5.1pt（20日）"
+  "TOPIX連動ETF比 +5.5pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -304,7 +310,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-26",
+   "detail": "観察期限に到達",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-23T23:11:52+09:00"
+ "updatedAt": "2026-10-26T14:17:01+09:00"
 }

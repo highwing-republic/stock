@@ -58,9 +58,9 @@
   {
    "d1": -3.5,
    "d20": null,
-   "d5": null,
+   "d5": -1.8,
    "eventId": "edinet:S100Z8XD",
-   "excess5": null
+   "excess5": 0.1
   }
  ],
  "margin": {
@@ -79,7 +79,7 @@
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 7,
+   "pendingDays": 6,
    "stockReturn": null
   },
   "d5": {
@@ -91,7 +91,7 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 47,
+   "pendingDays": 46,
    "stockReturn": null
   },
   "excessReturn": 0.1,
@@ -100,25 +100,21 @@
   "stockReturn": -2.0
  },
  "priceSetup": {
-  "asOf": "2026-10-23",
+  "asOf": "2026-10-26",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.05,
-  "labels": [
-   "20日線が上向き",
-   "60日線の上"
-  ],
-  "ma20": 2253.9,
-  "ma200": 1978.2,
-  "ma60": 2213.7,
-  "rangePos60": 0.57,
-  "rel20": 1.3,
-  "rel60": 1.9,
-  "volumeRatio20": 0.83
+  "distFrom52wHigh": 0.06,
+  "labels": [],
+  "ma20": 2249.4,
+  "ma200": 1981.1,
+  "ma60": 2212.9,
+  "rangePos60": 0.51,
+  "rel20": -1.3,
+  "rel60": -0.8,
+  "volumeRatio20": 0.38
  },
  "reasons": [
   "新規大量保有 5.2%（ＪＰモルガン証券株式会社）",
-  "TOPIX連動ETF比 +1.3pt（20日）",
-  "52週高値まで5%"
+  "52週高値まで6%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -207,5 +203,5 @@
    "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-23T23:10:59+09:00"
+ "updatedAt": "2026-10-26T14:15:55+09:00"
 }

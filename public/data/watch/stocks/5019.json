@@ -9,19 +9,27 @@
   "closedAt": null,
   "id": "5019-2026-10-09",
   "overextended": false,
-  "setupType": null,
-  "setups": [],
+  "setupType": "TREND",
+  "setups": [
+   "TREND"
+  ],
   "startedAt": "2026-10-09",
-  "status": "CANDIDATE",
+  "status": "WATCH",
   "statusHistory": [
    {
     "date": "2026-10-09",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-10-26",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
    }
   ],
-  "watchStartedAt": null
+  "watchStartedAt": "2026-10-26"
  },
  "eventReactions": [
   {
@@ -63,25 +71,54 @@
   "sellChangePct": -11.5
  },
  "pastEpisodes": [],
- "performance": null,
+ "performance": {
+  "benchReturn": 0.0,
+  "currentPrice": 1582.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 20,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 5,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 60,
+   "stockReturn": null
+  },
+  "excessReturn": 0.0,
+  "initialDate": "2026-10-26",
+  "initialPrice": 1582.0,
+  "stockReturn": 0.0
+ },
  "priceSetup": {
-  "asOf": "2026-10-23",
+  "asOf": "2026-10-26",
   "atrState": "通常",
-  "distFrom52wHigh": 0.09,
+  "distFrom52wHigh": 0.06,
   "labels": [
+   "20日線の上",
+   "60日レンジ上位23%",
    "60日線の上"
   ],
-  "ma20": 1556.8,
-  "ma200": 1374.1,
-  "ma60": 1457.4,
-  "rangePos60": 0.68,
-  "rel20": -3.7,
-  "rel60": 17.0,
-  "volumeRatio20": 0.88
+  "ma20": 1553.7,
+  "ma200": 1376.3,
+  "ma60": 1462.1,
+  "rangePos60": 0.77,
+  "rel20": -1.2,
+  "rel60": 22.9,
+  "volumeRatio20": 0.44
  },
  "reasons": [
   "1.7pt買い増し 7.8%→9.4%",
-  "52週高値まで9%"
+  "60日レンジ上位23%",
+  "20日線を回復",
+  "52週高値まで6%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -112,7 +149,28 @@
    "kind": "EVENT",
    "label": "新規大量保有",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Y713"
+  },
+  {
+   "date": "2026-10-26",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-26",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-26",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-23T23:10:59+09:00"
+ "updatedAt": "2026-10-26T14:15:55+09:00"
 }

@@ -5,20 +5,26 @@
   "tradingViewSymbol": "TSE:1332"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "NO_SETUP",
+  "closedAt": "2026-10-26",
   "id": "1332-2026-09-24",
   "overextended": false,
   "setupType": null,
   "setups": [],
   "startedAt": "2026-09-24",
-  "status": "CANDIDATE",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-09-24",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-10-26",
+    "from": "CANDIDATE",
+    "reason_code": "NO_SETUP",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": null
@@ -67,24 +73,24 @@
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-10-23",
+  "asOf": "2026-10-26",
   "atrState": "低ボラ",
   "distFrom52wHigh": 0.27,
   "labels": [
    "20日線の上"
   ],
-  "ma20": 1105.1,
+  "ma20": 1104.0,
   "ma200": 1256.8,
-  "ma60": 1192.2,
-  "rangePos60": 0.18,
-  "rel20": -0.5,
-  "rel60": -10.8,
-  "volumeRatio20": 1.09
+  "ma60": 1189.6,
+  "rangePos60": 0.21,
+  "rel20": 0.6,
+  "rel60": -11.0,
+  "volumeRatio20": 0.31
  },
  "reasons": [
   "0.1pt買い増し 11.9%→12%",
   "30日以内に2回買い増し",
-  "20日線を回復",
+  "TOPIX連動ETF比 +0.6pt（20日）",
   "信用買残 -6%"
  ],
  "schemaVersion": 1,
@@ -123,7 +129,21 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-26",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-26",
+   "detail": "期限内にPrice Setupが成立しなかった",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-23T23:11:52+09:00"
+ "updatedAt": "2026-10-26T14:17:01+09:00"
 }

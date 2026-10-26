@@ -9,27 +9,35 @@
   "closedAt": null,
   "id": "8541-2026-10-20",
   "overextended": false,
-  "setupType": null,
-  "setups": [],
+  "setupType": "TREND",
+  "setups": [
+   "TREND"
+  ],
   "startedAt": "2026-10-20",
-  "status": "CANDIDATE",
+  "status": "WATCH",
   "statusHistory": [
    {
     "date": "2026-10-20",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-10-26",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
    }
   ],
-  "watchStartedAt": null
+  "watchStartedAt": "2026-10-26"
  },
  "eventReactions": [
   {
    "d1": -3.0,
    "d20": null,
-   "d5": null,
+   "d5": 4.2,
    "eventId": "edinet:S100Z85C",
-   "excess5": null
+   "excess5": 6.0
   }
  ],
  "margin": {
@@ -44,29 +52,54 @@
   "sellChangePct": 12.6
  },
  "pastEpisodes": [],
- "performance": null,
+ "performance": {
+  "benchReturn": 0.0,
+  "currentPrice": 3495.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 20,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 5,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 60,
+   "stockReturn": null
+  },
+  "excessReturn": 0.0,
+  "initialDate": "2026-10-26",
+  "initialPrice": 3495.0,
+  "stockReturn": 0.0
+ },
  "priceSetup": {
-  "asOf": "2026-10-23",
+  "asOf": "2026-10-26",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.07,
+  "distFrom52wHigh": 0.06,
   "labels": [
-   "60日レンジ上位24%",
-   "20日線が上向き",
+   "20日線の上",
+   "60日レンジ上位19%",
    "60日線の上"
   ],
-  "ma20": 3464.8,
-  "ma200": 2240.3,
-  "ma60": 3196.1,
-  "rangePos60": 0.76,
-  "rel20": 1.8,
-  "rel60": 24.2,
-  "volumeRatio20": 1.34
+  "ma20": 3455.8,
+  "ma200": 2250.7,
+  "ma60": 3206.1,
+  "rangePos60": 0.81,
+  "rel20": -2.4,
+  "rel60": 21.8,
+  "volumeRatio20": 0.93
  },
  "reasons": [
   "新規大量保有 5.2%（ありあけキャピタル株式会社）",
-  "60日レンジ上位24%",
-  "TOPIX連動ETF比 +1.8pt（20日）",
-  "52週高値まで7%"
+  "60日レンジ上位19%",
+  "20日線を回復",
+  "52週高値まで6%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -83,7 +116,28 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-26",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-26",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-26",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-23T23:11:52+09:00"
+ "updatedAt": "2026-10-26T14:17:01+09:00"
 }

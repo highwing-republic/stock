@@ -12,7 +12,7 @@
   "setupType": "RECOVERY",
   "setups": [],
   "startedAt": "2026-10-06",
-  "status": "STRENGTHENING",
+  "status": "BROKEN",
   "statusHistory": [
    {
     "date": "2026-10-06",
@@ -31,6 +31,12 @@
     "from": "WATCH",
     "reason_code": "INCREASE_EVENT",
     "to": "STRENGTHENING"
+   },
+   {
+    "date": "2026-10-26",
+    "from": "STRENGTHENING",
+    "reason_code": "BELOW_MA20",
+    "to": "BROKEN"
    }
   ],
   "watchStartedAt": "2026-10-06"
@@ -79,12 +85,12 @@
   }
  ],
  "performance": {
-  "benchReturn": -5.5,
-  "currentPrice": 3405.0,
+  "benchReturn": -4.8,
+  "currentPrice": 3370.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 8,
+   "pendingDays": 7,
    "stockReturn": null
   },
   "d5": {
@@ -96,33 +102,33 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 48,
+   "pendingDays": 47,
    "stockReturn": null
   },
-  "excessReturn": -2.5,
+  "excessReturn": -4.1,
   "initialDate": "2026-10-06",
   "initialPrice": 3700.0,
-  "stockReturn": -8.0
+  "stockReturn": -8.9
  },
  "priceSetup": {
-  "asOf": "2026-10-23",
+  "asOf": "2026-10-26",
   "atrState": "通常",
-  "distFrom52wHigh": 0.25,
+  "distFrom52wHigh": 0.26,
   "labels": [
    "20日線が上向き"
   ],
-  "ma20": 3504.1,
-  "ma200": 3559.1,
-  "ma60": 3453.4,
-  "rangePos60": 0.34,
-  "rel20": 6.8,
-  "rel60": -13.1,
-  "volumeRatio20": 2.1
+  "ma20": 3509.4,
+  "ma200": 3562.7,
+  "ma60": 3443.8,
+  "rangePos60": 0.33,
+  "rel20": 5.8,
+  "rel60": -13.5,
+  "volumeRatio20": 0.39
  },
  "reasons": [
   "1.1pt買い増し 20.8%→21.8%",
   "30日以内に2回買い増し",
-  "TOPIX連動ETF比 +6.8pt（20日）",
+  "TOPIX連動ETF比 +5.8pt（20日）",
   "信用買残 -5%"
  ],
  "schemaVersion": 1,
@@ -182,7 +188,14 @@
    "kind": "STATUS",
    "label": "STRENGTHENING",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-26",
+   "detail": "20日線を連続で下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-23T23:11:52+09:00"
+ "updatedAt": "2026-10-26T14:17:01+09:00"
 }

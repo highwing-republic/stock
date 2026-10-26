@@ -1,11 +1,43 @@
 {
-  "updatedAt": "2026-10-23T23:10:51+09:00",
+  "updatedAt": "2026-10-26T14:15:42+09:00",
   "company": {
     "securityCode": "6378",
     "ticker": "6378.T",
     "name": "木村化工機株式会社"
   },
   "events": [
+    {
+      "docId": "S100Z9V6",
+      "ticker": "6378.T",
+      "securityCode": "6378",
+      "companyName": "木村化工機株式会社",
+      "submitDatetime": "2026-10-26 13:54",
+      "filerName": "大畠　元紀",
+      "reportType": "change",
+      "holdingRatio": 0.0,
+      "previousHoldingRatio": 5.0,
+      "holdingChange": -5.0,
+      "purpose": "－",
+      "importantProposal": true,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "重要提案行為あり",
+        "保有割合減少",
+        "大幅売却"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 2.29,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z8QE",
       "ticker": "6378.T",
@@ -20,7 +52,7 @@
       "purpose": "政策投資として保有するもの。 / 投資信託契約、投資一任契約に基づく運用を目的として保有するもの。 / 証券投資信託及び投資一任契約において、株券等の取得・処分の権限を有するもの。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": 1.07,
+      "volumeRatio": 1.04,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [
@@ -31,8 +63,8 @@
         "return1d": -0.99,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -1.08,
-        "volumeRatio": 1.07,
+        "returnCurrent": 1.18,
+        "volumeRatio": 1.04,
         "marketExcessReturn": null
       }
     }
@@ -2713,10 +2745,20 @@
       "trade_date": "2026-10-23",
       "open": 1075.0,
       "high": 1095.0,
-      "low": 1055.0,
+      "low": 1058.0,
       "close": 1094.0,
       "adj_close": 1094.0,
       "volume": 124400
+    },
+    {
+      "ticker": "6378.T",
+      "trade_date": "2026-10-26",
+      "open": 1090.0,
+      "high": 1126.0,
+      "low": 1090.0,
+      "close": 1119.0,
+      "adj_close": 1119.0,
+      "volume": 88800
     }
   ],
   "benchmark": [
@@ -6629,6 +6671,16 @@
       "close": 416.29998779296875,
       "adj_close": 416.29998779296875,
       "volume": 20735860
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-26",
+      "open": 416.20001220703125,
+      "high": 420.3999938964844,
+      "low": 416.20001220703125,
+      "close": 419.1000061035156,
+      "adj_close": 419.1000061035156,
+      "volume": 6455110
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

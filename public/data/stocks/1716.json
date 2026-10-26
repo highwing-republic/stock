@@ -1,11 +1,101 @@
 {
-  "updatedAt": "2026-10-23T23:10:51+09:00",
+  "updatedAt": "2026-10-26T14:15:42+09:00",
   "company": {
     "securityCode": "1716",
     "ticker": "1716.T",
     "name": "第一カッター興業株式会社"
   },
   "events": [
+    {
+      "docId": "S100Z9U4",
+      "ticker": "1716.T",
+      "securityCode": "1716",
+      "companyName": "第一カッター興業株式会社",
+      "submitDatetime": "2026-10-26 11:20",
+      "filerName": "渡邉　剛",
+      "reportType": "change",
+      "holdingRatio": 4.29,
+      "previousHoldingRatio": 6.83,
+      "holdingChange": -2.54,
+      "purpose": "売却したため",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少",
+        "大幅売却"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -0.15,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
+    {
+      "docId": "S100Z94J",
+      "ticker": "1716.T",
+      "securityCode": "1716",
+      "companyName": "第一カッター興業株式会社",
+      "submitDatetime": "2026-10-26 10:13",
+      "filerName": "渡邉　剛",
+      "reportType": "correction",
+      "holdingRatio": 0.0,
+      "previousHoldingRatio": 13.67,
+      "holdingChange": -13.67,
+      "purpose": "相続発生のため",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少",
+        "大幅売却"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -0.15,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
+    {
+      "docId": "S100Z94U",
+      "ticker": "1716.T",
+      "securityCode": "1716",
+      "companyName": "第一カッター興業株式会社",
+      "submitDatetime": "2026-10-26 10:12",
+      "filerName": "渡邉　剛",
+      "reportType": "correction",
+      "holdingRatio": 6.83,
+      "previousHoldingRatio": null,
+      "holdingChange": null,
+      "purpose": "相続により承継した株式の保有",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -0.15,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z8EZ",
       "ticker": "1716.T",
@@ -32,7 +122,7 @@
         "return1d": -0.38,
         "return5d": -1.21,
         "return20d": null,
-        "returnCurrent": -1.73,
+        "returnCurrent": -1.89,
         "volumeRatio": 1.02,
         "marketExcessReturn": 1.27
       }
@@ -63,7 +153,7 @@
         "return1d": -0.38,
         "return5d": -1.21,
         "return20d": null,
-        "returnCurrent": -1.73,
+        "returnCurrent": -1.89,
         "volumeRatio": 1.02,
         "marketExcessReturn": 1.27
       }
@@ -2779,6 +2869,16 @@
       "close": 1303.0,
       "adj_close": 1303.0,
       "volume": 35600
+    },
+    {
+      "ticker": "1716.T",
+      "trade_date": "2026-10-26",
+      "open": 1302.0,
+      "high": 1304.0,
+      "low": 1297.0,
+      "close": 1301.0,
+      "adj_close": 1301.0,
+      "volume": 11200
     }
   ],
   "benchmark": [
@@ -6691,6 +6791,16 @@
       "close": 416.29998779296875,
       "adj_close": 416.29998779296875,
       "volume": 20735860
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-26",
+      "open": 416.20001220703125,
+      "high": 420.3999938964844,
+      "low": 416.20001220703125,
+      "close": 419.1000061035156,
+      "adj_close": 419.1000061035156,
+      "volume": 6455110
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

@@ -10,7 +10,9 @@
   "id": "5019-2026-08-06",
   "overextended": true,
   "setupType": "TREND",
-  "setups": [],
+  "setups": [
+   "TREND"
+  ],
   "startedAt": "2026-08-06",
   "status": "REACTED",
   "statusHistory": [
@@ -88,8 +90,8 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -1.5,
-  "currentPrice": 1540.0,
+  "benchReturn": -0.8,
+  "currentPrice": 1582.0,
   "d20": {
    "benchReturn": 1.1,
    "excessReturn": 22.9,
@@ -105,32 +107,36 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 18,
+   "pendingDays": 17,
    "stockReturn": null
   },
-  "excessReturn": 16.9,
+  "excessReturn": 19.3,
   "initialDate": "2026-08-20",
   "initialPrice": 1334.9,
-  "stockReturn": 15.4
+  "stockReturn": 18.5
  },
  "priceSetup": {
-  "asOf": "2026-10-23",
+  "asOf": "2026-10-26",
   "atrState": "通常",
-  "distFrom52wHigh": 0.09,
+  "distFrom52wHigh": 0.06,
   "labels": [
+   "20日線の上",
+   "60日レンジ上位23%",
    "60日線の上"
   ],
-  "ma20": 1556.8,
-  "ma200": 1374.1,
-  "ma60": 1457.4,
-  "rangePos60": 0.68,
-  "rel20": -3.7,
-  "rel60": 17.0,
-  "volumeRatio20": 0.88
+  "ma20": 1553.7,
+  "ma200": 1376.3,
+  "ma60": 1462.1,
+  "rangePos60": 0.77,
+  "rel20": -1.3,
+  "rel60": 22.9,
+  "volumeRatio20": 0.45
  },
  "reasons": [
   "1.7pt買い増し 7.8%→9.4%",
-  "52週高値まで9%"
+  "60日レンジ上位23%",
+  "20日線を回復",
+  "52週高値まで6%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -301,7 +307,21 @@
    "kind": "EVENT",
    "label": "新規大量保有",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Y713"
+  },
+  {
+   "date": "2026-10-26",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-26",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-23T23:11:52+09:00"
+ "updatedAt": "2026-10-26T14:17:01+09:00"
 }

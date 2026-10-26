@@ -10,9 +10,7 @@
   "id": "6588-2026-10-06",
   "overextended": false,
   "setupType": "RECOVERY",
-  "setups": [
-   "RECOVERY"
-  ],
+  "setups": [],
   "startedAt": "2026-10-06",
   "status": "WATCH",
   "statusHistory": [
@@ -60,12 +58,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -3.7,
-  "currentPrice": 2993.0,
+  "benchReturn": -3.1,
+  "currentPrice": 2948.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 12,
+   "pendingDays": 11,
    "stockReturn": null
   },
   "d5": {
@@ -77,34 +75,32 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 52,
+   "pendingDays": 51,
    "stockReturn": null
   },
-  "excessReturn": 2.0,
+  "excessReturn": -0.1,
   "initialDate": "2026-10-13",
   "initialPrice": 3045.0,
-  "stockReturn": -1.7
+  "stockReturn": -3.2
  },
  "priceSetup": {
-  "asOf": "2026-10-23",
+  "asOf": "2026-10-26",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.13,
+  "distFrom52wHigh": 0.14,
   "labels": [
-   "20日線の上",
    "20日線が上向き"
   ],
-  "ma20": 2966.0,
-  "ma200": 2942.9,
-  "ma60": 3011.4,
-  "rangePos60": 0.42,
-  "rel20": 5.6,
-  "rel60": -1.7,
-  "volumeRatio20": 0.95
+  "ma20": 2967.3,
+  "ma200": 2943.6,
+  "ma60": 3007.1,
+  "rangePos60": 0.36,
+  "rel20": 3.4,
+  "rel60": -6.8,
+  "volumeRatio20": 0.53
  },
  "reasons": [
   "新規大量保有 5.4%（モルガン・スタンレーＭＵＦＧ証券株式会社）",
-  "20日線上向き",
-  "TOPIX連動ETF比 +5.6pt（20日）",
+  "TOPIX連動ETF比 +3.4pt（20日）",
   "信用買残 -8%"
  ],
  "schemaVersion": 1,
@@ -157,7 +153,14 @@
    "kind": "EVENT",
    "label": "保有割合の減少",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9A9"
+  },
+  {
+   "date": "2026-10-26",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-23T23:11:52+09:00"
+ "updatedAt": "2026-10-26T14:17:01+09:00"
 }

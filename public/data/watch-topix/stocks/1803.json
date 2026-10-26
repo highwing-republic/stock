@@ -46,20 +46,23 @@
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-10-23",
+  "asOf": "2026-10-26",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.42,
-  "labels": [],
-  "ma20": 2063.7,
-  "ma200": 2615.0,
-  "ma60": 2254.6,
-  "rangePos60": 0.15,
-  "rel20": -10.1,
-  "rel60": -15.7,
-  "volumeRatio20": 0.7
+  "distFrom52wHigh": 0.41,
+  "labels": [
+   "20日線の上"
+  ],
+  "ma20": 2058.9,
+  "ma200": 2612.5,
+  "ma60": 2247.8,
+  "rangePos60": 0.24,
+  "rel20": -1.9,
+  "rel60": -15.1,
+  "volumeRatio20": 0.32
  },
  "reasons": [
   "新規大量保有 5.4%（野村證券株式会社）",
+  "20日線を回復",
   "信用買残 -11%"
  ],
  "schemaVersion": 1,
@@ -70,7 +73,14 @@
    "kind": "EVENT",
    "label": "新規大量保有",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8Y6"
+  },
+  {
+   "date": "2026-10-26",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-23T23:11:52+09:00"
+ "updatedAt": "2026-10-26T14:17:01+09:00"
 }

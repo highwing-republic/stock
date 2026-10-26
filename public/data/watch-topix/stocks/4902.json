@@ -10,9 +10,7 @@
   "id": "4902-2026-06-22",
   "overextended": true,
   "setupType": "TREND",
-  "setups": [
-   "TREND"
-  ],
+  "setups": [],
   "startedAt": "2026-06-22",
   "status": "REACTED",
   "statusHistory": [
@@ -92,7 +90,7 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -2.2,
+  "benchReturn": -1.5,
   "currentPrice": 658.9,
   "d20": {
    "benchReturn": 2.9,
@@ -112,13 +110,13 @@
    "pendingDays": 0,
    "stockReturn": 8.0
   },
-  "excessReturn": 10.2,
+  "excessReturn": 9.5,
   "initialDate": "2026-07-15",
   "initialPrice": 610.3,
   "stockReturn": 8.0
  },
  "priceSetup": {
-  "asOf": "2026-10-23",
+  "asOf": "2026-10-26",
   "atrState": "通常",
   "distFrom52wHigh": 0.08,
   "labels": [
@@ -127,19 +125,19 @@
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 657.1,
+  "ma20": 656.9,
   "ma200": 599.9,
-  "ma60": 642.0,
+  "ma60": 641.7,
   "rangePos60": 0.74,
-  "rel20": 3.0,
-  "rel60": 3.6,
-  "volumeRatio20": 0.81
+  "rel20": 2.1,
+  "rel60": -0.9,
+  "volumeRatio20": 0.29
  },
  "reasons": [
   "新規大量保有 5.1%（野村證券株式会社）",
   "60日レンジ上位26%",
   "20日線上向き",
-  "TOPIX連動ETF比 +3pt（20日）"
+  "TOPIX連動ETF比 +2.1pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -450,7 +448,14 @@
    "kind": "EVENT",
    "label": "買い増し",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9DP"
+  },
+  {
+   "date": "2026-10-26",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-23T23:11:52+09:00"
+ "updatedAt": "2026-10-26T14:17:01+09:00"
 }
