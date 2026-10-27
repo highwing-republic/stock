@@ -9,11 +9,8 @@
   "closedAt": null,
   "id": "4902-2026-06-22",
   "overextended": true,
-  "setupType": "BREAKOUT",
-  "setups": [
-   "BREAKOUT",
-   "TREND"
-  ],
+  "setupType": "TREND",
+  "setups": [],
   "startedAt": "2026-06-22",
   "status": "REACTED",
   "statusHistory": [
@@ -93,8 +90,8 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -1.2,
-  "currentPrice": 690.6,
+  "benchReturn": -1.7,
+  "currentPrice": 660.6,
   "d20": {
    "benchReturn": 2.9,
    "excessReturn": 8.8,
@@ -113,34 +110,34 @@
    "pendingDays": 0,
    "stockReturn": 8.0
   },
-  "excessReturn": 14.4,
+  "excessReturn": 9.9,
   "initialDate": "2026-07-15",
   "initialPrice": 610.3,
-  "stockReturn": 13.2
+  "stockReturn": 8.2
  },
  "priceSetup": {
-  "asOf": "2026-10-27",
-  "atrState": "低ボラ",
-  "distFrom52wHigh": 0.04,
+  "asOf": "2026-10-26",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.08,
   "labels": [
    "20日線の上",
-   "60日レンジ上位5%",
+   "60日レンジ上位25%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 658.8,
-  "ma200": 600.0,
-  "ma60": 642.4,
-  "rangePos60": 0.95,
-  "rel20": 7.2,
-  "rel60": 4.0,
-  "volumeRatio20": 0.75
+  "ma20": 657.0,
+  "ma200": 599.9,
+  "ma60": 641.8,
+  "rangePos60": 0.75,
+  "rel20": 2.6,
+  "rel60": -0.5,
+  "volumeRatio20": 0.57
  },
  "reasons": [
   "新規大量保有 5.1%（野村證券株式会社）",
-  "60日レンジ上位5%",
+  "60日レンジ上位25%",
   "20日線上向き",
-  "TOPIX連動ETF比 +7.2pt（20日）"
+  "TOPIX連動ETF比 +2.6pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -458,14 +455,7 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-10-27",
-   "detail": "なし → BREAKOUT",
-   "kind": "SETUP",
-   "label": "Price Setup改善",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-27T21:42:14+09:00"
+ "updatedAt": "2026-10-28T00:21:24+09:00"
 }

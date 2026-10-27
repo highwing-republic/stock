@@ -5,14 +5,14 @@
   "tradingViewSymbol": "TSE:6861"
  },
  "episode": {
-  "closeReason": "BROKEN",
-  "closedAt": "2026-10-27",
+  "closeReason": null,
+  "closedAt": null,
   "id": "6861-2026-10-22",
   "overextended": false,
   "setupType": "TREND",
   "setups": [],
   "startedAt": "2026-10-22",
-  "status": "CLOSED",
+  "status": "BROKEN",
   "statusHistory": [
    {
     "date": "2026-10-22",
@@ -31,12 +31,6 @@
     "from": "WATCH",
     "reason_code": "BELOW_MA60",
     "to": "BROKEN"
-   },
-   {
-    "date": "2026-10-27",
-    "from": "BROKEN",
-    "reason_code": "BROKEN",
-    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-10-22"
@@ -63,50 +57,48 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 0.0,
-  "currentPrice": 79080.0,
+  "benchReturn": -0.5,
+  "currentPrice": 77270.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 17,
+   "pendingDays": 18,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 2,
+   "pendingDays": 3,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 57,
+   "pendingDays": 58,
    "stockReturn": null
   },
-  "excessReturn": -1.6,
+  "excessReturn": -3.3,
   "initialDate": "2026-10-22",
   "initialPrice": 80360.0,
-  "stockReturn": -1.6
+  "stockReturn": -3.8
  },
  "priceSetup": {
-  "asOf": "2026-10-27",
+  "asOf": "2026-10-26",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.1,
+  "distFrom52wHigh": 0.12,
   "labels": [
    "20日線が上向き"
   ],
-  "ma20": 80240.0,
-  "ma200": 70808.9,
-  "ma60": 80346.4,
-  "rangePos60": 0.41,
-  "rel20": 2.5,
-  "rel60": 10.0,
-  "volumeRatio20": 1.46
+  "ma20": 80211.0,
+  "ma200": 70695.9,
+  "ma60": 80206.7,
+  "rangePos60": 0.42,
+  "rel20": -0.2,
+  "rel60": 5.9,
+  "volumeRatio20": 1.08
  },
  "reasons": [
-  "1pt買い増し 5.1%→6.1%",
-  "TOPIX連動ETF比 +2.5pt（20日）",
-  "52週高値まで10%"
+  "1pt買い増し 5.1%→6.1%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -137,21 +129,7 @@
    "kind": "STATUS",
    "label": "BROKEN",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-10-27",
-   "detail": "TOPIX連動ETFを上回りに転換",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-10-27",
-   "detail": "Price Setupが崩れた",
-   "kind": "STATUS",
-   "label": "CLOSED",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-27T21:41:14+09:00"
+ "updatedAt": "2026-10-28T00:20:13+09:00"
 }

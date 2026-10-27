@@ -10,7 +10,11 @@
   "id": "6436-2026-10-23",
   "overextended": false,
   "setupType": "BREAKOUT",
-  "setups": [],
+  "setups": [
+   "BREAKOUT",
+   "TREND",
+   "RECOVERY"
+  ],
   "startedAt": "2026-10-23",
   "status": "WATCH",
   "statusHistory": [
@@ -51,50 +55,54 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 1.0,
-  "currentPrice": 3776.0,
+  "benchReturn": 0.5,
+  "currentPrice": 4074.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 18,
+   "pendingDays": 19,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 3,
+   "pendingDays": 4,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 58,
+   "pendingDays": 59,
    "stockReturn": null
   },
-  "excessReturn": -8.5,
+  "excessReturn": -0.7,
   "initialDate": "2026-10-23",
   "initialPrice": 4081.0,
-  "stockReturn": -7.5
+  "stockReturn": -0.2
  },
  "priceSetup": {
-  "asOf": "2026-10-27",
-  "atrState": "通常",
-  "distFrom52wHigh": 0.11,
+  "asOf": "2026-10-26",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.04,
   "labels": [
-   "20日線が上向き"
+   "20日線の上",
+   "60日レンジ上位13%",
+   "20日線が上向き",
+   "60日線の上"
   ],
-  "ma20": 3902.8,
-  "ma200": 3779.1,
-  "ma60": 3867.5,
-  "rangePos60": 0.21,
-  "rel20": 0.5,
-  "rel60": -0.2,
-  "volumeRatio20": 2.51
+  "ma20": 3905.3,
+  "ma200": 3780.4,
+  "ma60": 3866.4,
+  "rangePos60": 0.87,
+  "rel20": 8.5,
+  "rel60": 3.7,
+  "volumeRatio20": 0.79
  },
  "reasons": [
   "1pt買い増し 5.6%→6.6%",
-  "TOPIX連動ETF比 +0.5pt（20日）",
-  "信用買残 -9%"
+  "60日レンジ上位13%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +8.5pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -111,14 +119,7 @@
    "kind": "STATUS",
    "label": "WATCH",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-10-27",
-   "detail": "BREAKOUT → なし",
-   "kind": "SETUP",
-   "label": "Price Setup解消",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-27T21:42:14+09:00"
+ "updatedAt": "2026-10-28T00:21:24+09:00"
 }

@@ -9,13 +9,12 @@
   "closedAt": null,
   "id": "6745-2026-09-17",
   "overextended": false,
-  "setupType": "TREND",
+  "setupType": "RECOVERY",
   "setups": [
-   "TREND",
    "RECOVERY"
   ],
   "startedAt": "2026-09-17",
-  "status": "REACTED",
+  "status": "STRENGTHENING",
   "statusHistory": [
    {
     "date": "2026-09-17",
@@ -34,12 +33,6 @@
     "from": "WATCH",
     "reason_code": "SETUP_IMPROVED",
     "to": "STRENGTHENING"
-   },
-   {
-    "date": "2026-10-27",
-    "from": "STRENGTHENING",
-    "reason_code": "EXCESS_THRESHOLD",
-    "to": "REACTED"
    }
   ],
   "watchStartedAt": "2026-10-06"
@@ -81,12 +74,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -4.5,
-  "currentPrice": 2127.0,
+  "benchReturn": -5.0,
+  "currentPrice": 2023.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 6,
+   "pendingDays": 7,
    "stockReturn": null
   },
   "d5": {
@@ -98,37 +91,36 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 46,
+   "pendingDays": 47,
    "stockReturn": null
   },
-  "excessReturn": 11.7,
+  "excessReturn": 6.9,
   "initialDate": "2026-10-06",
   "initialPrice": 1985.0,
-  "stockReturn": 7.2
+  "stockReturn": 1.9
  },
  "priceSetup": {
-  "asOf": "2026-10-27",
+  "asOf": "2026-10-26",
   "atrState": "通常",
-  "distFrom52wHigh": 0.09,
+  "distFrom52wHigh": 0.13,
   "labels": [
    "20日線の上",
-   "60日レンジ上位11%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2000.0,
-  "ma200": 1930.1,
-  "ma60": 1962.5,
-  "rangePos60": 0.89,
-  "rel20": 13.5,
-  "rel60": 10.5,
-  "volumeRatio20": 1.24
+  "ma20": 1988.8,
+  "ma200": 1926.6,
+  "ma60": 1958.6,
+  "rangePos60": 0.64,
+  "rel20": 8.1,
+  "rel60": 5.1,
+  "volumeRatio20": 0.55
  },
  "reasons": [
   "1.3pt買い増し 6.8%→8.2%",
-  "60日レンジ上位11%",
   "20日線上向き",
-  "TOPIX連動ETF比 +13.5pt（20日）"
+  "TOPIX連動ETF比 +8.1pt（20日）",
+  "信用買残 -1%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -264,21 +256,7 @@
    "kind": "SETUP",
    "label": "Price Setup変化",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-10-27",
-   "detail": "RECOVERY → TREND",
-   "kind": "SETUP",
-   "label": "Price Setup改善",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-10-27",
-   "detail": "TOPIX連動ETFとの差が大きくなった",
-   "kind": "STATUS",
-   "label": "REACTED",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-27T21:42:14+09:00"
+ "updatedAt": "2026-10-28T00:21:24+09:00"
 }

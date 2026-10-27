@@ -9,13 +9,12 @@
   "closedAt": null,
   "id": "8002-2026-09-25",
   "overextended": false,
-  "setupType": "BREAKOUT",
+  "setupType": "RECOVERY",
   "setups": [
-   "BREAKOUT",
    "RECOVERY"
   ],
   "startedAt": "2026-09-25",
-  "status": "STRENGTHENING",
+  "status": "WATCH",
   "statusHistory": [
    {
     "date": "2026-09-25",
@@ -28,12 +27,6 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
-   },
-   {
-    "date": "2026-10-27",
-    "from": "WATCH",
-    "reason_code": "SETUP_IMPROVED",
-    "to": "STRENGTHENING"
    }
   ],
   "watchStartedAt": "2026-10-23"
@@ -83,54 +76,53 @@
   }
  ],
  "performance": {
-  "benchReturn": 1.0,
-  "currentPrice": 5093.0,
+  "benchReturn": 0.5,
+  "currentPrice": 5077.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 18,
+   "pendingDays": 19,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 3,
+   "pendingDays": 4,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 58,
+   "pendingDays": 59,
    "stockReturn": null
   },
-  "excessReturn": 1.3,
+  "excessReturn": 1.5,
   "initialDate": "2026-10-23",
   "initialPrice": 4979.0,
-  "stockReturn": 2.3
+  "stockReturn": 2.0
  },
  "priceSetup": {
-  "asOf": "2026-10-27",
+  "asOf": "2026-10-26",
   "atrState": "低ボラ",
   "distFrom52wHigh": 0.18,
   "labels": [
    "20日線の上",
-   "60日レンジ上位29%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 4861.1,
-  "ma200": 5164.3,
-  "ma60": 4913.1,
-  "rangePos60": 0.71,
-  "rel20": 8.3,
-  "rel60": -4.1,
-  "volumeRatio20": 0.78
+  "ma20": 4845.5,
+  "ma200": 5160.0,
+  "ma60": 4915.0,
+  "rangePos60": 0.62,
+  "rel20": 7.3,
+  "rel60": -4.3,
+  "volumeRatio20": 0.84
  },
  "reasons": [
   "新規大量保有 5%（野村證券株式会社）",
-  "60日レンジ上位29%",
   "20日線上向き",
-  "TOPIX連動ETF比 +8.3pt（20日）"
+  "TOPIX連動ETF比 +7.3pt（20日）",
+  "信用買残 -12%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -196,21 +188,7 @@
    "kind": "STATUS",
    "label": "WATCH",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-10-27",
-   "detail": "RECOVERY → BREAKOUT",
-   "kind": "SETUP",
-   "label": "Price Setup改善",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-10-27",
-   "detail": "Price Setupが改善",
-   "kind": "STATUS",
-   "label": "STRENGTHENING",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-27T21:42:14+09:00"
+ "updatedAt": "2026-10-28T00:21:24+09:00"
 }

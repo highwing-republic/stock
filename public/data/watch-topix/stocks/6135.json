@@ -5,14 +5,14 @@
   "tradingViewSymbol": "TSE:6135"
  },
  "episode": {
-  "closeReason": "BROKEN",
-  "closedAt": "2026-10-27",
+  "closeReason": null,
+  "closedAt": null,
   "id": "6135-2026-10-21",
   "overextended": false,
   "setupType": "TREND",
   "setups": [],
   "startedAt": "2026-10-21",
-  "status": "CLOSED",
+  "status": "BROKEN",
   "statusHistory": [
    {
     "date": "2026-10-21",
@@ -31,12 +31,6 @@
     "from": "WATCH",
     "reason_code": "BELOW_MA20",
     "to": "BROKEN"
-   },
-   {
-    "date": "2026-10-27",
-    "from": "BROKEN",
-    "reason_code": "BROKEN",
-    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-10-21"
@@ -45,9 +39,9 @@
   {
    "d1": 1.4,
    "d20": null,
-   "d5": -5.6,
+   "d5": null,
    "eventId": "edinet:S100Z948",
-   "excess5": -5.3
+   "excess5": null
   }
  ],
  "margin": {
@@ -63,50 +57,50 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -1.2,
-  "currentPrice": 3035.0,
+  "benchReturn": -1.7,
+  "currentPrice": 3030.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 16,
+   "pendingDays": 17,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 1,
+   "pendingDays": 2,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 56,
+   "pendingDays": 57,
    "stockReturn": null
   },
-  "excessReturn": -5.7,
+  "excessReturn": -5.4,
   "initialDate": "2026-10-21",
   "initialPrice": 3260.0,
-  "stockReturn": -6.9
+  "stockReturn": -7.1
  },
  "priceSetup": {
-  "asOf": "2026-10-27",
+  "asOf": "2026-10-26",
   "atrState": "高ボラ",
   "distFrom52wHigh": 0.11,
   "labels": [
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 3210.8,
-  "ma200": 2556.9,
-  "ma60": 2982.0,
+  "ma20": 3208.0,
+  "ma200": 2551.9,
+  "ma60": 2976.6,
   "rangePos60": 0.62,
-  "rel20": 3.6,
-  "rel60": 10.2,
-  "volumeRatio20": 0.68
+  "rel20": 4.1,
+  "rel60": 9.3,
+  "volumeRatio20": 0.89
  },
  "reasons": [
   "新規大量保有 5.2%（大和アセットマネジメント株式会社）",
-  "TOPIX連動ETF比 +3.6pt（20日）",
+  "TOPIX連動ETF比 +4.1pt（20日）",
   "信用買残 -22%"
  ],
  "schemaVersion": 1,
@@ -138,14 +132,7 @@
    "kind": "STATUS",
    "label": "BROKEN",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-10-27",
-   "detail": "Price Setupが崩れた",
-   "kind": "STATUS",
-   "label": "CLOSED",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-27T21:42:14+09:00"
+ "updatedAt": "2026-10-28T00:21:24+09:00"
 }
