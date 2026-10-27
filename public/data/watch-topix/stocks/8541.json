@@ -14,7 +14,7 @@
    "TREND"
   ],
   "startedAt": "2026-10-20",
-  "status": "WATCH",
+  "status": "STRENGTHENING",
   "statusHistory": [
    {
     "date": "2026-10-20",
@@ -27,6 +27,12 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
+   },
+   {
+    "date": "2026-10-27",
+    "from": "WATCH",
+    "reason_code": "REL20_POSITIVE",
+    "to": "STRENGTHENING"
    }
   ],
   "watchStartedAt": "2026-10-26"
@@ -41,18 +47,21 @@
   }
  ],
  "margin": {
-  "asOf": "2026-10-23",
-  "buyBalance": 204800,
-  "buyChangePct": -6.0,
-  "labels": [],
-  "ratio": 4.97,
-  "sellBalance": 41200,
-  "sellChangePct": -1.0
+  "asOf": "2026-10-26",
+  "buyBalance": 196600,
+  "buyChangePct": -8.2,
+  "labels": [
+   "信用倍率改善",
+   "売残増加"
+  ],
+  "ratio": 4.34,
+  "sellBalance": 45300,
+  "sellChangePct": 54.1
  },
  "pastEpisodes": [],
  "performance": {
   "benchReturn": 0.5,
-  "currentPrice": 3555.0,
+  "currentPrice": 3600.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
@@ -71,33 +80,33 @@
    "pendingDays": 59,
    "stockReturn": null
   },
-  "excessReturn": 0.6,
+  "excessReturn": 1.9,
   "initialDate": "2026-10-26",
   "initialPrice": 3515.0,
-  "stockReturn": 1.1
+  "stockReturn": 2.4
  },
  "priceSetup": {
   "asOf": "2026-10-27",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.04,
+  "distFrom52wHigh": 0.03,
   "labels": [
    "20日線の上",
-   "60日レンジ上位14%",
+   "60日レンジ上位10%",
    "60日線の上"
   ],
-  "ma20": 3453.0,
-  "ma200": 2261.4,
-  "ma60": 3217.1,
-  "rangePos60": 0.86,
-  "rel20": -0.3,
-  "rel60": 20.2,
-  "volumeRatio20": 0.44
+  "ma20": 3455.2,
+  "ma200": 2261.6,
+  "ma60": 3217.9,
+  "rangePos60": 0.9,
+  "rel20": 0.9,
+  "rel60": 21.7,
+  "volumeRatio20": 0.72
  },
  "reasons": [
   "新規大量保有 5.2%（ありあけキャピタル株式会社）",
-  "60日レンジ上位14%",
-  "52週高値まで4%",
-  "信用買残 -6%"
+  "60日レンジ上位10%",
+  "TOPIX連動ETF比 +0.9pt（20日）",
+  "52週高値まで3%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -135,7 +144,28 @@
    "kind": "STATUS",
    "label": "WATCH",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-27",
+   "detail": "5.19% → 6.49%（ありあけキャピタル株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9VP"
+  },
+  {
+   "date": "2026-10-27",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-27",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "STATUS",
+   "label": "STRENGTHENING",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-27T14:29:17+09:00"
+ "updatedAt": "2026-10-27T18:23:55+09:00"
 }

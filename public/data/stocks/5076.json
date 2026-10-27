@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T14:28:05+09:00",
+  "updatedAt": "2026-10-27T18:22:45+09:00",
   "company": {
     "securityCode": "5076",
     "ticker": "5076.T",
@@ -20,17 +20,19 @@
       "purpose": "安定株主として保有",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": 1.23,
+      "volumeRatio": 2.5,
       "marketExcessReturn": null,
-      "signalScore": 0,
-      "signalReasons": [],
+      "signalScore": 10,
+      "signalReasons": [
+        "出来高2倍以上"
+      ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": 5.74,
+        "return1d": 4.21,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 5.74,
-        "volumeRatio": 1.23,
+        "returnCurrent": 4.21,
+        "volumeRatio": 2.5,
         "marketExcessReturn": null
       }
     },
@@ -59,7 +61,7 @@
         "return1d": 0.34,
         "return5d": 0.45,
         "return20d": -13.36,
-        "returnCurrent": -11.37,
+        "returnCurrent": -12.65,
         "volumeRatio": 0.76,
         "marketExcessReturn": 2.21
       }
@@ -91,7 +93,7 @@
         "return1d": 4.16,
         "return5d": 0.38,
         "return20d": 9.67,
-        "returnCurrent": -8.14,
+        "returnCurrent": -9.46,
         "volumeRatio": 0.95,
         "marketExcessReturn": 1.14
       }
@@ -4022,11 +4024,11 @@
       "ticker": "5076.T",
       "trade_date": "2026-10-27",
       "open": 2362.0,
-      "high": 2392.5,
+      "high": 2395.5,
       "low": 2350.0,
-      "close": 2387.0,
-      "adj_close": 2387.0,
-      "volume": 4536000
+      "close": 2352.5,
+      "adj_close": 2352.5,
+      "volume": 9237600
     }
   ],
   "benchmark": [
@@ -7956,9 +7958,9 @@
       "open": 421.3999938964844,
       "high": 421.3999938964844,
       "low": 418.70001220703125,
-      "close": 420.70001220703125,
-      "adj_close": 420.70001220703125,
-      "volume": 7268100
+      "close": 420.6000061035156,
+      "adj_close": 420.6000061035156,
+      "volume": 8364560
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

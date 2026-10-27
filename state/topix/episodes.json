@@ -8479,8 +8479,10 @@
    "overextended": true,
    "primary_trigger_event_id": "edinet:S100YO7Z",
    "security_code": "7839",
-   "setup_type": "BREAKOUT",
-   "setups": [],
+   "setup_type": "TREND",
+   "setups": [
+    "TREND"
+   ],
    "started_at": "2026-07-06",
    "status": "REACTED",
    "status_history": [
@@ -11271,7 +11273,9 @@
    "primary_trigger_event_id": "edinet:S100YQFY",
    "security_code": "9507",
    "setup_type": "TREND",
-   "setups": [],
+   "setups": [
+    "TREND"
+   ],
    "started_at": "2026-07-21",
    "status": "REACTED",
    "status_history": [
@@ -20003,7 +20007,11 @@
    "primary_trigger_event_id": "edinet:S100Z2OP",
    "security_code": "8022",
    "setup_type": "BREAKOUT",
-   "setups": [],
+   "setups": [
+    "BREAKOUT",
+    "TREND",
+    "RECOVERY"
+   ],
    "started_at": "2026-09-24",
    "status": "REACTED",
    "status_history": [
@@ -20605,7 +20613,7 @@
     "edinet:S100Z6ER"
    ],
    "initial_bench": 420.6000061035156,
-   "initial_price": 5970.0,
+   "initial_price": 5960.0,
    "last_trigger_at": "2026-09-28",
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z3GW",
@@ -22433,7 +22441,7 @@
     "TREND"
    ],
    "started_at": "2026-10-20",
-   "status": "WATCH",
+   "status": "STRENGTHENING",
    "status_history": [
     {
      "date": "2026-10-20",
@@ -22446,6 +22454,12 @@
      "from": "CANDIDATE",
      "reason_code": "SETUP_OK",
      "to": "WATCH"
+    },
+    {
+     "date": "2026-10-27",
+     "from": "WATCH",
+     "reason_code": "REL20_POSITIVE",
+     "to": "STRENGTHENING"
     }
    ],
    "watch_started_at": "2026-10-26"
@@ -23347,11 +23361,7 @@
    "primary_trigger_event_id": "edinet:S100Z8WF",
    "security_code": "6436",
    "setup_type": "BREAKOUT",
-   "setups": [
-    "BREAKOUT",
-    "TREND",
-    "RECOVERY"
-   ],
+   "setups": [],
    "started_at": "2026-10-23",
    "status": "WATCH",
    "status_history": [
@@ -23513,7 +23523,7 @@
     "edinet:S100Z9PY"
    ],
    "initial_bench": 420.6000061035156,
-   "initial_price": 3612.0,
+   "initial_price": 3600.0,
    "last_trigger_at": "2026-10-27",
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z9PY",

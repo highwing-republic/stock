@@ -10,7 +10,11 @@
   "id": "8022-2026-09-24",
   "overextended": false,
   "setupType": "BREAKOUT",
-  "setups": [],
+  "setups": [
+   "BREAKOUT",
+   "TREND",
+   "RECOVERY"
+  ],
   "startedAt": "2026-09-24",
   "status": "REACTED",
   "statusHistory": [
@@ -65,17 +69,16 @@
   }
  ],
  "margin": {
-  "asOf": "2026-10-23",
-  "buyBalance": 28800,
-  "buyChangePct": -17.2,
+  "asOf": "2026-10-26",
+  "buyBalance": 32600,
+  "buyChangePct": -7.9,
   "labels": [
-   "信用買残減少",
    "信用倍率改善",
    "売残増加"
   ],
-  "ratio": 1.05,
+  "ratio": 1.19,
   "sellBalance": 27400,
-  "sellChangePct": 28.0
+  "sellChangePct": 29.9
  },
  "pastEpisodes": [
   {
@@ -95,7 +98,7 @@
  ],
  "performance": {
   "benchReturn": -1.0,
-  "currentPrice": 4330.0,
+  "currentPrice": 4365.0,
   "d20": {
    "benchReturn": -2.0,
    "excessReturn": 9.7,
@@ -114,33 +117,34 @@
    "pendingDays": 38,
    "stockReturn": null
   },
-  "excessReturn": 7.3,
+  "excessReturn": 8.2,
   "initialDate": "2026-09-24",
   "initialPrice": 4072.4,
-  "stockReturn": 6.3
+  "stockReturn": 7.2
  },
  "priceSetup": {
   "asOf": "2026-10-27",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.07,
+  "distFrom52wHigh": 0.06,
   "labels": [
-   "60日レンジ上位29%",
+   "20日線の上",
+   "60日レンジ上位26%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 4331.2,
-  "ma200": 3635.3,
-  "ma60": 4101.2,
-  "rangePos60": 0.71,
-  "rel20": 6.8,
-  "rel60": 16.3,
-  "volumeRatio20": 0.45
+  "ma20": 4333.0,
+  "ma200": 3635.5,
+  "ma60": 4101.8,
+  "rangePos60": 0.74,
+  "rel20": 7.7,
+  "rel60": 17.2,
+  "volumeRatio20": 1.08
  },
  "reasons": [
   "新規大量保有 5.2%（三井住友信託銀行株式会社）",
-  "60日レンジ上位29%",
-  "TOPIX連動ETF比 +6.8pt（20日）",
-  "52週高値まで7%"
+  "60日レンジ上位26%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +7.7pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -234,14 +238,7 @@
    "kind": "STATUS",
    "label": "REACTED",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-10-27",
-   "detail": "BREAKOUT → なし",
-   "kind": "SETUP",
-   "label": "Price Setup解消",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-27T14:29:17+09:00"
+ "updatedAt": "2026-10-27T18:23:55+09:00"
 }
