@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T00:55:09+09:00",
+  "updatedAt": "2026-10-27T14:28:05+09:00",
   "company": {
     "securityCode": "7717",
     "ticker": "7717.T",
@@ -20,12 +20,10 @@
       "purpose": "有価証券関連業務の一部としてのトレーディング・有価証券の借入等 / 運用を目的とした証券投資信託による保有及び投資一任契約に基づく運用を目的とした保有",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": 3.07,
+      "volumeRatio": 1.65,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [
-        "出来高2倍以上",
-        "出来高3倍以上",
         "保有割合減少"
       ],
       "stockUnreacted": false,
@@ -33,8 +31,8 @@
         "return1d": -11.64,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -11.64,
-        "volumeRatio": 3.07,
+        "returnCurrent": -8.19,
+        "volumeRatio": 1.65,
         "marketExcessReturn": null
       }
     },
@@ -64,7 +62,7 @@
         "return1d": 0.18,
         "return5d": -4.26,
         "return20d": 19.72,
-        "returnCurrent": -15.72,
+        "returnCurrent": -12.43,
         "volumeRatio": 0.8,
         "marketExcessReturn": -3.28
       }
@@ -2997,9 +2995,19 @@
       "open": 4700.0,
       "high": 4825.0,
       "low": 4635.0,
-      "close": null,
-      "adj_close": null,
+      "close": 4695.0,
+      "adj_close": 4695.0,
       "volume": 234600
+    },
+    {
+      "ticker": "7717.T",
+      "trade_date": "2026-10-27",
+      "open": 4905.0,
+      "high": 5020.0,
+      "low": 4870.0,
+      "close": 4930.0,
+      "adj_close": 4930.0,
+      "volume": 170200
     }
   ],
   "benchmark": [
@@ -6922,6 +6930,16 @@
       "close": 418.3999938964844,
       "adj_close": 418.3999938964844,
       "volume": 8068130
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-27",
+      "open": 421.3999938964844,
+      "high": 421.3999938964844,
+      "low": 418.70001220703125,
+      "close": 420.70001220703125,
+      "adj_close": 420.70001220703125,
+      "volume": 7268100
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

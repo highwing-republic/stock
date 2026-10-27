@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T00:55:09+09:00",
+  "updatedAt": "2026-10-27T14:28:05+09:00",
   "company": {
     "securityCode": "3524",
     "ticker": "3524.T",
@@ -19,9 +19,9 @@
       "holdingChange": -7.04,
       "purpose": "日東製網株式会社と取引関係にある企業が日東製網株式会社株式の取得により、相互間の取引関係の増進に寄与する。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 1.02,
-      "marketExcessReturn": null,
+      "priceChange": -0.07,
+      "volumeRatio": 0.87,
+      "marketExcessReturn": 2.26,
       "signalScore": 0,
       "signalReasons": [
         "保有割合減少",
@@ -30,11 +30,11 @@
       "stockUnreacted": false,
       "metrics": {
         "return1d": 0.61,
-        "return5d": null,
+        "return5d": -0.07,
         "return20d": null,
-        "returnCurrent": -0.07,
-        "volumeRatio": 1.02,
-        "marketExcessReturn": null
+        "returnCurrent": -0.2,
+        "volumeRatio": 0.87,
+        "marketExcessReturn": 2.26
       }
     },
     {
@@ -64,7 +64,7 @@
         "return1d": 0.27,
         "return5d": -0.2,
         "return20d": null,
-        "returnCurrent": -0.27,
+        "returnCurrent": -0.41,
         "volumeRatio": 0.72,
         "marketExcessReturn": 1.77
       }
@@ -95,7 +95,7 @@
         "return1d": 0.27,
         "return5d": -0.2,
         "return20d": null,
-        "returnCurrent": -0.27,
+        "returnCurrent": -0.41,
         "volumeRatio": 0.72,
         "marketExcessReturn": 1.77
       }
@@ -128,7 +128,7 @@
         "return1d": -0.34,
         "return5d": -0.07,
         "return20d": -0.34,
-        "returnCurrent": -1.21,
+        "returnCurrent": -1.34,
         "volumeRatio": 0.97,
         "marketExcessReturn": -2.29
       }
@@ -159,7 +159,7 @@
         "return1d": -0.34,
         "return5d": -0.07,
         "return20d": -0.34,
-        "returnCurrent": -1.21,
+        "returnCurrent": -1.34,
         "volumeRatio": 0.97,
         "marketExcessReturn": -2.29
       }
@@ -3092,9 +3092,19 @@
       "open": 1470.0,
       "high": 1470.0,
       "low": 1466.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1470.0,
+      "adj_close": 1470.0,
       "volume": 600
+    },
+    {
+      "ticker": "3524.T",
+      "trade_date": "2026-10-27",
+      "open": 1468.0,
+      "high": 1468.0,
+      "low": 1465.0,
+      "close": 1468.0,
+      "adj_close": 1468.0,
+      "volume": 1000
     }
   ],
   "benchmark": [
@@ -7017,6 +7027,16 @@
       "close": 418.3999938964844,
       "adj_close": 418.3999938964844,
       "volume": 8068130
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-27",
+      "open": 421.3999938964844,
+      "high": 421.3999938964844,
+      "low": 418.70001220703125,
+      "close": 420.70001220703125,
+      "adj_close": 420.70001220703125,
+      "volume": 7268100
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

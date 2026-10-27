@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T00:55:09+09:00",
+  "updatedAt": "2026-10-27T14:28:05+09:00",
   "company": {
     "securityCode": "9082",
     "ticker": "9082.T",
@@ -7,13 +7,13 @@
   },
   "events": [
     {
-      "docId": "S100Z9OC",
+      "docId": "S100Z9VT",
       "ticker": "9082.T",
       "securityCode": "9082",
       "companyName": "大和自動車交通株式会社",
-      "submitDatetime": "2026-10-23 13:33",
+      "submitDatetime": "2026-10-27 09:57",
       "filerName": "ｎｅｗｍｏ株式会社",
-      "reportType": "change",
+      "reportType": "correction",
       "holdingRatio": 5.07,
       "previousHoldingRatio": 5.0,
       "holdingChange": 0.07,
@@ -29,8 +29,36 @@
         "return1d": null,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.48,
+        "returnCurrent": 1.33,
         "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
+    {
+      "docId": "S100Z9OC",
+      "ticker": "9082.T",
+      "securityCode": "9082",
+      "companyName": "大和自動車交通株式会社",
+      "submitDatetime": "2026-10-23 13:33",
+      "filerName": "ｎｅｗｍｏ株式会社",
+      "reportType": "change",
+      "holdingRatio": 5.07,
+      "previousHoldingRatio": 5.0,
+      "holdingChange": 0.07,
+      "purpose": "提出者は、発行者との事業上の親和性及びシナジー創出の可能性を踏まえ、発行者の株式を取得・保有する。提出者は、発行者の経営方針を尊重する考えであるが、発行者及び提出者双方の企業価値の向上につながる協業その他の連携が可能と考えており、かかる連携の意義及び可能性について発行者と友好的な意見交換を行う機会があれば、発行者の企業価値及び株主全体の利益の向上につながり有意義であると考えている。 提出者は、市場環境、株価水準その他の諸事情を勘案しつつ、今後も市場内外の取引を通じて発行者の普通株式を追加取得することを予定しており、その結果として、提出義務発生日から３か月以内に提出者の株券等保有割合が５％を超えて増加する可能性がある。 / 関係の維持",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": 0.05,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": 1.69,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 3.05,
+        "volumeRatio": 0.05,
         "marketExcessReturn": null
       }
     },
@@ -59,8 +87,8 @@
       "metrics": {
         "return1d": -1.17,
         "return5d": -5.11,
-        "return20d": null,
-        "returnCurrent": -22.26,
+        "return20d": -20.28,
+        "returnCurrent": -20.28,
         "volumeRatio": 0.55,
         "marketExcessReturn": -6.5
       }
@@ -93,7 +121,7 @@
         "return1d": 14.56,
         "return5d": -2.04,
         "return20d": 3.61,
-        "returnCurrent": 8.7,
+        "returnCurrent": 11.47,
         "volumeRatio": 2.6,
         "marketExcessReturn": -4.92
       }
@@ -124,7 +152,7 @@
         "return1d": 7.96,
         "return5d": 24.33,
         "return20d": 21.6,
-        "returnCurrent": 17.96,
+        "returnCurrent": 20.98,
         "volumeRatio": 2.11,
         "marketExcessReturn": 21.84
       }
@@ -155,7 +183,7 @@
         "return1d": 9.97,
         "return5d": 19.64,
         "return20d": 23.74,
-        "returnCurrent": 23.15,
+        "returnCurrent": 26.29,
         "volumeRatio": 1.66,
         "marketExcessReturn": 16.64
       }
@@ -3088,9 +3116,19 @@
       "open": 2125.0,
       "high": 2125.0,
       "low": 2091.0,
-      "close": null,
-      "adj_close": null,
+      "close": 2100.0,
+      "adj_close": 2100.0,
       "volume": 1000
+    },
+    {
+      "ticker": "9082.T",
+      "trade_date": "2026-10-27",
+      "open": 2075.0,
+      "high": 2128.0,
+      "low": 2075.0,
+      "close": 2128.0,
+      "adj_close": 2128.0,
+      "volume": 400
     }
   ],
   "benchmark": [
@@ -7013,6 +7051,16 @@
       "close": 418.3999938964844,
       "adj_close": 418.3999938964844,
       "volume": 8068130
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-27",
+      "open": 421.3999938964844,
+      "high": 421.3999938964844,
+      "low": 418.70001220703125,
+      "close": 420.70001220703125,
+      "adj_close": 420.70001220703125,
+      "volume": 7268100
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

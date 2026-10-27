@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T00:55:09+09:00",
+  "updatedAt": "2026-10-27T14:28:05+09:00",
   "company": {
     "securityCode": "4536",
     "ticker": "4536.T",
@@ -20,7 +20,7 @@
       "purpose": "提出者は、発行者に対し、企業価値及び株主価値の向上を目的として、資本政策の変更、資本効率の向上、事業構造の見直し、及びコーポレート・ガバナンスの強化等に関する提案（重要提案行為等に該当し得るものを含む。）を行う方針です。これらの提案には、増配、自己株式の取得又は消却等、取締役の構成に関する一般的な見解等が含まれます。これらの提案は、市場環境、経営状況及び発行者との対話の状況等を踏まえ、当該状況に応じて適切と判断される時期に随時行います。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.36,
       "marketExcessReturn": null,
       "signalScore": 20,
       "signalReasons": [
@@ -28,11 +28,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": 1.67,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.0,
-        "volumeRatio": null,
+        "returnCurrent": 1.67,
+        "volumeRatio": 0.36,
         "marketExcessReturn": null
       }
     }
@@ -3954,9 +3954,19 @@
       "open": 1730.0,
       "high": 1755.5,
       "low": 1720.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1753.5,
+      "adj_close": 1753.5,
       "volume": 1008400
+    },
+    {
+      "ticker": "4536.T",
+      "trade_date": "2026-10-27",
+      "open": 1745.5,
+      "high": 1764.5,
+      "low": 1739.0,
+      "close": 1763.0,
+      "adj_close": 1763.0,
+      "volume": 433600
     }
   ],
   "benchmark": [
@@ -7879,6 +7889,16 @@
       "close": 418.3999938964844,
       "adj_close": 418.3999938964844,
       "volume": 8068130
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-27",
+      "open": 421.3999938964844,
+      "high": 421.3999938964844,
+      "low": 418.70001220703125,
+      "close": 420.70001220703125,
+      "adj_close": 420.70001220703125,
+      "volume": 7268100
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

@@ -96,21 +96,22 @@
   "stockReturn": 11.5
  },
  "priceSetup": {
-  "asOf": "2026-10-26",
-  "atrState": "通常",
-  "distFrom52wHigh": 0.08,
+  "asOf": "2026-10-27",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.07,
   "labels": [],
-  "ma20": 6220.2,
-  "ma200": 5775.1,
-  "ma60": 6207.5,
-  "rangePos60": 0.54,
-  "rel20": -0.1,
-  "rel60": 10.4,
-  "volumeRatio20": 0.99
+  "ma20": 6217.0,
+  "ma200": 5779.2,
+  "ma60": 6215.6,
+  "rangePos60": 0.55,
+  "rel20": 0.7,
+  "rel60": 6.7,
+  "volumeRatio20": 1.63
  },
  "reasons": [
   "1pt買い増し 5%→6%",
-  "52週高値まで8%"
+  "TOPIX連動ETF比 +0.7pt（20日）",
+  "52週高値まで7%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -449,7 +450,14 @@
    "kind": "STATUS",
    "label": "CLOSED",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-27",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-26T22:38:28+09:00"
+ "updatedAt": "2026-10-27T14:29:17+09:00"
 }

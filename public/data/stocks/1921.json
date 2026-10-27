@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T00:55:09+09:00",
+  "updatedAt": "2026-10-27T14:28:05+09:00",
   "company": {
     "securityCode": "1921",
     "ticker": "1921.T",
@@ -20,7 +20,7 @@
       "purpose": "発行会社の創業者一族であり、安定株主として長期保有を目的としております。 / 発行会社の創業者一族である野澤幸弘が議決権の100％を保有する会社であり、安定株主として長期保有を目的としております。",
       "importantProposal": true,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.75,
       "marketExcessReturn": null,
       "signalScore": 20,
       "signalReasons": [
@@ -28,11 +28,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": 2.05,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.0,
-        "volumeRatio": null,
+        "returnCurrent": 2.05,
+        "volumeRatio": 0.75,
         "marketExcessReturn": null
       }
     },
@@ -49,21 +49,22 @@
       "holdingChange": null,
       "purpose": "発行会社の創業者一族であり、安定株主として長期保有を目的としております。 / 発行会社の創業者一族である野澤幸弘が議決権の100％を保有する会社であり、安定株主として長期保有を目的としております。",
       "importantProposal": true,
-      "priceChange": null,
-      "volumeRatio": 0.95,
-      "marketExcessReturn": null,
-      "signalScore": 20,
+      "priceChange": 3.84,
+      "volumeRatio": 0.87,
+      "marketExcessReturn": 5.34,
+      "signalScore": 30,
       "signalReasons": [
-        "重要提案行為あり"
+        "重要提案行為あり",
+        "市場超過5%以上"
       ],
       "stockUnreacted": false,
       "metrics": {
         "return1d": -1.17,
-        "return5d": null,
+        "return5d": 3.84,
         "return20d": null,
-        "returnCurrent": 1.76,
-        "volumeRatio": 0.95,
-        "marketExcessReturn": null
+        "returnCurrent": 3.84,
+        "volumeRatio": 0.87,
+        "marketExcessReturn": 5.34
       }
     },
     {
@@ -92,7 +93,7 @@
         "return1d": -6.24,
         "return5d": -2.67,
         "return20d": 7.07,
-        "returnCurrent": 6.18,
+        "returnCurrent": 8.35,
         "volumeRatio": 0.51,
         "marketExcessReturn": -3.13
       }
@@ -3025,9 +3026,19 @@
       "open": 1907.0,
       "high": 1945.0,
       "low": 1907.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1924.0,
+      "adj_close": 1924.0,
       "volume": 10900
+    },
+    {
+      "ticker": "1921.T",
+      "trade_date": "2026-10-27",
+      "open": 1944.0,
+      "high": 1980.0,
+      "low": 1930.0,
+      "close": 1946.0,
+      "adj_close": 1946.0,
+      "volume": 9900
     }
   ],
   "benchmark": [
@@ -6950,6 +6961,16 @@
       "close": 418.3999938964844,
       "adj_close": 418.3999938964844,
       "volume": 8068130
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-27",
+      "open": 421.3999938964844,
+      "high": 421.3999938964844,
+      "low": 418.70001220703125,
+      "close": 420.70001220703125,
+      "adj_close": 420.70001220703125,
+      "volume": 7268100
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

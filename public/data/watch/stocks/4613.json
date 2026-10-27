@@ -9,9 +9,8 @@
   "closedAt": null,
   "id": "4613-2026-09-25",
   "overextended": false,
-  "setupType": "BREAKOUT",
+  "setupType": "TREND",
   "setups": [
-   "BREAKOUT",
    "TREND",
    "RECOVERY"
   ],
@@ -90,8 +89,8 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -2.8,
-  "currentPrice": 2940.0,
+  "benchReturn": -2.3,
+  "currentPrice": 2932.0,
   "d20": {
    "benchReturn": -2.8,
    "excessReturn": 7.5,
@@ -107,37 +106,36 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 40,
+   "pendingDays": 39,
    "stockReturn": null
   },
-  "excessReturn": 7.5,
+  "excessReturn": 6.7,
   "initialDate": "2026-09-25",
   "initialPrice": 2808.8,
-  "stockReturn": 4.7
+  "stockReturn": 4.4
  },
  "priceSetup": {
-  "asOf": "2026-10-26",
+  "asOf": "2026-10-27",
   "atrState": "低ボラ",
   "distFrom52wHigh": 0.03,
   "labels": [
    "20日線の上",
-   "60日レンジ上位26%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2865.1,
-  "ma200": 2565.0,
-  "ma60": 2829.5,
-  "rangePos60": 0.74,
-  "rel20": 7.4,
-  "rel60": 11.0,
-  "volumeRatio20": 1.19
+  "ma20": 2871.7,
+  "ma200": 2567.8,
+  "ma60": 2832.8,
+  "rangePos60": 0.69,
+  "rel20": 6.5,
+  "rel60": 5.2,
+  "volumeRatio20": 0.62
  },
  "reasons": [
   "新規大量保有 5.1%（キャピタル・リサーチ・アンド・マネージメント・カンパニー）",
-  "60日レンジ上位26%",
   "20日線上向き",
-  "TOPIX連動ETF比 +7.4pt（20日）"
+  "TOPIX連動ETF比 +6.5pt（20日）",
+  "52週高値まで3%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -294,7 +292,14 @@
    "kind": "EVENT",
    "label": "買い増し",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z95I"
+  },
+  {
+   "date": "2026-10-27",
+   "detail": "BREAKOUT → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup変化",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-26T22:37:40+09:00"
+ "updatedAt": "2026-10-27T14:28:18+09:00"
 }

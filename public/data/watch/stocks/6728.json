@@ -117,7 +117,7 @@
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 3,
+   "pendingDays": 2,
    "stockReturn": null
   },
   "d5": {
@@ -129,7 +129,7 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 43,
+   "pendingDays": 42,
    "stockReturn": null
   },
   "excessReturn": 0.4,
@@ -138,22 +138,23 @@
   "stockReturn": -1.0
  },
  "priceSetup": {
-  "asOf": "2026-10-26",
+  "asOf": "2026-10-27",
   "atrState": "通常",
-  "distFrom52wHigh": 0.36,
+  "distFrom52wHigh": 0.33,
   "labels": [
    "20日線が上向き"
   ],
-  "ma20": 8033.6,
-  "ma200": 8808.4,
-  "ma60": 7889.6,
-  "rangePos60": 0.18,
-  "rel20": -2.3,
-  "rel60": -21.0,
-  "volumeRatio20": 0.75
+  "ma20": 8034.9,
+  "ma200": 8811.4,
+  "ma60": 7877.1,
+  "rangePos60": 0.3,
+  "rel20": 2.1,
+  "rel60": -10.9,
+  "volumeRatio20": 0.43
  },
  "reasons": [
-  "新規大量保有 6.8%（イーストスプリング・インベストメンツ（シンガポール）リミテッド）"
+  "新規大量保有 6.8%（イーストスプリング・インベストメンツ（シンガポール）リミテッド）",
+  "TOPIX連動ETF比 +2.1pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -275,7 +276,14 @@
    "kind": "STATUS",
    "label": "CLOSED",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-27",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-26T22:37:40+09:00"
+ "updatedAt": "2026-10-27T14:28:18+09:00"
 }

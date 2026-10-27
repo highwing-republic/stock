@@ -9,9 +9,8 @@
   "closedAt": null,
   "id": "9759-2026-06-17",
   "overextended": true,
-  "setupType": "BREAKOUT",
+  "setupType": "TREND",
   "setups": [
-   "BREAKOUT",
    "TREND",
    "RECOVERY"
   ],
@@ -121,8 +120,8 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -0.9,
-  "currentPrice": 3268.0,
+  "benchReturn": -0.4,
+  "currentPrice": 3208.0,
   "d20": {
    "benchReturn": 1.3,
    "excessReturn": 1.9,
@@ -141,33 +140,33 @@
    "pendingDays": 0,
    "stockReturn": 14.2
   },
-  "excessReturn": 23.7,
+  "excessReturn": 21.0,
   "initialDate": "2026-07-10",
   "initialPrice": 2660.5,
-  "stockReturn": 22.8
+  "stockReturn": 20.6
  },
  "priceSetup": {
-  "asOf": "2026-10-26",
-  "atrState": "低ボラ",
-  "distFrom52wHigh": 0.07,
+  "asOf": "2026-10-27",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.09,
   "labels": [
    "20日線の上",
-   "60日レンジ上位6%",
+   "60日レンジ上位15%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 3053.1,
-  "ma200": 2826.3,
-  "ma60": 2916.6,
-  "rangePos60": 0.94,
-  "rel20": 14.1,
-  "rel60": 17.8,
-  "volumeRatio20": 0.98
+  "ma20": 3067.3,
+  "ma200": 2825.6,
+  "ma60": 2922.8,
+  "rangePos60": 0.85,
+  "rel20": 11.5,
+  "rel60": 11.2,
+  "volumeRatio20": 0.29
  },
  "reasons": [
   "1.1pt買い増し 6.6%→7.7%",
   "30日以内に2回買い増し",
-  "60日レンジ上位6%",
+  "60日レンジ上位15%",
   "20日線上向き"
  ],
  "schemaVersion": 1,
@@ -486,7 +485,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-27",
+   "detail": "BREAKOUT → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup変化",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-26T22:38:28+09:00"
+ "updatedAt": "2026-10-27T14:29:17+09:00"
 }

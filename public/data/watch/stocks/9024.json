@@ -86,9 +86,9 @@
   {
    "d1": -0.3,
    "d20": null,
-   "d5": null,
+   "d5": 0.5,
    "eventId": "edinet:S100Z992",
-   "excess5": null
+   "excess5": 0.8
   }
  ],
  "margin": {
@@ -107,7 +107,7 @@
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 9,
+   "pendingDays": 8,
    "stockReturn": null
   },
   "d5": {
@@ -119,7 +119,7 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 49,
+   "pendingDays": 48,
    "stockReturn": null
   },
   "excessReturn": 2.1,
@@ -128,28 +128,25 @@
   "stockReturn": -1.0
  },
  "priceSetup": {
-  "asOf": "2026-10-26",
+  "asOf": "2026-10-27",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.35,
+  "distFrom52wHigh": 0.36,
   "labels": [
    "20日線の上",
-   "60日レンジ上位19%",
-   "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 3575.0,
-  "ma200": 3712.8,
-  "ma60": 3486.9,
-  "rangePos60": 0.81,
-  "rel20": 5.0,
-  "rel60": 1.5,
-  "volumeRatio20": 0.69
+  "ma20": 3574.1,
+  "ma200": 3709.0,
+  "ma60": 3484.9,
+  "rangePos60": 0.69,
+  "rel20": 1.2,
+  "rel60": -5.0,
+  "volumeRatio20": 0.32
  },
  "reasons": [
   "新規大量保有 5%（モルガン・スタンレーＭＵＦＧ証券株式会社）",
-  "60日レンジ上位19%",
-  "20日線を回復",
-  "TOPIX連動ETF比 +5pt（20日）"
+  "TOPIX連動ETF比 +1.2pt（20日）",
+  "信用買残 -5%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -299,7 +296,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-27",
+   "detail": "BREAKOUT → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-26T22:37:40+09:00"
+ "updatedAt": "2026-10-27T14:28:18+09:00"
 }
