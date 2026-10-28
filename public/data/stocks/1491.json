@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T22:31:41+09:00",
+  "updatedAt": "2026-10-29T00:49:55+09:00",
   "company": {
     "securityCode": "1491",
     "ticker": "1491.T",
@@ -20,19 +20,20 @@
       "purpose": "証券業務に係る一時保有のため",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": 1.92,
+      "volumeRatio": 2.36,
       "marketExcessReturn": null,
-      "signalScore": 30,
+      "signalScore": 40,
       "signalReasons": [
-        "新規大量保有"
+        "新規大量保有",
+        "出来高2倍以上"
       ],
       "stockUnreacted": false,
       "metrics": {
         "return1d": -6.14,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -3.07,
-        "volumeRatio": 1.92,
+        "returnCurrent": -4.85,
+        "volumeRatio": 2.36,
         "marketExcessReturn": null
       }
     },
@@ -49,22 +50,22 @@
       "holdingChange": null,
       "purpose": "証券業務に係る商品在庫として保有している。",
       "importantProposal": false,
-      "priceChange": -3.85,
-      "volumeRatio": 1.93,
-      "marketExcessReturn": -3.42,
+      "priceChange": null,
+      "volumeRatio": 2.26,
+      "marketExcessReturn": null,
       "signalScore": 40,
       "signalReasons": [
         "新規大量保有",
-        "株価未反応"
+        "出来高2倍以上"
       ],
-      "stockUnreacted": true,
+      "stockUnreacted": false,
       "metrics": {
         "return1d": -2.72,
-        "return5d": -3.85,
+        "return5d": null,
         "return20d": null,
-        "returnCurrent": -3.85,
-        "volumeRatio": 1.93,
-        "marketExcessReturn": -3.42
+        "returnCurrent": -5.61,
+        "volumeRatio": 2.26,
+        "marketExcessReturn": null
       }
     },
     {
@@ -93,7 +94,7 @@
         "return1d": -2.71,
         "return5d": -5.57,
         "return20d": null,
-        "returnCurrent": -14.29,
+        "returnCurrent": -15.86,
         "volumeRatio": 1.08,
         "marketExcessReturn": -1.16
       }
@@ -124,7 +125,7 @@
         "return1d": -3.78,
         "return5d": -5.27,
         "return20d": -20.14,
-        "returnCurrent": -18.92,
+        "returnCurrent": -20.41,
         "volumeRatio": 0.74,
         "marketExcessReturn": -6.54
       }
@@ -3007,8 +3008,8 @@
       "open": 600.0,
       "high": 609.0,
       "low": 596.0,
-      "close": 600.0,
-      "adj_close": 600.0,
+      "close": null,
+      "adj_close": null,
       "volume": 14400
     }
   ],
