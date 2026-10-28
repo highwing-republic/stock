@@ -1,0 +1,124 @@
+{
+ "company": {
+  "name": "日東電工",
+  "securityCode": "6988",
+  "tradingViewSymbol": "TSE:6988"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "6988-2026-10-27",
+  "overextended": false,
+  "setupType": "BREAKOUT",
+  "setups": [],
+  "startedAt": "2026-10-27",
+  "status": "WATCH",
+  "statusHistory": [
+   {
+    "date": "2026-10-27",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-10-27",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   }
+  ],
+  "watchStartedAt": "2026-10-27"
+ },
+ "eventReactions": [
+  {
+   "d1": -0.2,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z9PY",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-26",
+  "buyBalance": 240800,
+  "buyChangePct": -13.6,
+  "labels": [
+   "信用買残減少",
+   "信用倍率悪化"
+  ],
+  "ratio": 6.3,
+  "sellBalance": 38200,
+  "sellChangePct": -46.0
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": -0.1,
+  "currentPrice": 3399.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 19,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 4,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 59,
+   "stockReturn": null
+  },
+  "excessReturn": -5.5,
+  "initialDate": "2026-10-27",
+  "initialPrice": 3600.0,
+  "stockReturn": -5.6
+ },
+ "priceSetup": {
+  "asOf": "2026-10-28",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.15,
+  "labels": [
+   "20日線が上向き"
+  ],
+  "ma20": 3585.4,
+  "ma200": 3310.9,
+  "ma60": 3451.8,
+  "rangePos60": 0.48,
+  "rel20": -1.7,
+  "rel60": -4.6,
+  "volumeRatio20": 1.18
+ },
+ "reasons": [
+  "1pt買い増し 9.3%→10.4%",
+  "信用買残 -14%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-10-26",
+   "detail": "9.35% → 10.36%（ブラックロック・ジャパン株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9PY"
+  },
+  {
+   "date": "2026-10-27",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-28",
+   "detail": "BREAKOUT → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-28T15:09:25+09:00"
+}

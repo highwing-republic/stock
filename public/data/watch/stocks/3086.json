@@ -1,0 +1,340 @@
+{
+ "company": {
+  "name": "J.フロント リテイリング",
+  "securityCode": "3086",
+  "tradingViewSymbol": "TSE:3086"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "3086-2026-10-27",
+  "overextended": false,
+  "setupType": "RECOVERY",
+  "setups": [
+   "RECOVERY"
+  ],
+  "startedAt": "2026-10-27",
+  "status": "WATCH",
+  "statusHistory": [
+   {
+    "date": "2026-10-27",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-10-27",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   }
+  ],
+  "watchStartedAt": "2026-10-27"
+ },
+ "eventReactions": [
+  {
+   "d1": 2.7,
+   "d20": 34.9,
+   "d5": 31.6,
+   "eventId": "edinet:S100YDOW",
+   "excess5": 33.1
+  },
+  {
+   "d1": 15.9,
+   "d20": 30.3,
+   "d5": 30.1,
+   "eventId": "edinet:S100YFL5",
+   "excess5": 32.3
+  },
+  {
+   "d1": 6.6,
+   "d20": -6.0,
+   "d5": -2.7,
+   "eventId": "edinet:S100YM99",
+   "excess5": -5.4
+  },
+  {
+   "d1": 4.0,
+   "d20": -12.3,
+   "d5": -9.3,
+   "eventId": "edinet:S100YN53",
+   "excess5": -12.5
+  },
+  {
+   "d1": -1.3,
+   "d20": -8.8,
+   "d5": -0.8,
+   "eventId": "edinet:S100YOD8",
+   "excess5": 1.4
+  },
+  {
+   "d1": 1.4,
+   "d20": -7.8,
+   "d5": 0.8,
+   "eventId": "edinet:S100YPJB",
+   "excess5": -0.9
+  },
+  {
+   "d1": -5.7,
+   "d20": -12.7,
+   "d5": -7.7,
+   "eventId": "edinet:S100YRBY",
+   "excess5": -6.4
+  },
+  {
+   "d1": 0.8,
+   "d20": -5.5,
+   "d5": 1.9,
+   "eventId": "edinet:S100YU7T",
+   "excess5": -1.4
+  },
+  {
+   "d1": 3.3,
+   "d20": -6.6,
+   "d5": 8.5,
+   "eventId": "edinet:S100YXIU",
+   "excess5": 5.9
+  },
+  {
+   "d1": 1.2,
+   "d20": -2.7,
+   "d5": -4.7,
+   "eventId": "edinet:S100Z0D2",
+   "excess5": -3.6
+  },
+  {
+   "d1": -3.0,
+   "d20": 1.8,
+   "d5": -4.1,
+   "eventId": "edinet:S100Z0WW",
+   "excess5": -2.5
+  },
+  {
+   "d1": 0.1,
+   "d20": 1.2,
+   "d5": 4.0,
+   "eventId": "edinet:S100Z1JS",
+   "excess5": 2.9
+  },
+  {
+   "d1": 0.4,
+   "d20": 3.5,
+   "d5": -0.7,
+   "eventId": "edinet:S100Z333",
+   "excess5": -1.9
+  },
+  {
+   "d1": 1.9,
+   "d20": null,
+   "d5": 6.0,
+   "eventId": "edinet:S100Z61O",
+   "excess5": 6.9
+  },
+  {
+   "d1": 0.5,
+   "d20": null,
+   "d5": 2.7,
+   "eventId": "edinet:S100Z8YC",
+   "excess5": 3.0
+  },
+  {
+   "d1": -1.3,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z9ZZ",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-26",
+  "buyBalance": 146000,
+  "buyChangePct": -14.6,
+  "labels": [
+   "信用買残減少",
+   "信用倍率改善"
+  ],
+  "ratio": 0.81,
+  "sellBalance": 179600,
+  "sellChangePct": 11.3
+ },
+ "pastEpisodes": [
+  {
+   "closeReason": "NO_SETUP",
+   "closedAt": "2026-10-15",
+   "id": "3086-2026-09-04",
+   "setupType": null,
+   "startedAt": "2026-09-04"
+  }
+ ],
+ "performance": {
+  "benchReturn": -0.1,
+  "currentPrice": 2741.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 19,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 4,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 59,
+   "stockReturn": null
+  },
+  "excessReturn": -1.4,
+  "initialDate": "2026-10-27",
+  "initialPrice": 2784.0,
+  "stockReturn": -1.5
+ },
+ "priceSetup": {
+  "asOf": "2026-10-28",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.24,
+  "labels": [
+   "20日線の上",
+   "20日線が上向き"
+  ],
+  "ma20": 2706.5,
+  "ma200": 2597.0,
+  "ma60": 2788.9,
+  "rangePos60": 0.34,
+  "rel20": 4.2,
+  "rel60": -13.6,
+  "volumeRatio20": 0.56
+ },
+ "reasons": [
+  "1.1pt買い増し 11.6%→12.7%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +4.2pt（20日）",
+  "信用買残 -15%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-06-19",
+   "detail": "保有割合 5.1%（３Ｄ　Ｉｎｖｅｓｔｍｅｎｔ　Ｐａｒｔｎｅｒｓ　Ｐｔｅ．　Ｌｔｄ．）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFL5"
+  },
+  {
+   "date": "2026-06-19",
+   "detail": "6.63% → 6.65%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDOW"
+  },
+  {
+   "date": "2026-06-26",
+   "detail": "5.1% → 6.35%（３Ｄ　Ｉｎｖｅｓｔｍｅｎｔ　Ｐａｒｔｎｅｒｓ　Ｐｔｅ．　Ｌｔｄ．）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YM99"
+  },
+  {
+   "date": "2026-06-29",
+   "detail": "6.35% → 7.55%（３Ｄ　Ｉｎｖｅｓｔｍｅｎｔ　Ｐａｒｔｎｅｒｓ　Ｐｔｅ．　Ｌｔｄ．）",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YN53"
+  },
+  {
+   "date": "2026-07-06",
+   "detail": "保有割合 5.79%（ブラックロック・ジャパン株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YOD8"
+  },
+  {
+   "date": "2026-07-08",
+   "detail": "7.55% → 9.23%（３Ｄ　Ｉｎｖｅｓｔｍｅｎｔ　Ｐａｒｔｎｅｒｓ　Ｐｔｅ．　Ｌｔｄ．）",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YPJB"
+  },
+  {
+   "date": "2026-07-22",
+   "detail": "6.65% → 8.28%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YRBY"
+  },
+  {
+   "date": "2026-08-06",
+   "detail": "8.28% → 8.38%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YU7T"
+  },
+  {
+   "date": "2026-08-20",
+   "detail": "8.38% → 7.98%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YXIU"
+  },
+  {
+   "date": "2026-09-04",
+   "detail": "7.98% → 8.71%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z0D2"
+  },
+  {
+   "date": "2026-09-07",
+   "detail": "9.23% → 10.32%（３Ｄ　Ｉｎｖｅｓｔｍｅｎｔ　Ｐａｒｔｎｅｒｓ　Ｐｔｅ．　Ｌｔｄ．）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z0WW"
+  },
+  {
+   "date": "2026-09-10",
+   "detail": "10.32% → 11.63%（３Ｄ　Ｉｎｖｅｓｔｍｅｎｔ　Ｐａｒｔｎｅｒｓ　Ｐｔｅ．　Ｌｔｄ．）",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z1JS"
+  },
+  {
+   "date": "2026-09-24",
+   "detail": "8.71% → 8.56%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z333"
+  },
+  {
+   "date": "2026-10-06",
+   "detail": "8.56% → 8.73%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z61O"
+  },
+  {
+   "date": "2026-10-21",
+   "detail": "8.73% → 8.43%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8YC"
+  },
+  {
+   "date": "2026-10-26",
+   "detail": "11.63% → 12.73%（３Ｄ　Ｉｎｖｅｓｔｍｅｎｔ　Ｐａｒｔｎｅｒｓ　Ｐｔｅ．　Ｌｔｄ．）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9ZZ"
+  },
+  {
+   "date": "2026-10-27",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-28T15:09:25+09:00"
+}

@@ -5,14 +5,14 @@
   "tradingViewSymbol": "TSE:3498"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "EXPIRED",
+  "closedAt": "2026-10-27",
   "id": "3498-2026-07-17",
   "overextended": false,
   "setupType": "RECOVERY",
   "setups": [],
   "startedAt": "2026-07-17",
-  "status": "REACTED",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-07-17",
@@ -31,6 +31,12 @@
     "from": "WATCH",
     "reason_code": "EXCESS_THRESHOLD",
     "to": "REACTED"
+   },
+   {
+    "date": "2026-10-27",
+    "from": "REACTED",
+    "reason_code": "EXPIRED",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-07-28"
@@ -67,9 +73,9 @@
   {
    "d1": -2.9,
    "d20": null,
-   "d5": null,
+   "d5": 5.1,
    "eventId": "edinet:S100Z95V",
-   "excess5": null
+   "excess5": 6.4
   }
  ],
  "margin": {
@@ -85,8 +91,8 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 1.3,
-  "currentPrice": 7370.0,
+  "benchReturn": 1.9,
+  "currentPrice": 7180.0,
   "d20": {
    "benchReturn": 3.7,
    "excessReturn": 4.2,
@@ -100,35 +106,31 @@
    "stockReturn": 10.7
   },
   "d60": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 1,
-   "stockReturn": null
+   "benchReturn": 1.9,
+   "excessReturn": -0.4,
+   "pendingDays": 0,
+   "stockReturn": 1.5
   },
-  "excessReturn": 2.9,
+  "excessReturn": -0.4,
   "initialDate": "2026-07-28",
   "initialPrice": 7072.7,
-  "stockReturn": 4.2
+  "stockReturn": 1.5
  },
  "priceSetup": {
-  "asOf": "2026-10-26",
+  "asOf": "2026-10-28",
   "atrState": "通常",
-  "distFrom52wHigh": 0.26,
-  "labels": [
-   "20日線の上"
-  ],
-  "ma20": 7324.0,
-  "ma200": 6869.9,
-  "ma60": 7449.0,
-  "rangePos60": 0.5,
-  "rel20": 0.4,
-  "rel60": 3.3,
-  "volumeRatio20": 0.91
+  "distFrom52wHigh": 0.27,
+  "labels": [],
+  "ma20": 7286.0,
+  "ma200": 6869.7,
+  "ma60": 7451.3,
+  "rangePos60": 0.42,
+  "rel20": -2.1,
+  "rel60": -0.9,
+  "volumeRatio20": 0.4
  },
  "reasons": [
   "1.1pt買い増し 5.2%→6.3%",
-  "20日線を回復",
-  "TOPIX連動ETF比 +0.4pt（20日）",
   "信用買残 -9%"
  ],
  "schemaVersion": 1,
@@ -384,7 +386,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-27",
+   "detail": "観察期限に到達",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-28T00:21:24+09:00"
+ "updatedAt": "2026-10-28T15:10:12+09:00"
 }

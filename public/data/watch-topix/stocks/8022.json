@@ -10,11 +10,7 @@
   "id": "8022-2026-09-24",
   "overextended": false,
   "setupType": "BREAKOUT",
-  "setups": [
-   "BREAKOUT",
-   "TREND",
-   "RECOVERY"
-  ],
+  "setups": [],
   "startedAt": "2026-09-24",
   "status": "REACTED",
   "statusHistory": [
@@ -97,8 +93,8 @@
   }
  ],
  "performance": {
-  "benchReturn": -1.5,
-  "currentPrice": 4330.0,
+  "benchReturn": -1.1,
+  "currentPrice": 4260.0,
   "d20": {
    "benchReturn": -2.0,
    "excessReturn": 9.7,
@@ -114,37 +110,35 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 39,
+   "pendingDays": 37,
    "stockReturn": null
   },
-  "excessReturn": 7.8,
+  "excessReturn": 5.7,
   "initialDate": "2026-09-24",
   "initialPrice": 4072.4,
-  "stockReturn": 6.3
+  "stockReturn": 4.6
  },
  "priceSetup": {
-  "asOf": "2026-10-26",
+  "asOf": "2026-10-28",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.07,
+  "distFrom52wHigh": 0.09,
   "labels": [
-   "20日線の上",
-   "60日レンジ上位29%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 4320.9,
-  "ma200": 3628.5,
-  "ma60": 4090.2,
-  "rangePos60": 0.71,
-  "rel20": 7.1,
-  "rel60": 19.0,
-  "volumeRatio20": 0.82
+  "ma20": 4344.0,
+  "ma200": 3641.6,
+  "ma60": 4110.4,
+  "rangePos60": 0.65,
+  "rel20": 6.7,
+  "rel60": 12.5,
+  "volumeRatio20": 0.57
  },
  "reasons": [
   "新規大量保有 5.2%（三井住友信託銀行株式会社）",
-  "60日レンジ上位29%",
-  "20日線上向き",
-  "TOPIX連動ETF比 +7.1pt（20日）"
+  "TOPIX連動ETF比 +6.7pt（20日）",
+  "52週高値まで9%",
+  "信用買残 -8%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -238,7 +232,14 @@
    "kind": "STATUS",
    "label": "REACTED",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-28",
+   "detail": "BREAKOUT → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-28T00:21:24+09:00"
+ "updatedAt": "2026-10-28T15:10:12+09:00"
 }

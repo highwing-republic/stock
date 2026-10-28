@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-10-28T00:20:02+09:00",
+  "updatedAt": "2026-10-28T15:09:15+09:00",
   "company": {
     "securityCode": "4990",
     "ticker": "4990.T",
     "name": "昭和化学工業株式会社"
   },
   "events": [
+    {
+      "docId": "S100ZAER",
+      "ticker": "4990.T",
+      "securityCode": "4990",
+      "companyName": "昭和化学工業株式会社",
+      "submitDatetime": "2026-10-28 14:14",
+      "filerName": "シグマ株式会社",
+      "reportType": "change",
+      "holdingRatio": 28.81,
+      "previousHoldingRatio": 28.81,
+      "holdingChange": 0.0,
+      "purpose": "純投資としての保有 / 発行会社の代表取締役として安定的な経営を目的として保有しております。",
+      "importantProposal": true,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 20,
+      "signalReasons": [
+        "重要提案行為あり"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -3.24,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YSWV",
       "ticker": "4990.T",
@@ -34,7 +64,7 @@
         "return1d": 2.42,
         "return5d": 0.0,
         "return20d": 1.81,
-        "returnCurrent": 3.83,
+        "returnCurrent": 2.22,
         "volumeRatio": 0.33,
         "marketExcessReturn": -2.03
       }
@@ -67,7 +97,7 @@
         "return1d": 1.2,
         "return5d": 0.8,
         "return20d": -1.0,
-        "returnCurrent": 3.0,
+        "returnCurrent": 1.4,
         "volumeRatio": 0.35,
         "marketExcessReturn": 1.6
       }
@@ -3010,9 +3040,19 @@
       "open": 524.0,
       "high": 524.0,
       "low": 524.0,
-      "close": null,
-      "adj_close": null,
-      "volume": 600
+      "close": 524.0,
+      "adj_close": 524.0,
+      "volume": 1000
+    },
+    {
+      "ticker": "4990.T",
+      "trade_date": "2026-10-28",
+      "open": 514.0,
+      "high": 519.0,
+      "low": 507.0,
+      "close": 507.0,
+      "adj_close": 507.0,
+      "volume": 3000
     }
   ],
   "benchmark": [
@@ -6942,9 +6982,19 @@
       "open": 421.3999938964844,
       "high": 421.3999938964844,
       "low": 418.70001220703125,
-      "close": null,
-      "adj_close": null,
+      "close": 420.6000061035156,
+      "adj_close": 420.6000061035156,
       "volume": 8364560
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-28",
+      "open": 423.5,
+      "high": 424.20001220703125,
+      "low": 420.0,
+      "close": 420.70001220703125,
+      "adj_close": 420.70001220703125,
+      "volume": 6187240
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

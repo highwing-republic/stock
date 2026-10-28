@@ -14,7 +14,7 @@
    "TREND"
   ],
   "startedAt": "2026-10-20",
-  "status": "WATCH",
+  "status": "STRENGTHENING",
   "statusHistory": [
    {
     "date": "2026-10-20",
@@ -27,6 +27,12 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
+   },
+   {
+    "date": "2026-10-27",
+    "from": "WATCH",
+    "reason_code": "REL20_POSITIVE",
+    "to": "STRENGTHENING"
    }
   ],
   "watchStartedAt": "2026-10-26"
@@ -38,6 +44,13 @@
    "d5": 4.8,
    "eventId": "edinet:S100Z85C",
    "excess5": 6.8
+  },
+  {
+   "d1": 0.4,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z9VP",
+   "excess5": null
   }
  ],
  "margin": {
@@ -54,53 +67,53 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 0.0,
-  "currentPrice": 3515.0,
+  "benchReturn": 0.4,
+  "currentPrice": 3615.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 20,
+   "pendingDays": 18,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 5,
+   "pendingDays": 3,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 60,
+   "pendingDays": 58,
    "stockReturn": null
   },
-  "excessReturn": 0.0,
+  "excessReturn": 2.4,
   "initialDate": "2026-10-26",
   "initialPrice": 3515.0,
-  "stockReturn": 0.0
+  "stockReturn": 2.8
  },
  "priceSetup": {
-  "asOf": "2026-10-26",
+  "asOf": "2026-10-28",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.05,
+  "distFrom52wHigh": 0.03,
   "labels": [
    "20日線の上",
-   "60日レンジ上位17%",
+   "60日レンジ上位8%",
    "60日線の上"
   ],
-  "ma20": 3456.8,
-  "ma200": 2250.8,
-  "ma60": 3206.4,
-  "rangePos60": 0.83,
-  "rel20": -1.6,
-  "rel60": 22.7,
-  "volumeRatio20": 1.31
+  "ma20": 3454.5,
+  "ma200": 2272.4,
+  "ma60": 3231.9,
+  "rangePos60": 0.92,
+  "rel20": 0.8,
+  "rel60": 29.0,
+  "volumeRatio20": 0.7
  },
  "reasons": [
-  "新規大量保有 5.2%（ありあけキャピタル株式会社）",
-  "60日レンジ上位17%",
-  "20日線を回復",
-  "52週高値まで5%"
+  "1.3pt買い増し 5.2%→6.5%",
+  "60日レンジ上位8%",
+  "TOPIX連動ETF比 +0.8pt（20日）",
+  "52週高値まで3%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -145,7 +158,21 @@
    "kind": "EVENT",
    "label": "大幅な買い増し",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9VP"
+  },
+  {
+   "date": "2026-10-27",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-27",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "STATUS",
+   "label": "STRENGTHENING",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-28T00:21:24+09:00"
+ "updatedAt": "2026-10-28T15:10:12+09:00"
 }

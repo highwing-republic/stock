@@ -9,27 +9,35 @@
   "closedAt": null,
   "id": "9532-2026-10-22",
   "overextended": false,
-  "setupType": null,
-  "setups": [],
+  "setupType": "RECOVERY",
+  "setups": [
+   "RECOVERY"
+  ],
   "startedAt": "2026-10-22",
-  "status": "CANDIDATE",
+  "status": "WATCH",
   "statusHistory": [
    {
     "date": "2026-10-22",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-10-28",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
    }
   ],
-  "watchStartedAt": null
+  "watchStartedAt": "2026-10-28"
  },
  "eventReactions": [
   {
    "d1": 1.2,
    "d20": null,
-   "d5": null,
+   "d5": 1.7,
    "eventId": "edinet:S100Z901",
-   "excess5": null
+   "excess5": 3.0
   }
  ],
  "margin": {
@@ -45,28 +53,53 @@
   "sellChangePct": 4.5
  },
  "pastEpisodes": [],
- "performance": null,
+ "performance": {
+  "benchReturn": 0.0,
+  "currentPrice": 5816.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 20,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 5,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 60,
+   "stockReturn": null
+  },
+  "excessReturn": 0.0,
+  "initialDate": "2026-10-28",
+  "initialPrice": 5816.0,
+  "stockReturn": 0.0
+ },
  "priceSetup": {
-  "asOf": "2026-10-26",
+  "asOf": "2026-10-28",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.11,
+  "distFrom52wHigh": 0.13,
   "labels": [
    "20日線の上",
-   "60日レンジ上位23%",
+   "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 5689.7,
-  "ma200": 5737.9,
-  "ma60": 5643.8,
-  "rangePos60": 0.77,
-  "rel20": 5.6,
-  "rel60": 9.7,
-  "volumeRatio20": 1.42
+  "ma20": 5705.4,
+  "ma200": 5743.8,
+  "ma60": 5656.0,
+  "rangePos60": 0.62,
+  "rel20": 3.8,
+  "rel60": 3.4,
+  "volumeRatio20": 0.7
  },
  "reasons": [
   "1.1pt買い増し 7.5%→8.5%",
-  "60日レンジ上位23%",
-  "TOPIX連動ETF比 +5.6pt（20日）",
+  "20日線上向き",
+  "TOPIX連動ETF比 +3.8pt（20日）",
   "信用買残 -21%"
  ],
  "schemaVersion": 1,
@@ -84,7 +117,21 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-28",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-28",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-28T00:21:24+09:00"
+ "updatedAt": "2026-10-28T15:10:12+09:00"
 }
