@@ -10,7 +10,10 @@
   "id": "8056-2026-10-22",
   "overextended": false,
   "setupType": "BREAKOUT",
-  "setups": [],
+  "setups": [
+   "BREAKOUT",
+   "RECOVERY"
+  ],
   "startedAt": "2026-10-22",
   "status": "WATCH",
   "statusHistory": [
@@ -60,21 +63,21 @@
   }
  ],
  "margin": {
-  "asOf": "2026-10-27",
-  "buyBalance": 50800,
-  "buyChangePct": 143.1,
+  "asOf": "2026-10-28",
+  "buyBalance": 53100,
+  "buyChangePct": 34.4,
   "labels": [
    "信用買残急増",
    "信用倍率悪化"
   ],
-  "ratio": 2.04,
-  "sellBalance": 24900,
-  "sellChangePct": 3.3
+  "ratio": 2.07,
+  "sellBalance": 25700,
+  "sellChangePct": 4.5
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -0.1,
-  "currentPrice": 4904.0,
+  "benchReturn": 0.2,
+  "currentPrice": 4936.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
@@ -82,10 +85,10 @@
    "stockReturn": null
   },
   "d5": {
-   "benchReturn": -0.1,
-   "excessReturn": -5.0,
+   "benchReturn": 0.2,
+   "excessReturn": -4.7,
    "pendingDays": 0,
-   "stockReturn": -5.1
+   "stockReturn": -4.5
   },
   "d60": {
    "benchReturn": null,
@@ -93,32 +96,34 @@
    "pendingDays": 55,
    "stockReturn": null
   },
-  "excessReturn": -5.0,
+  "excessReturn": -4.7,
   "initialDate": "2026-10-22",
   "initialPrice": 5168.0,
-  "stockReturn": -5.1
+  "stockReturn": -4.5
  },
  "priceSetup": {
   "asOf": "2026-10-29",
   "atrState": "低ボラ",
   "distFrom52wHigh": 0.19,
   "labels": [
-   "60日レンジ上位27%",
+   "20日線の上",
+   "60日レンジ上位25%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 4905.6,
-  "ma200": 4636.4,
-  "ma60": 4700.9,
-  "rangePos60": 0.73,
-  "rel20": 8.3,
-  "rel60": -3.7,
-  "volumeRatio20": 0.83
+  "ma20": 4907.2,
+  "ma200": 4636.5,
+  "ma60": 4701.4,
+  "rangePos60": 0.75,
+  "rel20": 8.7,
+  "rel60": -3.4,
+  "volumeRatio20": 2.59
  },
  "reasons": [
   "新規大量保有 5.1%（野村證券株式会社）",
-  "60日レンジ上位27%",
-  "TOPIX連動ETF比 +8.3pt（20日）"
+  "60日レンジ上位25%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +8.7pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -163,14 +168,7 @@
    "kind": "STATUS",
    "label": "WATCH",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-10-29",
-   "detail": "BREAKOUT → なし",
-   "kind": "SETUP",
-   "label": "Price Setup解消",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-29T15:18:21+09:00"
+ "updatedAt": "2026-10-29T19:26:47+09:00"
 }

@@ -10,7 +10,9 @@
   "id": "3076-2026-10-05",
   "overextended": false,
   "setupType": "TREND",
-  "setups": [],
+  "setups": [
+   "TREND"
+  ],
   "startedAt": "2026-10-05",
   "status": "REACTED",
   "statusHistory": [
@@ -64,22 +66,21 @@
   }
  ],
  "margin": {
-  "asOf": "2026-10-27",
-  "buyBalance": 153300,
-  "buyChangePct": 426.8,
+  "asOf": "2026-10-28",
+  "buyBalance": 153100,
+  "buyChangePct": 45.7,
   "labels": [
    "信用買残急増",
-   "信用倍率悪化",
-   "売残増加"
+   "信用倍率悪化"
   ],
-  "ratio": 6.55,
-  "sellBalance": 23400,
-  "sellChangePct": 110.8
+  "ratio": 6.35,
+  "sellBalance": 24100,
+  "sellChangePct": 12.1
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -4.6,
-  "currentPrice": 3035.0,
+  "benchReturn": -4.3,
+  "currentPrice": 3060.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
@@ -98,31 +99,33 @@
    "pendingDays": 44,
    "stockReturn": null
   },
-  "excessReturn": 5.3,
+  "excessReturn": 5.8,
   "initialDate": "2026-10-06",
   "initialPrice": 3015.0,
-  "stockReturn": 0.7
+  "stockReturn": 1.5
  },
  "priceSetup": {
   "asOf": "2026-10-29",
   "atrState": "通常",
-  "distFrom52wHigh": 0.06,
+  "distFrom52wHigh": 0.05,
   "labels": [
+   "20日線の上",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 3053.1,
-  "ma200": 2791.1,
-  "ma60": 2990.9,
-  "rangePos60": 0.58,
-  "rel20": 4.8,
-  "rel60": 2.7,
-  "volumeRatio20": 0.42
+  "ma20": 3054.3,
+  "ma200": 2791.2,
+  "ma60": 2991.3,
+  "rangePos60": 0.64,
+  "rel20": 5.3,
+  "rel60": 3.3,
+  "volumeRatio20": 1.6
  },
  "reasons": [
   "新規大量保有 5%（株式会社三菱ＵＦＪフィナンシャル・グループ）",
-  "TOPIX連動ETF比 +4.8pt（20日）",
-  "52週高値まで6%"
+  "20日線上向き",
+  "TOPIX連動ETF比 +5.3pt（20日）",
+  "52週高値まで5%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -237,14 +240,7 @@
    "kind": "STATUS",
    "label": "REACTED",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-10-29",
-   "detail": "TREND → なし",
-   "kind": "SETUP",
-   "label": "Price Setup解消",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-29T15:19:29+09:00"
+ "updatedAt": "2026-10-29T19:27:49+09:00"
 }

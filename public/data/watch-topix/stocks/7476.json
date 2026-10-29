@@ -10,10 +10,7 @@
   "id": "7476-2026-07-07",
   "overextended": false,
   "setupType": "BREAKOUT",
-  "setups": [
-   "BREAKOUT",
-   "RECOVERY"
-  ],
+  "setups": [],
   "startedAt": "2026-07-07",
   "status": "REACTED",
   "statusHistory": [
@@ -118,21 +115,20 @@
   }
  ],
  "margin": {
-  "asOf": "2026-10-27",
-  "buyBalance": 12700,
-  "buyChangePct": 86.8,
+  "asOf": "2026-10-28",
+  "buyBalance": 11900,
+  "buyChangePct": 12.3,
   "labels": [
-   "信用買残急増",
    "信用倍率悪化"
   ],
-  "ratio": 0.31,
-  "sellBalance": 40900,
-  "sellChangePct": -1.2
+  "ratio": 0.27,
+  "sellBalance": 43800,
+  "sellChangePct": -7.2
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -0.8,
-  "currentPrice": 2559.0,
+  "benchReturn": -0.6,
+  "currentPrice": 2548.5,
   "d20": {
    "benchReturn": -0.6,
    "excessReturn": -1.9,
@@ -151,34 +147,31 @@
    "pendingDays": 0,
    "stockReturn": 6.2
   },
-  "excessReturn": 9.8,
+  "excessReturn": 9.2,
   "initialDate": "2026-07-07",
   "initialPrice": 2347.3,
-  "stockReturn": 9.0
+  "stockReturn": 8.6
  },
  "priceSetup": {
   "asOf": "2026-10-29",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.04,
+  "distFrom52wHigh": 0.05,
   "labels": [
-   "20日線の上",
-   "60日レンジ上位30%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2550.2,
-  "ma200": 2294.1,
-  "ma60": 2463.8,
-  "rangePos60": 0.7,
-  "rel20": 6.0,
-  "rel60": -1.2,
-  "volumeRatio20": 1.14
+  "ma20": 2549.7,
+  "ma200": 2294.0,
+  "ma60": 2463.7,
+  "rangePos60": 0.68,
+  "rel20": 5.3,
+  "rel60": -1.9,
+  "volumeRatio20": 3.98
  },
  "reasons": [
   "1.1pt買い増し 8.9%→10%",
-  "60日レンジ上位30%",
-  "20日線上向き",
-  "TOPIX連動ETF比 +6pt（20日）"
+  "TOPIX連動ETF比 +5.3pt（20日）",
+  "52週高値まで5%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -468,7 +461,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-29",
+   "detail": "BREAKOUT → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-29T15:19:29+09:00"
+ "updatedAt": "2026-10-29T19:27:49+09:00"
 }

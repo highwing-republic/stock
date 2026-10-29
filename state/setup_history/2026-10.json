@@ -15985,13 +15985,6 @@
    "date": "2026-10-29",
    "kind": "MILESTONE",
    "milestone": "REL20_TURNED_POSITIVE",
-   "security_code": "1332",
-   "to": null
-  },
-  {
-   "date": "2026-10-29",
-   "kind": "MILESTONE",
-   "milestone": "REL20_TURNED_POSITIVE",
    "security_code": "1662",
    "to": null
   },
@@ -16039,13 +16032,6 @@
   },
   {
    "date": "2026-10-29",
-   "from": "RECOVERY",
-   "kind": "SETUP",
-   "security_code": "1951",
-   "to": null
-  },
-  {
-   "date": "2026-10-29",
    "kind": "MILESTONE",
    "milestone": "MA60_RECLAIMED",
    "security_code": "1959",
@@ -16060,16 +16046,44 @@
   },
   {
    "date": "2026-10-29",
-   "from": "BREAKOUT",
+   "kind": "MILESTONE",
+   "milestone": "MA20_RECLAIMED",
+   "security_code": "2124",
+   "to": "TREND"
+  },
+  {
+   "date": "2026-10-29",
+   "from": null,
    "kind": "SETUP",
-   "security_code": "2181",
-   "to": null
+   "security_code": "2124",
+   "to": "TREND"
+  },
+  {
+   "date": "2026-10-29",
+   "kind": "MILESTONE",
+   "milestone": "MA20_RECLAIMED",
+   "security_code": "2212",
+   "to": "TREND"
   },
   {
    "date": "2026-10-29",
    "kind": "MILESTONE",
    "milestone": "MA60_RECLAIMED",
    "security_code": "2212",
+   "to": "TREND"
+  },
+  {
+   "date": "2026-10-29",
+   "from": null,
+   "kind": "SETUP",
+   "security_code": "2212",
+   "to": "TREND"
+  },
+  {
+   "date": "2026-10-29",
+   "kind": "MILESTONE",
+   "milestone": "MA60_RECLAIMED",
+   "security_code": "2269",
    "to": null
   },
   {
@@ -16077,7 +16091,7 @@
    "from": "BREAKOUT",
    "kind": "SETUP",
    "security_code": "2317",
-   "to": null
+   "to": "RECOVERY"
   },
   {
    "date": "2026-10-29",
@@ -16109,16 +16123,16 @@
   },
   {
    "date": "2026-10-29",
-   "from": "RECOVERY",
-   "kind": "SETUP",
-   "security_code": "3092",
-   "to": null
+   "kind": "MILESTONE",
+   "milestone": "MA60_RECLAIMED",
+   "security_code": "3086",
+   "to": "RECOVERY"
   },
   {
    "date": "2026-10-29",
    "from": "RECOVERY",
    "kind": "SETUP",
-   "security_code": "3288",
+   "security_code": "3092",
    "to": null
   },
   {
@@ -16265,13 +16279,6 @@
    "date": "2026-10-29",
    "from": "BREAKOUT",
    "kind": "SETUP",
-   "security_code": "4523",
-   "to": null
-  },
-  {
-   "date": "2026-10-29",
-   "from": "BREAKOUT",
-   "kind": "SETUP",
    "security_code": "4528",
    "to": null
   },
@@ -16287,6 +16294,13 @@
    "kind": "MILESTONE",
    "milestone": "MA20_RECLAIMED",
    "security_code": "4612",
+   "to": null
+  },
+  {
+   "date": "2026-10-29",
+   "from": "TREND",
+   "kind": "SETUP",
+   "security_code": "4613",
    "to": null
   },
   {
@@ -16319,10 +16333,17 @@
   },
   {
    "date": "2026-10-29",
-   "from": null,
+   "from": "RECOVERY",
    "kind": "SETUP",
-   "security_code": "4901",
-   "to": "RECOVERY"
+   "security_code": "4816",
+   "to": null
+  },
+  {
+   "date": "2026-10-29",
+   "kind": "MILESTONE",
+   "milestone": "MA20_RECLAIMED",
+   "security_code": "5076",
+   "to": null
   },
   {
    "date": "2026-10-29",
@@ -16347,10 +16368,10 @@
   },
   {
    "date": "2026-10-29",
-   "kind": "MILESTONE",
-   "milestone": "REL20_TURNED_POSITIVE",
-   "security_code": "642A",
-   "to": "TREND"
+   "from": "RECOVERY",
+   "kind": "SETUP",
+   "security_code": "6367",
+   "to": null
   },
   {
    "date": "2026-10-29",
@@ -16441,14 +16462,14 @@
    "kind": "MILESTONE",
    "milestone": "MA20_RECLAIMED",
    "security_code": "7270",
-   "to": "RECOVERY"
+   "to": "BREAKOUT"
   },
   {
    "date": "2026-10-29",
    "from": null,
    "kind": "SETUP",
    "security_code": "7270",
-   "to": "RECOVERY"
+   "to": "BREAKOUT"
   },
   {
    "date": "2026-10-29",
@@ -16515,10 +16536,17 @@
   },
   {
    "date": "2026-10-29",
-   "from": "BREAKOUT",
+   "from": "RECOVERY",
    "kind": "SETUP",
-   "security_code": "8056",
-   "to": null
+   "security_code": "8031",
+   "to": "BREAKOUT"
+  },
+  {
+   "date": "2026-10-29",
+   "from": "RECOVERY",
+   "kind": "SETUP",
+   "security_code": "8058",
+   "to": "BREAKOUT"
   },
   {
    "date": "2026-10-29",
@@ -16543,9 +16571,23 @@
   },
   {
    "date": "2026-10-29",
+   "kind": "MILESTONE",
+   "milestone": "REL20_TURNED_POSITIVE",
+   "security_code": "8154",
+   "to": null
+  },
+  {
+   "date": "2026-10-29",
    "from": "TREND",
    "kind": "SETUP",
    "security_code": "8154",
+   "to": null
+  },
+  {
+   "date": "2026-10-29",
+   "kind": "MILESTONE",
+   "milestone": "MA60_RECLAIMED",
+   "security_code": "8174",
    "to": null
   },
   {
@@ -16586,13 +16628,6 @@
   {
    "date": "2026-10-29",
    "kind": "MILESTONE",
-   "milestone": "REL20_TURNED_POSITIVE",
-   "security_code": "8591",
-   "to": null
-  },
-  {
-   "date": "2026-10-29",
-   "kind": "MILESTONE",
    "milestone": "MA20_RECLAIMED",
    "security_code": "8604",
    "to": null
@@ -16603,6 +16638,13 @@
    "kind": "SETUP",
    "security_code": "8630",
    "to": "BREAKOUT"
+  },
+  {
+   "date": "2026-10-29",
+   "kind": "MILESTONE",
+   "milestone": "MA20_RECLAIMED",
+   "security_code": "8750",
+   "to": null
   },
   {
    "date": "2026-10-29",
@@ -16649,9 +16691,9 @@
   {
    "date": "2026-10-29",
    "kind": "MILESTONE",
-   "milestone": "REL20_TURNED_POSITIVE",
-   "security_code": "9005",
-   "to": null
+   "milestone": "MA60_RECLAIMED",
+   "security_code": "9022",
+   "to": "RECOVERY"
   },
   {
    "date": "2026-10-29",
@@ -16659,20 +16701,6 @@
    "kind": "SETUP",
    "security_code": "9142",
    "to": null
-  },
-  {
-   "date": "2026-10-29",
-   "kind": "MILESTONE",
-   "milestone": "MA20_RECLAIMED",
-   "security_code": "9435",
-   "to": "RECOVERY"
-  },
-  {
-   "date": "2026-10-29",
-   "from": null,
-   "kind": "SETUP",
-   "security_code": "9435",
-   "to": "RECOVERY"
   },
   {
    "date": "2026-10-29",
