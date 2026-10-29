@@ -1,0 +1,139 @@
+{
+ "company": {
+  "name": "トーセイ",
+  "securityCode": "8923",
+  "tradingViewSymbol": "TSE:8923"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "8923-2026-10-29",
+  "overextended": false,
+  "setupType": "RECOVERY",
+  "setups": [
+   "RECOVERY"
+  ],
+  "startedAt": "2026-10-29",
+  "status": "WATCH",
+  "statusHistory": [
+   {
+    "date": "2026-10-29",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-10-29",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   }
+  ],
+  "watchStartedAt": "2026-10-29"
+ },
+ "eventReactions": [
+  {
+   "d1": 3.1,
+   "d20": 1.2,
+   "d5": 3.5,
+   "eventId": "edinet:S100YPRC",
+   "excess5": 3.4
+  },
+  {
+   "d1": 2.5,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z9OF",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-27",
+  "buyBalance": 149600,
+  "buyChangePct": 25.5,
+  "labels": [
+   "信用買残急増",
+   "信用倍率改善",
+   "売残増加"
+  ],
+  "ratio": 1.07,
+  "sellBalance": 140100,
+  "sellChangePct": 376.5
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": 0.0,
+  "currentPrice": 1826.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 20,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 5,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 60,
+   "stockReturn": null
+  },
+  "excessReturn": 0.0,
+  "initialDate": "2026-10-29",
+  "initialPrice": 1826.0,
+  "stockReturn": 0.0
+ },
+ "priceSetup": {
+  "asOf": "2026-10-29",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.06,
+  "labels": [
+   "20日線の上",
+   "60日レンジ上位14%",
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 1723.9,
+  "ma200": 1681.4,
+  "ma60": 1745.8,
+  "rangePos60": 0.86,
+  "rel20": 7.0,
+  "rel60": -2.8,
+  "volumeRatio20": 0.96
+ },
+ "reasons": [
+  "1.6pt買い増し 6.1%→7.6%",
+  "60日レンジ上位14%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +7pt（20日）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-07-13",
+   "detail": "5% → 6.07%（ダルトン　インベストメンツ　インク）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YPRC"
+  },
+  {
+   "date": "2026-10-28",
+   "detail": "6.07% → 7.62%（ダルトン　インベストメンツ　インク）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9OF"
+  },
+  {
+   "date": "2026-10-29",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-29T15:18:21+09:00"
+}

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T00:49:55+09:00",
+  "updatedAt": "2026-10-29T15:18:08+09:00",
   "company": {
     "securityCode": "646A",
     "ticker": "646A.T",
@@ -19,21 +19,22 @@
       "holdingChange": -0.1,
       "purpose": "純投資（投資一任契約に基づく顧客の資産運用および投資信託約款に基づく資産運用目的） / 純投資（顧客および投資信託等の資産運用目的） / 純投資（投資信託等の資産運用目的）",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.29,
-      "marketExcessReturn": null,
+      "priceChange": 7.53,
+      "volumeRatio": 0.28,
+      "marketExcessReturn": 7.96,
       "signalScore": 0,
       "signalReasons": [
+        "市場超過5%以上",
         "保有割合減少"
       ],
       "stockUnreacted": false,
       "metrics": {
         "return1d": 0.99,
-        "return5d": null,
+        "return5d": 7.53,
         "return20d": null,
-        "returnCurrent": 6.86,
-        "volumeRatio": 0.29,
-        "marketExcessReturn": null
+        "returnCurrent": 7.79,
+        "volumeRatio": 0.28,
+        "marketExcessReturn": 7.96
       }
     },
     {
@@ -49,22 +50,23 @@
       "holdingChange": 3.0,
       "purpose": "純投資（資産運用契約に基づき、顧客資産の運用のために保有している。） / 純投資（投資信託及び投資法人に関する法律又は投資一任契約に基づく投資信託又は顧客の資産の運用のために保有している。）",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.29,
-      "marketExcessReturn": null,
-      "signalScore": 30,
+      "priceChange": 7.53,
+      "volumeRatio": 0.28,
+      "marketExcessReturn": 7.96,
+      "signalScore": 40,
       "signalReasons": [
         "1pt以上買い増し",
-        "2pt以上買い増し"
+        "2pt以上買い増し",
+        "市場超過5%以上"
       ],
       "stockUnreacted": false,
       "metrics": {
         "return1d": 0.99,
-        "return5d": null,
+        "return5d": 7.53,
         "return20d": null,
-        "returnCurrent": 6.86,
-        "volumeRatio": 0.29,
-        "marketExcessReturn": null
+        "returnCurrent": 7.79,
+        "volumeRatio": 0.28,
+        "marketExcessReturn": 7.96
       }
     },
     {
@@ -93,7 +95,7 @@
         "return1d": 1.26,
         "return5d": -2.13,
         "return20d": null,
-        "returnCurrent": -0.24,
+        "returnCurrent": 0.63,
         "volumeRatio": 0.35,
         "marketExcessReturn": 2.28
       }
@@ -124,7 +126,7 @@
         "return1d": -4.85,
         "return5d": -4.48,
         "return20d": null,
-        "returnCurrent": -5.08,
+        "returnCurrent": -4.25,
         "volumeRatio": 0.36,
         "marketExcessReturn": -5.01
       }
@@ -156,7 +158,7 @@
         "return1d": -17.29,
         "return5d": -20.31,
         "return20d": null,
-        "returnCurrent": -21.49,
+        "returnCurrent": -20.8,
         "volumeRatio": 0.66,
         "marketExcessReturn": -19.85
       }
@@ -188,7 +190,7 @@
         "return1d": -17.29,
         "return5d": -20.31,
         "return20d": null,
-        "returnCurrent": -21.49,
+        "returnCurrent": -20.8,
         "volumeRatio": 0.66,
         "marketExcessReturn": -19.85
       }
@@ -400,10 +402,20 @@
       "trade_date": "2026-10-28",
       "open": 206.0,
       "high": 209.8000030517578,
-      "low": 205.8000030517578,
-      "close": null,
-      "adj_close": null,
+      "low": 205.6999969482422,
+      "close": 207.0,
+      "adj_close": 207.0,
       "volume": 5225900
+    },
+    {
+      "ticker": "646A.T",
+      "trade_date": "2026-10-29",
+      "open": 209.0,
+      "high": 209.89999389648438,
+      "low": 204.0,
+      "close": 207.5,
+      "adj_close": 207.5,
+      "volume": 3512500
     }
   ],
   "benchmark": [
@@ -4346,6 +4358,16 @@
       "close": 420.0,
       "adj_close": 420.0,
       "volume": 7320530
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-29",
+      "open": 419.8999938964844,
+      "high": 421.20001220703125,
+      "low": 416.79998779296875,
+      "close": 420.0,
+      "adj_close": 420.0,
+      "volume": 15693350
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

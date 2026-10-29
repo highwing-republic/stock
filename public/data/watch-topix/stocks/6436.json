@@ -5,14 +5,14 @@
   "tradingViewSymbol": "TSE:6436"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "BROKEN",
+  "closedAt": "2026-10-29",
   "id": "6436-2026-10-23",
   "overextended": false,
   "setupType": "BREAKOUT",
   "setups": [],
   "startedAt": "2026-10-23",
-  "status": "BROKEN",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-10-23",
@@ -31,6 +31,12 @@
     "from": "WATCH",
     "reason_code": "BELOW_MA60",
     "to": "BROKEN"
+   },
+   {
+    "date": "2026-10-29",
+    "from": "BROKEN",
+    "reason_code": "BROKEN",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-10-23"
@@ -39,9 +45,9 @@
   {
    "d1": -0.9,
    "d20": null,
-   "d5": null,
+   "d5": -12.5,
    "eventId": "edinet:S100Z8WF",
-   "excess5": null
+   "excess5": -12.4
   }
  ],
  "margin": {
@@ -60,44 +66,44 @@
  "pastEpisodes": [],
  "performance": {
   "benchReturn": 0.9,
-  "currentPrice": 3636.0,
+  "currentPrice": 3603.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 17,
+   "pendingDays": 16,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 2,
+   "pendingDays": 1,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 57,
+   "pendingDays": 56,
    "stockReturn": null
   },
-  "excessReturn": -11.8,
+  "excessReturn": -12.6,
   "initialDate": "2026-10-23",
   "initialPrice": 4081.0,
-  "stockReturn": -10.9
+  "stockReturn": -11.7
  },
  "priceSetup": {
-  "asOf": "2026-10-28",
+  "asOf": "2026-10-29",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.14,
+  "distFrom52wHigh": 0.15,
   "labels": [
    "20日線が上向き"
   ],
-  "ma20": 3894.7,
-  "ma200": 3777.0,
-  "ma60": 3864.1,
-  "rangePos60": 0.09,
-  "rel20": -3.0,
-  "rel60": -6.5,
-  "volumeRatio20": 2.07
+  "ma20": 3884.9,
+  "ma200": 3774.9,
+  "ma60": 3859.9,
+  "rangePos60": 0.04,
+  "rel20": -2.5,
+  "rel60": -8.4,
+  "volumeRatio20": 0.69
  },
  "reasons": [
   "1pt買い増し 5.6%→6.6%"
@@ -131,7 +137,14 @@
    "kind": "STATUS",
    "label": "BROKEN",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-29",
+   "detail": "Price Setupが崩れた",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-28T22:32:50+09:00"
+ "updatedAt": "2026-10-29T15:19:29+09:00"
 }

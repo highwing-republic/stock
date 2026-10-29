@@ -5,14 +5,14 @@
   "tradingViewSymbol": "TSE:4676"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "BROKEN",
+  "closedAt": "2026-10-29",
   "id": "4676-2026-09-18",
   "overextended": false,
   "setupType": "BREAKOUT",
   "setups": [],
   "startedAt": "2026-09-18",
-  "status": "BROKEN",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-09-18",
@@ -37,6 +37,12 @@
     "from": "STRENGTHENING",
     "reason_code": "BELOW_MA20",
     "to": "BROKEN"
+   },
+   {
+    "date": "2026-10-29",
+    "from": "BROKEN",
+    "reason_code": "BROKEN",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-10-14"
@@ -72,11 +78,11 @@
  "pastEpisodes": [],
  "performance": {
   "benchReturn": -2.6,
-  "currentPrice": 3968.0,
+  "currentPrice": 3962.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 10,
+   "pendingDays": 9,
    "stockReturn": null
   },
   "d5": {
@@ -88,32 +94,32 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 50,
+   "pendingDays": 49,
    "stockReturn": null
   },
-  "excessReturn": 0.9,
+  "excessReturn": 0.7,
   "initialDate": "2026-10-14",
   "initialPrice": 4037.0,
-  "stockReturn": -1.7
+  "stockReturn": -1.9
  },
  "priceSetup": {
-  "asOf": "2026-10-28",
+  "asOf": "2026-10-29",
   "atrState": "低ボラ",
   "distFrom52wHigh": 0.09,
   "labels": [
    "20日線が上向き"
   ],
-  "ma20": 4034.2,
-  "ma200": 3843.9,
-  "ma60": 4009.5,
-  "rangePos60": 0.42,
-  "rel20": 3.2,
-  "rel60": -5.7,
-  "volumeRatio20": 1.0
+  "ma20": 4034.9,
+  "ma200": 3846.1,
+  "ma60": 4008.1,
+  "rangePos60": 0.41,
+  "rel20": 3.0,
+  "rel60": -3.9,
+  "volumeRatio20": 0.99
  },
  "reasons": [
   "新規大量保有 5.6%（大和証券株式会社）",
-  "TOPIX連動ETF比 +3.2pt（20日）",
+  "TOPIX連動ETF比 +3pt（20日）",
   "52週高値まで9%"
  ],
  "schemaVersion": 1,
@@ -222,7 +228,14 @@
    "kind": "STATUS",
    "label": "BROKEN",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-29",
+   "detail": "Price Setupが崩れた",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-28T22:32:50+09:00"
+ "updatedAt": "2026-10-29T15:19:29+09:00"
 }

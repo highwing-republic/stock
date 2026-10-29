@@ -1,0 +1,178 @@
+{
+ "company": {
+  "name": "プレミアグループ",
+  "securityCode": "7199",
+  "tradingViewSymbol": "TSE:7199"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "7199-2026-10-29",
+  "overextended": false,
+  "setupType": "TREND",
+  "setups": [
+   "TREND",
+   "RECOVERY"
+  ],
+  "startedAt": "2026-10-29",
+  "status": "WATCH",
+  "statusHistory": [
+   {
+    "date": "2026-10-29",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-10-29",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   }
+  ],
+  "watchStartedAt": "2026-10-29"
+ },
+ "eventReactions": [
+  {
+   "d1": -2.3,
+   "d20": 3.6,
+   "d5": -1.4,
+   "eventId": "edinet:S100YRWR",
+   "excess5": -0.1
+  },
+  {
+   "d1": -0.1,
+   "d20": 3.3,
+   "d5": 0.9,
+   "eventId": "edinet:S100Z41U",
+   "excess5": -1.4
+  },
+  {
+   "d1": 7.5,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z9MG",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-27",
+  "buyBalance": 466800,
+  "buyChangePct": -2.2,
+  "labels": [],
+  "ratio": 8.66,
+  "sellBalance": 53900,
+  "sellChangePct": -3.4
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": 0.0,
+  "currentPrice": 2248.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 20,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 5,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 60,
+   "stockReturn": null
+  },
+  "excessReturn": 0.0,
+  "initialDate": "2026-10-29",
+  "initialPrice": 2248.0,
+  "stockReturn": 0.0
+ },
+ "priceSetup": {
+  "asOf": "2026-10-29",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.0,
+  "labels": [
+   "20日線の上",
+   "60日レンジ上位3%",
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 2149.7,
+  "ma200": 1931.6,
+  "ma60": 2098.6,
+  "rangePos60": 0.97,
+  "rel20": 8.8,
+  "rel60": 9.3,
+  "volumeRatio20": 2.0
+ },
+ "reasons": [
+  "新規大量保有 5%（ダルトン　インベストメンツ　インク）",
+  "出来高 2倍で60日高値更新",
+  "60日レンジ上位3%",
+  "20日線を回復"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-07-23",
+   "detail": "6.5% → 5.12%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YRWR"
+  },
+  {
+   "date": "2026-09-25",
+   "detail": "5.12% → 4.09%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z41U"
+  },
+  {
+   "date": "2026-10-28",
+   "detail": "保有割合 5.05%（ダルトン　インベストメンツ　インク）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9MG"
+  },
+  {
+   "date": "2026-10-29",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-29",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-29",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-29",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-29",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-10-29T15:19:29+09:00"
+}

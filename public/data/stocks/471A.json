@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T00:49:55+09:00",
+  "updatedAt": "2026-10-29T15:18:08+09:00",
   "company": {
     "securityCode": "471A",
     "ticker": "471A.T",
@@ -20,7 +20,7 @@
       "purpose": "安定株主として保有しております。なお、発行会社の普通株式の流動性確保の目的で、提出者の保有する発行会社の普通株式を株式市場において売却することを予定しております。 / 安定株主として保有しております。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.82,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [
@@ -28,11 +28,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": -1.88,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.0,
-        "volumeRatio": null,
+        "returnCurrent": -1.88,
+        "volumeRatio": 0.82,
         "marketExcessReturn": null
       }
     },
@@ -61,7 +61,7 @@
         "return1d": -2.28,
         "return5d": -1.69,
         "return20d": null,
-        "returnCurrent": -3.06,
+        "returnCurrent": -4.89,
         "volumeRatio": 0.87,
         "marketExcessReturn": -1.25
       }
@@ -90,8 +90,8 @@
       "metrics": {
         "return1d": -0.39,
         "return5d": -1.82,
-        "return20d": null,
-        "returnCurrent": -3.44,
+        "return20d": -5.26,
+        "returnCurrent": -5.26,
         "volumeRatio": 1.05,
         "marketExcessReturn": -4.55
       }
@@ -2194,9 +2194,19 @@
       "open": 1486.0,
       "high": 1488.0,
       "low": 1457.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1463.0,
+      "adj_close": 1463.0,
       "volume": 307900
+    },
+    {
+      "ticker": "471A.T",
+      "trade_date": "2026-10-29",
+      "open": 1463.0,
+      "high": 1467.0,
+      "low": 1449.0,
+      "close": 1459.0,
+      "adj_close": 1459.0,
+      "volume": 193000
     }
   ],
   "benchmark": [
@@ -6139,6 +6149,16 @@
       "close": 420.0,
       "adj_close": 420.0,
       "volume": 7320530
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-29",
+      "open": 419.8999938964844,
+      "high": 421.20001220703125,
+      "low": 416.79998779296875,
+      "close": 420.0,
+      "adj_close": 420.0,
+      "volume": 15693350
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

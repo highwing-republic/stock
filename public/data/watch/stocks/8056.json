@@ -10,10 +10,7 @@
   "id": "8056-2026-10-22",
   "overextended": false,
   "setupType": "BREAKOUT",
-  "setups": [
-   "BREAKOUT",
-   "RECOVERY"
-  ],
+  "setups": [],
   "startedAt": "2026-10-22",
   "status": "WATCH",
   "statusHistory": [
@@ -77,53 +74,51 @@
  "pastEpisodes": [],
  "performance": {
   "benchReturn": -0.1,
-  "currentPrice": 5029.0,
+  "currentPrice": 4904.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 16,
+   "pendingDays": 15,
    "stockReturn": null
   },
   "d5": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 1,
-   "stockReturn": null
+   "benchReturn": -0.1,
+   "excessReturn": -5.0,
+   "pendingDays": 0,
+   "stockReturn": -5.1
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 56,
+   "pendingDays": 55,
    "stockReturn": null
   },
-  "excessReturn": -2.6,
+  "excessReturn": -5.0,
   "initialDate": "2026-10-22",
   "initialPrice": 5168.0,
-  "stockReturn": -2.7
+  "stockReturn": -5.1
  },
  "priceSetup": {
-  "asOf": "2026-10-28",
+  "asOf": "2026-10-29",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.17,
+  "distFrom52wHigh": 0.19,
   "labels": [
-   "20日線の上",
-   "60日レンジ上位17%",
+   "60日レンジ上位27%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 4892.4,
-  "ma200": 4638.1,
-  "ma60": 4702.5,
-  "rangePos60": 0.83,
-  "rel20": 9.0,
-  "rel60": -0.8,
-  "volumeRatio20": 0.91
+  "ma20": 4905.6,
+  "ma200": 4636.4,
+  "ma60": 4700.9,
+  "rangePos60": 0.73,
+  "rel20": 8.3,
+  "rel60": -3.7,
+  "volumeRatio20": 0.83
  },
  "reasons": [
   "新規大量保有 5.1%（野村證券株式会社）",
-  "60日レンジ上位17%",
-  "20日線上向き",
-  "TOPIX連動ETF比 +9pt（20日）"
+  "60日レンジ上位27%",
+  "TOPIX連動ETF比 +8.3pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -168,7 +163,14 @@
    "kind": "STATUS",
    "label": "WATCH",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-29",
+   "detail": "BREAKOUT → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-28T22:31:51+09:00"
+ "updatedAt": "2026-10-29T15:18:21+09:00"
 }
