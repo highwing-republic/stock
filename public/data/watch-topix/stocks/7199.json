@@ -15,7 +15,7 @@
    "RECOVERY"
   ],
   "startedAt": "2026-10-29",
-  "status": "WATCH",
+  "status": "CONFIRMED",
   "statusHistory": [
    {
     "date": "2026-10-29",
@@ -28,6 +28,12 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
+   },
+   {
+    "date": "2026-10-30",
+    "from": "WATCH",
+    "reason_code": "NEW_HIGH60_VOLUME",
+    "to": "CONFIRMED"
    }
   ],
   "watchStartedAt": "2026-10-29"
@@ -56,18 +62,18 @@
   }
  ],
  "margin": {
-  "asOf": "2026-10-28",
-  "buyBalance": 474600,
-  "buyChangePct": 0.5,
+  "asOf": "2026-10-29",
+  "buyBalance": 487700,
+  "buyChangePct": 3.7,
   "labels": [],
-  "ratio": 9.95,
-  "sellBalance": 47700,
-  "sellChangePct": -16.0
+  "ratio": 8.25,
+  "sellBalance": 59100,
+  "sellChangePct": 4.0
  },
  "pastEpisodes": [],
  "performance": {
   "benchReturn": -1.2,
-  "currentPrice": 2274.0,
+  "currentPrice": 2273.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
@@ -103,17 +109,17 @@
   ],
   "ma20": 2158.3,
   "ma200": 1933.8,
-  "ma60": 2102.9,
+  "ma60": 2102.8,
   "rangePos60": 0.85,
-  "rel20": 12.3,
-  "rel60": 12.8,
-  "volumeRatio20": 1.37
+  "rel20": 12.2,
+  "rel60": 12.7,
+  "volumeRatio20": 1.79
  },
  "reasons": [
   "新規大量保有 5%（ダルトン　インベストメンツ　インク）",
+  "出来高 1.8倍で60日高値更新",
   "60日レンジ上位15%",
-  "20日線上向き",
-  "TOPIX連動ETF比 +12.3pt（20日）"
+  "20日線上向き"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -179,7 +185,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-30",
+   "detail": "60日高値を出来高増で更新",
+   "kind": "STATUS",
+   "label": "CONFIRMED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-30T15:18:25+09:00"
+ "updatedAt": "2026-10-30T19:32:17+09:00"
 }
