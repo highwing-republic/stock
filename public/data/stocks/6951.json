@@ -1,11 +1,42 @@
 {
-  "updatedAt": "2026-10-30T00:57:02+09:00",
+  "updatedAt": "2026-10-30T15:17:05+09:00",
   "company": {
     "securityCode": "6951",
     "ticker": "6951.T",
     "name": "日本電子株式会社"
   },
   "events": [
+    {
+      "docId": "S100ZARG",
+      "ticker": "6951.T",
+      "securityCode": "6951",
+      "companyName": "日本電子株式会社",
+      "submitDatetime": "2026-10-30 10:14",
+      "filerName": "グランサム、マヨ、ヴァン　オッテルロー　アンド　カンパニー　エルエルシー",
+      "reportType": "initial",
+      "holdingRatio": 5.05,
+      "previousHoldingRatio": null,
+      "holdingChange": null,
+      "purpose": "純投資及び状況に応じて重要提案行為等を行うこともありうる。",
+      "importantProposal": true,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 50,
+      "signalReasons": [
+        "新規大量保有",
+        "重要提案行為あり"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -3.63,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YS2X",
       "ticker": "6951.T",
@@ -33,7 +64,7 @@
         "return1d": 1.05,
         "return5d": -0.07,
         "return20d": -13.31,
-        "returnCurrent": -11.26,
+        "returnCurrent": -14.53,
         "volumeRatio": 1.06,
         "marketExcessReturn": 1.09
       }
@@ -64,7 +95,7 @@
         "return1d": -5.42,
         "return5d": 4.45,
         "return20d": 15.41,
-        "returnCurrent": -3.39,
+        "returnCurrent": -6.96,
         "volumeRatio": 0.91,
         "marketExcessReturn": 5.83
       }
@@ -4017,9 +4048,19 @@
       "open": 7169.0,
       "high": 7291.0,
       "low": 7098.0,
-      "close": null,
-      "adj_close": null,
+      "close": 7236.0,
+      "adj_close": 7236.0,
       "volume": 397600
+    },
+    {
+      "ticker": "6951.T",
+      "trade_date": "2026-10-30",
+      "open": 7055.0,
+      "high": 7124.0,
+      "low": 6862.0,
+      "close": 6973.0,
+      "adj_close": 6973.0,
+      "volume": 230600
     }
   ],
   "benchmark": [
@@ -7972,6 +8013,16 @@
       "close": 421.29998779296875,
       "adj_close": 421.29998779296875,
       "volume": 21767760
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-30",
+      "open": 420.29998779296875,
+      "high": 421.8999938964844,
+      "low": 414.5,
+      "close": 415.8999938964844,
+      "adj_close": 415.8999938964844,
+      "volume": 13844230
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

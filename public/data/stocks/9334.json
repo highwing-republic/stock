@@ -1,11 +1,43 @@
 {
-  "updatedAt": "2026-10-30T00:57:02+09:00",
+  "updatedAt": "2026-10-30T15:17:05+09:00",
   "company": {
     "securityCode": "9334",
     "ticker": "9334.T",
     "name": "株式会社アイビスホールディングス"
   },
   "events": [
+    {
+      "docId": "S100ZAXN",
+      "ticker": "9334.T",
+      "securityCode": "9334",
+      "companyName": "株式会社アイビスホールディングス",
+      "submitDatetime": "2026-10-30 11:15",
+      "filerName": "株式会社旺司ライフワーク",
+      "reportType": "correction",
+      "holdingRatio": 30000.0,
+      "previousHoldingRatio": 83.98,
+      "holdingChange": 29916.02,
+      "purpose": "発行会社の代表取締役社長が保有する資産管理会社であり、安定株主として保有しております。",
+      "importantProposal": true,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 50,
+      "signalReasons": [
+        "1pt以上買い増し",
+        "2pt以上買い増し",
+        "重要提案行為あり"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": null,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100ZACL",
       "ticker": "9334.T",
@@ -4021,6 +4053,16 @@
       "close": 421.29998779296875,
       "adj_close": 421.29998779296875,
       "volume": 21767760
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-30",
+      "open": 420.29998779296875,
+      "high": 421.8999938964844,
+      "low": 414.5,
+      "close": 415.8999938964844,
+      "adj_close": 415.8999938964844,
+      "volume": 13844230
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

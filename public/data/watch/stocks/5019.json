@@ -12,7 +12,7 @@
   "setupType": "TREND",
   "setups": [],
   "startedAt": "2026-10-09",
-  "status": "WATCH",
+  "status": "BROKEN",
   "statusHistory": [
    {
     "date": "2026-10-09",
@@ -25,6 +25,12 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
+   },
+   {
+    "date": "2026-10-30",
+    "from": "WATCH",
+    "reason_code": "BELOW_MA20",
+    "to": "BROKEN"
    }
   ],
   "watchStartedAt": "2026-10-26"
@@ -72,49 +78,49 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 0.7,
-  "currentPrice": 1530.5,
+  "benchReturn": -0.5,
+  "currentPrice": 1520.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 17,
+   "pendingDays": 16,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 2,
+   "pendingDays": 1,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 57,
+   "pendingDays": 56,
    "stockReturn": null
   },
-  "excessReturn": -3.6,
+  "excessReturn": -3.1,
   "initialDate": "2026-10-26",
   "initialPrice": 1577.0,
-  "stockReturn": -2.9
+  "stockReturn": -3.6
  },
  "priceSetup": {
-  "asOf": "2026-10-29",
+  "asOf": "2026-10-30",
   "atrState": "通常",
-  "distFrom52wHigh": 0.09,
+  "distFrom52wHigh": 0.1,
   "labels": [
    "60日線の上"
   ],
-  "ma20": 1543.7,
-  "ma200": 1382.1,
-  "ma60": 1474.3,
-  "rangePos60": 0.66,
-  "rel20": -1.4,
-  "rel60": 16.2,
-  "volumeRatio20": 1.18
+  "ma20": 1543.3,
+  "ma200": 1383.9,
+  "ma60": 1478.1,
+  "rangePos60": 0.64,
+  "rel20": 3.7,
+  "rel60": 17.4,
+  "volumeRatio20": 0.45
  },
  "reasons": [
   "1.7pt買い増し 7.8%→9.4%",
-  "52週高値まで9%"
+  "TOPIX連動ETF比 +3.7pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -173,7 +179,21 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-30",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-30",
+   "detail": "20日線を連続で下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-29T22:43:23+09:00"
+ "updatedAt": "2026-10-30T15:17:19+09:00"
 }

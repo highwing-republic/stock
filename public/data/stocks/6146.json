@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-10-30T00:57:02+09:00",
+  "updatedAt": "2026-10-30T15:17:05+09:00",
   "company": {
     "securityCode": "6146",
     "ticker": "6146.T",
     "name": "株式会社ディスコ"
   },
   "events": [
+    {
+      "docId": "S100ZAWW",
+      "ticker": "6146.T",
+      "securityCode": "6146",
+      "companyName": "株式会社ディスコ",
+      "submitDatetime": "2026-10-30 10:15",
+      "filerName": "株式会社Ｏｃｔａｇｏｎ　Ｌａｂ",
+      "reportType": "correction",
+      "holdingRatio": 5.87,
+      "previousHoldingRatio": 5.77,
+      "holdingChange": 0.1,
+      "purpose": "安定株主として長期保有",
+      "importantProposal": true,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 20,
+      "signalReasons": [
+        "重要提案行為あり"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -5.68,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YNFG",
       "ticker": "6146.T",
@@ -31,7 +61,7 @@
         "return1d": -0.58,
         "return5d": -5.36,
         "return20d": 9.05,
-        "returnCurrent": -2.53,
+        "returnCurrent": -8.14,
         "volumeRatio": 0.99,
         "marketExcessReturn": -5.76
       }
@@ -3984,9 +4014,19 @@
       "open": 52870.0,
       "high": 52880.0,
       "low": 50410.0,
-      "close": null,
-      "adj_close": null,
+      "close": 52320.0,
+      "adj_close": 52320.0,
       "volume": 2524000
+    },
+    {
+      "ticker": "6146.T",
+      "trade_date": "2026-10-30",
+      "open": 49540.0,
+      "high": 50420.0,
+      "low": 48430.0,
+      "close": 49350.0,
+      "adj_close": 49350.0,
+      "volume": 2056000
     }
   ],
   "benchmark": [
@@ -7939,6 +7979,16 @@
       "close": 421.29998779296875,
       "adj_close": 421.29998779296875,
       "volume": 21767760
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-30",
+      "open": 420.29998779296875,
+      "high": 421.8999938964844,
+      "low": 414.5,
+      "close": 415.8999938964844,
+      "adj_close": 415.8999938964844,
+      "volume": 13844230
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

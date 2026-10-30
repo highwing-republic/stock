@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T00:57:02+09:00",
+  "updatedAt": "2026-10-30T15:17:05+09:00",
   "company": {
     "securityCode": "7371",
     "ticker": "7371.T",
@@ -19,9 +19,9 @@
       "holdingChange": -0.35,
       "purpose": "発行会社の代表取締役であり、経営への参加及び経営の安定化を図るために保有しております。 / 資産管理会社であり、安定株主として保有しております。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 1.89,
-      "marketExcessReturn": null,
+      "priceChange": -5.93,
+      "volumeRatio": 1.83,
+      "marketExcessReturn": -4.81,
       "signalScore": 0,
       "signalReasons": [
         "保有割合減少"
@@ -29,11 +29,11 @@
       "stockUnreacted": false,
       "metrics": {
         "return1d": -1.29,
-        "return5d": null,
+        "return5d": -5.93,
         "return20d": null,
-        "returnCurrent": -3.09,
-        "volumeRatio": 1.89,
-        "marketExcessReturn": null
+        "returnCurrent": -5.93,
+        "volumeRatio": 1.83,
+        "marketExcessReturn": -4.81
       }
     }
   ],
@@ -2734,9 +2734,19 @@
       "open": 754.0,
       "high": 760.0,
       "low": 734.0,
-      "close": null,
-      "adj_close": null,
+      "close": 740.0,
+      "adj_close": 740.0,
       "volume": 12000
+    },
+    {
+      "ticker": "7371.T",
+      "trade_date": "2026-10-30",
+      "open": 736.0,
+      "high": 748.0,
+      "low": 730.0,
+      "close": 730.0,
+      "adj_close": 730.0,
+      "volume": 19900
     }
   ],
   "benchmark": [
@@ -6689,6 +6699,16 @@
       "close": 421.29998779296875,
       "adj_close": 421.29998779296875,
       "volume": 21767760
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-30",
+      "open": 420.29998779296875,
+      "high": 421.8999938964844,
+      "low": 414.5,
+      "close": 415.8999938964844,
+      "adj_close": 415.8999938964844,
+      "volume": 13844230
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

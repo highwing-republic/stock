@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T00:57:02+09:00",
+  "updatedAt": "2026-10-30T15:17:05+09:00",
   "company": {
     "securityCode": "5704",
     "ticker": "5704.T",
@@ -20,7 +20,7 @@
       "purpose": "安定株主として株式を保有しています。",
       "importantProposal": true,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.48,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [
@@ -29,11 +29,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": -0.31,
         "return5d": null,
         "return20d": null,
         "returnCurrent": -0.62,
-        "volumeRatio": null,
+        "volumeRatio": 0.48,
         "marketExcessReturn": null
       }
     },
@@ -2808,9 +2808,19 @@
       "open": 321.0,
       "high": 326.0,
       "low": 321.0,
-      "close": null,
-      "adj_close": null,
+      "close": 322.0,
+      "adj_close": 322.0,
       "volume": 1300
+    },
+    {
+      "ticker": "5704.T",
+      "trade_date": "2026-10-30",
+      "open": 321.0,
+      "high": 323.0,
+      "low": 321.0,
+      "close": 321.0,
+      "adj_close": 321.0,
+      "volume": 6300
     }
   ],
   "benchmark": [
@@ -6763,6 +6773,16 @@
       "close": 421.29998779296875,
       "adj_close": 421.29998779296875,
       "volume": 21767760
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-30",
+      "open": 420.29998779296875,
+      "high": 421.8999938964844,
+      "low": 414.5,
+      "close": 415.8999938964844,
+      "adj_close": 415.8999938964844,
+      "volume": 13844230
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

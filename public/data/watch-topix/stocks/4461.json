@@ -1,0 +1,203 @@
+{
+ "company": {
+  "name": "第一工業製薬",
+  "securityCode": "4461",
+  "tradingViewSymbol": "TSE:4461"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "4461-2026-10-30",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-10-30",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-10-30",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": -2.0,
+   "d20": -15.9,
+   "d5": -0.5,
+   "eventId": "edinet:S100YDP8",
+   "excess5": 1.0
+  },
+  {
+   "d1": 5.0,
+   "d20": -19.6,
+   "d5": -0.5,
+   "eventId": "edinet:S100YEG8",
+   "excess5": 1.7
+  },
+  {
+   "d1": -5.6,
+   "d20": 4.2,
+   "d5": -9.1,
+   "eventId": "edinet:S100YP0R",
+   "excess5": -6.9
+  },
+  {
+   "d1": 3.8,
+   "d20": 27.8,
+   "d5": -14.8,
+   "eventId": "edinet:S100YRF9",
+   "excess5": -13.5
+  },
+  {
+   "d1": 2.7,
+   "d20": -9.0,
+   "d5": 10.0,
+   "eventId": "edinet:S100YUHR",
+   "excess5": 6.7
+  },
+  {
+   "d1": 1.4,
+   "d20": 7.4,
+   "d5": -3.7,
+   "eventId": "edinet:S100YZHH",
+   "excess5": -2.7
+  },
+  {
+   "d1": 1.4,
+   "d20": 7.4,
+   "d5": -3.7,
+   "eventId": "edinet:S100YZKJ",
+   "excess5": -2.7
+  },
+  {
+   "d1": 1.4,
+   "d20": 7.4,
+   "d5": -3.7,
+   "eventId": "edinet:S100YZKM",
+   "excess5": -2.7
+  },
+  {
+   "d1": -3.5,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZATZ",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-28",
+  "buyBalance": 1113600,
+  "buyChangePct": 56.6,
+  "labels": [
+   "信用買残急増",
+   "信用倍率悪化"
+  ],
+  "ratio": 140.96,
+  "sellBalance": 7900,
+  "sellChangePct": -12.2
+ },
+ "pastEpisodes": [
+  {
+   "closeReason": "NO_SETUP",
+   "closedAt": "2026-08-05",
+   "id": "4461-2026-07-07",
+   "setupType": null,
+   "startedAt": "2026-07-07"
+  },
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-09-02",
+   "id": "4461-2026-08-06",
+   "setupType": "RECOVERY",
+   "startedAt": "2026-08-06"
+  }
+ ],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-10-30",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.41,
+  "labels": [],
+  "ma20": 14181.5,
+  "ma200": 11069.7,
+  "ma60": 13735.1,
+  "rangePos60": 0.05,
+  "rel20": -26.8,
+  "rel60": -18.5,
+  "volumeRatio20": 3.51
+ },
+ "reasons": [
+  "2.6pt買い増し 7.7%→10.4%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-06-19",
+   "detail": "7.92% → 8.26%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDP8"
+  },
+  {
+   "date": "2026-06-22",
+   "detail": "6.02% → 4.31%（ＳＭＢＣ日興証券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEG8"
+  },
+  {
+   "date": "2026-07-07",
+   "detail": "6.14% → 7.17%（株式会社みずほ銀行）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YP0R"
+  },
+  {
+   "date": "2026-07-22",
+   "detail": "8.26% → 7.9%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YRF9"
+  },
+  {
+   "date": "2026-08-05",
+   "detail": "保有割合 6.71%（片山晃）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YUHR"
+  },
+  {
+   "date": "2026-08-31",
+   "detail": "片山晃",
+   "kind": "EVENT",
+   "label": "変更報告（増減不明）",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YZHH"
+  },
+  {
+   "date": "2026-08-31",
+   "detail": "6.71% → 7.73%（片山晃）",
+   "kind": "EVENT",
+   "label": "訂正報告",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YZKM"
+  },
+  {
+   "date": "2026-08-31",
+   "detail": "片山晃",
+   "kind": "EVENT",
+   "label": "訂正報告",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YZKJ"
+  },
+  {
+   "date": "2026-10-29",
+   "detail": "7.73% → 10.36%（片山晃）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZATZ"
+  }
+ ],
+ "updatedAt": "2026-10-30T15:18:25+09:00"
+}

@@ -9,8 +9,11 @@
   "closedAt": null,
   "id": "3549-2026-09-17",
   "overextended": false,
-  "setupType": "RECOVERY",
-  "setups": [],
+  "setupType": "TREND",
+  "setups": [
+   "TREND",
+   "RECOVERY"
+  ],
   "startedAt": "2026-09-17",
   "status": "STRENGTHENING",
   "statusHistory": [
@@ -65,12 +68,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -2.1,
-  "currentPrice": 4205.0,
+  "benchReturn": -3.3,
+  "currentPrice": 4365.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 2,
+   "pendingDays": 1,
    "stockReturn": null
   },
   "d5": {
@@ -82,35 +85,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 42,
+   "pendingDays": 41,
    "stockReturn": null
   },
-  "excessReturn": -2.6,
+  "excessReturn": 2.3,
   "initialDate": "2026-10-02",
   "initialPrice": 4411.0,
-  "stockReturn": -4.7
+  "stockReturn": -1.0
  },
  "priceSetup": {
-  "asOf": "2026-10-29",
+  "asOf": "2026-10-30",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.12,
+  "distFrom52wHigh": 0.08,
   "labels": [
+   "20日線の上",
+   "60日レンジ上位15%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 4235.1,
-  "ma200": 3928.8,
-  "ma60": 4099.9,
-  "rangePos60": 0.66,
-  "rel20": 16.5,
-  "rel60": -1.8,
-  "volumeRatio20": 1.03
+  "ma20": 4267.9,
+  "ma200": 3928.3,
+  "ma60": 4105.6,
+  "rangePos60": 0.85,
+  "rel20": 21.8,
+  "rel60": 8.8,
+  "volumeRatio20": 0.57
  },
  "reasons": [
   "1pt買い増し 15.1%→16.1%",
   "30日以内に2回買い増し",
-  "TOPIX連動ETF比 +16.5pt（20日）",
-  "信用買残 -22%"
+  "60日レンジ上位15%",
+  "20日線を回復"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -239,7 +244,21 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-30",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-30",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-29T22:43:23+09:00"
+ "updatedAt": "2026-10-30T15:17:19+09:00"
 }

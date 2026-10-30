@@ -12,7 +12,7 @@
   "setupType": "RECOVERY",
   "setups": [],
   "startedAt": "2026-10-06",
-  "status": "STRENGTHENING",
+  "status": "BROKEN",
   "statusHistory": [
    {
     "date": "2026-10-06",
@@ -31,6 +31,12 @@
     "from": "WATCH",
     "reason_code": "SETUP_IMPROVED",
     "to": "STRENGTHENING"
+   },
+   {
+    "date": "2026-10-30",
+    "from": "STRENGTHENING",
+    "reason_code": "BELOW_MA20",
+    "to": "BROKEN"
    }
   ],
   "watchStartedAt": "2026-10-08"
@@ -90,12 +96,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -1.9,
-  "currentPrice": 2301.0,
+  "benchReturn": -3.1,
+  "currentPrice": 2299.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 6,
+   "pendingDays": 5,
    "stockReturn": null
   },
   "d5": {
@@ -107,32 +113,32 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 46,
+   "pendingDays": 45,
    "stockReturn": null
   },
-  "excessReturn": -0.7,
+  "excessReturn": 0.4,
   "initialDate": "2026-10-08",
   "initialPrice": 2363.0,
-  "stockReturn": -2.6
+  "stockReturn": -2.7
  },
  "priceSetup": {
-  "asOf": "2026-10-29",
+  "asOf": "2026-10-30",
   "atrState": "通常",
   "distFrom52wHigh": 0.33,
   "labels": [
    "20日線が上向き"
   ],
-  "ma20": 2395.5,
-  "ma200": 2614.8,
-  "ma60": 2304.3,
-  "rangePos60": 0.56,
-  "rel20": 2.1,
-  "rel60": -9.3,
-  "volumeRatio20": 2.44
+  "ma20": 2395.1,
+  "ma200": 2614.6,
+  "ma60": 2307.2,
+  "rangePos60": 0.55,
+  "rel20": 3.8,
+  "rel60": 8.5,
+  "volumeRatio20": 0.43
  },
  "reasons": [
   "新規大量保有 5.8%（野村證券株式会社）",
-  "TOPIX連動ETF比 +2.1pt（20日）"
+  "TOPIX連動ETF比 +3.8pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -240,7 +246,14 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-30",
+   "detail": "20日線を連続で下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-29T22:44:20+09:00"
+ "updatedAt": "2026-10-30T15:18:25+09:00"
 }

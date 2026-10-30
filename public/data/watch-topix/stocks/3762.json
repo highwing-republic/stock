@@ -10,10 +10,7 @@
   "id": "3762-2026-10-22",
   "overextended": false,
   "setupType": "TREND",
-  "setups": [
-   "TREND",
-   "RECOVERY"
-  ],
+  "setups": [],
   "startedAt": "2026-10-22",
   "status": "WATCH",
   "statusHistory": [
@@ -52,12 +49,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 0.2,
-  "currentPrice": 3385.0,
+  "benchReturn": -1.0,
+  "currentPrice": 3280.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 15,
+   "pendingDays": 14,
    "stockReturn": null
   },
   "d5": {
@@ -69,37 +66,35 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 55,
+   "pendingDays": 54,
    "stockReturn": null
   },
-  "excessReturn": -0.6,
+  "excessReturn": -2.5,
   "initialDate": "2026-10-22",
   "initialPrice": 3400.0,
-  "stockReturn": -0.4
+  "stockReturn": -3.5
  },
  "priceSetup": {
-  "asOf": "2026-10-29",
+  "asOf": "2026-10-30",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.1,
+  "distFrom52wHigh": 0.13,
   "labels": [
    "20日線の上",
-   "60日レンジ上位21%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 3162.2,
-  "ma200": 2091.3,
-  "ma60": 2631.8,
-  "rangePos60": 0.79,
-  "rel20": 39.0,
-  "rel60": 61.2,
-  "volumeRatio20": 1.91
+  "ma20": 3200.9,
+  "ma200": 2096.8,
+  "ma60": 2652.7,
+  "rangePos60": 0.7,
+  "rel20": 35.2,
+  "rel60": 62.3,
+  "volumeRatio20": 0.64
  },
  "reasons": [
   "新規大量保有 6.8%（アセットマネジメントＯｎｅ株式会社）",
-  "60日レンジ上位21%",
   "20日線上向き",
-  "TOPIX連動ETF比 +39pt（20日）"
+  "TOPIX連動ETF比 +35.2pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -130,7 +125,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-30",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-29T22:44:20+09:00"
+ "updatedAt": "2026-10-30T15:18:25+09:00"
 }

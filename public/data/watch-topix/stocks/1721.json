@@ -10,10 +10,7 @@
   "id": "1721-2026-08-27",
   "overextended": false,
   "setupType": "TREND",
-  "setups": [
-   "TREND",
-   "RECOVERY"
-  ],
+  "setups": [],
   "startedAt": "2026-08-27",
   "status": "CONFIRMED",
   "statusHistory": [
@@ -88,8 +85,8 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -1.9,
-  "currentPrice": 5650.0,
+  "benchReturn": -3.1,
+  "currentPrice": 5550.0,
   "d20": {
    "benchReturn": -0.9,
    "excessReturn": 1.7,
@@ -105,37 +102,35 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 19,
+   "pendingDays": 18,
    "stockReturn": null
   },
-  "excessReturn": 7.2,
+  "excessReturn": 6.5,
   "initialDate": "2026-08-27",
   "initialPrice": 5368.0,
-  "stockReturn": 5.3
+  "stockReturn": 3.4
  },
  "priceSetup": {
-  "asOf": "2026-10-29",
+  "asOf": "2026-10-30",
   "atrState": "通常",
-  "distFrom52wHigh": 0.08,
+  "distFrom52wHigh": 0.1,
   "labels": [
-   "20日線の上",
-   "60日レンジ上位23%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 5590.2,
-  "ma200": 5269.4,
-  "ma60": 5421.4,
-  "rangePos60": 0.77,
-  "rel20": 5.7,
-  "rel60": 6.8,
-  "volumeRatio20": 1.76
+  "ma20": 5596.1,
+  "ma200": 5274.6,
+  "ma60": 5427.1,
+  "rangePos60": 0.65,
+  "rel20": 6.4,
+  "rel60": 6.9,
+  "volumeRatio20": 0.37
  },
  "reasons": [
   "新規大量保有 5.6%（ブラックロック・ジャパン株式会社）",
-  "60日レンジ上位23%",
-  "20日線上向き",
-  "TOPIX連動ETF比 +5.7pt（20日）"
+  "TOPIX連動ETF比 +6.4pt（20日）",
+  "52週高値まで10%",
+  "信用買残 -16%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -376,7 +371,14 @@
    "kind": "SETUP",
    "label": "Price Setup変化",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-30",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-29T22:44:20+09:00"
+ "updatedAt": "2026-10-30T15:18:25+09:00"
 }

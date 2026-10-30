@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T00:57:02+09:00",
+  "updatedAt": "2026-10-30T15:17:05+09:00",
   "company": {
     "securityCode": "7628",
     "ticker": "7628.T",
@@ -19,9 +19,9 @@
       "holdingChange": -1.1,
       "purpose": "・発行会社の要請に応え、かつ発行会社との取引関係の強化を図るもの / ・ディーリング(短期売買)目的で保有するもの / ・信託財産として運用その他の信託目的に従い保有するもの / ・投資信託または投資一任契約に基づき投資権限を有するもの",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.94,
-      "marketExcessReturn": null,
+      "priceChange": -4.56,
+      "volumeRatio": 1.65,
+      "marketExcessReturn": -3.55,
       "signalScore": 0,
       "signalReasons": [
         "保有割合減少"
@@ -29,11 +29,11 @@
       "stockUnreacted": false,
       "metrics": {
         "return1d": -1.61,
-        "return5d": null,
+        "return5d": -4.56,
         "return20d": null,
-        "returnCurrent": -6.17,
-        "volumeRatio": 0.94,
-        "marketExcessReturn": null
+        "returnCurrent": -5.27,
+        "volumeRatio": 1.65,
+        "marketExcessReturn": -3.55
       }
     }
   ],
@@ -2744,9 +2744,19 @@
       "open": 1050.0,
       "high": 1068.0,
       "low": 1033.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1068.0,
+      "adj_close": 1068.0,
       "volume": 262200
+    },
+    {
+      "ticker": "7628.T",
+      "trade_date": "2026-10-30",
+      "open": 1077.0,
+      "high": 1088.0,
+      "low": 1056.0,
+      "close": 1060.0,
+      "adj_close": 1060.0,
+      "volume": 40600
     }
   ],
   "benchmark": [
@@ -6699,6 +6709,16 @@
       "close": 421.29998779296875,
       "adj_close": 421.29998779296875,
       "volume": 21767760
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-30",
+      "open": 420.29998779296875,
+      "high": 421.8999938964844,
+      "low": 414.5,
+      "close": 415.8999938964844,
+      "adj_close": 415.8999938964844,
+      "volume": 13844230
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

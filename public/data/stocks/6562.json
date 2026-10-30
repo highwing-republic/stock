@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T00:57:02+09:00",
+  "updatedAt": "2026-10-30T15:17:05+09:00",
   "company": {
     "securityCode": "6562",
     "ticker": "6562.T",
@@ -19,22 +19,23 @@
       "holdingChange": 6249964.36,
       "purpose": "・発行会社の要請に応え、かつ発行会社との取引関係の強化を図るもの",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.89,
-      "marketExcessReturn": null,
-      "signalScore": 30,
+      "priceChange": -2.98,
+      "volumeRatio": 0.9,
+      "marketExcessReturn": -1.97,
+      "signalScore": 40,
       "signalReasons": [
         "1pt以上買い増し",
-        "2pt以上買い増し"
+        "2pt以上買い増し",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": -3.3,
-        "return5d": null,
+        "return5d": -2.98,
         "return20d": null,
-        "returnCurrent": -2.98,
-        "volumeRatio": 0.89,
-        "marketExcessReturn": null
+        "returnCurrent": -3.73,
+        "volumeRatio": 0.9,
+        "marketExcessReturn": -1.97
       }
     }
   ],
@@ -2745,9 +2746,19 @@
       "open": 911.0,
       "high": 914.0,
       "low": 891.0,
-      "close": null,
-      "adj_close": null,
+      "close": 911.0,
+      "adj_close": 911.0,
       "volume": 23800
+    },
+    {
+      "ticker": "6562.T",
+      "trade_date": "2026-10-30",
+      "open": 920.0,
+      "high": 930.0,
+      "low": 892.0,
+      "close": 904.0,
+      "adj_close": 904.0,
+      "volume": 16100
     }
   ],
   "benchmark": [
@@ -6700,6 +6711,16 @@
       "close": 421.29998779296875,
       "adj_close": 421.29998779296875,
       "volume": 21767760
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-30",
+      "open": 420.29998779296875,
+      "high": 421.8999938964844,
+      "low": 414.5,
+      "close": 415.8999938964844,
+      "adj_close": 415.8999938964844,
+      "volume": 13844230
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

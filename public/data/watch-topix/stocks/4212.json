@@ -10,11 +10,9 @@
   "id": "4212-2026-10-22",
   "overextended": false,
   "setupType": "TREND",
-  "setups": [
-   "TREND"
-  ],
+  "setups": [],
   "startedAt": "2026-10-22",
-  "status": "STRENGTHENING",
+  "status": "BROKEN",
   "statusHistory": [
    {
     "date": "2026-10-22",
@@ -33,6 +31,12 @@
     "from": "WATCH",
     "reason_code": "SETUP_IMPROVED",
     "to": "STRENGTHENING"
+   },
+   {
+    "date": "2026-10-30",
+    "from": "STRENGTHENING",
+    "reason_code": "BELOW_MA60",
+    "to": "BROKEN"
    }
   ],
   "watchStartedAt": "2026-10-22"
@@ -86,12 +90,12 @@
   }
  ],
  "performance": {
-  "benchReturn": 0.2,
-  "currentPrice": 3100.0,
+  "benchReturn": -1.0,
+  "currentPrice": 2795.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 15,
+   "pendingDays": 14,
    "stockReturn": null
   },
   "d5": {
@@ -103,37 +107,31 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 55,
+   "pendingDays": 54,
    "stockReturn": null
   },
-  "excessReturn": 0.1,
+  "excessReturn": -8.5,
   "initialDate": "2026-10-22",
   "initialPrice": 3090.0,
-  "stockReturn": 0.3
+  "stockReturn": -9.5
  },
  "priceSetup": {
-  "asOf": "2026-10-29",
-  "atrState": "通常",
-  "distFrom52wHigh": 0.03,
+  "asOf": "2026-10-30",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.12,
   "labels": [
-   "20日線の上",
-   "60日レンジ上位16%",
-   "20日線が上向き",
-   "60日線の上"
+   "20日線が上向き"
   ],
-  "ma20": 3032.6,
-  "ma200": 2442.4,
-  "ma60": 2915.0,
-  "rangePos60": 0.84,
-  "rel20": 9.8,
-  "rel60": 11.5,
-  "volumeRatio20": 3.42
+  "ma20": 3024.2,
+  "ma200": 2445.9,
+  "ma60": 2913.4,
+  "rangePos60": 0.23,
+  "rel20": -1.5,
+  "rel60": -3.2,
+  "volumeRatio20": 2.91
  },
  "reasons": [
-  "新規大量保有 5.1%（野村證券株式会社）",
-  "60日レンジ上位16%",
-  "20日線を回復",
-  "TOPIX連動ETF比 +9.8pt（20日）"
+  "新規大量保有 5.1%（野村證券株式会社）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -199,7 +197,21 @@
    "kind": "STATUS",
    "label": "STRENGTHENING",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-30",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-30",
+   "detail": "60日線を下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-29T22:44:20+09:00"
+ "updatedAt": "2026-10-30T15:18:25+09:00"
 }

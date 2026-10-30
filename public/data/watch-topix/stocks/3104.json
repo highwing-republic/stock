@@ -5,47 +5,23 @@
   "tradingViewSymbol": "TSE:3104"
  },
  "episode": {
-  "closeReason": "BROKEN",
-  "closedAt": "2026-10-27",
-  "id": "3104-2026-10-06",
+  "closeReason": null,
+  "closedAt": null,
+  "id": "3104-2026-10-30",
   "overextended": false,
-  "setupType": "RECOVERY",
+  "setupType": null,
   "setups": [],
-  "startedAt": "2026-10-06",
-  "status": "CLOSED",
+  "startedAt": "2026-10-30",
+  "status": "CANDIDATE",
   "statusHistory": [
    {
-    "date": "2026-10-06",
+    "date": "2026-10-30",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
-   },
-   {
-    "date": "2026-10-06",
-    "from": "CANDIDATE",
-    "reason_code": "SETUP_OK",
-    "to": "WATCH"
-   },
-   {
-    "date": "2026-10-23",
-    "from": "WATCH",
-    "reason_code": "INCREASE_EVENT",
-    "to": "STRENGTHENING"
-   },
-   {
-    "date": "2026-10-26",
-    "from": "STRENGTHENING",
-    "reason_code": "BELOW_MA20",
-    "to": "BROKEN"
-   },
-   {
-    "date": "2026-10-27",
-    "from": "BROKEN",
-    "reason_code": "BROKEN",
-    "to": "CLOSED"
    }
   ],
-  "watchStartedAt": "2026-10-06"
+  "watchStartedAt": null
  },
  "eventReactions": [
   {
@@ -68,6 +44,13 @@
    "d5": 7.1,
    "eventId": "edinet:S100Z8P8",
    "excess5": 6.9
+  },
+  {
+   "d1": -8.1,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z9OT",
+   "excess5": null
   }
  ],
  "margin": {
@@ -86,56 +69,35 @@
    "id": "3104-2026-08-06",
    "setupType": null,
    "startedAt": "2026-08-06"
+  },
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-10-27",
+   "id": "3104-2026-10-06",
+   "setupType": "RECOVERY",
+   "startedAt": "2026-10-06"
   }
  ],
- "performance": {
-  "benchReturn": -4.5,
-  "currentPrice": 3520.0,
-  "d20": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 4,
-   "stockReturn": null
-  },
-  "d5": {
-   "benchReturn": -2.1,
-   "excessReturn": -1.5,
-   "pendingDays": 0,
-   "stockReturn": -3.6
-  },
-  "d60": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 44,
-   "stockReturn": null
-  },
-  "excessReturn": -0.4,
-  "initialDate": "2026-10-06",
-  "initialPrice": 3700.0,
-  "stockReturn": -4.9
- },
+ "performance": null,
  "priceSetup": {
-  "asOf": "2026-10-29",
+  "asOf": "2026-10-30",
   "atrState": "通常",
-  "distFrom52wHigh": 0.2,
+  "distFrom52wHigh": 0.27,
   "labels": [
-   "20日線の上",
-   "20日線が上向き",
-   "60日線の上"
+   "20日線が上向き"
   ],
-  "ma20": 3548.5,
-  "ma200": 3576.5,
-  "ma60": 3450.6,
-  "rangePos60": 0.66,
-  "rel20": 10.1,
-  "rel60": 5.1,
-  "volumeRatio20": 1.62
+  "ma20": 3542.8,
+  "ma200": 3579.6,
+  "ma60": 3449.1,
+  "rangePos60": 0.3,
+  "rel20": 0.9,
+  "rel60": -2.4,
+  "volumeRatio20": 1.84
  },
  "reasons": [
-  "1.1pt買い増し 20.8%→21.8%",
+  "1.4pt買い増し 21.8%→23.2%",
   "30日以内に2回買い増し",
-  "20日線上向き",
-  "TOPIX連動ETF比 +10.1pt（20日）"
+  "TOPIX連動ETF比 +0.9pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -154,27 +116,6 @@
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z4YH"
   },
   {
-   "date": "2026-10-06",
-   "detail": "Price Setupが成立",
-   "kind": "STATUS",
-   "label": "WATCH",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-10-16",
-   "detail": "60日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-10-21",
-   "detail": "60日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
    "date": "2026-10-22",
    "detail": "20.76% → 21.82%（エフィッシモ　キャピタル　マネージメント　ピーティーイー　エルティーディー（Ｅｆｆｉｓｓｉｍｏ　Ｃａｐｉｔａｌ　Ｍａｎａｇｅｍｅｎｔ　Ｐｔｅ　Ｌｔｄ））",
    "kind": "EVENT",
@@ -182,61 +123,19 @@
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8P8"
   },
   {
-   "date": "2026-10-22",
-   "detail": "RECOVERY → なし",
-   "kind": "SETUP",
-   "label": "Price Setup解消",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-10-23",
-   "detail": "大量保有の買い増しを確認",
-   "kind": "STATUS",
-   "label": "STRENGTHENING",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-10-26",
-   "detail": "20日線を連続で下回った",
-   "kind": "STATUS",
-   "label": "BROKEN",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-10-27",
-   "detail": "60日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-10-27",
-   "detail": "Price Setupが崩れた",
-   "kind": "STATUS",
-   "label": "CLOSED",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-10-28",
-   "detail": "なし → RECOVERY",
-   "kind": "SETUP",
-   "label": "Price Setup改善",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-10-28",
-   "detail": "20日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
    "date": "2026-10-29",
    "detail": "21.82% → 23.19%（エフィッシモ　キャピタル　マネージメント　ピーティーイー　エルティーディー（Ｅｆｆｉｓｓｉｍｏ　Ｃａｐｉｔａｌ　Ｍａｎａｇｅｍｅｎｔ　Ｐｔｅ　Ｌｔｄ））",
    "kind": "EVENT",
    "label": "連続の買い増し",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9OT"
+  },
+  {
+   "date": "2026-10-30",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-29T22:44:20+09:00"
+ "updatedAt": "2026-10-30T15:18:25+09:00"
 }

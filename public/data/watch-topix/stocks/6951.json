@@ -5,41 +5,23 @@
   "tradingViewSymbol": "TSE:6951"
  },
  "episode": {
-  "closeReason": "EXPIRED",
-  "closedAt": "2026-10-23",
-  "id": "6951-2026-07-08",
-  "overextended": true,
-  "setupType": "RECOVERY",
+  "closeReason": null,
+  "closedAt": null,
+  "id": "6951-2026-10-30",
+  "overextended": false,
+  "setupType": null,
   "setups": [],
-  "startedAt": "2026-07-08",
-  "status": "CLOSED",
+  "startedAt": "2026-10-30",
+  "status": "CANDIDATE",
   "statusHistory": [
    {
-    "date": "2026-07-08",
+    "date": "2026-10-30",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
-   },
-   {
-    "date": "2026-07-08",
-    "from": "CANDIDATE",
-    "reason_code": "SETUP_OK",
-    "to": "WATCH"
-   },
-   {
-    "date": "2026-07-15",
-    "from": "WATCH",
-    "reason_code": "RETURN_THRESHOLD",
-    "to": "REACTED"
-   },
-   {
-    "date": "2026-10-23",
-    "from": "REACTED",
-    "reason_code": "EXPIRED",
-    "to": "CLOSED"
    }
   ],
-  "watchStartedAt": "2026-07-08"
+  "watchStartedAt": null
  },
  "eventReactions": [
   {
@@ -55,6 +37,13 @@
    "d5": -5.6,
    "eventId": "edinet:S100YS2X",
    "excess5": -3.4
+  },
+  {
+   "d1": -3.7,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZARG",
+   "excess5": null
   }
  ],
  "margin": {
@@ -66,48 +55,31 @@
   "sellBalance": 20200,
   "sellChangePct": -11.0
  },
- "pastEpisodes": [],
- "performance": {
-  "benchReturn": -0.5,
-  "currentPrice": 6848.0,
-  "d20": {
-   "benchReturn": 1.3,
-   "excessReturn": 19.2,
-   "pendingDays": 0,
-   "stockReturn": 20.5
-  },
-  "d5": {
-   "benchReturn": 1.7,
-   "excessReturn": 16.1,
-   "pendingDays": 0,
-   "stockReturn": 17.8
-  },
-  "d60": {
-   "benchReturn": 4.4,
-   "excessReturn": 11.6,
-   "pendingDays": 0,
-   "stockReturn": 16.0
-  },
-  "excessReturn": -2.9,
-  "initialDate": "2026-07-08",
-  "initialPrice": 7087.8,
-  "stockReturn": -3.4
- },
+ "pastEpisodes": [
+  {
+   "closeReason": "EXPIRED",
+   "closedAt": "2026-10-23",
+   "id": "6951-2026-07-08",
+   "setupType": "RECOVERY",
+   "startedAt": "2026-07-08"
+  }
+ ],
+ "performance": null,
  "priceSetup": {
-  "asOf": "2026-10-29",
+  "asOf": "2026-10-30",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.21,
+  "distFrom52wHigh": 0.24,
   "labels": [],
-  "ma20": 7564.4,
-  "ma200": 6797.7,
-  "ma60": 7483.9,
-  "rangePos60": 0.26,
-  "rel20": -2.9,
-  "rel60": -8.1,
-  "volumeRatio20": 1.13
+  "ma20": 7521.2,
+  "ma200": 6807.9,
+  "ma60": 7464.2,
+  "rangePos60": 0.16,
+  "rel20": -6.8,
+  "rel60": -14.3,
+  "volumeRatio20": 0.65
  },
  "reasons": [
-  "1.6pt買い増し 8.9%→10.5%",
+  "新規大量保有 5%（グランサム、マヨ、ヴァン　オッテルロー　アンド　カンパニー　エルエルシー）",
   "信用買残 -3%"
  ],
  "schemaVersion": 1,
@@ -120,55 +92,6 @@
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YOHW"
   },
   {
-   "date": "2026-07-08",
-   "detail": "Price Setupが成立",
-   "kind": "STATUS",
-   "label": "WATCH",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-07-10",
-   "detail": "60日高値を更新",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-07-15",
-   "detail": "TREND → RECOVERY",
-   "kind": "SETUP",
-   "label": "Price Setup変化",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-07-15",
-   "detail": "60日高値を更新",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-07-15",
-   "detail": "Watch開始後の値上がりが大きくなった",
-   "kind": "STATUS",
-   "label": "REACTED",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-07-16",
-   "detail": "60日高値を更新",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-07-17",
-   "detail": "RECOVERY → TREND",
-   "kind": "SETUP",
-   "label": "Price Setup改善",
-   "sourceUrl": null
-  },
-  {
    "date": "2026-07-24",
    "detail": "8.87% → 10.52%（野村證券株式会社）",
    "kind": "EVENT",
@@ -176,138 +99,12 @@
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YS2X"
   },
   {
-   "date": "2026-07-28",
-   "detail": "TREND → なし",
-   "kind": "SETUP",
-   "label": "Price Setup解消",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-07-31",
-   "detail": "なし → TREND",
-   "kind": "SETUP",
-   "label": "Price Setup改善",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-07-31",
-   "detail": "20日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-08-13",
-   "detail": "60日高値を更新",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-08-17",
-   "detail": "TREND → なし",
-   "kind": "SETUP",
-   "label": "Price Setup解消",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-09-09",
-   "detail": "20日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-09-16",
-   "detail": "20日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-09-16",
-   "detail": "TOPIX連動ETFを上回りに転換",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-09-24",
-   "detail": "TOPIX連動ETFを上回りに転換",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-09-25",
-   "detail": "60日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-09-30",
-   "detail": "60日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-10-01",
-   "detail": "なし → RECOVERY",
-   "kind": "SETUP",
-   "label": "Price Setup改善",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-10-15",
-   "detail": "RECOVERY → なし",
-   "kind": "SETUP",
-   "label": "Price Setup解消",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-10-16",
-   "detail": "なし → RECOVERY",
-   "kind": "SETUP",
-   "label": "Price Setup改善",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-10-16",
-   "detail": "20日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-10-16",
-   "detail": "60日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-10-19",
-   "detail": "RECOVERY → なし",
-   "kind": "SETUP",
-   "label": "Price Setup解消",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-10-21",
-   "detail": "TOPIX連動ETFを上回りに転換",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-10-23",
-   "detail": "観察期限に到達",
-   "kind": "STATUS",
-   "label": "CLOSED",
-   "sourceUrl": null
+   "date": "2026-10-30",
+   "detail": "保有割合 5.05%（グランサム、マヨ、ヴァン　オッテルロー　アンド　カンパニー　エルエルシー）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZARG"
   }
  ],
- "updatedAt": "2026-10-29T22:44:20+09:00"
+ "updatedAt": "2026-10-30T15:18:25+09:00"
 }

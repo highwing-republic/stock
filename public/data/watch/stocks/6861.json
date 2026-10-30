@@ -68,7 +68,7 @@
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 15,
+   "pendingDays": 14,
    "stockReturn": null
   },
   "d5": {
@@ -80,7 +80,7 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 55,
+   "pendingDays": 54,
    "stockReturn": null
   },
   "excessReturn": -1.6,
@@ -89,20 +89,21 @@
   "stockReturn": -1.6
  },
  "priceSetup": {
-  "asOf": "2026-10-29",
-  "atrState": "低ボラ",
-  "distFrom52wHigh": 0.13,
+  "asOf": "2026-10-30",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.11,
   "labels": [],
-  "ma20": 80019.5,
-  "ma200": 71022.1,
-  "ma60": 80339.1,
-  "rangePos60": 0.22,
-  "rel20": -2.8,
-  "rel60": -5.0,
-  "volumeRatio20": 3.06
+  "ma20": 79869.0,
+  "ma200": 71129.5,
+  "ma60": 80294.6,
+  "rangePos60": 0.34,
+  "rel20": 0.5,
+  "rel60": -3.1,
+  "volumeRatio20": 1.67
  },
  "reasons": [
-  "1pt買い増し 5.1%→6.1%"
+  "1pt買い増し 5.1%→6.1%",
+  "TOPIX連動ETF比 +0.5pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -147,7 +148,14 @@
    "kind": "STATUS",
    "label": "CLOSED",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-30",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-29T22:43:23+09:00"
+ "updatedAt": "2026-10-30T15:17:19+09:00"
 }

@@ -79,9 +79,9 @@
   {
    "d1": -1.8,
    "d20": null,
-   "d5": null,
+   "d5": -4.0,
    "eventId": "edinet:S100Z8WL",
-   "excess5": null
+   "excess5": -4.0
   }
  ],
  "margin": {
@@ -106,8 +106,8 @@
   }
  ],
  "performance": {
-  "benchReturn": -2.8,
-  "currentPrice": 2536.0,
+  "benchReturn": -4.0,
+  "currentPrice": 2483.0,
   "d20": {
    "benchReturn": 0.2,
    "excessReturn": 8.5,
@@ -123,34 +123,30 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 21,
+   "pendingDays": 20,
    "stockReturn": null
   },
-  "excessReturn": 5.9,
+  "excessReturn": 4.9,
   "initialDate": "2026-08-31",
   "initialPrice": 2459.8,
-  "stockReturn": 3.1
+  "stockReturn": 0.9
  },
  "priceSetup": {
-  "asOf": "2026-10-29",
+  "asOf": "2026-10-30",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.15,
-  "labels": [
-   "20日線が上向き",
-   "60日線の上"
-  ],
-  "ma20": 2709.7,
-  "ma200": 2443.1,
-  "ma60": 2511.0,
-  "rangePos60": 0.4,
-  "rel20": 0.5,
-  "rel60": 4.6,
-  "volumeRatio20": 3.5
+  "distFrom52wHigh": 0.17,
+  "labels": [],
+  "ma20": 2700.2,
+  "ma200": 2443.0,
+  "ma60": 2513.1,
+  "rangePos60": 0.33,
+  "rel20": -3.0,
+  "rel60": 5.7,
+  "volumeRatio20": 0.75
  },
  "reasons": [
   "1pt買い増し 12.7%→13.8%",
-  "30日以内に2回買い増し",
-  "TOPIX連動ETF比 +0.5pt（20日）"
+  "30日以内に2回買い増し"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -337,5 +333,5 @@
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8WL"
   }
  ],
- "updatedAt": "2026-10-29T22:44:20+09:00"
+ "updatedAt": "2026-10-30T15:18:25+09:00"
 }

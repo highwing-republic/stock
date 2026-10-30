@@ -5,14 +5,14 @@
   "tradingViewSymbol": "TSE:7956"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "BROKEN",
+  "closedAt": "2026-10-30",
   "id": "7956-2026-09-18",
   "overextended": false,
   "setupType": "BREAKOUT",
   "setups": [],
   "startedAt": "2026-09-18",
-  "status": "BROKEN",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-09-18",
@@ -37,6 +37,12 @@
     "from": "STRENGTHENING",
     "reason_code": "BELOW_MA20",
     "to": "BROKEN"
+   },
+   {
+    "date": "2026-10-30",
+    "from": "BROKEN",
+    "reason_code": "BROKEN",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-10-15"
@@ -113,12 +119,12 @@
   }
  ],
  "performance": {
-  "benchReturn": 0.1,
-  "currentPrice": 2058.0,
+  "benchReturn": -1.1,
+  "currentPrice": 2086.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 10,
+   "pendingDays": 9,
    "stockReturn": null
   },
   "d5": {
@@ -130,33 +136,34 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 50,
+   "pendingDays": 49,
    "stockReturn": null
   },
-  "excessReturn": -4.8,
+  "excessReturn": -2.3,
   "initialDate": "2026-10-15",
   "initialPrice": 2160.5,
-  "stockReturn": -4.7
+  "stockReturn": -3.4
  },
  "priceSetup": {
-  "asOf": "2026-10-29",
+  "asOf": "2026-10-30",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.06,
+  "distFrom52wHigh": 0.05,
   "labels": [
-   "20日線が上向き"
+   "20日線が上向き",
+   "60日線の上"
   ],
-  "ma20": 2093.3,
-  "ma200": 1843.5,
-  "ma60": 2066.1,
-  "rangePos60": 0.55,
-  "rel20": 3.2,
-  "rel60": -2.1,
-  "volumeRatio20": 1.09
+  "ma20": 2095.8,
+  "ma200": 1846.0,
+  "ma60": 2067.2,
+  "rangePos60": 0.64,
+  "rel20": 6.6,
+  "rel60": 3.5,
+  "volumeRatio20": 0.54
  },
  "reasons": [
   "1.1pt買い増し 9.8%→10.9%",
-  "TOPIX連動ETF比 +3.2pt（20日）",
-  "52週高値まで6%"
+  "TOPIX連動ETF比 +6.6pt（20日）",
+  "52週高値まで5%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -285,7 +292,21 @@
    "kind": "STATUS",
    "label": "BROKEN",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-30",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-30",
+   "detail": "Price Setupが崩れた",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-29T22:44:20+09:00"
+ "updatedAt": "2026-10-30T15:18:25+09:00"
 }

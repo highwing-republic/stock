@@ -9,8 +9,12 @@
   "closedAt": null,
   "id": "4324-2026-06-19",
   "overextended": true,
-  "setupType": "RECOVERY",
-  "setups": [],
+  "setupType": "BREAKOUT",
+  "setups": [
+   "BREAKOUT",
+   "TREND",
+   "RECOVERY"
+  ],
   "startedAt": "2026-06-19",
   "status": "REACTED",
   "statusHistory": [
@@ -116,8 +120,8 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 0.7,
-  "currentPrice": 3644.0,
+  "benchReturn": -0.5,
+  "currentPrice": 3787.0,
   "d20": {
    "benchReturn": -0.3,
    "excessReturn": 14.5,
@@ -136,49 +140,37 @@
    "pendingDays": 0,
    "stockReturn": 14.8
   },
-  "excessReturn": 16.7,
+  "excessReturn": 22.5,
   "initialDate": "2026-07-02",
   "initialPrice": 3105.0,
-  "stockReturn": 17.4
+  "stockReturn": 22.0
  },
  "priceSetup": {
-  "asOf": "2026-10-29",
+  "asOf": "2026-10-30",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.07,
+  "distFrom52wHigh": 0.03,
   "labels": [
+   "20日線の上",
+   "60日レンジ上位24%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 3680.2,
-  "ma200": 3228.6,
-  "ma60": 3633.1,
-  "rangePos60": 0.48,
-  "rel20": 4.6,
-  "rel60": -5.2,
-  "volumeRatio20": 1.85
+  "ma20": 3691.3,
+  "ma200": 3230.6,
+  "ma60": 3637.1,
+  "rangePos60": 0.76,
+  "rel20": 10.4,
+  "rel60": 7.1,
+  "volumeRatio20": 1.08
  },
  "reasons": [
   "0.1pt買い増し 7.7%→7.8%",
   "30日以内に2回買い増し",
-  "TOPIX連動ETF比 +4.6pt（20日）",
-  "52週高値まで7%"
+  "60日レンジ上位24%",
+  "20日線を回復"
  ],
  "schemaVersion": 1,
  "timeline": [
-  {
-   "date": "2026-06-29",
-   "detail": "20日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-07-02",
-   "detail": "なし → RECOVERY",
-   "kind": "SETUP",
-   "label": "Price Setup改善",
-   "sourceUrl": null
-  },
   {
    "date": "2026-07-02",
    "detail": "20日線を回復",
@@ -584,7 +576,21 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-10-30",
+   "detail": "なし → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-30",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-29T22:44:20+09:00"
+ "updatedAt": "2026-10-30T15:18:25+09:00"
 }

@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-10-30T00:57:02+09:00",
+  "updatedAt": "2026-10-30T15:17:05+09:00",
   "company": {
     "securityCode": "4417",
     "ticker": "4417.T",
     "name": "グローバルセキュリティエキスパート株式会社"
   },
   "events": [
+    {
+      "docId": "S100ZAOF",
+      "ticker": "4417.T",
+      "securityCode": "4417",
+      "companyName": "グローバルセキュリティエキスパート株式会社",
+      "submitDatetime": "2026-10-30 10:36",
+      "filerName": "Ｏｌｄ　Ｐｅａｋ　Ｇｒｏｕｐ　Ｌｔｄ．",
+      "reportType": "change",
+      "holdingRatio": 4.78,
+      "previousHoldingRatio": 6.03,
+      "holdingChange": -1.25,
+      "purpose": "長期投資並びに株主価値の向上及び保全のため重要提案行為等を行うことがある。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 3.63,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z93H",
       "ticker": "4417.T",
@@ -19,21 +49,22 @@
       "holdingChange": -1.15,
       "purpose": "長期投資並びに株主価値の向上及び保全のため重要提案行為等を行うことがある。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.96,
-      "marketExcessReturn": null,
+      "priceChange": 4.59,
+      "volumeRatio": 0.95,
+      "marketExcessReturn": 5.6,
       "signalScore": 0,
       "signalReasons": [
+        "市場超過5%以上",
         "保有割合減少"
       ],
       "stockUnreacted": false,
       "metrics": {
         "return1d": 1.31,
-        "return5d": null,
+        "return5d": 4.59,
         "return20d": null,
-        "returnCurrent": 8.13,
-        "volumeRatio": 0.96,
-        "marketExcessReturn": null
+        "returnCurrent": 8.39,
+        "volumeRatio": 0.95,
+        "marketExcessReturn": 5.6
       }
     },
     {
@@ -62,7 +93,7 @@
         "return1d": 1.44,
         "return5d": 1.88,
         "return20d": 9.63,
-        "returnCurrent": 82.72,
+        "returnCurrent": 83.17,
         "volumeRatio": 0.98,
         "marketExcessReturn": -0.24
       }
@@ -93,7 +124,7 @@
         "return1d": 1.46,
         "return5d": -5.84,
         "return20d": 2.81,
-        "returnCurrent": 85.39,
+        "returnCurrent": 85.84,
         "volumeRatio": 0.87,
         "marketExcessReturn": -3.04
       }
@@ -3056,9 +3087,19 @@
       "open": 7830.0,
       "high": 8140.0,
       "low": 7470.0,
-      "close": null,
-      "adj_close": null,
+      "close": 7980.0,
+      "adj_close": 7980.0,
       "volume": 303700
+    },
+    {
+      "ticker": "4417.T",
+      "trade_date": "2026-10-30",
+      "open": 7830.0,
+      "high": 8390.0,
+      "low": 7830.0,
+      "close": 8270.0,
+      "adj_close": 8270.0,
+      "volume": 271600
     }
   ],
   "benchmark": [
@@ -7011,6 +7052,16 @@
       "close": 421.29998779296875,
       "adj_close": 421.29998779296875,
       "volume": 21767760
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-10-30",
+      "open": 420.29998779296875,
+      "high": 421.8999938964844,
+      "low": 414.5,
+      "close": 415.8999938964844,
+      "adj_close": 415.8999938964844,
+      "volume": 13844230
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"
