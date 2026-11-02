@@ -9,12 +9,13 @@
   "closedAt": null,
   "id": "9532-2026-10-22",
   "overextended": false,
-  "setupType": "RECOVERY",
+  "setupType": "BREAKOUT",
   "setups": [
+   "BREAKOUT",
    "RECOVERY"
   ],
   "startedAt": "2026-10-22",
-  "status": "WATCH",
+  "status": "STRENGTHENING",
   "statusHistory": [
    {
     "date": "2026-10-22",
@@ -27,6 +28,12 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
+   },
+   {
+    "date": "2026-11-02",
+    "from": "WATCH",
+    "reason_code": "SETUP_IMPROVED",
+    "to": "STRENGTHENING"
    }
   ],
   "watchStartedAt": "2026-10-28"
@@ -51,53 +58,54 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -0.9,
-  "currentPrice": 5892.0,
+  "benchReturn": -1.8,
+  "currentPrice": 5924.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 18,
+   "pendingDays": 17,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 3,
+   "pendingDays": 2,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 58,
+   "pendingDays": 57,
    "stockReturn": null
   },
-  "excessReturn": 2.3,
+  "excessReturn": 3.8,
   "initialDate": "2026-10-28",
   "initialPrice": 5808.0,
-  "stockReturn": 1.4
+  "stockReturn": 2.0
  },
  "priceSetup": {
-  "asOf": "2026-10-30",
+  "asOf": "2026-11-02",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.12,
+  "distFrom52wHigh": 0.11,
   "labels": [
    "20日線の上",
+   "60日レンジ上位27%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 5718.3,
-  "ma200": 5749.1,
-  "ma60": 5669.2,
-  "rangePos60": 0.7,
-  "rel20": 7.6,
-  "rel60": 8.2,
-  "volumeRatio20": 1.18
+  "ma20": 5726.4,
+  "ma200": 5752.0,
+  "ma60": 5678.6,
+  "rangePos60": 0.73,
+  "rel20": 6.9,
+  "rel60": 10.3,
+  "volumeRatio20": 0.43
  },
  "reasons": [
   "1.1pt買い増し 7.5%→8.5%",
+  "60日レンジ上位27%",
   "20日線上向き",
-  "TOPIX連動ETF比 +7.6pt（20日）",
-  "信用買残 -5%"
+  "TOPIX連動ETF比 +6.9pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -128,7 +136,21 @@
    "kind": "STATUS",
    "label": "WATCH",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-02",
+   "detail": "RECOVERY → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-02",
+   "detail": "Price Setupが改善",
+   "kind": "STATUS",
+   "label": "STRENGTHENING",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-30T22:33:42+09:00"
+ "updatedAt": "2026-11-02T15:43:02+09:00"
 }

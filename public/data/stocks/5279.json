@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T00:35:41+09:00",
+  "updatedAt": "2026-11-02T15:42:53+09:00",
   "company": {
     "securityCode": "5279",
     "ticker": "5279.T",
@@ -20,12 +20,13 @@
       "purpose": "日本興業株式会社と取引関係にある企業等が、同社株式の取得により相互の親睦関係の増進に寄与するため。",
       "importantProposal": true,
       "priceChange": null,
-      "volumeRatio": 2.37,
+      "volumeRatio": 3.21,
       "marketExcessReturn": null,
-      "signalScore": 10,
+      "signalScore": 15,
       "signalReasons": [
         "重要提案行為あり",
         "出来高2倍以上",
+        "出来高3倍以上",
         "保有割合減少"
       ],
       "stockUnreacted": false,
@@ -33,8 +34,8 @@
         "return1d": 4.73,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 4.73,
-        "volumeRatio": 2.37,
+        "returnCurrent": 0.34,
+        "volumeRatio": 3.21,
         "marketExcessReturn": null
       }
     }
@@ -2716,9 +2717,19 @@
       "open": 1224.0,
       "high": 1234.0,
       "low": 1210.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1212.0,
+      "adj_close": 1212.0,
       "volume": 6800
+    },
+    {
+      "ticker": "5279.T",
+      "trade_date": "2026-11-02",
+      "open": 1212.0,
+      "high": 1212.0,
+      "low": 1185.0,
+      "close": 1188.0,
+      "adj_close": 1188.0,
+      "volume": 8200
     }
   ],
   "benchmark": [
@@ -6681,6 +6692,16 @@
       "close": 416.3999938964844,
       "adj_close": 416.3999938964844,
       "volume": 17796010
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-02",
+      "open": 414.1000061035156,
+      "high": 415.6000061035156,
+      "low": 412.6000061035156,
+      "close": 412.79998779296875,
+      "adj_close": 412.79998779296875,
+      "volume": 21090280
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

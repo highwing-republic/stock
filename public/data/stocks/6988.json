@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T00:35:41+09:00",
+  "updatedAt": "2026-11-02T15:42:53+09:00",
   "company": {
     "securityCode": "6988",
     "ticker": "6988.T",
@@ -19,21 +19,22 @@
       "holdingChange": 1.01,
       "purpose": "純投資（投資一任契約に基づく顧客の資産運用および投資信託約款に基づく資産運用目的） / 純投資（顧客および投資信託等の資産運用目的） / 純投資（投資信託等の資産運用目的）",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 1.48,
-      "marketExcessReturn": null,
-      "signalScore": 20,
+      "priceChange": -6.75,
+      "volumeRatio": 1.16,
+      "marketExcessReturn": -5.91,
+      "signalScore": 30,
       "signalReasons": [
-        "1pt以上買い増し"
+        "1pt以上買い増し",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": 0.9,
-        "return5d": null,
+        "return5d": -6.75,
         "return20d": null,
-        "returnCurrent": -4.09,
-        "volumeRatio": 1.48,
-        "marketExcessReturn": null
+        "returnCurrent": -6.75,
+        "volumeRatio": 1.16,
+        "marketExcessReturn": -5.91
       }
     }
   ],
@@ -3994,9 +3995,19 @@
       "open": 3403.0,
       "high": 3461.0,
       "low": 3379.0,
-      "close": null,
-      "adj_close": null,
+      "close": 3392.0,
+      "adj_close": 3392.0,
       "volume": 3095900
+    },
+    {
+      "ticker": "6988.T",
+      "trade_date": "2026-11-02",
+      "open": 3373.0,
+      "high": 3388.0,
+      "low": 3325.0,
+      "close": 3327.0,
+      "adj_close": 3327.0,
+      "volume": 1205700
     }
   ],
   "benchmark": [
@@ -7959,6 +7970,16 @@
       "close": 416.3999938964844,
       "adj_close": 416.3999938964844,
       "volume": 17796010
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-02",
+      "open": 414.1000061035156,
+      "high": 415.6000061035156,
+      "low": 412.6000061035156,
+      "close": 412.79998779296875,
+      "adj_close": 412.79998779296875,
+      "volume": 21090280
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

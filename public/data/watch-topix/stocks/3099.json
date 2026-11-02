@@ -9,10 +9,13 @@
   "closedAt": null,
   "id": "3099-2026-09-18",
   "overextended": false,
-  "setupType": "RECOVERY",
-  "setups": [],
+  "setupType": "BREAKOUT",
+  "setups": [
+   "BREAKOUT",
+   "RECOVERY"
+  ],
   "startedAt": "2026-09-18",
-  "status": "WATCH",
+  "status": "REACTED",
   "statusHistory": [
    {
     "date": "2026-09-18",
@@ -25,6 +28,12 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
+   },
+   {
+    "date": "2026-11-02",
+    "from": "WATCH",
+    "reason_code": "EXCESS_THRESHOLD",
+    "to": "REACTED"
    }
   ],
   "watchStartedAt": "2026-10-07"
@@ -59,12 +68,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -4.7,
-  "currentPrice": 1801.5,
+  "benchReturn": -5.6,
+  "currentPrice": 1834.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 4,
+   "pendingDays": 3,
    "stockReturn": null
   },
   "d5": {
@@ -76,36 +85,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 44,
+   "pendingDays": 43,
    "stockReturn": null
   },
-  "excessReturn": 7.8,
+  "excessReturn": 10.6,
   "initialDate": "2026-10-07",
   "initialPrice": 1747.0,
-  "stockReturn": 3.1
+  "stockReturn": 5.0
  },
  "priceSetup": {
-  "asOf": "2026-10-30",
+  "asOf": "2026-11-02",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.13,
+  "distFrom52wHigh": 0.11,
   "labels": [
    "20日線の上",
+   "60日レンジ上位23%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 1744.5,
-  "ma200": 1616.0,
-  "ma60": 1702.5,
-  "rangePos60": 0.69,
-  "rel20": 13.9,
-  "rel60": 1.9,
-  "volumeRatio20": 0.59
+  "ma20": 1755.9,
+  "ma200": 1619.4,
+  "ma60": 1704.4,
+  "rangePos60": 0.77,
+  "rel20": 18.2,
+  "rel60": 6.5,
+  "volumeRatio20": 0.6
  },
  "reasons": [
   "新規大量保有 5.2%（ブラックロック・ジャパン株式会社）",
+  "60日レンジ上位23%",
   "20日線上向き",
-  "TOPIX連動ETF比 +13.9pt（20日）",
-  "信用買残 -16%"
+  "TOPIX連動ETF比 +18.2pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -171,7 +181,21 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-02",
+   "detail": "なし → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-02",
+   "detail": "TOPIX連動ETFとの差が大きくなった",
+   "kind": "STATUS",
+   "label": "REACTED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-30T22:34:37+09:00"
+ "updatedAt": "2026-11-02T15:43:46+09:00"
 }

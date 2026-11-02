@@ -1,11 +1,42 @@
 {
-  "updatedAt": "2026-10-31T00:35:41+09:00",
+  "updatedAt": "2026-11-02T15:42:53+09:00",
   "company": {
     "securityCode": "1716",
     "ticker": "1716.T",
     "name": "第一カッター興業株式会社"
   },
   "events": [
+    {
+      "docId": "S100ZB75",
+      "ticker": "1716.T",
+      "securityCode": "1716",
+      "companyName": "第一カッター興業株式会社",
+      "submitDatetime": "2026-11-02 14:04",
+      "filerName": "渡邉　剛",
+      "reportType": "correction",
+      "holdingRatio": 4.29,
+      "previousHoldingRatio": 6.83,
+      "holdingChange": -2.54,
+      "purpose": "相続により承継した株式の保有",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少",
+        "大幅売却"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -0.31,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z9U4",
       "ticker": "1716.T",
@@ -19,23 +50,22 @@
       "holdingChange": -2.54,
       "purpose": "売却したため",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 2.06,
-      "marketExcessReturn": null,
+      "priceChange": -0.69,
+      "volumeRatio": 1.46,
+      "marketExcessReturn": 0.15,
       "signalScore": 0,
       "signalReasons": [
-        "出来高2倍以上",
         "保有割合減少",
         "大幅売却"
       ],
       "stockUnreacted": false,
       "metrics": {
         "return1d": -0.23,
-        "return5d": null,
+        "return5d": -0.69,
         "return20d": null,
-        "returnCurrent": -0.15,
-        "volumeRatio": 2.06,
-        "marketExcessReturn": null
+        "returnCurrent": -0.69,
+        "volumeRatio": 1.46,
+        "marketExcessReturn": 0.15
       }
     },
     {
@@ -51,23 +81,22 @@
       "holdingChange": -13.67,
       "purpose": "相続発生のため",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 2.06,
-      "marketExcessReturn": null,
+      "priceChange": -0.69,
+      "volumeRatio": 1.46,
+      "marketExcessReturn": 0.15,
       "signalScore": 0,
       "signalReasons": [
-        "出来高2倍以上",
         "保有割合減少",
         "大幅売却"
       ],
       "stockUnreacted": false,
       "metrics": {
         "return1d": -0.23,
-        "return5d": null,
+        "return5d": -0.69,
         "return20d": null,
-        "returnCurrent": -0.15,
-        "volumeRatio": 2.06,
-        "marketExcessReturn": null
+        "returnCurrent": -0.69,
+        "volumeRatio": 1.46,
+        "marketExcessReturn": 0.15
       }
     },
     {
@@ -83,21 +112,19 @@
       "holdingChange": null,
       "purpose": "相続により承継した株式の保有",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 2.06,
-      "marketExcessReturn": null,
-      "signalScore": 10,
-      "signalReasons": [
-        "出来高2倍以上"
-      ],
+      "priceChange": -0.69,
+      "volumeRatio": 1.46,
+      "marketExcessReturn": 0.15,
+      "signalScore": 0,
+      "signalReasons": [],
       "stockUnreacted": false,
       "metrics": {
         "return1d": -0.23,
-        "return5d": null,
+        "return5d": -0.69,
         "return20d": null,
-        "returnCurrent": -0.15,
-        "volumeRatio": 2.06,
-        "marketExcessReturn": null
+        "returnCurrent": -0.69,
+        "volumeRatio": 1.46,
+        "marketExcessReturn": 0.15
       }
     },
     {
@@ -126,7 +153,7 @@
         "return1d": -0.38,
         "return5d": -1.21,
         "return20d": null,
-        "returnCurrent": -1.89,
+        "returnCurrent": -2.41,
         "volumeRatio": 1.02,
         "marketExcessReturn": 1.27
       }
@@ -157,7 +184,7 @@
         "return1d": -0.38,
         "return5d": -1.21,
         "return20d": null,
-        "returnCurrent": -1.89,
+        "returnCurrent": -2.41,
         "volumeRatio": 1.02,
         "marketExcessReturn": 1.27
       }
@@ -2920,9 +2947,19 @@
       "open": 1307.0,
       "high": 1322.0,
       "low": 1298.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1298.0,
+      "adj_close": 1298.0,
       "volume": 15600
+    },
+    {
+      "ticker": "1716.T",
+      "trade_date": "2026-11-02",
+      "open": 1300.0,
+      "high": 1300.0,
+      "low": 1288.0,
+      "close": 1294.0,
+      "adj_close": 1294.0,
+      "volume": 18700
     }
   ],
   "benchmark": [
@@ -6885,6 +6922,16 @@
       "close": 416.3999938964844,
       "adj_close": 416.3999938964844,
       "volume": 17796010
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-02",
+      "open": 414.1000061035156,
+      "high": 415.6000061035156,
+      "low": 412.6000061035156,
+      "close": 412.79998779296875,
+      "adj_close": 412.79998779296875,
+      "volume": 21090280
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

@@ -15,7 +15,7 @@
    "RECOVERY"
   ],
   "startedAt": "2026-09-24",
-  "status": "STRENGTHENING",
+  "status": "REACTED",
   "statusHistory": [
    {
     "date": "2026-09-24",
@@ -34,6 +34,12 @@
     "from": "WATCH",
     "reason_code": "SETUP_IMPROVED",
     "to": "STRENGTHENING"
+   },
+   {
+    "date": "2026-11-02",
+    "from": "STRENGTHENING",
+    "reason_code": "EXCESS_THRESHOLD",
+    "to": "REACTED"
    }
   ],
   "watchStartedAt": "2026-10-19"
@@ -61,12 +67,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -2.5,
-  "currentPrice": 11040.0,
+  "benchReturn": -3.4,
+  "currentPrice": 11250.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 11,
+   "pendingDays": 10,
    "stockReturn": null
   },
   "d5": {
@@ -78,37 +84,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 51,
+   "pendingDays": 50,
    "stockReturn": null
   },
-  "excessReturn": 7.7,
+  "excessReturn": 10.6,
   "initialDate": "2026-10-19",
   "initialPrice": 10495.0,
-  "stockReturn": 5.2
+  "stockReturn": 7.2
  },
  "priceSetup": {
-  "asOf": "2026-10-30",
+  "asOf": "2026-11-02",
   "atrState": "通常",
-  "distFrom52wHigh": 0.09,
+  "distFrom52wHigh": 0.07,
   "labels": [
    "20日線の上",
-   "60日レンジ上位15%",
+   "60日レンジ上位4%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 10456.2,
-  "ma200": 10631.3,
-  "ma60": 10265.8,
-  "rangePos60": 0.85,
-  "rel20": 19.3,
-  "rel60": 7.6,
-  "volumeRatio20": 1.12
+  "ma20": 10544.9,
+  "ma200": 10634.5,
+  "ma60": 10286.2,
+  "rangePos60": 0.96,
+  "rel20": 22.8,
+  "rel60": 12.0,
+  "volumeRatio20": 1.18
  },
  "reasons": [
   "1.1pt買い増し 5.1%→6.2%",
-  "60日レンジ上位15%",
+  "60日レンジ上位4%",
   "20日線上向き",
-  "TOPIX連動ETF比 +19.3pt（20日）"
+  "TOPIX連動ETF比 +22.8pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -188,7 +194,14 @@
    "kind": "SETUP",
    "label": "Price Setup改善",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-02",
+   "detail": "TOPIX連動ETFとの差が大きくなった",
+   "kind": "STATUS",
+   "label": "REACTED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-30T22:33:42+09:00"
+ "updatedAt": "2026-11-02T15:43:02+09:00"
 }

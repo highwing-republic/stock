@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T00:35:41+09:00",
+  "updatedAt": "2026-11-02T15:42:53+09:00",
   "company": {
     "securityCode": "4429",
     "ticker": "4429.T",
@@ -19,9 +19,9 @@
       "holdingChange": -2.72,
       "purpose": "発行会社の創業者であり、安定株主として長期保有するためであります。 / 安定株主として長期保有するためであります。",
       "importantProposal": true,
-      "priceChange": null,
-      "volumeRatio": 0.66,
-      "marketExcessReturn": null,
+      "priceChange": -2.75,
+      "volumeRatio": 0.49,
+      "marketExcessReturn": -1.91,
       "signalScore": 0,
       "signalReasons": [
         "重要提案行為あり",
@@ -31,11 +31,11 @@
       "stockUnreacted": false,
       "metrics": {
         "return1d": -0.96,
-        "return5d": null,
+        "return5d": -2.75,
         "return20d": null,
-        "returnCurrent": -1.79,
-        "volumeRatio": 0.66,
-        "marketExcessReturn": null
+        "returnCurrent": -2.75,
+        "volumeRatio": 0.49,
+        "marketExcessReturn": -1.91
       }
     }
   ],
@@ -2726,9 +2726,19 @@
       "open": 708.0,
       "high": 715.0,
       "low": 708.0,
-      "close": null,
-      "adj_close": null,
+      "close": 708.0,
+      "adj_close": 708.0,
       "volume": 1000
+    },
+    {
+      "ticker": "4429.T",
+      "trade_date": "2026-11-02",
+      "open": 708.0,
+      "high": 711.0,
+      "low": 700.0,
+      "close": 706.0,
+      "adj_close": 706.0,
+      "volume": 2700
     }
   ],
   "benchmark": [
@@ -6691,6 +6701,16 @@
       "close": 416.3999938964844,
       "adj_close": 416.3999938964844,
       "volume": 17796010
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-02",
+      "open": 414.1000061035156,
+      "high": 415.6000061035156,
+      "low": 412.6000061035156,
+      "close": 412.79998779296875,
+      "adj_close": 412.79998779296875,
+      "volume": 21090280
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

@@ -5,20 +5,26 @@
   "tradingViewSymbol": "TSE:5741"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "NO_SETUP",
+  "closedAt": "2026-11-02",
   "id": "5741-2026-10-02",
   "overextended": false,
   "setupType": null,
   "setups": [],
   "startedAt": "2026-10-02",
-  "status": "CANDIDATE",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-10-02",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-11-02",
+    "from": "CANDIDATE",
+    "reason_code": "NO_SETUP",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": null
@@ -47,7 +53,7 @@
   },
   {
    "d1": 1.3,
-   "d20": null,
+   "d20": -10.0,
    "d5": -2.0,
    "eventId": "edinet:S100Z5XL",
    "excess5": -2.5
@@ -79,17 +85,17 @@
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-10-30",
+  "asOf": "2026-11-02",
   "atrState": "低ボラ",
   "distFrom52wHigh": 0.46,
   "labels": [],
-  "ma20": 2019.6,
-  "ma200": 2478.8,
-  "ma60": 2179.5,
-  "rangePos60": 0.15,
-  "rel20": -6.8,
-  "rel60": -17.4,
-  "volumeRatio20": 0.66
+  "ma20": 2009.0,
+  "ma200": 2477.5,
+  "ma60": 2173.4,
+  "rangePos60": 0.14,
+  "rel20": -5.9,
+  "rel60": -16.4,
+  "volumeRatio20": 0.83
  },
  "reasons": [
   "6.6pt買い増し 7.2%→13.7%",
@@ -145,7 +151,14 @@
    "kind": "EVENT",
    "label": "保有割合の減少",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z99G"
+  },
+  {
+   "date": "2026-11-02",
+   "detail": "期限内にPrice Setupが成立しなかった",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-10-30T22:33:42+09:00"
+ "updatedAt": "2026-11-02T15:43:02+09:00"
 }
