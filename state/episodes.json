@@ -3093,7 +3093,7 @@
     "RECOVERY"
    ],
    "started_at": "2026-09-24",
-   "status": "REACTED",
+   "status": "STRENGTHENING",
    "status_history": [
     {
      "date": "2026-09-24",
@@ -3112,12 +3112,6 @@
      "from": "WATCH",
      "reason_code": "SETUP_IMPROVED",
      "to": "STRENGTHENING"
-    },
-    {
-     "date": "2026-11-02",
-     "from": "STRENGTHENING",
-     "reason_code": "EXCESS_THRESHOLD",
-     "to": "REACTED"
     }
    ],
    "watch_started_at": "2026-10-19"
@@ -4141,8 +4135,8 @@
     "edinet:S100Z61M",
     "edinet:S100Z8YA"
    ],
-   "initial_bench": 412.6000061035156,
-   "initial_price": 2151.5,
+   "initial_bench": 413.0,
+   "initial_price": 2152.0,
    "last_trigger_at": "2026-10-06",
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z61M",
@@ -4274,9 +4268,8 @@
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z63X",
    "security_code": "4403",
-   "setup_type": "BREAKOUT",
+   "setup_type": "RECOVERY",
    "setups": [
-    "BREAKOUT",
     "RECOVERY"
    ],
    "started_at": "2026-10-06",

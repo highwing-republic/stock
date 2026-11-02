@@ -15,7 +15,7 @@
    "RECOVERY"
   ],
   "startedAt": "2026-09-24",
-  "status": "REACTED",
+  "status": "STRENGTHENING",
   "statusHistory": [
    {
     "date": "2026-09-24",
@@ -34,12 +34,6 @@
     "from": "WATCH",
     "reason_code": "SETUP_IMPROVED",
     "to": "STRENGTHENING"
-   },
-   {
-    "date": "2026-11-02",
-    "from": "STRENGTHENING",
-    "reason_code": "EXCESS_THRESHOLD",
-    "to": "REACTED"
    }
   ],
   "watchStartedAt": "2026-10-19"
@@ -54,21 +48,21 @@
   }
  ],
  "margin": {
-  "asOf": "2026-10-29",
-  "buyBalance": 19400,
-  "buyChangePct": -21.5,
+  "asOf": "2026-10-30",
+  "buyBalance": 17700,
+  "buyChangePct": -21.3,
   "labels": [
    "信用買残減少",
    "信用倍率改善"
   ],
-  "ratio": 0.72,
-  "sellBalance": 26800,
-  "sellChangePct": 10.3
+  "ratio": 0.63,
+  "sellBalance": 28000,
+  "sellChangePct": 10.7
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -3.4,
-  "currentPrice": 11250.0,
+  "benchReturn": -3.3,
+  "currentPrice": 11195.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
@@ -87,34 +81,34 @@
    "pendingDays": 50,
    "stockReturn": null
   },
-  "excessReturn": 10.6,
+  "excessReturn": 10.0,
   "initialDate": "2026-10-19",
   "initialPrice": 10495.0,
-  "stockReturn": 7.2
+  "stockReturn": 6.7
  },
  "priceSetup": {
   "asOf": "2026-11-02",
   "atrState": "通常",
-  "distFrom52wHigh": 0.07,
+  "distFrom52wHigh": 0.08,
   "labels": [
    "20日線の上",
-   "60日レンジ上位4%",
+   "60日レンジ上位7%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 10544.9,
-  "ma200": 10634.5,
-  "ma60": 10286.2,
-  "rangePos60": 0.96,
-  "rel20": 22.8,
-  "rel60": 12.0,
-  "volumeRatio20": 1.18
+  "ma20": 10542.1,
+  "ma200": 10634.2,
+  "ma60": 10285.3,
+  "rangePos60": 0.93,
+  "rel20": 22.1,
+  "rel60": 11.4,
+  "volumeRatio20": 1.66
  },
  "reasons": [
   "1.1pt買い増し 5.1%→6.2%",
-  "60日レンジ上位4%",
+  "60日レンジ上位7%",
   "20日線上向き",
-  "TOPIX連動ETF比 +22.8pt（20日）"
+  "TOPIX連動ETF比 +22.1pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -194,14 +188,7 @@
    "kind": "SETUP",
    "label": "Price Setup改善",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-11-02",
-   "detail": "TOPIX連動ETFとの差が大きくなった",
-   "kind": "STATUS",
-   "label": "REACTED",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-02T15:43:02+09:00"
+ "updatedAt": "2026-11-02T20:41:59+09:00"
 }
