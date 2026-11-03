@@ -3173,6 +3173,10 @@
    "event_id": "edinet:S100Z9X1"
   },
   {
+   "episode_id": "8252-2026-09-16",
+   "event_id": "edinet:S100ZB6L"
+  },
+  {
    "episode_id": "8282-2026-10-21",
    "event_id": "edinet:S100Z8Q0"
   },
@@ -3887,9 +3891,7 @@
    "primary_trigger_event_id": "edinet:S100YC86",
    "security_code": "9759",
    "setup_type": "RECOVERY",
-   "setups": [
-    "RECOVERY"
-   ],
+   "setups": [],
    "started_at": "2026-06-17",
    "status": "REACTED",
    "status_history": [
@@ -3948,10 +3950,7 @@
    "primary_trigger_event_id": "edinet:S100YD3C",
    "security_code": "4071",
    "setup_type": "BREAKOUT",
-   "setups": [
-    "BREAKOUT",
-    "RECOVERY"
-   ],
+   "setups": [],
    "started_at": "2026-06-18",
    "status": "REACTED",
    "status_history": [
@@ -5144,10 +5143,7 @@
    "primary_trigger_event_id": "edinet:S100YFX0",
    "security_code": "4902",
    "setup_type": "BREAKOUT",
-   "setups": [
-    "BREAKOUT",
-    "TREND"
-   ],
+   "setups": [],
    "started_at": "2026-06-22",
    "status": "REACTED",
    "status_history": [
@@ -7424,11 +7420,7 @@
    "primary_trigger_event_id": "edinet:S100YMTO",
    "security_code": "2492",
    "setup_type": "BREAKOUT",
-   "setups": [
-    "BREAKOUT",
-    "TREND",
-    "RECOVERY"
-   ],
+   "setups": [],
    "started_at": "2026-07-03",
    "status": "REACTED",
    "status_history": [
@@ -8520,9 +8512,7 @@
    "primary_trigger_event_id": "edinet:S100YO7Z",
    "security_code": "7839",
    "setup_type": "TREND",
-   "setups": [
-    "TREND"
-   ],
+   "setups": [],
    "started_at": "2026-07-06",
    "status": "REACTED",
    "status_history": [
@@ -9819,11 +9809,7 @@
    "primary_trigger_event_id": "edinet:S100YOO0",
    "security_code": "7476",
    "setup_type": "BREAKOUT",
-   "setups": [
-    "BREAKOUT",
-    "TREND",
-    "RECOVERY"
-   ],
+   "setups": [],
    "started_at": "2026-07-07",
    "status": "REACTED",
    "status_history": [
@@ -15890,10 +15876,8 @@
    "overextended": true,
    "primary_trigger_event_id": "edinet:S100YXTZ",
    "security_code": "4565",
-   "setup_type": "BREAKOUT",
+   "setup_type": "RECOVERY",
    "setups": [
-    "BREAKOUT",
-    "TREND",
     "RECOVERY"
    ],
    "started_at": "2026-08-21",
@@ -16437,11 +16421,7 @@
    "primary_trigger_event_id": "edinet:S100YXA0",
    "security_code": "4686",
    "setup_type": "BREAKOUT",
-   "setups": [
-    "BREAKOUT",
-    "TREND",
-    "RECOVERY"
-   ],
+   "setups": [],
    "started_at": "2026-08-24",
    "status": "REACTED",
    "status_history": [
@@ -17307,8 +17287,8 @@
   },
   {
    "base_close": 3670.0,
-   "close_reason": null,
-   "closed_at": null,
+   "close_reason": "BROKEN",
+   "closed_at": "2026-11-02",
    "company_name": "TOYO TIRE",
    "episode_id": "5105-2026-09-04",
    "event_ids": [
@@ -17325,7 +17305,7 @@
    "setup_type": "RECOVERY",
    "setups": [],
    "started_at": "2026-09-04",
-   "status": "BROKEN",
+   "status": "CLOSED",
    "status_history": [
     {
      "date": "2026-09-04",
@@ -17350,6 +17330,12 @@
      "from": "STRENGTHENING",
      "reason_code": "BELOW_MA20",
      "to": "BROKEN"
+    },
+    {
+     "date": "2026-11-02",
+     "from": "BROKEN",
+     "reason_code": "BROKEN",
+     "to": "CLOSED"
     }
    ],
    "watch_started_at": "2026-09-28"
@@ -18640,8 +18626,11 @@
    "overextended": true,
    "primary_trigger_event_id": "edinet:S100Z130",
    "security_code": "4967",
-   "setup_type": "TREND",
-   "setups": [],
+   "setup_type": "BREAKOUT",
+   "setups": [
+    "BREAKOUT",
+    "TREND"
+   ],
    "started_at": "2026-09-10",
    "status": "REACTED",
    "status_history": [
@@ -19039,11 +19028,12 @@
     "edinet:S100Z357",
     "edinet:S100Z3NQ",
     "edinet:S100Z6EY",
-    "edinet:S100Z9X1"
+    "edinet:S100Z9X1",
+    "edinet:S100ZB6L"
    ],
    "initial_bench": null,
    "initial_price": null,
-   "last_trigger_at": "2026-10-27",
+   "last_trigger_at": "2026-11-02",
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z2IK",
    "security_code": "8252",
@@ -19078,8 +19068,7 @@
    "security_code": "3549",
    "setup_type": "TREND",
    "setups": [
-    "TREND",
-    "RECOVERY"
+    "TREND"
    ],
    "started_at": "2026-09-17",
    "status": "STRENGTHENING",
@@ -19177,9 +19166,8 @@
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z2V1",
    "security_code": "6745",
-   "setup_type": "TREND",
+   "setup_type": "RECOVERY",
    "setups": [
-    "TREND",
     "RECOVERY"
    ],
    "started_at": "2026-09-17",
@@ -19276,10 +19264,13 @@
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z2WD",
    "security_code": "3099",
-   "setup_type": "RECOVERY",
-   "setups": [],
+   "setup_type": "BREAKOUT",
+   "setups": [
+    "BREAKOUT",
+    "RECOVERY"
+   ],
    "started_at": "2026-09-18",
-   "status": "WATCH",
+   "status": "REACTED",
    "status_history": [
     {
      "date": "2026-09-18",
@@ -19292,6 +19283,12 @@
      "from": "CANDIDATE",
      "reason_code": "SETUP_OK",
      "to": "WATCH"
+    },
+    {
+     "date": "2026-11-02",
+     "from": "WATCH",
+     "reason_code": "EXCESS_THRESHOLD",
+     "to": "REACTED"
     }
    ],
    "watch_started_at": "2026-10-07"
@@ -20514,9 +20511,7 @@
    "primary_trigger_event_id": "edinet:S100Z41Z",
    "security_code": "8002",
    "setup_type": "RECOVERY",
-   "setups": [
-    "RECOVERY"
-   ],
+   "setups": [],
    "started_at": "2026-09-25",
    "status": "STRENGTHENING",
    "status_history": [
@@ -20629,8 +20624,8 @@
   },
   {
    "base_close": 1767.5,
-   "close_reason": null,
-   "closed_at": null,
+   "close_reason": "BROKEN",
+   "closed_at": "2026-11-02",
    "company_name": "エムスリー",
    "episode_id": "2413-2026-09-28",
    "event_ids": [
@@ -20646,7 +20641,7 @@
    "setup_type": "BREAKOUT",
    "setups": [],
    "started_at": "2026-09-28",
-   "status": "BROKEN",
+   "status": "CLOSED",
    "status_history": [
     {
      "date": "2026-09-28",
@@ -20671,6 +20666,12 @@
      "from": "STRENGTHENING",
      "reason_code": "BELOW_MA20",
      "to": "BROKEN"
+    },
+    {
+     "date": "2026-11-02",
+     "from": "BROKEN",
+     "reason_code": "BROKEN",
+     "to": "CLOSED"
     }
    ],
    "watch_started_at": "2026-10-08"
@@ -20831,8 +20832,8 @@
   },
   {
    "base_close": 2144.0,
-   "close_reason": null,
-   "closed_at": null,
+   "close_reason": "NO_SETUP",
+   "closed_at": "2026-11-02",
    "company_name": "UACJ",
    "episode_id": "5741-2026-10-02",
    "event_ids": [
@@ -20850,13 +20851,19 @@
    "setup_type": null,
    "setups": [],
    "started_at": "2026-10-02",
-   "status": "CANDIDATE",
+   "status": "CLOSED",
    "status_history": [
     {
      "date": "2026-10-02",
      "from": null,
      "reason_code": "TRIGGER_EVENT",
      "to": "CANDIDATE"
+    },
+    {
+     "date": "2026-11-02",
+     "from": "CANDIDATE",
+     "reason_code": "NO_SETUP",
+     "to": "CLOSED"
     }
    ],
    "watch_started_at": null
@@ -21269,25 +21276,33 @@
     "edinet:S100Z61M",
     "edinet:S100Z8YA"
    ],
-   "initial_bench": null,
-   "initial_price": null,
+   "initial_bench": 413.0,
+   "initial_price": 2152.0,
    "last_trigger_at": "2026-10-06",
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z61M",
    "security_code": "2871",
-   "setup_type": null,
-   "setups": [],
+   "setup_type": "RECOVERY",
+   "setups": [
+    "RECOVERY"
+   ],
    "started_at": "2026-10-06",
-   "status": "CANDIDATE",
+   "status": "WATCH",
    "status_history": [
     {
      "date": "2026-10-06",
      "from": null,
      "reason_code": "TRIGGER_EVENT",
      "to": "CANDIDATE"
+    },
+    {
+     "date": "2026-11-02",
+     "from": "CANDIDATE",
+     "reason_code": "SETUP_OK",
+     "to": "WATCH"
     }
    ],
-   "watch_started_at": null
+   "watch_started_at": "2026-11-02"
   },
   {
    "base_close": 3530.0,
@@ -21477,9 +21492,8 @@
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z63X",
    "security_code": "4403",
-   "setup_type": "BREAKOUT",
+   "setup_type": "RECOVERY",
    "setups": [
-    "BREAKOUT",
     "RECOVERY"
    ],
    "started_at": "2026-10-06",
@@ -21508,8 +21522,8 @@
   },
   {
    "base_close": 2256.0,
-   "close_reason": null,
-   "closed_at": null,
+   "close_reason": "BROKEN",
+   "closed_at": "2026-11-02",
    "company_name": "栄研化学",
    "episode_id": "4549-2026-10-06",
    "event_ids": [
@@ -21525,7 +21539,7 @@
    "setup_type": "RECOVERY",
    "setups": [],
    "started_at": "2026-10-06",
-   "status": "BROKEN",
+   "status": "CLOSED",
    "status_history": [
     {
      "date": "2026-10-06",
@@ -21550,6 +21564,12 @@
      "from": "STRENGTHENING",
      "reason_code": "BELOW_MA20",
      "to": "BROKEN"
+    },
+    {
+     "date": "2026-11-02",
+     "from": "BROKEN",
+     "reason_code": "BROKEN",
+     "to": "CLOSED"
     }
    ],
    "watch_started_at": "2026-10-08"
@@ -21788,8 +21808,8 @@
   },
   {
    "base_close": 2869.0,
-   "close_reason": null,
-   "closed_at": null,
+   "close_reason": "BROKEN",
+   "closed_at": "2026-11-02",
    "company_name": "東芝テック",
    "episode_id": "6588-2026-10-06",
    "event_ids": [
@@ -21805,7 +21825,7 @@
    "setup_type": "RECOVERY",
    "setups": [],
    "started_at": "2026-10-06",
-   "status": "BROKEN",
+   "status": "CLOSED",
    "status_history": [
     {
      "date": "2026-10-06",
@@ -21824,6 +21844,12 @@
      "from": "WATCH",
      "reason_code": "BELOW_MA60",
      "to": "BROKEN"
+    },
+    {
+     "date": "2026-11-02",
+     "from": "BROKEN",
+     "reason_code": "BROKEN",
+     "to": "CLOSED"
     }
    ],
    "watch_started_at": "2026-10-13"
@@ -22301,9 +22327,7 @@
    "primary_trigger_event_id": "edinet:S100Z5ZR",
    "security_code": "9682",
    "setup_type": "RECOVERY",
-   "setups": [
-    "RECOVERY"
-   ],
+   "setups": [],
    "started_at": "2026-10-07",
    "status": "REACTED",
    "status_history": [
@@ -22434,8 +22458,11 @@
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z7KG",
    "security_code": "2531",
-   "setup_type": "RECOVERY",
-   "setups": [],
+   "setup_type": "TREND",
+   "setups": [
+    "TREND",
+    "RECOVERY"
+   ],
    "started_at": "2026-10-16",
    "status": "STRENGTHENING",
    "status_history": [
@@ -22536,9 +22563,7 @@
    "primary_trigger_event_id": "edinet:S100Z85C",
    "security_code": "8541",
    "setup_type": "TREND",
-   "setups": [
-    "TREND"
-   ],
+   "setups": [],
    "started_at": "2026-10-20",
    "status": "STRENGTHENING",
    "status_history": [
@@ -23009,8 +23034,8 @@
   },
   {
    "base_close": 3085.0,
-   "close_reason": null,
-   "closed_at": null,
+   "close_reason": "BROKEN",
+   "closed_at": "2026-11-02",
    "company_name": "積水樹脂",
    "episode_id": "4212-2026-10-22",
    "event_ids": [
@@ -23025,7 +23050,7 @@
    "setup_type": "TREND",
    "setups": [],
    "started_at": "2026-10-22",
-   "status": "BROKEN",
+   "status": "CLOSED",
    "status_history": [
     {
      "date": "2026-10-22",
@@ -23050,6 +23075,12 @@
      "from": "STRENGTHENING",
      "reason_code": "BELOW_MA60",
      "to": "BROKEN"
+    },
+    {
+     "date": "2026-11-02",
+     "from": "BROKEN",
+     "reason_code": "BROKEN",
+     "to": "CLOSED"
     }
    ],
    "watch_started_at": "2026-10-22"
@@ -23299,10 +23330,7 @@
    "primary_trigger_event_id": "edinet:S100Z9HR",
    "security_code": "8056",
    "setup_type": "BREAKOUT",
-   "setups": [
-    "BREAKOUT",
-    "RECOVERY"
-   ],
+   "setups": [],
    "started_at": "2026-10-22",
    "status": "WATCH",
    "status_history": [
@@ -23394,12 +23422,13 @@
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z901",
    "security_code": "9532",
-   "setup_type": "RECOVERY",
+   "setup_type": "BREAKOUT",
    "setups": [
+    "BREAKOUT",
     "RECOVERY"
    ],
    "started_at": "2026-10-22",
-   "status": "WATCH",
+   "status": "STRENGTHENING",
    "status_history": [
     {
      "date": "2026-10-22",
@@ -23412,6 +23441,12 @@
      "from": "CANDIDATE",
      "reason_code": "SETUP_OK",
      "to": "WATCH"
+    },
+    {
+     "date": "2026-11-02",
+     "from": "WATCH",
+     "reason_code": "SETUP_IMPROVED",
+     "to": "STRENGTHENING"
     }
    ],
    "watch_started_at": "2026-10-28"
@@ -23656,8 +23691,8 @@
   },
   {
    "base_close": 3608.0,
-   "close_reason": null,
-   "closed_at": null,
+   "close_reason": "BROKEN",
+   "closed_at": "2026-11-02",
    "company_name": "日東電工",
    "episode_id": "6988-2026-10-27",
    "event_ids": [
@@ -23672,7 +23707,7 @@
    "setup_type": "BREAKOUT",
    "setups": [],
    "started_at": "2026-10-27",
-   "status": "BROKEN",
+   "status": "CLOSED",
    "status_history": [
     {
      "date": "2026-10-27",
@@ -23697,6 +23732,12 @@
      "from": "STRENGTHENING",
      "reason_code": "BELOW_MA20",
      "to": "BROKEN"
+    },
+    {
+     "date": "2026-11-02",
+     "from": "BROKEN",
+     "reason_code": "BROKEN",
+     "to": "CLOSED"
     }
    ],
    "watch_started_at": "2026-10-27"
@@ -23752,9 +23793,7 @@
    "primary_trigger_event_id": "edinet:S100ZAHF",
    "security_code": "4704",
    "setup_type": "TREND",
-   "setups": [
-    "TREND"
-   ],
+   "setups": [],
    "started_at": "2026-10-29",
    "status": "WATCH",
    "status_history": [

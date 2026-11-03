@@ -5,14 +5,14 @@
   "tradingViewSymbol": "TSE:4212"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "BROKEN",
+  "closedAt": "2026-11-02",
   "id": "4212-2026-10-22",
   "overextended": false,
   "setupType": "TREND",
   "setups": [],
   "startedAt": "2026-10-22",
-  "status": "BROKEN",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-10-22",
@@ -37,6 +37,12 @@
     "from": "STRENGTHENING",
     "reason_code": "BELOW_MA60",
     "to": "BROKEN"
+   },
+   {
+    "date": "2026-11-02",
+    "from": "BROKEN",
+    "reason_code": "BROKEN",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-10-22"
@@ -92,12 +98,12 @@
   }
  ],
  "performance": {
-  "benchReturn": -1.0,
-  "currentPrice": 2784.0,
+  "benchReturn": -1.8,
+  "currentPrice": 2745.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 14,
+   "pendingDays": 13,
    "stockReturn": null
   },
   "d5": {
@@ -109,28 +115,28 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 54,
+   "pendingDays": 53,
    "stockReturn": null
   },
-  "excessReturn": -8.9,
+  "excessReturn": -9.4,
   "initialDate": "2026-10-22",
   "initialPrice": 3090.0,
-  "stockReturn": -9.9
+  "stockReturn": -11.2
  },
  "priceSetup": {
-  "asOf": "2026-10-30",
+  "asOf": "2026-11-02",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.12,
+  "distFrom52wHigh": 0.14,
   "labels": [
    "20日線が上向き"
   ],
-  "ma20": 3023.7,
-  "ma200": 2445.9,
-  "ma60": 2913.2,
-  "rangePos60": 0.21,
+  "ma20": 3015.1,
+  "ma200": 2449.2,
+  "ma60": 2911.2,
+  "rangePos60": 0.13,
   "rel20": -1.9,
-  "rel60": -3.6,
-  "volumeRatio20": 3.42
+  "rel60": -4.5,
+  "volumeRatio20": 1.44
  },
  "reasons": [
   "新規大量保有 5.1%（野村證券株式会社）"
@@ -213,7 +219,14 @@
    "kind": "STATUS",
    "label": "BROKEN",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-02",
+   "detail": "Price Setupが崩れた",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-03T01:34:46+09:00"
+ "updatedAt": "2026-11-03T16:11:12+09:00"
 }

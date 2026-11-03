@@ -9,19 +9,27 @@
   "closedAt": null,
   "id": "2871-2026-10-06",
   "overextended": false,
-  "setupType": null,
-  "setups": [],
+  "setupType": "RECOVERY",
+  "setups": [
+   "RECOVERY"
+  ],
   "startedAt": "2026-10-06",
-  "status": "CANDIDATE",
+  "status": "WATCH",
   "statusHistory": [
    {
     "date": "2026-10-06",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-11-02",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
    }
   ],
-  "watchStartedAt": null
+  "watchStartedAt": "2026-11-02"
  },
  "eventReactions": [
   {
@@ -113,28 +121,54 @@
    "startedAt": "2026-09-04"
   }
  ],
- "performance": null,
+ "performance": {
+  "benchReturn": 0.0,
+  "currentPrice": 2152.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 20,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 5,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 60,
+   "stockReturn": null
+  },
+  "excessReturn": 0.0,
+  "initialDate": "2026-11-02",
+  "initialPrice": 2152.0,
+  "stockReturn": 0.0
+ },
  "priceSetup": {
-  "asOf": "2026-10-30",
-  "atrState": "通常",
+  "asOf": "2026-11-02",
+  "atrState": "低ボラ",
   "distFrom52wHigh": 0.08,
   "labels": [
    "20日線の上",
+   "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2125.1,
-  "ma200": 2013.8,
+  "ma20": 2128.4,
+  "ma200": 2015.4,
   "ma60": 2138.6,
-  "rangePos60": 0.56,
-  "rel20": 5.8,
-  "rel60": -1.2,
-  "volumeRatio20": 0.67
+  "rangePos60": 0.58,
+  "rel20": 7.1,
+  "rel60": -0.5,
+  "volumeRatio20": 0.78
  },
  "reasons": [
   "0.1pt買い増し 9.4%→9.5%",
   "30日以内に2回買い増し",
-  "20日線を回復",
-  "TOPIX連動ETF比 +5.8pt（20日）"
+  "20日線上向き",
+  "TOPIX連動ETF比 +7.1pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -256,7 +290,21 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-02",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-02",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-03T01:33:46+09:00"
+ "updatedAt": "2026-11-03T16:10:17+09:00"
 }

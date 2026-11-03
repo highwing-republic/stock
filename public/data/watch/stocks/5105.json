@@ -5,14 +5,14 @@
   "tradingViewSymbol": "TSE:5105"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "BROKEN",
+  "closedAt": "2026-11-02",
   "id": "5105-2026-09-04",
   "overextended": false,
   "setupType": "RECOVERY",
   "setups": [],
   "startedAt": "2026-09-04",
-  "status": "BROKEN",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-09-04",
@@ -37,6 +37,12 @@
     "from": "STRENGTHENING",
     "reason_code": "BELOW_MA20",
     "to": "BROKEN"
+   },
+   {
+    "date": "2026-11-02",
+    "from": "BROKEN",
+    "reason_code": "BROKEN",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-09-28"
@@ -82,8 +88,8 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -2.8,
-  "currentPrice": 4029.0,
+  "benchReturn": -3.5,
+  "currentPrice": 3981.0,
   "d20": {
    "benchReturn": -1.8,
    "excessReturn": 5.9,
@@ -99,33 +105,33 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 37,
+   "pendingDays": 36,
    "stockReturn": null
   },
-  "excessReturn": 6.1,
+  "excessReturn": 5.6,
   "initialDate": "2026-09-28",
   "initialPrice": 3900.0,
-  "stockReturn": 3.3
+  "stockReturn": 2.1
  },
  "priceSetup": {
-  "asOf": "2026-10-30",
+  "asOf": "2026-11-02",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.16,
+  "distFrom52wHigh": 0.17,
   "labels": [
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 4064.3,
-  "ma200": 3931.2,
-  "ma60": 3887.0,
-  "rangePos60": 0.63,
-  "rel20": 6.9,
-  "rel60": -5.7,
-  "volumeRatio20": 0.69
+  "ma20": 4068.1,
+  "ma200": 3930.1,
+  "ma60": 3884.6,
+  "rangePos60": 0.57,
+  "rel20": 5.9,
+  "rel60": -3.9,
+  "volumeRatio20": 0.76
  },
  "reasons": [
   "新規大量保有 5.1%（みずほ証券株式会社）",
-  "TOPIX連動ETF比 +6.9pt（20日）",
+  "TOPIX連動ETF比 +5.9pt（20日）",
   "信用買残 -8%"
  ],
  "schemaVersion": 1,
@@ -262,7 +268,14 @@
    "kind": "STATUS",
    "label": "BROKEN",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-02",
+   "detail": "Price Setupが崩れた",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-03T01:33:46+09:00"
+ "updatedAt": "2026-11-03T16:10:17+09:00"
 }
