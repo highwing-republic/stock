@@ -5,20 +5,26 @@
   "tradingViewSymbol": "TSE:1861"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "NO_SETUP",
+  "closedAt": "2026-11-04",
   "id": "1861-2026-10-05",
   "overextended": false,
   "setupType": null,
   "setups": [],
   "startedAt": "2026-10-05",
-  "status": "CANDIDATE",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-10-05",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-11-04",
+    "from": "CANDIDATE",
+    "reason_code": "NO_SETUP",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": null
@@ -101,23 +107,23 @@
  ],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-02",
+  "asOf": "2026-11-04",
   "atrState": "低ボラ",
   "distFrom52wHigh": 0.37,
   "labels": [
    "20日線の上"
   ],
-  "ma20": 1218.0,
-  "ma200": 1459.1,
-  "ma60": 1260.7,
-  "rangePos60": 0.27,
-  "rel20": 3.6,
+  "ma20": 1218.1,
+  "ma200": 1457.5,
+  "ma60": 1258.4,
+  "rangePos60": 0.26,
+  "rel20": 5.3,
   "rel60": -10.4,
-  "volumeRatio20": 0.94
+  "volumeRatio20": 1.31
  },
  "reasons": [
   "新規大量保有 5.2%（ＪＰモルガン証券株式会社）",
-  "TOPIX連動ETF比 +3.6pt（20日）",
+  "TOPIX連動ETF比 +5.3pt（20日）",
   "信用買残 -3%"
  ],
  "schemaVersion": 1,
@@ -191,7 +197,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-04",
+   "detail": "期限内にPrice Setupが成立しなかった",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-04T01:57:32+09:00"
+ "updatedAt": "2026-11-04T15:59:06+09:00"
 }

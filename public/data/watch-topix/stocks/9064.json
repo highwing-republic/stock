@@ -1,0 +1,159 @@
+{
+ "company": {
+  "name": "ヤマトホールディングス",
+  "securityCode": "9064",
+  "tradingViewSymbol": "TSE:9064"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "9064-2026-11-04",
+  "overextended": false,
+  "setupType": "RECOVERY",
+  "setups": [
+   "RECOVERY"
+  ],
+  "startedAt": "2026-11-04",
+  "status": "WATCH",
+  "statusHistory": [
+   {
+    "date": "2026-11-04",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-11-04",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   }
+  ],
+  "watchStartedAt": "2026-11-04"
+ },
+ "eventReactions": [
+  {
+   "d1": 0.7,
+   "d20": 3.0,
+   "d5": 3.7,
+   "eventId": "edinet:S100YTXL",
+   "excess5": 0.4
+  },
+  {
+   "d1": 11.5,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZB4F",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-30",
+  "buyBalance": 151500,
+  "buyChangePct": -27.1,
+  "labels": [
+   "信用買残減少",
+   "信用倍率改善"
+  ],
+  "ratio": 2.06,
+  "sellBalance": 73600,
+  "sellChangePct": -6.1
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": 0.0,
+  "currentPrice": 2194.5,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 20,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 5,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 60,
+   "stockReturn": null
+  },
+  "excessReturn": 0.0,
+  "initialDate": "2026-11-04",
+  "initialPrice": 2194.5,
+  "stockReturn": 0.0
+ },
+ "priceSetup": {
+  "asOf": "2026-11-04",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.05,
+  "labels": [
+   "20日線の上",
+   "60日レンジ上位14%",
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 2039.2,
+  "ma200": 1881.2,
+  "ma60": 1972.3,
+  "rangePos60": 0.86,
+  "rel20": 17.6,
+  "rel60": 15.5,
+  "volumeRatio20": 5.07
+ },
+ "reasons": [
+  "新規大量保有 5%（Ｆａｒａｌｌｏｎ　Ｃａｐｉｔａｌ　Ｍａｎａｇｅｍｅｎｔ，　Ｌ．Ｌ．Ｃ．）",
+  "出来高 5.1倍で60日高値更新",
+  "60日レンジ上位14%",
+  "20日線を回復"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-08-06",
+   "detail": "5.27% → 4.2%（三井住友トラスト・アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YTXL"
+  },
+  {
+   "date": "2026-11-02",
+   "detail": "保有割合 5.02%（Ｆａｒａｌｌｏｎ　Ｃａｐｉｔａｌ　Ｍａｎａｇｅｍｅｎｔ，　Ｌ．Ｌ．Ｃ．）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZB4F"
+  },
+  {
+   "date": "2026-11-04",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-04",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-04",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-04",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-11-04T15:59:06+09:00"
+}

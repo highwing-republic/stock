@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T01:56:36+09:00",
+  "updatedAt": "2026-11-04T15:57:51+09:00",
   "company": {
     "securityCode": "7425",
     "ticker": "7425.T",
@@ -20,20 +20,22 @@
       "purpose": "発行会社の取締役として長期保有を目的としております。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": 1.07,
+      "volumeRatio": 44.92,
       "marketExcessReturn": null,
-      "signalScore": 30,
+      "signalScore": 45,
       "signalReasons": [
         "1pt以上買い増し",
-        "2pt以上買い増し"
+        "2pt以上買い増し",
+        "出来高2倍以上",
+        "出来高3倍以上"
       ],
       "stockUnreacted": false,
       "metrics": {
         "return1d": -2.24,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -1.88,
-        "volumeRatio": 1.07,
+        "returnCurrent": -7.17,
+        "volumeRatio": 44.92,
         "marketExcessReturn": null
       }
     },
@@ -51,19 +53,21 @@
       "purpose": "安定株主として長期保有を目的としております。",
       "importantProposal": true,
       "priceChange": null,
-      "volumeRatio": 1.07,
+      "volumeRatio": 44.92,
       "marketExcessReturn": null,
-      "signalScore": 20,
+      "signalScore": 35,
       "signalReasons": [
-        "重要提案行為あり"
+        "重要提案行為あり",
+        "出来高2倍以上",
+        "出来高3倍以上"
       ],
       "stockUnreacted": false,
       "metrics": {
         "return1d": -2.24,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -1.88,
-        "volumeRatio": 1.07,
+        "returnCurrent": -7.17,
+        "volumeRatio": 44.92,
         "marketExcessReturn": null
       }
     },
@@ -81,20 +85,22 @@
       "purpose": "発行会社の取締役として長期保有を目的としております。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": 1.07,
+      "volumeRatio": 44.92,
       "marketExcessReturn": null,
-      "signalScore": 30,
+      "signalScore": 45,
       "signalReasons": [
         "1pt以上買い増し",
-        "2pt以上買い増し"
+        "2pt以上買い増し",
+        "出来高2倍以上",
+        "出来高3倍以上"
       ],
       "stockUnreacted": false,
       "metrics": {
         "return1d": -2.24,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -1.88,
-        "volumeRatio": 1.07,
+        "returnCurrent": -7.17,
+        "volumeRatio": 44.92,
         "marketExcessReturn": null
       }
     },
@@ -111,22 +117,25 @@
       "holdingChange": 2.82,
       "purpose": "発行会社の取締役として長期保有を目的としております。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.67,
-      "marketExcessReturn": null,
-      "signalScore": 30,
+      "priceChange": -7.17,
+      "volumeRatio": 24.09,
+      "marketExcessReturn": -6.12,
+      "signalScore": 55,
       "signalReasons": [
         "1pt以上買い増し",
-        "2pt以上買い増し"
+        "2pt以上買い増し",
+        "出来高2倍以上",
+        "出来高3倍以上",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": 0.0,
-        "return5d": null,
+        "return5d": -7.17,
         "return20d": null,
-        "returnCurrent": -1.88,
-        "volumeRatio": 0.67,
-        "marketExcessReturn": null
+        "returnCurrent": -7.17,
+        "volumeRatio": 24.09,
+        "marketExcessReturn": -6.12
       }
     }
   ],
@@ -2830,6 +2839,16 @@
       "close": 1094.0,
       "adj_close": 1094.0,
       "volume": 600
+    },
+    {
+      "ticker": "7425.T",
+      "trade_date": "2026-11-04",
+      "open": 1095.0,
+      "high": 1095.0,
+      "low": 1035.0,
+      "close": 1035.0,
+      "adj_close": 1035.0,
+      "volume": 136600
     }
   ],
   "benchmark": [
@@ -6802,6 +6821,16 @@
       "close": 413.0,
       "adj_close": 413.0,
       "volume": 25860840
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-04",
+      "open": 414.70001220703125,
+      "high": 415.29998779296875,
+      "low": 398.8999938964844,
+      "close": 414.0,
+      "adj_close": 414.0,
+      "volume": 25451870
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

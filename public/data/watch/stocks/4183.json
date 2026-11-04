@@ -12,7 +12,7 @@
   "setupType": "RECOVERY",
   "setups": [],
   "startedAt": "2026-10-06",
-  "status": "WATCH",
+  "status": "BROKEN",
   "statusHistory": [
    {
     "date": "2026-10-06",
@@ -25,6 +25,12 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
+   },
+   {
+    "date": "2026-11-04",
+    "from": "WATCH",
+    "reason_code": "BELOW_MA60",
+    "to": "BROKEN"
    }
   ],
   "watchStartedAt": "2026-10-29"
@@ -32,7 +38,7 @@
  "eventReactions": [
   {
    "d1": 0.1,
-   "d20": null,
+   "d20": -14.4,
    "d5": -4.3,
    "eventId": "edinet:S100Z63U",
    "excess5": -3.4
@@ -52,49 +58,46 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -2.0,
-  "currentPrice": 2070.5,
+  "benchReturn": -1.7,
+  "currentPrice": 1856.5,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 18,
+   "pendingDays": 17,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 3,
+   "pendingDays": 2,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 58,
+   "pendingDays": 57,
    "stockReturn": null
   },
-  "excessReturn": 0.2,
+  "excessReturn": -10.3,
   "initialDate": "2026-10-29",
   "initialPrice": 2108.5,
-  "stockReturn": -1.8
+  "stockReturn": -12.0
  },
  "priceSetup": {
-  "asOf": "2026-11-02",
-  "atrState": "低ボラ",
-  "distFrom52wHigh": 0.13,
-  "labels": [
-   "20日線が上向き"
-  ],
-  "ma20": 2101.8,
-  "ma200": 2071.4,
-  "ma60": 2119.2,
-  "rangePos60": 0.21,
-  "rel20": 2.5,
-  "rel60": 0.5,
-  "volumeRatio20": 0.79
+  "asOf": "2026-11-04",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.22,
+  "labels": [],
+  "ma20": 2086.2,
+  "ma200": 2070.7,
+  "ma60": 2115.9,
+  "rangePos60": 0.15,
+  "rel20": -9.3,
+  "rel60": -10.3,
+  "volumeRatio20": 7.06
  },
  "reasons": [
   "1.1pt買い増し 6.1%→7.1%",
-  "TOPIX連動ETF比 +2.5pt（20日）",
   "信用買残 -11%"
  ],
  "schemaVersion": 1,
@@ -161,7 +164,14 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-04",
+   "detail": "60日線を下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-04T01:56:45+09:00"
+ "updatedAt": "2026-11-04T15:58:04+09:00"
 }

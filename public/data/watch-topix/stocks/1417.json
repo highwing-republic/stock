@@ -1,0 +1,77 @@
+{
+ "company": {
+  "name": "ミライト・ワン",
+  "securityCode": "1417",
+  "tradingViewSymbol": "TSE:1417"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "1417-2026-11-04",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-11-04",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-11-04",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": 0.2,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZAY1",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-10-30",
+  "buyBalance": 114500,
+  "buyChangePct": -2.6,
+  "labels": [
+   "信用倍率改善",
+   "売残増加"
+  ],
+  "ratio": 7.16,
+  "sellBalance": 16000,
+  "sellChangePct": 56.9
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-11-04",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.24,
+  "labels": [],
+  "ma20": 3347.4,
+  "ma200": 3652.8,
+  "ma60": 3448.2,
+  "rangePos60": 0.08,
+  "rel20": -0.2,
+  "rel60": -3.7,
+  "volumeRatio20": 1.58
+ },
+ "reasons": [
+  "新規大量保有 5%（Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．）",
+  "信用買残 -3%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-11-02",
+   "detail": "保有割合 5.04%（Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAY1"
+  }
+ ],
+ "updatedAt": "2026-11-04T15:59:06+09:00"
+}

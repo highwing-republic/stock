@@ -9,8 +9,9 @@
   "closedAt": null,
   "id": "2432-2026-10-21",
   "overextended": false,
-  "setupType": "TREND",
+  "setupType": "BREAKOUT",
   "setups": [
+   "BREAKOUT",
    "TREND",
    "RECOVERY"
   ],
@@ -69,7 +70,7 @@
   },
   {
    "d1": -0.1,
-   "d20": null,
+   "d20": 3.5,
    "d5": 2.2,
    "eventId": "edinet:S100Z60Y",
    "excess5": 3.1
@@ -101,12 +102,12 @@
   }
  ],
  "performance": {
-  "benchReturn": -3.0,
-  "currentPrice": 2558.0,
+  "benchReturn": -2.7,
+  "currentPrice": 2578.5,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 12,
+   "pendingDays": 11,
    "stockReturn": null
   },
   "d5": {
@@ -118,36 +119,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 52,
+   "pendingDays": 51,
    "stockReturn": null
   },
-  "excessReturn": 3.4,
+  "excessReturn": 3.9,
   "initialDate": "2026-10-21",
   "initialPrice": 2547.0,
-  "stockReturn": 0.4
+  "stockReturn": 1.2
  },
  "priceSetup": {
-  "asOf": "2026-11-02",
+  "asOf": "2026-11-04",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.09,
+  "distFrom52wHigh": 0.08,
   "labels": [
    "20日線の上",
+   "60日レンジ上位22%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2537.3,
-  "ma200": 2550.7,
-  "ma60": 2530.2,
-  "rangePos60": 0.7,
-  "rel20": 5.0,
-  "rel60": 1.5,
-  "volumeRatio20": 1.0
+  "ma20": 2541.6,
+  "ma200": 2550.8,
+  "ma60": 2531.9,
+  "rangePos60": 0.78,
+  "rel20": 8.6,
+  "rel60": 3.8,
+  "volumeRatio20": 1.24
  },
  "reasons": [
   "新規大量保有 5.4%（野村アセットマネジメント株式会社）",
+  "60日レンジ上位22%",
   "20日線上向き",
-  "TOPIX連動ETF比 +5pt（20日）",
-  "52週高値まで9%"
+  "TOPIX連動ETF比 +8.6pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -241,7 +243,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-04",
+   "detail": "TREND → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup変化",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-04T01:57:32+09:00"
+ "updatedAt": "2026-11-04T15:59:06+09:00"
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T01:56:36+09:00",
+  "updatedAt": "2026-11-04T15:57:51+09:00",
   "company": {
     "securityCode": "4318",
     "ticker": "4318.T",
@@ -19,22 +19,23 @@
       "holdingChange": null,
       "purpose": "提出者の保有目的は純投資であり、発行者の持続的な企業価値の向上に必要であると判断した場合には以下の重要提案行為等を行う可能性がある。・重要な財産の処分又は譲受け・代表取締役の選定若しくは解職・特定の者の役員への選任・役員の構成の重要な変更・事業の全部又は一部の譲渡、譲受け、休止又は廃止・配当に関する方針の重要な変更・資本政策に関する重要な変更上記以外の重要提案行為等の具体的な内容、時期及び条件については未定である。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 2.4,
-      "marketExcessReturn": null,
-      "signalScore": 40,
+      "priceChange": -1.07,
+      "volumeRatio": 2.28,
+      "marketExcessReturn": -0.02,
+      "signalScore": 50,
       "signalReasons": [
         "新規大量保有",
-        "出来高2倍以上"
+        "出来高2倍以上",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": -0.84,
-        "return5d": null,
+        "return5d": -1.07,
         "return20d": null,
-        "returnCurrent": -1.19,
-        "volumeRatio": 2.4,
-        "marketExcessReturn": null
+        "returnCurrent": -1.07,
+        "volumeRatio": 2.28,
+        "marketExcessReturn": -0.02
       }
     },
     {
@@ -60,7 +61,7 @@
         "return1d": -3.54,
         "return5d": -0.47,
         "return20d": -1.89,
-        "returnCurrent": -2.24,
+        "returnCurrent": -2.13,
         "volumeRatio": 1.06,
         "marketExcessReturn": 0.51
       }
@@ -88,7 +89,7 @@
         "return1d": -2.06,
         "return5d": -2.75,
         "return20d": 6.19,
-        "returnCurrent": 13.89,
+        "returnCurrent": 14.03,
         "volumeRatio": 0.82,
         "marketExcessReturn": 0.0
       }
@@ -119,7 +120,7 @@
         "return1d": -2.06,
         "return5d": -2.75,
         "return20d": 6.19,
-        "returnCurrent": 13.89,
+        "returnCurrent": 14.03,
         "volumeRatio": 0.82,
         "marketExcessReturn": 0.0
       }
@@ -150,7 +151,7 @@
         "return1d": -2.06,
         "return5d": -2.75,
         "return20d": 6.19,
-        "returnCurrent": 13.89,
+        "returnCurrent": 14.03,
         "volumeRatio": 0.82,
         "marketExcessReturn": 0.0
       }
@@ -181,7 +182,7 @@
         "return1d": -2.06,
         "return5d": -2.75,
         "return20d": 6.19,
-        "returnCurrent": 13.89,
+        "returnCurrent": 14.03,
         "volumeRatio": 0.82,
         "marketExcessReturn": 0.0
       }
@@ -212,7 +213,7 @@
         "return1d": -2.06,
         "return5d": -2.75,
         "return20d": 6.19,
-        "returnCurrent": 13.89,
+        "returnCurrent": 14.03,
         "volumeRatio": 0.82,
         "marketExcessReturn": 0.0
       }
@@ -3198,6 +3199,16 @@
       "close": 828.0,
       "adj_close": 828.0,
       "volume": 152900
+    },
+    {
+      "ticker": "4318.T",
+      "trade_date": "2026-11-04",
+      "open": 823.0,
+      "high": 846.0,
+      "low": 817.0,
+      "close": 829.0,
+      "adj_close": 829.0,
+      "volume": 200100
     }
   ],
   "benchmark": [
@@ -7170,6 +7181,16 @@
       "close": 413.0,
       "adj_close": 413.0,
       "volume": 25860840
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-04",
+      "open": 414.70001220703125,
+      "high": 415.29998779296875,
+      "low": 398.8999938964844,
+      "close": 414.0,
+      "adj_close": 414.0,
+      "volume": 25451870
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"
