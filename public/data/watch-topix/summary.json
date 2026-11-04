@@ -141,24 +141,9 @@
     "watchStartedAt": "2026-10-30"
    },
    {
-    "companyName": "愛媛銀行",
-    "excessSinceWatch": -5.3,
-    "rank": 9,
-    "rankChange": "down",
-    "reasons": [
-     "1.3pt買い増し 5.2%→6.5%",
-     "信用買残 -8%"
-    ],
-    "returnSinceWatch": -6.4,
-    "securityCode": "8541",
-    "setupType": "TREND",
-    "status": "STRENGTHENING",
-    "watchStartedAt": "2026-10-26"
-   },
-   {
     "companyName": "東洋水産",
     "excessSinceWatch": 7.9,
-    "rank": 10,
+    "rank": 9,
     "rankChange": "new",
     "reasons": [
      "1.1pt買い増し 5.1%→6.2%",
@@ -171,6 +156,23 @@
     "setupType": "TREND",
     "status": "STRENGTHENING",
     "watchStartedAt": "2026-10-19"
+   },
+   {
+    "companyName": "宝ホールディングス",
+    "excessSinceWatch": 14.8,
+    "rank": 10,
+    "rankChange": "down",
+    "reasons": [
+     "1pt買い増し 19%→20%",
+     "60日レンジ上位14%",
+     "20日線上向き",
+     "TOPIX連動ETF比 +30.2pt（20日）"
+    ],
+    "returnSinceWatch": 11.7,
+    "securityCode": "2531",
+    "setupType": "RECOVERY",
+    "status": "REACTED",
+    "watchStartedAt": "2026-10-19"
    }
   ],
   "periodKey": "2026-11"
@@ -178,20 +180,20 @@
  "schemaVersion": 1,
  "sources": {
   "edinet": {
-   "lastSuccessAt": "2026-11-04T15:50:41+09:00",
+   "lastSuccessAt": "2026-11-04T20:27:59+09:00",
    "status": "ok"
   },
   "margin": {
-   "asOf": "2026-10-30",
+   "asOf": "2026-11-02",
    "status": "ok"
   },
   "prices": {
    "coverage": 1.0,
-   "lastSuccessAt": "2026-11-04T15:59:06+09:00",
+   "lastSuccessAt": "2026-11-04T20:34:02+09:00",
    "status": "ok"
   },
   "topix": {
-   "lastSuccessAt": "2026-11-04T15:59:06+09:00",
+   "lastSuccessAt": "2026-11-04T20:34:02+09:00",
    "memberCount": 986,
    "status": "ok"
   }
@@ -605,7 +607,7 @@
   "note": "移行措置銘柄を除く"
  },
  "universeCount": 986,
- "updatedAt": "2026-11-04T15:59:06+09:00",
+ "updatedAt": "2026-11-04T20:34:02+09:00",
  "weekly": {
   "entries": [
    {
@@ -682,8 +684,7 @@
     "rank": 5,
     "rankChange": "down",
     "reasons": [
-     "1.3pt買い増し 5.2%→6.5%",
-     "信用買残 -8%"
+     "1.3pt買い増し 5.2%→6.5%"
     ],
     "returnSinceWatch": -6.4,
     "securityCode": "8541",
