@@ -5,14 +5,14 @@
   "tradingViewSymbol": "TSE:1721"
  },
  "episode": {
-  "closeReason": "BROKEN",
-  "closedAt": "2026-11-05",
+  "closeReason": null,
+  "closedAt": null,
   "id": "1721-2026-10-06",
   "overextended": false,
   "setupType": "TREND",
   "setups": [],
   "startedAt": "2026-10-06",
-  "status": "CLOSED",
+  "status": "BROKEN",
   "statusHistory": [
    {
     "date": "2026-10-06",
@@ -37,12 +37,6 @@
     "from": "STRENGTHENING",
     "reason_code": "BELOW_MA20",
     "to": "BROKEN"
-   },
-   {
-    "date": "2026-11-05",
-    "from": "BROKEN",
-    "reason_code": "BROKEN",
-    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-10-07"
@@ -98,12 +92,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -4.9,
-  "currentPrice": 5444.0,
+  "benchReturn": -5.3,
+  "currentPrice": 5379.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 1,
+   "pendingDays": 2,
    "stockReturn": null
   },
   "d5": {
@@ -115,33 +109,32 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 41,
+   "pendingDays": 42,
    "stockReturn": null
   },
-  "excessReturn": 1.5,
+  "excessReturn": 0.7,
   "initialDate": "2026-10-07",
   "initialPrice": 5637.0,
-  "stockReturn": -3.4
+  "stockReturn": -4.6
  },
  "priceSetup": {
-  "asOf": "2026-11-05",
+  "asOf": "2026-11-04",
   "atrState": "通常",
-  "distFrom52wHigh": 0.11,
+  "distFrom52wHigh": 0.12,
   "labels": [
-   "20日線が上向き",
-   "60日線の上"
+   "20日線が上向き"
   ],
-  "ma20": 5581.9,
-  "ma200": 5287.6,
-  "ma60": 5440.1,
-  "rangePos60": 0.48,
-  "rel20": 3.1,
-  "rel60": 6.1,
-  "volumeRatio20": 1.11
+  "ma20": 5588.9,
+  "ma200": 5283.2,
+  "ma60": 5435.9,
+  "rangePos60": 0.39,
+  "rel20": 2.7,
+  "rel60": 3.3,
+  "volumeRatio20": 0.96
  },
  "reasons": [
   "新規大量保有 5.6%（ブラックロック・ジャパン株式会社）",
-  "TOPIX連動ETF比 +3.1pt（20日）",
+  "TOPIX連動ETF比 +2.7pt（20日）",
   "信用買残 -16%"
  ],
  "schemaVersion": 1,
@@ -278,21 +271,7 @@
    "kind": "STATUS",
    "label": "BROKEN",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-11-05",
-   "detail": "60日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-05",
-   "detail": "Price Setupが崩れた",
-   "kind": "STATUS",
-   "label": "CLOSED",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-05T23:59:58+09:00"
+ "updatedAt": "2026-11-06T02:08:20+09:00"
 }

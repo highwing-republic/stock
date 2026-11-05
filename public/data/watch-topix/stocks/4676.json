@@ -1,0 +1,253 @@
+{
+ "company": {
+  "name": "フジ・メディア・ホールディングス",
+  "securityCode": "4676",
+  "tradingViewSymbol": "TSE:4676"
+ },
+ "episode": {
+  "closeReason": "BROKEN",
+  "closedAt": "2026-10-29",
+  "id": "4676-2026-09-18",
+  "overextended": false,
+  "setupType": "BREAKOUT",
+  "setups": [],
+  "startedAt": "2026-09-18",
+  "status": "CLOSED",
+  "statusHistory": [
+   {
+    "date": "2026-09-18",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-10-14",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   },
+   {
+    "date": "2026-10-15",
+    "from": "WATCH",
+    "reason_code": "SETUP_IMPROVED",
+    "to": "STRENGTHENING"
+   },
+   {
+    "date": "2026-10-28",
+    "from": "STRENGTHENING",
+    "reason_code": "BELOW_MA20",
+    "to": "BROKEN"
+   },
+   {
+    "date": "2026-10-29",
+    "from": "BROKEN",
+    "reason_code": "BROKEN",
+    "to": "CLOSED"
+   }
+  ],
+  "watchStartedAt": "2026-10-14"
+ },
+ "eventReactions": [
+  {
+   "d1": -2.8,
+   "d20": 4.4,
+   "d5": -4.0,
+   "eventId": "edinet:S100YZYY",
+   "excess5": -3.5
+  },
+  {
+   "d1": 0.9,
+   "d20": 6.6,
+   "d5": 0.1,
+   "eventId": "edinet:S100Z3CB",
+   "excess5": -1.1
+  },
+  {
+   "d1": 0.1,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZAKF",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-11-04",
+  "buyBalance": 334500,
+  "buyChangePct": -9.1,
+  "labels": [],
+  "ratio": 3.24,
+  "sellBalance": 103200,
+  "sellChangePct": -3.6
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": -2.3,
+  "currentPrice": 3996.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 6,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": -1.3,
+   "excessReturn": 6.1,
+   "pendingDays": 0,
+   "stockReturn": 4.8
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 46,
+   "stockReturn": null
+  },
+  "excessReturn": 1.3,
+  "initialDate": "2026-10-14",
+  "initialPrice": 4037.0,
+  "stockReturn": -1.0
+ },
+ "priceSetup": {
+  "asOf": "2026-11-04",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.09,
+  "labels": [
+   "20日線が上向き"
+  ],
+  "ma20": 4048.0,
+  "ma200": 3850.5,
+  "ma60": 4016.3,
+  "rangePos60": 0.35,
+  "rel20": 6.7,
+  "rel60": 4.9,
+  "volumeRatio20": 0.81
+ },
+ "reasons": [
+  "新規大量保有 5.6%（大和証券株式会社）",
+  "TOPIX連動ETF比 +6.7pt（20日）",
+  "52週高値まで9%",
+  "信用買残 -9%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-09-17",
+   "detail": "7.19% → 8.62%（東宝株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YZYY"
+  },
+  {
+   "date": "2026-09-18",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-24",
+   "detail": "保有割合 5.6%（大和証券株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z3CB"
+  },
+  {
+   "date": "2026-09-28",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-13",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-14",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-14",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-15",
+   "detail": "RECOVERY → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-15",
+   "detail": "Price Setupが改善",
+   "kind": "STATUS",
+   "label": "STRENGTHENING",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-20",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-21",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-26",
+   "detail": "BREAKOUT → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-28",
+   "detail": "20日線を連続で下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-29",
+   "detail": "Price Setupが崩れた",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-30",
+   "detail": "5.6% → 4.59%（大和証券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAKF"
+  }
+ ],
+ "updatedAt": "2026-11-06T02:09:08+09:00"
+}
