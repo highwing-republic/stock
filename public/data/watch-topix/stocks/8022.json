@@ -10,7 +10,11 @@
   "id": "8022-2026-09-24",
   "overextended": false,
   "setupType": "BREAKOUT",
-  "setups": [],
+  "setups": [
+   "BREAKOUT",
+   "TREND",
+   "RECOVERY"
+  ],
   "startedAt": "2026-09-24",
   "status": "REACTED",
   "statusHistory": [
@@ -72,15 +76,13 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-02",
-  "buyBalance": 34600,
-  "buyChangePct": 6.1,
-  "labels": [
-   "信用倍率悪化"
-  ],
-  "ratio": 2.18,
-  "sellBalance": 15900,
-  "sellChangePct": -42.0
+  "asOf": "2026-11-04",
+  "buyBalance": 33300,
+  "buyChangePct": -2.6,
+  "labels": [],
+  "ratio": 2.07,
+  "sellBalance": 16100,
+  "sellChangePct": -15.3
  },
  "pastEpisodes": [
   {
@@ -99,8 +101,8 @@
   }
  ],
  "performance": {
-  "benchReturn": -2.5,
-  "currentPrice": 4310.0,
+  "benchReturn": -2.2,
+  "currentPrice": 4595.0,
   "d20": {
    "benchReturn": -2.0,
    "excessReturn": 9.7,
@@ -116,34 +118,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 33,
+   "pendingDays": 32,
    "stockReturn": null
   },
-  "excessReturn": 8.3,
+  "excessReturn": 15.0,
   "initialDate": "2026-09-24",
   "initialPrice": 4072.4,
-  "stockReturn": 5.8
+  "stockReturn": 12.8
  },
  "priceSetup": {
-  "asOf": "2026-11-04",
+  "asOf": "2026-11-05",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.08,
+  "distFrom52wHigh": 0.01,
   "labels": [
+   "20日線の上",
+   "60日レンジ上位6%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 4366.8,
-  "ma200": 3663.7,
-  "ma60": 4152.4,
-  "rangePos60": 0.69,
-  "rel20": 5.3,
-  "rel60": 18.5,
-  "volumeRatio20": 1.06
+  "ma20": 4383.8,
+  "ma200": 3669.4,
+  "ma60": 4167.8,
+  "rangePos60": 0.94,
+  "rel20": 13.6,
+  "rel60": 26.7,
+  "volumeRatio20": 1.91
  },
  "reasons": [
   "新規大量保有 5.2%（三井住友信託銀行株式会社）",
-  "TOPIX連動ETF比 +5.3pt（20日）",
-  "52週高値まで8%"
+  "60日レンジ上位6%",
+  "20日線を回復",
+  "TOPIX連動ETF比 +13.6pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -251,7 +256,21 @@
    "kind": "EVENT",
    "label": "保有割合の減少",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAS8"
+  },
+  {
+   "date": "2026-11-05",
+   "detail": "なし → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-05",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-04T23:57:18+09:00"
+ "updatedAt": "2026-11-05T16:15:11+09:00"
 }

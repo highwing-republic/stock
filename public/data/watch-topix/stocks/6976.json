@@ -219,16 +219,33 @@
    "d5": 2.3,
    "eventId": "edinet:S100Z9PE",
    "excess5": 2.3
+  },
+  {
+   "d1": -13.5,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZB8M",
+   "excess5": null
+  },
+  {
+   "d1": -13.5,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZC4G",
+   "excess5": null
   }
  ],
  "margin": {
-  "asOf": "2026-11-02",
-  "buyBalance": 4164500,
-  "buyChangePct": -1.7,
-  "labels": [],
-  "ratio": 8.08,
-  "sellBalance": 515700,
-  "sellChangePct": -17.7
+  "asOf": "2026-11-04",
+  "buyBalance": 4574100,
+  "buyChangePct": 24.5,
+  "labels": [
+   "信用買残急増",
+   "信用倍率悪化"
+  ],
+  "ratio": 8.98,
+  "sellBalance": 509400,
+  "sellChangePct": -25.5
  },
  "pastEpisodes": [
   {
@@ -241,22 +258,21 @@
  ],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-04",
+  "asOf": "2026-11-05",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.68,
+  "distFrom52wHigh": 0.73,
   "labels": [],
-  "ma20": 9561.3,
-  "ma200": 8793.4,
-  "ma60": 9528.1,
-  "rangePos60": 0.11,
-  "rel20": -22.3,
-  "rel60": -26.1,
-  "volumeRatio20": 1.3
+  "ma20": 9333.5,
+  "ma200": 8809.5,
+  "ma60": 9452.6,
+  "rangePos60": 0.01,
+  "rel20": -35.3,
+  "rel60": -39.4,
+  "volumeRatio20": 0.9
  },
  "reasons": [
   "1.6pt買い増し 13.7%→15.3%",
-  "30日以内に2回買い増し",
-  "信用買残 -2%"
+  "30日以内に2回買い増し"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -462,7 +478,21 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-05",
+   "detail": "15.31% → 14.68%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZC4G"
+  },
+  {
+   "date": "2026-11-05",
+   "detail": "保有割合 5.35%（コーズウェイキャピタルマネジメントエルエルシー）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZB8M"
   }
  ],
- "updatedAt": "2026-11-04T23:57:18+09:00"
+ "updatedAt": "2026-11-05T16:15:11+09:00"
 }

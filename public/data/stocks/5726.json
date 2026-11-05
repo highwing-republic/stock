@@ -1,11 +1,42 @@
 {
-  "updatedAt": "2026-11-05T01:55:18+09:00",
+  "updatedAt": "2026-11-05T16:14:07+09:00",
   "company": {
     "securityCode": "5726",
     "ticker": "5726.T",
     "name": "株式会社大阪チタニウムテクノロジーズ"
   },
   "events": [
+    {
+      "docId": "S100ZB5R",
+      "ticker": "5726.T",
+      "securityCode": "5726",
+      "companyName": "株式会社大阪チタニウムテクノロジーズ",
+      "submitDatetime": "2026-11-05 09:05",
+      "filerName": "三井住友トラスト・アセットマネジメント株式会社",
+      "reportType": "change",
+      "holdingRatio": 13.63,
+      "previousHoldingRatio": 12.44,
+      "holdingChange": 1.19,
+      "purpose": "投資信託契約、投資一任契約に基づく運用を目的として保有するもの。 / 証券投資信託及び投資一任契約において、株券等の取得・処分の権限を有するもの。",
+      "importantProposal": true,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 40,
+      "signalReasons": [
+        "1pt以上買い増し",
+        "重要提案行為あり"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 0.24,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z641",
       "ticker": "5726.T",
@@ -30,8 +61,8 @@
       "metrics": {
         "return1d": 0.59,
         "return5d": -2.06,
-        "return20d": null,
-        "returnCurrent": -10.69,
+        "return20d": -11.83,
+        "returnCurrent": -11.83,
         "volumeRatio": 0.94,
         "marketExcessReturn": -0.91
       }
@@ -61,7 +92,7 @@
         "return1d": 3.82,
         "return5d": -0.62,
         "return20d": -13.29,
-        "returnCurrent": -11.88,
+        "returnCurrent": -13.0,
         "volumeRatio": 0.73,
         "marketExcessReturn": -1.89
       }
@@ -93,7 +124,7 @@
         "return1d": -3.29,
         "return5d": -0.04,
         "return20d": -8.81,
-        "returnCurrent": -13.84,
+        "returnCurrent": -14.94,
         "volumeRatio": 0.96,
         "marketExcessReturn": -1.69
       }
@@ -123,7 +154,7 @@
         "return1d": 1.85,
         "return5d": -1.3,
         "return20d": -12.0,
-        "returnCurrent": -21.41,
+        "returnCurrent": -22.41,
         "volumeRatio": 0.82,
         "marketExcessReturn": 1.98
       }
@@ -153,7 +184,7 @@
         "return1d": 1.83,
         "return5d": -0.64,
         "return20d": -10.41,
-        "returnCurrent": -20.55,
+        "returnCurrent": -21.56,
         "volumeRatio": 0.7,
         "marketExcessReturn": 1.97
       }
@@ -183,7 +214,7 @@
         "return1d": -6.25,
         "return5d": -6.78,
         "return20d": -14.94,
-        "returnCurrent": -33.69,
+        "returnCurrent": -34.53,
         "volumeRatio": 1.17,
         "marketExcessReturn": -10.7
       }
@@ -4086,9 +4117,19 @@
       "open": 2022.0,
       "high": 2100.0,
       "low": 1972.0,
-      "close": null,
-      "adj_close": null,
+      "close": 2090.0,
+      "adj_close": 2090.0,
       "volume": 720300
+    },
+    {
+      "ticker": "5726.T",
+      "trade_date": "2026-11-05",
+      "open": 2129.0,
+      "high": 2155.0,
+      "low": 2074.0,
+      "close": 2095.0,
+      "adj_close": 2095.0,
+      "volume": 335000
     }
   ],
   "benchmark": [
@@ -8066,11 +8107,21 @@
       "ticker": "1306.T",
       "trade_date": "2026-11-04",
       "open": 414.70001220703125,
-      "high": 415.29998779296875,
+      "high": 415.20001220703125,
       "low": 398.8999938964844,
       "close": 414.0,
       "adj_close": 414.0,
       "volume": 25451870
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-05",
+      "open": 418.1000061035156,
+      "high": 419.6000061035156,
+      "low": 411.79998779296875,
+      "close": 415.6000061035156,
+      "adj_close": 415.6000061035156,
+      "volume": 28586460
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

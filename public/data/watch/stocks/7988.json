@@ -64,20 +64,22 @@
   },
   {
    "d1": 0.9,
-   "d20": null,
+   "d20": 4.7,
    "d5": 5.8,
    "eventId": "edinet:S100Z6PV",
    "excess5": 7.9
   }
  ],
  "margin": {
-  "asOf": "2026-11-02",
-  "buyBalance": 150800,
-  "buyChangePct": -8.6,
-  "labels": [],
-  "ratio": 4.17,
-  "sellBalance": 36200,
-  "sellChangePct": -23.0
+  "asOf": "2026-11-04",
+  "buyBalance": 149900,
+  "buyChangePct": -9.3,
+  "labels": [
+   "信用倍率悪化"
+  ],
+  "ratio": 4.38,
+  "sellBalance": 34200,
+  "sellChangePct": -26.0
  },
  "pastEpisodes": [],
  "performance": {
@@ -86,7 +88,7 @@
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 5,
+   "pendingDays": 4,
    "stockReturn": null
   },
   "d5": {
@@ -98,7 +100,7 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 45,
+   "pendingDays": 44,
    "stockReturn": null
   },
   "excessReturn": -3.8,
@@ -107,25 +109,27 @@
   "stockReturn": -6.4
  },
  "priceSetup": {
-  "asOf": "2026-11-04",
+  "asOf": "2026-11-05",
   "atrState": "通常",
-  "distFrom52wHigh": 0.1,
+  "distFrom52wHigh": 0.05,
   "labels": [
-   "20日線が上向き"
+   "20日線の上",
+   "20日線が上向き",
+   "60日線の上"
   ],
-  "ma20": 2500.2,
-  "ma200": 2360.0,
-  "ma60": 2464.1,
-  "rangePos60": 0.24,
-  "rel20": 4.1,
-  "rel60": -0.4,
-  "volumeRatio20": 0.85
+  "ma20": 2505.9,
+  "ma200": 2361.0,
+  "ma60": 2465.8,
+  "rangePos60": 0.66,
+  "rel20": 10.3,
+  "rel60": 5.4,
+  "volumeRatio20": 1.01
  },
  "reasons": [
   "0pt買い増し 6.4%→6.5%",
   "30日以内に2回買い増し",
-  "TOPIX連動ETF比 +4.1pt（20日）",
-  "信用買残 -9%"
+  "20日線を回復",
+  "TOPIX連動ETF比 +10.3pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -247,7 +251,28 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-05",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-05",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-05",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-04T23:56:06+09:00"
+ "updatedAt": "2026-11-05T16:14:20+09:00"
 }

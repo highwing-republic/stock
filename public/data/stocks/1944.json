@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-11-05T01:55:18+09:00",
+  "updatedAt": "2026-11-05T16:14:07+09:00",
   "company": {
     "securityCode": "1944",
     "ticker": "1944.T",
     "name": "株式会社きんでん"
   },
   "events": [
+    {
+      "docId": "S100ZBNG",
+      "ticker": "1944.T",
+      "securityCode": "1944",
+      "companyName": "株式会社きんでん",
+      "submitDatetime": "2026-11-05 09:07",
+      "filerName": "ＪＰモルガン・アセット・マネジメント株式会社",
+      "reportType": "change",
+      "holdingRatio": 5.28,
+      "previousHoldingRatio": 5.75,
+      "holdingChange": -0.47,
+      "purpose": "顧客または投資信託等の資産運用（純投資） / 金融商品取引業務にかかる保有",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -3.16,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z8ZA",
       "ticker": "1944.T",
@@ -29,7 +59,7 @@
         "return1d": -0.65,
         "return5d": -1.37,
         "return20d": null,
-        "returnCurrent": -7.45,
+        "returnCurrent": -12.56,
         "volumeRatio": 0.73,
         "marketExcessReturn": 0.15
       }
@@ -60,7 +90,7 @@
         "return1d": 0.61,
         "return5d": -3.32,
         "return20d": -1.19,
-        "returnCurrent": -14.81,
+        "returnCurrent": -19.52,
         "volumeRatio": 1.02,
         "marketExcessReturn": -8.9
       }
@@ -91,7 +121,7 @@
         "return1d": 1.1,
         "return5d": -3.27,
         "return20d": -8.4,
-        "returnCurrent": -24.47,
+        "returnCurrent": -28.64,
         "volumeRatio": 0.64,
         "marketExcessReturn": -3.98
       }
@@ -4074,9 +4104,19 @@
       "open": 6020.0,
       "high": 6071.0,
       "low": 5685.0,
-      "close": null,
-      "adj_close": null,
+      "close": 5846.0,
+      "adj_close": 5846.0,
       "volume": 1052300
+    },
+    {
+      "ticker": "1944.T",
+      "trade_date": "2026-11-05",
+      "open": 5859.0,
+      "high": 5887.0,
+      "low": 5596.0,
+      "close": 5661.0,
+      "adj_close": 5661.0,
+      "volume": 1084700
     }
   ],
   "benchmark": [
@@ -8054,11 +8094,21 @@
       "ticker": "1306.T",
       "trade_date": "2026-11-04",
       "open": 414.70001220703125,
-      "high": 415.29998779296875,
+      "high": 415.20001220703125,
       "low": 398.8999938964844,
       "close": 414.0,
       "adj_close": 414.0,
       "volume": 25451870
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-05",
+      "open": 418.1000061035156,
+      "high": 419.6000061035156,
+      "low": 411.79998779296875,
+      "close": 415.6000061035156,
+      "adj_close": 415.6000061035156,
+      "volume": 28586460
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

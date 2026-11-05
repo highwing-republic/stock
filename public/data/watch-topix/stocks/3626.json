@@ -10,10 +10,7 @@
   "id": "3626-2026-09-04",
   "overextended": false,
   "setupType": "BREAKOUT",
-  "setups": [
-   "BREAKOUT",
-   "RECOVERY"
-  ],
+  "setups": [],
   "startedAt": "2026-09-04",
   "status": "REACTED",
   "statusHistory": [
@@ -54,21 +51,22 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-02",
-  "buyBalance": 113900,
-  "buyChangePct": -20.9,
+  "asOf": "2026-11-04",
+  "buyBalance": 110900,
+  "buyChangePct": -18.7,
   "labels": [
    "信用買残減少",
-   "信用倍率改善"
+   "信用倍率改善",
+   "売残増加"
   ],
-  "ratio": 7.64,
-  "sellBalance": 14900,
-  "sellChangePct": 2.1
+  "ratio": 5.23,
+  "sellBalance": 21200,
+  "sellChangePct": 30.9
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -1.4,
-  "currentPrice": 4327.0,
+  "benchReturn": -1.0,
+  "currentPrice": 4293.0,
   "d20": {
    "benchReturn": 0.3,
    "excessReturn": 11.1,
@@ -84,37 +82,36 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 27,
+   "pendingDays": 26,
    "stockReturn": null
   },
-  "excessReturn": 14.1,
+  "excessReturn": 12.9,
   "initialDate": "2026-09-11",
   "initialPrice": 3837.8,
-  "stockReturn": 12.7
+  "stockReturn": 11.9
  },
  "priceSetup": {
-  "asOf": "2026-11-04",
+  "asOf": "2026-11-05",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.18,
+  "distFrom52wHigh": 0.19,
   "labels": [
-   "20日線の上",
-   "60日レンジ上位23%",
+   "60日レンジ上位27%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 4316.2,
-  "ma200": 3662.3,
-  "ma60": 4008.2,
-  "rangePos60": 0.77,
-  "rel20": 12.9,
-  "rel60": 19.3,
-  "volumeRatio20": 1.73
+  "ma20": 4330.4,
+  "ma200": 3658.3,
+  "ma60": 4020.3,
+  "rangePos60": 0.73,
+  "rel20": 12.7,
+  "rel60": 21.8,
+  "volumeRatio20": 2.12
  },
  "reasons": [
   "新規大量保有 5.2%（ファースト・イーグル・インベストメント・マネジメント・エルエルシー）",
-  "60日レンジ上位23%",
-  "20日線上向き",
-  "TOPIX連動ETF比 +12.9pt（20日）"
+  "60日レンジ上位27%",
+  "TOPIX連動ETF比 +12.7pt（20日）",
+  "信用買残 -19%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -243,7 +240,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-05",
+   "detail": "BREAKOUT → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-04T23:57:18+09:00"
+ "updatedAt": "2026-11-05T16:15:11+09:00"
 }

@@ -9,8 +9,10 @@
   "closedAt": null,
   "id": "3099-2026-09-18",
   "overextended": false,
-  "setupType": "BREAKOUT",
-  "setups": [],
+  "setupType": "RECOVERY",
+  "setups": [
+   "RECOVERY"
+  ],
   "startedAt": "2026-09-18",
   "status": "REACTED",
   "statusHistory": [
@@ -52,25 +54,24 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-02",
-  "buyBalance": 624800,
-  "buyChangePct": -13.5,
+  "asOf": "2026-11-04",
+  "buyBalance": 666400,
+  "buyChangePct": -10.9,
   "labels": [
-   "信用買残減少",
-   "信用倍率改善"
+   "信用買残減少"
   ],
-  "ratio": 1.02,
-  "sellBalance": 613000,
-  "sellChangePct": 6.8
+  "ratio": 1.16,
+  "sellBalance": 573900,
+  "sellChangePct": -3.7
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -5.3,
-  "currentPrice": 1724.0,
+  "benchReturn": -4.9,
+  "currentPrice": 1779.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 2,
+   "pendingDays": 1,
    "stockReturn": null
   },
   "d5": {
@@ -82,34 +83,36 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 42,
+   "pendingDays": 41,
    "stockReturn": null
   },
-  "excessReturn": 4.0,
+  "excessReturn": 6.7,
   "initialDate": "2026-10-07",
   "initialPrice": 1747.0,
-  "stockReturn": -1.3
+  "stockReturn": 1.8
  },
  "priceSetup": {
-  "asOf": "2026-11-04",
+  "asOf": "2026-11-05",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.17,
+  "distFrom52wHigh": 0.14,
   "labels": [
+   "20日線の上",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 1759.2,
-  "ma200": 1622.2,
-  "ma60": 1704.0,
-  "rangePos60": 0.51,
+  "ma20": 1762.0,
+  "ma200": 1625.3,
+  "ma60": 1703.7,
+  "rangePos60": 0.64,
   "rel20": 9.0,
-  "rel60": -1.9,
-  "volumeRatio20": 1.65
+  "rel60": 0.5,
+  "volumeRatio20": 1.22
  },
  "reasons": [
   "新規大量保有 5.2%（ブラックロック・ジャパン株式会社）",
+  "20日線を回復",
   "TOPIX連動ETF比 +9pt（20日）",
-  "信用買残 -14%"
+  "信用買残 -11%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -196,7 +199,21 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-05",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-05",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-04T23:56:06+09:00"
+ "updatedAt": "2026-11-05T16:14:20+09:00"
 }

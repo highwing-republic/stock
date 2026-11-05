@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-11-05T01:55:18+09:00",
+  "updatedAt": "2026-11-05T16:14:07+09:00",
   "company": {
     "securityCode": "9213",
     "ticker": "9213.T",
     "name": "株式会社セイファート"
   },
   "events": [
+    {
+      "docId": "S100ZBIP",
+      "ticker": "9213.T",
+      "securityCode": "9213",
+      "companyName": "株式会社セイファート",
+      "submitDatetime": "2026-11-05 15:59",
+      "filerName": "株式会社ビューティガレージ",
+      "reportType": "change",
+      "holdingRatio": 6.25,
+      "previousHoldingRatio": 7.38,
+      "holdingChange": -1.13,
+      "purpose": "純投資",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -3.81,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z8W3",
       "ticker": "9213.T",
@@ -31,7 +61,7 @@
         "return1d": -5.28,
         "return5d": -3.58,
         "return20d": null,
-        "returnCurrent": -10.49,
+        "returnCurrent": -17.97,
         "volumeRatio": 0.82,
         "marketExcessReturn": -2.57
       }
@@ -63,7 +93,7 @@
         "return1d": 15.05,
         "return5d": 12.23,
         "return20d": null,
-        "returnCurrent": 0.46,
+        "returnCurrent": -7.94,
         "volumeRatio": 4.8,
         "marketExcessReturn": 13.83
       }
@@ -96,7 +126,7 @@
         "return1d": 19.86,
         "return5d": 9.21,
         "return20d": null,
-        "returnCurrent": -1.52,
+        "returnCurrent": -9.75,
         "volumeRatio": 15.16,
         "marketExcessReturn": 11.68
       }
@@ -129,8 +159,8 @@
       "metrics": {
         "return1d": -2.29,
         "return5d": 27.62,
-        "return20d": null,
-        "returnCurrent": 4.86,
+        "return20d": -3.9,
+        "returnCurrent": -3.9,
         "volumeRatio": 15.39,
         "marketExcessReturn": 28.77
       }
@@ -158,7 +188,7 @@
         "return1d": -5.04,
         "return5d": -1.43,
         "return20d": 25.29,
-        "returnCurrent": 4.66,
+        "returnCurrent": -4.09,
         "volumeRatio": 1.8,
         "marketExcessReturn": -2.65
       }
@@ -189,7 +219,7 @@
         "return1d": 0.0,
         "return5d": -1.43,
         "return20d": 19.87,
-        "returnCurrent": 4.66,
+        "returnCurrent": -4.09,
         "volumeRatio": 1.78,
         "marketExcessReturn": -2.28
       }
@@ -3182,9 +3212,19 @@
       "open": 1101.0,
       "high": 1101.0,
       "low": 1000.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1049.0,
+      "adj_close": 1049.0,
       "volume": 12600
+    },
+    {
+      "ticker": "9213.T",
+      "trade_date": "2026-11-05",
+      "open": 1070.0,
+      "high": 1110.0,
+      "low": 970.0,
+      "close": 1009.0,
+      "adj_close": 1009.0,
+      "volume": 13700
     }
   ],
   "benchmark": [
@@ -7162,11 +7202,21 @@
       "ticker": "1306.T",
       "trade_date": "2026-11-04",
       "open": 414.70001220703125,
-      "high": 415.29998779296875,
+      "high": 415.20001220703125,
       "low": 398.8999938964844,
       "close": 414.0,
       "adj_close": 414.0,
       "volume": 25451870
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-05",
+      "open": 418.1000061035156,
+      "high": 419.6000061035156,
+      "low": 411.79998779296875,
+      "close": 415.6000061035156,
+      "adj_close": 415.6000061035156,
+      "volume": 28586460
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

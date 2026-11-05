@@ -8,13 +8,13 @@
   "closeReason": null,
   "closedAt": null,
   "id": "9064-2026-11-04",
-  "overextended": false,
+  "overextended": true,
   "setupType": "RECOVERY",
   "setups": [
    "RECOVERY"
   ],
   "startedAt": "2026-11-04",
-  "status": "WATCH",
+  "status": "CONFIRMED",
   "statusHistory": [
    {
     "date": "2026-11-04",
@@ -27,6 +27,12 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
+   },
+   {
+    "date": "2026-11-05",
+    "from": "WATCH",
+    "reason_code": "NEW_HIGH60_VOLUME",
+    "to": "CONFIRMED"
    }
   ],
   "watchStartedAt": "2026-11-04"
@@ -48,66 +54,67 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-02",
-  "buyBalance": 151700,
-  "buyChangePct": 0.7,
+  "asOf": "2026-11-04",
+  "buyBalance": 162800,
+  "buyChangePct": 5.1,
   "labels": [
-   "信用倍率悪化"
+   "信用倍率改善",
+   "売残増加"
   ],
-  "ratio": 2.15,
-  "sellBalance": 70500,
-  "sellChangePct": -19.2
+  "ratio": 1.63,
+  "sellBalance": 100100,
+  "sellChangePct": 34.5
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 0.0,
-  "currentPrice": 2194.5,
+  "benchReturn": 0.4,
+  "currentPrice": 2362.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 20,
+   "pendingDays": 19,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 5,
+   "pendingDays": 4,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 60,
+   "pendingDays": 59,
    "stockReturn": null
   },
-  "excessReturn": 0.0,
+  "excessReturn": 7.2,
   "initialDate": "2026-11-04",
   "initialPrice": 2194.5,
-  "stockReturn": 0.0
+  "stockReturn": 7.6
  },
  "priceSetup": {
-  "asOf": "2026-11-04",
+  "asOf": "2026-11-05",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.05,
+  "distFrom52wHigh": 0.0,
   "labels": [
    "20日線の上",
-   "60日レンジ上位14%",
+   "60日レンジ上位1%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2039.2,
-  "ma200": 1881.2,
-  "ma60": 1972.3,
-  "rangePos60": 0.86,
-  "rel20": 17.6,
-  "rel60": 15.5,
-  "volumeRatio20": 5.07
+  "ma20": 2058.9,
+  "ma200": 1882.1,
+  "ma60": 1980.7,
+  "rangePos60": 0.99,
+  "rel20": 25.7,
+  "rel60": 28.4,
+  "volumeRatio20": 2.83
  },
  "reasons": [
   "新規大量保有 5%（Ｆａｒａｌｌｏｎ　Ｃａｐｉｔａｌ　Ｍａｎａｇｅｍｅｎｔ，　Ｌ．Ｌ．Ｃ．）",
-  "出来高 5.1倍で60日高値更新",
-  "60日レンジ上位14%",
-  "20日線を回復"
+  "出来高 2.8倍で60日高値更新",
+  "60日レンジ上位1%",
+  "20日線上向き"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -152,7 +159,21 @@
    "kind": "STATUS",
    "label": "WATCH",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-05",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-05",
+   "detail": "60日高値を出来高増で更新",
+   "kind": "STATUS",
+   "label": "CONFIRMED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-04T23:57:18+09:00"
+ "updatedAt": "2026-11-05T16:15:11+09:00"
 }

@@ -9,8 +9,9 @@
   "closedAt": null,
   "id": "9987-2026-09-10",
   "overextended": false,
-  "setupType": "RECOVERY",
+  "setupType": "TREND",
   "setups": [
+   "TREND",
    "RECOVERY"
   ],
   "startedAt": "2026-09-10",
@@ -59,21 +60,18 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-02",
-  "buyBalance": 19100,
-  "buyChangePct": -15.1,
-  "labels": [
-   "信用買残減少",
-   "信用倍率改善"
-  ],
-  "ratio": 0.69,
-  "sellBalance": 27600,
-  "sellChangePct": -5.5
+  "asOf": "2026-11-04",
+  "buyBalance": 20100,
+  "buyChangePct": -0.5,
+  "labels": [],
+  "ratio": 0.76,
+  "sellBalance": 26300,
+  "sellChangePct": -15.4
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -2.1,
-  "currentPrice": 2907.0,
+  "benchReturn": -1.7,
+  "currentPrice": 3008.0,
   "d20": {
    "benchReturn": 2.0,
    "excessReturn": 1.6,
@@ -89,37 +87,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 26,
+   "pendingDays": 25,
    "stockReturn": null
   },
-  "excessReturn": 16.6,
+  "excessReturn": 20.1,
   "initialDate": "2026-09-10",
   "initialPrice": 2539.6,
-  "stockReturn": 14.5
+  "stockReturn": 18.4
  },
  "priceSetup": {
-  "asOf": "2026-11-04",
+  "asOf": "2026-11-05",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.1,
+  "distFrom52wHigh": 0.07,
   "labels": [
    "20日線の上",
-   "60日レンジ上位18%",
+   "60日レンジ上位8%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2783.9,
-  "ma200": 2718.4,
-  "ma60": 2604.6,
-  "rangePos60": 0.82,
-  "rel20": 17.9,
-  "rel60": 21.0,
-  "volumeRatio20": 0.69
+  "ma20": 2803.8,
+  "ma200": 2718.2,
+  "ma60": 2615.6,
+  "rangePos60": 0.92,
+  "rel20": 20.8,
+  "rel60": 29.4,
+  "volumeRatio20": 1.0
  },
  "reasons": [
   "1pt買い増し 8.2%→9.3%",
-  "60日レンジ上位18%",
+  "60日レンジ上位8%",
   "20日線上向き",
-  "TOPIX連動ETF比 +17.9pt（20日）"
+  "TOPIX連動ETF比 +20.8pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -297,7 +295,14 @@
    "kind": "SETUP",
    "label": "Price Setup変化",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-05",
+   "detail": "RECOVERY → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-04T23:57:18+09:00"
+ "updatedAt": "2026-11-05T16:15:11+09:00"
 }

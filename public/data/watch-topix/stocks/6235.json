@@ -37,35 +37,42 @@
    "d5": -10.8,
    "eventId": "edinet:S100Z8UY",
    "excess5": -8.8
+  },
+  {
+   "d1": -10.0,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZBH4",
+   "excess5": null
   }
  ],
  "margin": {
-  "asOf": "2026-11-02",
-  "buyBalance": 559000,
-  "buyChangePct": -1.3,
+  "asOf": "2026-11-04",
+  "buyBalance": 535400,
+  "buyChangePct": -4.1,
   "labels": [],
-  "ratio": 10.59,
-  "sellBalance": 52800,
-  "sellChangePct": -14.8
+  "ratio": 10.12,
+  "sellBalance": 52900,
+  "sellChangePct": -12.6
  },
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-04",
-  "atrState": "通常",
-  "distFrom52wHigh": 0.56,
+  "asOf": "2026-11-05",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.61,
   "labels": [],
-  "ma20": 2449.8,
-  "ma200": 3019.0,
-  "ma60": 2631.8,
-  "rangePos60": 0.11,
-  "rel20": -19.2,
-  "rel60": -31.8,
-  "volumeRatio20": 1.96
+  "ma20": 2400.4,
+  "ma200": 3019.1,
+  "ma60": 2608.5,
+  "rangePos60": 0.01,
+  "rel20": -28.3,
+  "rel60": -40.7,
+  "volumeRatio20": 2.06
  },
  "reasons": [
-  "新規大量保有 5.3%（ウエリントン・マネージメント・カンパニー・エルエルピー）",
-  "信用買残 -1%"
+  "1.5pt買い増し 5.3%→6.8%",
+  "信用買残 -4%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -82,7 +89,14 @@
    "kind": "EVENT",
    "label": "新規大量保有",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8UY"
+  },
+  {
+   "date": "2026-11-05",
+   "detail": "5.3% → 6.78%（ウエリントン・マネージメント・カンパニー・エルエルピー）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBH4"
   }
  ],
- "updatedAt": "2026-11-04T23:57:18+09:00"
+ "updatedAt": "2026-11-05T16:15:11+09:00"
 }
