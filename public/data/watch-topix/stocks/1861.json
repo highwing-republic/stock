@@ -1,0 +1,210 @@
+{
+ "company": {
+  "name": "熊谷組",
+  "securityCode": "1861",
+  "tradingViewSymbol": "TSE:1861"
+ },
+ "episode": {
+  "closeReason": "NO_SETUP",
+  "closedAt": "2026-11-04",
+  "id": "1861-2026-10-05",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-10-05",
+  "status": "CLOSED",
+  "statusHistory": [
+   {
+    "date": "2026-10-05",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-11-04",
+    "from": "CANDIDATE",
+    "reason_code": "NO_SETUP",
+    "to": "CLOSED"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": -0.6,
+   "d20": -0.2,
+   "d5": 2.7,
+   "eventId": "edinet:S100YN71",
+   "excess5": 0.8
+  },
+  {
+   "d1": -0.6,
+   "d20": -0.2,
+   "d5": 2.7,
+   "eventId": "edinet:S100YNES",
+   "excess5": 0.8
+  },
+  {
+   "d1": -2.9,
+   "d20": -9.7,
+   "d5": -8.8,
+   "eventId": "edinet:S100YUQ8",
+   "excess5": -12.1
+  },
+  {
+   "d1": 0.4,
+   "d20": -3.9,
+   "d5": -1.0,
+   "eventId": "edinet:S100Z0EZ",
+   "excess5": 0.8
+  },
+  {
+   "d1": -0.6,
+   "d20": -7.4,
+   "d5": -2.9,
+   "eventId": "edinet:S100Z2NY",
+   "excess5": -4.1
+  },
+  {
+   "d1": -0.8,
+   "d20": -6.4,
+   "d5": -2.8,
+   "eventId": "edinet:S100Z3LF",
+   "excess5": -5.1
+  },
+  {
+   "d1": -0.6,
+   "d20": -0.4,
+   "d5": -3.8,
+   "eventId": "edinet:S100Z62Z",
+   "excess5": -4.3
+  },
+  {
+   "d1": -1.3,
+   "d20": null,
+   "d5": 2.1,
+   "eventId": "edinet:S100Z8XB",
+   "excess5": 4.1
+  }
+ ],
+ "margin": {
+  "asOf": "2026-11-05",
+  "buyBalance": 863700,
+  "buyChangePct": -1.8,
+  "labels": [],
+  "ratio": 20.96,
+  "sellBalance": 41200,
+  "sellChangePct": -9.6
+ },
+ "pastEpisodes": [
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-07-31",
+   "id": "1861-2026-07-01",
+   "setupType": "RECOVERY",
+   "startedAt": "2026-07-01"
+  }
+ ],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-11-05",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.36,
+  "labels": [
+   "20日線の上"
+  ],
+  "ma20": 1219.5,
+  "ma200": 1456.0,
+  "ma60": 1256.2,
+  "rangePos60": 0.35,
+  "rel20": 7.9,
+  "rel60": -8.0,
+  "volumeRatio20": 1.36
+ },
+ "reasons": [
+  "新規大量保有 5.2%（ＪＰモルガン証券株式会社）",
+  "TOPIX連動ETF比 +7.9pt（20日）",
+  "信用買残 -2%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-07-01",
+   "detail": "5.09% → 0%（新妻　尚祐）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YN71"
+  },
+  {
+   "date": "2026-07-01",
+   "detail": "保有割合 5.61%（片山　篤）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YNES"
+  },
+  {
+   "date": "2026-08-07",
+   "detail": "6.74% → 5.69%（アセットマネジメントＯｎｅ株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YUQ8"
+  },
+  {
+   "date": "2026-09-07",
+   "detail": "8.22% → 6.22%（キャピタル・リサーチ・アンド・マネージメント・カンパニー）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z0EZ"
+  },
+  {
+   "date": "2026-09-24",
+   "detail": "8.94% → 7.59%（三井住友トラスト・アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z2NY"
+  },
+  {
+   "date": "2026-09-25",
+   "detail": "6.22% → 4.84%（キャピタル・リサーチ・アンド・マネージメント・カンパニー）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z3LF"
+  },
+  {
+   "date": "2026-10-05",
+   "detail": "保有割合 5.21%（ＪＰモルガン証券株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z62Z"
+  },
+  {
+   "date": "2026-10-20",
+   "detail": "5.21% → 3.26%（ＪＰモルガン証券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8XB"
+  },
+  {
+   "date": "2026-10-26",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-29",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-04",
+   "detail": "期限内にPrice Setupが成立しなかった",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-11-07T01:46:16+09:00"
+}

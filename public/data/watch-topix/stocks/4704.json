@@ -5,14 +5,14 @@
   "tradingViewSymbol": "TSE:4704"
  },
  "episode": {
-  "closeReason": "BROKEN",
-  "closedAt": "2026-11-06",
+  "closeReason": null,
+  "closedAt": null,
   "id": "4704-2026-10-29",
   "overextended": false,
   "setupType": "TREND",
   "setups": [],
   "startedAt": "2026-10-29",
-  "status": "CLOSED",
+  "status": "BROKEN",
   "statusHistory": [
    {
     "date": "2026-10-29",
@@ -31,12 +31,6 @@
     "from": "WATCH",
     "reason_code": "BELOW_MA20",
     "to": "BROKEN"
-   },
-   {
-    "date": "2026-11-06",
-    "from": "BROKEN",
-    "reason_code": "BROKEN",
-    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-10-29"
@@ -92,50 +86,53 @@
   }
  ],
  "performance": {
-  "benchReturn": -7.8,
-  "currentPrice": 6478.0,
+  "benchReturn": -1.4,
+  "currentPrice": 7083.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 15,
+   "pendingDays": 16,
    "stockReturn": null
   },
   "d5": {
-   "benchReturn": -7.8,
-   "excessReturn": -3.6,
-   "pendingDays": 0,
-   "stockReturn": -11.4
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 1,
+   "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 55,
+   "pendingDays": 56,
    "stockReturn": null
   },
-  "excessReturn": -3.6,
+  "excessReturn": -1.7,
   "initialDate": "2026-10-29",
   "initialPrice": 7308.0,
-  "stockReturn": -11.4
+  "stockReturn": -3.1
  },
  "priceSetup": {
-  "asOf": "2026-11-06",
+  "asOf": "2026-11-05",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.18,
+  "distFrom52wHigh": 0.1,
   "labels": [
-   "20日線が上向き"
+   "60日レンジ上位28%",
+   "20日線が上向き",
+   "60日線の上"
   ],
-  "ma20": 7202.9,
-  "ma200": 6053.2,
-  "ma60": 6508.2,
-  "rangePos60": 0.48,
-  "rel20": 4.1,
-  "rel60": 4.7,
-  "volumeRatio20": 0.91
+  "ma20": 7227.0,
+  "ma200": 6053.4,
+  "ma60": 6512.3,
+  "rangePos60": 0.72,
+  "rel20": 7.9,
+  "rel60": 10.9,
+  "volumeRatio20": 0.61
  },
  "reasons": [
   "1pt買い増し 9.6%→10.6%",
-  "TOPIX連動ETF比 +4.1pt（20日）",
-  "信用買残 -11%"
+  "60日レンジ上位28%",
+  "TOPIX連動ETF比 +7.9pt（20日）",
+  "52週高値まで10%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -187,14 +184,7 @@
    "kind": "STATUS",
    "label": "BROKEN",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-11-06",
-   "detail": "Price Setupが崩れた",
-   "kind": "STATUS",
-   "label": "CLOSED",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-06T23:40:38+09:00"
+ "updatedAt": "2026-11-07T01:46:16+09:00"
 }

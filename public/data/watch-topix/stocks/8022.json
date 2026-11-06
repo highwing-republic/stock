@@ -10,7 +10,11 @@
   "id": "8022-2026-09-24",
   "overextended": false,
   "setupType": "BREAKOUT",
-  "setups": [],
+  "setups": [
+   "BREAKOUT",
+   "TREND",
+   "RECOVERY"
+  ],
   "startedAt": "2026-09-24",
   "status": "REACTED",
   "statusHistory": [
@@ -66,9 +70,9 @@
   {
    "d1": 0.7,
    "d20": null,
-   "d5": -2.0,
+   "d5": null,
    "eventId": "edinet:S100ZAS8",
-   "excess5": 5.8
+   "excess5": null
   }
  ],
  "margin": {
@@ -100,8 +104,8 @@
   }
  ],
  "performance": {
-  "benchReturn": -8.5,
-  "currentPrice": 4210.0,
+  "benchReturn": -2.2,
+  "currentPrice": 4595.0,
   "d20": {
    "benchReturn": -2.0,
    "excessReturn": 9.7,
@@ -117,35 +121,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 31,
+   "pendingDays": 32,
    "stockReturn": null
   },
-  "excessReturn": 11.9,
+  "excessReturn": 15.0,
   "initialDate": "2026-09-24",
   "initialPrice": 4072.4,
-  "stockReturn": 3.4
+  "stockReturn": 12.8
  },
  "priceSetup": {
-  "asOf": "2026-11-06",
-  "atrState": "通常",
-  "distFrom52wHigh": 0.1,
+  "asOf": "2026-11-05",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.01,
   "labels": [
+   "20日線の上",
+   "60日レンジ上位6%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 4377.8,
-  "ma200": 3673.7,
-  "ma60": 4176.3,
-  "rangePos60": 0.6,
-  "rel20": 8.3,
-  "rel60": 22.1,
-  "volumeRatio20": 1.47
+  "ma20": 4383.8,
+  "ma200": 3669.4,
+  "ma60": 4167.8,
+  "rangePos60": 0.94,
+  "rel20": 13.6,
+  "rel60": 26.7,
+  "volumeRatio20": 1.91
  },
  "reasons": [
   "新規大量保有 5.2%（三井住友信託銀行株式会社）",
-  "TOPIX連動ETF比 +8.3pt（20日）",
-  "52週高値まで10%",
-  "信用買残 -26%"
+  "60日レンジ上位6%",
+  "20日線を回復",
+  "TOPIX連動ETF比 +13.6pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -267,14 +273,7 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-11-06",
-   "detail": "BREAKOUT → なし",
-   "kind": "SETUP",
-   "label": "Price Setup解消",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-06T23:40:38+09:00"
+ "updatedAt": "2026-11-07T01:46:16+09:00"
 }

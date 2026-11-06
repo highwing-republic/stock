@@ -5,14 +5,14 @@
   "tradingViewSymbol": "TSE:3778"
  },
  "episode": {
-  "closeReason": "EXPIRED",
-  "closedAt": "2026-11-06",
+  "closeReason": null,
+  "closedAt": null,
   "id": "3778-2026-08-06",
   "overextended": true,
   "setupType": "BREAKOUT",
   "setups": [],
   "startedAt": "2026-08-06",
-  "status": "CLOSED",
+  "status": "REACTED",
   "statusHistory": [
    {
     "date": "2026-08-06",
@@ -43,12 +43,6 @@
     "from": "CONFIRMED",
     "reason_code": "EXCESS_THRESHOLD",
     "to": "REACTED"
-   },
-   {
-    "date": "2026-11-06",
-    "from": "REACTED",
-    "reason_code": "EXPIRED",
-    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-08-06"
@@ -88,13 +82,6 @@
    "d5": -8.9,
    "eventId": "edinet:S100Z629",
    "excess5": -8.0
-  },
-  {
-   "d1": -5.8,
-   "d20": null,
-   "d5": null,
-   "eventId": "edinet:S100ZBRK",
-   "excess5": null
   }
  ],
  "margin": {
@@ -116,8 +103,8 @@
   }
  ],
  "performance": {
-  "benchReturn": -8.3,
-  "currentPrice": 2715.0,
+  "benchReturn": -1.9,
+  "currentPrice": 2881.0,
   "d20": {
    "benchReturn": 0.9,
    "excessReturn": 3.5,
@@ -131,28 +118,28 @@
    "stockReturn": 10.7
   },
   "d60": {
-   "benchReturn": -8.3,
-   "excessReturn": -14.0,
-   "pendingDays": 0,
-   "stockReturn": -22.3
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 1,
+   "stockReturn": null
   },
-  "excessReturn": -14.0,
+  "excessReturn": -15.7,
   "initialDate": "2026-08-06",
   "initialPrice": 3495.0,
-  "stockReturn": -22.3
+  "stockReturn": -17.6
  },
  "priceSetup": {
-  "asOf": "2026-11-06",
+  "asOf": "2026-11-05",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.38,
+  "distFrom52wHigh": 0.34,
   "labels": [],
-  "ma20": 3169.3,
+  "ma20": 3231.8,
   "ma200": 3130.6,
-  "ma60": 3531.0,
-  "rangePos60": 0.05,
-  "rel20": -20.5,
-  "rel60": -14.0,
-  "volumeRatio20": 1.27
+  "ma60": 3544.0,
+  "rangePos60": 0.1,
+  "rel20": -21.2,
+  "rel60": -17.6,
+  "volumeRatio20": 1.24
  },
  "reasons": [
   "0.3pt買い増し 5.1%→5.5%",
@@ -419,14 +406,7 @@
    "kind": "EVENT",
    "label": "保有割合の減少",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBRK"
-  },
-  {
-   "date": "2026-11-06",
-   "detail": "観察期限に到達",
-   "kind": "STATUS",
-   "label": "CLOSED",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-06T23:40:38+09:00"
+ "updatedAt": "2026-11-07T01:46:16+09:00"
 }

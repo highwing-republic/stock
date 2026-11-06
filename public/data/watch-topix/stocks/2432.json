@@ -16,7 +16,7 @@
    "RECOVERY"
   ],
   "startedAt": "2026-10-21",
-  "status": "REACTED",
+  "status": "CONFIRMED",
   "statusHistory": [
    {
     "date": "2026-10-21",
@@ -41,12 +41,6 @@
     "from": "STRENGTHENING",
     "reason_code": "NEW_HIGH60_VOLUME",
     "to": "CONFIRMED"
-   },
-   {
-    "date": "2026-11-06",
-    "from": "CONFIRMED",
-    "reason_code": "EXCESS_THRESHOLD",
-    "to": "REACTED"
    }
   ],
   "watchStartedAt": "2026-10-21"
@@ -118,12 +112,12 @@
   }
  ],
  "performance": {
-  "benchReturn": -8.7,
-  "currentPrice": 2627.0,
+  "benchReturn": -2.3,
+  "currentPrice": 2701.5,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 9,
+   "pendingDays": 10,
    "stockReturn": null
   },
   "d5": {
@@ -135,37 +129,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 49,
+   "pendingDays": 50,
    "stockReturn": null
   },
-  "excessReturn": 11.8,
+  "excessReturn": 8.4,
   "initialDate": "2026-10-21",
   "initialPrice": 2547.0,
-  "stockReturn": 3.1
+  "stockReturn": 6.1
  },
  "priceSetup": {
-  "asOf": "2026-11-06",
+  "asOf": "2026-11-05",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.07,
+  "distFrom52wHigh": 0.04,
   "labels": [
    "20日線の上",
-   "60日レンジ上位26%",
+   "60日レンジ上位3%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2558.8,
-  "ma200": 2552.4,
-  "ma60": 2539.4,
-  "rangePos60": 0.74,
-  "rel20": 16.4,
-  "rel60": 17.0,
-  "volumeRatio20": 1.56
+  "ma20": 2552.2,
+  "ma200": 2551.8,
+  "ma60": 2535.9,
+  "rangePos60": 0.97,
+  "rel20": 14.1,
+  "rel60": 11.1,
+  "volumeRatio20": 3.05
  },
  "reasons": [
   "新規大量保有 5.4%（野村アセットマネジメント株式会社）",
-  "60日レンジ上位26%",
-  "20日線上向き",
-  "TOPIX連動ETF比 +16.4pt（20日）"
+  "出来高 3倍で60日高値更新",
+  "60日レンジ上位3%",
+  "20日線上向き"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -280,14 +274,7 @@
    "kind": "STATUS",
    "label": "CONFIRMED",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-11-06",
-   "detail": "TOPIX連動ETFとの差が大きくなった",
-   "kind": "STATUS",
-   "label": "REACTED",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-06T23:40:38+09:00"
+ "updatedAt": "2026-11-07T01:46:16+09:00"
 }

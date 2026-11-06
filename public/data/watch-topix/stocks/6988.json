@@ -1,0 +1,196 @@
+{
+ "company": {
+  "name": "日東電工",
+  "securityCode": "6988",
+  "tradingViewSymbol": "TSE:6988"
+ },
+ "episode": {
+  "closeReason": "BROKEN",
+  "closedAt": "2026-11-02",
+  "id": "6988-2026-10-27",
+  "overextended": false,
+  "setupType": "BREAKOUT",
+  "setups": [],
+  "startedAt": "2026-10-27",
+  "status": "CLOSED",
+  "statusHistory": [
+   {
+    "date": "2026-10-27",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-10-27",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   },
+   {
+    "date": "2026-10-29",
+    "from": "WATCH",
+    "reason_code": "REL20_POSITIVE",
+    "to": "STRENGTHENING"
+   },
+   {
+    "date": "2026-10-30",
+    "from": "STRENGTHENING",
+    "reason_code": "BELOW_MA20",
+    "to": "BROKEN"
+   },
+   {
+    "date": "2026-11-02",
+    "from": "BROKEN",
+    "reason_code": "BROKEN",
+    "to": "CLOSED"
+   }
+  ],
+  "watchStartedAt": "2026-10-27"
+ },
+ "eventReactions": [
+  {
+   "d1": -0.2,
+   "d20": null,
+   "d5": -8.1,
+   "eventId": "edinet:S100Z9PY",
+   "excess5": -6.8
+  }
+ ],
+ "margin": {
+  "asOf": "2026-11-05",
+  "buyBalance": 225600,
+  "buyChangePct": -30.9,
+  "labels": [
+   "信用買残減少",
+   "信用倍率改善",
+   "売残増加"
+  ],
+  "ratio": 2.49,
+  "sellBalance": 90600,
+  "sellChangePct": 94.0
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": -1.8,
+  "currentPrice": 3315.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 14,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": -1.6,
+   "excessReturn": -3.3,
+   "pendingDays": 0,
+   "stockReturn": -4.9
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 54,
+   "stockReturn": null
+  },
+  "excessReturn": -6.1,
+  "initialDate": "2026-10-27",
+  "initialPrice": 3600.0,
+  "stockReturn": -7.9
+ },
+ "priceSetup": {
+  "asOf": "2026-11-05",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.1,
+  "labels": [
+   "20日線の上",
+   "60日レンジ上位25%",
+   "60日線の上"
+  ],
+  "ma20": 3558.1,
+  "ma200": 3305.8,
+  "ma60": 3457.8,
+  "rangePos60": 0.75,
+  "rel20": 4.6,
+  "rel60": 6.8,
+  "volumeRatio20": 1.5
+ },
+ "reasons": [
+  "1pt買い増し 9.3%→10.4%",
+  "60日レンジ上位25%",
+  "20日線を回復",
+  "TOPIX連動ETF比 +4.6pt（20日）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-10-26",
+   "detail": "9.35% → 10.36%（ブラックロック・ジャパン株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9PY"
+  },
+  {
+   "date": "2026-10-27",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-28",
+   "detail": "BREAKOUT → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-29",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-29",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "STATUS",
+   "label": "STRENGTHENING",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-30",
+   "detail": "20日線を連続で下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-02",
+   "detail": "Price Setupが崩れた",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-04",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-05",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-05",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-11-07T01:46:16+09:00"
+}

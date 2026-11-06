@@ -10,7 +10,10 @@
   "id": "7199-2026-10-29",
   "overextended": false,
   "setupType": "TREND",
-  "setups": [],
+  "setups": [
+   "TREND",
+   "RECOVERY"
+  ],
   "startedAt": "2026-10-29",
   "status": "CONFIRMED",
   "statusHistory": [
@@ -69,52 +72,54 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -7.8,
-  "currentPrice": 2180.0,
+  "benchReturn": -1.4,
+  "currentPrice": 2271.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 15,
+   "pendingDays": 16,
    "stockReturn": null
   },
   "d5": {
-   "benchReturn": -7.8,
-   "excessReturn": 4.6,
-   "pendingDays": 0,
-   "stockReturn": -3.2
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 1,
+   "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 55,
+   "pendingDays": 56,
    "stockReturn": null
   },
-  "excessReturn": 4.6,
+  "excessReturn": 2.3,
   "initialDate": "2026-10-29",
   "initialPrice": 2251.0,
-  "stockReturn": -3.2
+  "stockReturn": 0.9
  },
  "priceSetup": {
-  "asOf": "2026-11-06",
+  "asOf": "2026-11-05",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.06,
+  "distFrom52wHigh": 0.02,
   "labels": [
+   "20日線の上",
+   "60日レンジ上位16%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2182.2,
-  "ma200": 1940.1,
-  "ma60": 2113.4,
-  "rangePos60": 0.58,
-  "rel20": 13.3,
-  "rel60": 12.7,
-  "volumeRatio20": 1.35
+  "ma20": 2179.8,
+  "ma200": 1938.7,
+  "ma60": 2111.9,
+  "rangePos60": 0.84,
+  "rel20": 12.8,
+  "rel60": 9.3,
+  "volumeRatio20": 0.69
  },
  "reasons": [
   "新規大量保有 5%（ダルトン　インベストメンツ　インク）",
-  "TOPIX連動ETF比 +13.3pt（20日）",
-  "52週高値まで6%",
-  "信用買残 -4%"
+  "60日レンジ上位16%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +12.8pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -187,14 +192,7 @@
    "kind": "STATUS",
    "label": "CONFIRMED",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-11-06",
-   "detail": "TREND → なし",
-   "kind": "SETUP",
-   "label": "Price Setup解消",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-06T23:40:38+09:00"
+ "updatedAt": "2026-11-07T01:46:16+09:00"
 }

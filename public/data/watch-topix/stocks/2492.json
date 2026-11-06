@@ -10,7 +10,10 @@
   "id": "2492-2026-07-03",
   "overextended": true,
   "setupType": "TREND",
-  "setups": [],
+  "setups": [
+   "TREND",
+   "RECOVERY"
+  ],
   "startedAt": "2026-07-03",
   "status": "REACTED",
   "statusHistory": [
@@ -202,13 +205,6 @@
    "d5": 5.1,
    "eventId": "edinet:S100Z8Y9",
    "excess5": 5.4
-  },
-  {
-   "d1": -4.6,
-   "d20": null,
-   "d5": null,
-   "eventId": "edinet:S100ZBSA",
-   "excess5": null
   }
  ],
  "margin": {
@@ -224,8 +220,8 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -8.3,
-  "currentPrice": 734.0,
+  "benchReturn": -1.9,
+  "currentPrice": 769.0,
   "d20": {
    "benchReturn": -2.8,
    "excessReturn": 11.8,
@@ -244,33 +240,34 @@
    "pendingDays": 0,
    "stockReturn": 54.1
   },
-  "excessReturn": 61.5,
+  "excessReturn": 62.4,
   "initialDate": "2026-07-03",
   "initialPrice": 479.0,
-  "stockReturn": 53.2
+  "stockReturn": 60.5
  },
  "priceSetup": {
-  "asOf": "2026-11-06",
+  "asOf": "2026-11-05",
   "atrState": "通常",
-  "distFrom52wHigh": 0.09,
+  "distFrom52wHigh": 0.05,
   "labels": [
-   "60日レンジ上位30%",
+   "20日線の上",
+   "60日レンジ上位16%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 756.5,
-  "ma200": 506.9,
-  "ma60": 695.6,
-  "rangePos60": 0.7,
-  "rel20": 11.3,
-  "rel60": 35.3,
-  "volumeRatio20": 0.95
+  "ma20": 756.4,
+  "ma200": 505.3,
+  "ma60": 693.0,
+  "rangePos60": 0.84,
+  "rel20": 7.5,
+  "rel60": 35.1,
+  "volumeRatio20": 1.1
  },
  "reasons": [
   "1.1pt買い増し 23.6%→24.7%",
   "30日以内に2回買い増し",
-  "60日レンジ上位30%",
-  "TOPIX連動ETF比 +11.3pt（20日）"
+  "60日レンジ上位16%",
+  "20日線を回復"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -609,14 +606,7 @@
    "kind": "EVENT",
    "label": "保有割合の減少",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBSA"
-  },
-  {
-   "date": "2026-11-06",
-   "detail": "TREND → なし",
-   "kind": "SETUP",
-   "label": "Price Setup解消",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-06T23:40:38+09:00"
+ "updatedAt": "2026-11-07T01:46:16+09:00"
 }
