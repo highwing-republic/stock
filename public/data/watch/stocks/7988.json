@@ -64,22 +64,22 @@
   },
   {
    "d1": 0.9,
-   "d20": null,
+   "d20": 4.7,
    "d5": 5.8,
    "eventId": "edinet:S100Z6PV",
    "excess5": 7.9
   }
  ],
  "margin": {
-  "asOf": "2026-11-04",
-  "buyBalance": 149900,
-  "buyChangePct": -9.3,
+  "asOf": "2026-11-05",
+  "buyBalance": 142100,
+  "buyChangePct": -13.9,
   "labels": [
-   "信用倍率悪化"
+   "信用買残減少"
   ],
-  "ratio": 4.38,
-  "sellBalance": 34200,
-  "sellChangePct": -26.0
+  "ratio": 4.5,
+  "sellBalance": 31600,
+  "sellChangePct": -20.2
  },
  "pastEpisodes": [],
  "performance": {
@@ -88,7 +88,7 @@
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 5,
+   "pendingDays": 3,
    "stockReturn": null
   },
   "d5": {
@@ -100,7 +100,7 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 45,
+   "pendingDays": 43,
    "stockReturn": null
   },
   "excessReturn": -3.8,
@@ -109,25 +109,25 @@
   "stockReturn": -6.4
  },
  "priceSetup": {
-  "asOf": "2026-11-04",
-  "atrState": "通常",
+  "asOf": "2026-11-06",
+  "atrState": "高ボラ",
   "distFrom52wHigh": 0.1,
   "labels": [
    "20日線が上向き"
   ],
-  "ma20": 2500.2,
-  "ma200": 2360.0,
-  "ma60": 2464.1,
+  "ma20": 2503.8,
+  "ma200": 2361.1,
+  "ma60": 2464.9,
   "rangePos60": 0.24,
-  "rel20": 4.1,
-  "rel60": -0.4,
-  "volumeRatio20": 0.85
+  "rel20": 9.4,
+  "rel60": 6.2,
+  "volumeRatio20": 1.09
  },
  "reasons": [
   "0pt買い増し 6.4%→6.5%",
   "30日以内に2回買い増し",
-  "TOPIX連動ETF比 +4.1pt（20日）",
-  "信用買残 -9%"
+  "TOPIX連動ETF比 +9.4pt（20日）",
+  "信用買残 -14%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -249,7 +249,35 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-05",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-05",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-05",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-06",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-06T02:08:20+09:00"
+ "updatedAt": "2026-11-06T16:17:21+09:00"
 }

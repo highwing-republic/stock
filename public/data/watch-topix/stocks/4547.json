@@ -1,0 +1,153 @@
+{
+ "company": {
+  "name": "キッセイ薬品工業",
+  "securityCode": "4547",
+  "tradingViewSymbol": "TSE:4547"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "4547-2026-11-05",
+  "overextended": false,
+  "setupType": "RECOVERY",
+  "setups": [],
+  "startedAt": "2026-11-05",
+  "status": "BROKEN",
+  "statusHistory": [
+   {
+    "date": "2026-11-05",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-11-05",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   },
+   {
+    "date": "2026-11-06",
+    "from": "WATCH",
+    "reason_code": "BELOW_MA60",
+    "to": "BROKEN"
+   }
+  ],
+  "watchStartedAt": "2026-11-05"
+ },
+ "eventReactions": [
+  {
+   "d1": 3.1,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZBY2",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-11-05",
+  "buyBalance": 19300,
+  "buyChangePct": -20.9,
+  "labels": [
+   "信用買残減少",
+   "信用倍率改善",
+   "売残増加"
+  ],
+  "ratio": 0.3,
+  "sellBalance": 63500,
+  "sellChangePct": 24.8
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": -6.5,
+  "currentPrice": 3665.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 19,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 4,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 59,
+   "stockReturn": null
+  },
+  "excessReturn": 1.2,
+  "initialDate": "2026-11-05",
+  "initialPrice": 3870.0,
+  "stockReturn": -5.3
+ },
+ "priceSetup": {
+  "asOf": "2026-11-06",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.24,
+  "labels": [
+   "20日線が上向き"
+  ],
+  "ma20": 3781.5,
+  "ma200": 4120.3,
+  "ma60": 3868.3,
+  "rangePos60": 0.0,
+  "rel20": 10.3,
+  "rel60": 2.2,
+  "volumeRatio20": 1.46
+ },
+ "reasons": [
+  "1.1pt買い増し 5.2%→6.2%",
+  "TOPIX連動ETF比 +10.3pt（20日）",
+  "信用買残 -21%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-11-05",
+   "detail": "5.15% → 6.23%（ブランデス・インベストメント・パートナーズ・エル・ピー）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBY2"
+  },
+  {
+   "date": "2026-11-05",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-05",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-05",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-06",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-06",
+   "detail": "60日線を下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-11-06T16:18:26+09:00"
+}

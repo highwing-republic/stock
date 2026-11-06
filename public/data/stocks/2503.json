@@ -1,11 +1,39 @@
 {
-  "updatedAt": "2026-11-06T02:08:10+09:00",
+  "updatedAt": "2026-11-06T16:17:08+09:00",
   "company": {
     "securityCode": "2503",
     "ticker": "2503.T",
     "name": "キリンホールディングス株式会社"
   },
   "events": [
+    {
+      "docId": "S100ZBSO",
+      "ticker": "2503.T",
+      "securityCode": "2503",
+      "companyName": "キリンホールディングス株式会社",
+      "submitDatetime": "2026-11-06 11:12",
+      "filerName": "野村アセットマネジメント株式会社",
+      "reportType": "change",
+      "holdingRatio": 5.27,
+      "previousHoldingRatio": 5.18,
+      "holdingChange": 0.09,
+      "purpose": "証券業務に係る商品在庫、及び累積投資業務の運営目的として保有している。 / 証券業務に係わる商品在庫として保有している。 / 信託財産の運用として保有している。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -6.32,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z616",
       "ticker": "2503.T",
@@ -28,8 +56,8 @@
       "metrics": {
         "return1d": -1.67,
         "return5d": 1.12,
-        "return20d": null,
-        "returnCurrent": 5.61,
+        "return20d": 12.36,
+        "returnCurrent": 5.27,
         "volumeRatio": 1.14,
         "marketExcessReturn": 2.27
       }
@@ -4022,9 +4050,19 @@
       "open": 3069.0,
       "high": 3178.0,
       "low": 3066.0,
-      "close": null,
-      "adj_close": null,
+      "close": 3167.0,
+      "adj_close": 3167.0,
       "volume": 3574000
+    },
+    {
+      "ticker": "2503.T",
+      "trade_date": "2026-11-06",
+      "open": 3151.0,
+      "high": 3155.0,
+      "low": 2960.5,
+      "close": 2967.0,
+      "adj_close": 2967.0,
+      "volume": 4292100
     }
   ],
   "benchmark": [
@@ -8014,9 +8052,19 @@
       "open": 418.1000061035156,
       "high": 419.6000061035156,
       "low": 411.79998779296875,
-      "close": null,
-      "adj_close": null,
+      "close": 415.6000061035156,
+      "adj_close": 415.6000061035156,
       "volume": 28586460
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-06",
+      "open": 392.20001220703125,
+      "high": 396.29998779296875,
+      "low": 387.29998779296875,
+      "close": 388.6000061035156,
+      "adj_close": 388.6000061035156,
+      "volume": 70111050
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

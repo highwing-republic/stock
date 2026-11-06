@@ -78,13 +78,15 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-04",
-  "buyBalance": 234200,
-  "buyChangePct": -8.4,
-  "labels": [],
-  "ratio": 10.36,
-  "sellBalance": 22600,
-  "sellChangePct": -22.3
+  "asOf": "2026-11-05",
+  "buyBalance": 209400,
+  "buyChangePct": -10.8,
+  "labels": [
+   "信用買残減少"
+  ],
+  "ratio": 8.95,
+  "sellBalance": 23400,
+  "sellChangePct": -17.6
  },
  "pastEpisodes": [],
  "performance": {
@@ -105,7 +107,7 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 35,
+   "pendingDays": 33,
    "stockReturn": null
   },
   "excessReturn": 5.6,
@@ -114,25 +116,25 @@
   "stockReturn": 2.1
  },
  "priceSetup": {
-  "asOf": "2026-11-04",
-  "atrState": "低ボラ",
-  "distFrom52wHigh": 0.16,
+  "asOf": "2026-11-06",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.15,
   "labels": [
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 4071.2,
-  "ma200": 3928.8,
-  "ma60": 3882.3,
-  "rangePos60": 0.58,
-  "rel20": 6.7,
-  "rel60": -3.7,
-  "volumeRatio20": 0.87
+  "ma20": 4090.6,
+  "ma200": 3927.9,
+  "ma60": 3882.9,
+  "rangePos60": 0.65,
+  "rel20": 12.0,
+  "rel60": 5.0,
+  "volumeRatio20": 1.49
  },
  "reasons": [
   "新規大量保有 5.1%（みずほ証券株式会社）",
-  "TOPIX連動ETF比 +6.7pt（20日）",
-  "信用買残 -8%"
+  "TOPIX連動ETF比 +12pt（20日）",
+  "信用買残 -11%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -275,7 +277,28 @@
    "kind": "STATUS",
    "label": "CLOSED",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-05",
+   "detail": "なし → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-05",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-06",
+   "detail": "BREAKOUT → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-06T02:08:20+09:00"
+ "updatedAt": "2026-11-06T16:17:21+09:00"
 }

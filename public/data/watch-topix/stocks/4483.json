@@ -1,0 +1,80 @@
+{
+ "company": {
+  "name": "JMDC",
+  "securityCode": "4483",
+  "tradingViewSymbol": "TSE:4483"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "4483-2026-11-06",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-11-06",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-11-06",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": -5.2,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZBVD",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-11-05",
+  "buyBalance": 139600,
+  "buyChangePct": -10.0,
+  "labels": [
+   "信用買残減少",
+   "信用倍率改善"
+  ],
+  "ratio": 1.73,
+  "sellBalance": 80500,
+  "sellChangePct": 19.4
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-11-06",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.26,
+  "labels": [
+   "60日線の上"
+  ],
+  "ma20": 3706.0,
+  "ma200": 3364.1,
+  "ma60": 3580.3,
+  "rangePos60": 0.53,
+  "rel20": 10.1,
+  "rel60": 10.8,
+  "volumeRatio20": 3.38
+ },
+ "reasons": [
+  "新規大量保有 5.3%（野村證券株式会社）",
+  "TOPIX連動ETF比 +10.1pt（20日）",
+  "信用買残 -10%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-11-06",
+   "detail": "保有割合 5.28%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBVD"
+  }
+ ],
+ "updatedAt": "2026-11-06T16:18:26+09:00"
+}

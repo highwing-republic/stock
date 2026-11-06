@@ -9,14 +9,13 @@
   "closedAt": null,
   "id": "9336-2026-09-25",
   "overextended": false,
-  "setupType": "BREAKOUT",
+  "setupType": "TREND",
   "setups": [
-   "BREAKOUT",
    "TREND",
    "RECOVERY"
   ],
   "startedAt": "2026-09-25",
-  "status": "WATCH",
+  "status": "REACTED",
   "statusHistory": [
    {
     "date": "2026-09-25",
@@ -29,6 +28,12 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
+   },
+   {
+    "date": "2026-11-05",
+    "from": "WATCH",
+    "reason_code": "EXCESS_THRESHOLD",
+    "to": "REACTED"
    }
   ],
   "watchStartedAt": "2026-10-14"
@@ -50,22 +55,24 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-04",
-  "buyBalance": 17800,
-  "buyChangePct": -5.8,
-  "labels": [],
-  "ratio": 0.6,
-  "sellBalance": 29900,
-  "sellChangePct": -5.7
+  "asOf": "2026-11-05",
+  "buyBalance": 16200,
+  "buyChangePct": -16.1,
+  "labels": [
+   "信用買残減少"
+  ],
+  "ratio": 0.56,
+  "sellBalance": 29100,
+  "sellChangePct": -6.4
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -4.0,
-  "currentPrice": 4035.0,
+  "benchReturn": -9.9,
+  "currentPrice": 4060.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 6,
+   "pendingDays": 4,
    "stockReturn": null
   },
   "d5": {
@@ -77,37 +84,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 46,
+   "pendingDays": 44,
    "stockReturn": null
   },
-  "excessReturn": 9.2,
+  "excessReturn": 15.8,
   "initialDate": "2026-10-14",
   "initialPrice": 3835.0,
-  "stockReturn": 5.2
+  "stockReturn": 5.9
  },
  "priceSetup": {
-  "asOf": "2026-11-04",
-  "atrState": "低ボラ",
-  "distFrom52wHigh": 0.07,
+  "asOf": "2026-11-06",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.06,
   "labels": [
    "20日線の上",
-   "60日レンジ上位8%",
+   "60日レンジ上位28%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 3891.0,
-  "ma200": 3833.4,
-  "ma60": 3782.5,
-  "rangePos60": 0.92,
-  "rel20": 17.4,
-  "rel60": 10.8,
-  "volumeRatio20": 0.64
+  "ma20": 3937.2,
+  "ma200": 3835.1,
+  "ma60": 3799.7,
+  "rangePos60": 0.72,
+  "rel20": 20.7,
+  "rel60": 19.3,
+  "volumeRatio20": 0.76
  },
  "reasons": [
   "新規大量保有 5.1%（ＦＩＡＭ　ＬＬＣ）",
-  "60日レンジ上位8%",
+  "60日レンジ上位28%",
   "20日線上向き",
-  "TOPIX連動ETF比 +17.4pt（20日）"
+  "TOPIX連動ETF比 +20.7pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -187,7 +194,28 @@
    "kind": "SETUP",
    "label": "Price Setup変化",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-05",
+   "detail": "BREAKOUT → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup変化",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-05",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-05",
+   "detail": "TOPIX連動ETFとの差が大きくなった",
+   "kind": "STATUS",
+   "label": "REACTED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-06T02:09:08+09:00"
+ "updatedAt": "2026-11-06T16:18:26+09:00"
 }

@@ -33,7 +33,7 @@
   },
   {
    "d1": -4.3,
-   "d20": null,
+   "d20": -28.1,
    "d5": -13.7,
    "eventId": "edinet:S100Z63F",
    "excess5": -10.0
@@ -51,35 +51,43 @@
    "d5": 0.3,
    "eventId": "edinet:S100Z8PV",
    "excess5": 0.6
+  },
+  {
+   "d1": -2.1,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZBB9",
+   "excess5": null
   }
  ],
  "margin": {
-  "asOf": "2026-11-04",
-  "buyBalance": 796300,
-  "buyChangePct": -5.3,
-  "labels": [],
-  "ratio": 5.95,
-  "sellBalance": 133800,
-  "sellChangePct": -10.2
+  "asOf": "2026-11-05",
+  "buyBalance": 815300,
+  "buyChangePct": 9.4,
+  "labels": [
+   "信用倍率悪化"
+  ],
+  "ratio": 7.38,
+  "sellBalance": 110400,
+  "sellChangePct": -20.4
  },
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-04",
-  "atrState": "通常",
-  "distFrom52wHigh": 0.33,
+  "asOf": "2026-11-06",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.39,
   "labels": [],
-  "ma20": 1551.3,
-  "ma200": 1570.6,
-  "ma60": 1668.2,
-  "rangePos60": 0.13,
-  "rel20": -18.0,
-  "rel60": -21.4,
-  "volumeRatio20": 0.58
+  "ma20": 1504.2,
+  "ma200": 1573.7,
+  "ma60": 1647.8,
+  "rangePos60": 0.15,
+  "rel20": -17.1,
+  "rel60": -23.2,
+  "volumeRatio20": 1.47
  },
  "reasons": [
-  "新規大量保有 5.2%（三井住友トラスト・アセットマネジメント株式会社）",
-  "信用買残 -5%"
+  "新規大量保有 5.2%（三井住友トラスト・アセットマネジメント株式会社）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -110,7 +118,14 @@
    "kind": "EVENT",
    "label": "新規大量保有",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8PV"
+  },
+  {
+   "date": "2026-11-06",
+   "detail": "5.19% → 5.19%（三井住友トラスト・アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "変更報告（増減不明）",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBB9"
   }
  ],
- "updatedAt": "2026-11-06T02:09:08+09:00"
+ "updatedAt": "2026-11-06T16:18:26+09:00"
 }

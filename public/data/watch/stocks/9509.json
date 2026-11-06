@@ -1,0 +1,131 @@
+{
+ "company": {
+  "name": "北海道電力",
+  "securityCode": "9509",
+  "tradingViewSymbol": "TSE:9509"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "9509-2026-11-06",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-11-06",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-11-06",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": 0.6,
+   "d20": 10.0,
+   "d5": 6.0,
+   "eventId": "edinet:S100YO08",
+   "excess5": 5.8
+  },
+  {
+   "d1": -0.6,
+   "d20": 5.6,
+   "d5": 1.0,
+   "eventId": "edinet:S100YROR",
+   "excess5": 2.3
+  },
+  {
+   "d1": -0.6,
+   "d20": 5.6,
+   "d5": 1.0,
+   "eventId": "edinet:S100YRXN",
+   "excess5": 2.3
+  },
+  {
+   "d1": -0.6,
+   "d20": null,
+   "d5": 1.8,
+   "eventId": "edinet:S100Z9GZ",
+   "excess5": 1.6
+  },
+  {
+   "d1": -4.4,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZBQW",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-11-05",
+  "buyBalance": 3874600,
+  "buyChangePct": -2.8,
+  "labels": [],
+  "ratio": 1.45,
+  "sellBalance": 2667000,
+  "sellChangePct": -0.7
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-11-06",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.16,
+  "labels": [],
+  "ma20": 1093.1,
+  "ma200": 1032.6,
+  "ma60": 1087.9,
+  "rangePos60": 0.39,
+  "rel20": 8.7,
+  "rel60": 13.8,
+  "volumeRatio20": 2.13
+ },
+ "reasons": [
+  "新規大量保有 5.1%（ブラックロック・ジャパン株式会社）",
+  "TOPIX連動ETF比 +8.7pt（20日）",
+  "信用買残 -3%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-07-02",
+   "detail": "10.33% → 10.76%（株式会社みずほ銀行）",
+   "kind": "EVENT",
+   "label": "買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YO08"
+  },
+  {
+   "date": "2026-07-23",
+   "detail": "10.76% → 10.48%（株式会社みずほ銀行）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YROR"
+  },
+  {
+   "date": "2026-07-23",
+   "detail": "保有割合 5.16%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YRXN"
+  },
+  {
+   "date": "2026-10-23",
+   "detail": "10.48% → 11.14%（株式会社みずほ銀行）",
+   "kind": "EVENT",
+   "label": "買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9GZ"
+  },
+  {
+   "date": "2026-11-05",
+   "detail": "保有割合 5.08%（ブラックロック・ジャパン株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBQW"
+  }
+ ],
+ "updatedAt": "2026-11-06T16:17:21+09:00"
+}

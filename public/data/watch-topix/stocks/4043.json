@@ -1,0 +1,110 @@
+{
+ "company": {
+  "name": "トクヤマ",
+  "securityCode": "4043",
+  "tradingViewSymbol": "TSE:4043"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "4043-2026-11-06",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-11-06",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-11-06",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": 4.3,
+   "d20": -0.2,
+   "d5": -1.4,
+   "eventId": "edinet:S100YUTR",
+   "excess5": 2.0
+  },
+  {
+   "d1": -4.6,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZBAT",
+   "excess5": null
+  },
+  {
+   "d1": -4.6,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZBRH",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-11-05",
+  "buyBalance": 1602800,
+  "buyChangePct": -2.0,
+  "labels": [],
+  "ratio": 122.35,
+  "sellBalance": 13100,
+  "sellChangePct": -15.5
+ },
+ "pastEpisodes": [
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-09-03",
+   "id": "4043-2026-08-13",
+   "setupType": "RECOVERY",
+   "startedAt": "2026-08-13"
+  }
+ ],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-11-06",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.37,
+  "labels": [],
+  "ma20": 3909.9,
+  "ma200": 4173.2,
+  "ma60": 3990.6,
+  "rangePos60": 0.17,
+  "rel20": -3.7,
+  "rel60": -2.6,
+  "volumeRatio20": 1.68
+ },
+ "reasons": [
+  "1pt買い増し 5%→6.1%",
+  "信用買残 -2%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-08-12",
+   "detail": "保有割合 5.01%（Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YUTR"
+  },
+  {
+   "date": "2026-11-06",
+   "detail": "5.04% → 6.06%（三井住友信託銀行株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBAT"
+  },
+  {
+   "date": "2026-11-06",
+   "detail": "6.39% → 6.86%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBRH"
+  }
+ ],
+ "updatedAt": "2026-11-06T16:18:26+09:00"
+}

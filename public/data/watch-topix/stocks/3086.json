@@ -155,23 +155,31 @@
    "d5": 7.1,
    "eventId": "edinet:S100Z9ZZ",
    "excess5": 8.4
+  },
+  {
+   "d1": -7.1,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZBSF",
+   "excess5": null
   }
  ],
  "margin": {
-  "asOf": "2026-11-04",
-  "buyBalance": 139300,
-  "buyChangePct": -9.4,
+  "asOf": "2026-11-05",
+  "buyBalance": 129200,
+  "buyChangePct": -14.8,
   "labels": [
+   "信用買残減少",
    "信用倍率改善"
   ],
-  "ratio": 0.74,
-  "sellBalance": 189000,
-  "sellChangePct": 7.1
+  "ratio": 0.68,
+  "sellBalance": 189300,
+  "sellChangePct": 6.7
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -2.9,
-  "currentPrice": 2852.0,
+  "benchReturn": -8.8,
+  "currentPrice": 2833.0,
   "d20": {
    "benchReturn": -1.9,
    "excessReturn": 15.7,
@@ -190,33 +198,33 @@
    "pendingDays": 0,
    "stockReturn": -7.2
   },
-  "excessReturn": 2.0,
+  "excessReturn": 7.2,
   "initialDate": "2026-06-22",
   "initialPrice": 2879.1,
-  "stockReturn": -0.9
+  "stockReturn": -1.6
  },
  "priceSetup": {
-  "asOf": "2026-11-04",
+  "asOf": "2026-11-06",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.2,
+  "distFrom52wHigh": 0.21,
   "labels": [
    "20日線の上",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2761.1,
-  "ma200": 2611.2,
-  "ma60": 2787.4,
-  "rangePos60": 0.51,
-  "rel20": 14.4,
-  "rel60": -0.4,
-  "volumeRatio20": 2.06
+  "ma20": 2785.9,
+  "ma200": 2618.6,
+  "ma60": 2788.6,
+  "rangePos60": 0.48,
+  "rel20": 14.9,
+  "rel60": 5.4,
+  "volumeRatio20": 1.48
  },
  "reasons": [
   "1.3pt買い増し 10.3%→11.6%",
   "30日以内に2回買い増し",
   "20日線上向き",
-  "TOPIX連動ETF比 +14.4pt（20日）"
+  "TOPIX連動ETF比 +14.9pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -506,7 +514,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-06",
+   "detail": "8.43% → 7%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBSF"
   }
  ],
- "updatedAt": "2026-11-06T02:09:08+09:00"
+ "updatedAt": "2026-11-06T16:18:26+09:00"
 }

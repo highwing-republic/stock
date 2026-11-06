@@ -1,0 +1,90 @@
+{
+ "company": {
+  "name": "日清オイリオグループ",
+  "securityCode": "2602",
+  "tradingViewSymbol": "TSE:2602"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "2602-2026-11-06",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-11-06",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-11-06",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": -3.9,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZC5W",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-11-05",
+  "buyBalance": 34600,
+  "buyChangePct": -28.7,
+  "labels": [
+   "信用買残減少",
+   "信用倍率改善"
+  ],
+  "ratio": 6.18,
+  "sellBalance": 5600,
+  "sellChangePct": -8.2
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-11-06",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.04,
+  "labels": [
+   "60日レンジ上位29%",
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 2051.2,
+  "ma200": 1893.0,
+  "ma60": 2028.0,
+  "rangePos60": 0.71,
+  "rel20": 14.1,
+  "rel60": 20.0,
+  "volumeRatio20": 1.27
+ },
+ "reasons": [
+  "1pt買い増し 6.5%→7.6%",
+  "60日レンジ上位29%",
+  "TOPIX連動ETF比 +14.1pt（20日）",
+  "52週高値まで4%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-11-06",
+   "detail": "6.55% → 7.58%（三井住友ＤＳアセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZC5W"
+  },
+  {
+   "date": "2026-11-06",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-11-06T16:18:26+09:00"
+}

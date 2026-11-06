@@ -1,0 +1,116 @@
+{
+ "company": {
+  "name": "ツムラ",
+  "securityCode": "4540",
+  "tradingViewSymbol": "TSE:4540"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "4540-2026-11-06",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-11-06",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-11-06",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": -0.4,
+   "d20": -1.5,
+   "d5": 0.4,
+   "eventId": "edinet:S100Z33R",
+   "excess5": -0.8
+  },
+  {
+   "d1": 0.5,
+   "d20": 2.7,
+   "d5": 3.2,
+   "eventId": "edinet:S100Z41I",
+   "excess5": 4.1
+  },
+  {
+   "d1": -4.0,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZBVU",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-11-05",
+  "buyBalance": 149600,
+  "buyChangePct": -25.2,
+  "labels": [
+   "信用買残減少",
+   "信用倍率改善"
+  ],
+  "ratio": 5.23,
+  "sellBalance": 28600,
+  "sellChangePct": 1.8
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-11-06",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.12,
+  "labels": [
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 3785.2,
+  "ma200": 3746.2,
+  "ma60": 3729.9,
+  "rangePos60": 0.46,
+  "rel20": 10.6,
+  "rel60": 9.5,
+  "volumeRatio20": 1.22
+ },
+ "reasons": [
+  "新規大量保有 5%（野村證券株式会社）",
+  "TOPIX連動ETF比 +10.6pt（20日）",
+  "信用買残 -25%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-09-24",
+   "detail": "5.33% → 4.82%（野村アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z33R"
+  },
+  {
+   "date": "2026-10-06",
+   "detail": "10% → 10%（ピンアン・ライフ・インシュアランス・カンパニー・オブ・チャイナ・リミテッド（中国平安人寿保険股フン有限公司））",
+   "kind": "EVENT",
+   "label": "変更報告（増減不明）",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z41I"
+  },
+  {
+   "date": "2026-11-06",
+   "detail": "保有割合 5.05%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBVU"
+  },
+  {
+   "date": "2026-11-06",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-11-06T16:18:26+09:00"
+}

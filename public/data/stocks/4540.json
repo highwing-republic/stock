@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-11-06T02:08:10+09:00",
+  "updatedAt": "2026-11-06T16:17:08+09:00",
   "company": {
     "securityCode": "4540",
     "ticker": "4540.T",
     "name": "株式会社ツムラ"
   },
   "events": [
+    {
+      "docId": "S100ZBVU",
+      "ticker": "4540.T",
+      "securityCode": "4540",
+      "companyName": "株式会社ツムラ",
+      "submitDatetime": "2026-11-06 14:32",
+      "filerName": "野村證券株式会社",
+      "reportType": "initial",
+      "holdingRatio": 5.05,
+      "previousHoldingRatio": null,
+      "holdingChange": null,
+      "purpose": "証券業務に係る商品在庫、及び累積投資業務の運営目的として保有している。 / 信託財産の運用として保有している。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 30,
+      "signalReasons": [
+        "新規大量保有"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -4.04,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z41I",
       "ticker": "4540.T",
@@ -30,8 +60,8 @@
       "metrics": {
         "return1d": 1.13,
         "return5d": 2.37,
-        "return20d": null,
-        "returnCurrent": 2.72,
+        "return20d": 4.91,
+        "returnCurrent": 0.67,
         "volumeRatio": 0.71,
         "marketExcessReturn": 3.52
       }
@@ -61,7 +91,7 @@
         "return1d": 0.78,
         "return5d": -0.54,
         "return20d": -0.83,
-        "returnCurrent": 1.03,
+        "returnCurrent": -0.99,
         "volumeRatio": 0.96,
         "marketExcessReturn": -2.44
       }
@@ -3974,9 +4004,19 @@
       "open": 3866.0,
       "high": 3924.0,
       "low": 3844.0,
-      "close": null,
-      "adj_close": null,
+      "close": 3889.0,
+      "adj_close": 3889.0,
       "volume": 510300
+    },
+    {
+      "ticker": "4540.T",
+      "trade_date": "2026-11-06",
+      "open": 3819.0,
+      "high": 3842.0,
+      "low": 3719.0,
+      "close": 3732.0,
+      "adj_close": 3732.0,
+      "volume": 556200
     }
   ],
   "benchmark": [
@@ -7966,9 +8006,19 @@
       "open": 418.1000061035156,
       "high": 419.6000061035156,
       "low": 411.79998779296875,
-      "close": null,
-      "adj_close": null,
+      "close": 415.6000061035156,
+      "adj_close": 415.6000061035156,
       "volume": 28586460
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-06",
+      "open": 392.20001220703125,
+      "high": 396.29998779296875,
+      "low": 387.29998779296875,
+      "close": 388.6000061035156,
+      "adj_close": 388.6000061035156,
+      "volume": 70111050
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

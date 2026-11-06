@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T02:08:10+09:00",
+  "updatedAt": "2026-11-06T16:17:08+09:00",
   "company": {
     "securityCode": "3358",
     "ticker": "3358.T",
@@ -19,22 +19,23 @@
       "holdingChange": 1984.73,
       "purpose": "発行会社の取締役会長として、発行会社グループの中長期的な企業価値及び株主価値の向上に経営者として関与することを目的に、安定株主として長期保有しております。 / 発行会社の取締役会長である青柳和洋が代表取締役を務める法人であり、同氏と一体として、発行会社の中長期的な企業価値向上を目的に安定株主として長期保有しております。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.73,
-      "marketExcessReturn": null,
-      "signalScore": 30,
+      "priceChange": -6.98,
+      "volumeRatio": 1.07,
+      "marketExcessReturn": 0.5,
+      "signalScore": 40,
       "signalReasons": [
         "1pt以上買い増し",
-        "2pt以上買い増し"
+        "2pt以上買い増し",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": -2.33,
-        "return5d": null,
+        "return5d": -6.98,
         "return20d": null,
-        "returnCurrent": -4.65,
-        "volumeRatio": 0.73,
-        "marketExcessReturn": null
+        "returnCurrent": -6.98,
+        "volumeRatio": 1.07,
+        "marketExcessReturn": 0.5
       }
     }
   ],
@@ -2745,9 +2746,19 @@
       "open": 83.0,
       "high": 84.0,
       "low": 82.0,
-      "close": null,
-      "adj_close": null,
+      "close": 83.0,
+      "adj_close": 83.0,
       "volume": 89400
+    },
+    {
+      "ticker": "3358.T",
+      "trade_date": "2026-11-06",
+      "open": 80.0,
+      "high": 81.0,
+      "low": 79.0,
+      "close": 80.0,
+      "adj_close": 80.0,
+      "volume": 318900
     }
   ],
   "benchmark": [
@@ -6737,9 +6748,19 @@
       "open": 418.1000061035156,
       "high": 419.6000061035156,
       "low": 411.79998779296875,
-      "close": null,
-      "adj_close": null,
+      "close": 415.6000061035156,
+      "adj_close": 415.6000061035156,
       "volume": 28586460
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-06",
+      "open": 392.20001220703125,
+      "high": 396.29998779296875,
+      "low": 387.29998779296875,
+      "close": 388.6000061035156,
+      "adj_close": 388.6000061035156,
+      "volume": 70111050
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

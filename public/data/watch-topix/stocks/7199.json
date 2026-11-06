@@ -10,10 +10,7 @@
   "id": "7199-2026-10-29",
   "overextended": false,
   "setupType": "TREND",
-  "setups": [
-   "TREND",
-   "RECOVERY"
-  ],
+  "setups": [],
   "startedAt": "2026-10-29",
   "status": "CONFIRMED",
   "statusHistory": [
@@ -56,72 +53,68 @@
   {
    "d1": 7.6,
    "d20": null,
-   "d5": null,
+   "d5": 8.6,
    "eventId": "edinet:S100Z9MG",
-   "excess5": null
+   "excess5": 9.6
   }
  ],
  "margin": {
-  "asOf": "2026-11-04",
-  "buyBalance": 473400,
-  "buyChangePct": -0.3,
-  "labels": [
-   "信用倍率改善",
-   "売残増加"
-  ],
-  "ratio": 8.15,
-  "sellBalance": 58100,
-  "sellChangePct": 21.8
+  "asOf": "2026-11-05",
+  "buyBalance": 470100,
+  "buyChangePct": -3.6,
+  "labels": [],
+  "ratio": 9.54,
+  "sellBalance": 49300,
+  "sellChangePct": -16.6
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -1.7,
-  "currentPrice": 2205.0,
+  "benchReturn": -7.8,
+  "currentPrice": 2180.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 17,
+   "pendingDays": 15,
    "stockReturn": null
   },
   "d5": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 2,
-   "stockReturn": null
+   "benchReturn": -7.8,
+   "excessReturn": 4.6,
+   "pendingDays": 0,
+   "stockReturn": -3.2
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 57,
+   "pendingDays": 55,
    "stockReturn": null
   },
-  "excessReturn": -0.3,
+  "excessReturn": 4.6,
   "initialDate": "2026-10-29",
   "initialPrice": 2251.0,
-  "stockReturn": -2.0
+  "stockReturn": -3.2
  },
  "priceSetup": {
-  "asOf": "2026-11-04",
-  "atrState": "通常",
-  "distFrom52wHigh": 0.05,
+  "asOf": "2026-11-06",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.06,
   "labels": [
-   "20日線の上",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2172.2,
-  "ma200": 1936.9,
-  "ma60": 2109.1,
-  "rangePos60": 0.65,
-  "rel20": 10.8,
-  "rel60": 7.9,
-  "volumeRatio20": 1.16
+  "ma20": 2182.2,
+  "ma200": 1940.1,
+  "ma60": 2113.4,
+  "rangePos60": 0.58,
+  "rel20": 13.3,
+  "rel60": 12.7,
+  "volumeRatio20": 1.35
  },
  "reasons": [
   "新規大量保有 5%（ダルトン　インベストメンツ　インク）",
-  "20日線上向き",
-  "TOPIX連動ETF比 +10.8pt（20日）",
-  "52週高値まで5%"
+  "TOPIX連動ETF比 +13.3pt（20日）",
+  "52週高値まで6%",
+  "信用買残 -4%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -194,7 +187,14 @@
    "kind": "STATUS",
    "label": "CONFIRMED",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-06",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-06T02:09:08+09:00"
+ "updatedAt": "2026-11-06T16:18:26+09:00"
 }

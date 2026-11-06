@@ -10,9 +10,7 @@
   "id": "2871-2026-10-06",
   "overextended": false,
   "setupType": "RECOVERY",
-  "setups": [
-   "RECOVERY"
-  ],
+  "setups": [],
   "startedAt": "2026-10-06",
   "status": "WATCH",
   "statusHistory": [
@@ -104,13 +102,13 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-04",
-  "buyBalance": 118400,
-  "buyChangePct": -7.8,
+  "asOf": "2026-11-05",
+  "buyBalance": 116200,
+  "buyChangePct": -8.9,
   "labels": [],
-  "ratio": 1.42,
-  "sellBalance": 83600,
-  "sellChangePct": -2.0
+  "ratio": 1.4,
+  "sellBalance": 82900,
+  "sellChangePct": -4.3
  },
  "pastEpisodes": [
   {
@@ -122,53 +120,51 @@
   }
  ],
  "performance": {
-  "benchReturn": 0.2,
-  "currentPrice": 2151.0,
+  "benchReturn": -5.9,
+  "currentPrice": 2129.5,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 19,
+   "pendingDays": 17,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 4,
+   "pendingDays": 2,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 59,
+   "pendingDays": 57,
    "stockReturn": null
   },
-  "excessReturn": -0.2,
+  "excessReturn": 4.9,
   "initialDate": "2026-11-02",
   "initialPrice": 2152.0,
-  "stockReturn": -0.0
+  "stockReturn": -1.0
  },
  "priceSetup": {
-  "asOf": "2026-11-04",
-  "atrState": "低ボラ",
-  "distFrom52wHigh": 0.08,
+  "asOf": "2026-11-06",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.09,
   "labels": [
-   "20日線の上",
-   "20日線が上向き",
-   "60日線の上"
+   "20日線が上向き"
   ],
-  "ma20": 2131.1,
-  "ma200": 2017.1,
-  "ma60": 2138.9,
-  "rangePos60": 0.57,
-  "rel20": 7.7,
-  "rel60": 0.6,
-  "volumeRatio20": 0.94
+  "ma20": 2140.6,
+  "ma200": 2021.2,
+  "ma60": 2140.6,
+  "rangePos60": 0.45,
+  "rel20": 12.4,
+  "rel60": 5.9,
+  "volumeRatio20": 1.42
  },
  "reasons": [
   "0.1pt買い増し 9.4%→9.5%",
   "30日以内に2回買い増し",
-  "20日線上向き",
-  "TOPIX連動ETF比 +7.7pt（20日）"
+  "TOPIX連動ETF比 +12.4pt（20日）",
+  "52週高値まで9%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -304,7 +300,21 @@
    "kind": "STATUS",
    "label": "WATCH",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-05",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-06",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-06T02:08:20+09:00"
+ "updatedAt": "2026-11-06T16:17:21+09:00"
 }

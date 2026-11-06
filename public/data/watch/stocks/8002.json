@@ -12,7 +12,7 @@
   "setupType": "RECOVERY",
   "setups": [],
   "startedAt": "2026-09-25",
-  "status": "STRENGTHENING",
+  "status": "BROKEN",
   "statusHistory": [
    {
     "date": "2026-09-25",
@@ -31,6 +31,12 @@
     "from": "WATCH",
     "reason_code": "SETUP_IMPROVED",
     "to": "STRENGTHENING"
+   },
+   {
+    "date": "2026-11-06",
+    "from": "STRENGTHENING",
+    "reason_code": "BELOW_MA60",
+    "to": "BROKEN"
    }
   ],
   "watchStartedAt": "2026-10-23"
@@ -59,24 +65,25 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-04",
-  "buyBalance": 2897700,
-  "buyChangePct": 7.8,
+  "asOf": "2026-11-05",
+  "buyBalance": 2566000,
+  "buyChangePct": -3.6,
   "labels": [
-   "信用倍率悪化"
+   "信用倍率改善",
+   "売残増加"
   ],
-  "ratio": 15.85,
-  "sellBalance": 182800,
-  "sellChangePct": -15.3
+  "ratio": 7.63,
+  "sellBalance": 336100,
+  "sellChangePct": 56.2
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -0.6,
-  "currentPrice": 4754.0,
+  "benchReturn": -6.7,
+  "currentPrice": 4726.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 13,
+   "pendingDays": 11,
    "stockReturn": null
   },
   "d5": {
@@ -88,32 +95,33 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 53,
+   "pendingDays": 51,
    "stockReturn": null
   },
-  "excessReturn": -3.9,
+  "excessReturn": 1.6,
   "initialDate": "2026-10-23",
   "initialPrice": 4979.0,
-  "stockReturn": -4.5
+  "stockReturn": -5.1
  },
  "priceSetup": {
-  "asOf": "2026-11-04",
-  "atrState": "低ボラ",
-  "distFrom52wHigh": 0.23,
+  "asOf": "2026-11-06",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.24,
   "labels": [
    "20日線が上向き"
   ],
-  "ma20": 4893.1,
-  "ma200": 5177.9,
-  "ma60": 4899.4,
-  "rangePos60": 0.31,
-  "rel20": 4.0,
-  "rel60": -2.9,
-  "volumeRatio20": 2.49
+  "ma20": 4904.5,
+  "ma200": 5182.0,
+  "ma60": 4901.9,
+  "rangePos60": 0.26,
+  "rel20": 9.8,
+  "rel60": 5.2,
+  "volumeRatio20": 2.27
  },
  "reasons": [
   "新規大量保有 5%（野村證券株式会社）",
-  "TOPIX連動ETF比 +4pt（20日）"
+  "TOPIX連動ETF比 +9.8pt（20日）",
+  "信用買残 -4%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -207,7 +215,28 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-05",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-05",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-06",
+   "detail": "60日線を下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-06T02:08:20+09:00"
+ "updatedAt": "2026-11-06T16:17:21+09:00"
 }

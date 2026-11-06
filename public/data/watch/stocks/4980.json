@@ -1,0 +1,132 @@
+{
+ "company": {
+  "name": "デクセリアルズ",
+  "securityCode": "4980",
+  "tradingViewSymbol": "TSE:4980"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "4980-2026-11-06",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-11-06",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-11-06",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": 1.5,
+   "d20": -27.8,
+   "d5": -9.3,
+   "eventId": "edinet:S100YDYL",
+   "excess5": -7.1
+  },
+  {
+   "d1": 1.5,
+   "d20": -27.8,
+   "d5": -9.3,
+   "eventId": "edinet:S100YEFX",
+   "excess5": -7.1
+  },
+  {
+   "d1": 1.5,
+   "d20": -27.8,
+   "d5": -9.3,
+   "eventId": "edinet:S100YGJB",
+   "excess5": -7.1
+  },
+  {
+   "d1": 1.7,
+   "d20": -21.7,
+   "d5": -0.4,
+   "eventId": "edinet:S100YPRL",
+   "excess5": -2.1
+  },
+  {
+   "d1": -6.0,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZBJH",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-11-05",
+  "buyBalance": 1573300,
+  "buyChangePct": 3.7,
+  "labels": [
+   "信用倍率改善",
+   "売残増加"
+  ],
+  "ratio": 22.38,
+  "sellBalance": 70300,
+  "sellChangePct": 20.4
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-11-06",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.55,
+  "labels": [],
+  "ma20": 3089.0,
+  "ma200": 3088.9,
+  "ma60": 3052.1,
+  "rangePos60": 0.13,
+  "rel20": -24.2,
+  "rel60": -15.3,
+  "volumeRatio20": 2.01
+ },
+ "reasons": [
+  "新規大量保有 5.8%（マサチューセッツ・ファイナンシャル・サービセズ・カンパニー）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-06-22",
+   "detail": "5.26% → 3.08%（Ｆｉｄｅｌｉｔｙ　Ｍａｎａｇｅｍｅｎｔ　＆　Ｒｅｓｅａｒｃｈ　Ｃｏｍｐａｎｙ　ＬＬＣ）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEFX"
+  },
+  {
+   "date": "2026-06-22",
+   "detail": "10.91% → 12.17%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YGJB"
+  },
+  {
+   "date": "2026-06-22",
+   "detail": "5.26% → 3.08%（ＦＭＲ　ＬＬＣ）",
+   "kind": "EVENT",
+   "label": "訂正報告",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDYL"
+  },
+  {
+   "date": "2026-07-09",
+   "detail": "12.17% → 12.88%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YPRL"
+  },
+  {
+   "date": "2026-11-06",
+   "detail": "保有割合 5.75%（マサチューセッツ・ファイナンシャル・サービセズ・カンパニー）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBJH"
+  }
+ ],
+ "updatedAt": "2026-11-06T16:17:21+09:00"
+}

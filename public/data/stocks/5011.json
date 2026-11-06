@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-11-06T02:08:10+09:00",
+  "updatedAt": "2026-11-06T16:17:08+09:00",
   "company": {
     "securityCode": "5011",
     "ticker": "5011.T",
     "name": "ニチレキグループ株式会社"
   },
   "events": [
+    {
+      "docId": "S100ZBAV",
+      "ticker": "5011.T",
+      "securityCode": "5011",
+      "companyName": "ニチレキグループ株式会社",
+      "submitDatetime": "2026-11-06 10:21",
+      "filerName": "三井住友信託銀行株式会社",
+      "reportType": "change",
+      "holdingRatio": 3.86,
+      "previousHoldingRatio": 5.06,
+      "holdingChange": -1.2,
+      "purpose": "政策投資として保有するもの。 / 投資信託契約、投資一任契約に基づく運用を目的として保有するもの。 / 証券投資信託及び投資一任契約において、株券等の取得・処分の権限を有するもの。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -6.27,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z6J3",
       "ticker": "5011.T",
@@ -30,8 +60,8 @@
       "metrics": {
         "return1d": -5.9,
         "return5d": -3.81,
-        "return20d": null,
-        "returnCurrent": -7.36,
+        "return20d": -9.84,
+        "returnCurrent": -9.84,
         "volumeRatio": 0.93,
         "marketExcessReturn": 0.6
       }
@@ -2884,9 +2914,19 @@
       "open": 2112.0,
       "high": 2173.0,
       "low": 2112.0,
-      "close": null,
-      "adj_close": null,
+      "close": 2170.0,
+      "adj_close": 2170.0,
       "volume": 86500
+    },
+    {
+      "ticker": "5011.T",
+      "trade_date": "2026-11-06",
+      "open": 2080.0,
+      "high": 2103.0,
+      "low": 2027.0,
+      "close": 2034.0,
+      "adj_close": 2034.0,
+      "volume": 56700
     }
   ],
   "benchmark": [
@@ -6876,9 +6916,19 @@
       "open": 418.1000061035156,
       "high": 419.6000061035156,
       "low": 411.79998779296875,
-      "close": null,
-      "adj_close": null,
+      "close": 415.6000061035156,
+      "adj_close": 415.6000061035156,
       "volume": 28586460
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-06",
+      "open": 392.20001220703125,
+      "high": 396.29998779296875,
+      "low": 387.29998779296875,
+      "close": 388.6000061035156,
+      "adj_close": 388.6000061035156,
+      "volume": 70111050
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

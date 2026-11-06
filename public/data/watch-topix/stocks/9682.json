@@ -9,10 +9,8 @@
   "closedAt": null,
   "id": "9682-2026-10-07",
   "overextended": false,
-  "setupType": "RECOVERY",
-  "setups": [
-   "RECOVERY"
-  ],
+  "setupType": "TREND",
+  "setups": [],
   "startedAt": "2026-10-07",
   "status": "REACTED",
   "statusHistory": [
@@ -60,30 +58,30 @@
   },
   {
    "d1": 0.2,
-   "d20": null,
+   "d20": 13.8,
    "d5": 6.3,
    "eventId": "edinet:S100Z5ZR",
    "excess5": 8.4
   },
   {
    "d1": 0.2,
-   "d20": null,
+   "d20": 13.8,
    "d5": 6.3,
    "eventId": "edinet:S100Z6JD",
    "excess5": 8.4
   }
  ],
  "margin": {
-  "asOf": "2026-11-04",
-  "buyBalance": 69900,
-  "buyChangePct": -18.2,
+  "asOf": "2026-11-05",
+  "buyBalance": 67600,
+  "buyChangePct": -20.9,
   "labels": [
    "信用買残減少",
    "信用倍率改善"
   ],
-  "ratio": 1.52,
-  "sellBalance": 46000,
-  "sellChangePct": 0.7
+  "ratio": 1.66,
+  "sellBalance": 40800,
+  "sellChangePct": 1.2
  },
  "pastEpisodes": [
   {
@@ -95,12 +93,12 @@
   }
  ],
  "performance": {
-  "benchReturn": -4.3,
-  "currentPrice": 1174.0,
+  "benchReturn": -10.2,
+  "currentPrice": 1164.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 5,
+   "pendingDays": 3,
    "stockReturn": null
   },
   "d5": {
@@ -112,36 +110,34 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 45,
+   "pendingDays": 43,
    "stockReturn": null
   },
-  "excessReturn": 6.9,
+  "excessReturn": 11.9,
   "initialDate": "2026-10-13",
   "initialPrice": 1144.0,
-  "stockReturn": 2.6
+  "stockReturn": 1.7
  },
  "priceSetup": {
-  "asOf": "2026-11-04",
-  "atrState": "通常",
-  "distFrom52wHigh": 0.11,
+  "asOf": "2026-11-06",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.12,
   "labels": [
-   "20日線の上",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 1170.3,
-  "ma200": 1080.3,
-  "ma60": 1119.1,
-  "rangePos60": 0.67,
-  "rel20": 12.5,
-  "rel60": 13.4,
-  "volumeRatio20": 2.36
+  "ma20": 1181.5,
+  "ma200": 1080.1,
+  "ma60": 1124.8,
+  "rangePos60": 0.61,
+  "rel20": 18.0,
+  "rel60": 21.5,
+  "volumeRatio20": 1.34
  },
  "reasons": [
   "新規大量保有 5.1%（株式会社みずほ銀行）",
-  "20日線を回復",
-  "TOPIX連動ETF比 +12.5pt（20日）",
-  "信用買残 -18%"
+  "TOPIX連動ETF比 +18pt（20日）",
+  "信用買残 -21%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -277,7 +273,21 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-05",
+   "detail": "RECOVERY → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-06",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-06T02:09:08+09:00"
+ "updatedAt": "2026-11-06T16:18:26+09:00"
 }

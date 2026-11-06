@@ -9,10 +9,10 @@
   "closedAt": null,
   "id": "8056-2026-10-22",
   "overextended": false,
-  "setupType": "BREAKOUT",
+  "setupType": "RECOVERY",
   "setups": [],
   "startedAt": "2026-10-22",
-  "status": "WATCH",
+  "status": "BROKEN",
   "statusHistory": [
    {
     "date": "2026-10-22",
@@ -25,6 +25,18 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
+   },
+   {
+    "date": "2026-11-05",
+    "from": "WATCH",
+    "reason_code": "SETUP_IMPROVED",
+    "to": "STRENGTHENING"
+   },
+   {
+    "date": "2026-11-06",
+    "from": "STRENGTHENING",
+    "reason_code": "BELOW_MA60",
+    "to": "BROKEN"
    }
   ],
   "watchStartedAt": "2026-10-22"
@@ -60,16 +72,16 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-04",
-  "buyBalance": 33000,
-  "buyChangePct": -37.9,
+  "asOf": "2026-11-05",
+  "buyBalance": 36500,
+  "buyChangePct": -35.5,
   "labels": [
    "信用買残減少",
    "信用倍率改善"
   ],
-  "ratio": 1.31,
-  "sellBalance": 25200,
-  "sellChangePct": -1.9
+  "ratio": 1.29,
+  "sellBalance": 28400,
+  "sellChangePct": 13.1
  },
  "pastEpisodes": [
   {
@@ -81,12 +93,12 @@
   }
  ],
  "performance": {
-  "benchReturn": -1.6,
-  "currentPrice": 4873.0,
+  "benchReturn": -7.6,
+  "currentPrice": 4337.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 12,
+   "pendingDays": 10,
    "stockReturn": null
   },
   "d5": {
@@ -98,36 +110,33 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 52,
+   "pendingDays": 50,
    "stockReturn": null
   },
-  "excessReturn": -4.1,
+  "excessReturn": -8.5,
   "initialDate": "2026-10-22",
   "initialPrice": 5168.0,
-  "stockReturn": -5.7
+  "stockReturn": -16.1
  },
  "priceSetup": {
-  "asOf": "2026-11-04",
-  "atrState": "低ボラ",
-  "distFrom52wHigh": 0.2,
+  "asOf": "2026-11-06",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.29,
   "labels": [
-   "60日レンジ上位30%",
-   "20日線が上向き",
-   "60日線の上"
+   "20日線が上向き"
   ],
-  "ma20": 4938.1,
-  "ma200": 4630.8,
-  "ma60": 4710.4,
-  "rangePos60": 0.7,
-  "rel20": 9.3,
-  "rel60": 4.6,
-  "volumeRatio20": 1.27
+  "ma20": 4933.4,
+  "ma200": 4624.2,
+  "ma60": 4719.4,
+  "rangePos60": 0.17,
+  "rel20": 3.2,
+  "rel60": 13.9,
+  "volumeRatio20": 5.5
  },
  "reasons": [
   "新規大量保有 5.1%（野村證券株式会社）",
-  "60日レンジ上位30%",
-  "TOPIX連動ETF比 +9.3pt（20日）",
-  "信用買残 -38%"
+  "TOPIX連動ETF比 +3.2pt（20日）",
+  "信用買残 -36%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -179,7 +188,42 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-05",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-05",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-05",
+   "detail": "Price Setupが改善",
+   "kind": "STATUS",
+   "label": "STRENGTHENING",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-06",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-06",
+   "detail": "60日線を下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-06T02:09:08+09:00"
+ "updatedAt": "2026-11-06T16:18:26+09:00"
 }

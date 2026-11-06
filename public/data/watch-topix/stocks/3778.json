@@ -5,14 +5,14 @@
   "tradingViewSymbol": "TSE:3778"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "EXPIRED",
+  "closedAt": "2026-11-06",
   "id": "3778-2026-08-06",
   "overextended": true,
   "setupType": "BREAKOUT",
   "setups": [],
   "startedAt": "2026-08-06",
-  "status": "REACTED",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-08-06",
@@ -43,6 +43,12 @@
     "from": "CONFIRMED",
     "reason_code": "EXCESS_THRESHOLD",
     "to": "REACTED"
+   },
+   {
+    "date": "2026-11-06",
+    "from": "REACTED",
+    "reason_code": "EXPIRED",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-08-06"
@@ -82,18 +88,23 @@
    "d5": -8.9,
    "eventId": "edinet:S100Z629",
    "excess5": -8.0
+  },
+  {
+   "d1": -5.8,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZBRK",
+   "excess5": null
   }
  ],
  "margin": {
-  "asOf": "2026-11-04",
-  "buyBalance": 1680700,
-  "buyChangePct": -7.8,
-  "labels": [
-   "信用倍率悪化"
-  ],
-  "ratio": 11.66,
-  "sellBalance": 144100,
-  "sellChangePct": -63.3
+  "asOf": "2026-11-05",
+  "buyBalance": 1633200,
+  "buyChangePct": -5.4,
+  "labels": [],
+  "ratio": 11.22,
+  "sellBalance": 145500,
+  "sellChangePct": -14.1
  },
  "pastEpisodes": [
   {
@@ -105,8 +116,8 @@
   }
  ],
  "performance": {
-  "benchReturn": -2.3,
-  "currentPrice": 2880.0,
+  "benchReturn": -8.3,
+  "currentPrice": 2715.0,
   "d20": {
    "benchReturn": 0.9,
    "excessReturn": 3.5,
@@ -120,33 +131,33 @@
    "stockReturn": 10.7
   },
   "d60": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 2,
-   "stockReturn": null
+   "benchReturn": -8.3,
+   "excessReturn": -14.0,
+   "pendingDays": 0,
+   "stockReturn": -22.3
   },
-  "excessReturn": -15.3,
+  "excessReturn": -14.0,
   "initialDate": "2026-08-06",
   "initialPrice": 3495.0,
-  "stockReturn": -17.6
+  "stockReturn": -22.3
  },
  "priceSetup": {
-  "asOf": "2026-11-04",
+  "asOf": "2026-11-06",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.34,
+  "distFrom52wHigh": 0.38,
   "labels": [],
-  "ma20": 3284.5,
-  "ma200": 3130.0,
-  "ma60": 3555.2,
-  "rangePos60": 0.1,
-  "rel20": -20.9,
-  "rel60": -14.7,
-  "volumeRatio20": 1.19
+  "ma20": 3169.3,
+  "ma200": 3130.6,
+  "ma60": 3531.0,
+  "rangePos60": 0.05,
+  "rel20": -20.5,
+  "rel60": -14.0,
+  "volumeRatio20": 1.27
  },
  "reasons": [
   "0.3pt買い増し 5.1%→5.5%",
   "30日以内に2回買い増し",
-  "信用買残 -8%"
+  "信用買残 -5%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -401,7 +412,21 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-06",
+   "detail": "5.25% → 4.84%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBRK"
+  },
+  {
+   "date": "2026-11-06",
+   "detail": "観察期限に到達",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-06T02:09:08+09:00"
+ "updatedAt": "2026-11-06T16:18:26+09:00"
 }

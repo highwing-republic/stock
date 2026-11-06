@@ -1,0 +1,76 @@
+{
+ "company": {
+  "name": "NGK",
+  "securityCode": "5333",
+  "tradingViewSymbol": "TSE:5333"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "5333-2026-11-06",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-11-06",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-11-06",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": -8.8,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZBB8",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-11-05",
+  "buyBalance": 408600,
+  "buyChangePct": -5.3,
+  "labels": [
+   "信用倍率改善"
+  ],
+  "ratio": 19.36,
+  "sellBalance": 21100,
+  "sellChangePct": 6.0
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-11-06",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.45,
+  "labels": [],
+  "ma20": 4992.4,
+  "ma200": 5160.9,
+  "ma60": 5263.7,
+  "rangePos60": 0.05,
+  "rel20": -15.9,
+  "rel60": -16.3,
+  "volumeRatio20": 1.15
+ },
+ "reasons": [
+  "新規大量保有 5.2%（三井住友トラスト・アセットマネジメント株式会社）",
+  "信用買残 -5%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-11-06",
+   "detail": "保有割合 5.21%（三井住友トラスト・アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBB8"
+  }
+ ],
+ "updatedAt": "2026-11-06T16:17:21+09:00"
+}
