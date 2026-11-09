@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T01:44:47+09:00",
+  "updatedAt": "2026-11-09T16:08:07+09:00",
   "company": {
     "securityCode": "3662",
     "ticker": "3662.T",
@@ -20,11 +20,12 @@
       "purpose": "純投資なお、提出者がジェネラルパートナーを務めるAASC II P, L.P.は、下記（6）のとおり、発行者の非常勤の社外取締役の候補者として最大1名を指名する権利を有する旨を合意しております。但し、本報告書提出日現在において、AASC II P, L.P.はかかる権利を行使しておらず、権利を行使する予定もありません。",
       "importantProposal": true,
       "priceChange": null,
-      "volumeRatio": 1.43,
+      "volumeRatio": 2.18,
       "marketExcessReturn": null,
-      "signalScore": 0,
+      "signalScore": 10,
       "signalReasons": [
         "重要提案行為あり",
+        "出来高2倍以上",
         "保有割合減少"
       ],
       "stockUnreacted": false,
@@ -32,8 +33,8 @@
         "return1d": -0.55,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -0.55,
-        "volumeRatio": 1.43,
+        "returnCurrent": -5.84,
+        "volumeRatio": 2.18,
         "marketExcessReturn": null
       }
     },
@@ -64,7 +65,7 @@
         "return1d": -0.32,
         "return5d": -0.95,
         "return20d": 1.37,
-        "returnCurrent": -4.85,
+        "returnCurrent": -9.91,
         "volumeRatio": 0.86,
         "marketExcessReturn": -2.59
       }
@@ -3077,9 +3078,19 @@
       "open": 895.0,
       "high": 895.0,
       "low": 853.0,
-      "close": null,
-      "adj_close": null,
+      "close": 855.0,
+      "adj_close": 855.0,
       "volume": 273500
+    },
+    {
+      "ticker": "3662.T",
+      "trade_date": "2026-11-09",
+      "open": 856.0,
+      "high": 874.0,
+      "low": 848.0,
+      "close": 855.0,
+      "adj_close": 855.0,
+      "volume": 163200
     }
   ],
   "benchmark": [
@@ -7079,9 +7090,19 @@
       "open": 392.20001220703125,
       "high": 396.29998779296875,
       "low": 387.29998779296875,
-      "close": null,
-      "adj_close": null,
+      "close": 388.6000061035156,
+      "adj_close": 388.6000061035156,
       "volume": 70111050
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-09",
+      "open": 396.6000061035156,
+      "high": 403.70001220703125,
+      "low": 394.79998779296875,
+      "close": 402.1000061035156,
+      "adj_close": 402.1000061035156,
+      "volume": 30123360
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

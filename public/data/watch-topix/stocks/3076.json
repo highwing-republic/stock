@@ -10,9 +10,7 @@
   "id": "3076-2026-10-05",
   "overextended": false,
   "setupType": "TREND",
-  "setups": [
-   "TREND"
-  ],
+  "setups": [],
   "startedAt": "2026-10-05",
   "status": "REACTED",
   "statusHistory": [
@@ -66,20 +64,20 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-05",
-  "buyBalance": 149700,
-  "buyChangePct": 0.1,
+  "asOf": "2026-11-06",
+  "buyBalance": 151600,
+  "buyChangePct": 1.9,
   "labels": [
-   "信用倍率改善"
+   "信用倍率悪化"
   ],
-  "ratio": 5.06,
-  "sellBalance": 29600,
-  "sellChangePct": 16.5
+  "ratio": 8.33,
+  "sellBalance": 18200,
+  "sellChangePct": -31.1
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -5.6,
-  "currentPrice": 3080.0,
+  "benchReturn": -8.7,
+  "currentPrice": 3000.0,
   "d20": {
    "benchReturn": -5.6,
    "excessReturn": 7.8,
@@ -95,36 +93,33 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 40,
+   "pendingDays": 38,
    "stockReturn": null
   },
-  "excessReturn": 7.8,
+  "excessReturn": 8.2,
   "initialDate": "2026-10-06",
   "initialPrice": 3015.0,
-  "stockReturn": 2.2
+  "stockReturn": -0.5
  },
  "priceSetup": {
-  "asOf": "2026-11-05",
+  "asOf": "2026-11-09",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.04,
+  "distFrom52wHigh": 0.07,
   "labels": [
-   "20日線の上",
-   "20日線が上向き",
-   "60日線の上"
+   "20日線が上向き"
   ],
   "ma20": 3061.2,
-  "ma200": 2796.5,
-  "ma60": 3000.8,
-  "rangePos60": 0.68,
-  "rel20": 7.8,
-  "rel60": 8.1,
-  "volumeRatio20": 1.13
+  "ma200": 2798.6,
+  "ma60": 3001.4,
+  "rangePos60": 0.5,
+  "rel20": 7.7,
+  "rel60": 6.3,
+  "volumeRatio20": 0.84
  },
  "reasons": [
   "新規大量保有 5%（株式会社三菱ＵＦＪフィナンシャル・グループ）",
-  "20日線を回復",
-  "TOPIX連動ETF比 +7.8pt（20日）",
-  "52週高値まで4%"
+  "TOPIX連動ETF比 +7.7pt（20日）",
+  "52週高値まで7%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -267,7 +262,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-06",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-07T01:46:16+09:00"
+ "updatedAt": "2026-11-09T16:09:11+09:00"
 }

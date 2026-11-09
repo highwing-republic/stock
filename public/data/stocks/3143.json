@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-11-07T01:44:47+09:00",
+  "updatedAt": "2026-11-09T16:08:07+09:00",
   "company": {
     "securityCode": "3143",
     "ticker": "3143.T",
     "name": "オーウイル株式会社"
   },
   "events": [
+    {
+      "docId": "S100ZDGZ",
+      "ticker": "3143.T",
+      "securityCode": "3143",
+      "companyName": "オーウイル株式会社",
+      "submitDatetime": "2026-11-09 15:56",
+      "filerName": "株式会社サンワ電化阿久比",
+      "reportType": "correction",
+      "holdingRatio": 7.2,
+      "previousHoldingRatio": 6.16,
+      "holdingChange": 1.04,
+      "purpose": "純投資株主価値を棄損する経営を行った場合は、その改善を求める重要提案行為等を行う事があります現時点において、重要提案行為を行う計画は、ありません",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 20,
+      "signalReasons": [
+        "1pt以上買い増し"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -11.58,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z8X1",
       "ticker": "3143.T",
@@ -31,7 +61,7 @@
         "return1d": 5.83,
         "return5d": 1.65,
         "return20d": null,
-        "returnCurrent": -9.03,
+        "returnCurrent": -25.15,
         "volumeRatio": 0.1,
         "marketExcessReturn": 2.08
       }
@@ -63,7 +93,7 @@
         "return1d": 31.81,
         "return5d": 48.97,
         "return20d": 44.99,
-        "returnCurrent": 28.65,
+        "returnCurrent": 5.86,
         "volumeRatio": 8.18,
         "marketExcessReturn": 47.58
       }
@@ -97,7 +127,7 @@
         "return1d": 20.88,
         "return5d": 50.89,
         "return20d": 47.31,
-        "returnCurrent": 29.0,
+        "returnCurrent": 6.15,
         "volumeRatio": 11.74,
         "marketExcessReturn": 49.62
       }
@@ -128,7 +158,7 @@
         "return1d": -2.06,
         "return5d": -2.34,
         "return20d": 55.63,
-        "returnCurrent": 28.71,
+        "returnCurrent": 5.91,
         "volumeRatio": 0.62,
         "marketExcessReturn": -0.29
       }
@@ -162,7 +192,7 @@
         "return1d": 4.0,
         "return5d": 1.43,
         "return20d": 55.57,
-        "returnCurrent": 33.86,
+        "returnCurrent": 10.14,
         "volumeRatio": 4.01,
         "marketExcessReturn": 3.19
       }
@@ -3172,12 +3202,22 @@
     {
       "ticker": "3143.T",
       "trade_date": "2026-11-06",
-      "open": 847.0,
+      "open": 849.0,
       "high": 885.0,
       "low": 845.0,
-      "close": null,
-      "adj_close": null,
+      "close": 872.0,
+      "adj_close": 872.0,
       "volume": 15000
+    },
+    {
+      "ticker": "3143.T",
+      "trade_date": "2026-11-09",
+      "open": 880.0,
+      "high": 943.0,
+      "low": 769.0,
+      "close": 771.0,
+      "adj_close": 771.0,
+      "volume": 36700
     }
   ],
   "benchmark": [
@@ -7177,9 +7217,19 @@
       "open": 392.20001220703125,
       "high": 396.29998779296875,
       "low": 387.29998779296875,
-      "close": null,
-      "adj_close": null,
+      "close": 388.6000061035156,
+      "adj_close": 388.6000061035156,
       "volume": 70111050
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-09",
+      "open": 396.6000061035156,
+      "high": 403.70001220703125,
+      "low": 394.79998779296875,
+      "close": 402.1000061035156,
+      "adj_close": 402.1000061035156,
+      "volume": 30123360
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

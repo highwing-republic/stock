@@ -1,0 +1,104 @@
+{
+ "company": {
+  "name": "池田泉州ホールディングス",
+  "securityCode": "8714",
+  "tradingViewSymbol": "TSE:8714"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "8714-2026-11-06",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-11-06",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-11-06",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": -8.9,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZBEW",
+   "excess5": null
+  },
+  {
+   "d1": -8.9,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZBGX",
+   "excess5": null
+  },
+  {
+   "d1": -8.9,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZBVO",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-11-06",
+  "buyBalance": 2326400,
+  "buyChangePct": 5.1,
+  "labels": [
+   "信用倍率改善"
+  ],
+  "ratio": 21.34,
+  "sellBalance": 109000,
+  "sellChangePct": 17.5
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-11-09",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.34,
+  "labels": [],
+  "ma20": 954.4,
+  "ma200": 953.5,
+  "ma60": 1039.1,
+  "rangePos60": 0.02,
+  "rel20": -23.1,
+  "rel60": -17.7,
+  "volumeRatio20": 1.39
+ },
+ "reasons": [
+  "49.1pt買い増し 10.9%→60%",
+  "30日以内に2回買い増し"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-11-05",
+   "detail": "10.8% → 60%（ありあけキャピタル株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBEW"
+  },
+  {
+   "date": "2026-11-05",
+   "detail": "保有割合 11.69%（株式会社滋賀銀行）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBVO"
+  },
+  {
+   "date": "2026-11-05",
+   "detail": "10.86% → 60%（ありあけキャピタル株式会社）",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBGX"
+  }
+ ],
+ "updatedAt": "2026-11-09T16:09:11+09:00"
+}

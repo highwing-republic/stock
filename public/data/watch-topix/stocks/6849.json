@@ -10,9 +10,7 @@
   "id": "6849-2026-06-19",
   "overextended": true,
   "setupType": "RECOVERY",
-  "setups": [
-   "RECOVERY"
-  ],
+  "setups": [],
   "startedAt": "2026-06-19",
   "status": "REACTED",
   "statusHistory": [
@@ -95,21 +93,20 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-05",
-  "buyBalance": 52700,
-  "buyChangePct": -16.6,
+  "asOf": "2026-11-06",
+  "buyBalance": 53300,
+  "buyChangePct": -10.4,
   "labels": [
-   "信用買残減少",
-   "信用倍率改善"
+   "信用買残減少"
   ],
   "ratio": 0.6,
-  "sellBalance": 88400,
-  "sellChangePct": -2.9
+  "sellBalance": 88200,
+  "sellChangePct": -3.2
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -0.5,
-  "currentPrice": 1657.5,
+  "benchReturn": -3.8,
+  "currentPrice": 1582.0,
   "d20": {
    "benchReturn": -1.2,
    "excessReturn": 17.2,
@@ -128,34 +125,30 @@
    "pendingDays": 0,
    "stockReturn": 14.0
   },
-  "excessReturn": 18.5,
+  "excessReturn": 16.4,
   "initialDate": "2026-07-01",
   "initialPrice": 1404.5,
-  "stockReturn": 18.0
+  "stockReturn": 12.6
  },
  "priceSetup": {
-  "asOf": "2026-11-05",
+  "asOf": "2026-11-09",
   "atrState": "通常",
-  "distFrom52wHigh": 0.1,
+  "distFrom52wHigh": 0.14,
   "labels": [
-   "20日線の上",
-   "60日レンジ上位8%",
-   "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 1624.5,
-  "ma200": 1534.4,
-  "ma60": 1554.6,
-  "rangePos60": 0.92,
-  "rel20": 8.4,
-  "rel60": 11.3,
-  "volumeRatio20": 1.03
+  "ma20": 1620.2,
+  "ma200": 1532.6,
+  "ma60": 1557.9,
+  "rangePos60": 0.61,
+  "rel20": 5.0,
+  "rel60": 16.8,
+  "volumeRatio20": 0.92
  },
  "reasons": [
   "新規大量保有 5.1%（ブラックロック・ジャパン株式会社）",
-  "60日レンジ上位8%",
-  "20日線を回復",
-  "TOPIX連動ETF比 +8.4pt（20日）"
+  "TOPIX連動ETF比 +5pt（20日）",
+  "信用買残 -10%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -431,7 +424,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-06",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-07T01:46:16+09:00"
+ "updatedAt": "2026-11-09T16:09:11+09:00"
 }

@@ -16,7 +16,7 @@
    "RECOVERY"
   ],
   "startedAt": "2026-10-21",
-  "status": "CONFIRMED",
+  "status": "REACTED",
   "statusHistory": [
    {
     "date": "2026-10-21",
@@ -41,6 +41,12 @@
     "from": "STRENGTHENING",
     "reason_code": "NEW_HIGH60_VOLUME",
     "to": "CONFIRMED"
+   },
+   {
+    "date": "2026-11-06",
+    "from": "CONFIRMED",
+    "reason_code": "EXCESS_THRESHOLD",
+    "to": "REACTED"
    }
   ],
   "watchStartedAt": "2026-10-21"
@@ -90,17 +96,16 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-05",
-  "buyBalance": 1266300,
-  "buyChangePct": -17.0,
+  "asOf": "2026-11-06",
+  "buyBalance": 1222800,
+  "buyChangePct": -18.6,
   "labels": [
    "信用買残減少",
-   "信用倍率改善",
-   "売残増加"
+   "信用倍率改善"
   ],
-  "ratio": 29.45,
-  "sellBalance": 43000,
-  "sellChangePct": 27.6
+  "ratio": 32.18,
+  "sellBalance": 38000,
+  "sellChangePct": 10.8
  },
  "pastEpisodes": [
   {
@@ -112,12 +117,12 @@
   }
  ],
  "performance": {
-  "benchReturn": -2.3,
-  "currentPrice": 2701.5,
+  "benchReturn": -5.5,
+  "currentPrice": 2682.5,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 10,
+   "pendingDays": 8,
    "stockReturn": null
   },
   "d5": {
@@ -129,37 +134,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 50,
+   "pendingDays": 48,
    "stockReturn": null
   },
-  "excessReturn": 8.4,
+  "excessReturn": 10.8,
   "initialDate": "2026-10-21",
   "initialPrice": 2547.0,
-  "stockReturn": 6.1
+  "stockReturn": 5.3
  },
  "priceSetup": {
-  "asOf": "2026-11-05",
+  "asOf": "2026-11-09",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.04,
+  "distFrom52wHigh": 0.05,
   "labels": [
    "20日線の上",
-   "60日レンジ上位3%",
+   "60日レンジ上位10%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2552.2,
-  "ma200": 2551.8,
-  "ma60": 2535.9,
-  "rangePos60": 0.97,
-  "rel20": 14.1,
-  "rel60": 11.1,
-  "volumeRatio20": 3.05
+  "ma20": 2568.8,
+  "ma200": 2553.3,
+  "ma60": 2543.1,
+  "rangePos60": 0.9,
+  "rel20": 14.5,
+  "rel60": 14.4,
+  "volumeRatio20": 2.33
  },
  "reasons": [
   "新規大量保有 5.4%（野村アセットマネジメント株式会社）",
-  "出来高 3倍で60日高値更新",
-  "60日レンジ上位3%",
-  "20日線上向き"
+  "60日レンジ上位10%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +14.5pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -274,7 +279,14 @@
    "kind": "STATUS",
    "label": "CONFIRMED",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-06",
+   "detail": "TOPIX連動ETFとの差が大きくなった",
+   "kind": "STATUS",
+   "label": "REACTED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-07T01:46:16+09:00"
+ "updatedAt": "2026-11-09T16:09:11+09:00"
 }

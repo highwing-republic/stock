@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T01:44:47+09:00",
+  "updatedAt": "2026-11-09T16:08:07+09:00",
   "company": {
     "securityCode": "3180",
     "ticker": "3180.T",
@@ -20,7 +20,7 @@
       "purpose": "当行における中長期的なディーリング目的による保有。 / UBS証券株式会社におけるディーリング目的による保有。 / 顧客保有株券にかかる契約に基づく借入権の保有。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.26,
       "marketExcessReturn": null,
       "signalScore": 30,
       "signalReasons": [
@@ -28,11 +28,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": -0.88,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.0,
-        "volumeRatio": null,
+        "returnCurrent": -0.88,
+        "volumeRatio": 0.26,
         "marketExcessReturn": null
       }
     }
@@ -2694,9 +2694,19 @@
       "open": 1560.0,
       "high": 1579.0,
       "low": 1499.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1512.0,
+      "adj_close": 1512.0,
       "volume": 38200
+    },
+    {
+      "ticker": "3180.T",
+      "trade_date": "2026-11-09",
+      "open": 1522.0,
+      "high": 1585.0,
+      "low": 1522.0,
+      "close": 1579.0,
+      "adj_close": 1579.0,
+      "volume": 10600
     }
   ],
   "benchmark": [
@@ -6696,9 +6706,19 @@
       "open": 392.20001220703125,
       "high": 396.29998779296875,
       "low": 387.29998779296875,
-      "close": null,
-      "adj_close": null,
+      "close": 388.6000061035156,
+      "adj_close": 388.6000061035156,
       "volume": 70111050
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-09",
+      "open": 396.6000061035156,
+      "high": 403.70001220703125,
+      "low": 394.79998779296875,
+      "close": 402.1000061035156,
+      "adj_close": 402.1000061035156,
+      "volume": 30123360
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

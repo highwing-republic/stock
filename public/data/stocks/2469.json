@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-11-07T01:44:47+09:00",
+  "updatedAt": "2026-11-09T16:08:07+09:00",
   "company": {
     "securityCode": "2469",
     "ticker": "2469.T",
     "name": "ヒビノ株式会社"
   },
   "events": [
+    {
+      "docId": "S100ZCWU",
+      "ticker": "2469.T",
+      "securityCode": "2469",
+      "companyName": "ヒビノ株式会社",
+      "submitDatetime": "2026-11-09 15:43",
+      "filerName": "三井住友ＤＳアセットマネジメント株式会社",
+      "reportType": "change",
+      "holdingRatio": 6.13,
+      "previousHoldingRatio": 5.01,
+      "holdingChange": 1.12,
+      "purpose": "純投資（投資収益性を重視して行う投資） / 政策保有目的",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 20,
+      "signalReasons": [
+        "1pt以上買い増し"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 1.12,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z90H",
       "ticker": "2469.T",
@@ -32,7 +62,7 @@
         "return1d": -0.29,
         "return5d": -3.93,
         "return20d": null,
-        "returnCurrent": -2.0,
+        "returnCurrent": -3.57,
         "volumeRatio": 0.81,
         "marketExcessReturn": -2.88
       }
@@ -63,7 +93,7 @@
         "return1d": -0.47,
         "return5d": -3.32,
         "return20d": 2.19,
-        "returnCurrent": -49.93,
+        "returnCurrent": -50.73,
         "volumeRatio": 1.68,
         "marketExcessReturn": -8.2
       }
@@ -94,7 +124,7 @@
         "return1d": -3.97,
         "return5d": -4.17,
         "return20d": -6.74,
-        "returnCurrent": -53.09,
+        "returnCurrent": -53.85,
         "volumeRatio": 0.44,
         "marketExcessReturn": -2.31
       }
@@ -3107,9 +3137,19 @@
       "open": 1312.0,
       "high": 1345.0,
       "low": 1302.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1335.0,
+      "adj_close": 1335.0,
       "volume": 50300
+    },
+    {
+      "ticker": "2469.T",
+      "trade_date": "2026-11-09",
+      "open": 1340.0,
+      "high": 1381.0,
+      "low": 1332.0,
+      "close": 1350.0,
+      "adj_close": 1350.0,
+      "volume": 17800
     }
   ],
   "benchmark": [
@@ -7109,9 +7149,19 @@
       "open": 392.20001220703125,
       "high": 396.29998779296875,
       "low": 387.29998779296875,
-      "close": null,
-      "adj_close": null,
+      "close": 388.6000061035156,
+      "adj_close": 388.6000061035156,
       "volume": 70111050
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-09",
+      "open": 396.6000061035156,
+      "high": 403.70001220703125,
+      "low": 394.79998779296875,
+      "close": 402.1000061035156,
+      "adj_close": 402.1000061035156,
+      "volume": 30123360
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

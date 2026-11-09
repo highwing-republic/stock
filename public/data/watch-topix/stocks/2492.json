@@ -10,10 +10,7 @@
   "id": "2492-2026-07-03",
   "overextended": true,
   "setupType": "TREND",
-  "setups": [
-   "TREND",
-   "RECOVERY"
-  ],
+  "setups": [],
   "startedAt": "2026-07-03",
   "status": "REACTED",
   "statusHistory": [
@@ -187,7 +184,7 @@
   },
   {
    "d1": 2.1,
-   "d20": null,
+   "d20": 0.4,
    "d5": 8.3,
    "eventId": "edinet:S100Z69K",
    "excess5": 8.6
@@ -205,23 +202,30 @@
    "d5": 5.1,
    "eventId": "edinet:S100Z8Y9",
    "excess5": 5.4
+  },
+  {
+   "d1": -4.6,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZBSA",
+   "excess5": null
   }
  ],
  "margin": {
-  "asOf": "2026-11-05",
-  "buyBalance": 1256400,
-  "buyChangePct": -13.7,
+  "asOf": "2026-11-06",
+  "buyBalance": 1228100,
+  "buyChangePct": -13.8,
   "labels": [
    "信用買残減少"
   ],
   "ratio": 2.53,
-  "sellBalance": 496000,
-  "sellChangePct": -5.8
+  "sellBalance": 485300,
+  "sellChangePct": -10.6
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -1.9,
-  "currentPrice": 769.0,
+  "benchReturn": -5.1,
+  "currentPrice": 718.0,
   "d20": {
    "benchReturn": -2.8,
    "excessReturn": 11.8,
@@ -240,34 +244,32 @@
    "pendingDays": 0,
    "stockReturn": 54.1
   },
-  "excessReturn": 62.4,
+  "excessReturn": 55.0,
   "initialDate": "2026-07-03",
   "initialPrice": 479.0,
-  "stockReturn": 60.5
+  "stockReturn": 49.9
  },
  "priceSetup": {
-  "asOf": "2026-11-05",
+  "asOf": "2026-11-09",
   "atrState": "通常",
-  "distFrom52wHigh": 0.05,
+  "distFrom52wHigh": 0.11,
   "labels": [
-   "20日線の上",
-   "60日レンジ上位16%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 756.4,
-  "ma200": 505.3,
-  "ma60": 693.0,
-  "rangePos60": 0.84,
-  "rel20": 7.5,
-  "rel60": 35.1,
-  "volumeRatio20": 1.1
+  "ma20": 756.6,
+  "ma200": 508.4,
+  "ma60": 697.8,
+  "rangePos60": 0.64,
+  "rel20": 6.8,
+  "rel60": 28.1,
+  "volumeRatio20": 0.72
  },
  "reasons": [
   "1.1pt買い増し 23.6%→24.7%",
   "30日以内に2回買い増し",
-  "60日レンジ上位16%",
-  "20日線を回復"
+  "TOPIX連動ETF比 +6.8pt（20日）",
+  "信用買残 -14%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -606,7 +608,14 @@
    "kind": "EVENT",
    "label": "保有割合の減少",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBSA"
+  },
+  {
+   "date": "2026-11-06",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-07T01:46:16+09:00"
+ "updatedAt": "2026-11-09T16:09:11+09:00"
 }

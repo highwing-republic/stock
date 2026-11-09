@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-11-07T01:44:47+09:00",
+  "updatedAt": "2026-11-09T16:08:07+09:00",
   "company": {
     "securityCode": "4771",
     "ticker": "4771.T",
     "name": "株式会社エフアンドエム"
   },
   "events": [
+    {
+      "docId": "S100ZBSN",
+      "ticker": "4771.T",
+      "securityCode": "4771",
+      "companyName": "株式会社エフアンドエム",
+      "submitDatetime": "2026-11-09 14:05",
+      "filerName": "森中　一郎",
+      "reportType": "change",
+      "holdingRatio": 42.92,
+      "previousHoldingRatio": 43.93,
+      "holdingChange": -1.01,
+      "purpose": "発行会社に対する支配権維持のため。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 4.07,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z0PN",
       "ticker": "4771.T",
@@ -29,7 +59,7 @@
         "return1d": -0.41,
         "return5d": 2.92,
         "return20d": -1.27,
-        "returnCurrent": 11.88,
+        "returnCurrent": 13.19,
         "volumeRatio": 1.68,
         "marketExcessReturn": 4.97
       }
@@ -3042,9 +3072,19 @@
       "open": 2935.0,
       "high": 2965.0,
       "low": 2833.0,
-      "close": null,
-      "adj_close": null,
+      "close": 2902.0,
+      "adj_close": 2902.0,
       "volume": 33900
+    },
+    {
+      "ticker": "4771.T",
+      "trade_date": "2026-11-09",
+      "open": 2942.0,
+      "high": 3070.0,
+      "low": 2942.0,
+      "close": 3020.0,
+      "adj_close": 3020.0,
+      "volume": 31100
     }
   ],
   "benchmark": [
@@ -7044,9 +7084,19 @@
       "open": 392.20001220703125,
       "high": 396.29998779296875,
       "low": 387.29998779296875,
-      "close": null,
-      "adj_close": null,
+      "close": 388.6000061035156,
+      "adj_close": 388.6000061035156,
       "volume": 70111050
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-09",
+      "open": 396.6000061035156,
+      "high": 403.70001220703125,
+      "low": 394.79998779296875,
+      "close": 402.1000061035156,
+      "adj_close": 402.1000061035156,
+      "volume": 30123360
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

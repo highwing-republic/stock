@@ -1,11 +1,39 @@
 {
-  "updatedAt": "2026-11-07T01:44:47+09:00",
+  "updatedAt": "2026-11-09T16:08:07+09:00",
   "company": {
     "securityCode": "1436",
     "ticker": "1436.T",
     "name": "株式会社グリーンエナジー＆カンパニー"
   },
   "events": [
+    {
+      "docId": "S100ZCJW",
+      "ticker": "1436.T",
+      "securityCode": "1436",
+      "companyName": "株式会社グリーンエナジー＆カンパニー",
+      "submitDatetime": "2026-11-09 10:40",
+      "filerName": "みずほ証券株式会社",
+      "reportType": "change",
+      "holdingRatio": 6.24,
+      "previousHoldingRatio": 6.23,
+      "holdingChange": 0.01,
+      "purpose": "・ディーリング(短期売買)目的で保有するもの・レンディングその他取引に基づく一時的保有",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 1.43,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z9PC",
       "ticker": "1436.T",
@@ -32,7 +60,7 @@
         "return1d": -0.46,
         "return5d": -8.44,
         "return20d": null,
-        "returnCurrent": -9.5,
+        "returnCurrent": -15.83,
         "volumeRatio": 0.7,
         "marketExcessReturn": -7.44
       }
@@ -62,8 +90,8 @@
       "metrics": {
         "return1d": -7.84,
         "return5d": -16.59,
-        "return20d": null,
-        "returnCurrent": -25.84,
+        "return20d": -32.0,
+        "returnCurrent": -31.03,
         "volumeRatio": 0.54,
         "marketExcessReturn": -12.18
       }
@@ -2923,12 +2951,22 @@
     {
       "ticker": "1436.T",
       "trade_date": "2026-11-06",
-      "open": 1244.0,
+      "open": 1242.0,
       "high": 1281.0,
-      "low": 1226.0,
-      "close": null,
-      "adj_close": null,
+      "low": 1229.0,
+      "close": 1258.0,
+      "adj_close": 1258.0,
       "volume": 93500
+    },
+    {
+      "ticker": "1436.T",
+      "trade_date": "2026-11-09",
+      "open": 1288.0,
+      "high": 1303.0,
+      "low": 1257.0,
+      "close": 1276.0,
+      "adj_close": 1276.0,
+      "volume": 52400
     }
   ],
   "benchmark": [
@@ -6928,9 +6966,19 @@
       "open": 392.20001220703125,
       "high": 396.29998779296875,
       "low": 387.29998779296875,
-      "close": null,
-      "adj_close": null,
+      "close": 388.6000061035156,
+      "adj_close": 388.6000061035156,
       "volume": 70111050
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-09",
+      "open": 396.6000061035156,
+      "high": 403.70001220703125,
+      "low": 394.79998779296875,
+      "close": 402.1000061035156,
+      "adj_close": 402.1000061035156,
+      "volume": 30123360
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

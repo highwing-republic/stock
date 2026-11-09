@@ -1,11 +1,39 @@
 {
-  "updatedAt": "2026-11-07T01:44:47+09:00",
+  "updatedAt": "2026-11-09T16:08:07+09:00",
   "company": {
     "securityCode": "6996",
     "ticker": "6996.T",
     "name": "ニチコン株式会社"
   },
   "events": [
+    {
+      "docId": "S100ZCJL",
+      "ticker": "6996.T",
+      "securityCode": "6996",
+      "companyName": "ニチコン株式会社",
+      "submitDatetime": "2026-11-09 10:35",
+      "filerName": "株式会社みずほ銀行",
+      "reportType": "change",
+      "holdingRatio": 7.77,
+      "previousHoldingRatio": 7.54,
+      "holdingChange": 0.23,
+      "purpose": "・発行会社の要請に応え、かつ発行会社との取引関係の強化を図るもの / ・ディーリング(短期売買)目的で保有するもの・デリバティブ取引に関連して保有するもの・レンディングその他取引に基づく一時的保有 / ・投資信託または投資一任契約に基づき投資権限を有するもの / ・デリバティブ取引に関連して保有するもの",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 7.37,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z6J7",
       "ticker": "6996.T",
@@ -28,8 +56,8 @@
       "metrics": {
         "return1d": -1.84,
         "return5d": -14.02,
-        "return20d": null,
-        "returnCurrent": -30.72,
+        "return20d": -35.1,
+        "returnCurrent": -30.32,
         "volumeRatio": 1.0,
         "marketExcessReturn": -9.61
       }
@@ -59,7 +87,7 @@
         "return1d": -4.05,
         "return5d": 0.54,
         "return20d": -10.05,
-        "returnCurrent": -36.43,
+        "returnCurrent": -36.06,
         "volumeRatio": 0.55,
         "marketExcessReturn": -2.34
       }
@@ -89,7 +117,7 @@
         "return1d": -1.14,
         "return5d": -17.5,
         "return20d": -12.44,
-        "returnCurrent": -38.41,
+        "returnCurrent": -38.05,
         "volumeRatio": 0.82,
         "marketExcessReturn": -15.69
       }
@@ -120,7 +148,7 @@
         "return1d": -9.17,
         "return5d": -8.63,
         "return20d": -35.36,
-        "returnCurrent": -59.07,
+        "returnCurrent": -58.83,
         "volumeRatio": 0.49,
         "marketExcessReturn": -6.77
       }
@@ -4040,12 +4068,22 @@
     {
       "ticker": "6996.T",
       "trade_date": "2026-11-06",
-      "open": 1693.0,
+      "open": 1698.0,
       "high": 1813.0,
       "low": 1688.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1764.0,
+      "adj_close": 1764.0,
       "volume": 1424500
+    },
+    {
+      "ticker": "6996.T",
+      "trade_date": "2026-11-09",
+      "open": 1924.0,
+      "high": 1958.0,
+      "low": 1872.0,
+      "close": 1894.0,
+      "adj_close": 1894.0,
+      "volume": 1930800
     }
   ],
   "benchmark": [
@@ -8045,9 +8083,19 @@
       "open": 392.20001220703125,
       "high": 396.29998779296875,
       "low": 387.29998779296875,
-      "close": null,
-      "adj_close": null,
+      "close": 388.6000061035156,
+      "adj_close": 388.6000061035156,
       "volume": 70111050
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-09",
+      "open": 396.6000061035156,
+      "high": 403.70001220703125,
+      "low": 394.79998779296875,
+      "close": 402.1000061035156,
+      "adj_close": 402.1000061035156,
+      "volume": 30123360
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

@@ -126,24 +126,30 @@
    "d5": null,
    "eventId": "edinet:S100ZBO4",
    "excess5": null
+  },
+  {
+   "d1": 2.3,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZD85",
+   "excess5": null
   }
  ],
  "margin": {
-  "asOf": "2026-11-05",
-  "buyBalance": 1395300,
-  "buyChangePct": -2.0,
+  "asOf": "2026-11-06",
+  "buyBalance": 1364800,
+  "buyChangePct": -3.4,
   "labels": [
-   "信用倍率改善",
-   "売残増加"
+   "信用倍率改善"
   ],
-  "ratio": 46.2,
-  "sellBalance": 30200,
-  "sellChangePct": 28.0
+  "ratio": 56.87,
+  "sellBalance": 24000,
+  "sellChangePct": 8.6
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 0.9,
-  "currentPrice": 1396.0,
+  "benchReturn": -2.4,
+  "currentPrice": 1362.0,
   "d20": {
    "benchReturn": 2.5,
    "excessReturn": -41.1,
@@ -162,27 +168,27 @@
    "pendingDays": 0,
    "stockReturn": -48.0
   },
-  "excessReturn": -74.9,
+  "excessReturn": -72.2,
   "initialDate": "2026-06-24",
   "initialPrice": 5360.0,
-  "stockReturn": -74.0
+  "stockReturn": -74.6
  },
  "priceSetup": {
-  "asOf": "2026-11-05",
+  "asOf": "2026-11-09",
   "atrState": "通常",
-  "distFrom52wHigh": 0.77,
+  "distFrom52wHigh": 0.78,
   "labels": [],
-  "ma20": 1795.6,
-  "ma200": 2690.1,
-  "ma60": 2440.5,
-  "rangePos60": 0.01,
-  "rel20": -36.2,
-  "rel60": -59.3,
-  "volumeRatio20": 1.87
+  "ma20": 1700.2,
+  "ma200": 2688.9,
+  "ma60": 2378.7,
+  "rangePos60": 0.05,
+  "rel20": -33.0,
+  "rel60": -51.5,
+  "volumeRatio20": 0.94
  },
  "reasons": [
-  "新規大量保有 5.1%（野村證券株式会社）",
-  "信用買残 -2%"
+  "1.7pt買い増し 5.1%→6.8%",
+  "信用買残 -3%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -402,7 +408,14 @@
    "kind": "EVENT",
    "label": "買い増し",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBO4"
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "5.11% → 6.81%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZD85"
   }
  ],
- "updatedAt": "2026-11-07T01:46:16+09:00"
+ "updatedAt": "2026-11-09T16:09:11+09:00"
 }

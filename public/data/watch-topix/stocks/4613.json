@@ -10,12 +10,9 @@
   "id": "4613-2026-09-25",
   "overextended": false,
   "setupType": "TREND",
-  "setups": [
-   "TREND",
-   "RECOVERY"
-  ],
+  "setups": [],
   "startedAt": "2026-09-25",
-  "status": "CONFIRMED",
+  "status": "REACTED",
   "statusHistory": [
    {
     "date": "2026-09-25",
@@ -40,6 +37,12 @@
     "from": "STRENGTHENING",
     "reason_code": "NEW_HIGH60_VOLUME",
     "to": "CONFIRMED"
+   },
+   {
+    "date": "2026-11-06",
+    "from": "CONFIRMED",
+    "reason_code": "EXCESS_THRESHOLD",
+    "to": "REACTED"
    }
   ],
   "watchStartedAt": "2026-09-25"
@@ -82,16 +85,16 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-05",
-  "buyBalance": 74900,
-  "buyChangePct": -16.9,
+  "asOf": "2026-11-06",
+  "buyBalance": 232800,
+  "buyChangePct": 183.6,
   "labels": [
-   "信用買残減少",
-   "信用倍率改善"
+   "信用買残急増",
+   "信用倍率悪化"
   ],
-  "ratio": 0.62,
-  "sellBalance": 120500,
-  "sellChangePct": 3.0
+  "ratio": 1.69,
+  "sellBalance": 137400,
+  "sellChangePct": 18.4
  },
  "pastEpisodes": [
   {
@@ -103,8 +106,8 @@
   }
  ],
  "performance": {
-  "benchReturn": -3.4,
-  "currentPrice": 3047.0,
+  "benchReturn": -6.6,
+  "currentPrice": 2920.5,
   "d20": {
    "benchReturn": -2.8,
    "excessReturn": 7.5,
@@ -120,37 +123,34 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 33,
+   "pendingDays": 31,
    "stockReturn": null
   },
-  "excessReturn": 11.9,
+  "excessReturn": 10.6,
   "initialDate": "2026-09-25",
   "initialPrice": 2808.8,
-  "stockReturn": 8.5
+  "stockReturn": 4.0
  },
  "priceSetup": {
-  "asOf": "2026-11-05",
+  "asOf": "2026-11-09",
   "atrState": "通常",
-  "distFrom52wHigh": 0.01,
+  "distFrom52wHigh": 0.05,
   "labels": [
-   "20日線の上",
-   "60日レンジ上位5%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2912.3,
-  "ma200": 2584.1,
-  "ma60": 2846.1,
-  "rangePos60": 0.95,
-  "rel20": 14.8,
-  "rel60": 9.9,
-  "volumeRatio20": 2.94
+  "ma20": 2925.9,
+  "ma200": 2589.9,
+  "ma60": 2850.0,
+  "rangePos60": 0.59,
+  "rel20": 9.2,
+  "rel60": 8.2,
+  "volumeRatio20": 2.93
  },
  "reasons": [
   "新規大量保有 5.1%（キャピタル・リサーチ・アンド・マネージメント・カンパニー）",
-  "出来高 2.9倍で60日高値更新",
-  "60日レンジ上位5%",
-  "20日線上向き"
+  "TOPIX連動ETF比 +9.2pt（20日）",
+  "52週高値まで5%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -349,7 +349,21 @@
    "kind": "STATUS",
    "label": "CONFIRMED",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-06",
+   "detail": "TOPIX連動ETFとの差が大きくなった",
+   "kind": "STATUS",
+   "label": "REACTED",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-07T01:46:16+09:00"
+ "updatedAt": "2026-11-09T16:09:11+09:00"
 }

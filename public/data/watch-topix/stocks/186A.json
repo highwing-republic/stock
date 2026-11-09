@@ -1,0 +1,158 @@
+{
+ "company": {
+  "name": "株式会社アストロスケールホールディングス",
+  "securityCode": "186A",
+  "tradingViewSymbol": "TSE:186A"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "186A-2026-11-06",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-11-06",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-11-06",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": -10.0,
+   "d20": -23.2,
+   "d5": -12.7,
+   "eventId": "edinet:S100YDNK",
+   "excess5": -11.2
+  },
+  {
+   "d1": 5.4,
+   "d20": 24.7,
+   "d5": 31.2,
+   "eventId": "edinet:S100YREG",
+   "excess5": 29.7
+  },
+  {
+   "d1": 2.8,
+   "d20": 12.0,
+   "d5": 19.1,
+   "eventId": "edinet:S100YT06",
+   "excess5": 17.2
+  },
+  {
+   "d1": 5.4,
+   "d20": 24.7,
+   "d5": 31.2,
+   "eventId": "edinet:S100YT1R",
+   "excess5": 29.7
+  },
+  {
+   "d1": -1.1,
+   "d20": -12.5,
+   "d5": 8.0,
+   "eventId": "edinet:S100YTL2",
+   "excess5": 4.7
+  },
+  {
+   "d1": -1.1,
+   "d20": -12.5,
+   "d5": 8.0,
+   "eventId": "edinet:S100YU7Q",
+   "excess5": 4.7
+  },
+  {
+   "d1": -7.6,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZBS5",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-11-06",
+  "buyBalance": 5578500,
+  "buyChangePct": -7.9,
+  "labels": [],
+  "ratio": 1.3,
+  "sellBalance": 4289300,
+  "sellChangePct": -0.0
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-11-09",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.67,
+  "labels": [],
+  "ma20": 1069.0,
+  "ma200": 1244.1,
+  "ma60": 1128.3,
+  "rangePos60": 0.12,
+  "rel20": -5.3,
+  "rel60": -12.6,
+  "volumeRatio20": 0.58
+ },
+ "reasons": [
+  "1.1pt買い増し 6.1%→7.2%",
+  "信用買残 -8%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-06-19",
+   "detail": "保有割合 5%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDNK"
+  },
+  {
+   "date": "2026-07-29",
+   "detail": "8.97% → 10.51%（ヒューリック株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YREG"
+  },
+  {
+   "date": "2026-07-30",
+   "detail": "8.97% → 10.51%（ヒューリック株式会社）",
+   "kind": "EVENT",
+   "label": "訂正報告",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YT1R"
+  },
+  {
+   "date": "2026-07-31",
+   "detail": "10.51% → 11.63%（ヒューリック株式会社）",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YT06"
+  },
+  {
+   "date": "2026-08-05",
+   "detail": "11.63% → 13.16%（ヒューリック株式会社）",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YTL2"
+  },
+  {
+   "date": "2026-08-06",
+   "detail": "5% → 6.07%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YU7Q"
+  },
+  {
+   "date": "2026-11-06",
+   "detail": "6.07% → 7.17%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBS5"
+  }
+ ],
+ "updatedAt": "2026-11-09T16:09:11+09:00"
+}

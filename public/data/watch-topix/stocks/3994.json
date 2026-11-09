@@ -7,37 +7,31 @@
  "episode": {
   "closeReason": null,
   "closedAt": null,
-  "id": "3994-2026-07-06",
-  "overextended": true,
+  "id": "3994-2026-11-09",
+  "overextended": false,
   "setupType": "BREAKOUT",
   "setups": [
    "BREAKOUT",
    "TREND",
    "RECOVERY"
   ],
-  "startedAt": "2026-07-06",
-  "status": "REACTED",
+  "startedAt": "2026-11-09",
+  "status": "WATCH",
   "statusHistory": [
    {
-    "date": "2026-07-06",
+    "date": "2026-11-09",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
    },
    {
-    "date": "2026-07-06",
+    "date": "2026-11-09",
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
-   },
-   {
-    "date": "2026-07-09",
-    "from": "WATCH",
-    "reason_code": "EXCESS_THRESHOLD",
-    "to": "REACTED"
    }
   ],
-  "watchStartedAt": "2026-07-06"
+  "watchStartedAt": "2026-11-09"
  },
  "eventReactions": [
   {
@@ -102,70 +96,89 @@
    "d5": 0.3,
    "eventId": "edinet:S100Z9F1",
    "excess5": 1.6
+  },
+  {
+   "d1": -2.1,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZBRJ",
+   "excess5": null
+  },
+  {
+   "d1": 9.5,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZCK0",
+   "excess5": null
   }
  ],
  "margin": {
-  "asOf": "2026-11-05",
-  "buyBalance": 69300,
-  "buyChangePct": -12.1,
-  "labels": [
-   "信用買残減少",
-   "信用倍率改善"
-  ],
-  "ratio": 0.12,
-  "sellBalance": 592000,
-  "sellChangePct": 4.0
+  "asOf": "2026-11-06",
+  "buyBalance": 65100,
+  "buyChangePct": 0.3,
+  "labels": [],
+  "ratio": 0.11,
+  "sellBalance": 566700,
+  "sellChangePct": -3.6
  },
- "pastEpisodes": [],
+ "pastEpisodes": [
+  {
+   "closeReason": "EXPIRED",
+   "closedAt": "2026-11-06",
+   "id": "3994-2026-07-06",
+   "setupType": "BREAKOUT",
+   "startedAt": "2026-07-06"
+  }
+ ],
  "performance": {
-  "benchReturn": -2.7,
-  "currentPrice": 7309.0,
+  "benchReturn": 0.0,
+  "currentPrice": 7835.0,
   "d20": {
-   "benchReturn": -3.5,
-   "excessReturn": 11.6,
-   "pendingDays": 0,
-   "stockReturn": 8.1
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 20,
+   "stockReturn": null
   },
   "d5": {
-   "benchReturn": -2.2,
-   "excessReturn": 10.1,
-   "pendingDays": 0,
-   "stockReturn": 7.9
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 5,
+   "stockReturn": null
   },
   "d60": {
-   "benchReturn": 2.1,
-   "excessReturn": 24.2,
-   "pendingDays": 0,
-   "stockReturn": 26.3
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 60,
+   "stockReturn": null
   },
-  "excessReturn": 58.2,
-  "initialDate": "2026-07-06",
-  "initialPrice": 4699.0,
-  "stockReturn": 55.5
+  "excessReturn": 0.0,
+  "initialDate": "2026-11-09",
+  "initialPrice": 7835.0,
+  "stockReturn": 0.0
  },
  "priceSetup": {
-  "asOf": "2026-11-05",
+  "asOf": "2026-11-09",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.01,
+  "distFrom52wHigh": 0.0,
   "labels": [
    "20日線の上",
-   "60日レンジ上位2%",
+   "60日レンジ上位0%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 6679.9,
-  "ma200": 4798.7,
-  "ma60": 6257.6,
-  "rangePos60": 0.98,
-  "rel20": 21.8,
-  "rel60": 42.8,
-  "volumeRatio20": 0.64
+  "ma20": 6796.8,
+  "ma200": 4827.0,
+  "ma60": 6328.4,
+  "rangePos60": 1.0,
+  "rel20": 30.6,
+  "rel60": 50.6,
+  "volumeRatio20": 0.95
  },
  "reasons": [
-  "新規大量保有 5.3%（野村證券株式会社）",
-  "60日レンジ上位2%",
+  "新規大量保有 5.1%（みずほ証券株式会社）",
+  "60日レンジ上位0%",
   "20日線上向き",
-  "TOPIX連動ETF比 +21.8pt（20日）"
+  "TOPIX連動ETF比 +30.6pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -182,41 +195,6 @@
    "kind": "EVENT",
    "label": "保有割合の減少",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YOK5"
-  },
-  {
-   "date": "2026-07-06",
-   "detail": "Price Setupが成立",
-   "kind": "STATUS",
-   "label": "WATCH",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-07-09",
-   "detail": "TOPIX連動ETFとの差が大きくなった",
-   "kind": "STATUS",
-   "label": "REACTED",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-07-27",
-   "detail": "60日高値を更新",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-07-29",
-   "detail": "60日高値を更新",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-07-31",
-   "detail": "RECOVERY → なし",
-   "kind": "SETUP",
-   "label": "Price Setup解消",
-   "sourceUrl": null
   },
   {
    "date": "2026-08-04",
@@ -240,60 +218,11 @@
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YUAG"
   },
   {
-   "date": "2026-08-06",
-   "detail": "20日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-08-14",
-   "detail": "60日高値を更新",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-08-20",
-   "detail": "なし → TREND",
-   "kind": "SETUP",
-   "label": "Price Setup改善",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-08-21",
-   "detail": "TREND → RECOVERY",
-   "kind": "SETUP",
-   "label": "Price Setup変化",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-08-24",
-   "detail": "RECOVERY → TREND",
-   "kind": "SETUP",
-   "label": "Price Setup改善",
-   "sourceUrl": null
-  },
-  {
    "date": "2026-08-27",
    "detail": "5.22% → 4.07%（ＧＣＱ　ＦＵＮＤＳ　ＭＡＮＡＧＥＭＥＮＴ　ＰＴＹ　Ｌｔｄ）",
    "kind": "EVENT",
    "label": "保有割合の減少",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YYKR"
-  },
-  {
-   "date": "2026-08-28",
-   "detail": "60日高値を更新",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-09-01",
-   "detail": "TREND → RECOVERY",
-   "kind": "SETUP",
-   "label": "Price Setup変化",
-   "sourceUrl": null
   },
   {
    "date": "2026-09-02",
@@ -303,88 +232,11 @@
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YYU9"
   },
   {
-   "date": "2026-09-04",
-   "detail": "RECOVERY → TREND",
-   "kind": "SETUP",
-   "label": "Price Setup改善",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-09-07",
-   "detail": "TREND → なし",
-   "kind": "SETUP",
-   "label": "Price Setup解消",
-   "sourceUrl": null
-  },
-  {
    "date": "2026-09-08",
    "detail": "17.21% → 18.07%（辻　庸介）",
    "kind": "EVENT",
    "label": "訂正報告",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z0OW"
-  },
-  {
-   "date": "2026-09-14",
-   "detail": "なし → TREND",
-   "kind": "SETUP",
-   "label": "Price Setup改善",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-09-14",
-   "detail": "20日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-09-14",
-   "detail": "TOPIX連動ETFを上回りに転換",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-09-15",
-   "detail": "TREND → なし",
-   "kind": "SETUP",
-   "label": "Price Setup解消",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-10-06",
-   "detail": "20日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-10-08",
-   "detail": "TOPIX連動ETFを上回りに転換",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-10-09",
-   "detail": "なし → BREAKOUT",
-   "kind": "SETUP",
-   "label": "Price Setup改善",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-10-15",
-   "detail": "BREAKOUT → TREND",
-   "kind": "SETUP",
-   "label": "Price Setup変化",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-10-16",
-   "detail": "TREND → BREAKOUT",
-   "kind": "SETUP",
-   "label": "Price Setup変化",
-   "sourceUrl": null
   },
   {
    "date": "2026-10-22",
@@ -394,19 +246,33 @@
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9F1"
   },
   {
-   "date": "2026-11-05",
+   "date": "2026-11-06",
+   "detail": "5.33% → 3.34%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBRJ"
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "保有割合 5.07%（みずほ証券株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCK0"
+  },
+  {
+   "date": "2026-11-09",
    "detail": "60日高値を更新",
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
   },
   {
-   "date": "2026-11-06",
-   "detail": "5.33% → 3.34%（野村證券株式会社）",
-   "kind": "EVENT",
-   "label": "保有割合の減少",
-   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBRJ"
+   "date": "2026-11-09",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-07T01:46:16+09:00"
+ "updatedAt": "2026-11-09T16:09:11+09:00"
 }

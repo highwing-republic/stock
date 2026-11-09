@@ -58,18 +58,23 @@
    "d5": -0.8,
    "eventId": "edinet:S100Z9J1",
    "excess5": 0.5
+  },
+  {
+   "d1": 2.8,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZC3A",
+   "excess5": null
   }
  ],
  "margin": {
-  "asOf": "2026-11-05",
-  "buyBalance": 867600,
-  "buyChangePct": 1.8,
-  "labels": [
-   "信用倍率悪化"
-  ],
-  "ratio": 28.45,
-  "sellBalance": 30500,
-  "sellChangePct": -37.1
+  "asOf": "2026-11-06",
+  "buyBalance": 850900,
+  "buyChangePct": -4.4,
+  "labels": [],
+  "ratio": 25.94,
+  "sellBalance": 32800,
+  "sellChangePct": 4.8
  },
  "pastEpisodes": [
   {
@@ -89,20 +94,21 @@
  ],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-05",
+  "asOf": "2026-11-09",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.35,
+  "distFrom52wHigh": 0.37,
   "labels": [],
-  "ma20": 2786.8,
-  "ma200": 3253.9,
-  "ma60": 3060.9,
-  "rangePos60": 0.06,
-  "rel20": -7.3,
-  "rel60": -15.5,
-  "volumeRatio20": 1.08
+  "ma20": 2747.6,
+  "ma200": 3248.0,
+  "ma60": 3040.3,
+  "rangePos60": 0.18,
+  "rel20": -4.0,
+  "rel60": -12.2,
+  "volumeRatio20": 0.66
  },
  "reasons": [
-  "1.8pt買い増し 5%→6.9%"
+  "1.8pt買い増し 5%→6.9%",
+  "信用買残 -4%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -140,7 +146,14 @@
    "kind": "EVENT",
    "label": "大幅な買い増し",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9J1"
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "6.86% → 6.86%（キャピタル・リサーチ・アンド・マネージメント・カンパニー）",
+   "kind": "EVENT",
+   "label": "変更報告（増減不明）",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZC3A"
   }
  ],
- "updatedAt": "2026-11-07T01:46:16+09:00"
+ "updatedAt": "2026-11-09T16:09:11+09:00"
 }

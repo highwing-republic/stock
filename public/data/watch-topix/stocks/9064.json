@@ -54,68 +54,68 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-05",
-  "buyBalance": 120500,
-  "buyChangePct": -21.3,
+  "asOf": "2026-11-06",
+  "buyBalance": 102600,
+  "buyChangePct": -32.3,
   "labels": [
    "信用買残減少",
    "信用倍率改善",
    "売残増加"
   ],
-  "ratio": 0.76,
-  "sellBalance": 158000,
-  "sellChangePct": 102.0
+  "ratio": 1.04,
+  "sellBalance": 98800,
+  "sellChangePct": 34.2
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 0.4,
-  "currentPrice": 2362.0,
+  "benchReturn": -2.9,
+  "currentPrice": 2286.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 19,
+   "pendingDays": 17,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 4,
+   "pendingDays": 2,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 59,
+   "pendingDays": 57,
    "stockReturn": null
   },
-  "excessReturn": 7.2,
+  "excessReturn": 7.1,
   "initialDate": "2026-11-04",
   "initialPrice": 2194.5,
-  "stockReturn": 7.6
+  "stockReturn": 4.2
  },
  "priceSetup": {
-  "asOf": "2026-11-05",
+  "asOf": "2026-11-09",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.0,
+  "distFrom52wHigh": 0.03,
   "labels": [
    "20日線の上",
-   "60日レンジ上位1%",
+   "60日レンジ上位16%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2058.9,
-  "ma200": 1882.1,
-  "ma60": 1980.7,
-  "rangePos60": 0.99,
-  "rel20": 25.7,
-  "rel60": 28.4,
-  "volumeRatio20": 2.83
+  "ma20": 2083.9,
+  "ma200": 1884.0,
+  "ma60": 1992.7,
+  "rangePos60": 0.84,
+  "rel20": 19.3,
+  "rel60": 24.9,
+  "volumeRatio20": 1.12
  },
  "reasons": [
   "新規大量保有 5%（Ｆａｒａｌｌｏｎ　Ｃａｐｉｔａｌ　Ｍａｎａｇｅｍｅｎｔ，　Ｌ．Ｌ．Ｃ．）",
-  "出来高 2.8倍で60日高値更新",
-  "60日レンジ上位1%",
-  "20日線上向き"
+  "60日レンジ上位16%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +19.3pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -174,7 +174,21 @@
    "kind": "STATUS",
    "label": "CONFIRMED",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-06",
+   "detail": "RECOVERY → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "TREND → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup変化",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-07T01:46:16+09:00"
+ "updatedAt": "2026-11-09T16:09:11+09:00"
 }

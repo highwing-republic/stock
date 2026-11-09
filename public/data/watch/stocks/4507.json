@@ -1,0 +1,131 @@
+{
+ "company": {
+  "name": "塩野義製薬",
+  "securityCode": "4507",
+  "tradingViewSymbol": "TSE:4507"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "4507-2026-11-06",
+  "overextended": false,
+  "setupType": "RECOVERY",
+  "setups": [
+   "RECOVERY"
+  ],
+  "startedAt": "2026-11-06",
+  "status": "WATCH",
+  "statusHistory": [
+   {
+    "date": "2026-11-06",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-11-06",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   }
+  ],
+  "watchStartedAt": "2026-11-06"
+ },
+ "eventReactions": [
+  {
+   "d1": -6.6,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZBQS",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-11-06",
+  "buyBalance": 384000,
+  "buyChangePct": -14.2,
+  "labels": [
+   "信用買残減少",
+   "信用倍率悪化"
+  ],
+  "ratio": 7.68,
+  "sellBalance": 50000,
+  "sellChangePct": -56.0
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": 3.5,
+  "currentPrice": 3056.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 19,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 4,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 59,
+   "stockReturn": null
+  },
+  "excessReturn": -1.0,
+  "initialDate": "2026-11-06",
+  "initialPrice": 2981.5,
+  "stockReturn": 2.5
+ },
+ "priceSetup": {
+  "asOf": "2026-11-09",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.18,
+  "labels": [
+   "20日線の上",
+   "60日レンジ上位29%",
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 2977.2,
+  "ma200": 3022.6,
+  "ma60": 2888.7,
+  "rangePos60": 0.71,
+  "rel20": 16.7,
+  "rel60": 15.6,
+  "volumeRatio20": 0.97
+ },
+ "reasons": [
+  "1.1pt買い増し 7.2%→8.3%",
+  "60日レンジ上位29%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +16.7pt（20日）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-11-05",
+   "detail": "7.23% → 8.32%（ブラックロック・ジャパン株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBQS"
+  },
+  {
+   "date": "2026-11-06",
+   "detail": "BREAKOUT → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup変化",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-06",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-11-09T16:08:18+09:00"
+}

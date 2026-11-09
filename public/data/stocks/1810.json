@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-11-07T01:44:47+09:00",
+  "updatedAt": "2026-11-09T16:08:07+09:00",
   "company": {
     "securityCode": "1810",
     "ticker": "1810.T",
     "name": "松井建設株式会社"
   },
   "events": [
+    {
+      "docId": "S100ZCJD",
+      "ticker": "1810.T",
+      "securityCode": "1810",
+      "companyName": "松井建設株式会社",
+      "submitDatetime": "2026-11-09 10:35",
+      "filerName": "株式会社みずほ銀行",
+      "reportType": "change",
+      "holdingRatio": 7.0,
+      "previousHoldingRatio": 8.0,
+      "holdingChange": -1.0,
+      "purpose": "・発行会社の要請に応え、かつ発行会社との取引関係の強化を図るもの / ・投資信託または投資一任契約に基づき投資権限を有するもの",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 1.26,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z1XY",
       "ticker": "1810.T",
@@ -29,7 +59,7 @@
         "return1d": 0.34,
         "return5d": -2.13,
         "return20d": -2.62,
-        "returnCurrent": -3.03,
+        "returnCurrent": -6.13,
         "volumeRatio": 1.32,
         "marketExcessReturn": -3.78
       }
@@ -3042,9 +3072,19 @@
       "open": 1360.0,
       "high": 1361.0,
       "low": 1338.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1346.0,
+      "adj_close": 1346.0,
       "volume": 47500
+    },
+    {
+      "ticker": "1810.T",
+      "trade_date": "2026-11-09",
+      "open": 1371.0,
+      "high": 1373.0,
+      "low": 1357.0,
+      "close": 1363.0,
+      "adj_close": 1363.0,
+      "volume": 21400
     }
   ],
   "benchmark": [
@@ -7044,9 +7084,19 @@
       "open": 392.20001220703125,
       "high": 396.29998779296875,
       "low": 387.29998779296875,
-      "close": null,
-      "adj_close": null,
+      "close": 388.6000061035156,
+      "adj_close": 388.6000061035156,
       "volume": 70111050
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-09",
+      "open": 396.6000061035156,
+      "high": 403.70001220703125,
+      "low": 394.79998779296875,
+      "close": 402.1000061035156,
+      "adj_close": 402.1000061035156,
+      "volume": 30123360
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

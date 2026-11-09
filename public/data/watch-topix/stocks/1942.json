@@ -5,20 +5,26 @@
   "tradingViewSymbol": "TSE:1942"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "NO_SETUP",
+  "closedAt": "2026-11-06",
   "id": "1942-2026-10-07",
   "overextended": false,
   "setupType": null,
   "setups": [],
   "startedAt": "2026-10-07",
-  "status": "CANDIDATE",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-10-07",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-11-06",
+    "from": "CANDIDATE",
+    "reason_code": "NO_SETUP",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": null
@@ -33,31 +39,35 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-05",
-  "buyBalance": 472900,
-  "buyChangePct": 12.5,
-  "labels": [],
-  "ratio": 15.25,
-  "sellBalance": 31000,
-  "sellChangePct": -0.3
+  "asOf": "2026-11-06",
+  "buyBalance": 422700,
+  "buyChangePct": -24.7,
+  "labels": [
+   "信用買残減少",
+   "信用倍率改善"
+  ],
+  "ratio": 14.99,
+  "sellBalance": 28200,
+  "sellChangePct": -1.1
  },
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-05",
+  "asOf": "2026-11-09",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.41,
+  "distFrom52wHigh": 0.43,
   "labels": [],
-  "ma20": 5085.9,
-  "ma200": 5888.1,
-  "ma60": 5348.7,
-  "rangePos60": 0.04,
-  "rel20": -16.1,
-  "rel60": -21.8,
-  "volumeRatio20": 2.48
+  "ma20": 4956.4,
+  "ma200": 5874.9,
+  "ma60": 5302.8,
+  "rangePos60": 0.14,
+  "rel20": -14.7,
+  "rel60": -17.3,
+  "volumeRatio20": 0.8
  },
  "reasons": [
-  "新規大量保有 7%（キャピタル・リサーチ・アンド・マネージメント・カンパニー）"
+  "新規大量保有 7%（キャピタル・リサーチ・アンド・マネージメント・カンパニー）",
+  "信用買残 -25%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -81,7 +91,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-06",
+   "detail": "期限内にPrice Setupが成立しなかった",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-07T01:46:16+09:00"
+ "updatedAt": "2026-11-09T16:09:11+09:00"
 }

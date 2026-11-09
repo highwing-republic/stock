@@ -33,31 +33,35 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-05",
-  "buyBalance": 122300,
-  "buyChangePct": 10.3,
-  "labels": [],
-  "ratio": 11.43,
-  "sellBalance": 10700,
-  "sellChangePct": 2.9
+  "asOf": "2026-11-06",
+  "buyBalance": 112500,
+  "buyChangePct": -1.7,
+  "labels": [
+   "信用倍率悪化"
+  ],
+  "ratio": 11.72,
+  "sellBalance": 9600,
+  "sellChangePct": -40.0
  },
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-05",
+  "asOf": "2026-11-09",
   "atrState": "通常",
-  "distFrom52wHigh": 0.25,
+  "distFrom52wHigh": 0.27,
   "labels": [],
-  "ma20": 3336.2,
-  "ma200": 3651.3,
-  "ma60": 3444.8,
-  "rangePos60": 0.05,
-  "rel20": -0.8,
-  "rel60": -4.6,
-  "volumeRatio20": 1.06
+  "ma20": 3309.3,
+  "ma200": 3646.4,
+  "ma60": 3433.4,
+  "rangePos60": 0.24,
+  "rel20": 1.0,
+  "rel60": -2.5,
+  "volumeRatio20": 1.86
  },
  "reasons": [
-  "新規大量保有 5%（Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．）"
+  "新規大量保有 5%（Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．）",
+  "TOPIX連動ETF比 +1pt（20日）",
+  "信用買残 -2%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -67,7 +71,14 @@
    "kind": "EVENT",
    "label": "新規大量保有",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAY1"
+  },
+  {
+   "date": "2026-11-06",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-07T01:46:16+09:00"
+ "updatedAt": "2026-11-09T16:09:11+09:00"
 }

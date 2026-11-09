@@ -1,0 +1,75 @@
+{
+ "company": {
+  "name": "旭化成",
+  "securityCode": "3407",
+  "tradingViewSymbol": "TSE:3407"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "3407-2026-11-06",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-11-06",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-11-06",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": -7.2,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZBQQ",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-11-06",
+  "buyBalance": 1172800,
+  "buyChangePct": 8.8,
+  "labels": [
+   "信用倍率悪化"
+  ],
+  "ratio": 10.17,
+  "sellBalance": 115300,
+  "sellChangePct": -10.5
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-11-09",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.18,
+  "labels": [],
+  "ma20": 1587.0,
+  "ma200": 1639.5,
+  "ma60": 1607.4,
+  "rangePos60": 0.25,
+  "rel20": -0.5,
+  "rel60": -2.5,
+  "volumeRatio20": 1.06
+ },
+ "reasons": [
+  "1.2pt買い増し 7.3%→8.6%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-11-05",
+   "detail": "7.34% → 8.57%（ブラックロック・ジャパン株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBQQ"
+  }
+ ],
+ "updatedAt": "2026-11-09T16:09:11+09:00"
+}

@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-11-07T01:44:47+09:00",
+  "updatedAt": "2026-11-09T16:08:07+09:00",
   "company": {
     "securityCode": "6763",
     "ticker": "6763.T",
     "name": "帝国通信工業株式会社"
   },
   "events": [
+    {
+      "docId": "S100ZCJK",
+      "ticker": "6763.T",
+      "securityCode": "6763",
+      "companyName": "帝国通信工業株式会社",
+      "submitDatetime": "2026-11-09 10:35",
+      "filerName": "株式会社みずほ銀行",
+      "reportType": "change",
+      "holdingRatio": 6.44,
+      "previousHoldingRatio": 7.6,
+      "holdingChange": -1.16,
+      "purpose": "・発行会社の要請に応え、かつ発行会社との取引関係の強化を図るもの / ・信託財産として運用その他の信託目的に従い保有するもの / ・投資信託または投資一任契約に基づき投資権限を有するもの",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 1.31,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YUPO",
       "ticker": "6763.T",
@@ -32,7 +62,7 @@
         "return1d": 1.53,
         "return5d": 10.36,
         "return20d": 2.4,
-        "returnCurrent": -9.38,
+        "returnCurrent": -9.78,
         "volumeRatio": 1.76,
         "marketExcessReturn": 7.48
       }
@@ -3045,9 +3075,19 @@
       "open": 2455.0,
       "high": 2482.0,
       "low": 2409.0,
-      "close": null,
-      "adj_close": null,
+      "close": 2449.0,
+      "adj_close": 2449.0,
       "volume": 36600
+    },
+    {
+      "ticker": "6763.T",
+      "trade_date": "2026-11-09",
+      "open": 2480.0,
+      "high": 2524.0,
+      "low": 2477.0,
+      "close": 2481.0,
+      "adj_close": 2481.0,
+      "volume": 15500
     }
   ],
   "benchmark": [
@@ -7047,9 +7087,19 @@
       "open": 392.20001220703125,
       "high": 396.29998779296875,
       "low": 387.29998779296875,
-      "close": null,
-      "adj_close": null,
+      "close": 388.6000061035156,
+      "adj_close": 388.6000061035156,
       "volume": 70111050
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-09",
+      "open": 396.6000061035156,
+      "high": 403.70001220703125,
+      "low": 394.79998779296875,
+      "close": 402.1000061035156,
+      "adj_close": 402.1000061035156,
+      "volume": 30123360
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

@@ -1,11 +1,42 @@
 {
-  "updatedAt": "2026-11-07T01:44:47+09:00",
+  "updatedAt": "2026-11-09T16:08:07+09:00",
   "company": {
     "securityCode": "9743",
     "ticker": "9743.T",
     "name": "株式会社丹青社"
   },
   "events": [
+    {
+      "docId": "S100ZCK3",
+      "ticker": "9743.T",
+      "securityCode": "9743",
+      "companyName": "株式会社丹青社",
+      "submitDatetime": "2026-11-09 10:40",
+      "filerName": "みずほ証券株式会社",
+      "reportType": "change",
+      "holdingRatio": 2.87,
+      "previousHoldingRatio": 7.09,
+      "holdingChange": -4.22,
+      "purpose": "・ディーリング(短期売買)目的で保有するもの・レンディングその他取引に基づく一時的保有 / ・信託財産として運用その他の信託目的に従い保有するもの / ・投資信託または投資一任契約に基づき投資権限を有するもの",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少",
+        "大幅売却"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 1.04,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z6H2",
       "ticker": "9743.T",
@@ -30,8 +61,8 @@
       "metrics": {
         "return1d": -0.94,
         "return5d": 2.32,
-        "return20d": null,
-        "returnCurrent": 8.76,
+        "return20d": 4.05,
+        "returnCurrent": 5.14,
         "volumeRatio": 0.97,
         "marketExcessReturn": 6.73
       }
@@ -62,7 +93,7 @@
         "return1d": -0.66,
         "return5d": -2.97,
         "return20d": -9.58,
-        "returnCurrent": -0.73,
+        "returnCurrent": -4.03,
         "volumeRatio": 1.33,
         "marketExcessReturn": -1.99
       }
@@ -3985,9 +4016,19 @@
       "open": 1440.0,
       "high": 1459.0,
       "low": 1427.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1438.0,
+      "adj_close": 1438.0,
       "volume": 594200
+    },
+    {
+      "ticker": "9743.T",
+      "trade_date": "2026-11-09",
+      "open": 1453.0,
+      "high": 1484.0,
+      "low": 1447.0,
+      "close": 1453.0,
+      "adj_close": 1453.0,
+      "volume": 300300
     }
   ],
   "benchmark": [
@@ -7987,9 +8028,19 @@
       "open": 392.20001220703125,
       "high": 396.29998779296875,
       "low": 387.29998779296875,
-      "close": null,
-      "adj_close": null,
+      "close": 388.6000061035156,
+      "adj_close": 388.6000061035156,
       "volume": 70111050
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-09",
+      "open": 396.6000061035156,
+      "high": 403.70001220703125,
+      "low": 394.79998779296875,
+      "close": 402.1000061035156,
+      "adj_close": 402.1000061035156,
+      "volume": 30123360
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

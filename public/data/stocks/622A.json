@@ -1,11 +1,42 @@
 {
-  "updatedAt": "2026-11-07T01:44:47+09:00",
+  "updatedAt": "2026-11-09T16:08:07+09:00",
   "company": {
     "securityCode": "622A",
     "ticker": "622A.T",
     "name": "株式会社テクノクラフト"
   },
   "events": [
+    {
+      "docId": "S100ZCEF",
+      "ticker": "622A.T",
+      "securityCode": "622A",
+      "companyName": "株式会社テクノクラフト",
+      "submitDatetime": "2026-11-09 15:26",
+      "filerName": "ＳＭＢＣ日興証券株式会社",
+      "reportType": "change",
+      "holdingRatio": 0.0,
+      "previousHoldingRatio": 6.17,
+      "holdingChange": -6.17,
+      "purpose": "証券業務に係る一時保有のため",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少",
+        "大幅売却"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 2.54,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z6HG",
       "ticker": "622A.T",
@@ -31,8 +62,8 @@
       "metrics": {
         "return1d": 4.83,
         "return5d": -1.41,
-        "return20d": null,
-        "returnCurrent": -12.27,
+        "return20d": -20.72,
+        "returnCurrent": -18.71,
         "volumeRatio": 0.11,
         "marketExcessReturn": 3.0
       }
@@ -59,8 +90,8 @@
       "metrics": {
         "return1d": 4.83,
         "return5d": -1.41,
-        "return20d": null,
-        "returnCurrent": -12.27,
+        "return20d": -20.72,
+        "returnCurrent": -18.71,
         "volumeRatio": 0.11,
         "marketExcessReturn": 3.0
       }
@@ -91,7 +122,7 @@
         "return1d": -2.24,
         "return5d": -3.74,
         "return20d": -7.1,
-        "returnCurrent": -18.5,
+        "returnCurrent": -24.49,
         "volumeRatio": 0.28,
         "marketExcessReturn": -6.47
       }
@@ -401,12 +432,22 @@
     {
       "ticker": "622A.T",
       "trade_date": "2026-11-06",
-      "open": 395.0,
-      "high": 413.0,
-      "low": 382.0,
-      "close": null,
-      "adj_close": null,
+      "open": 400.0,
+      "high": 408.0,
+      "low": 391.0,
+      "close": 394.0,
+      "adj_close": 394.0,
       "volume": 85200
+    },
+    {
+      "ticker": "622A.T",
+      "trade_date": "2026-11-09",
+      "open": 400.0,
+      "high": 433.0,
+      "low": 398.0,
+      "close": 404.0,
+      "adj_close": 404.0,
+      "volume": 36100
     }
   ],
   "benchmark": [
@@ -4406,9 +4447,19 @@
       "open": 392.20001220703125,
       "high": 396.29998779296875,
       "low": 387.29998779296875,
-      "close": null,
-      "adj_close": null,
+      "close": 388.6000061035156,
+      "adj_close": 388.6000061035156,
       "volume": 70111050
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-09",
+      "open": 396.6000061035156,
+      "high": 403.70001220703125,
+      "low": 394.79998779296875,
+      "close": 402.1000061035156,
+      "adj_close": 402.1000061035156,
+      "volume": 30123360
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

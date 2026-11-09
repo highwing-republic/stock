@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T01:44:47+09:00",
+  "updatedAt": "2026-11-09T16:08:07+09:00",
   "company": {
     "securityCode": "3963",
     "ticker": "3963.T",
@@ -20,19 +20,21 @@
       "purpose": "当行における中長期的なディーリング目的による保有。 / 顧客保有株券にかかる契約に基づく借入権の保有。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 4.79,
       "marketExcessReturn": null,
-      "signalScore": 30,
+      "signalScore": 45,
       "signalReasons": [
-        "新規大量保有"
+        "新規大量保有",
+        "出来高2倍以上",
+        "出来高3倍以上"
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": -9.81,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.0,
-        "volumeRatio": null,
+        "returnCurrent": -9.81,
+        "volumeRatio": 4.79,
         "marketExcessReturn": null
       }
     }
@@ -2694,9 +2696,19 @@
       "open": 262.0,
       "high": 262.0,
       "low": 240.0,
-      "close": null,
-      "adj_close": null,
+      "close": 241.0,
+      "adj_close": 241.0,
       "volume": 164600
+    },
+    {
+      "ticker": "3963.T",
+      "trade_date": "2026-11-09",
+      "open": 249.0,
+      "high": 252.0,
+      "low": 233.0,
+      "close": 239.0,
+      "adj_close": 239.0,
+      "volume": 425200
     }
   ],
   "benchmark": [
@@ -6696,9 +6708,19 @@
       "open": 392.20001220703125,
       "high": 396.29998779296875,
       "low": 387.29998779296875,
-      "close": null,
-      "adj_close": null,
+      "close": 388.6000061035156,
+      "adj_close": 388.6000061035156,
       "volume": 70111050
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-09",
+      "open": 396.6000061035156,
+      "high": 403.70001220703125,
+      "low": 394.79998779296875,
+      "close": 402.1000061035156,
+      "adj_close": 402.1000061035156,
+      "volume": 30123360
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

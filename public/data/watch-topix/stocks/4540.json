@@ -1,0 +1,173 @@
+{
+ "company": {
+  "name": "ツムラ",
+  "securityCode": "4540",
+  "tradingViewSymbol": "TSE:4540"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "4540-2026-11-06",
+  "overextended": false,
+  "setupType": "TREND",
+  "setups": [
+   "TREND",
+   "RECOVERY"
+  ],
+  "startedAt": "2026-11-06",
+  "status": "WATCH",
+  "statusHistory": [
+   {
+    "date": "2026-11-06",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-11-09",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   }
+  ],
+  "watchStartedAt": "2026-11-09"
+ },
+ "eventReactions": [
+  {
+   "d1": -0.4,
+   "d20": -1.5,
+   "d5": 0.4,
+   "eventId": "edinet:S100Z33R",
+   "excess5": -0.8
+  },
+  {
+   "d1": 0.5,
+   "d20": 2.7,
+   "d5": 3.2,
+   "eventId": "edinet:S100Z41I",
+   "excess5": 4.1
+  },
+  {
+   "d1": -4.0,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZBVU",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-11-06",
+  "buyBalance": 156300,
+  "buyChangePct": -13.9,
+  "labels": [
+   "信用買残減少"
+  ],
+  "ratio": 5.6,
+  "sellBalance": 27900,
+  "sellChangePct": -12.3
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": 0.0,
+  "currentPrice": 3901.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 20,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 5,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 60,
+   "stockReturn": null
+  },
+  "excessReturn": 0.0,
+  "initialDate": "2026-11-09",
+  "initialPrice": 3901.0,
+  "stockReturn": 0.0
+ },
+ "priceSetup": {
+  "asOf": "2026-11-09",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.08,
+  "labels": [
+   "20日線の上",
+   "60日レンジ上位7%",
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 3793.1,
+  "ma200": 3745.6,
+  "ma60": 3733.4,
+  "rangePos60": 0.93,
+  "rel20": 10.5,
+  "rel60": 11.0,
+  "volumeRatio20": 1.66
+ },
+ "reasons": [
+  "新規大量保有 5%（野村證券株式会社）",
+  "60日レンジ上位7%",
+  "20日線を回復",
+  "TOPIX連動ETF比 +10.5pt（20日）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-09-24",
+   "detail": "5.33% → 4.82%（野村アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z33R"
+  },
+  {
+   "date": "2026-10-06",
+   "detail": "10% → 10%（ピンアン・ライフ・インシュアランス・カンパニー・オブ・チャイナ・リミテッド（中国平安人寿保険股フン有限公司））",
+   "kind": "EVENT",
+   "label": "変更報告（増減不明）",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z41I"
+  },
+  {
+   "date": "2026-11-06",
+   "detail": "保有割合 5.05%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBVU"
+  },
+  {
+   "date": "2026-11-06",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-11-09T16:09:11+09:00"
+}

@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-11-07T01:44:47+09:00",
+  "updatedAt": "2026-11-09T16:08:07+09:00",
   "company": {
     "securityCode": "7729",
     "ticker": "7729.T",
     "name": "株式会社東京精密"
   },
   "events": [
+    {
+      "docId": "S100ZBOD",
+      "ticker": "7729.T",
+      "securityCode": "7729",
+      "companyName": "株式会社東京精密",
+      "submitDatetime": "2026-11-09 15:34",
+      "filerName": "ティー・ロウ・プライス・ジャパン株式会社",
+      "reportType": "change",
+      "holdingRatio": 5.33,
+      "previousHoldingRatio": 6.53,
+      "holdingChange": -1.2,
+      "purpose": "純投資",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 0.54,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z99L",
       "ticker": "7729.T",
@@ -31,7 +61,7 @@
         "return1d": -9.16,
         "return5d": -5.56,
         "return20d": null,
-        "returnCurrent": -26.05,
+        "returnCurrent": -28.62,
         "volumeRatio": 1.85,
         "marketExcessReturn": -4.55
       }
@@ -62,7 +92,7 @@
         "return1d": 2.02,
         "return5d": 14.63,
         "return20d": -9.64,
-        "returnCurrent": -26.44,
+        "returnCurrent": -29.0,
         "volumeRatio": 1.26,
         "marketExcessReturn": 12.73
       }
@@ -90,7 +120,7 @@
         "return1d": 0.58,
         "return5d": 7.12,
         "return20d": -2.17,
-        "returnCurrent": -29.16,
+        "returnCurrent": -31.63,
         "volumeRatio": 0.69,
         "marketExcessReturn": 4.24
       }
@@ -121,7 +151,7 @@
         "return1d": 16.26,
         "return5d": 21.88,
         "return20d": 21.88,
-        "returnCurrent": -13.66,
+        "returnCurrent": -16.66,
         "volumeRatio": 1.28,
         "marketExcessReturn": 19.76
       }
@@ -151,7 +181,7 @@
         "return1d": -4.03,
         "return5d": -15.39,
         "return20d": -5.29,
-        "returnCurrent": -30.19,
+        "returnCurrent": -32.62,
         "volumeRatio": 1.18,
         "marketExcessReturn": -13.58
       }
@@ -4151,12 +4181,22 @@
     {
       "ticker": "7729.T",
       "trade_date": "2026-11-06",
-      "open": 9935.0,
+      "open": 9929.0,
       "high": 12270.0,
       "low": 9922.0,
-      "close": null,
-      "adj_close": null,
+      "close": 12130.0,
+      "adj_close": 12130.0,
       "volume": 1328400
+    },
+    {
+      "ticker": "7729.T",
+      "trade_date": "2026-11-09",
+      "open": 12135.0,
+      "high": 12650.0,
+      "low": 11825.0,
+      "close": 12195.0,
+      "adj_close": 12195.0,
+      "volume": 702000
     }
   ],
   "benchmark": [
@@ -8156,9 +8196,19 @@
       "open": 392.20001220703125,
       "high": 396.29998779296875,
       "low": 387.29998779296875,
-      "close": null,
-      "adj_close": null,
+      "close": 388.6000061035156,
+      "adj_close": 388.6000061035156,
       "volume": 70111050
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-09",
+      "open": 396.6000061035156,
+      "high": 403.70001220703125,
+      "low": 394.79998779296875,
+      "close": 402.1000061035156,
+      "adj_close": 402.1000061035156,
+      "volume": 30123360
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

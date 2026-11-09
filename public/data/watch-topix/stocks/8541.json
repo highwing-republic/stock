@@ -5,14 +5,14 @@
   "tradingViewSymbol": "TSE:8541"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "BROKEN",
+  "closedAt": "2026-11-06",
   "id": "8541-2026-10-20",
   "overextended": false,
   "setupType": "TREND",
   "setups": [],
   "startedAt": "2026-10-20",
-  "status": "BROKEN",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-10-20",
@@ -37,6 +37,12 @@
     "from": "STRENGTHENING",
     "reason_code": "BELOW_MA20",
     "to": "BROKEN"
+   },
+   {
+    "date": "2026-11-06",
+    "from": "BROKEN",
+    "reason_code": "BROKEN",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-10-26"
@@ -58,22 +64,22 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-05",
-  "buyBalance": 195500,
-  "buyChangePct": 0.6,
+  "asOf": "2026-11-06",
+  "buyBalance": 188100,
+  "buyChangePct": -0.4,
   "labels": [],
-  "ratio": 4.47,
-  "sellBalance": 43700,
-  "sellChangePct": -0.7
+  "ratio": 4.9,
+  "sellBalance": 38400,
+  "sellChangePct": -14.7
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -0.7,
-  "currentPrice": 3250.0,
+  "benchReturn": -7.1,
+  "currentPrice": 2956.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 13,
+   "pendingDays": 11,
    "stockReturn": null
   },
   "d5": {
@@ -85,29 +91,30 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 53,
+   "pendingDays": 51,
    "stockReturn": null
   },
-  "excessReturn": -6.8,
+  "excessReturn": -8.8,
   "initialDate": "2026-10-26",
   "initialPrice": 3515.0,
-  "stockReturn": -7.5
+  "stockReturn": -15.9
  },
  "priceSetup": {
-  "asOf": "2026-11-05",
+  "asOf": "2026-11-09",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.14,
+  "distFrom52wHigh": 0.19,
   "labels": [],
-  "ma20": 3419.2,
-  "ma200": 2321.7,
-  "ma60": 3296.6,
-  "rangePos60": 0.5,
-  "rel20": -5.2,
-  "rel60": 21.4,
-  "volumeRatio20": 0.77
+  "ma20": 3380.1,
+  "ma200": 2336.4,
+  "ma60": 3303.3,
+  "rangePos60": 0.31,
+  "rel20": -0.3,
+  "rel60": 13.7,
+  "volumeRatio20": 0.38
  },
  "reasons": [
-  "1.3pt買い増し 5.2%→6.5%"
+  "1.3pt買い増し 5.2%→6.5%",
+  "信用買残 -0%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -180,7 +187,14 @@
    "kind": "STATUS",
    "label": "BROKEN",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-06",
+   "detail": "Price Setupが崩れた",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-07T01:46:16+09:00"
+ "updatedAt": "2026-11-09T16:09:11+09:00"
 }

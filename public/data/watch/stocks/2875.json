@@ -10,9 +10,7 @@
   "id": "2875-2026-09-24",
   "overextended": false,
   "setupType": "RECOVERY",
-  "setups": [
-   "RECOVERY"
-  ],
+  "setups": [],
   "startedAt": "2026-09-24",
   "status": "STRENGTHENING",
   "statusHistory": [
@@ -47,22 +45,24 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-05",
-  "buyBalance": 19900,
-  "buyChangePct": 2.6,
-  "labels": [],
-  "ratio": 0.71,
-  "sellBalance": 28200,
-  "sellChangePct": 5.2
+  "asOf": "2026-11-06",
+  "buyBalance": 19200,
+  "buyChangePct": 8.5,
+  "labels": [
+   "信用倍率悪化"
+  ],
+  "ratio": 0.76,
+  "sellBalance": 25200,
+  "sellChangePct": -10.0
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -2.7,
-  "currentPrice": 10810.0,
+  "benchReturn": -5.9,
+  "currentPrice": 10635.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 8,
+   "pendingDays": 6,
    "stockReturn": null
   },
   "d5": {
@@ -74,37 +74,33 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 48,
+   "pendingDays": 46,
    "stockReturn": null
   },
-  "excessReturn": 5.7,
+  "excessReturn": 7.2,
   "initialDate": "2026-10-19",
   "initialPrice": 10495.0,
-  "stockReturn": 3.0
+  "stockReturn": 1.3
  },
  "priceSetup": {
-  "asOf": "2026-11-05",
-  "atrState": "通常",
-  "distFrom52wHigh": 0.11,
+  "asOf": "2026-11-09",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.12,
   "labels": [
-   "20日線の上",
-   "60日レンジ上位27%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 10642.8,
-  "ma200": 10637.9,
-  "ma60": 10315.0,
-  "rangePos60": 0.73,
-  "rel20": 15.1,
-  "rel60": 8.5,
-  "volumeRatio20": 2.89
+  "ma20": 10692.0,
+  "ma200": 10637.5,
+  "ma60": 10317.6,
+  "rangePos60": 0.64,
+  "rel20": 12.0,
+  "rel60": 5.7,
+  "volumeRatio20": 0.9
  },
  "reasons": [
   "1.1pt買い増し 5.1%→6.2%",
-  "60日レンジ上位27%",
-  "20日線上向き",
-  "TOPIX連動ETF比 +15.1pt（20日）"
+  "TOPIX連動ETF比 +12pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -191,7 +187,14 @@
    "kind": "SETUP",
    "label": "Price Setup変化",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-06",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-07T01:45:01+09:00"
+ "updatedAt": "2026-11-09T16:08:18+09:00"
 }

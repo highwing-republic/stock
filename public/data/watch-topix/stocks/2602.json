@@ -1,0 +1,153 @@
+{
+ "company": {
+  "name": "日清オイリオグループ",
+  "securityCode": "2602",
+  "tradingViewSymbol": "TSE:2602"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "2602-2026-11-06",
+  "overextended": false,
+  "setupType": "TREND",
+  "setups": [
+   "TREND",
+   "RECOVERY"
+  ],
+  "startedAt": "2026-11-06",
+  "status": "WATCH",
+  "statusHistory": [
+   {
+    "date": "2026-11-06",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-11-09",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   }
+  ],
+  "watchStartedAt": "2026-11-09"
+ },
+ "eventReactions": [
+  {
+   "d1": -3.9,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZC5W",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-11-06",
+  "buyBalance": 34400,
+  "buyChangePct": -27.0,
+  "labels": [
+   "信用買残減少",
+   "信用倍率改善"
+  ],
+  "ratio": 4.91,
+  "sellBalance": 7000,
+  "sellChangePct": 18.6
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": 0.0,
+  "currentPrice": 2173.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 20,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 5,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 60,
+   "stockReturn": null
+  },
+  "excessReturn": 0.0,
+  "initialDate": "2026-11-09",
+  "initialPrice": 2173.0,
+  "stockReturn": 0.0
+ },
+ "priceSetup": {
+  "asOf": "2026-11-09",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.01,
+  "labels": [
+   "20日線の上",
+   "60日レンジ上位6%",
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 2060.7,
+  "ma200": 1895.1,
+  "ma60": 2032.6,
+  "rangePos60": 0.94,
+  "rel20": 15.9,
+  "rel60": 20.0,
+  "volumeRatio20": 2.2
+ },
+ "reasons": [
+  "1pt買い増し 6.5%→7.6%",
+  "出来高 2.2倍で60日高値更新",
+  "60日レンジ上位6%",
+  "20日線を回復"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-11-06",
+   "detail": "6.55% → 7.58%（三井住友ＤＳアセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZC5W"
+  },
+  {
+   "date": "2026-11-06",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-11-09T16:09:11+09:00"
+}

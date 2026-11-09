@@ -83,23 +83,31 @@
    "d5": -2.8,
    "eventId": "edinet:S100Z9JP",
    "excess5": -1.5
+  },
+  {
+   "d1": 3.5,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZD8A",
+   "excess5": null
   }
  ],
  "margin": {
-  "asOf": "2026-11-05",
-  "buyBalance": 1217300,
-  "buyChangePct": -5.1,
+  "asOf": "2026-11-06",
+  "buyBalance": 1117700,
+  "buyChangePct": -14.0,
   "labels": [
-   "信用倍率悪化"
+   "信用買残減少",
+   "信用倍率改善"
   ],
-  "ratio": 25.96,
-  "sellBalance": 46900,
-  "sellChangePct": -21.7
+  "ratio": 23.0,
+  "sellBalance": 48600,
+  "sellChangePct": 7.3
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -1.5,
-  "currentPrice": 3780.0,
+  "benchReturn": -4.7,
+  "currentPrice": 3810.0,
   "d20": {
    "benchReturn": 0.5,
    "excessReturn": 3.7,
@@ -118,27 +126,27 @@
    "pendingDays": 0,
    "stockReturn": -1.0
   },
-  "excessReturn": -8.8,
+  "excessReturn": -4.9,
   "initialDate": "2026-07-23",
   "initialPrice": 4213.4,
-  "stockReturn": -10.3
+  "stockReturn": -9.6
  },
  "priceSetup": {
-  "asOf": "2026-11-05",
+  "asOf": "2026-11-09",
   "atrState": "通常",
-  "distFrom52wHigh": 0.37,
+  "distFrom52wHigh": 0.36,
   "labels": [],
-  "ma20": 4289.2,
-  "ma200": 4325.4,
-  "ma60": 4523.0,
-  "rangePos60": 0.01,
-  "rel20": -12.7,
-  "rel60": -10.2,
-  "volumeRatio20": 1.01
+  "ma20": 4212.8,
+  "ma200": 4320.2,
+  "ma60": 4504.0,
+  "rangePos60": 0.25,
+  "rel20": -7.7,
+  "rel60": -6.0,
+  "volumeRatio20": 1.27
  },
  "reasons": [
   "新規大量保有 5.3%（野村證券株式会社）",
-  "信用買残 -5%"
+  "信用買残 -14%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -393,7 +401,14 @@
    "kind": "EVENT",
    "label": "買い増し",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9JP"
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "5.58% → 5.59%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZD8A"
   }
  ],
- "updatedAt": "2026-11-07T01:46:16+09:00"
+ "updatedAt": "2026-11-09T16:09:11+09:00"
 }

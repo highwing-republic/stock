@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-11-07T01:44:47+09:00",
+  "updatedAt": "2026-11-09T16:08:07+09:00",
   "company": {
     "securityCode": "4912",
     "ticker": "4912.T",
     "name": "ライオン株式会社"
   },
   "events": [
+    {
+      "docId": "S100ZCJH",
+      "ticker": "4912.T",
+      "securityCode": "4912",
+      "companyName": "ライオン株式会社",
+      "submitDatetime": "2026-11-09 10:35",
+      "filerName": "株式会社みずほ銀行",
+      "reportType": "change",
+      "holdingRatio": 4.96,
+      "previousHoldingRatio": 5.54,
+      "holdingChange": -0.58,
+      "purpose": "・発行会社の要請に応え、かつ発行会社との取引関係の強化を図るもの / ・ディーリング(短期売買)目的で保有するもの / ・投資信託または投資一任契約に基づき投資権限を有するもの",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 14.42,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z99E",
       "ticker": "4912.T",
@@ -31,7 +61,7 @@
         "return1d": 0.74,
         "return5d": -1.58,
         "return20d": null,
-        "returnCurrent": 5.74,
+        "returnCurrent": 15.73,
         "volumeRatio": 1.0,
         "marketExcessReturn": -0.57
       }
@@ -59,7 +89,7 @@
         "return1d": 1.22,
         "return5d": 0.47,
         "return20d": 7.77,
-        "returnCurrent": 12.66,
+        "returnCurrent": 23.31,
         "volumeRatio": 0.95,
         "marketExcessReturn": -0.8
       }
@@ -4062,9 +4092,19 @@
       "open": 1936.0,
       "high": 1945.0,
       "low": 1835.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1851.5,
+      "adj_close": 1851.5,
       "volume": 1942900
+    },
+    {
+      "ticker": "4912.T",
+      "trade_date": "2026-11-09",
+      "open": 2161.5,
+      "high": 2161.5,
+      "low": 2040.5,
+      "close": 2118.5,
+      "adj_close": 2118.5,
+      "volume": 4909500
     }
   ],
   "benchmark": [
@@ -8064,9 +8104,19 @@
       "open": 392.20001220703125,
       "high": 396.29998779296875,
       "low": 387.29998779296875,
-      "close": null,
-      "adj_close": null,
+      "close": 388.6000061035156,
+      "adj_close": 388.6000061035156,
       "volume": 70111050
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-09",
+      "open": 396.6000061035156,
+      "high": 403.70001220703125,
+      "low": 394.79998779296875,
+      "close": 402.1000061035156,
+      "adj_close": 402.1000061035156,
+      "volume": 30123360
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

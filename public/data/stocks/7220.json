@@ -1,11 +1,42 @@
 {
-  "updatedAt": "2026-11-07T01:44:47+09:00",
+  "updatedAt": "2026-11-09T16:08:07+09:00",
   "company": {
     "securityCode": "7220",
     "ticker": "7220.T",
     "name": "武蔵精密工業株式会社"
   },
   "events": [
+    {
+      "docId": "S100ZD23",
+      "ticker": "7220.T",
+      "securityCode": "7220",
+      "companyName": "武蔵精密工業株式会社",
+      "submitDatetime": "2026-11-09 11:17",
+      "filerName": "グランサム、マヨ、ヴァン　オッテルロー　アンド　カンパニー　エルエルシー",
+      "reportType": "change",
+      "holdingRatio": 7.63,
+      "previousHoldingRatio": 6.32,
+      "holdingChange": 1.31,
+      "purpose": "純投資及び状況に応じて重要提案行為等を行うこともありうる。",
+      "importantProposal": true,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 40,
+      "signalReasons": [
+        "1pt以上買い増し",
+        "重要提案行為あり"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 4.39,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z38R",
       "ticker": "7220.T",
@@ -33,7 +64,7 @@
         "return1d": 6.1,
         "return5d": 10.1,
         "return20d": -13.25,
-        "returnCurrent": -19.21,
+        "returnCurrent": -22.33,
         "volumeRatio": 1.53,
         "marketExcessReturn": 8.2
       }
@@ -65,7 +96,7 @@
         "return1d": 6.18,
         "return5d": -0.59,
         "return20d": -18.35,
-        "returnCurrent": -33.42,
+        "returnCurrent": -35.99,
         "volumeRatio": 0.53,
         "marketExcessReturn": 1.8
       }
@@ -96,7 +127,7 @@
         "return1d": -10.12,
         "return5d": -12.71,
         "return20d": -7.39,
-        "returnCurrent": -41.28,
+        "returnCurrent": -43.55,
         "volumeRatio": 0.46,
         "marketExcessReturn": -11.33
       }
@@ -127,7 +158,7 @@
         "return1d": -1.52,
         "return5d": -13.26,
         "return20d": -32.17,
-        "returnCurrent": -50.79,
+        "returnCurrent": -52.69,
         "volumeRatio": 0.52,
         "marketExcessReturn": -11.4
       }
@@ -158,7 +189,7 @@
         "return1d": -1.52,
         "return5d": -13.26,
         "return20d": -32.17,
-        "returnCurrent": -50.79,
+        "returnCurrent": -52.69,
         "volumeRatio": 0.52,
         "marketExcessReturn": -11.4
       }
@@ -188,7 +219,7 @@
         "return1d": 8.73,
         "return5d": -10.3,
         "return20d": -32.14,
-        "returnCurrent": -49.3,
+        "returnCurrent": -51.26,
         "volumeRatio": 0.57,
         "marketExcessReturn": -7.55
       }
@@ -4111,9 +4142,19 @@
       "open": 1980.0,
       "high": 2098.0,
       "low": 1942.0,
-      "close": null,
-      "adj_close": null,
+      "close": 2071.0,
+      "adj_close": 2071.0,
       "volume": 1763800
+    },
+    {
+      "ticker": "7220.T",
+      "trade_date": "2026-11-09",
+      "open": 2096.0,
+      "high": 2208.0,
+      "low": 2054.0,
+      "close": 2162.0,
+      "adj_close": 2162.0,
+      "volume": 691200
     }
   ],
   "benchmark": [
@@ -8113,9 +8154,19 @@
       "open": 392.20001220703125,
       "high": 396.29998779296875,
       "low": 387.29998779296875,
-      "close": null,
-      "adj_close": null,
+      "close": 388.6000061035156,
+      "adj_close": 388.6000061035156,
       "volume": 70111050
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-09",
+      "open": 396.6000061035156,
+      "high": 403.70001220703125,
+      "low": 394.79998779296875,
+      "close": 402.1000061035156,
+      "adj_close": 402.1000061035156,
+      "volume": 30123360
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

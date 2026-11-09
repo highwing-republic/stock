@@ -1,0 +1,113 @@
+{
+ "company": {
+  "name": "エスペック",
+  "securityCode": "6859",
+  "tradingViewSymbol": "TSE:6859"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "6859-2026-11-06",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-11-06",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-11-06",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": 3.8,
+   "d20": -7.8,
+   "d5": -5.6,
+   "eventId": "edinet:S100YR18",
+   "excess5": -4.3
+  },
+  {
+   "d1": -4.7,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z9O7",
+   "excess5": null
+  },
+  {
+   "d1": -4.7,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100Z9SQ",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-11-06",
+  "buyBalance": 39500,
+  "buyChangePct": -19.6,
+  "labels": [
+   "信用買残減少",
+   "信用倍率改善"
+  ],
+  "ratio": 1.2,
+  "sellBalance": 32800,
+  "sellChangePct": -2.7
+ },
+ "pastEpisodes": [
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-07-30",
+   "id": "6859-2026-07-22",
+   "setupType": "TREND",
+   "startedAt": "2026-07-22"
+  }
+ ],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-11-09",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.25,
+  "labels": [],
+  "ma20": 4287.8,
+  "ma200": 3775.0,
+  "ma60": 4088.3,
+  "rangePos60": 0.18,
+  "rel20": -11.5,
+  "rel60": -6.8,
+  "volumeRatio20": 0.82
+ },
+ "reasons": [
+  "新規大量保有 6.9%（杉山　友紀）",
+  "信用買残 -20%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-07-22",
+   "detail": "保有割合 5.04%（三井住友トラスト・アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YR18"
+  },
+  {
+   "date": "2026-11-06",
+   "detail": "7.04% → 0%（森川　智）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9SQ"
+  },
+  {
+   "date": "2026-11-06",
+   "detail": "保有割合 6.89%（杉山　友紀）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9O7"
+  }
+ ],
+ "updatedAt": "2026-11-09T16:09:11+09:00"
+}

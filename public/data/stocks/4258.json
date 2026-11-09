@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-11-07T01:44:47+09:00",
+  "updatedAt": "2026-11-09T16:08:07+09:00",
   "company": {
     "securityCode": "4258",
     "ticker": "4258.T",
     "name": "株式会社網屋"
   },
   "events": [
+    {
+      "docId": "S100ZCKN",
+      "ticker": "4258.T",
+      "securityCode": "4258",
+      "companyName": "株式会社網屋",
+      "submitDatetime": "2026-11-09 10:46",
+      "filerName": "アセットマネジメントＯｎｅ株式会社",
+      "reportType": "change",
+      "holdingRatio": 5.15,
+      "previousHoldingRatio": 6.41,
+      "holdingChange": -1.26,
+      "purpose": "・投資信託または投資一任契約に基づき投資権限を有するもの",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 3.18,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YZWD",
       "ticker": "4258.T",
@@ -32,7 +62,7 @@
         "return1d": 7.4,
         "return5d": 16.71,
         "return20d": 44.63,
-        "returnCurrent": 30.31,
+        "returnCurrent": 31.5,
         "volumeRatio": 1.28,
         "marketExcessReturn": 18.47
       }
@@ -63,7 +93,7 @@
         "return1d": -2.55,
         "return5d": 2.78,
         "return20d": 8.47,
-        "returnCurrent": 26.68,
+        "returnCurrent": 27.84,
         "volumeRatio": 0.54,
         "marketExcessReturn": 3.59
       }
@@ -94,7 +124,7 @@
         "return1d": 3.44,
         "return5d": 9.38,
         "return20d": 34.69,
-        "returnCurrent": 70.62,
+        "returnCurrent": 72.19,
         "volumeRatio": 0.55,
         "marketExcessReturn": 11.24
       }
@@ -3107,9 +3137,19 @@
       "open": 4960.0,
       "high": 5430.0,
       "low": 4960.0,
-      "close": null,
-      "adj_close": null,
+      "close": 5340.0,
+      "adj_close": 5340.0,
       "volume": 255700
+    },
+    {
+      "ticker": "4258.T",
+      "trade_date": "2026-11-09",
+      "open": 5250.0,
+      "high": 5550.0,
+      "low": 5050.0,
+      "close": 5510.0,
+      "adj_close": 5510.0,
+      "volume": 159700
     }
   ],
   "benchmark": [
@@ -7109,9 +7149,19 @@
       "open": 392.20001220703125,
       "high": 396.29998779296875,
       "low": 387.29998779296875,
-      "close": null,
-      "adj_close": null,
+      "close": 388.6000061035156,
+      "adj_close": 388.6000061035156,
       "volume": 70111050
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-09",
+      "open": 396.6000061035156,
+      "high": 403.70001220703125,
+      "low": 394.79998779296875,
+      "close": 402.1000061035156,
+      "adj_close": 402.1000061035156,
+      "volume": 30123360
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"
