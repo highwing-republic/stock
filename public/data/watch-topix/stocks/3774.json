@@ -14,7 +14,7 @@
    "TREND"
   ],
   "startedAt": "2026-11-06",
-  "status": "CONFIRMED",
+  "status": "WATCH",
   "statusHistory": [
    {
     "date": "2026-11-06",
@@ -27,12 +27,6 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
-   },
-   {
-    "date": "2026-11-09",
-    "from": "WATCH",
-    "reason_code": "NEW_HIGH60_VOLUME",
-    "to": "CONFIRMED"
    }
   ],
   "watchStartedAt": "2026-11-06"
@@ -81,54 +75,54 @@
   }
  ],
  "performance": {
-  "benchReturn": 3.5,
-  "currentPrice": 3843.0,
+  "benchReturn": 0.0,
+  "currentPrice": 3607.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 19,
+   "pendingDays": 20,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 4,
+   "pendingDays": 5,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 59,
+   "pendingDays": 60,
    "stockReturn": null
   },
-  "excessReturn": 3.0,
+  "excessReturn": 0.0,
   "initialDate": "2026-11-06",
   "initialPrice": 3607.0,
-  "stockReturn": 6.5
+  "stockReturn": 0.0
  },
  "priceSetup": {
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-06",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.01,
+  "distFrom52wHigh": 0.03,
   "labels": [
    "20日線の上",
-   "60日レンジ上位7%",
+   "60日レンジ上位21%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 3549.6,
-  "ma200": 2989.9,
-  "ma60": 3438.2,
-  "rangePos60": 0.93,
-  "rel20": 13.6,
-  "rel60": 11.9,
-  "volumeRatio20": 1.75
+  "ma20": 3536.6,
+  "ma200": 2984.0,
+  "ma60": 3434.3,
+  "rangePos60": 0.79,
+  "rel20": 14.1,
+  "rel60": 11.6,
+  "volumeRatio20": 2.24
  },
  "reasons": [
   "新規大量保有 5.3%（野村證券株式会社）",
-  "出来高 1.7倍で60日高値更新",
-  "60日レンジ上位7%",
-  "20日線上向き"
+  "60日レンジ上位21%",
+  "20日線を回復",
+  "TOPIX連動ETF比 +14.1pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -173,21 +167,7 @@
    "kind": "STATUS",
    "label": "WATCH",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-11-09",
-   "detail": "60日高値を更新",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-09",
-   "detail": "60日高値を出来高増で更新",
-   "kind": "STATUS",
-   "label": "CONFIRMED",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-09T21:11:38+09:00"
+ "updatedAt": "2026-11-10T01:53:15+09:00"
 }

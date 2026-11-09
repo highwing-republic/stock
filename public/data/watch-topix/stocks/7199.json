@@ -10,10 +10,7 @@
   "id": "7199-2026-10-29",
   "overextended": false,
   "setupType": "TREND",
-  "setups": [
-   "TREND",
-   "RECOVERY"
-  ],
+  "setups": [],
   "startedAt": "2026-10-29",
   "status": "CONFIRMED",
   "statusHistory": [
@@ -72,12 +69,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -4.6,
-  "currentPrice": 2206.0,
+  "benchReturn": -7.8,
+  "currentPrice": 2180.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 14,
+   "pendingDays": 15,
    "stockReturn": null
   },
   "d5": {
@@ -89,36 +86,34 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 54,
+   "pendingDays": 55,
    "stockReturn": null
   },
-  "excessReturn": 2.6,
+  "excessReturn": 4.6,
   "initialDate": "2026-10-29",
   "initialPrice": 2251.0,
-  "stockReturn": -2.0
+  "stockReturn": -3.2
  },
  "priceSetup": {
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-06",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.05,
+  "distFrom52wHigh": 0.06,
   "labels": [
-   "20日線の上",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2186.9,
-  "ma200": 1941.6,
-  "ma60": 2115.2,
-  "rangePos60": 0.65,
-  "rel20": 10.9,
-  "rel60": 10.6,
-  "volumeRatio20": 0.98
+  "ma20": 2182.2,
+  "ma200": 1940.1,
+  "ma60": 2113.4,
+  "rangePos60": 0.58,
+  "rel20": 13.3,
+  "rel60": 12.7,
+  "volumeRatio20": 1.35
  },
  "reasons": [
   "新規大量保有 5%（ダルトン　インベストメンツ　インク）",
-  "20日線を回復",
-  "TOPIX連動ETF比 +10.9pt（20日）",
-  "52週高値まで5%"
+  "TOPIX連動ETF比 +13.3pt（20日）",
+  "52週高値まで6%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -198,21 +193,7 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-11-09",
-   "detail": "なし → TREND",
-   "kind": "SETUP",
-   "label": "Price Setup改善",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-09",
-   "detail": "20日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-09T21:11:38+09:00"
+ "updatedAt": "2026-11-10T01:53:15+09:00"
 }

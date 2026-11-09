@@ -85,7 +85,7 @@
   },
   {
    "d1": 0.2,
-   "d20": 2.5,
+   "d20": null,
    "d5": 3.2,
    "eventId": "edinet:S100Z6KF",
    "excess5": 3.5
@@ -116,10 +116,10 @@
   "benchReturn": -3.8,
   "currentPrice": 1820.0,
   "d20": {
-   "benchReturn": -6.4,
-   "excessReturn": 8.9,
-   "pendingDays": 0,
-   "stockReturn": 2.5
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 1,
+   "stockReturn": null
   },
   "d5": {
    "benchReturn": -0.3,
@@ -130,7 +130,7 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 40,
+   "pendingDays": 41,
    "stockReturn": null
   },
   "excessReturn": 2.1,
@@ -139,28 +139,26 @@
   "stockReturn": -1.7
  },
  "priceSetup": {
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-06",
   "atrState": "通常",
-  "distFrom52wHigh": 0.3,
+  "distFrom52wHigh": 0.33,
   "labels": [
-   "20日線の上",
-   "60日レンジ上位14%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 1879.6,
-  "ma200": 1707.4,
-  "ma60": 1791.3,
-  "rangePos60": 0.86,
-  "rel20": 8.9,
-  "rel60": 29.5,
-  "volumeRatio20": 0.87
+  "ma20": 1877.2,
+  "ma200": 1708.5,
+  "ma60": 1785.1,
+  "rangePos60": 0.7,
+  "rel20": 9.0,
+  "rel60": 6.4,
+  "volumeRatio20": 1.79
  },
  "reasons": [
   "1pt買い増し 8.5%→9.5%",
   "30日以内に2回買い増し",
-  "60日レンジ上位14%",
-  "20日線を回復"
+  "TOPIX連動ETF比 +9pt（20日）",
+  "信用買残 -13%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -296,14 +294,7 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-11-09",
-   "detail": "20日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-09T21:10:36+09:00"
+ "updatedAt": "2026-11-10T01:52:24+09:00"
 }

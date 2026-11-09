@@ -107,7 +107,7 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 32,
+   "pendingDays": 33,
    "stockReturn": null
   },
   "excessReturn": 5.6,
@@ -116,28 +116,25 @@
   "stockReturn": 2.1
  },
  "priceSetup": {
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-06",
   "atrState": "通常",
-  "distFrom52wHigh": 0.11,
+  "distFrom52wHigh": 0.15,
   "labels": [
-   "20日線の上",
-   "60日レンジ上位15%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 4102.4,
-  "ma200": 3927.3,
-  "ma60": 3893.4,
-  "rangePos60": 0.85,
-  "rel20": 12.3,
-  "rel60": 22.9,
-  "volumeRatio20": 0.83
+  "ma20": 4090.6,
+  "ma200": 3927.9,
+  "ma60": 3882.9,
+  "rangePos60": 0.65,
+  "rel20": 12.0,
+  "rel60": 5.0,
+  "volumeRatio20": 1.49
  },
  "reasons": [
   "新規大量保有 5.1%（みずほ証券株式会社）",
-  "60日レンジ上位15%",
-  "20日線を回復",
-  "TOPIX連動ETF比 +12.3pt（20日）"
+  "TOPIX連動ETF比 +12pt（20日）",
+  "信用買残 -20%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -301,21 +298,7 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-11-09",
-   "detail": "なし → RECOVERY",
-   "kind": "SETUP",
-   "label": "Price Setup改善",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-09",
-   "detail": "20日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-09T21:10:36+09:00"
+ "updatedAt": "2026-11-10T01:52:24+09:00"
 }

@@ -136,7 +136,7 @@
   },
   {
    "d1": 2.4,
-   "d20": 7.3,
+   "d20": null,
    "d5": 5.7,
    "eventId": "edinet:S100Z6W3",
    "excess5": 6.0
@@ -189,28 +189,25 @@
   "stockReturn": -14.3
  },
  "priceSetup": {
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-06",
   "atrState": "通常",
-  "distFrom52wHigh": 0.22,
+  "distFrom52wHigh": 0.24,
   "labels": [
-   "20日線の上",
-   "60日レンジ上位22%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2258.4,
-  "ma200": 2239.4,
-  "ma60": 2149.1,
-  "rangePos60": 0.78,
-  "rel20": 13.7,
-  "rel60": 7.9,
-  "volumeRatio20": 0.97
+  "ma20": 2250.6,
+  "ma200": 2239.6,
+  "ma60": 2148.1,
+  "rangePos60": 0.67,
+  "rel20": 17.1,
+  "rel60": 11.5,
+  "volumeRatio20": 1.66
  },
  "reasons": [
   "2.7pt買い増し 5.4%→8.1%",
-  "60日レンジ上位22%",
-  "20日線を回復",
-  "TOPIX連動ETF比 +13.7pt（20日）"
+  "TOPIX連動ETF比 +17.1pt（20日）",
+  "信用買残 -28%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -535,14 +532,7 @@
    "kind": "STATUS",
    "label": "CLOSED",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-11-09",
-   "detail": "20日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-09T21:11:38+09:00"
+ "updatedAt": "2026-11-10T01:53:15+09:00"
 }
