@@ -9,27 +9,19 @@
   "closedAt": null,
   "id": "9509-2026-11-06",
   "overextended": false,
-  "setupType": "RECOVERY",
-  "setups": [
-   "RECOVERY"
-  ],
+  "setupType": null,
+  "setups": [],
   "startedAt": "2026-11-06",
-  "status": "WATCH",
+  "status": "CANDIDATE",
   "statusHistory": [
    {
     "date": "2026-11-06",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
-   },
-   {
-    "date": "2026-11-10",
-    "from": "CANDIDATE",
-    "reason_code": "SETUP_OK",
-    "to": "WATCH"
    }
   ],
-  "watchStartedAt": "2026-11-10"
+  "watchStartedAt": null
  },
  "eventReactions": [
   {
@@ -80,55 +72,26 @@
   "sellChangePct": -0.7
  },
  "pastEpisodes": [],
- "performance": {
-  "benchReturn": 0.0,
-  "currentPrice": 1109.5,
-  "d20": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 20,
-   "stockReturn": null
-  },
-  "d5": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 5,
-   "stockReturn": null
-  },
-  "d60": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 60,
-   "stockReturn": null
-  },
-  "excessReturn": 0.0,
-  "initialDate": "2026-11-10",
-  "initialPrice": 1109.5,
-  "stockReturn": 0.0
- },
+ "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-10",
+  "asOf": "2026-11-09",
   "atrState": "通常",
-  "distFrom52wHigh": 0.12,
+  "distFrom52wHigh": 0.13,
   "labels": [
-   "20日線の上",
-   "60日レンジ上位30%",
-   "20日線が上向き",
-   "60日線の上"
+   "20日線が上向き"
   ],
-  "ma20": 1093.7,
-  "ma200": 1032.4,
-  "ma60": 1090.7,
-  "rangePos60": 0.7,
-  "rel20": 6.0,
-  "rel60": 12.8,
-  "volumeRatio20": 1.14
+  "ma20": 1093.2,
+  "ma200": 1032.5,
+  "ma60": 1089.2,
+  "rangePos60": 0.57,
+  "rel20": 6.6,
+  "rel60": 13.5,
+  "volumeRatio20": 0.92
  },
  "reasons": [
   "新規大量保有 5.1%（ブラックロック・ジャパン株式会社）",
-  "60日レンジ上位30%",
-  "20日線を回復",
-  "TOPIX連動ETF比 +6pt（20日）"
+  "TOPIX連動ETF比 +6.6pt（20日）",
+  "信用買残 -10%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -166,35 +129,7 @@
    "kind": "EVENT",
    "label": "新規大量保有",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBQW"
-  },
-  {
-   "date": "2026-11-10",
-   "detail": "なし → RECOVERY",
-   "kind": "SETUP",
-   "label": "Price Setup改善",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-10",
-   "detail": "20日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-10",
-   "detail": "60日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-10",
-   "detail": "Price Setupが成立",
-   "kind": "STATUS",
-   "label": "WATCH",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-10T20:46:07+09:00"
+ "updatedAt": "2026-11-11T00:15:36+09:00"
 }

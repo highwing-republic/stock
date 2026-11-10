@@ -10,10 +10,7 @@
   "id": "4613-2026-09-25",
   "overextended": false,
   "setupType": "TREND",
-  "setups": [
-   "TREND",
-   "RECOVERY"
-  ],
+  "setups": [],
   "startedAt": "2026-09-25",
   "status": "REACTED",
   "statusHistory": [
@@ -85,13 +82,6 @@
    "d5": -0.7,
    "eventId": "edinet:S100Z961",
    "excess5": 0.6
-  },
-  {
-   "d1": 2.7,
-   "d20": null,
-   "d5": null,
-   "eventId": "edinet:S100ZD3F",
-   "excess5": null
   }
  ],
  "margin": {
@@ -116,8 +106,8 @@
   }
  ],
  "performance": {
-  "benchReturn": -4.6,
-  "currentPrice": 3000.0,
+  "benchReturn": -6.6,
+  "currentPrice": 2920.5,
   "d20": {
    "benchReturn": -2.8,
    "excessReturn": 7.5,
@@ -133,37 +123,35 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 30,
+   "pendingDays": 31,
    "stockReturn": null
   },
-  "excessReturn": 11.4,
+  "excessReturn": 10.6,
   "initialDate": "2026-09-25",
   "initialPrice": 2808.8,
-  "stockReturn": 6.8
+  "stockReturn": 4.0
  },
  "priceSetup": {
-  "asOf": "2026-11-10",
-  "atrState": "高ボラ",
-  "distFrom52wHigh": 0.02,
+  "asOf": "2026-11-09",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.05,
   "labels": [
-   "20日線の上",
-   "60日レンジ上位19%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2932.1,
-  "ma200": 2592.8,
-  "ma60": 2850.5,
-  "rangePos60": 0.81,
-  "rel20": 9.4,
-  "rel60": 5.1,
-  "volumeRatio20": 1.73
+  "ma20": 2925.9,
+  "ma200": 2589.9,
+  "ma60": 2850.0,
+  "rangePos60": 0.59,
+  "rel20": 9.2,
+  "rel60": 8.2,
+  "volumeRatio20": 2.93
  },
  "reasons": [
   "新規大量保有 5.1%（キャピタル・リサーチ・アンド・マネージメント・カンパニー）",
-  "60日レンジ上位19%",
-  "20日線を回復",
-  "TOPIX連動ETF比 +9.4pt（20日）"
+  "TOPIX連動ETF比 +9.2pt（20日）",
+  "52週高値まで5%",
+  "信用買残 -21%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -383,21 +371,7 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-11-10",
-   "detail": "なし → TREND",
-   "kind": "SETUP",
-   "label": "Price Setup改善",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-10",
-   "detail": "20日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-10T20:47:09+09:00"
+ "updatedAt": "2026-11-11T00:16:37+09:00"
 }

@@ -12,7 +12,7 @@
   "setupType": "RECOVERY",
   "setups": [],
   "startedAt": "2026-10-06",
-  "status": "BROKEN",
+  "status": "WATCH",
   "statusHistory": [
    {
     "date": "2026-10-06",
@@ -25,12 +25,6 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
-   },
-   {
-    "date": "2026-11-10",
-    "from": "WATCH",
-    "reason_code": "BELOW_MA20",
-    "to": "BROKEN"
    }
   ],
   "watchStartedAt": "2026-11-02"
@@ -133,50 +127,50 @@
   }
  ],
  "performance": {
-  "benchReturn": -0.6,
-  "currentPrice": 2126.0,
+  "benchReturn": -2.6,
+  "currentPrice": 2138.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 15,
+   "pendingDays": 16,
    "stockReturn": null
   },
   "d5": {
-   "benchReturn": -0.6,
-   "excessReturn": -0.6,
-   "pendingDays": 0,
-   "stockReturn": -1.2
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 1,
+   "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 55,
+   "pendingDays": 56,
    "stockReturn": null
   },
-  "excessReturn": -0.6,
+  "excessReturn": 1.9,
   "initialDate": "2026-11-02",
   "initialPrice": 2152.0,
-  "stockReturn": -1.2
+  "stockReturn": -0.7
  },
  "priceSetup": {
-  "asOf": "2026-11-10",
+  "asOf": "2026-11-09",
   "atrState": "通常",
   "distFrom52wHigh": 0.09,
   "labels": [
    "20日線が上向き"
   ],
-  "ma20": 2145.2,
-  "ma200": 2024.8,
-  "ma60": 2139.1,
-  "rangePos60": 0.35,
-  "rel20": 6.3,
-  "rel60": 2.8,
-  "volumeRatio20": 1.38
+  "ma20": 2143.9,
+  "ma200": 2023.0,
+  "ma60": 2139.5,
+  "rangePos60": 0.48,
+  "rel20": 9.6,
+  "rel60": 2.5,
+  "volumeRatio20": 1.52
  },
  "reasons": [
   "0.1pt買い増し 9.4%→9.5%",
   "30日以内に2回買い増し",
-  "TOPIX連動ETF比 +6.3pt（20日）",
+  "TOPIX連動ETF比 +9.6pt（20日）",
   "52週高値まで9%"
  ],
  "schemaVersion": 1,
@@ -327,14 +321,7 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-11-10",
-   "detail": "20日線を連続で下回った",
-   "kind": "STATUS",
-   "label": "BROKEN",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-10T20:47:09+09:00"
+ "updatedAt": "2026-11-11T00:16:37+09:00"
 }

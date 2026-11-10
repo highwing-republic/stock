@@ -5,26 +5,20 @@
   "tradingViewSymbol": "TSE:5838"
  },
  "episode": {
-  "closeReason": "NO_SETUP",
-  "closedAt": "2026-11-10",
+  "closeReason": null,
+  "closedAt": null,
   "id": "5838-2026-10-05",
   "overextended": false,
   "setupType": null,
   "setups": [],
   "startedAt": "2026-10-05",
-  "status": "CLOSED",
+  "status": "CANDIDATE",
   "statusHistory": [
    {
     "date": "2026-10-05",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
-   },
-   {
-    "date": "2026-11-10",
-    "from": "CANDIDATE",
-    "reason_code": "NO_SETUP",
-    "to": "CLOSED"
    }
   ],
   "watchStartedAt": null
@@ -87,24 +81,24 @@
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-10",
+  "asOf": "2026-11-09",
   "atrState": "通常",
-  "distFrom52wHigh": 0.32,
+  "distFrom52wHigh": 0.34,
   "labels": [
-   "20日線の上",
-   "60日線の上"
+   "20日線の上"
   ],
-  "ma20": 5957.1,
-  "ma200": 6156.9,
-  "ma60": 6184.4,
-  "rangePos60": 0.68,
-  "rel20": 8.6,
-  "rel60": 15.6,
-  "volumeRatio20": 0.88
+  "ma20": 5946.4,
+  "ma200": 6159.7,
+  "ma60": 6173.6,
+  "rangePos60": 0.51,
+  "rel20": 5.1,
+  "rel60": 11.3,
+  "volumeRatio20": 1.05
  },
  "reasons": [
   "新規大量保有 6.5%（株式会社みずほ銀行）",
-  "TOPIX連動ETF比 +8.6pt（20日）",
+  "20日線を回復",
+  "TOPIX連動ETF比 +5.1pt（20日）",
   "信用買残 -9%"
  ],
  "schemaVersion": 1,
@@ -192,21 +186,7 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-11-10",
-   "detail": "60日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-10",
-   "detail": "期限内にPrice Setupが成立しなかった",
-   "kind": "STATUS",
-   "label": "CLOSED",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-10T20:46:07+09:00"
+ "updatedAt": "2026-11-11T00:15:36+09:00"
 }
