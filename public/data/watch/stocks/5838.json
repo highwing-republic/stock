@@ -5,20 +5,26 @@
   "tradingViewSymbol": "TSE:5838"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "NO_SETUP",
+  "closedAt": "2026-11-10",
   "id": "5838-2026-10-05",
   "overextended": false,
   "setupType": null,
   "setups": [],
   "startedAt": "2026-10-05",
-  "status": "CANDIDATE",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-10-05",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-11-10",
+    "from": "CANDIDATE",
+    "reason_code": "NO_SETUP",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": null
@@ -54,7 +60,7 @@
   },
   {
    "d1": -1.7,
-   "d20": null,
+   "d20": -1.3,
    "d5": -3.3,
    "eventId": "edinet:S100Z743",
    "excess5": -3.0
@@ -68,35 +74,38 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-06",
-  "buyBalance": 1669100,
-  "buyChangePct": -5.2,
+  "asOf": "2026-11-09",
+  "buyBalance": 1626700,
+  "buyChangePct": -9.1,
   "labels": [
    "信用倍率改善"
   ],
-  "ratio": 40.32,
-  "sellBalance": 41400,
-  "sellChangePct": 7.8
+  "ratio": 31.16,
+  "sellBalance": 52200,
+  "sellChangePct": 15.0
  },
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-06",
+  "asOf": "2026-11-10",
   "atrState": "通常",
-  "distFrom52wHigh": 0.38,
-  "labels": [],
-  "ma20": 5950.4,
-  "ma200": 6163.5,
-  "ma60": 6167.9,
-  "rangePos60": 0.21,
-  "rel20": 0.2,
-  "rel60": 12.5,
-  "volumeRatio20": 1.56
+  "distFrom52wHigh": 0.32,
+  "labels": [
+   "20日線の上",
+   "60日線の上"
+  ],
+  "ma20": 5957.1,
+  "ma200": 6156.9,
+  "ma60": 6184.4,
+  "rangePos60": 0.68,
+  "rel20": 8.6,
+  "rel60": 15.6,
+  "volumeRatio20": 0.88
  },
  "reasons": [
   "新規大量保有 6.5%（株式会社みずほ銀行）",
-  "TOPIX連動ETF比 +0.2pt（20日）",
-  "信用買残 -5%"
+  "TOPIX連動ETF比 +8.6pt（20日）",
+  "信用買残 -9%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -176,7 +185,28 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-10",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-10",
+   "detail": "期限内にPrice Setupが成立しなかった",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-10T01:52:24+09:00"
+ "updatedAt": "2026-11-10T16:43:04+09:00"
 }

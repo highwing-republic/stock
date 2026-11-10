@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T04:36:40+09:00",
+  "updatedAt": "2026-11-10T16:42:51+09:00",
   "company": {
     "securityCode": "2229",
     "ticker": "2229.T",
@@ -20,7 +20,7 @@
       "purpose": "証券業務に係る商品在庫、及び累積投資業務の運営目的として保有している。 / 証券業務に係わる商品在庫として保有している。 / 信託財産の運用として保有している。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 1.44,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [
@@ -28,11 +28,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": -0.55,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -3.07,
-        "volumeRatio": null,
+        "returnCurrent": -2.5,
+        "volumeRatio": 1.44,
         "marketExcessReturn": null
       }
     },
@@ -59,7 +59,7 @@
         "return1d": 0.7,
         "return5d": 2.42,
         "return20d": 8.92,
-        "returnCurrent": 5.57,
+        "returnCurrent": 6.2,
         "volumeRatio": 0.81,
         "marketExcessReturn": 3.57
       }
@@ -90,7 +90,7 @@
         "return1d": 1.06,
         "return5d": -0.79,
         "return20d": 4.92,
-        "returnCurrent": 5.19,
+        "returnCurrent": 5.81,
         "volumeRatio": 1.49,
         "marketExcessReturn": -2.69
       }
@@ -4103,9 +4103,19 @@
       "open": 3266.0,
       "high": 3290.0,
       "low": 3206.0,
-      "close": null,
-      "adj_close": null,
+      "close": 3267.0,
+      "adj_close": 3267.0,
       "volume": 614800
+    },
+    {
+      "ticker": "2229.T",
+      "trade_date": "2026-11-10",
+      "open": 3240.0,
+      "high": 3246.0,
+      "low": 3176.0,
+      "close": 3203.0,
+      "adj_close": 3203.0,
+      "volume": 365900
     }
   ],
   "benchmark": [
@@ -8118,6 +8128,16 @@
       "close": 402.1000061035156,
       "adj_close": 402.1000061035156,
       "volume": 30123360
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-10",
+      "open": 410.1000061035156,
+      "high": 411.79998779296875,
+      "low": 407.29998779296875,
+      "close": 410.5,
+      "adj_close": 410.5,
+      "volume": 18734020
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

@@ -9,19 +9,33 @@
   "closedAt": null,
   "id": "2734-2026-11-06",
   "overextended": false,
-  "setupType": null,
-  "setups": [],
+  "setupType": "RECOVERY",
+  "setups": [
+   "RECOVERY"
+  ],
   "startedAt": "2026-11-06",
-  "status": "CANDIDATE",
+  "status": "BROKEN",
   "statusHistory": [
    {
     "date": "2026-11-06",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-11-09",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   },
+   {
+    "date": "2026-11-10",
+    "from": "WATCH",
+    "reason_code": "BELOW_MA60",
+    "to": "BROKEN"
    }
   ],
-  "watchStartedAt": null
+  "watchStartedAt": "2026-11-09"
  },
  "eventReactions": [
   {
@@ -33,39 +47,66 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-06",
-  "buyBalance": 35500,
-  "buyChangePct": -52.4,
+  "asOf": "2026-11-09",
+  "buyBalance": 33200,
+  "buyChangePct": -54.4,
   "labels": [
    "信用買残減少",
    "信用倍率改善",
    "売残増加"
   ],
-  "ratio": 0.45,
-  "sellBalance": 79600,
-  "sellChangePct": 79.7
+  "ratio": 0.31,
+  "sellBalance": 105700,
+  "sellChangePct": 97.6
  },
  "pastEpisodes": [],
- "performance": null,
+ "performance": {
+  "benchReturn": 2.1,
+  "currentPrice": 1135.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 19,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 4,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 59,
+   "stockReturn": null
+  },
+  "excessReturn": -2.8,
+  "initialDate": "2026-11-09",
+  "initialPrice": 1143.0,
+  "stockReturn": -0.7
+ },
  "priceSetup": {
-  "asOf": "2026-11-06",
+  "asOf": "2026-11-10",
   "atrState": "通常",
   "distFrom52wHigh": 0.1,
   "labels": [
-   "20日線の上"
+   "20日線の上",
+   "20日線が上向き"
   ],
-  "ma20": 1127.9,
-  "ma200": 1103.3,
-  "ma60": 1183.0,
-  "rangePos60": 0.25,
-  "rel20": 11.7,
-  "rel60": 7.1,
-  "volumeRatio20": 1.04
+  "ma20": 1132.2,
+  "ma200": 1104.3,
+  "ma60": 1182.3,
+  "rangePos60": 0.28,
+  "rel20": 8.3,
+  "rel60": 1.6,
+  "volumeRatio20": 0.75
  },
  "reasons": [
   "新規大量保有 5.1%（三井住友信託銀行株式会社）",
-  "TOPIX連動ETF比 +11.7pt（20日）",
-  "信用買残 -52%"
+  "20日線上向き",
+  "TOPIX連動ETF比 +8.3pt（20日）",
+  "52週高値まで10%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -75,7 +116,28 @@
    "kind": "EVENT",
    "label": "新規大量保有",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBAS"
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-10",
+   "detail": "60日線を下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-10T01:53:15+09:00"
+ "updatedAt": "2026-11-10T16:44:06+09:00"
 }

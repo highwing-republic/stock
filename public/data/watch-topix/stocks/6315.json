@@ -1,0 +1,132 @@
+{
+ "company": {
+  "name": "TOWA",
+  "securityCode": "6315",
+  "tradingViewSymbol": "TSE:6315"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "6315-2026-11-09",
+  "overextended": true,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-11-09",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-11-09",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": 4.4,
+   "d20": 16.9,
+   "d5": -4.3,
+   "eventId": "edinet:S100Z0FE",
+   "excess5": -2.5
+  },
+  {
+   "d1": 0.5,
+   "d20": -27.1,
+   "d5": -6.0,
+   "eventId": "edinet:S100Z6LT",
+   "excess5": -3.9
+  },
+  {
+   "d1": 17.7,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZDAE",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-11-09",
+  "buyBalance": 3669700,
+  "buyChangePct": -15.2,
+  "labels": [
+   "信用買残減少",
+   "信用倍率改善",
+   "売残増加"
+  ],
+  "ratio": 7.59,
+  "sellBalance": 483500,
+  "sellChangePct": 335.2
+ },
+ "pastEpisodes": [
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-10-16",
+   "id": "6315-2026-09-07",
+   "setupType": "RECOVERY",
+   "startedAt": "2026-09-07"
+  }
+ ],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-11-10",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.39,
+  "labels": [
+   "20日線の上",
+   "60日線の上"
+  ],
+  "ma20": 2112.9,
+  "ma200": 2663.9,
+  "ma60": 2247.7,
+  "rangePos60": 0.61,
+  "rel20": -9.6,
+  "rel60": -7.0,
+  "volumeRatio20": 1.63
+ },
+ "reasons": [
+  "新規大量保有 5.9%（野村證券株式会社）",
+  "20日線を回復",
+  "信用買残 -15%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-09-07",
+   "detail": "保有割合 5.35%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z0FE"
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "5.35% → 4.32%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z6LT"
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "保有割合 5.88%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDAE"
+  },
+  {
+   "date": "2026-11-10",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-10",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-11-10T16:44:06+09:00"
+}

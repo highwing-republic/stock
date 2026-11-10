@@ -1,0 +1,150 @@
+{
+ "company": {
+  "name": "リンテック",
+  "securityCode": "7966",
+  "tradingViewSymbol": "TSE:7966"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "7966-2026-11-09",
+  "overextended": true,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-11-09",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-11-09",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": -0.9,
+   "d20": 6.8,
+   "d5": -4.1,
+   "eventId": "edinet:S100YYGS",
+   "excess5": -3.6
+  },
+  {
+   "d1": -6.8,
+   "d20": 6.8,
+   "d5": -4.2,
+   "eventId": "edinet:S100YZRV",
+   "excess5": -2.6
+  },
+  {
+   "d1": 0.7,
+   "d20": -7.8,
+   "d5": 4.9,
+   "eventId": "edinet:S100Z3N5",
+   "excess5": 2.6
+  },
+  {
+   "d1": -0.3,
+   "d20": -25.2,
+   "d5": -4.3,
+   "eventId": "edinet:S100Z6JA",
+   "excess5": -2.2
+  },
+  {
+   "d1": 11.7,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZD7A",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-11-09",
+  "buyBalance": 742800,
+  "buyChangePct": 28.7,
+  "labels": [
+   "信用買残急増",
+   "信用倍率悪化"
+  ],
+  "ratio": 8.38,
+  "sellBalance": 88600,
+  "sellChangePct": -1.7
+ },
+ "pastEpisodes": [
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-10-16",
+   "id": "7966-2026-09-25",
+   "setupType": "RECOVERY",
+   "startedAt": "2026-09-25"
+  }
+ ],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-11-10",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.26,
+  "labels": [
+   "20日線の上"
+  ],
+  "ma20": 5248.8,
+  "ma200": 5433.6,
+  "ma60": 5493.8,
+  "rangePos60": 0.63,
+  "rel20": -3.8,
+  "rel60": -6.8,
+  "volumeRatio20": 1.46
+ },
+ "reasons": [
+  "新規大量保有 5.5%（野村證券株式会社）",
+  "20日線を回復"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-08-28",
+   "detail": "28.12% → 20.54%（日本製紙株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YYGS"
+  },
+  {
+   "date": "2026-09-08",
+   "detail": "20.54% → 3.38%（日本製紙株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YZRV"
+  },
+  {
+   "date": "2026-09-25",
+   "detail": "保有割合 7.65%（株式会社みずほ銀行）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z3N5"
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "7.65% → 6.15%（株式会社みずほ銀行）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z6JA"
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "保有割合 5.48%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZD7A"
+  },
+  {
+   "date": "2026-11-10",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-11-10T16:44:06+09:00"
+}

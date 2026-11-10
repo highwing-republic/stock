@@ -53,15 +53,16 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-06",
-  "buyBalance": 728600,
-  "buyChangePct": -22.5,
+  "asOf": "2026-11-09",
+  "buyBalance": 694300,
+  "buyChangePct": -27.2,
   "labels": [
-   "信用買残減少"
+   "信用買残減少",
+   "信用倍率改善"
   ],
-  "ratio": 25.21,
-  "sellBalance": 28900,
-  "sellChangePct": -17.2
+  "ratio": 21.83,
+  "sellBalance": 31800,
+  "sellChangePct": -9.1
  },
  "pastEpisodes": [
   {
@@ -73,52 +74,53 @@
   }
  ],
  "performance": {
-  "benchReturn": -6.5,
-  "currentPrice": 2125.0,
+  "benchReturn": -1.2,
+  "currentPrice": 2194.5,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 19,
+   "pendingDays": 17,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 4,
+   "pendingDays": 2,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 59,
+   "pendingDays": 57,
    "stockReturn": null
   },
-  "excessReturn": 2.3,
+  "excessReturn": 0.2,
   "initialDate": "2026-11-05",
   "initialPrice": 2217.5,
-  "stockReturn": -4.2
+  "stockReturn": -1.0
  },
  "priceSetup": {
-  "asOf": "2026-11-06",
+  "asOf": "2026-11-10",
   "atrState": "通常",
-  "distFrom52wHigh": 0.24,
+  "distFrom52wHigh": 0.22,
   "labels": [
    "20日線の上",
-   "20日線が上向き"
+   "20日線が上向き",
+   "60日線の上"
   ],
-  "ma20": 2108.1,
-  "ma200": 2269.4,
-  "ma60": 2141.2,
-  "rangePos60": 0.43,
-  "rel20": 12.0,
-  "rel60": 3.5,
-  "volumeRatio20": 3.72
+  "ma20": 2113.5,
+  "ma200": 2266.0,
+  "ma60": 2138.5,
+  "rangePos60": 0.68,
+  "rel20": 8.8,
+  "rel60": 1.0,
+  "volumeRatio20": 1.47
  },
  "reasons": [
   "新規大量保有 5%（ウエリントン・マネージメント・ジャパン・ピーティーイー・リミテッド）",
   "20日線上向き",
-  "TOPIX連動ETF比 +12pt（20日）",
-  "信用買残 -22%"
+  "TOPIX連動ETF比 +8.8pt（20日）",
+  "信用買残 -27%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -177,7 +179,14 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-10T01:53:15+09:00"
+ "updatedAt": "2026-11-10T16:44:06+09:00"
 }

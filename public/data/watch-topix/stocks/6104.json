@@ -5,41 +5,23 @@
   "tradingViewSymbol": "TSE:6104"
  },
  "episode": {
-  "closeReason": "BROKEN",
-  "closedAt": "2026-11-05",
-  "id": "6104-2026-10-28",
+  "closeReason": null,
+  "closedAt": null,
+  "id": "6104-2026-11-09",
   "overextended": false,
-  "setupType": "TREND",
+  "setupType": null,
   "setups": [],
-  "startedAt": "2026-10-28",
-  "status": "CLOSED",
+  "startedAt": "2026-11-09",
+  "status": "CANDIDATE",
   "statusHistory": [
    {
-    "date": "2026-10-28",
+    "date": "2026-11-09",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
-   },
-   {
-    "date": "2026-10-28",
-    "from": "CANDIDATE",
-    "reason_code": "SETUP_OK",
-    "to": "WATCH"
-   },
-   {
-    "date": "2026-11-04",
-    "from": "WATCH",
-    "reason_code": "BELOW_MA20",
-    "to": "BROKEN"
-   },
-   {
-    "date": "2026-11-05",
-    "from": "BROKEN",
-    "reason_code": "BROKEN",
-    "to": "CLOSED"
    }
   ],
-  "watchStartedAt": "2026-10-28"
+  "watchStartedAt": null
  },
  "eventReactions": [
   {
@@ -111,16 +93,23 @@
    "d5": -5.0,
    "eventId": "edinet:S100Z9HK",
    "excess5": -3.4
+  },
+  {
+   "d1": 2.6,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZBEL",
+   "excess5": null
   }
  ],
  "margin": {
-  "asOf": "2026-11-06",
-  "buyBalance": 46700,
-  "buyChangePct": -2.1,
+  "asOf": "2026-11-09",
+  "buyBalance": 47100,
+  "buyChangePct": -2.7,
   "labels": [],
-  "ratio": 1.22,
-  "sellBalance": 38300,
-  "sellChangePct": 3.8
+  "ratio": 1.24,
+  "sellBalance": 38000,
+  "sellChangePct": 2.2
  },
  "pastEpisodes": [
   {
@@ -136,51 +125,33 @@
    "id": "6104-2026-09-17",
    "setupType": "TREND",
    "startedAt": "2026-09-17"
+  },
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-11-05",
+   "id": "6104-2026-10-28",
+   "setupType": "TREND",
+   "startedAt": "2026-10-28"
   }
  ],
- "performance": {
-  "benchReturn": -1.0,
-  "currentPrice": 4505.0,
-  "d20": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 14,
-   "stockReturn": null
-  },
-  "d5": {
-   "benchReturn": -1.0,
-   "excessReturn": -7.7,
-   "pendingDays": 0,
-   "stockReturn": -8.7
-  },
-  "d60": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 54,
-   "stockReturn": null
-  },
-  "excessReturn": -7.7,
-  "initialDate": "2026-10-28",
-  "initialPrice": 4935.0,
-  "stockReturn": -8.7
- },
+ "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-06",
-  "atrState": "高ボラ",
-  "distFrom52wHigh": 0.16,
+  "asOf": "2026-11-10",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.11,
   "labels": [],
-  "ma20": 4794.0,
-  "ma200": 4301.7,
-  "ma60": 4536.3,
-  "rangePos60": 0.27,
-  "rel20": -3.6,
-  "rel60": 14.0,
-  "volumeRatio20": 1.57
+  "ma20": 4752.5,
+  "ma200": 4303.6,
+  "ma60": 4549.4,
+  "rangePos60": 0.49,
+  "rel20": -3.1,
+  "rel60": 15.9,
+  "volumeRatio20": 0.85
  },
  "reasons": [
-  "1pt買い増し 11.3%→12.3%",
+  "1.4pt買い増し 12.3%→13.7%",
   "30日以内に2回買い増し",
-  "信用買残 -2%"
+  "信用買残 -3%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -255,48 +226,6 @@
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9HK"
   },
   {
-   "date": "2026-10-28",
-   "detail": "なし → TREND",
-   "kind": "SETUP",
-   "label": "Price Setup改善",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-10-28",
-   "detail": "20日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-10-28",
-   "detail": "Price Setupが成立",
-   "kind": "STATUS",
-   "label": "WATCH",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-10-30",
-   "detail": "TREND → なし",
-   "kind": "SETUP",
-   "label": "Price Setup解消",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-04",
-   "detail": "20日線を連続で下回った",
-   "kind": "STATUS",
-   "label": "BROKEN",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-05",
-   "detail": "Price Setupが崩れた",
-   "kind": "STATUS",
-   "label": "CLOSED",
-   "sourceUrl": null
-  },
-  {
    "date": "2026-11-06",
    "detail": "12.27% → 13.68%（Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．）",
    "kind": "EVENT",
@@ -304,5 +233,5 @@
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBEL"
   }
  ],
- "updatedAt": "2026-11-10T01:53:15+09:00"
+ "updatedAt": "2026-11-10T16:44:06+09:00"
 }

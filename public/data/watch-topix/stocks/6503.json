@@ -33,35 +33,40 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-06",
-  "buyBalance": 3479600,
-  "buyChangePct": -11.6,
+  "asOf": "2026-11-09",
+  "buyBalance": 3330800,
+  "buyChangePct": -12.9,
   "labels": [
    "信用買残減少",
-   "信用倍率改善"
+   "信用倍率改善",
+   "売残増加"
   ],
-  "ratio": 31.4,
-  "sellBalance": 110800,
-  "sellChangePct": 0.8
+  "ratio": 23.79,
+  "sellBalance": 140000,
+  "sellChangePct": 28.9
  },
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-06",
-  "atrState": "高ボラ",
-  "distFrom52wHigh": 0.32,
-  "labels": [],
-  "ma20": 4870.6,
-  "ma200": 5528.8,
-  "ma60": 5235.7,
-  "rangePos60": 0.09,
-  "rel20": -3.8,
-  "rel60": -14.7,
-  "volumeRatio20": 1.98
+  "asOf": "2026-11-10",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.26,
+  "labels": [
+   "20日線の上"
+  ],
+  "ma20": 4847.6,
+  "ma200": 5527.1,
+  "ma60": 5204.6,
+  "rangePos60": 0.31,
+  "rel20": 0.5,
+  "rel60": -11.5,
+  "volumeRatio20": 1.19
  },
  "reasons": [
   "1pt買い増し 7%→8.1%",
-  "信用買残 -12%"
+  "20日線を回復",
+  "TOPIX連動ETF比 +0.5pt（20日）",
+  "信用買残 -13%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -71,7 +76,21 @@
    "kind": "EVENT",
    "label": "大幅な買い増し",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8ZU"
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-10",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-10T01:53:15+09:00"
+ "updatedAt": "2026-11-10T16:44:06+09:00"
 }

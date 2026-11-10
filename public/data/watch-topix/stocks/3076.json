@@ -64,20 +64,20 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-06",
-  "buyBalance": 151600,
-  "buyChangePct": 1.9,
+  "asOf": "2026-11-09",
+  "buyBalance": 150000,
+  "buyChangePct": -0.2,
   "labels": [
    "信用倍率悪化"
   ],
-  "ratio": 8.33,
-  "sellBalance": 18200,
-  "sellChangePct": -31.1
+  "ratio": 8.52,
+  "sellBalance": 17600,
+  "sellChangePct": -36.5
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -11.8,
-  "currentPrice": 2948.0,
+  "benchReturn": -6.8,
+  "currentPrice": 3035.0,
   "d20": {
    "benchReturn": -5.6,
    "excessReturn": 7.8,
@@ -93,33 +93,35 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 39,
+   "pendingDays": 37,
    "stockReturn": null
   },
-  "excessReturn": 9.6,
+  "excessReturn": 7.5,
   "initialDate": "2026-10-06",
   "initialPrice": 3015.0,
-  "stockReturn": -2.2
+  "stockReturn": 0.7
  },
  "priceSetup": {
-  "asOf": "2026-11-06",
+  "asOf": "2026-11-10",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.08,
+  "distFrom52wHigh": 0.06,
   "labels": [
-   "20日線が上向き"
+   "20日線が上向き",
+   "60日線の上"
   ],
-  "ma20": 3059.3,
-  "ma200": 2797.4,
-  "ma60": 3000.9,
-  "rangePos60": 0.39,
-  "rel20": 9.8,
-  "rel60": 8.6,
-  "volumeRatio20": 2.12
+  "ma20": 3063.2,
+  "ma200": 2799.9,
+  "ma60": 3002.5,
+  "rangePos60": 0.58,
+  "rel20": 6.4,
+  "rel60": 6.3,
+  "volumeRatio20": 0.78
  },
  "reasons": [
   "新規大量保有 5%（株式会社三菱ＵＦＪフィナンシャル・グループ）",
-  "TOPIX連動ETF比 +9.8pt（20日）",
-  "52週高値まで8%"
+  "TOPIX連動ETF比 +6.4pt（20日）",
+  "52週高値まで6%",
+  "信用買残 -0%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -269,7 +271,14 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-10",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-10T01:53:15+09:00"
+ "updatedAt": "2026-11-10T16:44:06+09:00"
 }

@@ -9,8 +9,9 @@
   "closedAt": null,
   "id": "4565-2026-08-21",
   "overextended": true,
-  "setupType": "RECOVERY",
+  "setupType": "TREND",
   "setups": [
+   "TREND",
    "RECOVERY"
   ],
   "startedAt": "2026-08-21",
@@ -70,21 +71,30 @@
    "d5": -3.2,
    "eventId": "edinet:S100Z3GU",
    "excess5": -3.2
+  },
+  {
+   "d1": 7.4,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZCD5",
+   "excess5": null
   }
  ],
  "margin": {
-  "asOf": "2026-11-06",
-  "buyBalance": 9087600,
-  "buyChangePct": 7.5,
-  "labels": [],
-  "ratio": 68.48,
-  "sellBalance": 132700,
-  "sellChangePct": -9.9
+  "asOf": "2026-11-09",
+  "buyBalance": 9107600,
+  "buyChangePct": 8.6,
+  "labels": [
+   "信用倍率悪化"
+  ],
+  "ratio": 77.12,
+  "sellBalance": 118100,
+  "sellChangePct": -19.2
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -8.4,
-  "currentPrice": 1587.0,
+  "benchReturn": -3.2,
+  "currentPrice": 1796.0,
   "d20": {
    "benchReturn": 0.5,
    "excessReturn": 17.3,
@@ -100,37 +110,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 10,
+   "pendingDays": 8,
    "stockReturn": null
   },
-  "excessReturn": 52.3,
+  "excessReturn": 66.0,
   "initialDate": "2026-08-21",
   "initialPrice": 1103.0,
-  "stockReturn": 43.9
+  "stockReturn": 62.8
  },
  "priceSetup": {
-  "asOf": "2026-11-06",
+  "asOf": "2026-11-10",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.13,
+  "distFrom52wHigh": 0.02,
   "labels": [
    "20日線の上",
-   "60日レンジ上位24%",
+   "60日レンジ上位3%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 1354.3,
-  "ma200": 1031.1,
-  "ma60": 1227.2,
-  "rangePos60": 0.76,
-  "rel20": 37.4,
-  "rel60": 90.9,
-  "volumeRatio20": 2.73
+  "ma20": 1407.1,
+  "ma200": 1040.3,
+  "ma60": 1255.6,
+  "rangePos60": 0.97,
+  "rel20": 50.9,
+  "rel60": 98.0,
+  "volumeRatio20": 1.22
  },
  "reasons": [
   "新規大量保有 5.1%（ゴールドマン・サックス証券株式会社）",
-  "60日レンジ上位24%",
+  "60日レンジ上位3%",
   "20日線上向き",
-  "TOPIX連動ETF比 +37.4pt（20日）"
+  "TOPIX連動ETF比 +50.9pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -392,7 +402,14 @@
    "kind": "EVENT",
    "label": "新規大量保有",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCD5"
+  },
+  {
+   "date": "2026-11-10",
+   "detail": "RECOVERY → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-10T01:53:15+09:00"
+ "updatedAt": "2026-11-10T16:44:06+09:00"
 }

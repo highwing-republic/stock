@@ -27,41 +27,43 @@
   {
    "d1": 0.2,
    "d20": null,
-   "d5": null,
+   "d5": 1.6,
    "eventId": "edinet:S100ZAY1",
-   "excess5": null
+   "excess5": 2.2
   }
  ],
  "margin": {
-  "asOf": "2026-11-06",
-  "buyBalance": 112500,
-  "buyChangePct": -1.7,
+  "asOf": "2026-11-09",
+  "buyBalance": 138300,
+  "buyChangePct": 18.5,
   "labels": [
    "信用倍率悪化"
   ],
-  "ratio": 11.72,
-  "sellBalance": 9600,
-  "sellChangePct": -40.0
+  "ratio": 13.43,
+  "sellBalance": 10300,
+  "sellChangePct": -2.8
  },
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-06",
-  "atrState": "通常",
-  "distFrom52wHigh": 0.29,
-  "labels": [],
-  "ma20": 3318.4,
-  "ma200": 3648.9,
-  "ma60": 3438.0,
-  "rangePos60": 0.08,
-  "rel20": 0.6,
-  "rel60": -3.6,
-  "volumeRatio20": 1.33
+  "asOf": "2026-11-10",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.23,
+  "labels": [
+   "20日線の上"
+  ],
+  "ma20": 3308.2,
+  "ma200": 3644.6,
+  "ma60": 3431.8,
+  "rangePos60": 0.48,
+  "rel20": 4.4,
+  "rel60": 1.1,
+  "volumeRatio20": 1.16
  },
  "reasons": [
   "新規大量保有 5%（Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．）",
-  "TOPIX連動ETF比 +0.6pt（20日）",
-  "信用買残 -2%"
+  "20日線を回復",
+  "TOPIX連動ETF比 +4.4pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -78,7 +80,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-10",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-10T01:53:15+09:00"
+ "updatedAt": "2026-11-10T16:44:06+09:00"
 }

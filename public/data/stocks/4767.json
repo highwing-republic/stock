@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T04:36:40+09:00",
+  "updatedAt": "2026-11-10T16:42:51+09:00",
   "company": {
     "securityCode": "4767",
     "ticker": "4767.T",
@@ -20,7 +20,7 @@
       "purpose": "株式の追加取得または売却の可能性について：提出者として発行会社の株価が割安であると判断した場合、今後3ヶ月以内で5％超保有割合を増加する株式取得を行う可能性がある。当該増加は市場内外における取引を通じた取得を想定しており、買付時期・価格・数量について決まったものは無い。なお、発行会社の株価動向によっては、予定の通り取得が行われない可能性があり、または株式の売却を行う可能性もある。保有目的及び重要提案行為について：株主価値向上に資する、資本政策及びコーポレートガバナンス等に関する助言及び提案。提案の内容については、資本政策の変更（増配及び自己株式取得）に係るものを含む。提出者は、発行会社の株主価値の向上を目的として、発行会社との対話を通じ、上記について口頭又は書面により提案を行う可能性がある。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.97,
       "marketExcessReturn": null,
       "signalScore": 20,
       "signalReasons": [
@@ -28,11 +28,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": 0.79,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -1.84,
-        "volumeRatio": null,
+        "returnCurrent": 2.89,
+        "volumeRatio": 0.97,
         "marketExcessReturn": null
       }
     },
@@ -62,7 +62,7 @@
         "return1d": 2.65,
         "return5d": 2.91,
         "return20d": 5.82,
-        "returnCurrent": -1.06,
+        "returnCurrent": 3.7,
         "volumeRatio": 0.87,
         "marketExcessReturn": 1.69
       }
@@ -92,7 +92,7 @@
         "return1d": 5.53,
         "return5d": 3.42,
         "return20d": 3.16,
-        "returnCurrent": -1.58,
+        "returnCurrent": 3.16,
         "volumeRatio": 0.92,
         "marketExcessReturn": 0.55
       }
@@ -125,7 +125,7 @@
         "return1d": 4.03,
         "return5d": 3.76,
         "return20d": 2.15,
-        "returnCurrent": 0.54,
+        "returnCurrent": 5.38,
         "volumeRatio": 1.24,
         "marketExcessReturn": 5.87
       }
@@ -3148,9 +3148,19 @@
       "open": 378.0,
       "high": 386.0,
       "low": 377.0,
-      "close": null,
-      "adj_close": null,
+      "close": 384.0,
+      "adj_close": 384.0,
       "volume": 122400
+    },
+    {
+      "ticker": "4767.T",
+      "trade_date": "2026-11-10",
+      "open": 389.0,
+      "high": 394.0,
+      "low": 386.0,
+      "close": 392.0,
+      "adj_close": 392.0,
+      "volume": 125300
     }
   ],
   "benchmark": [
@@ -7163,6 +7173,16 @@
       "close": 402.1000061035156,
       "adj_close": 402.1000061035156,
       "volume": 30123360
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-10",
+      "open": 410.1000061035156,
+      "high": 411.79998779296875,
+      "low": 407.29998779296875,
+      "close": 410.5,
+      "adj_close": 410.5,
+      "volume": 18734020
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

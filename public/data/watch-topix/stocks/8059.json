@@ -1,0 +1,118 @@
+{
+ "company": {
+  "name": "第一実業",
+  "securityCode": "8059",
+  "tradingViewSymbol": "TSE:8059"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "8059-2026-11-09",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-11-09",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-11-09",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": -1.0,
+   "d20": 7.0,
+   "d5": -2.1,
+   "eventId": "edinet:S100YEG7",
+   "excess5": 0.1
+  },
+  {
+   "d1": 0.1,
+   "d20": 3.0,
+   "d5": 0.1,
+   "eventId": "edinet:S100YRUG",
+   "excess5": 1.4
+  },
+  {
+   "d1": 0.0,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZCJM",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-11-09",
+  "buyBalance": 18000,
+  "buyChangePct": 5.9,
+  "labels": [
+   "信用倍率悪化"
+  ],
+  "ratio": 1.1,
+  "sellBalance": 16300,
+  "sellChangePct": -32.1
+ },
+ "pastEpisodes": [
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-06-24",
+   "id": "8059-2026-06-22",
+   "setupType": "RECOVERY",
+   "startedAt": "2026-06-22"
+  },
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-09-11",
+   "id": "8059-2026-07-23",
+   "setupType": "BREAKOUT",
+   "startedAt": "2026-07-23"
+  }
+ ],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-11-10",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.14,
+  "labels": [],
+  "ma20": 3447.5,
+  "ma200": 3278.5,
+  "ma60": 3525.0,
+  "rangePos60": 0.27,
+  "rel20": -1.7,
+  "rel60": -1.9,
+  "volumeRatio20": 0.97
+ },
+ "reasons": [
+  "1.9pt買い増し 5.8%→7.7%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-06-22",
+   "detail": "保有割合 5.04%（ＳＭＢＣ日興証券株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEG7"
+  },
+  {
+   "date": "2026-07-23",
+   "detail": "5.04% → 6.3%（ＳＭＢＣ日興証券株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YRUG"
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "5.77% → 7.69%（株式会社みずほ銀行）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCJM"
+  }
+ ],
+ "updatedAt": "2026-11-10T16:44:06+09:00"
+}

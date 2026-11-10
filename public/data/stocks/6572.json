@@ -1,11 +1,42 @@
 {
-  "updatedAt": "2026-11-10T04:36:40+09:00",
+  "updatedAt": "2026-11-10T16:42:51+09:00",
   "company": {
     "securityCode": "6572",
     "ticker": "6572.T",
     "name": "オープングループ株式会社"
   },
   "events": [
+    {
+      "docId": "S100ZE32",
+      "ticker": "6572.T",
+      "securityCode": "6572",
+      "companyName": "オープングループ株式会社",
+      "submitDatetime": "2026-11-10 13:44",
+      "filerName": "髙橋　知道",
+      "reportType": "change",
+      "holdingRatio": 37.34,
+      "previousHoldingRatio": 37.46,
+      "holdingChange": -0.12,
+      "purpose": "発行会社の創業者、代表取締役であり、また経営の安定化を図るため保有しております。 / 発行会社の創業者、代表取締役である髙橋知道が出資持分を保有する資産管理会社として、経営の安定化を図るため保有しております。 / 発行会社の創業者、代表取締役である髙橋知道及びその親族が出資持分を保有する資産管理会社として、経営の安定化を図るため保有しております。",
+      "importantProposal": true,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "重要提案行為あり",
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 2.82,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YZY4",
       "ticker": "6572.T",
@@ -31,7 +62,7 @@
         "return1d": -8.08,
         "return5d": -8.42,
         "return20d": -14.48,
-        "returnCurrent": -31.31,
+        "returnCurrent": -26.26,
         "volumeRatio": 1.38,
         "marketExcessReturn": -5.81
       }
@@ -61,7 +92,7 @@
         "return1d": -4.35,
         "return5d": -8.7,
         "return20d": 5.53,
-        "returnCurrent": -19.37,
+        "returnCurrent": -13.44,
         "volumeRatio": 0.64,
         "marketExcessReturn": -7.54
       }
@@ -3084,9 +3115,19 @@
       "open": 212.0,
       "high": 219.0,
       "low": 209.0,
-      "close": null,
-      "adj_close": null,
+      "close": 213.0,
+      "adj_close": 213.0,
       "volume": 175100
+    },
+    {
+      "ticker": "6572.T",
+      "trade_date": "2026-11-10",
+      "open": 216.0,
+      "high": 220.0,
+      "low": 215.0,
+      "close": 219.0,
+      "adj_close": 219.0,
+      "volume": 86200
     }
   ],
   "benchmark": [
@@ -7099,6 +7140,16 @@
       "close": 402.1000061035156,
       "adj_close": 402.1000061035156,
       "volume": 30123360
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-10",
+      "open": 410.1000061035156,
+      "high": 411.79998779296875,
+      "low": 407.29998779296875,
+      "close": 410.5,
+      "adj_close": 410.5,
+      "volume": 18734020
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

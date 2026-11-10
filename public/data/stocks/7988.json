@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T04:36:40+09:00",
+  "updatedAt": "2026-11-10T16:42:51+09:00",
   "company": {
     "securityCode": "7988",
     "ticker": "7988.T",
@@ -31,7 +31,7 @@
         "return1d": 1.79,
         "return5d": 5.54,
         "return20d": -0.82,
-        "returnCurrent": -0.82,
+        "returnCurrent": 5.97,
         "volumeRatio": 1.21,
         "marketExcessReturn": 9.95
       }
@@ -62,7 +62,7 @@
         "return1d": -1.05,
         "return5d": -0.68,
         "return20d": 1.85,
-        "returnCurrent": -0.14,
+        "returnCurrent": 6.7,
         "volumeRatio": 0.96,
         "marketExcessReturn": -1.95
       }
@@ -93,7 +93,7 @@
         "return1d": -1.02,
         "return5d": -3.79,
         "return20d": -1.49,
-        "returnCurrent": -3.16,
+        "returnCurrent": 3.47,
         "volumeRatio": 1.07,
         "marketExcessReturn": -2.03
       }
@@ -4103,12 +4103,22 @@
     {
       "ticker": "7988.T",
       "trade_date": "2026-11-09",
-      "open": 2509.0,
+      "open": 2509.5,
       "high": 2541.5,
-      "low": 2458.0,
-      "close": null,
-      "adj_close": null,
+      "low": 2460.0,
+      "close": 2515.5,
+      "adj_close": 2515.5,
       "volume": 707800
+    },
+    {
+      "ticker": "7988.T",
+      "trade_date": "2026-11-10",
+      "open": 2553.0,
+      "high": 2605.5,
+      "low": 2543.0,
+      "close": 2574.0,
+      "adj_close": 2574.0,
+      "volume": 749700
     }
   ],
   "benchmark": [
@@ -8121,6 +8131,16 @@
       "close": 402.1000061035156,
       "adj_close": 402.1000061035156,
       "volume": 30123360
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-10",
+      "open": 410.1000061035156,
+      "high": 411.79998779296875,
+      "low": 407.29998779296875,
+      "close": 410.5,
+      "adj_close": 410.5,
+      "volume": 18734020
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

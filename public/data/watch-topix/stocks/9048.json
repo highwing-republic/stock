@@ -9,19 +9,27 @@
   "closedAt": null,
   "id": "9048-2026-11-06",
   "overextended": false,
-  "setupType": null,
-  "setups": [],
+  "setupType": "TREND",
+  "setups": [
+   "TREND"
+  ],
   "startedAt": "2026-11-06",
-  "status": "CANDIDATE",
+  "status": "WATCH",
   "statusHistory": [
    {
     "date": "2026-11-06",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-11-10",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
    }
   ],
-  "watchStartedAt": null
+  "watchStartedAt": "2026-11-10"
  },
  "eventReactions": [
   {
@@ -58,45 +66,77 @@
    "d5": null,
    "eventId": "edinet:S100ZBQU",
    "excess5": null
+  },
+  {
+   "d1": 1.5,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZD7Y",
+   "excess5": null
   }
  ],
  "margin": {
-  "asOf": "2026-11-06",
-  "buyBalance": 259600,
-  "buyChangePct": -17.8,
+  "asOf": "2026-11-09",
+  "buyBalance": 251300,
+  "buyChangePct": -17.1,
   "labels": [
    "信用買残減少",
    "信用倍率改善",
    "売残増加"
   ],
-  "ratio": 7.38,
-  "sellBalance": 35200,
-  "sellChangePct": 37.5
+  "ratio": 6.9,
+  "sellBalance": 36400,
+  "sellChangePct": 28.2
  },
  "pastEpisodes": [],
- "performance": null,
+ "performance": {
+  "benchReturn": 0.0,
+  "currentPrice": 1928.5,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 20,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 5,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 60,
+   "stockReturn": null
+  },
+  "excessReturn": 0.0,
+  "initialDate": "2026-11-10",
+  "initialPrice": 1928.5,
+  "stockReturn": 0.0
+ },
  "priceSetup": {
-  "asOf": "2026-11-06",
+  "asOf": "2026-11-10",
   "atrState": "通常",
-  "distFrom52wHigh": 0.05,
+  "distFrom52wHigh": 0.04,
   "labels": [
    "20日線の上",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 1865.6,
-  "ma200": 1814.6,
-  "ma60": 1870.5,
-  "rangePos60": 0.54,
-  "rel20": 14.4,
-  "rel60": 11.8,
-  "volumeRatio20": 1.53
+  "ma20": 1874.5,
+  "ma200": 1817.2,
+  "ma60": 1873.1,
+  "rangePos60": 0.69,
+  "rel20": 9.6,
+  "rel60": 7.7,
+  "volumeRatio20": 1.36
  },
  "reasons": [
   "新規大量保有 5%（ブラックロック・ジャパン株式会社）",
   "20日線上向き",
-  "TOPIX連動ETF比 +14.4pt（20日）",
-  "52週高値まで5%"
+  "TOPIX連動ETF比 +9.6pt（20日）",
+  "52週高値まで4%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -148,7 +188,21 @@
    "kind": "EVENT",
    "label": "買い増し",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZD7Y"
+  },
+  {
+   "date": "2026-11-10",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-10",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-10T01:53:15+09:00"
+ "updatedAt": "2026-11-10T16:44:06+09:00"
 }

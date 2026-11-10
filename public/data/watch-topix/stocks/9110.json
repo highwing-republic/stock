@@ -5,8 +5,8 @@
   "tradingViewSymbol": "TSE:9110"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "EXPIRED",
+  "closedAt": "2026-11-09",
   "id": "9110-2026-08-07",
   "overextended": false,
   "setupType": "BREAKOUT",
@@ -16,7 +16,7 @@
    "RECOVERY"
   ],
   "startedAt": "2026-08-07",
-  "status": "STRENGTHENING",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-08-07",
@@ -35,6 +35,12 @@
     "from": "WATCH",
     "reason_code": "SETUP_IMPROVED",
     "to": "STRENGTHENING"
+   },
+   {
+    "date": "2026-11-09",
+    "from": "STRENGTHENING",
+    "reason_code": "EXPIRED",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-08-07"
@@ -77,21 +83,21 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-06",
-  "buyBalance": 28700,
-  "buyChangePct": 75.0,
+  "asOf": "2026-11-09",
+  "buyBalance": 35300,
+  "buyChangePct": 138.5,
   "labels": [
    "信用買残急増",
    "信用倍率悪化"
   ],
-  "ratio": 13.05,
+  "ratio": 16.05,
   "sellBalance": 2200,
   "sellChangePct": 0.0
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -8.6,
-  "currentPrice": 10540.0,
+  "benchReturn": -5.4,
+  "currentPrice": 10530.0,
   "d20": {
    "benchReturn": 1.2,
    "excessReturn": -0.7,
@@ -105,39 +111,39 @@
    "stockReturn": -0.1
   },
   "d60": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 1,
-   "stockReturn": null
+   "benchReturn": -5.4,
+   "excessReturn": 6.2,
+   "pendingDays": 0,
+   "stockReturn": 0.8
   },
-  "excessReturn": 9.5,
+  "excessReturn": 6.2,
   "initialDate": "2026-08-07",
   "initialPrice": 10450.0,
-  "stockReturn": 0.9
+  "stockReturn": 0.8
  },
  "priceSetup": {
-  "asOf": "2026-11-06",
+  "asOf": "2026-11-10",
   "atrState": "低ボラ",
   "distFrom52wHigh": 0.0,
   "labels": [
    "20日線の上",
-   "60日レンジ上位20%",
+   "60日レンジ上位7%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 10527.5,
-  "ma200": 8271.0,
-  "ma60": 10496.5,
-  "rangePos60": 0.8,
-  "rel20": 11.4,
-  "rel60": 9.2,
-  "volumeRatio20": 2.7
+  "ma20": 10530.5,
+  "ma200": 8310.1,
+  "ma60": 10499.7,
+  "rangePos60": 0.93,
+  "rel20": 5.6,
+  "rel60": 5.1,
+  "volumeRatio20": 0.93
  },
  "reasons": [
   "新規大量保有 26.9%（内海曳船株式会社）",
-  "60日レンジ上位20%",
+  "60日レンジ上位7%",
   "20日線上向き",
-  "TOPIX連動ETF比 +11.4pt（20日）"
+  "TOPIX連動ETF比 +5.6pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -252,7 +258,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "観察期限に到達",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-10T01:53:15+09:00"
+ "updatedAt": "2026-11-10T16:44:06+09:00"
 }

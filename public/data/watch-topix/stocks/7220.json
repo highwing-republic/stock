@@ -1,0 +1,180 @@
+{
+ "company": {
+  "name": "武蔵精密工業",
+  "securityCode": "7220",
+  "tradingViewSymbol": "TSE:7220"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "7220-2026-11-09",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-11-09",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-11-09",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": 3.0,
+   "d20": -24.5,
+   "d5": -11.1,
+   "eventId": "edinet:S100YCN6",
+   "excess5": -9.6
+  },
+  {
+   "d1": 5.5,
+   "d20": -34.1,
+   "d5": -12.9,
+   "eventId": "edinet:S100YFQJ",
+   "excess5": -10.7
+  },
+  {
+   "d1": 5.5,
+   "d20": -34.1,
+   "d5": -12.9,
+   "eventId": "edinet:S100YGBG",
+   "excess5": -10.7
+  },
+  {
+   "d1": -3.9,
+   "d20": -14.8,
+   "d5": -6.9,
+   "eventId": "edinet:S100YPA1",
+   "excess5": -4.7
+  },
+  {
+   "d1": 2.4,
+   "d20": -21.1,
+   "d5": 6.5,
+   "eventId": "edinet:S100YVYK",
+   "excess5": 5.7
+  },
+  {
+   "d1": 4.6,
+   "d20": -11.8,
+   "d5": 9.6,
+   "eventId": "edinet:S100Z38R",
+   "excess5": 8.4
+  },
+  {
+   "d1": 4.4,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZD23",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-11-09",
+  "buyBalance": 697600,
+  "buyChangePct": -9.0,
+  "labels": [],
+  "ratio": 11.97,
+  "sellBalance": 58300,
+  "sellChangePct": 0.5
+ },
+ "pastEpisodes": [
+  {
+   "closeReason": "NO_SETUP",
+   "closedAt": "2026-07-21",
+   "id": "7220-2026-06-22",
+   "setupType": null,
+   "startedAt": "2026-06-22"
+  },
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-08-19",
+   "id": "7220-2026-08-12",
+   "setupType": "RECOVERY",
+   "startedAt": "2026-08-12"
+  },
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-10-09",
+   "id": "7220-2026-09-24",
+   "setupType": "RECOVERY",
+   "startedAt": "2026-09-24"
+  }
+ ],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-11-10",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.77,
+  "labels": [],
+  "ma20": 2516.6,
+  "ma200": 3542.8,
+  "ma60": 2885.0,
+  "rangePos60": 0.25,
+  "rel20": -15.6,
+  "rel60": -25.0,
+  "volumeRatio20": 2.01
+ },
+ "reasons": [
+  "1.3pt買い増し 6.3%→7.6%",
+  "信用買残 -9%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-06-19",
+   "detail": "5.47% → 4.06%（三井住友トラスト・アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCN6"
+  },
+  {
+   "date": "2026-06-22",
+   "detail": "5.94% → 1.65%（モルガン・スタンレーＭＵＦＧ証券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YGBG"
+  },
+  {
+   "date": "2026-06-22",
+   "detail": "保有割合 6.84%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFQJ"
+  },
+  {
+   "date": "2026-07-07",
+   "detail": "6.84% → 3.73%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YPA1"
+  },
+  {
+   "date": "2026-08-12",
+   "detail": "保有割合 5.12%（グランサム、マヨ、ヴァン　オッテルロー　アンド　カンパニー　エルエルシー）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YVYK"
+  },
+  {
+   "date": "2026-09-24",
+   "detail": "5.12% → 6.32%（グランサム、マヨ、ヴァン　オッテルロー　アンド　カンパニー　エルエルシー）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z38R"
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "6.32% → 7.63%（グランサム、マヨ、ヴァン　オッテルロー　アンド　カンパニー　エルエルシー）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZD23"
+  }
+ ],
+ "updatedAt": "2026-11-10T16:44:06+09:00"
+}

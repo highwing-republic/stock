@@ -12,7 +12,7 @@
   "setupType": "RECOVERY",
   "setups": [],
   "startedAt": "2026-09-24",
-  "status": "STRENGTHENING",
+  "status": "BROKEN",
   "statusHistory": [
    {
     "date": "2026-09-24",
@@ -31,6 +31,12 @@
     "from": "WATCH",
     "reason_code": "SETUP_IMPROVED",
     "to": "STRENGTHENING"
+   },
+   {
+    "date": "2026-11-10",
+    "from": "STRENGTHENING",
+    "reason_code": "BELOW_MA20",
+    "to": "BROKEN"
    }
   ],
   "watchStartedAt": "2026-10-19"
@@ -45,24 +51,22 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-06",
-  "buyBalance": 19200,
-  "buyChangePct": 8.5,
-  "labels": [
-   "信用倍率悪化"
-  ],
-  "ratio": 0.76,
-  "sellBalance": 25200,
-  "sellChangePct": -10.0
+  "asOf": "2026-11-09",
+  "buyBalance": 18800,
+  "buyChangePct": 2.2,
+  "labels": [],
+  "ratio": 0.71,
+  "sellBalance": 26500,
+  "sellChangePct": -9.2
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -9.0,
-  "currentPrice": 10405.0,
+  "benchReturn": -3.9,
+  "currentPrice": 10450.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 7,
+   "pendingDays": 5,
    "stockReturn": null
   },
   "d5": {
@@ -74,33 +78,33 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 47,
+   "pendingDays": 45,
    "stockReturn": null
   },
-  "excessReturn": 8.1,
+  "excessReturn": 3.5,
   "initialDate": "2026-10-19",
   "initialPrice": 10495.0,
-  "stockReturn": -0.9
+  "stockReturn": -0.4
  },
  "priceSetup": {
-  "asOf": "2026-11-06",
+  "asOf": "2026-11-10",
   "atrState": "高ボラ",
   "distFrom52wHigh": 0.14,
   "labels": [
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 10663.5,
-  "ma200": 10637.5,
-  "ma60": 10317.1,
-  "rangePos60": 0.52,
-  "rel20": 15.2,
-  "rel60": 9.5,
-  "volumeRatio20": 1.63
+  "ma20": 10707.0,
+  "ma200": 10636.6,
+  "ma60": 10316.8,
+  "rangePos60": 0.54,
+  "rel20": 8.0,
+  "rel60": 3.5,
+  "volumeRatio20": 0.8
  },
  "reasons": [
   "1.1pt買い増し 5.1%→6.2%",
-  "TOPIX連動ETF比 +15.2pt（20日）"
+  "TOPIX連動ETF比 +8pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -194,7 +198,14 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-10",
+   "detail": "20日線を連続で下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-10T01:52:24+09:00"
+ "updatedAt": "2026-11-10T16:43:04+09:00"
 }

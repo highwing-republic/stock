@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T04:36:40+09:00",
+  "updatedAt": "2026-11-10T16:42:51+09:00",
   "company": {
     "securityCode": "7918",
     "ticker": "7918.T",
@@ -7,13 +7,13 @@
   },
   "events": [
     {
-      "docId": "S100ZBOG",
+      "docId": "S100ZEAD",
       "ticker": "7918.T",
       "securityCode": "7918",
       "companyName": "株式会社ヴィア・ホールディングス",
-      "submitDatetime": "2026-11-09 16:29",
+      "submitDatetime": "2026-11-10 16:20",
       "filerName": "グロースパートナーズ株式会社",
-      "reportType": "change",
+      "reportType": "correction",
       "holdingRatio": 43.85,
       "previousHoldingRatio": 44.22,
       "holdingChange": -0.37,
@@ -31,8 +31,38 @@
         "return1d": null,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.0,
+        "returnCurrent": 2.0,
         "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
+    {
+      "docId": "S100ZBOG",
+      "ticker": "7918.T",
+      "securityCode": "7918",
+      "companyName": "株式会社ヴィア・ホールディングス",
+      "submitDatetime": "2026-11-09 16:29",
+      "filerName": "グロースパートナーズ株式会社",
+      "reportType": "change",
+      "holdingRatio": 43.85,
+      "previousHoldingRatio": 44.22,
+      "holdingChange": -0.37,
+      "purpose": "発行者との業務資本提携を目的とした保有",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": 0.18,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": 0.99,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 0.99,
+        "volumeRatio": 0.18,
         "marketExcessReturn": null
       }
     },
@@ -50,7 +80,7 @@
       "purpose": "発行者との業務資本提携を目的とした保有",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.18,
       "marketExcessReturn": null,
       "signalScore": 30,
       "signalReasons": [
@@ -59,11 +89,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": 0.99,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.0,
-        "volumeRatio": null,
+        "returnCurrent": 0.99,
+        "volumeRatio": 0.18,
         "marketExcessReturn": null
       }
     },
@@ -94,7 +124,7 @@
         "return1d": 0.0,
         "return5d": -1.9,
         "return20d": -3.81,
-        "returnCurrent": -3.81,
+        "returnCurrent": -2.86,
         "volumeRatio": 1.97,
         "marketExcessReturn": 2.51
       }
@@ -2967,9 +2997,19 @@
       "open": 101.0,
       "high": 102.0,
       "low": 100.0,
-      "close": null,
-      "adj_close": null,
+      "close": 100.0,
+      "adj_close": 100.0,
       "volume": 251600
+    },
+    {
+      "ticker": "7918.T",
+      "trade_date": "2026-11-10",
+      "open": 102.0,
+      "high": 102.0,
+      "low": 101.0,
+      "close": 102.0,
+      "adj_close": 102.0,
+      "volume": 191500
     }
   ],
   "benchmark": [
@@ -6982,6 +7022,16 @@
       "close": 402.1000061035156,
       "adj_close": 402.1000061035156,
       "volume": 30123360
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-10",
+      "open": 410.1000061035156,
+      "high": 411.79998779296875,
+      "low": 407.29998779296875,
+      "close": 410.5,
+      "adj_close": 410.5,
+      "volume": 18734020
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"
