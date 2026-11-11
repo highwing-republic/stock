@@ -1390,5 +1390,53 @@
   "source": "watch",
   "started_at": "2026-11-11T16:04:07+09:00",
   "status": "ok"
+ },
+ {
+  "detail": {
+   "adjustments": {
+    "applied": [],
+    "error": null,
+    "member_count": 986,
+    "status": "unchanged",
+    "warnings": []
+   },
+   "snapshot": {
+    "added": [],
+    "error": "スナップショット基準日 2026-09-30 が適用済み 2026-10-30 より古い",
+    "member_count": 953,
+    "removed": [],
+    "status": "ignored"
+   }
+  },
+  "error": null,
+  "finished_at": "2026-11-11T20:29:14+09:00",
+  "records": 953,
+  "source": "topix",
+  "started_at": "2026-11-11T20:29:14+09:00",
+  "status": "ok"
+ },
+ {
+  "error": null,
+  "finished_at": "2026-11-11T20:29:51+09:00",
+  "records": 7225,
+  "source": "prices",
+  "started_at": "2026-11-11T20:29:14+09:00",
+  "status": "ok"
+ },
+ {
+  "error": null,
+  "finished_at": "2026-11-11T20:30:07+09:00",
+  "records": 986,
+  "source": "margin",
+  "started_at": "2026-11-11T20:29:14+09:00",
+  "status": "ok"
+ },
+ {
+  "error": null,
+  "finished_at": "2026-11-11T20:30:20+09:00",
+  "records": 143,
+  "source": "watch",
+  "started_at": "2026-11-11T20:29:14+09:00",
+  "status": "ok"
  }
 ]
