@@ -71,35 +71,43 @@
    "d5": -2.0,
    "eventId": "edinet:S100Z99G",
    "excess5": -0.7
+  },
+  {
+   "d1": 0.3,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZDYK",
+   "excess5": null
   }
  ],
  "margin": {
-  "asOf": "2026-11-09",
-  "buyBalance": 595800,
-  "buyChangePct": -9.5,
-  "labels": [],
-  "ratio": 49.24,
-  "sellBalance": 12100,
-  "sellChangePct": -10.4
+  "asOf": "2026-11-10",
+  "buyBalance": 696500,
+  "buyChangePct": 5.7,
+  "labels": [
+   "信用倍率悪化"
+  ],
+  "ratio": 59.53,
+  "sellBalance": 11700,
+  "sellChangePct": -13.3
  },
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-11",
   "atrState": "通常",
-  "distFrom52wHigh": 0.5,
+  "distFrom52wHigh": 0.47,
   "labels": [],
-  "ma20": 1940.2,
-  "ma200": 2470.7,
-  "ma60": 2138.9,
-  "rangePos60": 0.11,
-  "rel20": -9.5,
+  "ma20": 1918.5,
+  "ma200": 2467.6,
+  "ma60": 2123.4,
+  "rangePos60": 0.23,
+  "rel20": -6.5,
   "rel60": -17.0,
-  "volumeRatio20": 0.88
+  "volumeRatio20": 1.32
  },
  "reasons": [
-  "6.6pt買い増し 7.2%→13.7%",
-  "信用買残 -10%"
+  "6.6pt買い増し 7.2%→13.7%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -158,7 +166,14 @@
    "kind": "STATUS",
    "label": "CLOSED",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-11",
+   "detail": "12.47% → 11.54%（株式会社みずほ銀行）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDYK"
   }
  ],
- "updatedAt": "2026-11-11T01:55:35+09:00"
+ "updatedAt": "2026-11-11T16:03:16+09:00"
 }

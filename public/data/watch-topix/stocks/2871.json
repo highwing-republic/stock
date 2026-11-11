@@ -5,14 +5,14 @@
   "tradingViewSymbol": "TSE:2871"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "BROKEN",
+  "closedAt": "2026-11-11",
   "id": "2871-2026-10-06",
   "overextended": false,
   "setupType": "RECOVERY",
   "setups": [],
   "startedAt": "2026-10-06",
-  "status": "WATCH",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-10-06",
@@ -25,6 +25,18 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
+   },
+   {
+    "date": "2026-11-10",
+    "from": "WATCH",
+    "reason_code": "BELOW_MA20",
+    "to": "BROKEN"
+   },
+   {
+    "date": "2026-11-11",
+    "from": "BROKEN",
+    "reason_code": "BROKEN",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-11-02"
@@ -102,13 +114,13 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-09",
-  "buyBalance": 125400,
-  "buyChangePct": 2.6,
+  "asOf": "2026-11-10",
+  "buyBalance": 116600,
+  "buyChangePct": -4.6,
   "labels": [],
   "ratio": 1.48,
-  "sellBalance": 84800,
-  "sellChangePct": 0.4
+  "sellBalance": 78600,
+  "sellChangePct": -7.0
  },
  "pastEpisodes": [
   {
@@ -127,51 +139,53 @@
   }
  ],
  "performance": {
-  "benchReturn": -2.6,
-  "currentPrice": 2138.0,
+  "benchReturn": 0.2,
+  "currentPrice": 2279.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 16,
+   "pendingDays": 14,
    "stockReturn": null
   },
   "d5": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 1,
-   "stockReturn": null
+   "benchReturn": -0.6,
+   "excessReturn": -0.6,
+   "pendingDays": 0,
+   "stockReturn": -1.2
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 56,
+   "pendingDays": 54,
    "stockReturn": null
   },
-  "excessReturn": 1.9,
+  "excessReturn": 5.7,
   "initialDate": "2026-11-02",
   "initialPrice": 2152.0,
-  "stockReturn": -0.7
+  "stockReturn": 5.9
  },
  "priceSetup": {
-  "asOf": "2026-11-09",
-  "atrState": "通常",
-  "distFrom52wHigh": 0.09,
+  "asOf": "2026-11-11",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.05,
   "labels": [
-   "20日線が上向き"
+   "20日線の上",
+   "20日線が上向き",
+   "60日線の上"
   ],
-  "ma20": 2143.9,
-  "ma200": 2023.0,
-  "ma60": 2139.5,
-  "rangePos60": 0.48,
-  "rel20": 9.6,
-  "rel60": 2.5,
-  "volumeRatio20": 1.52
+  "ma20": 2153.5,
+  "ma200": 2027.3,
+  "ma60": 2141.3,
+  "rangePos60": 0.66,
+  "rel20": 12.1,
+  "rel60": 10.3,
+  "volumeRatio20": 3.06
  },
  "reasons": [
   "0.1pt買い増し 9.4%→9.5%",
   "30日以内に2回買い増し",
-  "TOPIX連動ETF比 +9.6pt（20日）",
-  "52週高値まで9%"
+  "出来高 3.1倍で60日高値更新",
+  "20日線を回復"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -321,7 +335,49 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-10",
+   "detail": "20日線を連続で下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-11",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-11",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-11",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-11",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-11",
+   "detail": "Price Setupが崩れた",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-11T01:56:48+09:00"
+ "updatedAt": "2026-11-11T16:04:07+09:00"
 }

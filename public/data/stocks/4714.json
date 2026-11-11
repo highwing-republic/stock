@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T01:55:21+09:00",
+  "updatedAt": "2026-11-11T16:03:06+09:00",
   "company": {
     "securityCode": "4714",
     "ticker": "4714.T",
@@ -20,7 +20,7 @@
       "purpose": "証券業務に係る商品在庫として保有している。 / 証券業務に係わる商品在庫として保有している。 / 信託財産の運用として保有している。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.33,
       "marketExcessReturn": null,
       "signalScore": 30,
       "signalReasons": [
@@ -28,11 +28,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": 0.0,
         "return5d": null,
         "return20d": null,
         "returnCurrent": 0.0,
-        "volumeRatio": null,
+        "volumeRatio": 0.33,
         "marketExcessReturn": null
       }
     },
@@ -2874,9 +2874,19 @@
       "open": 295.0,
       "high": 295.0,
       "low": 294.0,
-      "close": null,
-      "adj_close": null,
+      "close": 294.0,
+      "adj_close": 294.0,
       "volume": 1024500
+    },
+    {
+      "ticker": "4714.T",
+      "trade_date": "2026-11-11",
+      "open": 294.0,
+      "high": 295.0,
+      "low": 294.0,
+      "close": 294.0,
+      "adj_close": 294.0,
+      "volume": 589200
     }
   ],
   "benchmark": [
@@ -6896,9 +6906,19 @@
       "open": 410.1000061035156,
       "high": 411.79998779296875,
       "low": 407.29998779296875,
-      "close": null,
-      "adj_close": null,
+      "close": 410.5,
+      "adj_close": 410.5,
       "volume": 18734020
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-11",
+      "open": 410.1000061035156,
+      "high": 413.8999938964844,
+      "low": 409.3999938964844,
+      "close": 413.8999938964844,
+      "adj_close": 413.8999938964844,
+      "volume": 16926430
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

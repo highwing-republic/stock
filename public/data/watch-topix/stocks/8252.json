@@ -104,9 +104,9 @@
   {
    "d1": 0.2,
    "d20": null,
-   "d5": null,
+   "d5": 1.9,
    "eventId": "edinet:S100ZBBF",
-   "excess5": null
+   "excess5": 2.5
   },
   {
    "d1": -3.9,
@@ -117,16 +117,16 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-09",
-  "buyBalance": 273800,
-  "buyChangePct": -26.7,
+  "asOf": "2026-11-10",
+  "buyBalance": 280900,
+  "buyChangePct": -24.8,
   "labels": [
    "信用買残減少",
    "信用倍率悪化"
   ],
-  "ratio": 14.04,
-  "sellBalance": 19500,
-  "sellChangePct": -65.8
+  "ratio": 13.7,
+  "sellBalance": 20500,
+  "sellChangePct": -64.1
  },
  "pastEpisodes": [
   {
@@ -138,53 +138,53 @@
   }
  ],
  "performance": {
-  "benchReturn": -2.9,
-  "currentPrice": 2852.0,
+  "benchReturn": -0.0,
+  "currentPrice": 2870.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 17,
+   "pendingDays": 15,
    "stockReturn": null
   },
   "d5": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 2,
-   "stockReturn": null
+   "benchReturn": -0.0,
+   "excessReturn": 2.9,
+   "pendingDays": 0,
+   "stockReturn": 2.9
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 57,
+   "pendingDays": 55,
    "stockReturn": null
   },
-  "excessReturn": 5.2,
+  "excessReturn": 2.9,
   "initialDate": "2026-11-04",
   "initialPrice": 2788.0,
-  "stockReturn": 2.3
+  "stockReturn": 2.9
  },
  "priceSetup": {
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-11",
   "atrState": "通常",
-  "distFrom52wHigh": 0.09,
+  "distFrom52wHigh": 0.08,
   "labels": [
    "20日線の上",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2788.9,
-  "ma200": 2871.5,
-  "ma60": 2821.1,
-  "rangePos60": 0.55,
-  "rel20": 10.3,
-  "rel60": 3.9,
-  "volumeRatio20": 0.99
+  "ma20": 2797.8,
+  "ma200": 2869.5,
+  "ma60": 2819.4,
+  "rangePos60": 0.62,
+  "rel20": 7.8,
+  "rel60": 2.5,
+  "volumeRatio20": 1.56
  },
  "reasons": [
   "0.1pt買い増し 11.7%→11.8%",
   "30日以内に2回買い増し",
   "20日線上向き",
-  "TOPIX連動ETF比 +10.3pt（20日）"
+  "TOPIX連動ETF比 +7.8pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -348,7 +348,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-11",
+   "detail": "10.96% → 10.99%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF9T"
   }
  ],
- "updatedAt": "2026-11-11T01:56:48+09:00"
+ "updatedAt": "2026-11-11T16:04:07+09:00"
 }

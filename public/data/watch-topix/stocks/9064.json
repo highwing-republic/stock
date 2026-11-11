@@ -9,8 +9,9 @@
   "closedAt": null,
   "id": "9064-2026-11-04",
   "overextended": true,
-  "setupType": "RECOVERY",
+  "setupType": "TREND",
   "setups": [
+   "TREND",
    "RECOVERY"
   ],
   "startedAt": "2026-11-04",
@@ -48,74 +49,74 @@
   {
    "d1": 11.5,
    "d20": null,
-   "d5": null,
+   "d5": 18.2,
    "eventId": "edinet:S100ZB4F",
-   "excess5": null
+   "excess5": 18.8
   }
  ],
  "margin": {
-  "asOf": "2026-11-09",
-  "buyBalance": 102600,
-  "buyChangePct": -32.4,
+  "asOf": "2026-11-10",
+  "buyBalance": 100000,
+  "buyChangePct": -34.1,
   "labels": [
    "信用買残減少",
    "信用倍率改善",
    "売残増加"
   ],
-  "ratio": 1.06,
-  "sellBalance": 96600,
-  "sellChangePct": 37.0
+  "ratio": 1.0,
+  "sellBalance": 99600,
+  "sellChangePct": 41.3
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -2.9,
-  "currentPrice": 2286.0,
+  "benchReturn": -0.0,
+  "currentPrice": 2297.5,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 17,
+   "pendingDays": 15,
    "stockReturn": null
   },
   "d5": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 2,
-   "stockReturn": null
+   "benchReturn": -0.0,
+   "excessReturn": 4.7,
+   "pendingDays": 0,
+   "stockReturn": 4.7
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 57,
+   "pendingDays": 55,
    "stockReturn": null
   },
-  "excessReturn": 7.1,
+  "excessReturn": 4.7,
   "initialDate": "2026-11-04",
   "initialPrice": 2194.5,
-  "stockReturn": 4.2
+  "stockReturn": 4.7
  },
  "priceSetup": {
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-11",
   "atrState": "高ボラ",
   "distFrom52wHigh": 0.03,
   "labels": [
    "20日線の上",
-   "60日レンジ上位16%",
+   "60日レンジ上位14%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2083.9,
-  "ma200": 1884.0,
-  "ma60": 1992.7,
-  "rangePos60": 0.84,
-  "rel20": 19.3,
-  "rel60": 24.9,
-  "volumeRatio20": 1.12
+  "ma20": 2109.0,
+  "ma200": 1886.7,
+  "ma60": 2006.0,
+  "rangePos60": 0.86,
+  "rel20": 15.3,
+  "rel60": 24.1,
+  "volumeRatio20": 0.82
  },
  "reasons": [
   "新規大量保有 5%（Ｆａｒａｌｌｏｎ　Ｃａｐｉｔａｌ　Ｍａｎａｇｅｍｅｎｔ，　Ｌ．Ｌ．Ｃ．）",
-  "60日レンジ上位16%",
+  "60日レンジ上位14%",
   "20日線上向き",
-  "TOPIX連動ETF比 +19.3pt（20日）"
+  "TOPIX連動ETF比 +15.3pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -188,7 +189,14 @@
    "kind": "SETUP",
    "label": "Price Setup変化",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-11",
+   "detail": "RECOVERY → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-11T01:56:48+09:00"
+ "updatedAt": "2026-11-11T16:04:07+09:00"
 }

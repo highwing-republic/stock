@@ -5,8 +5,8 @@
   "tradingViewSymbol": "TSE:2734"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "BROKEN",
+  "closedAt": "2026-11-11",
   "id": "2734-2026-11-06",
   "overextended": false,
   "setupType": "RECOVERY",
@@ -14,7 +14,7 @@
    "RECOVERY"
   ],
   "startedAt": "2026-11-06",
-  "status": "WATCH",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-11-06",
@@ -27,6 +27,18 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
+   },
+   {
+    "date": "2026-11-10",
+    "from": "WATCH",
+    "reason_code": "BELOW_MA60",
+    "to": "BROKEN"
+   },
+   {
+    "date": "2026-11-11",
+    "from": "BROKEN",
+    "reason_code": "BROKEN",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-11-09"
@@ -41,66 +53,66 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-09",
-  "buyBalance": 33200,
-  "buyChangePct": -54.4,
+  "asOf": "2026-11-10",
+  "buyBalance": 32100,
+  "buyChangePct": -55.9,
   "labels": [
    "信用買残減少",
    "信用倍率改善",
    "売残増加"
   ],
-  "ratio": 0.31,
-  "sellBalance": 105700,
-  "sellChangePct": 97.6
+  "ratio": 0.27,
+  "sellBalance": 118100,
+  "sellChangePct": 120.7
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 0.0,
-  "currentPrice": 1143.0,
+  "benchReturn": 2.9,
+  "currentPrice": 1137.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 20,
+   "pendingDays": 18,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 5,
+   "pendingDays": 3,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 60,
+   "pendingDays": 58,
    "stockReturn": null
   },
-  "excessReturn": 0.0,
+  "excessReturn": -3.4,
   "initialDate": "2026-11-09",
   "initialPrice": 1143.0,
-  "stockReturn": 0.0
+  "stockReturn": -0.5
  },
  "priceSetup": {
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-11",
   "atrState": "通常",
-  "distFrom52wHigh": 0.09,
+  "distFrom52wHigh": 0.1,
   "labels": [
    "20日線の上",
    "20日線が上向き"
   ],
-  "ma20": 1130.5,
-  "ma200": 1103.9,
-  "ma60": 1182.8,
-  "rangePos60": 0.32,
-  "rel20": 11.1,
-  "rel60": 4.3,
-  "volumeRatio20": 0.76
+  "ma20": 1133.5,
+  "ma200": 1104.6,
+  "ma60": 1181.8,
+  "rangePos60": 0.29,
+  "rel20": 6.5,
+  "rel60": 1.7,
+  "volumeRatio20": 1.06
  },
  "reasons": [
   "新規大量保有 5.1%（三井住友信託銀行株式会社）",
   "20日線上向き",
-  "TOPIX連動ETF比 +11.1pt（20日）",
-  "52週高値まで9%"
+  "TOPIX連動ETF比 +6.5pt（20日）",
+  "52週高値まで10%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -124,7 +136,28 @@
    "kind": "STATUS",
    "label": "WATCH",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-10",
+   "detail": "60日線を下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-11",
+   "detail": "5.01% → 6.01%（光通信株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCYP"
+  },
+  {
+   "date": "2026-11-11",
+   "detail": "Price Setupが崩れた",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-11T01:56:48+09:00"
+ "updatedAt": "2026-11-11T16:04:07+09:00"
 }

@@ -58,34 +58,45 @@
    "d5": null,
    "eventId": "edinet:S100ZBB9",
    "excess5": null
+  },
+  {
+   "d1": 4.1,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZE96",
+   "excess5": null
   }
  ],
  "margin": {
-  "asOf": "2026-11-09",
-  "buyBalance": 750400,
-  "buyChangePct": 2.1,
+  "asOf": "2026-11-10",
+  "buyBalance": 713200,
+  "buyChangePct": -2.9,
   "labels": [],
-  "ratio": 6.4,
-  "sellBalance": 117200,
-  "sellChangePct": -12.3
+  "ratio": 6.35,
+  "sellBalance": 112300,
+  "sellChangePct": -16.0
  },
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-09",
-  "atrState": "高ボラ",
-  "distFrom52wHigh": 0.37,
-  "labels": [],
-  "ma20": 1485.0,
-  "ma200": 1575.2,
-  "ma60": 1639.6,
-  "rangePos60": 0.22,
-  "rel20": -16.0,
-  "rel60": -21.6,
-  "volumeRatio20": 0.71
+  "asOf": "2026-11-11",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.31,
+  "labels": [
+   "20日線の上"
+  ],
+  "ma20": 1456.0,
+  "ma200": 1579.1,
+  "ma60": 1628.4,
+  "rangePos60": 0.42,
+  "rel20": -10.6,
+  "rel60": -12.9,
+  "volumeRatio20": 0.32
  },
  "reasons": [
-  "新規大量保有 5.2%（三井住友トラスト・アセットマネジメント株式会社）"
+  "新規大量保有 5.2%（三井住友トラスト・アセットマネジメント株式会社）",
+  "20日線を回復",
+  "信用買残 -3%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -123,7 +134,21 @@
    "kind": "EVENT",
    "label": "変更報告（増減不明）",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBB9"
+  },
+  {
+   "date": "2026-11-11",
+   "detail": "13% → 13%（ＡＡＧＳ　Ｉｎｖｅｓｔｍｅｎｔ，　Ｉｎｃ．）",
+   "kind": "EVENT",
+   "label": "変更報告（増減不明）",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZE96"
+  },
+  {
+   "date": "2026-11-11",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-11T01:56:48+09:00"
+ "updatedAt": "2026-11-11T16:04:07+09:00"
 }

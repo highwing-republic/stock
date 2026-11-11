@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T01:55:21+09:00",
+  "updatedAt": "2026-11-11T16:03:06+09:00",
   "company": {
     "securityCode": "5357",
     "ticker": "5357.T",
@@ -19,9 +19,9 @@
       "holdingChange": -1.07,
       "purpose": "セメント製造設備の資材調達における主要取引先の一つであり、取引関係の維持・強化を通じて、当社セメント工場の中長期的な安定操業に資するため。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.78,
-      "marketExcessReturn": null,
+      "priceChange": 0.06,
+      "volumeRatio": 0.62,
+      "marketExcessReturn": -0.16,
       "signalScore": 0,
       "signalReasons": [
         "保有割合減少"
@@ -29,11 +29,11 @@
       "stockUnreacted": false,
       "metrics": {
         "return1d": 0.67,
-        "return5d": null,
+        "return5d": 0.06,
         "return20d": null,
-        "returnCurrent": -0.55,
-        "volumeRatio": 0.78,
-        "marketExcessReturn": null
+        "returnCurrent": 0.06,
+        "volumeRatio": 0.62,
+        "marketExcessReturn": -0.16
       }
     },
     {
@@ -61,7 +61,7 @@
         "return1d": -1.8,
         "return5d": -0.73,
         "return20d": 1.01,
-        "returnCurrent": -7.66,
+        "returnCurrent": -7.09,
         "volumeRatio": 1.89,
         "marketExcessReturn": -3.73
       }
@@ -3094,9 +3094,19 @@
       "open": 1659.0,
       "high": 1660.0,
       "low": 1644.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1644.0,
+      "adj_close": 1644.0,
       "volume": 28600
+    },
+    {
+      "ticker": "5357.T",
+      "trade_date": "2026-11-11",
+      "open": 1646.0,
+      "high": 1654.0,
+      "low": 1645.0,
+      "close": 1650.0,
+      "adj_close": 1650.0,
+      "volume": 23200
     }
   ],
   "benchmark": [
@@ -7116,9 +7126,19 @@
       "open": 410.1000061035156,
       "high": 411.79998779296875,
       "low": 407.29998779296875,
-      "close": null,
-      "adj_close": null,
+      "close": 410.5,
+      "adj_close": 410.5,
       "volume": 18734020
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-11",
+      "open": 410.1000061035156,
+      "high": 413.8999938964844,
+      "low": 409.3999938964844,
+      "close": 413.8999938964844,
+      "adj_close": 413.8999938964844,
+      "volume": 16926430
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

@@ -78,18 +78,18 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-09",
-  "buyBalance": 2649100,
-  "buyChangePct": -5.3,
+  "asOf": "2026-11-10",
+  "buyBalance": 2617700,
+  "buyChangePct": -6.5,
   "labels": [],
-  "ratio": 93.61,
-  "sellBalance": 28300,
-  "sellChangePct": -16.5
+  "ratio": 80.3,
+  "sellBalance": 32600,
+  "sellChangePct": -3.8
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -5.1,
-  "currentPrice": 3049.0,
+  "benchReturn": -2.3,
+  "currentPrice": 3175.0,
   "d20": {
    "benchReturn": -0.6,
    "excessReturn": 10.8,
@@ -108,27 +108,30 @@
    "pendingDays": 0,
    "stockReturn": 17.9
   },
-  "excessReturn": 9.4,
+  "excessReturn": 10.9,
   "initialDate": "2026-07-07",
   "initialPrice": 2923.0,
-  "stockReturn": 4.3
+  "stockReturn": 8.6
  },
  "priceSetup": {
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-11",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.15,
-  "labels": [],
-  "ma20": 3079.8,
-  "ma200": 2877.8,
-  "ma60": 3300.3,
-  "rangePos60": 0.25,
-  "rel20": -1.4,
-  "rel60": -1.0,
-  "volumeRatio20": 1.13
+  "distFrom52wHigh": 0.12,
+  "labels": [
+   "20日線の上"
+  ],
+  "ma20": 3067.1,
+  "ma200": 2883.1,
+  "ma60": 3296.2,
+  "rangePos60": 0.42,
+  "rel20": 0.4,
+  "rel60": 0.4,
+  "volumeRatio20": 1.1
  },
  "reasons": [
   "新規大量保有 5%（三井住友トラスト・アセットマネジメント株式会社）",
-  "信用買残 -5%"
+  "TOPIX連動ETF比 +0.4pt（20日）",
+  "信用買残 -6%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -341,7 +344,21 @@
    "kind": "EVENT",
    "label": "保有割合の減少",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8Q1"
+  },
+  {
+   "date": "2026-11-10",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-10",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-11T01:56:48+09:00"
+ "updatedAt": "2026-11-11T16:04:07+09:00"
 }

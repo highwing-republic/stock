@@ -10,9 +10,7 @@
   "id": "9987-2026-09-10",
   "overextended": false,
   "setupType": "RECOVERY",
-  "setups": [
-   "RECOVERY"
-  ],
+  "setups": [],
   "startedAt": "2026-09-10",
   "status": "REACTED",
   "statusHistory": [
@@ -59,20 +57,20 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-09",
-  "buyBalance": 15500,
-  "buyChangePct": -18.8,
+  "asOf": "2026-11-10",
+  "buyBalance": 15200,
+  "buyChangePct": -20.4,
   "labels": [
    "信用買残減少"
   ],
-  "ratio": 0.8,
-  "sellBalance": 19400,
-  "sellChangePct": -29.7
+  "ratio": 0.79,
+  "sellBalance": 19200,
+  "sellChangePct": -30.4
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -4.9,
-  "currentPrice": 2857.0,
+  "benchReturn": -2.1,
+  "currentPrice": 2800.5,
   "d20": {
    "benchReturn": 2.0,
    "excessReturn": 1.6,
@@ -88,37 +86,34 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 23,
+   "pendingDays": 21,
    "stockReturn": null
   },
-  "excessReturn": 17.4,
+  "excessReturn": 12.4,
   "initialDate": "2026-09-10",
   "initialPrice": 2539.6,
-  "stockReturn": 12.5
+  "stockReturn": 10.3
  },
  "priceSetup": {
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-11",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.12,
+  "distFrom52wHigh": 0.13,
   "labels": [
-   "20日線の上",
-   "60日レンジ上位29%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2827.2,
-  "ma200": 2715.8,
-  "ma60": 2630.3,
-  "rangePos60": 0.71,
-  "rel20": 16.7,
-  "rel60": 25.7,
-  "volumeRatio20": 0.78
+  "ma20": 2845.7,
+  "ma200": 2713.2,
+  "ma60": 2643.9,
+  "rangePos60": 0.59,
+  "rel20": 9.3,
+  "rel60": 18.8,
+  "volumeRatio20": 0.91
  },
  "reasons": [
   "1pt買い増し 8.2%→9.3%",
-  "60日レンジ上位29%",
-  "20日線を回復",
-  "TOPIX連動ETF比 +16.7pt（20日）"
+  "TOPIX連動ETF比 +9.3pt（20日）",
+  "信用買残 -20%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -324,7 +319,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-10",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-11T01:56:48+09:00"
+ "updatedAt": "2026-11-11T16:04:07+09:00"
 }

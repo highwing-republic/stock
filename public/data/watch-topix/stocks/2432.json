@@ -10,11 +10,7 @@
   "id": "2432-2026-10-21",
   "overextended": false,
   "setupType": "BREAKOUT",
-  "setups": [
-   "BREAKOUT",
-   "TREND",
-   "RECOVERY"
-  ],
+  "setups": [],
   "startedAt": "2026-10-21",
   "status": "REACTED",
   "statusHistory": [
@@ -96,16 +92,17 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-09",
-  "buyBalance": 1196600,
-  "buyChangePct": -17.0,
+  "asOf": "2026-11-10",
+  "buyBalance": 1229200,
+  "buyChangePct": -14.7,
   "labels": [
    "信用買残減少",
-   "信用倍率改善"
+   "信用倍率改善",
+   "売残増加"
   ],
-  "ratio": 29.33,
-  "sellBalance": 40800,
-  "sellChangePct": 19.6
+  "ratio": 26.26,
+  "sellBalance": 46800,
+  "sellChangePct": 37.2
  },
  "pastEpisodes": [
   {
@@ -117,12 +114,12 @@
   }
  ],
  "performance": {
-  "benchReturn": -5.5,
-  "currentPrice": 2682.5,
+  "benchReturn": -2.7,
+  "currentPrice": 2537.5,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 8,
+   "pendingDays": 6,
    "stockReturn": null
   },
   "d5": {
@@ -134,37 +131,34 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 48,
+   "pendingDays": 46,
    "stockReturn": null
   },
-  "excessReturn": 10.8,
+  "excessReturn": 2.3,
   "initialDate": "2026-10-21",
   "initialPrice": 2547.0,
-  "stockReturn": 5.3
+  "stockReturn": -0.4
  },
  "priceSetup": {
-  "asOf": "2026-11-09",
-  "atrState": "低ボラ",
-  "distFrom52wHigh": 0.05,
+  "asOf": "2026-11-11",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.1,
   "labels": [
-   "20日線の上",
-   "60日レンジ上位10%",
-   "20日線が上向き",
-   "60日線の上"
+   "20日線が上向き"
   ],
-  "ma20": 2568.8,
-  "ma200": 2553.3,
-  "ma60": 2543.1,
-  "rangePos60": 0.9,
-  "rel20": 14.5,
-  "rel60": 14.4,
-  "volumeRatio20": 2.33
+  "ma20": 2576.3,
+  "ma200": 2554.3,
+  "ma60": 2547.0,
+  "rangePos60": 0.42,
+  "rel20": 3.9,
+  "rel60": 5.2,
+  "volumeRatio20": 2.12
  },
  "reasons": [
   "新規大量保有 5.4%（野村アセットマネジメント株式会社）",
-  "60日レンジ上位10%",
-  "20日線上向き",
-  "TOPIX連動ETF比 +14.5pt（20日）"
+  "TOPIX連動ETF比 +3.9pt（20日）",
+  "52週高値まで10%",
+  "信用買残 -15%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -286,7 +280,14 @@
    "kind": "STATUS",
    "label": "REACTED",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-11",
+   "detail": "BREAKOUT → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-11T01:56:48+09:00"
+ "updatedAt": "2026-11-11T16:04:07+09:00"
 }

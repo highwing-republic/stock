@@ -8,7 +8,7 @@
   "closeReason": null,
   "closedAt": null,
   "id": "7966-2026-11-09",
-  "overextended": false,
+  "overextended": true,
   "setupType": null,
   "setups": [],
   "startedAt": "2026-11-09",
@@ -61,16 +61,16 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-09",
-  "buyBalance": 742800,
-  "buyChangePct": 28.7,
+  "asOf": "2026-11-10",
+  "buyBalance": 696000,
+  "buyChangePct": 20.6,
   "labels": [
    "信用買残急増",
    "信用倍率悪化"
   ],
-  "ratio": 8.38,
-  "sellBalance": 88600,
-  "sellChangePct": -1.7
+  "ratio": 21.82,
+  "sellBalance": 31900,
+  "sellChangePct": -64.6
  },
  "pastEpisodes": [
   {
@@ -83,17 +83,19 @@
  ],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-11",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.34,
-  "labels": [],
-  "ma20": 5274.8,
-  "ma200": 5429.4,
-  "ma60": 5504.6,
-  "rangePos60": 0.39,
-  "rel20": -10.3,
-  "rel60": -14.3,
-  "volumeRatio20": 2.34
+  "distFrom52wHigh": 0.25,
+  "labels": [
+   "20日線の上"
+  ],
+  "ma20": 5235.8,
+  "ma200": 5438.1,
+  "ma60": 5483.7,
+  "rangePos60": 0.66,
+  "rel20": -0.3,
+  "rel60": -5.9,
+  "volumeRatio20": 1.07
  },
  "reasons": [
   "新規大量保有 5.5%（野村證券株式会社）"
@@ -134,7 +136,14 @@
    "kind": "EVENT",
    "label": "新規大量保有",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZD7A"
+  },
+  {
+   "date": "2026-11-10",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-11T01:56:48+09:00"
+ "updatedAt": "2026-11-11T16:04:07+09:00"
 }

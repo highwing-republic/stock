@@ -33,33 +33,35 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-09",
-  "buyBalance": 204300,
-  "buyChangePct": -1.7,
+  "asOf": "2026-11-10",
+  "buyBalance": 195600,
+  "buyChangePct": -5.9,
   "labels": [],
-  "ratio": 20.64,
-  "sellBalance": 9900,
-  "sellChangePct": -3.9
+  "ratio": 20.16,
+  "sellBalance": 9700,
+  "sellChangePct": -5.8
  },
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-11",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.27,
-  "labels": [],
-  "ma20": 5256.5,
-  "ma200": 5800.5,
-  "ma60": 5451.6,
-  "rangePos60": 0.14,
-  "rel20": 5.4,
-  "rel60": -2.6,
-  "volumeRatio20": 0.82
+  "distFrom52wHigh": 0.25,
+  "labels": [
+   "20日線の上"
+  ],
+  "ma20": 5265.5,
+  "ma200": 5791.3,
+  "ma60": 5446.5,
+  "rangePos60": 0.35,
+  "rel20": 5.2,
+  "rel60": 1.6,
+  "volumeRatio20": 0.66
  },
  "reasons": [
   "新規大量保有 5%（みずほ信託銀行株式会社）",
-  "TOPIX連動ETF比 +5.4pt（20日）",
-  "信用買残 -2%"
+  "TOPIX連動ETF比 +5.2pt（20日）",
+  "信用買残 -6%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -69,7 +71,14 @@
    "kind": "EVENT",
    "label": "新規大量保有",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCKB"
+  },
+  {
+   "date": "2026-11-10",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-11T01:56:48+09:00"
+ "updatedAt": "2026-11-11T16:04:07+09:00"
 }

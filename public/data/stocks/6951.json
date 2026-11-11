@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T01:55:21+09:00",
+  "updatedAt": "2026-11-11T16:03:06+09:00",
   "company": {
     "securityCode": "6951",
     "ticker": "6951.T",
@@ -20,7 +20,7 @@
       "purpose": "証券業務に係る商品在庫として保有している。 / 信託財産の運用として保有している。",
       "importantProposal": true,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.58,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [
@@ -29,11 +29,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": 9.11,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.0,
-        "volumeRatio": null,
+        "returnCurrent": 9.11,
+        "volumeRatio": 0.58,
         "marketExcessReturn": null
       }
     },
@@ -64,7 +64,7 @@
         "return1d": -5.25,
         "return5d": -13.56,
         "return20d": null,
-        "returnCurrent": -13.56,
+        "returnCurrent": -5.68,
         "volumeRatio": 0.92,
         "marketExcessReturn": -9.0
       }
@@ -96,7 +96,7 @@
         "return1d": 1.05,
         "return5d": -0.07,
         "return20d": -13.31,
-        "returnCurrent": -23.33,
+        "returnCurrent": -16.35,
         "volumeRatio": 1.06,
         "marketExcessReturn": 1.09
       }
@@ -127,7 +127,7 @@
         "return1d": -5.42,
         "return5d": 4.45,
         "return20d": 15.41,
-        "returnCurrent": -16.54,
+        "returnCurrent": -8.93,
         "volumeRatio": 0.91,
         "marketExcessReturn": 5.83
       }
@@ -4150,9 +4150,19 @@
       "open": 6555.0,
       "high": 6662.0,
       "low": 6503.0,
-      "close": null,
-      "adj_close": null,
+      "close": 6609.0,
+      "adj_close": 6609.0,
       "volume": 304900
+    },
+    {
+      "ticker": "6951.T",
+      "trade_date": "2026-11-11",
+      "open": 6623.0,
+      "high": 6850.0,
+      "low": 6549.0,
+      "close": 6825.0,
+      "adj_close": 6825.0,
+      "volume": 212200
     }
   ],
   "benchmark": [
@@ -8172,9 +8182,19 @@
       "open": 410.1000061035156,
       "high": 411.79998779296875,
       "low": 407.29998779296875,
-      "close": null,
-      "adj_close": null,
+      "close": 410.5,
+      "adj_close": 410.5,
       "volume": 18734020
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-11",
+      "open": 410.1000061035156,
+      "high": 413.8999938964844,
+      "low": 409.3999938964844,
+      "close": 413.8999938964844,
+      "adj_close": 413.8999938964844,
+      "volume": 16926430
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

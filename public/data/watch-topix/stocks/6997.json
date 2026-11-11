@@ -123,9 +123,9 @@
   {
    "d1": -9.5,
    "d20": null,
-   "d5": null,
+   "d5": 2.7,
    "eventId": "edinet:S100ZBO4",
-   "excess5": null
+   "excess5": 2.7
   },
   {
    "d1": 2.3,
@@ -136,18 +136,21 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-09",
-  "buyBalance": 1341000,
-  "buyChangePct": -4.7,
-  "labels": [],
-  "ratio": 60.95,
-  "sellBalance": 22000,
-  "sellChangePct": 1.4
+  "asOf": "2026-11-10",
+  "buyBalance": 1363400,
+  "buyChangePct": -3.1,
+  "labels": [
+   "信用倍率改善",
+   "売残増加"
+  ],
+  "ratio": 40.94,
+  "sellBalance": 33300,
+  "sellChangePct": 53.5
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -2.4,
-  "currentPrice": 1362.0,
+  "benchReturn": 0.5,
+  "currentPrice": 1584.0,
   "d20": {
    "benchReturn": 2.5,
    "excessReturn": -41.1,
@@ -166,27 +169,27 @@
    "pendingDays": 0,
    "stockReturn": -48.0
   },
-  "excessReturn": -72.2,
+  "excessReturn": -70.9,
   "initialDate": "2026-06-24",
   "initialPrice": 5360.0,
-  "stockReturn": -74.6
+  "stockReturn": -70.4
  },
  "priceSetup": {
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-11",
   "atrState": "通常",
-  "distFrom52wHigh": 0.78,
+  "distFrom52wHigh": 0.74,
   "labels": [],
-  "ma20": 1700.2,
+  "ma20": 1639.0,
   "ma200": 2688.9,
-  "ma60": 2378.7,
-  "rangePos60": 0.05,
-  "rel20": -33.0,
-  "rel60": -51.5,
-  "volumeRatio20": 0.94
+  "ma60": 2332.2,
+  "rangePos60": 0.16,
+  "rel20": -20.3,
+  "rel60": -42.2,
+  "volumeRatio20": 1.69
  },
  "reasons": [
   "1.7pt買い増し 5.1%→6.8%",
-  "信用買残 -5%"
+  "信用買残 -3%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -415,5 +418,5 @@
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZD85"
   }
  ],
- "updatedAt": "2026-11-11T01:56:48+09:00"
+ "updatedAt": "2026-11-11T16:04:07+09:00"
 }

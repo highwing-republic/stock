@@ -1,11 +1,72 @@
 {
-  "updatedAt": "2026-11-11T01:55:21+09:00",
+  "updatedAt": "2026-11-11T16:03:06+09:00",
   "company": {
     "securityCode": "369A",
     "ticker": "369A.T",
     "name": "株式会社エータイ"
   },
   "events": [
+    {
+      "docId": "S100ZEG9",
+      "ticker": "369A.T",
+      "securityCode": "369A",
+      "companyName": "株式会社エータイ",
+      "submitDatetime": "2026-11-11 15:44",
+      "filerName": "樺山　伸一",
+      "reportType": "correction",
+      "holdingRatio": 54.38,
+      "previousHoldingRatio": 54.38,
+      "holdingChange": 0.0,
+      "purpose": "発行会社の創業者であり、安定株主として保有しております。 / 安定株主として保有。",
+      "importantProposal": true,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 20,
+      "signalReasons": [
+        "重要提案行為あり"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -1.57,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
+    {
+      "docId": "S100ZE7Z",
+      "ticker": "369A.T",
+      "securityCode": "369A",
+      "companyName": "株式会社エータイ",
+      "submitDatetime": "2026-11-11 15:43",
+      "filerName": "樺山　伸一",
+      "reportType": "correction",
+      "holdingRatio": 54.38,
+      "previousHoldingRatio": 54.43,
+      "holdingChange": -0.05,
+      "purpose": "発行会社の創業者であり、安定株主として保有しております。 / 安定株主として保有。",
+      "importantProposal": true,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "重要提案行為あり",
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -1.57,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z9PO",
       "ticker": "369A.T",
@@ -31,7 +92,7 @@
         "return1d": 1.0,
         "return5d": -0.84,
         "return20d": null,
-        "returnCurrent": -2.89,
+        "returnCurrent": -2.05,
         "volumeRatio": 0.31,
         "marketExcessReturn": 0.16
       }
@@ -62,7 +123,7 @@
         "return1d": 1.0,
         "return5d": -0.84,
         "return20d": null,
-        "returnCurrent": -2.89,
+        "returnCurrent": -2.05,
         "volumeRatio": 0.31,
         "marketExcessReturn": 0.16
       }
@@ -2835,9 +2896,19 @@
       "open": 2488.0,
       "high": 2488.0,
       "low": 2428.0,
-      "close": null,
-      "adj_close": null,
+      "close": 2479.0,
+      "adj_close": 2479.0,
       "volume": 11300
+    },
+    {
+      "ticker": "369A.T",
+      "trade_date": "2026-11-11",
+      "open": 2479.0,
+      "high": 2481.0,
+      "low": 2419.0,
+      "close": 2440.0,
+      "adj_close": 2440.0,
+      "volume": 11900
     }
   ],
   "benchmark": [
@@ -6857,9 +6928,19 @@
       "open": 410.1000061035156,
       "high": 411.79998779296875,
       "low": 407.29998779296875,
-      "close": null,
-      "adj_close": null,
+      "close": 410.5,
+      "adj_close": 410.5,
       "volume": 18734020
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-11",
+      "open": 410.1000061035156,
+      "high": 413.8999938964844,
+      "low": 409.3999938964844,
+      "close": 413.8999938964844,
+      "adj_close": 413.8999938964844,
+      "volume": 16926430
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

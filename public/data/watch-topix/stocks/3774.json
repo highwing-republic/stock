@@ -10,9 +10,7 @@
   "id": "3774-2026-11-06",
   "overextended": false,
   "setupType": "TREND",
-  "setups": [
-   "TREND"
-  ],
+  "setups": [],
   "startedAt": "2026-11-06",
   "status": "CONFIRMED",
   "statusHistory": [
@@ -61,16 +59,17 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-09",
-  "buyBalance": 78000,
-  "buyChangePct": -23.0,
+  "asOf": "2026-11-10",
+  "buyBalance": 86800,
+  "buyChangePct": -14.3,
   "labels": [
    "信用買残減少",
-   "信用倍率改善"
+   "信用倍率改善",
+   "売残増加"
   ],
   "ratio": 1.54,
-  "sellBalance": 50700,
-  "sellChangePct": 9.7
+  "sellBalance": 56400,
+  "sellChangePct": 22.1
  },
  "pastEpisodes": [
   {
@@ -82,54 +81,54 @@
   }
  ],
  "performance": {
-  "benchReturn": 3.5,
-  "currentPrice": 3843.0,
+  "benchReturn": 6.5,
+  "currentPrice": 4010.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 19,
+   "pendingDays": 17,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 4,
+   "pendingDays": 2,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 59,
+   "pendingDays": 57,
    "stockReturn": null
   },
-  "excessReturn": 3.0,
+  "excessReturn": 4.7,
   "initialDate": "2026-11-06",
   "initialPrice": 3607.0,
-  "stockReturn": 6.5
+  "stockReturn": 11.2
  },
  "priceSetup": {
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-11",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.01,
+  "distFrom52wHigh": 0.05,
   "labels": [
    "20日線の上",
-   "60日レンジ上位7%",
+   "60日レンジ上位19%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 3549.6,
-  "ma200": 2989.9,
-  "ma60": 3438.2,
-  "rangePos60": 0.93,
-  "rel20": 13.6,
-  "rel60": 11.9,
-  "volumeRatio20": 1.75
+  "ma20": 3588.3,
+  "ma200": 3003.9,
+  "ma60": 3456.6,
+  "rangePos60": 0.81,
+  "rel20": 16.9,
+  "rel60": 19.4,
+  "volumeRatio20": 1.61
  },
  "reasons": [
   "新規大量保有 5.3%（野村證券株式会社）",
-  "出来高 1.7倍で60日高値更新",
-  "60日レンジ上位7%",
-  "20日線上向き"
+  "60日レンジ上位19%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +16.9pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -188,7 +187,21 @@
    "kind": "STATUS",
    "label": "CONFIRMED",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-10",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-10",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-11T01:56:48+09:00"
+ "updatedAt": "2026-11-11T16:04:07+09:00"
 }
