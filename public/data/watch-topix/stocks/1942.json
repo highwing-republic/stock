@@ -1,0 +1,103 @@
+{
+ "company": {
+  "name": "関電工",
+  "securityCode": "1942",
+  "tradingViewSymbol": "TSE:1942"
+ },
+ "episode": {
+  "closeReason": "NO_SETUP",
+  "closedAt": "2026-11-06",
+  "id": "1942-2026-10-07",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-10-07",
+  "status": "CLOSED",
+  "statusHistory": [
+   {
+    "date": "2026-10-07",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-11-06",
+    "from": "CANDIDATE",
+    "reason_code": "NO_SETUP",
+    "to": "CLOSED"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": 0.2,
+   "d20": -21.8,
+   "d5": -3.5,
+   "eventId": "edinet:S100Z62I",
+   "excess5": -1.4
+  }
+ ],
+ "margin": {
+  "asOf": "2026-11-10",
+  "buyBalance": 423400,
+  "buyChangePct": -21.9,
+  "labels": [
+   "信用買残減少"
+  ],
+  "ratio": 17.86,
+  "sellBalance": 23700,
+  "sellChangePct": -17.1
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-11-10",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.4,
+  "labels": [],
+  "ma20": 4909.2,
+  "ma200": 5869.3,
+  "ma60": 5289.0,
+  "rangePos60": 0.25,
+  "rel20": -12.6,
+  "rel60": -11.8,
+  "volumeRatio20": 0.81
+ },
+ "reasons": [
+  "新規大量保有 7%（キャピタル・リサーチ・アンド・マネージメント・カンパニー）",
+  "信用買残 -22%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-10-07",
+   "detail": "保有割合 6.99%（キャピタル・リサーチ・アンド・マネージメント・カンパニー）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z62I"
+  },
+  {
+   "date": "2026-10-07",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-29",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-06",
+   "detail": "期限内にPrice Setupが成立しなかった",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-11-12T02:03:38+09:00"
+}

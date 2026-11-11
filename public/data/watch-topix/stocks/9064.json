@@ -9,9 +9,8 @@
   "closedAt": null,
   "id": "9064-2026-11-04",
   "overextended": true,
-  "setupType": "TREND",
+  "setupType": "RECOVERY",
   "setups": [
-   "TREND",
    "RECOVERY"
   ],
   "startedAt": "2026-11-04",
@@ -69,54 +68,54 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -0.0,
-  "currentPrice": 2297.5,
+  "benchReturn": -0.8,
+  "currentPrice": 2325.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 15,
+   "pendingDays": 16,
    "stockReturn": null
   },
   "d5": {
-   "benchReturn": -0.0,
-   "excessReturn": 4.7,
-   "pendingDays": 0,
-   "stockReturn": 4.7
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 1,
+   "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 55,
+   "pendingDays": 56,
    "stockReturn": null
   },
-  "excessReturn": 4.7,
+  "excessReturn": 6.7,
   "initialDate": "2026-11-04",
   "initialPrice": 2194.5,
-  "stockReturn": 4.7
+  "stockReturn": 5.9
  },
  "priceSetup": {
-  "asOf": "2026-11-11",
+  "asOf": "2026-11-10",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.03,
+  "distFrom52wHigh": 0.02,
   "labels": [
    "20日線の上",
-   "60日レンジ上位14%",
+   "60日レンジ上位8%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2109.0,
-  "ma200": 1886.7,
-  "ma60": 2006.0,
-  "rangePos60": 0.86,
-  "rel20": 15.3,
-  "rel60": 24.1,
-  "volumeRatio20": 0.82
+  "ma20": 2097.6,
+  "ma200": 1885.4,
+  "ma60": 1999.6,
+  "rangePos60": 0.92,
+  "rel20": 18.4,
+  "rel60": 25.6,
+  "volumeRatio20": 1.03
  },
  "reasons": [
   "新規大量保有 5%（Ｆａｒａｌｌｏｎ　Ｃａｐｉｔａｌ　Ｍａｎａｇｅｍｅｎｔ，　Ｌ．Ｌ．Ｃ．）",
-  "60日レンジ上位14%",
+  "60日レンジ上位8%",
   "20日線上向き",
-  "TOPIX連動ETF比 +15.3pt（20日）"
+  "TOPIX連動ETF比 +18.4pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -189,14 +188,7 @@
    "kind": "SETUP",
    "label": "Price Setup変化",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-11-11",
-   "detail": "RECOVERY → TREND",
-   "kind": "SETUP",
-   "label": "Price Setup改善",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-11T23:46:55+09:00"
+ "updatedAt": "2026-11-12T02:03:38+09:00"
 }

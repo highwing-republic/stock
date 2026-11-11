@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T23:45:55+09:00",
+  "updatedAt": "2026-11-12T02:02:35+09:00",
   "company": {
     "securityCode": "656A",
     "ticker": "656A.T",
@@ -32,7 +32,7 @@
         "return1d": null,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": null,
+        "returnCurrent": 0.0,
         "volumeRatio": null,
         "marketExcessReturn": null
       }
@@ -63,7 +63,7 @@
         "return1d": null,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": null,
+        "returnCurrent": 0.0,
         "volumeRatio": null,
         "marketExcessReturn": null
       }
@@ -93,7 +93,7 @@
         "return1d": null,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": null,
+        "returnCurrent": 0.0,
         "volumeRatio": null,
         "marketExcessReturn": null
       }
@@ -102,12 +102,42 @@
   "prices": [
     {
       "ticker": "656A.T",
+      "trade_date": "2026-11-06",
+      "open": 1034.0,
+      "high": 1165.0,
+      "low": 1034.0,
+      "close": 1090.0,
+      "adj_close": 1090.0,
+      "volume": 811000
+    },
+    {
+      "ticker": "656A.T",
+      "trade_date": "2026-11-09",
+      "open": 1240.0,
+      "high": 1323.0,
+      "low": 1173.0,
+      "close": 1247.0,
+      "adj_close": 1247.0,
+      "volume": 1124300
+    },
+    {
+      "ticker": "656A.T",
+      "trade_date": "2026-11-10",
+      "open": 1277.0,
+      "high": 1294.0,
+      "low": 1165.0,
+      "close": 1220.0,
+      "adj_close": 1220.0,
+      "volume": 621100
+    },
+    {
+      "ticker": "656A.T",
       "trade_date": "2026-11-11",
       "open": 1230.0,
       "high": 1266.0,
       "low": 1157.0,
-      "close": 1196.0,
-      "adj_close": 1196.0,
+      "close": null,
+      "adj_close": null,
       "volume": 354900
     }
   ],
@@ -4138,8 +4168,8 @@
       "open": 410.1000061035156,
       "high": 413.8999938964844,
       "low": 409.3999938964844,
-      "close": 413.8999938964844,
-      "adj_close": 413.8999938964844,
+      "close": null,
+      "adj_close": null,
       "volume": 16926430
     }
   ],

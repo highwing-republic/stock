@@ -10,7 +10,10 @@
   "id": "9336-2026-09-25",
   "overextended": false,
   "setupType": "TREND",
-  "setups": [],
+  "setups": [
+   "TREND",
+   "RECOVERY"
+  ],
   "startedAt": "2026-09-25",
   "status": "REACTED",
   "statusHistory": [
@@ -64,12 +67,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -4.0,
-  "currentPrice": 3945.0,
+  "benchReturn": -4.8,
+  "currentPrice": 4320.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 1,
+   "pendingDays": 2,
    "stockReturn": null
   },
   "d5": {
@@ -81,34 +84,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 41,
+   "pendingDays": 42,
    "stockReturn": null
   },
-  "excessReturn": 6.9,
+  "excessReturn": 17.4,
   "initialDate": "2026-10-14",
   "initialPrice": 3835.0,
-  "stockReturn": 2.9
+  "stockReturn": 12.6
  },
  "priceSetup": {
-  "asOf": "2026-11-11",
-  "atrState": "高ボラ",
-  "distFrom52wHigh": 0.1,
+  "asOf": "2026-11-10",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.0,
   "labels": [
+   "20日線の上",
+   "60日レンジ上位0%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 4000.8,
-  "ma200": 3836.1,
-  "ma60": 3820.0,
-  "rangePos60": 0.52,
-  "rel20": 7.8,
-  "rel60": 6.1,
-  "volumeRatio20": 1.59
+  "ma20": 3994.0,
+  "ma200": 3836.9,
+  "ma60": 3818.8,
+  "rangePos60": 1.0,
+  "rel20": 21.5,
+  "rel60": 20.1,
+  "volumeRatio20": 0.77
  },
  "reasons": [
   "新規大量保有 5.1%（ＦＩＡＭ　ＬＬＣ）",
-  "TOPIX連動ETF比 +7.8pt（20日）",
-  "信用買残 -12%"
+  "60日レンジ上位0%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +21.5pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -216,14 +222,7 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-11-11",
-   "detail": "TREND → なし",
-   "kind": "SETUP",
-   "label": "Price Setup解消",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-11T23:46:06+09:00"
+ "updatedAt": "2026-11-12T02:02:44+09:00"
 }
