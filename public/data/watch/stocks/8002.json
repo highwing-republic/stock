@@ -71,16 +71,17 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-10",
-  "buyBalance": 2332800,
-  "buyChangePct": -14.5,
+  "asOf": "2026-11-11",
+  "buyBalance": 2238300,
+  "buyChangePct": -22.8,
   "labels": [
    "信用買残減少",
-   "信用倍率改善"
+   "信用倍率改善",
+   "売残増加"
   ],
-  "ratio": 8.7,
-  "sellBalance": 268100,
-  "sellChangePct": 16.8
+  "ratio": 5.87,
+  "sellBalance": 381300,
+  "sellChangePct": 108.6
  },
  "pastEpisodes": [],
  "performance": {
@@ -89,7 +90,7 @@
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 9,
+   "pendingDays": 7,
    "stockReturn": null
   },
   "d5": {
@@ -101,7 +102,7 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 49,
+   "pendingDays": 47,
    "stockReturn": null
   },
   "excessReturn": 1.4,
@@ -110,28 +111,28 @@
   "stockReturn": -2.0
  },
  "priceSetup": {
-  "asOf": "2026-11-10",
+  "asOf": "2026-11-12",
   "atrState": "通常",
-  "distFrom52wHigh": 0.18,
+  "distFrom52wHigh": 0.15,
   "labels": [
    "20日線の上",
-   "60日レンジ上位17%",
+   "60日レンジ上位16%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 4932.4,
-  "ma200": 5182.9,
-  "ma60": 4903.8,
-  "rangePos60": 0.83,
-  "rel20": 13.3,
-  "rel60": 8.0,
-  "volumeRatio20": 0.98
+  "ma20": 4968.6,
+  "ma200": 5184.6,
+  "ma60": 4913.4,
+  "rangePos60": 0.84,
+  "rel20": 11.3,
+  "rel60": 11.3,
+  "volumeRatio20": 0.92
  },
  "reasons": [
   "新規大量保有 5%（野村證券株式会社）",
-  "60日レンジ上位17%",
-  "20日線を回復",
-  "TOPIX連動ETF比 +13.3pt（20日）"
+  "60日レンジ上位16%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +11.3pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -267,7 +268,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-11",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-12T02:02:44+09:00"
+ "updatedAt": "2026-11-12T16:39:31+09:00"
 }

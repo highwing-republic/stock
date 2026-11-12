@@ -9,8 +9,9 @@
   "closedAt": null,
   "id": "9064-2026-11-04",
   "overextended": true,
-  "setupType": "RECOVERY",
+  "setupType": "TREND",
   "setups": [
+   "TREND",
    "RECOVERY"
   ],
   "startedAt": "2026-11-04",
@@ -54,68 +55,67 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-10",
-  "buyBalance": 100000,
-  "buyChangePct": -34.1,
+  "asOf": "2026-11-11",
+  "buyBalance": 77700,
+  "buyChangePct": -52.3,
   "labels": [
    "信用買残減少",
-   "信用倍率改善",
-   "売残増加"
+   "信用倍率改善"
   ],
-  "ratio": 1.0,
-  "sellBalance": 99600,
-  "sellChangePct": 41.3
+  "ratio": 0.77,
+  "sellBalance": 101300,
+  "sellChangePct": 1.2
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -0.8,
-  "currentPrice": 2325.0,
+  "benchReturn": 0.1,
+  "currentPrice": 2315.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 16,
+   "pendingDays": 14,
    "stockReturn": null
   },
   "d5": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 1,
-   "stockReturn": null
+   "benchReturn": -0.0,
+   "excessReturn": 4.7,
+   "pendingDays": 0,
+   "stockReturn": 4.7
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 56,
+   "pendingDays": 54,
    "stockReturn": null
   },
-  "excessReturn": 6.7,
+  "excessReturn": 5.4,
   "initialDate": "2026-11-04",
   "initialPrice": 2194.5,
-  "stockReturn": 5.9
+  "stockReturn": 5.5
  },
  "priceSetup": {
-  "asOf": "2026-11-10",
+  "asOf": "2026-11-12",
   "atrState": "高ボラ",
   "distFrom52wHigh": 0.02,
   "labels": [
    "20日線の上",
-   "60日レンジ上位8%",
+   "60日レンジ上位10%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2097.6,
-  "ma200": 1885.4,
-  "ma60": 1999.6,
-  "rangePos60": 0.92,
-  "rel20": 18.4,
-  "rel60": 25.6,
-  "volumeRatio20": 1.03
+  "ma20": 2120.5,
+  "ma200": 1888.2,
+  "ma60": 2012.4,
+  "rangePos60": 0.9,
+  "rel20": 15.0,
+  "rel60": 25.0,
+  "volumeRatio20": 0.66
  },
  "reasons": [
   "新規大量保有 5%（Ｆａｒａｌｌｏｎ　Ｃａｐｉｔａｌ　Ｍａｎａｇｅｍｅｎｔ，　Ｌ．Ｌ．Ｃ．）",
-  "60日レンジ上位8%",
+  "60日レンジ上位10%",
   "20日線上向き",
-  "TOPIX連動ETF比 +18.4pt（20日）"
+  "TOPIX連動ETF比 +15pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -188,7 +188,14 @@
    "kind": "SETUP",
    "label": "Price Setup変化",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-11",
+   "detail": "RECOVERY → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-12T02:03:38+09:00"
+ "updatedAt": "2026-11-12T16:40:35+09:00"
 }

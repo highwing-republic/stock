@@ -111,22 +111,36 @@
   {
    "d1": -3.9,
    "d20": null,
-   "d5": null,
+   "d5": -0.6,
    "eventId": "edinet:S100ZCDT",
+   "excess5": -0.3
+  },
+  {
+   "d1": 1.0,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZF9T",
+   "excess5": null
+  },
+  {
+   "d1": 1.0,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZG0F",
    "excess5": null
   }
  ],
  "margin": {
-  "asOf": "2026-11-10",
-  "buyBalance": 280900,
-  "buyChangePct": -24.8,
+  "asOf": "2026-11-11",
+  "buyBalance": 279200,
+  "buyChangePct": -19.8,
   "labels": [
    "信用買残減少",
    "信用倍率悪化"
   ],
-  "ratio": 13.7,
-  "sellBalance": 20500,
-  "sellChangePct": -64.1
+  "ratio": 14.17,
+  "sellBalance": 19700,
+  "sellChangePct": -63.9
  },
  "pastEpisodes": [
   {
@@ -138,53 +152,54 @@
   }
  ],
  "performance": {
-  "benchReturn": -0.8,
-  "currentPrice": 2833.0,
+  "benchReturn": 0.1,
+  "currentPrice": 2900.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 16,
+   "pendingDays": 14,
    "stockReturn": null
   },
   "d5": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 1,
-   "stockReturn": null
+   "benchReturn": -0.0,
+   "excessReturn": 2.9,
+   "pendingDays": 0,
+   "stockReturn": 2.9
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 56,
+   "pendingDays": 54,
    "stockReturn": null
   },
-  "excessReturn": 2.4,
+  "excessReturn": 3.9,
   "initialDate": "2026-11-04",
   "initialPrice": 2788.0,
-  "stockReturn": 1.6
+  "stockReturn": 4.0
  },
  "priceSetup": {
-  "asOf": "2026-11-10",
+  "asOf": "2026-11-12",
   "atrState": "通常",
-  "distFrom52wHigh": 0.09,
+  "distFrom52wHigh": 0.07,
   "labels": [
    "20日線の上",
+   "60日レンジ上位26%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2793.0,
-  "ma200": 2870.4,
-  "ma60": 2820.2,
-  "rangePos60": 0.48,
-  "rel20": 8.1,
-  "rel60": 2.1,
-  "volumeRatio20": 0.89
+  "ma20": 2805.4,
+  "ma200": 2868.9,
+  "ma60": 2819.3,
+  "rangePos60": 0.74,
+  "rel20": 9.5,
+  "rel60": 4.6,
+  "volumeRatio20": 0.69
  },
  "reasons": [
-  "0.1pt買い増し 11.7%→11.8%",
+  "0.1pt買い増し 11%→11.1%",
   "30日以内に2回買い増し",
-  "20日線上向き",
-  "TOPIX連動ETF比 +8.1pt（20日）"
+  "60日レンジ上位26%",
+  "20日線上向き"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -355,7 +370,14 @@
    "kind": "EVENT",
    "label": "連続の買い増し",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF9T"
+  },
+  {
+   "date": "2026-11-12",
+   "detail": "10.99% → 11.11%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZG0F"
   }
  ],
- "updatedAt": "2026-11-12T02:03:38+09:00"
+ "updatedAt": "2026-11-12T16:40:35+09:00"
 }

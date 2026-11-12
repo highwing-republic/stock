@@ -27,38 +27,42 @@
   {
    "d1": -7.2,
    "d20": null,
-   "d5": null,
+   "d5": 1.6,
    "eventId": "edinet:S100ZBQQ",
-   "excess5": null
+   "excess5": 1.9
   }
  ],
  "margin": {
-  "asOf": "2026-11-10",
-  "buyBalance": 1094600,
-  "buyChangePct": 0.7,
+  "asOf": "2026-11-11",
+  "buyBalance": 1045400,
+  "buyChangePct": -4.1,
   "labels": [],
-  "ratio": 9.33,
-  "sellBalance": 117300,
-  "sellChangePct": -6.0
+  "ratio": 9.0,
+  "sellBalance": 116200,
+  "sellChangePct": -9.6
  },
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-10",
+  "asOf": "2026-11-12",
   "atrState": "通常",
-  "distFrom52wHigh": 0.16,
-  "labels": [],
-  "ma20": 1586.7,
-  "ma200": 1640.1,
-  "ma60": 1606.1,
-  "rangePos60": 0.42,
-  "rel20": 4.8,
-  "rel60": -0.7,
-  "volumeRatio20": 0.98
+  "distFrom52wHigh": 0.13,
+  "labels": [
+   "20日線の上",
+   "60日線の上"
+  ],
+  "ma20": 1588.5,
+  "ma200": 1641.6,
+  "ma60": 1603.0,
+  "rangePos60": 0.65,
+  "rel20": 6.1,
+  "rel60": 0.7,
+  "volumeRatio20": 0.82
  },
  "reasons": [
   "1.2pt買い増し 7.3%→8.6%",
-  "TOPIX連動ETF比 +4.8pt（20日）"
+  "TOPIX連動ETF比 +6.1pt（20日）",
+  "信用買残 -4%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -75,7 +79,21 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-11",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-12",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-12T02:03:38+09:00"
+ "updatedAt": "2026-11-12T16:40:35+09:00"
 }

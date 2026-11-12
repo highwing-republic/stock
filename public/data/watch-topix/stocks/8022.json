@@ -10,10 +10,7 @@
   "id": "8022-2026-09-24",
   "overextended": false,
   "setupType": "TREND",
-  "setups": [
-   "TREND",
-   "RECOVERY"
-  ],
+  "setups": [],
   "startedAt": "2026-09-24",
   "status": "REACTED",
   "statusHistory": [
@@ -75,16 +72,16 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-10",
-  "buyBalance": 17600,
-  "buyChangePct": -49.1,
+  "asOf": "2026-11-11",
+  "buyBalance": 22200,
+  "buyChangePct": -33.3,
   "labels": [
    "信用買残減少",
    "信用倍率改善"
   ],
-  "ratio": 1.19,
-  "sellBalance": 14800,
-  "sellChangePct": -6.9
+  "ratio": 1.45,
+  "sellBalance": 15300,
+  "sellChangePct": -5.0
  },
  "pastEpisodes": [
   {
@@ -103,8 +100,8 @@
   }
  ],
  "performance": {
-  "benchReturn": -3.4,
-  "currentPrice": 4460.0,
+  "benchReturn": -2.5,
+  "currentPrice": 4115.0,
   "d20": {
    "benchReturn": -2.0,
    "excessReturn": 9.7,
@@ -120,37 +117,30 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 29,
+   "pendingDays": 27,
    "stockReturn": null
   },
-  "excessReturn": 12.9,
+  "excessReturn": 3.5,
   "initialDate": "2026-09-24",
   "initialPrice": 4072.4,
-  "stockReturn": 9.5
+  "stockReturn": 1.0
  },
  "priceSetup": {
-  "asOf": "2026-11-10",
-  "atrState": "通常",
-  "distFrom52wHigh": 0.04,
-  "labels": [
-   "20日線の上",
-   "60日レンジ上位22%",
-   "20日線が上向き",
-   "60日線の上"
-  ],
-  "ma20": 4388.0,
-  "ma200": 3683.9,
-  "ma60": 4185.9,
-  "rangePos60": 0.78,
-  "rel20": 8.2,
-  "rel60": 8.3,
-  "volumeRatio20": 1.03
+  "asOf": "2026-11-12",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.12,
+  "labels": [],
+  "ma20": 4380.5,
+  "ma200": 3693.1,
+  "ma60": 4189.0,
+  "rangePos60": 0.39,
+  "rel20": -1.9,
+  "rel60": 4.2,
+  "volumeRatio20": 5.18
  },
  "reasons": [
   "新規大量保有 5.2%（三井住友信託銀行株式会社）",
-  "60日レンジ上位22%",
-  "20日線を回復",
-  "TOPIX連動ETF比 +8.2pt（20日）"
+  "信用買残 -33%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -293,7 +283,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-12",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-12T02:03:38+09:00"
+ "updatedAt": "2026-11-12T16:40:35+09:00"
 }

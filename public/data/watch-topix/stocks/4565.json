@@ -81,18 +81,20 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-10",
-  "buyBalance": 8970600,
-  "buyChangePct": 7.0,
-  "labels": [],
-  "ratio": 59.96,
-  "sellBalance": 149600,
-  "sellChangePct": 2.3
+  "asOf": "2026-11-11",
+  "buyBalance": 9017600,
+  "buyChangePct": 3.4,
+  "labels": [
+   "信用倍率改善"
+  ],
+  "ratio": 57.55,
+  "sellBalance": 156700,
+  "sellChangePct": 16.6
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -3.2,
-  "currentPrice": 1796.0,
+  "benchReturn": -2.3,
+  "currentPrice": 1788.0,
   "d20": {
    "benchReturn": 0.5,
    "excessReturn": 17.3,
@@ -108,37 +110,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 8,
+   "pendingDays": 6,
    "stockReturn": null
   },
-  "excessReturn": 66.0,
+  "excessReturn": 64.4,
   "initialDate": "2026-08-21",
   "initialPrice": 1103.0,
-  "stockReturn": 62.8
+  "stockReturn": 62.1
  },
  "priceSetup": {
-  "asOf": "2026-11-10",
+  "asOf": "2026-11-12",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.02,
+  "distFrom52wHigh": 0.04,
   "labels": [
    "20日線の上",
-   "60日レンジ上位3%",
+   "60日レンジ上位9%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 1407.1,
-  "ma200": 1040.3,
-  "ma60": 1255.6,
-  "rangePos60": 0.97,
-  "rel20": 50.9,
-  "rel60": 98.0,
-  "volumeRatio20": 1.22
+  "ma20": 1466.9,
+  "ma200": 1050.3,
+  "ma60": 1280.8,
+  "rangePos60": 0.91,
+  "rel20": 55.1,
+  "rel60": 69.3,
+  "volumeRatio20": 0.76
  },
  "reasons": [
   "新規大量保有 5.1%（ゴールドマン・サックス証券株式会社）",
-  "60日レンジ上位3%",
+  "60日レンジ上位9%",
   "20日線上向き",
-  "TOPIX連動ETF比 +50.9pt（20日）"
+  "TOPIX連動ETF比 +55.1pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -407,7 +409,21 @@
    "kind": "SETUP",
    "label": "Price Setup改善",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-11",
+   "detail": "TREND → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup変化",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-12",
+   "detail": "RECOVERY → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-12T02:03:38+09:00"
+ "updatedAt": "2026-11-12T16:40:35+09:00"
 }

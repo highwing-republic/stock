@@ -47,22 +47,23 @@
   {
    "d1": 8.5,
    "d20": null,
-   "d5": null,
+   "d5": 8.3,
    "eventId": "edinet:S100ZBI3",
-   "excess5": null
+   "excess5": 8.3
   }
  ],
  "margin": {
-  "asOf": "2026-11-10",
-  "buyBalance": 622100,
-  "buyChangePct": -34.8,
+  "asOf": "2026-11-11",
+  "buyBalance": 568800,
+  "buyChangePct": -40.9,
   "labels": [
    "信用買残減少",
-   "信用倍率改善"
+   "信用倍率改善",
+   "売残増加"
   ],
-  "ratio": 15.91,
-  "sellBalance": 39100,
-  "sellChangePct": 11.7
+  "ratio": 13.54,
+  "sellBalance": 42000,
+  "sellChangePct": 81.8
  },
  "pastEpisodes": [
   {
@@ -74,53 +75,54 @@
   }
  ],
  "performance": {
-  "benchReturn": -1.2,
-  "currentPrice": 2194.5,
+  "benchReturn": -0.3,
+  "currentPrice": 2276.5,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 17,
+   "pendingDays": 15,
    "stockReturn": null
   },
   "d5": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 2,
-   "stockReturn": null
+   "benchReturn": -0.3,
+   "excessReturn": 3.0,
+   "pendingDays": 0,
+   "stockReturn": 2.7
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 57,
+   "pendingDays": 55,
    "stockReturn": null
   },
-  "excessReturn": 0.2,
+  "excessReturn": 3.0,
   "initialDate": "2026-11-05",
   "initialPrice": 2217.5,
-  "stockReturn": -1.0
+  "stockReturn": 2.7
  },
  "priceSetup": {
-  "asOf": "2026-11-10",
+  "asOf": "2026-11-12",
   "atrState": "通常",
-  "distFrom52wHigh": 0.22,
+  "distFrom52wHigh": 0.19,
   "labels": [
    "20日線の上",
+   "60日レンジ上位2%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2113.5,
-  "ma200": 2266.0,
-  "ma60": 2138.5,
-  "rangePos60": 0.68,
-  "rel20": 8.8,
-  "rel60": 1.0,
-  "volumeRatio20": 1.47
+  "ma20": 2125.4,
+  "ma200": 2263.0,
+  "ma60": 2139.8,
+  "rangePos60": 0.98,
+  "rel20": 11.2,
+  "rel60": 9.0,
+  "volumeRatio20": 1.54
  },
  "reasons": [
   "新規大量保有 5%（ウエリントン・マネージメント・ジャパン・ピーティーイー・リミテッド）",
+  "60日レンジ上位2%",
   "20日線上向き",
-  "TOPIX連動ETF比 +8.8pt（20日）",
-  "信用買残 -35%"
+  "TOPIX連動ETF比 +11.2pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -188,5 +190,5 @@
    "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-12T02:03:38+09:00"
+ "updatedAt": "2026-11-12T16:40:35+09:00"
 }

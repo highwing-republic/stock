@@ -5,17 +5,14 @@
   "tradingViewSymbol": "TSE:7199"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "BROKEN",
+  "closedAt": "2026-11-12",
   "id": "7199-2026-10-29",
   "overextended": false,
   "setupType": "TREND",
-  "setups": [
-   "TREND",
-   "RECOVERY"
-  ],
+  "setups": [],
   "startedAt": "2026-10-29",
-  "status": "CONFIRMED",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-10-29",
@@ -34,6 +31,18 @@
     "from": "WATCH",
     "reason_code": "NEW_HIGH60_VOLUME",
     "to": "CONFIRMED"
+   },
+   {
+    "date": "2026-11-11",
+    "from": "CONFIRMED",
+    "reason_code": "BELOW_MA60",
+    "to": "BROKEN"
+   },
+   {
+    "date": "2026-11-12",
+    "from": "BROKEN",
+    "reason_code": "BROKEN",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-10-29"
@@ -62,24 +71,22 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-10",
-  "buyBalance": 480700,
-  "buyChangePct": -4.5,
-  "labels": [
-   "信用倍率改善"
-  ],
-  "ratio": 7.77,
-  "sellBalance": 61900,
-  "sellChangePct": 13.0
+  "asOf": "2026-11-11",
+  "buyBalance": 494800,
+  "buyChangePct": 4.5,
+  "labels": [],
+  "ratio": 8.41,
+  "sellBalance": 58800,
+  "sellChangePct": 1.2
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -2.6,
-  "currentPrice": 2227.0,
+  "benchReturn": -1.7,
+  "currentPrice": 2033.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 13,
+   "pendingDays": 11,
    "stockReturn": null
   },
   "d5": {
@@ -91,37 +98,29 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 53,
+   "pendingDays": 51,
    "stockReturn": null
   },
-  "excessReturn": 1.5,
+  "excessReturn": -8.0,
   "initialDate": "2026-10-29",
   "initialPrice": 2251.0,
-  "stockReturn": -1.1
+  "stockReturn": -9.7
  },
  "priceSetup": {
-  "asOf": "2026-11-10",
+  "asOf": "2026-11-12",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.04,
-  "labels": [
-   "20日線の上",
-   "60日レンジ上位29%",
-   "20日線が上向き",
-   "60日線の上"
-  ],
-  "ma20": 2190.2,
-  "ma200": 1943.3,
-  "ma60": 2117.7,
-  "rangePos60": 0.71,
-  "rel20": 8.1,
-  "rel60": 11.3,
-  "volumeRatio20": 0.92
+  "distFrom52wHigh": 0.13,
+  "labels": [],
+  "ma20": 2176.1,
+  "ma200": 1944.5,
+  "ma60": 2114.5,
+  "rangePos60": 0.17,
+  "rel20": -2.0,
+  "rel60": 1.0,
+  "volumeRatio20": 1.8
  },
  "reasons": [
-  "新規大量保有 5%（ダルトン　インベストメンツ　インク）",
-  "60日レンジ上位29%",
-  "20日線上向き",
-  "TOPIX連動ETF比 +8.1pt（20日）"
+  "新規大量保有 5%（ダルトン　インベストメンツ　インク）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -215,7 +214,28 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-11",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-11",
+   "detail": "60日線を下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-12",
+   "detail": "Price Setupが崩れた",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-12T02:03:38+09:00"
+ "updatedAt": "2026-11-12T16:40:35+09:00"
 }

@@ -33,34 +33,38 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-10",
-  "buyBalance": 482100,
-  "buyChangePct": 0.3,
+  "asOf": "2026-11-11",
+  "buyBalance": 474300,
+  "buyChangePct": 0.0,
   "labels": [
    "信用倍率改善",
    "売残増加"
   ],
-  "ratio": 26.2,
-  "sellBalance": 18400,
-  "sellChangePct": 53.3
+  "ratio": 31.83,
+  "sellBalance": 14900,
+  "sellChangePct": 25.2
  },
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-10",
+  "asOf": "2026-11-12",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.14,
-  "labels": [],
-  "ma20": 4431.3,
-  "ma200": 4207.7,
-  "ma60": 4684.8,
-  "rangePos60": 0.4,
-  "rel20": -0.8,
-  "rel60": 5.6,
-  "volumeRatio20": 0.8
+  "distFrom52wHigh": 0.09,
+  "labels": [
+   "20日線の上"
+  ],
+  "ma20": 4424.3,
+  "ma200": 4218.8,
+  "ma60": 4685.8,
+  "rangePos60": 0.58,
+  "rel20": 3.2,
+  "rel60": 3.1,
+  "volumeRatio20": 1.01
  },
  "reasons": [
-  "新規大量保有 5%（三井住友ＤＳアセットマネジメント株式会社）"
+  "新規大量保有 5%（三井住友ＤＳアセットマネジメント株式会社）",
+  "TOPIX連動ETF比 +3.2pt（20日）",
+  "52週高値まで9%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -70,7 +74,28 @@
    "kind": "EVENT",
    "label": "新規大量保有",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z92U"
+  },
+  {
+   "date": "2026-11-11",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-11",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-11",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-12T02:03:38+09:00"
+ "updatedAt": "2026-11-12T16:40:35+09:00"
 }

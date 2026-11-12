@@ -60,16 +60,16 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-10",
-  "buyBalance": 50300,
-  "buyChangePct": -35.4,
+  "asOf": "2026-11-11",
+  "buyBalance": 52300,
+  "buyChangePct": -30.5,
   "labels": [
    "信用買残減少",
    "信用倍率改善"
   ],
-  "ratio": 2.49,
-  "sellBalance": 20200,
-  "sellChangePct": -12.9
+  "ratio": 2.67,
+  "sellBalance": 19600,
+  "sellChangePct": -19.3
  },
  "pastEpisodes": [],
  "performance": {
@@ -78,19 +78,19 @@
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 17,
+   "pendingDays": 15,
    "stockReturn": null
   },
   "d5": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 2,
-   "stockReturn": null
+   "benchReturn": -0.3,
+   "excessReturn": -4.5,
+   "pendingDays": 0,
+   "stockReturn": -4.8
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 57,
+   "pendingDays": 55,
    "stockReturn": null
   },
   "excessReturn": 1.9,
@@ -99,26 +99,24 @@
   "stockReturn": -1.3
  },
  "priceSetup": {
-  "asOf": "2026-11-10",
+  "asOf": "2026-11-12",
   "atrState": "通常",
-  "distFrom52wHigh": 0.19,
+  "distFrom52wHigh": 0.21,
   "labels": [
-   "20日線の上",
    "20日線が上向き"
   ],
-  "ma20": 1724.5,
-  "ma200": 1787.2,
-  "ma60": 1805.5,
-  "rangePos60": 0.4,
-  "rel20": 11.7,
-  "rel60": -4.0,
-  "volumeRatio20": 1.29
+  "ma20": 1730.5,
+  "ma200": 1788.7,
+  "ma60": 1799.7,
+  "rangePos60": 0.27,
+  "rel20": 6.7,
+  "rel60": -4.9,
+  "volumeRatio20": 0.89
  },
  "reasons": [
   "新規大量保有 5%（三井住友トラスト・アセットマネジメント株式会社）",
-  "20日線上向き",
-  "TOPIX連動ETF比 +11.7pt（20日）",
-  "信用買残 -35%"
+  "TOPIX連動ETF比 +6.7pt（20日）",
+  "信用買残 -30%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -184,7 +182,14 @@
    "kind": "STATUS",
    "label": "CLOSED",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-12",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-12T02:03:38+09:00"
+ "updatedAt": "2026-11-12T16:40:35+09:00"
 }

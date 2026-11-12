@@ -50,70 +50,72 @@
   {
    "d1": -4.0,
    "d20": null,
-   "d5": null,
+   "d5": 0.6,
    "eventId": "edinet:S100ZBVU",
-   "excess5": null
+   "excess5": 0.9
   }
  ],
  "margin": {
-  "asOf": "2026-11-10",
-  "buyBalance": 177400,
-  "buyChangePct": 5.6,
-  "labels": [],
-  "ratio": 6.03,
-  "sellBalance": 29400,
-  "sellChangePct": -5.5
+  "asOf": "2026-11-11",
+  "buyBalance": 184100,
+  "buyChangePct": 16.5,
+  "labels": [
+   "信用倍率悪化"
+  ],
+  "ratio": 6.55,
+  "sellBalance": 28100,
+  "sellChangePct": -3.1
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 2.1,
-  "currentPrice": 3901.0,
+  "benchReturn": 3.0,
+  "currentPrice": 3914.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 19,
+   "pendingDays": 17,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 4,
+   "pendingDays": 2,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 59,
+   "pendingDays": 57,
    "stockReturn": null
   },
-  "excessReturn": -2.1,
+  "excessReturn": -2.7,
   "initialDate": "2026-11-09",
   "initialPrice": 3901.0,
-  "stockReturn": 0.0
+  "stockReturn": 0.3
  },
  "priceSetup": {
-  "asOf": "2026-11-10",
-  "atrState": "通常",
-  "distFrom52wHigh": 0.08,
+  "asOf": "2026-11-12",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.07,
   "labels": [
    "20日線の上",
-   "60日レンジ上位24%",
+   "60日レンジ上位21%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 3799.5,
-  "ma200": 3745.0,
-  "ma60": 3737.1,
-  "rangePos60": 0.76,
-  "rel20": 8.5,
-  "rel60": 10.0,
-  "volumeRatio20": 1.81
+  "ma20": 3806.2,
+  "ma200": 3743.8,
+  "ma60": 3743.5,
+  "rangePos60": 0.79,
+  "rel20": 7.1,
+  "rel60": 11.6,
+  "volumeRatio20": 0.69
  },
  "reasons": [
   "新規大量保有 5%（野村證券株式会社）",
-  "60日レンジ上位24%",
+  "60日レンジ上位21%",
   "20日線上向き",
-  "TOPIX連動ETF比 +8.5pt（20日）"
+  "TOPIX連動ETF比 +7.1pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -167,5 +169,5 @@
    "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-12T02:03:38+09:00"
+ "updatedAt": "2026-11-12T16:40:35+09:00"
 }
