@@ -68,19 +68,19 @@
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 15,
+   "pendingDays": 16,
    "stockReturn": null
   },
   "d5": {
-   "benchReturn": -0.3,
-   "excessReturn": -0.7,
-   "pendingDays": 0,
-   "stockReturn": -1.0
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 1,
+   "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 55,
+   "pendingDays": 56,
    "stockReturn": null
   },
   "excessReturn": -0.5,
@@ -89,25 +89,23 @@
   "stockReturn": -3.7
  },
  "priceSetup": {
-  "asOf": "2026-11-12",
+  "asOf": "2026-11-11",
   "atrState": "通常",
-  "distFrom52wHigh": 0.2,
+  "distFrom52wHigh": 0.22,
   "labels": [
-   "20日線の上",
    "20日線が上向き"
   ],
-  "ma20": 3789.0,
-  "ma200": 4105.6,
-  "ma60": 3851.5,
-  "rangePos60": 0.42,
-  "rel20": 5.8,
-  "rel60": -0.1,
-  "volumeRatio20": 0.82
+  "ma20": 3785.5,
+  "ma200": 4109.0,
+  "ma60": 3854.8,
+  "rangePos60": 0.26,
+  "rel20": 3.6,
+  "rel60": -2.7,
+  "volumeRatio20": 1.02
  },
  "reasons": [
   "1.1pt買い増し 5.2%→6.2%",
-  "20日線を回復",
-  "TOPIX連動ETF比 +5.8pt（20日）",
+  "TOPIX連動ETF比 +3.6pt（20日）",
   "信用買残 -18%"
  ],
  "schemaVersion": 1,
@@ -160,14 +158,7 @@
    "kind": "STATUS",
    "label": "CLOSED",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-11-12",
-   "detail": "20日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-12T20:50:28+09:00"
+ "updatedAt": "2026-11-13T00:41:47+09:00"
 }

@@ -14,7 +14,7 @@
    "TREND"
   ],
   "startedAt": "2026-11-06",
-  "status": "CONFIRMED",
+  "status": "WATCH",
   "statusHistory": [
    {
     "date": "2026-11-06",
@@ -27,12 +27,6 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
-   },
-   {
-    "date": "2026-11-12",
-    "from": "WATCH",
-    "reason_code": "NEW_HIGH60_VOLUME",
-    "to": "CONFIRMED"
    }
   ],
   "watchStartedAt": "2026-11-10"
@@ -69,9 +63,9 @@
   {
    "d1": -3.8,
    "d20": null,
-   "d5": 1.6,
+   "d5": null,
    "eventId": "edinet:S100ZBQU",
-   "excess5": 1.9
+   "excess5": null
   },
   {
    "d1": 1.5,
@@ -95,54 +89,54 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 0.9,
-  "currentPrice": 2012.0,
+  "benchReturn": 0.8,
+  "currentPrice": 1949.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 18,
+   "pendingDays": 19,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 3,
+   "pendingDays": 4,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 58,
+   "pendingDays": 59,
    "stockReturn": null
   },
-  "excessReturn": 3.4,
+  "excessReturn": 0.3,
   "initialDate": "2026-11-10",
   "initialPrice": 1928.5,
-  "stockReturn": 4.3
+  "stockReturn": 1.1
  },
  "priceSetup": {
-  "asOf": "2026-11-12",
+  "asOf": "2026-11-11",
   "atrState": "通常",
-  "distFrom52wHigh": 0.0,
+  "distFrom52wHigh": 0.03,
   "labels": [
    "20日線の上",
-   "60日レンジ上位0%",
+   "60日レンジ上位19%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 1887.5,
-  "ma200": 1820.3,
-  "ma60": 1876.8,
-  "rangePos60": 1.0,
-  "rel20": 13.0,
-  "rel60": 12.6,
-  "volumeRatio20": 2.76
+  "ma20": 1879.1,
+  "ma200": 1818.6,
+  "ma60": 1874.4,
+  "rangePos60": 0.81,
+  "rel20": 9.3,
+  "rel60": 8.5,
+  "volumeRatio20": 1.52
  },
  "reasons": [
   "新規大量保有 5%（ブラックロック・ジャパン株式会社）",
-  "出来高 2.8倍で60日高値更新",
-  "60日レンジ上位0%",
-  "20日線上向き"
+  "60日レンジ上位19%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +9.3pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -208,21 +202,7 @@
    "kind": "STATUS",
    "label": "WATCH",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-11-12",
-   "detail": "60日高値を更新",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-12",
-   "detail": "60日高値を出来高増で更新",
-   "kind": "STATUS",
-   "label": "CONFIRMED",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-12T20:50:28+09:00"
+ "updatedAt": "2026-11-13T00:41:47+09:00"
 }

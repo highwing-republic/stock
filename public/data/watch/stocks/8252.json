@@ -111,22 +111,8 @@
   {
    "d1": -3.9,
    "d20": null,
-   "d5": -0.6,
+   "d5": null,
    "eventId": "edinet:S100ZCDT",
-   "excess5": -0.3
-  },
-  {
-   "d1": 1.0,
-   "d20": null,
-   "d5": null,
-   "eventId": "edinet:S100ZF9T",
-   "excess5": null
-  },
-  {
-   "d1": 1.0,
-   "d20": null,
-   "d5": null,
-   "eventId": "edinet:S100ZG0F",
    "excess5": null
   }
  ],
@@ -144,12 +130,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 0.1,
-  "currentPrice": 2900.0,
+  "benchReturn": -0.0,
+  "currentPrice": 2870.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 14,
+   "pendingDays": 15,
    "stockReturn": null
   },
   "d5": {
@@ -161,37 +147,36 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 54,
+   "pendingDays": 55,
    "stockReturn": null
   },
-  "excessReturn": 3.9,
+  "excessReturn": 2.9,
   "initialDate": "2026-11-04",
   "initialPrice": 2788.0,
-  "stockReturn": 4.0
+  "stockReturn": 2.9
  },
  "priceSetup": {
-  "asOf": "2026-11-12",
+  "asOf": "2026-11-11",
   "atrState": "通常",
-  "distFrom52wHigh": 0.07,
+  "distFrom52wHigh": 0.08,
   "labels": [
    "20日線の上",
-   "60日レンジ上位26%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2805.4,
-  "ma200": 2868.9,
-  "ma60": 2819.3,
-  "rangePos60": 0.74,
-  "rel20": 9.5,
-  "rel60": 4.6,
-  "volumeRatio20": 0.69
+  "ma20": 2797.8,
+  "ma200": 2869.5,
+  "ma60": 2819.4,
+  "rangePos60": 0.62,
+  "rel20": 7.8,
+  "rel60": 2.5,
+  "volumeRatio20": 1.56
  },
  "reasons": [
-  "0.1pt買い増し 11%→11.1%",
+  "0.1pt買い増し 11.7%→11.8%",
   "30日以内に2回買い増し",
-  "60日レンジ上位26%",
-  "20日線上向き"
+  "20日線上向き",
+  "TOPIX連動ETF比 +7.8pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -371,5 +356,5 @@
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZG0F"
   }
  ],
- "updatedAt": "2026-11-12T20:49:33+09:00"
+ "updatedAt": "2026-11-13T00:40:58+09:00"
 }

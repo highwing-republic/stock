@@ -5,14 +5,14 @@
   "tradingViewSymbol": "TSE:7199"
  },
  "episode": {
-  "closeReason": "BROKEN",
-  "closedAt": "2026-11-12",
+  "closeReason": null,
+  "closedAt": null,
   "id": "7199-2026-10-29",
   "overextended": false,
   "setupType": "TREND",
   "setups": [],
   "startedAt": "2026-10-29",
-  "status": "CLOSED",
+  "status": "BROKEN",
   "statusHistory": [
    {
     "date": "2026-10-29",
@@ -37,12 +37,6 @@
     "from": "CONFIRMED",
     "reason_code": "BELOW_MA60",
     "to": "BROKEN"
-   },
-   {
-    "date": "2026-11-12",
-    "from": "BROKEN",
-    "reason_code": "BROKEN",
-    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-10-29"
@@ -81,12 +75,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -1.7,
-  "currentPrice": 2033.0,
+  "benchReturn": -1.8,
+  "currentPrice": 2039.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 11,
+   "pendingDays": 12,
    "stockReturn": null
   },
   "d5": {
@@ -98,26 +92,28 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 51,
+   "pendingDays": 52,
    "stockReturn": null
   },
-  "excessReturn": -8.0,
+  "excessReturn": -7.6,
   "initialDate": "2026-10-29",
   "initialPrice": 2251.0,
-  "stockReturn": -9.7
+  "stockReturn": -9.4
  },
  "priceSetup": {
-  "asOf": "2026-11-12",
+  "asOf": "2026-11-11",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.13,
-  "labels": [],
-  "ma20": 2176.1,
-  "ma200": 1944.5,
-  "ma60": 2114.5,
-  "rangePos60": 0.17,
-  "rel20": -2.0,
-  "rel60": 1.0,
-  "volumeRatio20": 1.8
+  "distFrom52wHigh": 0.12,
+  "labels": [
+   "20日線が上向き"
+  ],
+  "ma20": 2182.4,
+  "ma200": 1943.9,
+  "ma60": 2115.9,
+  "rangePos60": 0.18,
+  "rel20": -2.8,
+  "rel60": -1.1,
+  "volumeRatio20": 3.43
  },
  "reasons": [
   "新規大量保有 5%（ダルトン　インベストメンツ　インク）"
@@ -228,14 +224,7 @@
    "kind": "STATUS",
    "label": "BROKEN",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-11-12",
-   "detail": "Price Setupが崩れた",
-   "kind": "STATUS",
-   "label": "CLOSED",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-12T20:50:28+09:00"
+ "updatedAt": "2026-11-13T00:41:47+09:00"
 }

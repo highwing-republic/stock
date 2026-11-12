@@ -67,13 +67,13 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -3.9,
-  "currentPrice": 4319.0,
+  "benchReturn": -4.0,
+  "currentPrice": 4154.0,
   "d20": {
-   "benchReturn": -3.9,
-   "excessReturn": 12.5,
-   "pendingDays": 0,
-   "stockReturn": 8.6
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 1,
+   "stockReturn": null
   },
   "d5": {
    "benchReturn": -1.3,
@@ -84,37 +84,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 40,
+   "pendingDays": 41,
    "stockReturn": null
   },
-  "excessReturn": 12.5,
+  "excessReturn": 8.5,
   "initialDate": "2026-10-14",
   "initialPrice": 3976.0,
-  "stockReturn": 8.6
+  "stockReturn": 4.5
  },
  "priceSetup": {
-  "asOf": "2026-11-12",
-  "atrState": "高ボラ",
-  "distFrom52wHigh": 0.02,
+  "asOf": "2026-11-11",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.05,
   "labels": [
    "20日線の上",
-   "60日レンジ上位6%",
+   "60日レンジ上位24%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 4068.4,
-  "ma200": 3624.4,
-  "ma60": 3978.3,
-  "rangePos60": 0.94,
-  "rel20": 12.6,
-  "rel60": 9.4,
-  "volumeRatio20": 2.27
+  "ma20": 4051.3,
+  "ma200": 3620.2,
+  "ma60": 3975.1,
+  "rangePos60": 0.76,
+  "rel20": 9.4,
+  "rel60": 2.4,
+  "volumeRatio20": 1.08
  },
  "reasons": [
   "新規大量保有 5.2%（野村證券株式会社）",
-  "出来高 2.3倍で60日高値更新",
-  "60日レンジ上位6%",
-  "20日線上向き"
+  "60日レンジ上位24%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +9.4pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -201,14 +201,7 @@
    "kind": "STATUS",
    "label": "REACTED",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-11-12",
-   "detail": "60日高値を更新",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-12T20:50:28+09:00"
+ "updatedAt": "2026-11-13T00:41:47+09:00"
 }

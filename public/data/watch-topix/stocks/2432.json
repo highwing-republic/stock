@@ -9,11 +9,8 @@
   "closedAt": null,
   "id": "2432-2026-10-21",
   "overextended": false,
-  "setupType": "TREND",
-  "setups": [
-   "TREND",
-   "RECOVERY"
-  ],
+  "setupType": "BREAKOUT",
+  "setups": [],
   "startedAt": "2026-10-21",
   "status": "REACTED",
   "statusHistory": [
@@ -117,11 +114,11 @@
  ],
  "performance": {
   "benchReturn": -2.7,
-  "currentPrice": 2587.5,
+  "currentPrice": 2537.5,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 5,
+   "pendingDays": 6,
    "stockReturn": null
   },
   "d5": {
@@ -133,36 +130,34 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 45,
+   "pendingDays": 46,
    "stockReturn": null
   },
-  "excessReturn": 4.3,
+  "excessReturn": 2.3,
   "initialDate": "2026-10-21",
   "initialPrice": 2547.0,
-  "stockReturn": 1.6
+  "stockReturn": -0.4
  },
  "priceSetup": {
-  "asOf": "2026-11-12",
+  "asOf": "2026-11-11",
   "atrState": "通常",
-  "distFrom52wHigh": 0.08,
+  "distFrom52wHigh": 0.1,
   "labels": [
-   "20日線の上",
-   "20日線が上向き",
-   "60日線の上"
+   "20日線が上向き"
   ],
-  "ma20": 2579.3,
-  "ma200": 2554.7,
-  "ma60": 2549.0,
-  "rangePos60": 0.58,
-  "rel20": 6.3,
-  "rel60": 9.7,
-  "volumeRatio20": 0.96
+  "ma20": 2576.3,
+  "ma200": 2554.3,
+  "ma60": 2547.0,
+  "rangePos60": 0.42,
+  "rel20": 3.9,
+  "rel60": 5.2,
+  "volumeRatio20": 2.12
  },
  "reasons": [
   "新規大量保有 5.4%（野村アセットマネジメント株式会社）",
-  "20日線を回復",
-  "TOPIX連動ETF比 +6.3pt（20日）",
-  "52週高値まで8%"
+  "TOPIX連動ETF比 +3.9pt（20日）",
+  "52週高値まで10%",
+  "信用買残 -6%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -291,28 +286,7 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-11-12",
-   "detail": "なし → TREND",
-   "kind": "SETUP",
-   "label": "Price Setup改善",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-12",
-   "detail": "20日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-12",
-   "detail": "60日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-12T20:50:28+09:00"
+ "updatedAt": "2026-11-13T00:41:47+09:00"
 }
