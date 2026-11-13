@@ -1,0 +1,210 @@
+{
+ "company": {
+  "name": "出光興産",
+  "securityCode": "5019",
+  "tradingViewSymbol": "TSE:5019"
+ },
+ "episode": {
+  "closeReason": "BROKEN",
+  "closedAt": "2026-11-02",
+  "id": "5019-2026-10-09",
+  "overextended": false,
+  "setupType": "TREND",
+  "setups": [],
+  "startedAt": "2026-10-09",
+  "status": "CLOSED",
+  "statusHistory": [
+   {
+    "date": "2026-10-09",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-10-26",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   },
+   {
+    "date": "2026-10-30",
+    "from": "WATCH",
+    "reason_code": "BELOW_MA20",
+    "to": "BROKEN"
+   },
+   {
+    "date": "2026-11-02",
+    "from": "BROKEN",
+    "reason_code": "BROKEN",
+    "to": "CLOSED"
+   }
+  ],
+  "watchStartedAt": "2026-10-26"
+ },
+ "eventReactions": [
+  {
+   "d1": 0.5,
+   "d20": -15.8,
+   "d5": 3.2,
+   "eventId": "edinet:S100XZUM",
+   "excess5": 3.5
+  },
+  {
+   "d1": 0.5,
+   "d20": -15.8,
+   "d5": 3.2,
+   "eventId": "edinet:S100Y713",
+   "excess5": 3.5
+  },
+  {
+   "d1": 1.4,
+   "d20": 20.0,
+   "d5": 3.4,
+   "eventId": "edinet:S100YU85",
+   "excess5": 0.1
+  },
+  {
+   "d1": 0.5,
+   "d20": -15.8,
+   "d5": 3.2,
+   "eventId": "edinet:S100Z6YQ",
+   "excess5": 3.5
+  }
+ ],
+ "margin": {
+  "asOf": "2026-11-12",
+  "buyBalance": 1123800,
+  "buyChangePct": 33.7,
+  "labels": [
+   "信用買残急増",
+   "売残増加"
+  ],
+  "ratio": 9.23,
+  "sellBalance": 121700,
+  "sellChangePct": 33.2
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": -1.3,
+  "currentPrice": 1488.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 8,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": -1.3,
+   "excessReturn": -4.3,
+   "pendingDays": 0,
+   "stockReturn": -5.6
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 48,
+   "stockReturn": null
+  },
+  "excessReturn": -4.3,
+  "initialDate": "2026-10-26",
+  "initialPrice": 1577.0,
+  "stockReturn": -5.6
+ },
+ "priceSetup": {
+  "asOf": "2026-11-12",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.22,
+  "labels": [],
+  "ma20": 1463.9,
+  "ma200": 1389.0,
+  "ma60": 1487.9,
+  "rangePos60": 0.2,
+  "rel20": -12.5,
+  "rel60": 8.4,
+  "volumeRatio20": 1.71
+ },
+ "reasons": [
+  "1.7pt買い増し 7.8%→9.4%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-08-06",
+   "detail": "保有割合 4.47%（野村アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YU85"
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "9.45% → 0%（アラムコ・オーバーシーズ・カンパニー・ビー・ヴィ）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100XZUM"
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "7.76% → 9.45%（アラムコ・オーバーシーズ・カンパニー・ビー・ヴィ）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z6YQ"
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "保有割合 9.45%（Ａｒａｍｃｏ　Ｄｏｗｎｓｔｒｅａｍ　Ａｓｉａ　Ｐｔｅ．　Ｌｔｄ．）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Y713"
+  },
+  {
+   "date": "2026-10-26",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-26",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-26",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-28",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-30",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-30",
+   "detail": "20日線を連続で下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-02",
+   "detail": "Price Setupが崩れた",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-11-14T02:03:35+09:00"
+}

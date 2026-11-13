@@ -1,0 +1,561 @@
+{
+ "company": {
+  "name": "プラスアルファ・コンサルティング",
+  "securityCode": "4071",
+  "tradingViewSymbol": "TSE:4071"
+ },
+ "episode": {
+  "closeReason": "EXPIRED",
+  "closedAt": "2026-11-06",
+  "id": "4071-2026-06-18",
+  "overextended": false,
+  "setupType": "BREAKOUT",
+  "setups": [
+   "BREAKOUT",
+   "RECOVERY"
+  ],
+  "startedAt": "2026-06-18",
+  "status": "CLOSED",
+  "statusHistory": [
+   {
+    "date": "2026-06-18",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-06-30",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   },
+   {
+    "date": "2026-07-02",
+    "from": "WATCH",
+    "reason_code": "REL20_POSITIVE",
+    "to": "STRENGTHENING"
+   },
+   {
+    "date": "2026-07-03",
+    "from": "STRENGTHENING",
+    "reason_code": "NEW_HIGH60_VOLUME",
+    "to": "CONFIRMED"
+   },
+   {
+    "date": "2026-07-08",
+    "from": "CONFIRMED",
+    "reason_code": "EXCESS_THRESHOLD",
+    "to": "REACTED"
+   },
+   {
+    "date": "2026-11-06",
+    "from": "REACTED",
+    "reason_code": "EXPIRED",
+    "to": "CLOSED"
+   }
+  ],
+  "watchStartedAt": "2026-06-30"
+ },
+ "eventReactions": [
+  {
+   "d1": 2.4,
+   "d20": -3.5,
+   "d5": -1.4,
+   "eventId": "edinet:S100YD3C",
+   "excess5": -0.1
+  },
+  {
+   "d1": 0.3,
+   "d20": -6.9,
+   "d5": 7.5,
+   "eventId": "edinet:S100YICM",
+   "excess5": 7.3
+  },
+  {
+   "d1": -16.2,
+   "d20": -27.4,
+   "d5": -20.5,
+   "eventId": "edinet:S100YQH2",
+   "excess5": -20.3
+  },
+  {
+   "d1": -2.4,
+   "d20": -2.1,
+   "d5": 1.9,
+   "eventId": "edinet:S100YRFV",
+   "excess5": 3.2
+  },
+  {
+   "d1": -2.0,
+   "d20": -3.9,
+   "d5": -4.9,
+   "eventId": "edinet:S100YSPY",
+   "excess5": -7.6
+  },
+  {
+   "d1": -1.5,
+   "d20": -9.5,
+   "d5": -6.2,
+   "eventId": "edinet:S100YU74",
+   "excess5": -9.5
+  },
+  {
+   "d1": 2.6,
+   "d20": -6.5,
+   "d5": -0.7,
+   "eventId": "edinet:S100YXIQ",
+   "excess5": -3.3
+  },
+  {
+   "d1": -1.7,
+   "d20": 3.9,
+   "d5": -2.5,
+   "eventId": "edinet:S100YZMN",
+   "excess5": -0.7
+  },
+  {
+   "d1": -1.7,
+   "d20": 3.9,
+   "d5": -2.5,
+   "eventId": "edinet:S100Z033",
+   "excess5": -0.7
+  },
+  {
+   "d1": 1.9,
+   "d20": 4.6,
+   "d5": 0.1,
+   "eventId": "edinet:S100Z0G6",
+   "excess5": 1.2
+  },
+  {
+   "d1": -0.3,
+   "d20": 12.7,
+   "d5": -0.7,
+   "eventId": "edinet:S100Z45X",
+   "excess5": -3.0
+  },
+  {
+   "d1": 2.4,
+   "d20": 7.3,
+   "d5": 5.7,
+   "eventId": "edinet:S100Z6W3",
+   "excess5": 6.0
+  },
+  {
+   "d1": 0.0,
+   "d20": null,
+   "d5": 3.4,
+   "eventId": "edinet:S100Z8WY",
+   "excess5": 5.4
+  }
+ ],
+ "margin": {
+  "asOf": "2026-11-12",
+  "buyBalance": 144700,
+  "buyChangePct": -18.9,
+  "labels": [
+   "信用買残減少"
+  ],
+  "ratio": 1.92,
+  "sellBalance": 75500,
+  "sellChangePct": -19.9
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": -6.5,
+  "currentPrice": 2237.0,
+  "d20": {
+   "benchReturn": -0.2,
+   "excessReturn": -11.6,
+   "pendingDays": 0,
+   "stockReturn": -11.8
+  },
+  "d5": {
+   "benchReturn": 1.9,
+   "excessReturn": 8.0,
+   "pendingDays": 0,
+   "stockReturn": 9.9
+  },
+  "d60": {
+   "benchReturn": 2.4,
+   "excessReturn": -24.2,
+   "pendingDays": 0,
+   "stockReturn": -21.8
+  },
+  "excessReturn": -7.8,
+  "initialDate": "2026-06-30",
+  "initialPrice": 2608.8,
+  "stockReturn": -14.3
+ },
+ "priceSetup": {
+  "asOf": "2026-11-12",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.18,
+  "labels": [
+   "20日線の上",
+   "60日レンジ上位9%",
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 2281.9,
+  "ma200": 2239.6,
+  "ma60": 2155.4,
+  "rangePos60": 0.91,
+  "rel20": 13.2,
+  "rel60": 20.6,
+  "volumeRatio20": 3.83
+ },
+ "reasons": [
+  "2.7pt買い増し 5.4%→8.1%",
+  "出来高 3.8倍で60日高値更新",
+  "60日レンジ上位9%",
+  "20日線上向き"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-06-17",
+   "detail": "保有割合 5.03%（株式会社ラクス）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YD3C"
+  },
+  {
+   "date": "2026-06-18",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-06-24",
+   "detail": "11.85% → 16.29%（Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YICM"
+  },
+  {
+   "date": "2026-06-29",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-06-30",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-06-30",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-02",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-02",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "STATUS",
+   "label": "STRENGTHENING",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-03",
+   "detail": "TREND → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup変化",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-03",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-03",
+   "detail": "60日高値を出来高増で更新",
+   "kind": "STATUS",
+   "label": "CONFIRMED",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-06",
+   "detail": "RECOVERY → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-06",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-08",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-08",
+   "detail": "TOPIX連動ETFとの差が大きくなった",
+   "kind": "STATUS",
+   "label": "REACTED",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-14",
+   "detail": "株式会社ラクス",
+   "kind": "EVENT",
+   "label": "変更報告（増減不明）",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YQH2"
+  },
+  {
+   "date": "2026-07-15",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-07-22",
+   "detail": "16.29% → 16.29%（Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．）",
+   "kind": "EVENT",
+   "label": "変更報告（増減不明）",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YRFV"
+  },
+  {
+   "date": "2026-07-30",
+   "detail": "5.03% → 22.2%（株式会社ラクス）",
+   "kind": "EVENT",
+   "label": "訂正報告",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YSPY"
+  },
+  {
+   "date": "2026-08-06",
+   "detail": "5.4% → 8.14%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YU74"
+  },
+  {
+   "date": "2026-08-12",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-20",
+   "detail": "8.14% → 6.61%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YXIQ"
+  },
+  {
+   "date": "2026-08-20",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-24",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-24",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-08-28",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-04",
+   "detail": "16.29% → 0%（Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YZMN"
+  },
+  {
+   "date": "2026-09-04",
+   "detail": "22.2% → 22.19%（株式会社ラクス）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z033"
+  },
+  {
+   "date": "2026-09-04",
+   "detail": "6.61% → 2.73%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z0G6"
+  },
+  {
+   "date": "2026-09-25",
+   "detail": "15.71% → 15.62%（鈴村　賢治）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z45X"
+  },
+  {
+   "date": "2026-09-25",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-09-30",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-06",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "17.65% → 17.92%（三室　克哉）",
+   "kind": "EVENT",
+   "label": "買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z6W3"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-19",
+   "detail": "15.71% → 15.68%（鈴村　賢治）",
+   "kind": "EVENT",
+   "label": "訂正報告",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8WY"
+  },
+  {
+   "date": "2026-10-19",
+   "detail": "RECOVERY → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-29",
+   "detail": "BREAKOUT → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup変化",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-30",
+   "detail": "RECOVERY → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-02",
+   "detail": "BREAKOUT → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-04",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-04",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-05",
+   "detail": "RECOVERY → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-06",
+   "detail": "BREAKOUT → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-06",
+   "detail": "観察期限に到達",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-12",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-12",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-11-14T02:04:23+09:00"
+}

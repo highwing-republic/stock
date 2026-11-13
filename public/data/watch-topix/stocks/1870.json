@@ -9,13 +9,12 @@
   "closedAt": null,
   "id": "1870-2026-11-10",
   "overextended": false,
-  "setupType": "TREND",
+  "setupType": "RECOVERY",
   "setups": [
-   "TREND",
    "RECOVERY"
   ],
   "startedAt": "2026-11-10",
-  "status": "STRENGTHENING",
+  "status": "WATCH",
   "statusHistory": [
    {
     "date": "2026-11-10",
@@ -28,12 +27,6 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
-   },
-   {
-    "date": "2026-11-13",
-    "from": "WATCH",
-    "reason_code": "SETUP_IMPROVED",
-    "to": "STRENGTHENING"
    }
   ],
   "watchStartedAt": "2026-11-11"
@@ -68,54 +61,54 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 0.4,
-  "currentPrice": 2182.0,
+  "benchReturn": 0.1,
+  "currentPrice": 2146.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 18,
+   "pendingDays": 19,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 3,
+   "pendingDays": 4,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 58,
+   "pendingDays": 59,
    "stockReturn": null
   },
-  "excessReturn": 3.8,
+  "excessReturn": 2.4,
   "initialDate": "2026-11-11",
   "initialPrice": 2094.0,
-  "stockReturn": 4.2
+  "stockReturn": 2.5
  },
  "priceSetup": {
-  "asOf": "2026-11-13",
+  "asOf": "2026-11-12",
   "atrState": "通常",
-  "distFrom52wHigh": 0.09,
+  "distFrom52wHigh": 0.11,
   "labels": [
    "20日線の上",
-   "60日レンジ上位8%",
+   "60日レンジ上位25%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2094.9,
-  "ma200": 2026.4,
-  "ma60": 2091.5,
-  "rangePos60": 0.92,
-  "rel20": 8.1,
-  "rel60": 13.3,
-  "volumeRatio20": 1.09
+  "ma20": 2087.9,
+  "ma200": 2027.2,
+  "ma60": 2088.7,
+  "rangePos60": 0.75,
+  "rel20": 7.4,
+  "rel60": 11.7,
+  "volumeRatio20": 0.86
  },
  "reasons": [
   "新規大量保有 6.9%（佐藤　弘信）",
-  "60日レンジ上位8%",
+  "60日レンジ上位25%",
   "20日線上向き",
-  "TOPIX連動ETF比 +8.1pt（20日）"
+  "TOPIX連動ETF比 +7.4pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -160,21 +153,7 @@
    "kind": "STATUS",
    "label": "WATCH",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-11-13",
-   "detail": "RECOVERY → TREND",
-   "kind": "SETUP",
-   "label": "Price Setup改善",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-13",
-   "detail": "Price Setupが改善",
-   "kind": "STATUS",
-   "label": "STRENGTHENING",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-13T23:58:11+09:00"
+ "updatedAt": "2026-11-14T02:04:23+09:00"
 }

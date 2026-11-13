@@ -9,9 +9,8 @@
   "closedAt": null,
   "id": "3994-2026-11-09",
   "overextended": false,
-  "setupType": "BREAKOUT",
+  "setupType": "TREND",
   "setups": [
-   "BREAKOUT",
    "TREND",
    "RECOVERY"
   ],
@@ -107,9 +106,9 @@
   {
    "d1": 9.5,
    "d20": null,
-   "d5": 4.3,
+   "d5": null,
    "eventId": "edinet:S100ZCK0",
-   "excess5": -2.6
+   "excess5": null
   }
  ],
  "margin": {
@@ -134,54 +133,53 @@
   }
  ],
  "performance": {
-  "benchReturn": 3.3,
-  "currentPrice": 7460.0,
+  "benchReturn": 3.0,
+  "currentPrice": 7286.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 16,
+   "pendingDays": 17,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 1,
+   "pendingDays": 2,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 56,
+   "pendingDays": 57,
    "stockReturn": null
   },
-  "excessReturn": -8.1,
+  "excessReturn": -10.0,
   "initialDate": "2026-11-09",
   "initialPrice": 7835.0,
-  "stockReturn": -4.8
+  "stockReturn": -7.0
  },
  "priceSetup": {
-  "asOf": "2026-11-13",
+  "asOf": "2026-11-12",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.07,
+  "distFrom52wHigh": 0.09,
   "labels": [
    "20日線の上",
-   "60日レンジ上位23%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 7007.1,
-  "ma200": 4885.0,
-  "ma60": 6445.3,
-  "rangePos60": 0.77,
-  "rel20": 17.8,
-  "rel60": 20.2,
-  "volumeRatio20": 0.67
+  "ma20": 6954.4,
+  "ma200": 4869.9,
+  "ma60": 6428.9,
+  "rangePos60": 0.7,
+  "rel20": 16.4,
+  "rel60": 28.9,
+  "volumeRatio20": 1.24
  },
  "reasons": [
   "新規大量保有 5.1%（みずほ証券株式会社）",
-  "60日レンジ上位23%",
   "20日線上向き",
-  "TOPIX連動ETF比 +17.8pt（20日）"
+  "TOPIX連動ETF比 +16.4pt（20日）",
+  "52週高値まで9%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -289,14 +287,7 @@
    "kind": "SETUP",
    "label": "Price Setup変化",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-11-13",
-   "detail": "TREND → BREAKOUT",
-   "kind": "SETUP",
-   "label": "Price Setup変化",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-13T23:58:11+09:00"
+ "updatedAt": "2026-11-14T02:04:23+09:00"
 }
