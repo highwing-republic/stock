@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T02:30:30+09:00",
+  "updatedAt": "2026-11-13T16:08:25+09:00",
   "company": {
     "securityCode": "9562",
     "ticker": "9562.T",
@@ -19,24 +19,25 @@
       "holdingChange": -13.42,
       "purpose": "発行会社との資本業務提携に基づく株式の保有",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 8.75,
-      "marketExcessReturn": null,
+      "priceChange": 20.5,
+      "volumeRatio": 6.31,
+      "marketExcessReturn": 20.52,
       "signalScore": 0,
       "signalReasons": [
         "出来高2倍以上",
         "出来高3倍以上",
+        "市場超過5%以上",
         "保有割合減少",
         "大幅売却"
       ],
       "stockUnreacted": false,
       "metrics": {
         "return1d": 15.32,
-        "return5d": null,
+        "return5d": 20.5,
         "return20d": null,
-        "returnCurrent": 21.95,
-        "volumeRatio": 8.75,
-        "marketExcessReturn": null
+        "returnCurrent": 20.5,
+        "volumeRatio": 6.31,
+        "marketExcessReturn": 20.52
       }
     }
   ],
@@ -2737,9 +2738,19 @@
       "open": 599.0,
       "high": 599.0,
       "low": 557.0,
-      "close": null,
-      "adj_close": null,
+      "close": 575.0,
+      "adj_close": 575.0,
       "volume": 13200
+    },
+    {
+      "ticker": "9562.T",
+      "trade_date": "2026-11-13",
+      "open": 585.0,
+      "high": 599.0,
+      "low": 578.0,
+      "close": 582.0,
+      "adj_close": 582.0,
+      "volume": 12400
     }
   ],
   "benchmark": [
@@ -6779,9 +6790,19 @@
       "open": 415.20001220703125,
       "high": 417.3999938964844,
       "low": 413.0,
-      "close": null,
-      "adj_close": null,
+      "close": 414.29998779296875,
+      "adj_close": 414.29998779296875,
       "volume": 17611460
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-13",
+      "open": 417.8999938964844,
+      "high": 418.3999938964844,
+      "low": 414.29998779296875,
+      "close": 415.5,
+      "adj_close": 415.5,
+      "volume": 12137480
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

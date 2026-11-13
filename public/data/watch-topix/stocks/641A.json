@@ -1,0 +1,85 @@
+{
+ "company": {
+  "name": "NOK Group",
+  "securityCode": "641A",
+  "tradingViewSymbol": "TSE:641A"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "641A-2026-11-12",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-11-12",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-11-12",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": 2.5,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZG48",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-11-12",
+  "buyBalance": 975600,
+  "buyChangePct": 12.2,
+  "labels": [
+   "信用倍率悪化"
+  ],
+  "ratio": 17.21,
+  "sellBalance": 56700,
+  "sellChangePct": -9.6
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-11-13",
+  "atrState": null,
+  "distFrom52wHigh": null,
+  "labels": [
+   "20日線の上"
+  ],
+  "ma20": 2752.7,
+  "ma200": null,
+  "ma60": null,
+  "rangePos60": null,
+  "rel20": 2.7,
+  "rel60": null,
+  "volumeRatio20": 0.72
+ },
+ "reasons": [
+  "新規大量保有 25.1%（フロイデンベルグ・エス・エー）",
+  "TOPIX連動ETF比 +2.7pt（20日）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-11-12",
+   "detail": "保有割合 25.06%（フロイデンベルグ・エス・エー）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZG48"
+  },
+  {
+   "date": "2026-11-12",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-11-13T16:09:34+09:00"
+}

@@ -5,14 +5,14 @@
   "tradingViewSymbol": "TSE:7199"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "BROKEN",
+  "closedAt": "2026-11-12",
   "id": "7199-2026-10-29",
   "overextended": false,
   "setupType": "TREND",
   "setups": [],
   "startedAt": "2026-10-29",
-  "status": "BROKEN",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-10-29",
@@ -37,6 +37,12 @@
     "from": "CONFIRMED",
     "reason_code": "BELOW_MA60",
     "to": "BROKEN"
+   },
+   {
+    "date": "2026-11-12",
+    "from": "BROKEN",
+    "reason_code": "BROKEN",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-10-29"
@@ -65,22 +71,22 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-11",
-  "buyBalance": 494800,
-  "buyChangePct": 4.5,
+  "asOf": "2026-11-12",
+  "buyBalance": 503000,
+  "buyChangePct": 7.0,
   "labels": [],
-  "ratio": 8.41,
-  "sellBalance": 58800,
-  "sellChangePct": 1.2
+  "ratio": 10.79,
+  "sellBalance": 46600,
+  "sellChangePct": -5.5
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -1.8,
-  "currentPrice": 2039.0,
+  "benchReturn": -1.7,
+  "currentPrice": 2033.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 12,
+   "pendingDays": 10,
    "stockReturn": null
   },
   "d5": {
@@ -92,28 +98,26 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 52,
+   "pendingDays": 50,
    "stockReturn": null
   },
-  "excessReturn": -7.6,
+  "excessReturn": -8.0,
   "initialDate": "2026-10-29",
   "initialPrice": 2251.0,
-  "stockReturn": -9.4
+  "stockReturn": -9.7
  },
  "priceSetup": {
-  "asOf": "2026-11-11",
+  "asOf": "2026-11-13",
   "atrState": "高ボラ",
   "distFrom52wHigh": 0.12,
-  "labels": [
-   "20日線が上向き"
-  ],
-  "ma20": 2182.4,
-  "ma200": 1943.9,
-  "ma60": 2115.9,
+  "labels": [],
+  "ma20": 2171.7,
+  "ma200": 1945.3,
+  "ma60": 2113.5,
   "rangePos60": 0.18,
   "rel20": -2.8,
-  "rel60": -1.1,
-  "volumeRatio20": 3.43
+  "rel60": 2.1,
+  "volumeRatio20": 0.69
  },
  "reasons": [
   "新規大量保有 5%（ダルトン　インベストメンツ　インク）"
@@ -224,7 +228,14 @@
    "kind": "STATUS",
    "label": "BROKEN",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-12",
+   "detail": "Price Setupが崩れた",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-13T02:31:50+09:00"
+ "updatedAt": "2026-11-13T16:09:34+09:00"
 }

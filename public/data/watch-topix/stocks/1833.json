@@ -27,41 +27,46 @@
   {
    "d1": 1.6,
    "d20": null,
-   "d5": null,
+   "d5": 7.3,
    "eventId": "edinet:S100ZCKB",
-   "excess5": null
+   "excess5": 0.4
   }
  ],
  "margin": {
-  "asOf": "2026-11-11",
-  "buyBalance": 192500,
-  "buyChangePct": -7.5,
-  "labels": [],
-  "ratio": 19.25,
-  "sellBalance": 10000,
-  "sellChangePct": -2.9
+  "asOf": "2026-11-12",
+  "buyBalance": 189700,
+  "buyChangePct": -4.3,
+  "labels": [
+   "信用倍率改善"
+  ],
+  "ratio": 16.5,
+  "sellBalance": 11500,
+  "sellChangePct": 15.0
  },
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-11",
-  "atrState": "低ボラ",
-  "distFrom52wHigh": 0.25,
+  "asOf": "2026-11-13",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.23,
   "labels": [
-   "20日線の上"
+   "20日線の上",
+   "20日線が上向き",
+   "60日線の上"
   ],
-  "ma20": 5265.5,
-  "ma200": 5791.3,
-  "ma60": 5446.5,
-  "rangePos60": 0.35,
-  "rel20": 5.2,
-  "rel60": 1.6,
-  "volumeRatio20": 0.66
+  "ma20": 5288.0,
+  "ma200": 5782.5,
+  "ma60": 5441.5,
+  "rangePos60": 0.57,
+  "rel20": 7.5,
+  "rel60": 3.1,
+  "volumeRatio20": 1.0
  },
  "reasons": [
   "新規大量保有 5%（みずほ信託銀行株式会社）",
-  "TOPIX連動ETF比 +5.2pt（20日）",
-  "信用買残 -8%"
+  "20日線上向き",
+  "TOPIX連動ETF比 +7.5pt（20日）",
+  "信用買残 -4%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -78,7 +83,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-13",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-13T02:31:50+09:00"
+ "updatedAt": "2026-11-13T16:09:34+09:00"
 }

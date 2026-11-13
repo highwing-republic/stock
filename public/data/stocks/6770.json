@@ -1,11 +1,42 @@
 {
-  "updatedAt": "2026-11-13T02:30:30+09:00",
+  "updatedAt": "2026-11-13T16:08:25+09:00",
   "company": {
     "securityCode": "6770",
     "ticker": "6770.T",
     "name": "アルプスアルパイン株式会社"
   },
   "events": [
+    {
+      "docId": "S100ZGIC",
+      "ticker": "6770.T",
+      "securityCode": "6770",
+      "companyName": "アルプスアルパイン株式会社",
+      "submitDatetime": "2026-11-13 16:01",
+      "filerName": "株式会社エスグラントコーポレーション",
+      "reportType": "change",
+      "holdingRatio": 10.14,
+      "previousHoldingRatio": 8.67,
+      "holdingChange": 1.47,
+      "purpose": "株式の追加取得または売却の可能性について：提出者として発行者の株価が割安であると判断した場合、今後3ヶ月以内で5％超保有割合を増加する株式取得を行う可能性がある。当該増加は市場内外における取引を通じた取得を想定しており、買付時期・価格・数量について決まったものは無い。なお、発行者の株価動向によっては、予定の通り取得が行われない可能性があり、または株式の売却を行う可能性もある。保有目的及び重要提案行為について：株主価値向上に資する、資本政策及びコーポレートガバナンス等に関する助言及び提案。提案の内容については、以下を含む。①　資本政策の変更（増配及び自己株式取得）②　事業及び資産の譲渡（株主価値向上に資することのない資産及び事業（子会社を含む））提出者は、発行者の株主価値の向上を目的として、発行者との対話を通じ、上記について提案を行っている。 / －",
+      "importantProposal": true,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 40,
+      "signalReasons": [
+        "1pt以上買い増し",
+        "重要提案行為あり"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 1.67,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z3TH",
       "ticker": "6770.T",
@@ -29,7 +60,7 @@
         "return1d": -1.13,
         "return5d": 1.37,
         "return20d": -5.47,
-        "returnCurrent": -8.98,
+        "returnCurrent": -9.08,
         "volumeRatio": 0.93,
         "marketExcessReturn": 0.1
       }
@@ -59,7 +90,7 @@
         "return1d": 1.54,
         "return5d": 4.18,
         "return20d": 6.61,
-        "returnCurrent": -4.96,
+        "returnCurrent": -5.06,
         "volumeRatio": 0.65,
         "marketExcessReturn": 1.3
       }
@@ -89,7 +120,7 @@
         "return1d": -4.4,
         "return5d": -2.47,
         "return20d": -3.93,
-        "returnCurrent": -5.39,
+        "returnCurrent": -5.48,
         "volumeRatio": 1.11,
         "marketExcessReturn": -1.11
       }
@@ -4052,9 +4083,19 @@
       "open": 2001.0,
       "high": 2025.0,
       "low": 1931.5,
-      "close": null,
-      "adj_close": null,
+      "close": 1947.5,
+      "adj_close": 1947.5,
       "volume": 2017600
+    },
+    {
+      "ticker": "6770.T",
+      "trade_date": "2026-11-13",
+      "open": 1950.0,
+      "high": 1989.0,
+      "low": 1950.0,
+      "close": 1980.0,
+      "adj_close": 1980.0,
+      "volume": 1741100
     }
   ],
   "benchmark": [
@@ -8094,9 +8135,19 @@
       "open": 415.20001220703125,
       "high": 417.3999938964844,
       "low": 413.0,
-      "close": null,
-      "adj_close": null,
+      "close": 414.29998779296875,
+      "adj_close": 414.29998779296875,
       "volume": 17611460
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-13",
+      "open": 417.8999938964844,
+      "high": 418.3999938964844,
+      "low": 414.29998779296875,
+      "close": 415.5,
+      "adj_close": 415.5,
+      "volume": 12137480
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

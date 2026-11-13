@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-11-13T02:30:30+09:00",
+  "updatedAt": "2026-11-13T16:08:25+09:00",
   "company": {
     "securityCode": "660A",
     "ticker": "660A.T",
     "name": "株式会社ＲＥＣＥＰＴＩＯＮＩＳＴ"
   },
   "events": [
+    {
+      "docId": "S100ZHG2",
+      "ticker": "660A.T",
+      "securityCode": "660A",
+      "companyName": "株式会社ＲＥＣＥＰＴＩＯＮＩＳＴ",
+      "submitDatetime": "2026-11-13 12:44",
+      "filerName": "大宮　真里子",
+      "reportType": "initial",
+      "holdingRatio": 17.92,
+      "previousHoldingRatio": null,
+      "holdingChange": null,
+      "purpose": "発行会社の創業者であり、安定株主として長期保有するためであります。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 30,
+      "signalReasons": [
+        "新規大量保有"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 0.11,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z951",
       "ticker": "660A.T",
@@ -20,7 +50,7 @@
       "purpose": "純投資",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 1.3,
       "marketExcessReturn": null,
       "signalScore": 30,
       "signalReasons": [
@@ -28,11 +58,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": 0.11,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.0,
-        "volumeRatio": null,
+        "returnCurrent": 0.11,
+        "volumeRatio": 1.3,
         "marketExcessReturn": null
       }
     }
@@ -67,6 +97,16 @@
       "close": null,
       "adj_close": null,
       "volume": 1882800
+    },
+    {
+      "ticker": "660A.T",
+      "trade_date": "2026-11-13",
+      "open": 1050.0,
+      "high": 1088.0,
+      "low": 866.0,
+      "close": 871.0,
+      "adj_close": 871.0,
+      "volume": 5231300
     }
   ],
   "benchmark": [
@@ -4106,9 +4146,19 @@
       "open": 415.20001220703125,
       "high": 417.3999938964844,
       "low": 413.0,
-      "close": null,
-      "adj_close": null,
+      "close": 414.29998779296875,
+      "adj_close": 414.29998779296875,
       "volume": 17611460
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-13",
+      "open": 417.8999938964844,
+      "high": 418.3999938964844,
+      "low": 414.29998779296875,
+      "close": 415.5,
+      "adj_close": 415.5,
+      "volume": 12137480
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

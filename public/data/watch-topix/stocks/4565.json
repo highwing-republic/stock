@@ -9,8 +9,9 @@
   "closedAt": null,
   "id": "4565-2026-08-21",
   "overextended": true,
-  "setupType": "RECOVERY",
+  "setupType": "TREND",
   "setups": [
+   "TREND",
    "RECOVERY"
   ],
   "startedAt": "2026-08-21",
@@ -74,26 +75,26 @@
   {
    "d1": 7.4,
    "d20": null,
-   "d5": null,
+   "d5": 14.2,
    "eventId": "edinet:S100ZCD5",
-   "excess5": null
+   "excess5": 7.3
   }
  ],
  "margin": {
-  "asOf": "2026-11-11",
-  "buyBalance": 9017600,
-  "buyChangePct": 3.4,
+  "asOf": "2026-11-12",
+  "buyBalance": 9055000,
+  "buyChangePct": -3.6,
   "labels": [
    "信用倍率改善"
   ],
-  "ratio": 57.55,
-  "sellBalance": 156700,
-  "sellChangePct": 16.6
+  "ratio": 53.61,
+  "sellBalance": 168900,
+  "sellChangePct": 18.6
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -2.4,
-  "currentPrice": 1811.0,
+  "benchReturn": -2.0,
+  "currentPrice": 1813.0,
   "d20": {
    "benchReturn": 0.5,
    "excessReturn": 17.3,
@@ -109,37 +110,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 7,
+   "pendingDays": 5,
    "stockReturn": null
   },
-  "excessReturn": 66.6,
+  "excessReturn": 66.4,
   "initialDate": "2026-08-21",
   "initialPrice": 1103.0,
-  "stockReturn": 64.2
+  "stockReturn": 64.4
  },
  "priceSetup": {
-  "asOf": "2026-11-11",
+  "asOf": "2026-11-13",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.01,
+  "distFrom52wHigh": 0.03,
   "labels": [
    "20日線の上",
-   "60日レンジ上位2%",
+   "60日レンジ上位6%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 1436.7,
-  "ma200": 1045.4,
-  "ma60": 1269.1,
-  "rangePos60": 0.98,
-  "rel20": 52.7,
-  "rel60": 84.9,
-  "volumeRatio20": 0.81
+  "ma20": 1496.9,
+  "ma200": 1055.3,
+  "ma60": 1292.6,
+  "rangePos60": 0.94,
+  "rel20": 50.8,
+  "rel60": 69.2,
+  "volumeRatio20": 0.72
  },
  "reasons": [
   "新規大量保有 5.1%（ゴールドマン・サックス証券株式会社）",
-  "60日レンジ上位2%",
+  "60日レンジ上位6%",
   "20日線上向き",
-  "TOPIX連動ETF比 +52.7pt（20日）"
+  "TOPIX連動ETF比 +50.8pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -415,7 +416,14 @@
    "kind": "SETUP",
    "label": "Price Setup変化",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-12",
+   "detail": "RECOVERY → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-13T02:31:50+09:00"
+ "updatedAt": "2026-11-13T16:09:34+09:00"
 }

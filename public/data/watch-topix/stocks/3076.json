@@ -10,7 +10,9 @@
   "id": "3076-2026-10-05",
   "overextended": false,
   "setupType": "TREND",
-  "setups": [],
+  "setups": [
+   "TREND"
+  ],
   "startedAt": "2026-10-05",
   "status": "REACTED",
   "statusHistory": [
@@ -64,20 +66,20 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-11",
-  "buyBalance": 149400,
-  "buyChangePct": 0.1,
+  "asOf": "2026-11-12",
+  "buyBalance": 151200,
+  "buyChangePct": 1.0,
   "labels": [
    "信用倍率悪化"
   ],
-  "ratio": 6.79,
-  "sellBalance": 22000,
-  "sellChangePct": -27.2
+  "ratio": 7.68,
+  "sellBalance": 19700,
+  "sellChangePct": -33.4
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -6.0,
-  "currentPrice": 3050.0,
+  "benchReturn": -5.7,
+  "currentPrice": 3140.0,
   "d20": {
    "benchReturn": -5.6,
    "excessReturn": 7.8,
@@ -93,34 +95,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 36,
+   "pendingDays": 34,
    "stockReturn": null
   },
-  "excessReturn": 7.2,
+  "excessReturn": 9.8,
   "initialDate": "2026-10-06",
   "initialPrice": 3015.0,
-  "stockReturn": 1.2
+  "stockReturn": 4.1
  },
  "priceSetup": {
-  "asOf": "2026-11-11",
+  "asOf": "2026-11-13",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.05,
+  "distFrom52wHigh": 0.02,
   "labels": [
+   "20日線の上",
+   "60日レンジ上位18%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 3061.9,
-  "ma200": 2801.4,
-  "ma60": 3004.2,
-  "rangePos60": 0.62,
-  "rel20": 3.5,
-  "rel60": 7.7,
-  "volumeRatio20": 0.76
+  "ma20": 3065.2,
+  "ma200": 2805.1,
+  "ma60": 3009.9,
+  "rangePos60": 0.82,
+  "rel20": 3.6,
+  "rel60": 11.2,
+  "volumeRatio20": 0.68
  },
  "reasons": [
   "新規大量保有 5%（株式会社三菱ＵＦＪフィナンシャル・グループ）",
-  "TOPIX連動ETF比 +3.5pt（20日）",
-  "52週高値まで5%"
+  "60日レンジ上位18%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +3.6pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -277,7 +282,21 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-12",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-12",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-13T02:31:50+09:00"
+ "updatedAt": "2026-11-13T16:09:34+09:00"
 }

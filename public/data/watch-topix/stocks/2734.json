@@ -5,114 +5,116 @@
   "tradingViewSymbol": "TSE:2734"
  },
  "episode": {
-  "closeReason": "BROKEN",
-  "closedAt": "2026-11-11",
-  "id": "2734-2026-11-06",
+  "closeReason": null,
+  "closedAt": null,
+  "id": "2734-2026-11-12",
   "overextended": false,
   "setupType": "RECOVERY",
   "setups": [
    "RECOVERY"
   ],
-  "startedAt": "2026-11-06",
-  "status": "CLOSED",
+  "startedAt": "2026-11-12",
+  "status": "WATCH",
   "statusHistory": [
    {
-    "date": "2026-11-06",
+    "date": "2026-11-12",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
    },
    {
-    "date": "2026-11-09",
+    "date": "2026-11-12",
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
-   },
-   {
-    "date": "2026-11-10",
-    "from": "WATCH",
-    "reason_code": "BELOW_MA60",
-    "to": "BROKEN"
-   },
-   {
-    "date": "2026-11-11",
-    "from": "BROKEN",
-    "reason_code": "BROKEN",
-    "to": "CLOSED"
    }
   ],
-  "watchStartedAt": "2026-11-09"
+  "watchStartedAt": "2026-11-12"
  },
  "eventReactions": [
   {
    "d1": -4.2,
    "d20": null,
-   "d5": null,
+   "d5": -2.5,
    "eventId": "edinet:S100ZBAS",
+   "excess5": -2.2
+  },
+  {
+   "d1": 1.1,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZCYP",
    "excess5": null
   }
  ],
  "margin": {
-  "asOf": "2026-11-11",
-  "buyBalance": 30300,
-  "buyChangePct": -54.6,
+  "asOf": "2026-11-12",
+  "buyBalance": 36400,
+  "buyChangePct": -7.1,
   "labels": [
-   "信用買残減少",
    "信用倍率改善",
    "売残増加"
   ],
-  "ratio": 0.19,
-  "sellBalance": 159200,
-  "sellChangePct": 174.0
+  "ratio": 0.14,
+  "sellBalance": 257200,
+  "sellChangePct": 238.9
  },
- "pastEpisodes": [],
+ "pastEpisodes": [
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-11-11",
+   "id": "2734-2026-11-06",
+   "setupType": "RECOVERY",
+   "startedAt": "2026-11-06"
+  }
+ ],
  "performance": {
-  "benchReturn": 2.9,
-  "currentPrice": 1137.0,
+  "benchReturn": 0.3,
+  "currentPrice": 1160.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 18,
+   "pendingDays": 19,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 3,
+   "pendingDays": 4,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 58,
+   "pendingDays": 59,
    "stockReturn": null
   },
-  "excessReturn": -3.4,
-  "initialDate": "2026-11-09",
-  "initialPrice": 1143.0,
-  "stockReturn": -0.5
+  "excessReturn": 0.6,
+  "initialDate": "2026-11-12",
+  "initialPrice": 1150.0,
+  "stockReturn": 0.9
  },
  "priceSetup": {
-  "asOf": "2026-11-11",
+  "asOf": "2026-11-13",
   "atrState": "通常",
-  "distFrom52wHigh": 0.1,
+  "distFrom52wHigh": 0.08,
   "labels": [
    "20日線の上",
    "20日線が上向き"
   ],
-  "ma20": 1133.5,
-  "ma200": 1104.6,
-  "ma60": 1181.8,
-  "rangePos60": 0.29,
-  "rel20": 6.5,
-  "rel60": 1.7,
-  "volumeRatio20": 1.06
+  "ma20": 1139.0,
+  "ma200": 1105.5,
+  "ma60": 1180.5,
+  "rangePos60": 0.42,
+  "rel20": 6.0,
+  "rel60": 1.8,
+  "volumeRatio20": 0.68
  },
  "reasons": [
-  "新規大量保有 5.1%（三井住友信託銀行株式会社）",
+  "1pt買い増し 5%→6%",
   "20日線上向き",
-  "TOPIX連動ETF比 +6.5pt（20日）",
-  "52週高値まで10%"
+  "TOPIX連動ETF比 +6pt（20日）",
+  "52週高値まで8%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -124,27 +126,6 @@
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBAS"
   },
   {
-   "date": "2026-11-09",
-   "detail": "なし → RECOVERY",
-   "kind": "SETUP",
-   "label": "Price Setup改善",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-09",
-   "detail": "Price Setupが成立",
-   "kind": "STATUS",
-   "label": "WATCH",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-10",
-   "detail": "60日線を下回った",
-   "kind": "STATUS",
-   "label": "BROKEN",
-   "sourceUrl": null
-  },
-  {
    "date": "2026-11-11",
    "detail": "5.01% → 6.01%（光通信株式会社）",
    "kind": "EVENT",
@@ -152,12 +133,12 @@
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCYP"
   },
   {
-   "date": "2026-11-11",
-   "detail": "Price Setupが崩れた",
+   "date": "2026-11-12",
+   "detail": "Price Setupが成立",
    "kind": "STATUS",
-   "label": "CLOSED",
+   "label": "WATCH",
    "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-13T02:31:50+09:00"
+ "updatedAt": "2026-11-13T16:09:34+09:00"
 }

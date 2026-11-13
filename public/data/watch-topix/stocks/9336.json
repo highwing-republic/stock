@@ -10,7 +10,9 @@
   "id": "9336-2026-09-25",
   "overextended": false,
   "setupType": "TREND",
-  "setups": [],
+  "setups": [
+   "TREND"
+  ],
   "startedAt": "2026-09-25",
   "status": "REACTED",
   "statusHistory": [
@@ -52,25 +54,26 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-11",
-  "buyBalance": 21200,
-  "buyChangePct": 19.1,
+  "asOf": "2026-11-12",
+  "buyBalance": 19000,
+  "buyChangePct": 17.3,
   "labels": [
-   "信用倍率悪化"
+   "信用倍率改善",
+   "売残増加"
   ],
-  "ratio": 0.83,
-  "sellBalance": 25600,
-  "sellChangePct": -14.4
+  "ratio": 0.44,
+  "sellBalance": 43600,
+  "sellChangePct": 49.8
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -4.0,
-  "currentPrice": 3945.0,
+  "benchReturn": -3.7,
+  "currentPrice": 4185.0,
   "d20": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 1,
-   "stockReturn": null
+   "benchReturn": -3.9,
+   "excessReturn": 8.6,
+   "pendingDays": 0,
+   "stockReturn": 4.7
   },
   "d5": {
    "benchReturn": -1.3,
@@ -81,33 +84,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 41,
+   "pendingDays": 39,
    "stockReturn": null
   },
-  "excessReturn": 6.9,
+  "excessReturn": 12.8,
   "initialDate": "2026-10-14",
   "initialPrice": 3835.0,
-  "stockReturn": 2.9
+  "stockReturn": 9.1
  },
  "priceSetup": {
-  "asOf": "2026-11-11",
+  "asOf": "2026-11-13",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.1,
+  "distFrom52wHigh": 0.05,
   "labels": [
+   "20日線の上",
+   "60日レンジ上位22%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 4000.8,
-  "ma200": 3836.1,
-  "ma60": 3820.0,
-  "rangePos60": 0.52,
-  "rel20": 7.8,
-  "rel60": 6.1,
-  "volumeRatio20": 1.59
+  "ma20": 4026.2,
+  "ma200": 3835.9,
+  "ma60": 3830.7,
+  "rangePos60": 0.78,
+  "rel20": 9.9,
+  "rel60": 16.6,
+  "volumeRatio20": 1.1
  },
  "reasons": [
   "新規大量保有 5.1%（ＦＩＡＭ　ＬＬＣ）",
-  "TOPIX連動ETF比 +7.8pt（20日）"
+  "60日レンジ上位22%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +9.9pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -222,7 +229,21 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-12",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-12",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-13T02:31:50+09:00"
+ "updatedAt": "2026-11-13T16:09:34+09:00"
 }

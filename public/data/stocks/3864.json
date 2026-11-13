@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T02:30:30+09:00",
+  "updatedAt": "2026-11-13T16:08:25+09:00",
   "company": {
     "securityCode": "3864",
     "ticker": "3864.T",
@@ -20,17 +20,20 @@
       "purpose": "純投資",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 4.29,
       "marketExcessReturn": null,
-      "signalScore": 0,
-      "signalReasons": [],
+      "signalScore": 15,
+      "signalReasons": [
+        "出来高2倍以上",
+        "出来高3倍以上"
+      ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": 2.37,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.34,
-        "volumeRatio": null,
+        "returnCurrent": 8.31,
+        "volumeRatio": 4.29,
         "marketExcessReturn": null
       }
     },
@@ -57,7 +60,7 @@
         "return1d": 1.82,
         "return5d": 2.81,
         "return20d": -1.08,
-        "returnCurrent": -2.07,
+        "returnCurrent": 5.71,
         "volumeRatio": 0.76,
         "marketExcessReturn": 3.96
       }
@@ -89,7 +92,7 @@
         "return1d": 1.39,
         "return5d": -0.09,
         "return20d": 0.95,
-        "returnCurrent": 2.69,
+        "returnCurrent": 10.85,
         "volumeRatio": 0.8,
         "marketExcessReturn": -5.67
       }
@@ -117,7 +120,7 @@
         "return1d": 0.09,
         "return5d": 4.1,
         "return20d": 6.86,
-        "returnCurrent": 5.44,
+        "returnCurrent": 13.81,
         "volumeRatio": 0.92,
         "marketExcessReturn": 1.98
       }
@@ -150,7 +153,7 @@
         "return1d": 7.6,
         "return5d": -0.09,
         "return20d": 5.86,
-        "returnCurrent": 8.33,
+        "returnCurrent": 16.94,
         "volumeRatio": 2.55,
         "marketExcessReturn": -1.32
       }
@@ -3203,9 +3206,19 @@
       "open": 1191.0,
       "high": 1227.0,
       "low": 1173.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1207.0,
+      "adj_close": 1207.0,
       "volume": 261800
+    },
+    {
+      "ticker": "3864.T",
+      "trade_date": "2026-11-13",
+      "open": 1300.0,
+      "high": 1316.0,
+      "low": 1264.0,
+      "close": 1277.0,
+      "adj_close": 1277.0,
+      "volume": 944000
     }
   ],
   "benchmark": [
@@ -7245,9 +7258,19 @@
       "open": 415.20001220703125,
       "high": 417.3999938964844,
       "low": 413.0,
-      "close": null,
-      "adj_close": null,
+      "close": 414.29998779296875,
+      "adj_close": 414.29998779296875,
       "volume": 17611460
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-13",
+      "open": 417.8999938964844,
+      "high": 418.3999938964844,
+      "low": 414.29998779296875,
+      "close": 415.5,
+      "adj_close": 415.5,
+      "volume": 12137480
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"
