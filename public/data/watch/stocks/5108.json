@@ -54,21 +54,21 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-12",
-  "buyBalance": 625700,
-  "buyChangePct": 50.6,
+  "asOf": "2026-11-13",
+  "buyBalance": 334000,
+  "buyChangePct": -17.2,
   "labels": [
-   "信用買残急増",
-   "信用倍率悪化"
+   "信用買残減少",
+   "信用倍率改善"
   ],
-  "ratio": 1.19,
-  "sellBalance": 525700,
-  "sellChangePct": 2.5
+  "ratio": 0.6,
+  "sellBalance": 555700,
+  "sellChangePct": 13.4
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -3.9,
-  "currentPrice": 4319.0,
+  "benchReturn": -4.7,
+  "currentPrice": 4415.0,
   "d20": {
    "benchReturn": -3.9,
    "excessReturn": 12.5,
@@ -84,37 +84,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 40,
+   "pendingDays": 38,
    "stockReturn": null
   },
-  "excessReturn": 12.5,
+  "excessReturn": 15.7,
   "initialDate": "2026-10-14",
   "initialPrice": 3976.0,
-  "stockReturn": 8.6
+  "stockReturn": 11.0
  },
  "priceSetup": {
-  "asOf": "2026-11-12",
+  "asOf": "2026-11-16",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.02,
+  "distFrom52wHigh": 0.01,
   "labels": [
    "20日線の上",
-   "60日レンジ上位6%",
+   "60日レンジ上位7%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 4068.4,
-  "ma200": 3624.4,
-  "ma60": 3978.3,
-  "rangePos60": 0.94,
-  "rel20": 12.6,
-  "rel60": 9.4,
-  "volumeRatio20": 2.27
+  "ma20": 4107.4,
+  "ma200": 3634.1,
+  "ma60": 3988.1,
+  "rangePos60": 0.93,
+  "rel20": 13.4,
+  "rel60": 13.5,
+  "volumeRatio20": 0.8
  },
  "reasons": [
   "新規大量保有 5.2%（野村證券株式会社）",
-  "出来高 2.3倍で60日高値更新",
-  "60日レンジ上位6%",
-  "20日線上向き"
+  "60日レンジ上位7%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +13.4pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -208,7 +208,21 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-13",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-16",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-14T02:03:35+09:00"
+ "updatedAt": "2026-11-16T16:06:52+09:00"
 }

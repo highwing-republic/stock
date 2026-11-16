@@ -41,23 +41,30 @@
   {
    "d1": 17.7,
    "d20": null,
-   "d5": null,
+   "d5": 23.6,
    "eventId": "edinet:S100ZDAE",
+   "excess5": 16.7
+  },
+  {
+   "d1": -3.7,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZDQ2",
    "excess5": null
   }
  ],
  "margin": {
-  "asOf": "2026-11-12",
-  "buyBalance": 3456800,
-  "buyChangePct": -17.6,
+  "asOf": "2026-11-13",
+  "buyBalance": 3502700,
+  "buyChangePct": -10.2,
   "labels": [
    "信用買残減少",
    "信用倍率改善",
    "売残増加"
   ],
-  "ratio": 6.84,
-  "sellBalance": 505300,
-  "sellChangePct": 384.0
+  "ratio": 7.74,
+  "sellBalance": 452600,
+  "sellChangePct": 238.0
  },
  "pastEpisodes": [
   {
@@ -70,23 +77,24 @@
  ],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-12",
+  "asOf": "2026-11-16",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.4,
+  "distFrom52wHigh": 0.43,
   "labels": [
    "20日線の上"
   ],
-  "ma20": 2098.6,
-  "ma200": 2657.3,
-  "ma60": 2240.5,
-  "rangePos60": 0.6,
-  "rel20": -3.5,
-  "rel60": -5.4,
-  "volumeRatio20": 1.12
+  "ma20": 2100.9,
+  "ma200": 2648.8,
+  "ma60": 2228.3,
+  "rangePos60": 0.48,
+  "rel20": 2.2,
+  "rel60": -11.0,
+  "volumeRatio20": 1.03
  },
  "reasons": [
-  "新規大量保有 5.9%（野村證券株式会社）",
-  "信用買残 -18%"
+  "新規大量保有 6.1%（エフィッシモ　キャピタル　マネージメント　ピーティーイー　エルティーディー（Ｅｆｆｉｓｓｉｍｏ　Ｃａｐｉｔａｌ　Ｍａｎａｇｅｍｅｎｔ　Ｐｔｅ　Ｌｔｄ））",
+  "TOPIX連動ETF比 +2.2pt（20日）",
+  "信用買残 -10%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -131,7 +139,14 @@
    "kind": "EVENT",
    "label": "新規大量保有",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDQ2"
+  },
+  {
+   "date": "2026-11-13",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-14T02:04:23+09:00"
+ "updatedAt": "2026-11-16T16:07:30+09:00"
 }

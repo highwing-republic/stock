@@ -72,15 +72,16 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-12",
-  "buyBalance": 441600,
-  "buyChangePct": -6.4,
+  "asOf": "2026-11-13",
+  "buyBalance": 409200,
+  "buyChangePct": -2.4,
   "labels": [
-   "信用倍率改善"
+   "信用倍率改善",
+   "売残増加"
   ],
-  "ratio": 7.04,
-  "sellBalance": 62700,
-  "sellChangePct": 4.8
+  "ratio": 5.93,
+  "sellBalance": 69000,
+  "sellChangePct": 39.1
  },
  "pastEpisodes": [],
  "performance": {
@@ -89,7 +90,7 @@
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 11,
+   "pendingDays": 9,
    "stockReturn": null
   },
   "d5": {
@@ -101,7 +102,7 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 51,
+   "pendingDays": 49,
    "stockReturn": null
   },
   "excessReturn": -3.6,
@@ -110,23 +111,27 @@
   "stockReturn": -11.4
  },
  "priceSetup": {
-  "asOf": "2026-11-12",
+  "asOf": "2026-11-16",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.15,
+  "distFrom52wHigh": 0.07,
   "labels": [
+   "20日線の上",
+   "60日レンジ上位21%",
    "60日線の上"
   ],
-  "ma20": 7057.9,
-  "ma200": 6055.7,
-  "ma60": 6496.6,
-  "rangePos60": 0.55,
-  "rel20": -6.0,
-  "rel60": 2.1,
-  "volumeRatio20": 0.56
+  "ma20": 7060.4,
+  "ma200": 6063.6,
+  "ma60": 6551.0,
+  "rangePos60": 0.79,
+  "rel20": 2.8,
+  "rel60": 41.2,
+  "volumeRatio20": 0.82
  },
  "reasons": [
   "1pt買い増し 9.6%→10.6%",
-  "信用買残 -6%"
+  "60日レンジ上位21%",
+  "TOPIX連動ETF比 +2.8pt（20日）",
+  "52週高値まで7%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -192,7 +197,28 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-13",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-13",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-13",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-14T02:03:35+09:00"
+ "updatedAt": "2026-11-16T16:06:52+09:00"
 }

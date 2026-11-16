@@ -8,9 +8,10 @@
   "closeReason": null,
   "closedAt": null,
   "id": "4536-2026-10-26",
-  "overextended": false,
-  "setupType": "RECOVERY",
+  "overextended": true,
+  "setupType": "TREND",
   "setups": [
+   "TREND",
    "RECOVERY"
   ],
   "startedAt": "2026-10-26",
@@ -53,24 +54,22 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-12",
-  "buyBalance": 219000,
-  "buyChangePct": 1.0,
-  "labels": [
-   "信用倍率悪化"
-  ],
-  "ratio": 11.71,
-  "sellBalance": 18700,
-  "sellChangePct": -16.5
+  "asOf": "2026-11-13",
+  "buyBalance": 222100,
+  "buyChangePct": 10.2,
+  "labels": [],
+  "ratio": 11.75,
+  "sellBalance": 18900,
+  "sellChangePct": -7.4
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -1.0,
-  "currentPrice": 2001.5,
+  "benchReturn": -1.8,
+  "currentPrice": 2085.5,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 8,
+   "pendingDays": 6,
    "stockReturn": null
   },
   "d5": {
@@ -82,37 +81,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 48,
+   "pendingDays": 46,
    "stockReturn": null
   },
-  "excessReturn": 15.1,
+  "excessReturn": 20.7,
   "initialDate": "2026-10-26",
   "initialPrice": 1753.5,
-  "stockReturn": 14.1
+  "stockReturn": 18.9
  },
  "priceSetup": {
-  "asOf": "2026-11-12",
+  "asOf": "2026-11-16",
   "atrState": "通常",
-  "distFrom52wHigh": 0.1,
+  "distFrom52wHigh": 0.06,
   "labels": [
    "20日線の上",
-   "60日レンジ上位12%",
+   "60日レンジ上位6%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 1815.3,
-  "ma200": 1804.3,
-  "ma60": 1781.7,
-  "rangePos60": 0.88,
-  "rel20": 24.2,
-  "rel60": 8.0,
-  "volumeRatio20": 1.16
+  "ma20": 1848.8,
+  "ma200": 1807.8,
+  "ma60": 1787.5,
+  "rangePos60": 0.94,
+  "rel20": 24.1,
+  "rel60": 16.9,
+  "volumeRatio20": 0.99
  },
  "reasons": [
   "1pt買い増し 9.2%→10.2%",
-  "60日レンジ上位12%",
+  "60日レンジ上位6%",
   "20日線上向き",
-  "TOPIX連動ETF比 +24.2pt（20日）"
+  "TOPIX連動ETF比 +24.1pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -171,7 +170,21 @@
    "kind": "SETUP",
    "label": "Price Setup変化",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-13",
+   "detail": "RECOVERY → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-16",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-14T02:03:35+09:00"
+ "updatedAt": "2026-11-16T16:06:52+09:00"
 }

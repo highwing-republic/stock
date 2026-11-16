@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-11-14T02:03:26+09:00",
+  "updatedAt": "2026-11-16T16:06:43+09:00",
   "company": {
     "securityCode": "7294",
     "ticker": "7294.T",
     "name": "株式会社ヨロズ"
   },
   "events": [
+    {
+      "docId": "S100ZEY5",
+      "ticker": "7294.T",
+      "securityCode": "7294",
+      "companyName": "株式会社ヨロズ",
+      "submitDatetime": "2026-11-16 12:16",
+      "filerName": "株式会社三菱ＵＦＪフィナンシャル・グループ",
+      "reportType": "change",
+      "holdingRatio": 3.87,
+      "previousHoldingRatio": 5.26,
+      "holdingChange": -1.39,
+      "purpose": "政策投資 / 政策投資・純投資 / 純投資 / 商品有価証券等として保有するもの",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -2.08,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z6J8",
       "ticker": "7294.T",
@@ -31,7 +61,7 @@
         "return1d": -2.71,
         "return5d": 0.0,
         "return20d": -0.94,
-        "returnCurrent": 2.12,
+        "returnCurrent": 0.0,
         "volumeRatio": 1.02,
         "marketExcessReturn": 4.41
       }
@@ -2944,9 +2974,19 @@
       "open": 870.0,
       "high": 874.0,
       "low": 861.0,
-      "close": null,
-      "adj_close": null,
+      "close": 866.0,
+      "adj_close": 866.0,
       "volume": 40500
+    },
+    {
+      "ticker": "7294.T",
+      "trade_date": "2026-11-16",
+      "open": 858.0,
+      "high": 858.0,
+      "low": 843.0,
+      "close": 848.0,
+      "adj_close": 848.0,
+      "volume": 63100
     }
   ],
   "benchmark": [
@@ -6996,9 +7036,19 @@
       "open": 417.8999938964844,
       "high": 418.3999938964844,
       "low": 414.29998779296875,
-      "close": null,
-      "adj_close": null,
+      "close": 415.5,
+      "adj_close": 415.5,
       "volume": 12137480
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-16",
+      "open": 416.6000061035156,
+      "high": 416.79998779296875,
+      "low": 410.20001220703125,
+      "close": 410.8999938964844,
+      "adj_close": 410.8999938964844,
+      "volume": 20694200
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

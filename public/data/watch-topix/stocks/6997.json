@@ -130,27 +130,34 @@
   {
    "d1": 2.3,
    "d20": null,
-   "d5": null,
+   "d5": 19.1,
    "eventId": "edinet:S100ZD85",
+   "excess5": 12.2
+  },
+  {
+   "d1": -2.5,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZEY0",
    "excess5": null
   }
  ],
  "margin": {
-  "asOf": "2026-11-12",
-  "buyBalance": 1316400,
-  "buyChangePct": -5.7,
+  "asOf": "2026-11-13",
+  "buyBalance": 1302700,
+  "buyChangePct": -4.6,
   "labels": [
    "信用倍率改善",
    "売残増加"
   ],
-  "ratio": 36.07,
-  "sellBalance": 36500,
-  "sellChangePct": 20.9
+  "ratio": 30.72,
+  "sellBalance": 42400,
+  "sellChangePct": 76.7
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 0.6,
-  "currentPrice": 1546.0,
+  "benchReturn": -0.3,
+  "currentPrice": 1545.0,
   "d20": {
    "benchReturn": 2.5,
    "excessReturn": -41.1,
@@ -169,27 +176,27 @@
    "pendingDays": 0,
    "stockReturn": -48.0
   },
-  "excessReturn": -71.8,
+  "excessReturn": -70.9,
   "initialDate": "2026-06-24",
   "initialPrice": 5360.0,
   "stockReturn": -71.2
  },
  "priceSetup": {
-  "asOf": "2026-11-12",
+  "asOf": "2026-11-16",
   "atrState": "通常",
   "distFrom52wHigh": 0.75,
   "labels": [],
-  "ma20": 1613.8,
+  "ma20": 1586.0,
   "ma200": 2688.8,
-  "ma60": 2306.6,
+  "ma60": 2253.6,
   "rangePos60": 0.14,
-  "rel20": -20.6,
-  "rel60": -45.0,
-  "volumeRatio20": 1.01
+  "rel20": -11.5,
+  "rel60": -45.2,
+  "volumeRatio20": 0.92
  },
  "reasons": [
   "1.7pt買い増し 5.1%→6.8%",
-  "信用買残 -6%"
+  "信用買残 -5%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -416,7 +423,14 @@
    "kind": "EVENT",
    "label": "大幅な買い増し",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZD85"
+  },
+  {
+   "date": "2026-11-16",
+   "detail": "5.05% → 3.98%（株式会社三菱ＵＦＪフィナンシャル・グループ）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZEY0"
   }
  ],
- "updatedAt": "2026-11-14T02:04:23+09:00"
+ "updatedAt": "2026-11-16T16:07:30+09:00"
 }

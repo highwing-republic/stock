@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-11-14T02:03:26+09:00",
+  "updatedAt": "2026-11-16T16:06:43+09:00",
   "company": {
     "securityCode": "519A",
     "ticker": "519A.T",
     "name": "株式会社ベーシック"
   },
   "events": [
+    {
+      "docId": "S100ZI1F",
+      "ticker": "519A.T",
+      "securityCode": "519A",
+      "companyName": "株式会社ベーシック",
+      "submitDatetime": "2026-11-16 14:42",
+      "filerName": "三井住友ＤＳアセットマネジメント株式会社",
+      "reportType": "change",
+      "holdingRatio": 4.45,
+      "previousHoldingRatio": 5.14,
+      "holdingChange": -0.69,
+      "purpose": "純投資（投資収益性を重視して行う投資） / 純投資目的（共同保有者から除外）",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -6.0,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YSRZ",
       "ticker": "519A.T",
@@ -32,7 +62,7 @@
         "return1d": 1.13,
         "return5d": 2.26,
         "return20d": -6.77,
-        "returnCurrent": -43.23,
+        "returnCurrent": -46.99,
         "volumeRatio": 0.7,
         "marketExcessReturn": 0.23
       }
@@ -1605,9 +1635,19 @@
       "open": 303.0,
       "high": 308.0,
       "low": 299.0,
-      "close": null,
-      "adj_close": null,
+      "close": 300.0,
+      "adj_close": 300.0,
       "volume": 16000
+    },
+    {
+      "ticker": "519A.T",
+      "trade_date": "2026-11-16",
+      "open": 300.0,
+      "high": 300.0,
+      "low": 280.0,
+      "close": 282.0,
+      "adj_close": 282.0,
+      "volume": 70600
     }
   ],
   "benchmark": [
@@ -5657,9 +5697,19 @@
       "open": 417.8999938964844,
       "high": 418.3999938964844,
       "low": 414.29998779296875,
-      "close": null,
-      "adj_close": null,
+      "close": 415.5,
+      "adj_close": 415.5,
       "volume": 12137480
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-16",
+      "open": 416.6000061035156,
+      "high": 416.79998779296875,
+      "low": 410.20001220703125,
+      "close": 410.8999938964844,
+      "adj_close": 410.8999938964844,
+      "volume": 20694200
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

@@ -86,21 +86,22 @@
   {
    "d1": 7.0,
    "d20": null,
-   "d5": null,
+   "d5": 5.5,
    "eventId": "edinet:S100ZBEN",
-   "excess5": null
+   "excess5": 3.3
   }
  ],
  "margin": {
-  "asOf": "2026-11-12",
-  "buyBalance": 38800,
-  "buyChangePct": -5.8,
+  "asOf": "2026-11-13",
+  "buyBalance": 38000,
+  "buyChangePct": -18.8,
   "labels": [
+   "信用買残減少",
    "信用倍率改善"
   ],
-  "ratio": 0.7,
-  "sellBalance": 55800,
-  "sellChangePct": 11.6
+  "ratio": 0.69,
+  "sellBalance": 55100,
+  "sellChangePct": 4.8
  },
  "pastEpisodes": [
   {
@@ -112,8 +113,8 @@
   }
  ],
  "performance": {
-  "benchReturn": -4.4,
-  "currentPrice": 2312.0,
+  "benchReturn": -5.2,
+  "currentPrice": 2241.0,
   "d20": {
    "benchReturn": 0.2,
    "excessReturn": 8.5,
@@ -129,31 +130,31 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 12,
+   "pendingDays": 10,
    "stockReturn": null
   },
-  "excessReturn": -1.6,
+  "excessReturn": -3.7,
   "initialDate": "2026-08-31",
   "initialPrice": 2459.8,
-  "stockReturn": -6.0
+  "stockReturn": -8.9
  },
  "priceSetup": {
-  "asOf": "2026-11-12",
+  "asOf": "2026-11-16",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.22,
+  "distFrom52wHigh": 0.25,
   "labels": [],
-  "ma20": 2494.8,
-  "ma200": 2434.0,
-  "ma60": 2509.0,
-  "rangePos60": 0.25,
-  "rel20": -14.6,
-  "rel60": 4.8,
-  "volumeRatio20": 0.63
+  "ma20": 2444.9,
+  "ma200": 2431.3,
+  "ma60": 2508.0,
+  "rangePos60": 0.17,
+  "rel20": -15.1,
+  "rel60": 2.2,
+  "volumeRatio20": 0.72
  },
  "reasons": [
   "1pt買い増し 14.9%→15.9%",
   "30日以内に2回買い増し",
-  "信用買残 -6%"
+  "信用買残 -19%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -347,5 +348,5 @@
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBEN"
   }
  ],
- "updatedAt": "2026-11-14T02:04:23+09:00"
+ "updatedAt": "2026-11-16T16:07:30+09:00"
 }

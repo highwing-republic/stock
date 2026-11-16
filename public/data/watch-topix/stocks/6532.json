@@ -120,21 +120,28 @@
    "d5": -6.2,
    "eventId": "edinet:S100Z04E",
    "excess5": -5.1
+  },
+  {
+   "d1": 2.6,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZEXG",
+   "excess5": null
   }
  ],
  "margin": {
-  "asOf": "2026-11-12",
-  "buyBalance": 214800,
-  "buyChangePct": 0.5,
+  "asOf": "2026-11-13",
+  "buyBalance": 207500,
+  "buyChangePct": 3.0,
   "labels": [],
-  "ratio": 0.75,
-  "sellBalance": 286600,
-  "sellChangePct": -13.7
+  "ratio": 0.73,
+  "sellBalance": 286000,
+  "sellChangePct": 1.7
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -0.8,
-  "currentPrice": 11660.0,
+  "benchReturn": -1.6,
+  "currentPrice": 12640.0,
   "d20": {
    "benchReturn": -1.2,
    "excessReturn": 17.8,
@@ -153,33 +160,33 @@
    "pendingDays": 0,
    "stockReturn": 23.3
   },
-  "excessReturn": 87.8,
+  "excessReturn": 104.3,
   "initialDate": "2026-07-01",
   "initialPrice": 6236.7,
-  "stockReturn": 87.0
+  "stockReturn": 102.7
  },
  "priceSetup": {
-  "asOf": "2026-11-12",
-  "atrState": "高ボラ",
-  "distFrom52wHigh": 0.09,
+  "asOf": "2026-11-16",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.01,
   "labels": [
    "20日線の上",
-   "60日レンジ上位20%",
+   "60日レンジ上位3%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 11420.0,
-  "ma200": 6542.6,
-  "ma60": 9006.8,
-  "rangePos60": 0.8,
-  "rel20": 38.0,
-  "rel60": 64.6,
-  "volumeRatio20": 0.94
+  "ma20": 11723.8,
+  "ma200": 6602.2,
+  "ma60": 9173.5,
+  "rangePos60": 0.97,
+  "rel20": 28.1,
+  "rel60": 78.0,
+  "volumeRatio20": 0.66
  },
  "reasons": [
   "0.8pt買い増し 7.4%→8.2%",
   "30日以内に2回買い増し",
-  "60日レンジ上位20%",
+  "60日レンジ上位3%",
   "20日線上向き"
  ],
  "schemaVersion": 1,
@@ -561,7 +568,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-16",
+   "detail": "5.36% → 4.11%（株式会社三菱ＵＦＪフィナンシャル・グループ）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZEXG"
   }
  ],
- "updatedAt": "2026-11-14T02:04:23+09:00"
+ "updatedAt": "2026-11-16T16:07:30+09:00"
 }

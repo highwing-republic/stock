@@ -42,66 +42,67 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-12",
-  "buyBalance": 95200,
-  "buyChangePct": -8.4,
+  "asOf": "2026-11-13",
+  "buyBalance": 94600,
+  "buyChangePct": 1.1,
   "labels": [
-   "信用倍率改善"
+   "信用倍率改善",
+   "売残増加"
   ],
-  "ratio": 2.63,
-  "sellBalance": 36200,
-  "sellChangePct": 3.4
+  "ratio": 2.12,
+  "sellBalance": 44600,
+  "sellChangePct": 25.6
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 6.6,
-  "currentPrice": 2724.5,
+  "benchReturn": 5.7,
+  "currentPrice": 2964.5,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 16,
+   "pendingDays": 14,
    "stockReturn": null
   },
   "d5": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 1,
-   "stockReturn": null
+   "benchReturn": 6.9,
+   "excessReturn": -2.6,
+   "pendingDays": 0,
+   "stockReturn": 4.3
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 56,
+   "pendingDays": 54,
    "stockReturn": null
   },
-  "excessReturn": -5.1,
+  "excessReturn": 4.8,
   "initialDate": "2026-11-06",
   "initialPrice": 2683.0,
-  "stockReturn": 1.5
+  "stockReturn": 10.5
  },
  "priceSetup": {
-  "asOf": "2026-11-12",
+  "asOf": "2026-11-16",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.08,
+  "distFrom52wHigh": 0.0,
   "labels": [
    "20日線の上",
-   "60日レンジ上位18%",
+   "60日レンジ上位2%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2631.3,
-  "ma200": 2446.5,
-  "ma60": 2544.5,
-  "rangePos60": 0.82,
-  "rel20": 14.1,
-  "rel60": 15.3,
-  "volumeRatio20": 0.73
+  "ma20": 2665.6,
+  "ma200": 2450.5,
+  "ma60": 2558.3,
+  "rangePos60": 0.98,
+  "rel20": 20.6,
+  "rel60": 26.8,
+  "volumeRatio20": 1.42
  },
  "reasons": [
   "新規大量保有 5%（Ｃｏｌｕｍｂｉａ　Ｍａｎａｇｅｍｅｎｔ　Ｉｎｖｅｓｔｍｅｎｔ　Ａｄｖｉｓｅｒｓ，　ＬＬＣ）",
-  "60日レンジ上位18%",
+  "60日レンジ上位2%",
   "20日線上向き",
-  "TOPIX連動ETF比 +14.1pt（20日）"
+  "TOPIX連動ETF比 +20.6pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -132,7 +133,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-16",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-14T02:04:23+09:00"
+ "updatedAt": "2026-11-16T16:07:30+09:00"
 }

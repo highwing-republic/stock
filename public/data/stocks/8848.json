@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T02:03:26+09:00",
+  "updatedAt": "2026-11-16T16:06:43+09:00",
   "company": {
     "securityCode": "8848",
     "ticker": "8848.T",
@@ -20,7 +20,7 @@
       "purpose": "純投資 / 株式会社K891（以下、K891）は、発行者の非公開化を目的とした重要提案行為等を行うことを予定しております。K891は、発行者の普通株式（以下、発行者株式）及び新株予約権を取得することを目的として、2026年9月15日から2026年10月30日までを買付け等の期間とする公開買付け（以下、本公開買付け）を実施いたしました。本公開買付けは2026年10月30日に成立し、本公開買付けに係る決済の開始日は2026年11月9日です。K891は、本公開買付けの決済の完了後速やかに、発行者に対し、臨時株主総会の開催を要請し、別途協議・合意する議案を上程するほか、本公開買付けを含む一連の取引に法令上必要な手続を行うことを要請する予定です。",
       "importantProposal": true,
       "priceChange": null,
-      "volumeRatio": 0.76,
+      "volumeRatio": 0.69,
       "marketExcessReturn": null,
       "signalScore": 20,
       "signalReasons": [
@@ -32,7 +32,7 @@
         "return5d": null,
         "return20d": null,
         "returnCurrent": -0.1,
-        "volumeRatio": 0.76,
+        "volumeRatio": 0.69,
         "marketExcessReturn": null
       }
     },
@@ -49,23 +49,24 @@
       "holdingChange": 61.9,
       "purpose": "純投資 / 株式会社K891（以下、K891）は、発行者の非公開化を目的とした重要提案行為等を行うことを予定しております。K891は、発行者の普通株式（以下、発行者株式）及び新株予約権を取得することを目的として、2026年9月15日から2026年10月30日までを買付け等の期間とする公開買付け（以下、本公開買付け）を実施いたしました。本公開買付けは2026年10月30日に成立し、本公開買付けに係る決済の開始日は2026年11月9日です。K891は、本公開買付けの決済の完了後速やかに、発行者に対し、臨時株主総会の開催を要請し、別途協議・合意する議案を上程するほか、本公開買付けを含む一連の取引に法令上必要な手続を行うことを要請する予定です。",
       "importantProposal": true,
-      "priceChange": null,
-      "volumeRatio": 0.69,
-      "marketExcessReturn": null,
-      "signalScore": 50,
+      "priceChange": 0.0,
+      "volumeRatio": 0.67,
+      "marketExcessReturn": -5.74,
+      "signalScore": 60,
       "signalReasons": [
         "1pt以上買い増し",
         "2pt以上買い増し",
-        "重要提案行為あり"
+        "重要提案行為あり",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": 0.0,
-        "return5d": null,
+        "return5d": 0.0,
         "return20d": null,
         "returnCurrent": 0.0,
-        "volumeRatio": 0.69,
-        "marketExcessReturn": null
+        "volumeRatio": 0.67,
+        "marketExcessReturn": -5.74
       }
     },
     {
@@ -4234,9 +4235,19 @@
       "open": 989.0,
       "high": 989.0,
       "low": 988.0,
-      "close": null,
-      "adj_close": null,
+      "close": 989.0,
+      "adj_close": 989.0,
       "volume": 2703200
+    },
+    {
+      "ticker": "8848.T",
+      "trade_date": "2026-11-16",
+      "open": 989.0,
+      "high": 990.0,
+      "low": 988.0,
+      "close": 988.0,
+      "adj_close": 988.0,
+      "volume": 1924500
     }
   ],
   "benchmark": [
@@ -8286,9 +8297,19 @@
       "open": 417.8999938964844,
       "high": 418.3999938964844,
       "low": 414.29998779296875,
-      "close": null,
-      "adj_close": null,
+      "close": 415.5,
+      "adj_close": 415.5,
       "volume": 12137480
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-16",
+      "open": 416.6000061035156,
+      "high": 416.79998779296875,
+      "low": 410.20001220703125,
+      "close": 410.8999938964844,
+      "adj_close": 410.8999938964844,
+      "volume": 20694200
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

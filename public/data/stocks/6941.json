@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-11-14T02:03:26+09:00",
+  "updatedAt": "2026-11-16T16:06:43+09:00",
   "company": {
     "securityCode": "6941",
     "ticker": "6941.T",
     "name": "山一電機株式会社"
   },
   "events": [
+    {
+      "docId": "S100ZECP",
+      "ticker": "6941.T",
+      "securityCode": "6941",
+      "companyName": "山一電機株式会社",
+      "submitDatetime": "2026-11-16 15:38",
+      "filerName": "エフィッシモ　キャピタル　マネージメント　ピーティーイー　エルティーディー（Ｅｆｆｉｓｓｉｍｏ　Ｃａｐｉｔａｌ　Ｍａｎａｇｅｍｅｎｔ　Ｐｔｅ　Ｌｔｄ）",
+      "reportType": "initial",
+      "holdingRatio": 5.41,
+      "previousHoldingRatio": null,
+      "holdingChange": null,
+      "purpose": "純投資。中長期的な企業価値の向上に伴う株価の値上がり益や配当を享受することを目的として、株式市場内外における発行者株式の価格や流動性等の動向、発行者の経営状況などを勘案し、今後3か月以内に、株式市場内外の取引を通じて株券等保有割合を5％超増加させる予定がある。なお、株式市場内外における発行者株式の価格や流動性等の動向、発行者の経営状況によっては予定通り取得が行われないこともある。また、株券等保有割合が10%を超えることとなる株券等の取得を行う目的を直接的に有しているわけではないが、結果的に、株券等保有割合が10%を超えることとなる可能性がある。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 30,
+      "signalReasons": [
+        "新規大量保有"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -2.57,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100ZBBC",
       "ticker": "6941.T",
@@ -19,21 +49,22 @@
       "holdingChange": -1.16,
       "purpose": "投資信託契約、投資一任契約に基づく運用を目的として保有するもの。 / 証券投資信託及び投資一任契約において、株券等の取得・処分の権限を有するもの。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 1.22,
-      "marketExcessReturn": null,
+      "priceChange": 9.98,
+      "volumeRatio": 1.16,
+      "marketExcessReturn": 10.0,
       "signalScore": 0,
       "signalReasons": [
+        "市場超過5%以上",
         "保有割合減少"
       ],
       "stockUnreacted": false,
       "metrics": {
         "return1d": -0.83,
-        "return5d": null,
+        "return5d": 9.98,
         "return20d": null,
-        "returnCurrent": 11.65,
-        "volumeRatio": 1.22,
-        "marketExcessReturn": null
+        "returnCurrent": 7.15,
+        "volumeRatio": 1.16,
+        "marketExcessReturn": 10.0
       }
     },
     {
@@ -61,7 +92,7 @@
         "return1d": -4.8,
         "return5d": -14.61,
         "return20d": -43.53,
-        "returnCurrent": -34.22,
+        "returnCurrent": -36.86,
         "volumeRatio": 1.53,
         "marketExcessReturn": -10.2
       }
@@ -92,7 +123,7 @@
         "return1d": -3.0,
         "return5d": -2.0,
         "return20d": 0.12,
-        "returnCurrent": -15.58,
+        "returnCurrent": -18.98,
         "volumeRatio": 0.62,
         "marketExcessReturn": -4.18
       }
@@ -122,7 +153,7 @@
         "return1d": -3.97,
         "return5d": -8.59,
         "return20d": -15.01,
-        "returnCurrent": -36.15,
+        "returnCurrent": -38.72,
         "volumeRatio": 0.9,
         "marketExcessReturn": -6.73
       }
@@ -4095,9 +4126,19 @@
       "open": 6940.0,
       "high": 7110.0,
       "low": 6540.0,
-      "close": null,
-      "adj_close": null,
+      "close": 6610.0,
+      "adj_close": 6610.0,
       "volume": 360300
+    },
+    {
+      "ticker": "6941.T",
+      "trade_date": "2026-11-16",
+      "open": 6620.0,
+      "high": 6740.0,
+      "low": 6380.0,
+      "close": 6440.0,
+      "adj_close": 6440.0,
+      "volume": 609900
     }
   ],
   "benchmark": [
@@ -8147,9 +8188,19 @@
       "open": 417.8999938964844,
       "high": 418.3999938964844,
       "low": 414.29998779296875,
-      "close": null,
-      "adj_close": null,
+      "close": 415.5,
+      "adj_close": 415.5,
       "volume": 12137480
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-16",
+      "open": 416.6000061035156,
+      "high": 416.79998779296875,
+      "low": 410.20001220703125,
+      "close": 410.8999938964844,
+      "adj_close": 410.8999938964844,
+      "volume": 20694200
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

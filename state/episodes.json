@@ -305,6 +305,10 @@
    "event_id": "edinet:S100Z480"
   },
   {
+   "episode_id": "4966-2026-11-16",
+   "event_id": "edinet:S100ZEXC"
+  },
+  {
    "episode_id": "4980-2026-11-06",
    "event_id": "edinet:S100ZBJH"
   },
@@ -769,6 +773,10 @@
    "event_id": "edinet:S100ZG0F"
   },
   {
+   "episode_id": "8252-2026-09-16",
+   "event_id": "edinet:S100ZHF9"
+  },
+  {
    "episode_id": "8308-2026-10-22",
    "event_id": "edinet:S100Z8Y1"
   },
@@ -839,6 +847,10 @@
   {
    "episode_id": "9090-2026-07-07",
    "event_id": "edinet:S100YVBM"
+  },
+  {
+   "episode_id": "9101-2026-11-16",
+   "event_id": "edinet:S100ZEYO"
   },
   {
    "episode_id": "9107-2026-09-07",
@@ -2502,8 +2514,10 @@
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z0F9",
    "security_code": "9759",
-   "setup_type": "RECOVERY",
-   "setups": [],
+   "setup_type": "TREND",
+   "setups": [
+    "TREND"
+   ],
    "started_at": "2026-09-07",
    "status": "REACTED",
    "status_history": [
@@ -2852,7 +2866,8 @@
     "edinet:S100ZBBF",
     "edinet:S100ZCDT",
     "edinet:S100ZF9T",
-    "edinet:S100ZG0F"
+    "edinet:S100ZG0F",
+    "edinet:S100ZHF9"
    ],
    "initial_bench": 414.0,
    "initial_price": 2788.0,
@@ -2998,9 +3013,7 @@
    "primary_trigger_event_id": "edinet:S100Z1LN",
    "security_code": "4722",
    "setup_type": "RECOVERY",
-   "setups": [
-    "RECOVERY"
-   ],
+   "setups": [],
    "started_at": "2026-09-18",
    "status": "REACTED",
    "status_history": [
@@ -3413,8 +3426,7 @@
    "security_code": "4613",
    "setup_type": "TREND",
    "setups": [
-    "TREND",
-    "RECOVERY"
+    "TREND"
    ],
    "started_at": "2026-09-25",
    "status": "REACTED",
@@ -4095,7 +4107,9 @@
    "primary_trigger_event_id": "edinet:S100Z66E",
    "security_code": "4307",
    "setup_type": "TREND",
-   "setups": [],
+   "setups": [
+    "TREND"
+   ],
    "started_at": "2026-10-05",
    "status": "REACTED",
    "status_history": [
@@ -4911,7 +4925,9 @@
    "primary_trigger_event_id": "edinet:S100Z5ZR",
    "security_code": "9682",
    "setup_type": "TREND",
-   "setups": [],
+   "setups": [
+    "TREND"
+   ],
    "started_at": "2026-10-07",
    "status": "REACTED",
    "status_history": [
@@ -5366,10 +5382,7 @@
    "primary_trigger_event_id": "edinet:S100Z8ZY",
    "security_code": "7269",
    "setup_type": "TREND",
-   "setups": [
-    "TREND",
-    "RECOVERY"
-   ],
+   "setups": [],
    "started_at": "2026-10-22",
    "status": "REACTED",
    "status_history": [
@@ -5652,11 +5665,12 @@
    "initial_bench": 418.3999938964844,
    "initial_price": 1753.5,
    "last_trigger_at": "2026-10-26",
-   "overextended": false,
+   "overextended": true,
    "primary_trigger_event_id": "edinet:S100Z9VH",
    "security_code": "4536",
-   "setup_type": "RECOVERY",
+   "setup_type": "TREND",
    "setups": [
+    "TREND",
     "RECOVERY"
    ],
    "started_at": "2026-10-26",
@@ -6070,9 +6084,11 @@
    "primary_trigger_event_id": "edinet:S100ZBRN",
    "security_code": "3774",
    "setup_type": "TREND",
-   "setups": [],
+   "setups": [
+    "TREND"
+   ],
    "started_at": "2026-11-06",
-   "status": "CONFIRMED",
+   "status": "REACTED",
    "status_history": [
     {
      "date": "2026-11-06",
@@ -6091,6 +6107,12 @@
      "from": "WATCH",
      "reason_code": "NEW_HIGH60_VOLUME",
      "to": "CONFIRMED"
+    },
+    {
+     "date": "2026-11-13",
+     "from": "CONFIRMED",
+     "reason_code": "RETURN_THRESHOLD",
+     "to": "REACTED"
     }
    ],
    "watch_started_at": "2026-11-06"
@@ -6263,12 +6285,14 @@
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100ZBQW",
    "security_code": "9509",
-   "setup_type": "RECOVERY",
+   "setup_type": "BREAKOUT",
    "setups": [
+    "BREAKOUT",
+    "TREND",
     "RECOVERY"
    ],
    "started_at": "2026-11-06",
-   "status": "WATCH",
+   "status": "STRENGTHENING",
    "status_history": [
     {
      "date": "2026-11-06",
@@ -6281,6 +6305,12 @@
      "from": "CANDIDATE",
      "reason_code": "SETUP_OK",
      "to": "WATCH"
+    },
+    {
+     "date": "2026-11-13",
+     "from": "WATCH",
+     "reason_code": "SETUP_IMPROVED",
+     "to": "STRENGTHENING"
     }
    ],
    "watch_started_at": "2026-11-10"
@@ -6308,6 +6338,64 @@
    "status_history": [
     {
      "date": "2026-11-10",
+     "from": null,
+     "reason_code": "TRIGGER_EVENT",
+     "to": "CANDIDATE"
+    }
+   ],
+   "watch_started_at": null
+  },
+  {
+   "base_close": 16630.0,
+   "close_reason": null,
+   "closed_at": null,
+   "company_name": "上村工業",
+   "episode_id": "4966-2026-11-16",
+   "event_ids": [
+    "edinet:S100ZEXC"
+   ],
+   "initial_bench": null,
+   "initial_price": null,
+   "last_trigger_at": "2026-11-16",
+   "overextended": false,
+   "primary_trigger_event_id": "edinet:S100ZEXC",
+   "security_code": "4966",
+   "setup_type": null,
+   "setups": [],
+   "started_at": "2026-11-16",
+   "status": "CANDIDATE",
+   "status_history": [
+    {
+     "date": "2026-11-16",
+     "from": null,
+     "reason_code": "TRIGGER_EVENT",
+     "to": "CANDIDATE"
+    }
+   ],
+   "watch_started_at": null
+  },
+  {
+   "base_close": 6915.0,
+   "close_reason": null,
+   "closed_at": null,
+   "company_name": "日本郵船",
+   "episode_id": "9101-2026-11-16",
+   "event_ids": [
+    "edinet:S100ZEYO"
+   ],
+   "initial_bench": null,
+   "initial_price": null,
+   "last_trigger_at": "2026-11-16",
+   "overextended": false,
+   "primary_trigger_event_id": "edinet:S100ZEYO",
+   "security_code": "9101",
+   "setup_type": null,
+   "setups": [],
+   "started_at": "2026-11-16",
+   "status": "CANDIDATE",
+   "status_history": [
+    {
+     "date": "2026-11-16",
      "from": null,
      "reason_code": "TRIGGER_EVENT",
      "to": "CANDIDATE"

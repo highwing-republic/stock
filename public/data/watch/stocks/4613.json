@@ -11,8 +11,7 @@
   "overextended": false,
   "setupType": "TREND",
   "setups": [
-   "TREND",
-   "RECOVERY"
+   "TREND"
   ],
   "startedAt": "2026-09-25",
   "status": "REACTED",
@@ -89,27 +88,27 @@
   {
    "d1": 2.7,
    "d20": null,
-   "d5": null,
+   "d5": 2.9,
    "eventId": "edinet:S100ZD3F",
-   "excess5": null
+   "excess5": 0.7
   }
  ],
  "margin": {
-  "asOf": "2026-11-12",
-  "buyBalance": 64000,
-  "buyChangePct": -14.6,
+  "asOf": "2026-11-13",
+  "buyBalance": 64700,
+  "buyChangePct": -72.2,
   "labels": [
    "信用買残減少",
    "信用倍率改善"
   ],
   "ratio": 0.46,
-  "sellBalance": 140600,
-  "sellChangePct": 16.7
+  "sellBalance": 141400,
+  "sellChangePct": 2.9
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -3.7,
-  "currentPrice": 3000.0,
+  "benchReturn": -4.5,
+  "currentPrice": 3005.0,
   "d20": {
    "benchReturn": -2.8,
    "excessReturn": 7.5,
@@ -125,37 +124,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 28,
+   "pendingDays": 26,
    "stockReturn": null
   },
-  "excessReturn": 10.5,
+  "excessReturn": 11.5,
   "initialDate": "2026-09-25",
   "initialPrice": 2808.8,
-  "stockReturn": 6.8
+  "stockReturn": 7.0
  },
  "priceSetup": {
-  "asOf": "2026-11-12",
-  "atrState": "高ボラ",
+  "asOf": "2026-11-16",
+  "atrState": "通常",
   "distFrom52wHigh": 0.02,
   "labels": [
    "20日線の上",
-   "60日レンジ上位19%",
+   "60日レンジ上位17%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2941.1,
-  "ma200": 2598.4,
-  "ma60": 2853.3,
-  "rangePos60": 0.81,
-  "rel20": 7.4,
-  "rel60": 8.3,
-  "volumeRatio20": 0.68
+  "ma20": 2948.4,
+  "ma200": 2604.0,
+  "ma60": 2857.5,
+  "rangePos60": 0.83,
+  "rel20": 5.5,
+  "rel60": 10.6,
+  "volumeRatio20": 0.48
  },
  "reasons": [
   "新規大量保有 5.1%（キャピタル・リサーチ・アンド・マネージメント・カンパニー）",
-  "60日レンジ上位19%",
+  "60日レンジ上位17%",
   "20日線上向き",
-  "TOPIX連動ETF比 +7.4pt（20日）"
+  "TOPIX連動ETF比 +5.5pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -391,5 +390,5 @@
    "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-14T02:03:35+09:00"
+ "updatedAt": "2026-11-16T16:06:52+09:00"
 }

@@ -1,11 +1,42 @@
 {
-  "updatedAt": "2026-11-14T02:03:26+09:00",
+  "updatedAt": "2026-11-16T16:06:43+09:00",
   "company": {
     "securityCode": "8166",
     "ticker": "8166.T",
     "name": "株式会社タカキュー"
   },
   "events": [
+    {
+      "docId": "S100ZEE4",
+      "ticker": "8166.T",
+      "securityCode": "8166",
+      "companyName": "株式会社タカキュー",
+      "submitDatetime": "2026-11-16 14:35",
+      "filerName": "グロースパートナーズ株式会社",
+      "reportType": "change",
+      "holdingRatio": 64.6,
+      "previousHoldingRatio": 56.66,
+      "holdingChange": 7.94,
+      "purpose": "発行者との業務資本提携を目的とした保有",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 30,
+      "signalReasons": [
+        "1pt以上買い増し",
+        "2pt以上買い増し"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -1.49,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z8K0",
       "ticker": "8166.T",
@@ -31,8 +62,8 @@
       "metrics": {
         "return1d": 0.0,
         "return5d": 0.0,
-        "return20d": null,
-        "returnCurrent": -13.33,
+        "return20d": -12.0,
+        "returnCurrent": -12.0,
         "volumeRatio": 0.51,
         "marketExcessReturn": 1.12
       }
@@ -2875,9 +2906,19 @@
       "open": 66.0,
       "high": 67.0,
       "low": 66.0,
-      "close": null,
-      "adj_close": null,
+      "close": 67.0,
+      "adj_close": 67.0,
       "volume": 34500
+    },
+    {
+      "ticker": "8166.T",
+      "trade_date": "2026-11-16",
+      "open": 67.0,
+      "high": 67.0,
+      "low": 66.0,
+      "close": 66.0,
+      "adj_close": 66.0,
+      "volume": 61000
     }
   ],
   "benchmark": [
@@ -6927,9 +6968,19 @@
       "open": 417.8999938964844,
       "high": 418.3999938964844,
       "low": 414.29998779296875,
-      "close": null,
-      "adj_close": null,
+      "close": 415.5,
+      "adj_close": 415.5,
       "volume": 12137480
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-16",
+      "open": 416.6000061035156,
+      "high": 416.79998779296875,
+      "low": 410.20001220703125,
+      "close": 410.8999938964844,
+      "adj_close": 410.8999938964844,
+      "volume": 20694200
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

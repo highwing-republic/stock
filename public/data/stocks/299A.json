@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T02:03:26+09:00",
+  "updatedAt": "2026-11-16T16:06:43+09:00",
   "company": {
     "securityCode": "299A",
     "ticker": "299A.T",
@@ -20,7 +20,7 @@
       "purpose": "純投資",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.56,
       "marketExcessReturn": null,
       "signalScore": 30,
       "signalReasons": [
@@ -28,11 +28,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": -0.45,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -2.17,
-        "volumeRatio": null,
+        "returnCurrent": 0.45,
+        "volumeRatio": 0.56,
         "marketExcessReturn": null
       }
     }
@@ -2704,9 +2704,19 @@
       "open": 1088.0,
       "high": 1124.0,
       "low": 1075.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1103.0,
+      "adj_close": 1103.0,
       "volume": 139100
+    },
+    {
+      "ticker": "299A.T",
+      "trade_date": "2026-11-16",
+      "open": 1105.0,
+      "high": 1137.0,
+      "low": 1092.0,
+      "close": 1113.0,
+      "adj_close": 1113.0,
+      "volume": 69900
     }
   ],
   "benchmark": [
@@ -6756,9 +6766,19 @@
       "open": 417.8999938964844,
       "high": 418.3999938964844,
       "low": 414.29998779296875,
-      "close": null,
-      "adj_close": null,
+      "close": 415.5,
+      "adj_close": 415.5,
       "volume": 12137480
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-16",
+      "open": 416.6000061035156,
+      "high": 416.79998779296875,
+      "low": 410.20001220703125,
+      "close": 410.8999938964844,
+      "adj_close": 410.8999938964844,
+      "volume": 20694200
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"
