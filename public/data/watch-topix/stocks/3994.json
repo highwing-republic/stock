@@ -9,9 +9,11 @@
   "closedAt": null,
   "id": "3994-2026-11-09",
   "overextended": false,
-  "setupType": "TREND",
+  "setupType": "BREAKOUT",
   "setups": [
-   "TREND"
+   "BREAKOUT",
+   "TREND",
+   "RECOVERY"
   ],
   "startedAt": "2026-11-09",
   "status": "WATCH",
@@ -132,53 +134,54 @@
   }
  ],
  "performance": {
-  "benchReturn": 2.2,
-  "currentPrice": 7290.0,
+  "benchReturn": 3.3,
+  "currentPrice": 7460.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 15,
+   "pendingDays": 16,
    "stockReturn": null
   },
   "d5": {
-   "benchReturn": 2.2,
-   "excessReturn": -9.2,
-   "pendingDays": 0,
-   "stockReturn": -7.0
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 1,
+   "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 55,
+   "pendingDays": 56,
    "stockReturn": null
   },
-  "excessReturn": -9.2,
+  "excessReturn": -8.1,
   "initialDate": "2026-11-09",
   "initialPrice": 7835.0,
-  "stockReturn": -7.0
+  "stockReturn": -4.8
  },
  "priceSetup": {
-  "asOf": "2026-11-16",
+  "asOf": "2026-11-13",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.09,
+  "distFrom52wHigh": 0.07,
   "labels": [
    "20日線の上",
+   "60日レンジ上位23%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 7047.7,
-  "ma200": 4900.0,
-  "ma60": 6466.8,
-  "rangePos60": 0.7,
-  "rel20": 16.6,
-  "rel60": 27.2,
-  "volumeRatio20": 0.62
+  "ma20": 7007.1,
+  "ma200": 4885.0,
+  "ma60": 6445.3,
+  "rangePos60": 0.77,
+  "rel20": 17.8,
+  "rel60": 20.2,
+  "volumeRatio20": 0.67
  },
  "reasons": [
   "新規大量保有 5.1%（みずほ証券株式会社）",
+  "60日レンジ上位23%",
   "20日線上向き",
-  "TOPIX連動ETF比 +16.6pt（20日）",
-  "52週高値まで9%"
+  "TOPIX連動ETF比 +17.8pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -293,14 +296,7 @@
    "kind": "SETUP",
    "label": "Price Setup変化",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-11-16",
-   "detail": "BREAKOUT → TREND",
-   "kind": "SETUP",
-   "label": "Price Setup変化",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-16T21:04:06+09:00"
+ "updatedAt": "2026-11-17T01:24:57+09:00"
 }

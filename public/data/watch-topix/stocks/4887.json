@@ -5,14 +5,14 @@
   "tradingViewSymbol": "TSE:4887"
  },
  "episode": {
-  "closeReason": "BROKEN",
-  "closedAt": "2026-11-16",
+  "closeReason": null,
+  "closedAt": null,
   "id": "4887-2026-09-28",
   "overextended": false,
   "setupType": "RECOVERY",
   "setups": [],
   "startedAt": "2026-09-28",
-  "status": "CLOSED",
+  "status": "BROKEN",
   "statusHistory": [
    {
     "date": "2026-09-28",
@@ -37,12 +37,6 @@
     "from": "STRENGTHENING",
     "reason_code": "BELOW_MA20",
     "to": "BROKEN"
-   },
-   {
-    "date": "2026-11-16",
-    "from": "BROKEN",
-    "reason_code": "BROKEN",
-    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-09-28"
@@ -75,13 +69,6 @@
    "d5": -4.3,
    "eventId": "edinet:S100ZCHI",
    "excess5": -4.0
-  },
-  {
-   "d1": -0.1,
-   "d20": null,
-   "d5": null,
-   "eventId": "edinet:S100ZHVU",
-   "excess5": null
   }
  ],
  "margin": {
@@ -98,8 +85,8 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -4.0,
-  "currentPrice": 1627.5,
+  "benchReturn": -3.0,
+  "currentPrice": 1629.0,
   "d20": {
    "benchReturn": -1.8,
    "excessReturn": 6.1,
@@ -115,33 +102,32 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 27,
+   "pendingDays": 28,
    "stockReturn": null
   },
-  "excessReturn": 3.1,
+  "excessReturn": 2.2,
   "initialDate": "2026-09-28",
   "initialPrice": 1642.0,
-  "stockReturn": -0.9
+  "stockReturn": -0.8
  },
  "priceSetup": {
-  "asOf": "2026-11-16",
+  "asOf": "2026-11-13",
   "atrState": "通常",
-  "distFrom52wHigh": 0.32,
+  "distFrom52wHigh": 0.31,
   "labels": [
-   "20日線が上向き"
+   "20日線が上向き",
+   "60日線の上"
   ],
-  "ma20": 1681.8,
-  "ma200": 1852.1,
-  "ma60": 1627.9,
-  "rangePos60": 0.43,
-  "rel20": 1.8,
-  "rel60": 9.2,
-  "volumeRatio20": 1.38
+  "ma20": 1683.7,
+  "ma200": 1855.6,
+  "ma60": 1627.0,
+  "rangePos60": 0.44,
+  "rel20": -0.6,
+  "rel60": 6.6,
+  "volumeRatio20": 1.18
  },
  "reasons": [
-  "1pt買い増し 7.9%→8.9%",
-  "30日以内に2回買い増し",
-  "TOPIX連動ETF比 +1.8pt（20日）",
+  "1.1pt買い増し 6.8%→7.9%",
   "信用買残 -10%"
  ],
  "schemaVersion": 1,
@@ -299,21 +285,7 @@
    "kind": "EVENT",
    "label": "連続の買い増し",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHVU"
-  },
-  {
-   "date": "2026-11-16",
-   "detail": "TOPIX連動ETFを上回りに転換",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-16",
-   "detail": "Price Setupが崩れた",
-   "kind": "STATUS",
-   "label": "CLOSED",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-16T21:04:06+09:00"
+ "updatedAt": "2026-11-17T01:24:57+09:00"
 }
