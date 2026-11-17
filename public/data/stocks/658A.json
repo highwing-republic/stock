@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T04:17:56+09:00",
+  "updatedAt": "2026-11-17T17:24:53+09:00",
   "company": {
     "securityCode": "658A",
     "ticker": "658A.T",
@@ -20,7 +20,7 @@
       "purpose": "純投資",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": 0.28,
+      "volumeRatio": 0.97,
       "marketExcessReturn": null,
       "signalScore": 30,
       "signalReasons": [
@@ -31,8 +31,8 @@
         "return1d": -10.5,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -10.5,
-        "volumeRatio": 0.28,
+        "returnCurrent": -5.37,
+        "volumeRatio": 0.97,
         "marketExcessReturn": null
       }
     },
@@ -50,7 +50,7 @@
       "purpose": "発行会社の代表取締役であり、安定株主として株式を保有しております。 / 発行会社の代表取締役の資産管理会社であり、安定株主として株式を保有しております。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": 0.43,
+      "volumeRatio": 0.77,
       "marketExcessReturn": null,
       "signalScore": 30,
       "signalReasons": [
@@ -61,8 +61,8 @@
         "return1d": -14.1,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -16.55,
-        "volumeRatio": 0.43,
+        "returnCurrent": -11.77,
+        "volumeRatio": 0.77,
         "marketExcessReturn": null
       }
     },
@@ -79,21 +79,22 @@
       "holdingChange": null,
       "purpose": "ポートフォリオ投資",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.36,
-      "marketExcessReturn": null,
-      "signalScore": 30,
+      "priceChange": -18.16,
+      "volumeRatio": 0.5,
+      "marketExcessReturn": -23.9,
+      "signalScore": 40,
       "signalReasons": [
-        "新規大量保有"
+        "新規大量保有",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": -7.24,
-        "return5d": null,
+        "return5d": -18.16,
         "return20d": null,
-        "returnCurrent": -22.59,
-        "volumeRatio": 0.36,
-        "marketExcessReturn": null
+        "returnCurrent": -18.16,
+        "volumeRatio": 0.5,
+        "marketExcessReturn": -23.9
       }
     }
   ],
@@ -167,6 +168,16 @@
       "close": null,
       "adj_close": null,
       "volume": 60000
+    },
+    {
+      "ticker": "658A.T",
+      "trade_date": "2026-11-17",
+      "open": 911.0,
+      "high": 911.0,
+      "low": 730.0,
+      "close": 757.0,
+      "adj_close": 757.0,
+      "volume": 1722300
     }
   ],
   "benchmark": [
@@ -4229,6 +4240,16 @@
       "close": 410.8999938964844,
       "adj_close": 410.8999938964844,
       "volume": 20694200
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-17",
+      "open": 408.0,
+      "high": 408.1000061035156,
+      "low": 403.5,
+      "close": 404.5,
+      "adj_close": 404.5,
+      "volume": 37763290
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

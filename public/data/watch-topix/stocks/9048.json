@@ -82,67 +82,67 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-13",
-  "buyBalance": 264800,
-  "buyChangePct": 2.0,
+  "asOf": "2026-11-16",
+  "buyBalance": 259000,
+  "buyChangePct": 3.1,
   "labels": [
    "信用倍率改善",
    "売残増加"
   ],
-  "ratio": 5.26,
-  "sellBalance": 50300,
-  "sellChangePct": 42.9
+  "ratio": 5.08,
+  "sellBalance": 51000,
+  "sellChangePct": 40.1
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 1.2,
-  "currentPrice": 2030.0,
+  "benchReturn": -1.5,
+  "currentPrice": 2024.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 17,
+   "pendingDays": 15,
    "stockReturn": null
   },
   "d5": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 2,
-   "stockReturn": null
+   "benchReturn": -1.5,
+   "excessReturn": 6.5,
+   "pendingDays": 0,
+   "stockReturn": 5.0
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 57,
+   "pendingDays": 55,
    "stockReturn": null
   },
-  "excessReturn": 4.1,
+  "excessReturn": 6.5,
   "initialDate": "2026-11-10",
   "initialPrice": 1928.5,
-  "stockReturn": 5.3
+  "stockReturn": 5.0
  },
  "priceSetup": {
-  "asOf": "2026-11-13",
-  "atrState": "通常",
-  "distFrom52wHigh": 0.0,
+  "asOf": "2026-11-17",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.01,
   "labels": [
    "20日線の上",
-   "60日レンジ上位0%",
+   "60日レンジ上位11%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 1895.7,
-  "ma200": 1822.0,
-  "ma60": 1879.6,
-  "rangePos60": 1.0,
-  "rel20": 10.1,
-  "rel60": 14.0,
-  "volumeRatio20": 1.47
+  "ma20": 1913.7,
+  "ma200": 1825.3,
+  "ma60": 1885.2,
+  "rangePos60": 0.89,
+  "rel20": 14.6,
+  "rel60": 14.7,
+  "volumeRatio20": 1.2
  },
  "reasons": [
   "新規大量保有 5%（ブラックロック・ジャパン株式会社）",
-  "60日レンジ上位0%",
+  "60日レンジ上位11%",
   "20日線上向き",
-  "TOPIX連動ETF比 +10.1pt（20日）"
+  "TOPIX連動ETF比 +14.6pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -229,7 +229,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-16",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-17T01:24:57+09:00"
+ "updatedAt": "2026-11-17T17:25:58+09:00"
 }

@@ -10,7 +10,9 @@
   "id": "3774-2026-11-06",
   "overextended": false,
   "setupType": "TREND",
-  "setups": [],
+  "setups": [
+   "TREND"
+  ],
   "startedAt": "2026-11-06",
   "status": "REACTED",
   "statusHistory": [
@@ -65,16 +67,13 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-13",
-  "buyBalance": 78700,
-  "buyChangePct": 0.6,
-  "labels": [
-   "信用倍率改善",
-   "売残増加"
-  ],
-  "ratio": 1.39,
-  "sellBalance": 56800,
-  "sellChangePct": 42.7
+  "asOf": "2026-11-16",
+  "buyBalance": 82800,
+  "buyChangePct": 6.2,
+  "labels": [],
+  "ratio": 1.49,
+  "sellBalance": 55400,
+  "sellChangePct": 9.3
  },
  "pastEpisodes": [
   {
@@ -86,12 +85,12 @@
   }
  ],
  "performance": {
-  "benchReturn": 6.9,
-  "currentPrice": 4156.0,
+  "benchReturn": 4.1,
+  "currentPrice": 3954.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 15,
+   "pendingDays": 13,
    "stockReturn": null
   },
   "d5": {
@@ -103,37 +102,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 55,
+   "pendingDays": 53,
    "stockReturn": null
   },
-  "excessReturn": 8.3,
+  "excessReturn": 5.5,
   "initialDate": "2026-11-06",
   "initialPrice": 3607.0,
-  "stockReturn": 15.2
+  "stockReturn": 9.6
  },
  "priceSetup": {
-  "asOf": "2026-11-13",
+  "asOf": "2026-11-17",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.01,
+  "distFrom52wHigh": 0.06,
   "labels": [
    "20日線の上",
-   "60日レンジ上位5%",
+   "60日レンジ上位24%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 3645.6,
-  "ma200": 3019.0,
-  "ma60": 3477.9,
-  "rangePos60": 0.95,
-  "rel20": 17.9,
-  "rel60": 24.4,
-  "volumeRatio20": 0.93
+  "ma20": 3687.8,
+  "ma200": 3033.4,
+  "ma60": 3498.3,
+  "rangePos60": 0.76,
+  "rel20": 15.5,
+  "rel60": 21.8,
+  "volumeRatio20": 0.78
  },
  "reasons": [
   "新規大量保有 5.3%（野村證券株式会社）",
-  "60日レンジ上位5%",
+  "60日レンジ上位24%",
   "20日線上向き",
-  "TOPIX連動ETF比 +17.9pt（20日）"
+  "TOPIX連動ETF比 +15.5pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -213,7 +212,14 @@
    "kind": "STATUS",
    "label": "REACTED",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-16",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-17T01:24:57+09:00"
+ "updatedAt": "2026-11-17T17:25:58+09:00"
 }

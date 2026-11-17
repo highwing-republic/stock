@@ -1,0 +1,119 @@
+{
+ "company": {
+  "name": "ヱスビー食品株式会社",
+  "securityCode": "2805",
+  "tradingViewSymbol": "TSE:2805"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "2805-2026-11-16",
+  "overextended": false,
+  "setupType": "RECOVERY",
+  "setups": [
+   "RECOVERY"
+  ],
+  "startedAt": "2026-11-16",
+  "status": "WATCH",
+  "statusHistory": [
+   {
+    "date": "2026-11-16",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-11-16",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   }
+  ],
+  "watchStartedAt": "2026-11-16"
+ },
+ "eventReactions": [
+  {
+   "d1": -3.1,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZEWT",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-11-16",
+  "buyBalance": 17300,
+  "buyChangePct": 2.4,
+  "labels": [],
+  "ratio": null,
+  "sellBalance": 0,
+  "sellChangePct": null
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": -1.6,
+  "currentPrice": 7140.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 19,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 4,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 59,
+   "stockReturn": null
+  },
+  "excessReturn": 0.6,
+  "initialDate": "2026-11-16",
+  "initialPrice": 7210.0,
+  "stockReturn": -1.0
+ },
+ "priceSetup": {
+  "asOf": "2026-11-17",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.1,
+  "labels": [
+   "20日線の上",
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 6923.5,
+  "ma200": 5669.2,
+  "ma60": 7003.6,
+  "rangePos60": 0.59,
+  "rel20": 18.1,
+  "rel60": 12.5,
+  "volumeRatio20": 0.5
+ },
+ "reasons": [
+  "新規大量保有 5.6%（株式会社三菱ＵＦＪフィナンシャル・グループ）",
+  "20日線上向き",
+  "TOPIX連動ETF比 +18.1pt（20日）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-11-16",
+   "detail": "保有割合 5.61%（株式会社三菱ＵＦＪフィナンシャル・グループ）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZEWT"
+  },
+  {
+   "date": "2026-11-16",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-11-17T17:25:58+09:00"
+}

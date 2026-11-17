@@ -1,0 +1,203 @@
+{
+ "company": {
+  "name": "日本電子材料",
+  "securityCode": "6855",
+  "tradingViewSymbol": "TSE:6855"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "6855-2026-11-16",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-11-16",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-11-16",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": 11.5,
+   "d20": -26.1,
+   "d5": 1.4,
+   "eventId": "edinet:S100YFN1",
+   "excess5": 3.6
+  },
+  {
+   "d1": -3.7,
+   "d20": -20.0,
+   "d5": -5.4,
+   "eventId": "edinet:S100YOJI",
+   "excess5": -5.1
+  },
+  {
+   "d1": 2.2,
+   "d20": 6.1,
+   "d5": -14.2,
+   "eventId": "edinet:S100YRN9",
+   "excess5": -12.9
+  },
+  {
+   "d1": -7.7,
+   "d20": -18.0,
+   "d5": -4.7,
+   "eventId": "edinet:S100YUSZ",
+   "excess5": -8.0
+  },
+  {
+   "d1": -4.2,
+   "d20": -16.9,
+   "d5": -16.5,
+   "eventId": "edinet:S100YWDV",
+   "excess5": -13.9
+  },
+  {
+   "d1": -7.2,
+   "d20": -11.1,
+   "d5": -8.9,
+   "eventId": "edinet:S100YXN7",
+   "excess5": -7.9
+  },
+  {
+   "d1": 4.2,
+   "d20": -12.9,
+   "d5": 9.6,
+   "eventId": "edinet:S100Z2O9",
+   "excess5": 8.4
+  },
+  {
+   "d1": -2.0,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZDQI",
+   "excess5": null
+  },
+  {
+   "d1": -6.9,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZEGN",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-11-16",
+  "buyBalance": 611600,
+  "buyChangePct": -10.2,
+  "labels": [
+   "信用買残減少"
+  ],
+  "ratio": 32.36,
+  "sellBalance": 18900,
+  "sellChangePct": -3.1
+ },
+ "pastEpisodes": [
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-08-20",
+   "id": "6855-2026-07-22",
+   "setupType": "RECOVERY",
+   "startedAt": "2026-07-22"
+  }
+ ],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-11-17",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.47,
+  "labels": [],
+  "ma20": 5940.0,
+  "ma200": 6817.2,
+  "ma60": 6706.1,
+  "rangePos60": 0.25,
+  "rel20": -19.0,
+  "rel60": -19.1,
+  "volumeRatio20": 1.1
+ },
+ "reasons": [
+  "1.5pt買い増し 9.9%→11.4%",
+  "信用買残 -10%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-06-22",
+   "detail": "8.22% → 7.66%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFN1"
+  },
+  {
+   "date": "2026-07-06",
+   "detail": "7.66% → 5.96%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YOJI"
+  },
+  {
+   "date": "2026-07-22",
+   "detail": "保有割合 5.09%（モルガン・スタンレー・アンド・カンパニー・インターナショナル・ピーエルシー）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YRN9"
+  },
+  {
+   "date": "2026-08-06",
+   "detail": "5.09% → 5.15%（モルガン・スタンレー・アンド・カンパニー・インターナショナル・ピーエルシー）",
+   "kind": "EVENT",
+   "label": "買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YUSZ"
+  },
+  {
+   "date": "2026-08-18",
+   "detail": "6.73% → 5.72%（株式会社三菱ＵＦＪフィナンシャル・グループ）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YWDV"
+  },
+  {
+   "date": "2026-08-19",
+   "detail": "5.15% → 4.59%（モルガン・スタンレーＭＵＦＧ証券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YXN7"
+  },
+  {
+   "date": "2026-09-24",
+   "detail": "6.43% → 5.32%（三井住友トラスト・アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z2O9"
+  },
+  {
+   "date": "2026-11-13",
+   "detail": "保有割合 9.91%（エフィッシモ　キャピタル　マネージメント　ピーティーイー　エルティーディー（Ｅｆｆｉｓｓｉｍｏ　Ｃａｐｉｔａｌ　Ｍａｎａｇｅｍｅｎｔ　Ｐｔｅ　Ｌｔｄ））",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDQI"
+  },
+  {
+   "date": "2026-11-16",
+   "detail": "9.91% → 11.45%（エフィッシモ　キャピタル　マネージメント　ピーティーイー　エルティーディー（Ｅｆｆｉｓｓｉｍｏ　Ｃａｐｉｔａｌ　Ｍａｎａｇｅｍｅｎｔ　Ｐｔｅ　Ｌｔｄ））",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZEGN"
+  },
+  {
+   "date": "2026-11-17",
+   "detail": "11.45% → 12.56%（エフィッシモ　キャピタル　マネージメント　ピーティーイー　エルティーディー（Ｅｆｆｉｓｓｉｍｏ　Ｃａｐｉｔａｌ　Ｍａｎａｇｅｍｅｎｔ　Ｐｔｅ　Ｌｔｄ））",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZEWG"
+  }
+ ],
+ "updatedAt": "2026-11-17T17:25:58+09:00"
+}

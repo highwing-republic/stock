@@ -10,9 +10,7 @@
   "id": "9336-2026-09-25",
   "overextended": false,
   "setupType": "TREND",
-  "setups": [
-   "TREND"
-  ],
+  "setups": [],
   "startedAt": "2026-09-25",
   "status": "REACTED",
   "statusHistory": [
@@ -54,22 +52,21 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-13",
-  "buyBalance": 66300,
-  "buyChangePct": 348.0,
+  "asOf": "2026-11-16",
+  "buyBalance": 65000,
+  "buyChangePct": 306.2,
   "labels": [
    "信用買残急増",
-   "信用倍率悪化",
-   "売残増加"
+   "信用倍率悪化"
   ],
-  "ratio": 1.55,
-  "sellBalance": 42800,
-  "sellChangePct": 47.1
+  "ratio": 2.77,
+  "sellBalance": 23500,
+  "sellChangePct": -19.2
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -3.7,
-  "currentPrice": 4185.0,
+  "benchReturn": -6.2,
+  "currentPrice": 3910.0,
   "d20": {
    "benchReturn": -3.9,
    "excessReturn": 8.6,
@@ -85,37 +82,33 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 39,
+   "pendingDays": 37,
    "stockReturn": null
   },
-  "excessReturn": 12.8,
+  "excessReturn": 8.2,
   "initialDate": "2026-10-14",
   "initialPrice": 3835.0,
-  "stockReturn": 9.1
+  "stockReturn": 2.0
  },
  "priceSetup": {
-  "asOf": "2026-11-13",
+  "asOf": "2026-11-17",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.05,
+  "distFrom52wHigh": 0.11,
   "labels": [
-   "20日線の上",
-   "60日レンジ上位22%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 4026.2,
-  "ma200": 3835.9,
-  "ma60": 3830.7,
-  "rangePos60": 0.78,
-  "rel20": 9.9,
-  "rel60": 16.6,
-  "volumeRatio20": 1.1
+  "ma20": 4043.5,
+  "ma200": 3836.3,
+  "ma60": 3844.7,
+  "rangePos60": 0.48,
+  "rel20": 6.5,
+  "rel60": 15.3,
+  "volumeRatio20": 1.08
  },
  "reasons": [
   "新規大量保有 5.1%（ＦＩＡＭ　ＬＬＣ）",
-  "60日レンジ上位22%",
-  "20日線上向き",
-  "TOPIX連動ETF比 +9.9pt（20日）"
+  "TOPIX連動ETF比 +6.5pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -244,7 +237,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-17",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-17T01:24:17+09:00"
+ "updatedAt": "2026-11-17T17:25:04+09:00"
 }

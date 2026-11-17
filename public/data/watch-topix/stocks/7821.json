@@ -10,10 +10,7 @@
   "id": "7821-2026-06-18",
   "overextended": true,
   "setupType": "TREND",
-  "setups": [
-   "TREND",
-   "RECOVERY"
-  ],
+  "setups": [],
   "startedAt": "2026-06-18",
   "status": "REACTED",
   "statusHistory": [
@@ -95,20 +92,18 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-13",
-  "buyBalance": 18200,
-  "buyChangePct": 4.0,
-  "labels": [
-   "信用倍率悪化"
-  ],
-  "ratio": 0.63,
-  "sellBalance": 29000,
-  "sellChangePct": -32.6
+  "asOf": "2026-11-16",
+  "buyBalance": 17700,
+  "buyChangePct": 7.3,
+  "labels": [],
+  "ratio": 0.44,
+  "sellBalance": 40200,
+  "sellChangePct": -6.5
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -1.9,
-  "currentPrice": 2195.0,
+  "benchReturn": -4.5,
+  "currentPrice": 2072.0,
   "d20": {
    "benchReturn": -2.8,
    "excessReturn": 7.9,
@@ -127,33 +122,31 @@
    "pendingDays": 0,
    "stockReturn": 5.1
   },
-  "excessReturn": 20.9,
+  "excessReturn": 16.8,
   "initialDate": "2026-07-03",
   "initialPrice": 1845.0,
-  "stockReturn": 19.0
+  "stockReturn": 12.3
  },
  "priceSetup": {
-  "asOf": "2026-11-13",
-  "atrState": "通常",
-  "distFrom52wHigh": 0.07,
+  "asOf": "2026-11-17",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.12,
   "labels": [
-   "20日線の上",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2136.7,
-  "ma200": 1936.0,
-  "ma60": 2033.6,
-  "rangePos60": 0.64,
-  "rel20": 11.9,
-  "rel60": 14.1,
-  "volumeRatio20": 1.62
+  "ma20": 2148.2,
+  "ma200": 1938.2,
+  "ma60": 2037.5,
+  "rangePos60": 0.38,
+  "rel20": 8.2,
+  "rel60": 8.8,
+  "volumeRatio20": 1.88
  },
  "reasons": [
   "5.5pt買い増し 21.9%→27.4%",
   "30日以内に2回買い増し",
-  "20日線上向き",
-  "TOPIX連動ETF比 +11.9pt（20日）"
+  "TOPIX連動ETF比 +8.2pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -464,7 +457,14 @@
    "kind": "SETUP",
    "label": "Price Setup変化",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-17",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-17T01:24:57+09:00"
+ "updatedAt": "2026-11-17T17:25:58+09:00"
 }

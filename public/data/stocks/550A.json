@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T04:17:56+09:00",
+  "updatedAt": "2026-11-17T17:24:53+09:00",
   "company": {
     "securityCode": "550A",
     "ticker": "550A.T",
@@ -20,7 +20,7 @@
       "purpose": "純投資",
       "importantProposal": true,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.75,
       "marketExcessReturn": null,
       "signalScore": 40,
       "signalReasons": [
@@ -29,11 +29,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": 1.62,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.0,
-        "volumeRatio": null,
+        "returnCurrent": 1.62,
+        "volumeRatio": 0.75,
         "marketExcessReturn": null
       }
     },
@@ -51,7 +51,7 @@
       "purpose": "純投資",
       "importantProposal": true,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.75,
       "marketExcessReturn": null,
       "signalScore": 40,
       "signalReasons": [
@@ -60,11 +60,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": 1.62,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.0,
-        "volumeRatio": null,
+        "returnCurrent": 1.62,
+        "volumeRatio": 0.75,
         "marketExcessReturn": null
       }
     },
@@ -82,7 +82,7 @@
       "purpose": "純投資",
       "importantProposal": true,
       "priceChange": null,
-      "volumeRatio": 1.91,
+      "volumeRatio": 1.33,
       "marketExcessReturn": null,
       "signalScore": 50,
       "signalReasons": [
@@ -94,8 +94,8 @@
         "return1d": 2.2,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 2.2,
-        "volumeRatio": 1.91,
+        "returnCurrent": 3.85,
+        "volumeRatio": 1.33,
         "marketExcessReturn": null
       }
     }
@@ -1567,9 +1567,19 @@
       "open": 2330.0,
       "high": 2488.0,
       "low": 2300.0,
-      "close": null,
-      "adj_close": null,
+      "close": 2486.0,
+      "adj_close": 2486.0,
       "volume": 5800
+    },
+    {
+      "ticker": "550A.T",
+      "trade_date": "2026-11-17",
+      "open": 2478.0,
+      "high": 2478.0,
+      "low": 2240.0,
+      "close": 2317.0,
+      "adj_close": 2317.0,
+      "volume": 3100
     }
   ],
   "benchmark": [
@@ -5632,6 +5642,16 @@
       "close": 410.8999938964844,
       "adj_close": 410.8999938964844,
       "volume": 20694200
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-17",
+      "open": 408.0,
+      "high": 408.1000061035156,
+      "low": 403.5,
+      "close": 404.5,
+      "adj_close": 404.5,
+      "volume": 37763290
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

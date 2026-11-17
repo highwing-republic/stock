@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-11-17T04:17:56+09:00",
+  "updatedAt": "2026-11-17T17:24:53+09:00",
   "company": {
     "securityCode": "4011",
     "ticker": "4011.T",
     "name": "株式会社ヘッドウォータース"
   },
   "events": [
+    {
+      "docId": "S100ZICM",
+      "ticker": "4011.T",
+      "securityCode": "4011",
+      "companyName": "株式会社ヘッドウォータース",
+      "submitDatetime": "2026-11-17 14:04",
+      "filerName": "稲葉　雄一",
+      "reportType": "change",
+      "holdingRatio": 14.3,
+      "previousHoldingRatio": 14.31,
+      "holdingChange": -0.01,
+      "purpose": "安定株主としての保有",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -3.26,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100ZGF8",
       "ticker": "4011.T",
@@ -20,17 +50,17 @@
       "purpose": "安定株主としての保有",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 1.14,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": -7.65,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.0,
-        "volumeRatio": null,
+        "returnCurrent": -7.65,
+        "volumeRatio": 1.14,
         "marketExcessReturn": null
       }
     },
@@ -60,7 +90,7 @@
         "return1d": -5.49,
         "return5d": -4.35,
         "return20d": -2.6,
-        "returnCurrent": -13.48,
+        "returnCurrent": -20.1,
         "volumeRatio": 0.79,
         "marketExcessReturn": -4.44
       }
@@ -91,7 +121,7 @@
         "return1d": -5.49,
         "return5d": -4.35,
         "return20d": -2.6,
-        "returnCurrent": -13.48,
+        "returnCurrent": -20.1,
         "volumeRatio": 0.79,
         "marketExcessReturn": -4.44
       }
@@ -122,7 +152,7 @@
         "return1d": -5.49,
         "return5d": -4.35,
         "return20d": -2.6,
-        "returnCurrent": -13.48,
+        "returnCurrent": -20.1,
         "volumeRatio": 0.79,
         "marketExcessReturn": -4.44
       }
@@ -3195,9 +3225,19 @@
       "open": 1757.0,
       "high": 1829.0,
       "low": 1724.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1746.0,
+      "adj_close": 1746.0,
       "volume": 42600
+    },
+    {
+      "ticker": "4011.T",
+      "trade_date": "2026-11-17",
+      "open": 1730.0,
+      "high": 1730.0,
+      "low": 1655.0,
+      "close": 1689.0,
+      "adj_close": 1689.0,
+      "volume": 44400
     }
   ],
   "benchmark": [
@@ -7260,6 +7300,16 @@
       "close": 410.8999938964844,
       "adj_close": 410.8999938964844,
       "volume": 20694200
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-17",
+      "open": 408.0,
+      "high": 408.1000061035156,
+      "low": 403.5,
+      "close": 404.5,
+      "adj_close": 404.5,
+      "volume": 37763290
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

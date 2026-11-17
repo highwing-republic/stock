@@ -1,0 +1,140 @@
+{
+ "company": {
+  "name": "千代田化工建設株式会社",
+  "securityCode": "6366",
+  "tradingViewSymbol": "TSE:6366"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "6366-2026-11-16",
+  "overextended": false,
+  "setupType": "RECOVERY",
+  "setups": [
+   "RECOVERY"
+  ],
+  "startedAt": "2026-11-16",
+  "status": "WATCH",
+  "statusHistory": [
+   {
+    "date": "2026-11-16",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-11-16",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   }
+  ],
+  "watchStartedAt": "2026-11-16"
+ },
+ "eventReactions": [
+  {
+   "d1": -1.2,
+   "d20": -9.8,
+   "d5": -12.1,
+   "eventId": "edinet:S100Y965",
+   "excess5": -9.9
+  },
+  {
+   "d1": -3.9,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZEXD",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-11-16",
+  "buyBalance": 7647700,
+  "buyChangePct": -4.8,
+  "labels": [],
+  "ratio": 17.97,
+  "sellBalance": 425500,
+  "sellChangePct": -9.9
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": -1.6,
+  "currentPrice": 668.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 19,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 4,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 59,
+   "stockReturn": null
+  },
+  "excessReturn": -2.0,
+  "initialDate": "2026-11-16",
+  "initialPrice": 693.0,
+  "stockReturn": -3.6
+ },
+ "priceSetup": {
+  "asOf": "2026-11-17",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.63,
+  "labels": [
+   "20日線の上",
+   "20日線が上向き"
+  ],
+  "ma20": 649.0,
+  "ma200": 857.0,
+  "ma60": 672.6,
+  "rangePos60": 0.5,
+  "rel20": 15.0,
+  "rel60": -0.4,
+  "volumeRatio20": 0.69
+ },
+ "reasons": [
+  "新規大量保有 5.5%（株式会社三菱ＵＦＪフィナンシャル・グループ）",
+  "20日線上向き",
+  "TOPIX連動ETF比 +15pt（20日）",
+  "信用買残 -5%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-07-06",
+   "detail": "81.94% → 2026%（三菱商事株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Y965"
+  },
+  {
+   "date": "2026-11-16",
+   "detail": "保有割合 5.46%（株式会社三菱ＵＦＪフィナンシャル・グループ）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZEXD"
+  },
+  {
+   "date": "2026-11-16",
+   "detail": "BREAKOUT → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup変化",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-16",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-11-17T17:25:58+09:00"
+}

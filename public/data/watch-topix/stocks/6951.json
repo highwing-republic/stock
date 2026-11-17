@@ -48,19 +48,22 @@
   {
    "d1": 5.7,
    "d20": null,
-   "d5": null,
+   "d5": 10.5,
    "eventId": "edinet:S100ZDPB",
-   "excess5": null
+   "excess5": 8.3
   }
  ],
  "margin": {
-  "asOf": "2026-11-13",
-  "buyBalance": 62100,
-  "buyChangePct": -5.8,
-  "labels": [],
-  "ratio": 3.06,
-  "sellBalance": 20300,
-  "sellChangePct": -7.3
+  "asOf": "2026-11-16",
+  "buyBalance": 59400,
+  "buyChangePct": -8.0,
+  "labels": [
+   "信用倍率改善",
+   "売残増加"
+  ],
+  "ratio": 1.65,
+  "sellBalance": 36000,
+  "sellChangePct": 60.7
  },
  "pastEpisodes": [
   {
@@ -73,21 +76,21 @@
  ],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-13",
+  "asOf": "2026-11-17",
   "atrState": "高ボラ",
   "distFrom52wHigh": 0.28,
   "labels": [],
-  "ma20": 6860.4,
-  "ma200": 6864.7,
-  "ma60": 7178.7,
-  "rangePos60": 0.32,
-  "rel20": -10.9,
-  "rel60": -19.4,
-  "volumeRatio20": 0.89
+  "ma20": 6775.7,
+  "ma200": 6875.3,
+  "ma60": 7160.5,
+  "rangePos60": 0.33,
+  "rel20": -6.5,
+  "rel60": -2.7,
+  "volumeRatio20": 0.81
  },
  "reasons": [
   "新規大量保有 5%（グランサム、マヨ、ヴァン　オッテルロー　アンド　カンパニー　エルエルシー）",
-  "信用買残 -6%"
+  "信用買残 -8%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -118,7 +121,14 @@
    "kind": "EVENT",
    "label": "保有割合の減少",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDPB"
+  },
+  {
+   "date": "2026-11-16",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-17T01:24:57+09:00"
+ "updatedAt": "2026-11-17T17:25:58+09:00"
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T04:17:56+09:00",
+  "updatedAt": "2026-11-17T17:24:53+09:00",
   "company": {
     "securityCode": "4771",
     "ticker": "4771.T",
@@ -19,9 +19,9 @@
       "holdingChange": -1.01,
       "purpose": "発行会社に対する支配権維持のため。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 1.42,
-      "marketExcessReturn": null,
+      "priceChange": 3.72,
+      "volumeRatio": 1.34,
+      "marketExcessReturn": -2.02,
       "signalScore": 0,
       "signalReasons": [
         "保有割合減少"
@@ -29,11 +29,11 @@
       "stockUnreacted": false,
       "metrics": {
         "return1d": 2.69,
-        "return5d": null,
+        "return5d": 3.72,
         "return20d": null,
-        "returnCurrent": 3.89,
-        "volumeRatio": 1.42,
-        "marketExcessReturn": null
+        "returnCurrent": 1.9,
+        "volumeRatio": 1.34,
+        "marketExcessReturn": -2.02
       }
     },
     {
@@ -59,7 +59,7 @@
         "return1d": -0.41,
         "return5d": 2.92,
         "return20d": -1.27,
-        "returnCurrent": 13.01,
+        "returnCurrent": 10.83,
         "volumeRatio": 1.68,
         "marketExcessReturn": 4.97
       }
@@ -3132,9 +3132,19 @@
       "open": 3030.0,
       "high": 3080.0,
       "low": 2980.0,
-      "close": null,
-      "adj_close": null,
+      "close": 3010.0,
+      "adj_close": 3010.0,
       "volume": 23400
+    },
+    {
+      "ticker": "4771.T",
+      "trade_date": "2026-11-17",
+      "open": 3015.0,
+      "high": 3015.0,
+      "low": 2957.0,
+      "close": 2957.0,
+      "adj_close": 2957.0,
+      "volume": 14100
     }
   ],
   "benchmark": [
@@ -7197,6 +7207,16 @@
       "close": 410.8999938964844,
       "adj_close": 410.8999938964844,
       "volume": 20694200
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-17",
+      "open": 408.0,
+      "high": 408.1000061035156,
+      "low": 403.5,
+      "close": 404.5,
+      "adj_close": 404.5,
+      "volume": 37763290
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"
