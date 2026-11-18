@@ -53,7 +53,7 @@
   },
   {
    "d1": -1.1,
-   "d20": 3.0,
+   "d20": null,
    "d5": -1.5,
    "eventId": "edinet:S100Z8Q0",
    "excess5": -1.2
@@ -75,7 +75,7 @@
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 11,
+   "pendingDays": 12,
    "stockReturn": null
   },
   "d5": {
@@ -87,7 +87,7 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 51,
+   "pendingDays": 52,
    "stockReturn": null
   },
   "excessReturn": 1.9,
@@ -96,25 +96,25 @@
   "stockReturn": -1.3
  },
  "priceSetup": {
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-17",
   "atrState": "通常",
   "distFrom52wHigh": 0.18,
   "labels": [
    "20日線の上",
    "20日線が上向き"
   ],
-  "ma20": 1737.0,
-  "ma200": 1792.0,
-  "ma60": 1791.2,
-  "rangePos60": 0.43,
-  "rel20": 7.7,
-  "rel60": -2.3,
-  "volumeRatio20": 0.58
+  "ma20": 1734.4,
+  "ma200": 1791.0,
+  "ma60": 1793.0,
+  "rangePos60": 0.44,
+  "rel20": 8.5,
+  "rel60": 0.2,
+  "volumeRatio20": 0.7
  },
  "reasons": [
   "新規大量保有 5%（三井住友トラスト・アセットマネジメント株式会社）",
   "20日線上向き",
-  "TOPIX連動ETF比 +7.7pt（20日）"
+  "TOPIX連動ETF比 +8.5pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -201,14 +201,7 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-11-18",
-   "detail": "RECOVERY → なし",
-   "kind": "SETUP",
-   "label": "Price Setup解消",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-18T21:14:20+09:00"
+ "updatedAt": "2026-11-19T01:04:48+09:00"
 }

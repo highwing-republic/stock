@@ -11,7 +11,8 @@
   "overextended": false,
   "setupType": "TREND",
   "setups": [
-   "TREND"
+   "TREND",
+   "RECOVERY"
   ],
   "startedAt": "2026-10-23",
   "status": "WATCH",
@@ -51,12 +52,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -3.5,
-  "currentPrice": 3560.0,
+  "benchReturn": -2.8,
+  "currentPrice": 3595.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 3,
+   "pendingDays": 4,
    "stockReturn": null
   },
   "d5": {
@@ -68,37 +69,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 43,
+   "pendingDays": 44,
    "stockReturn": null
   },
-  "excessReturn": 8.2,
+  "excessReturn": 8.5,
   "initialDate": "2026-10-23",
   "initialPrice": 3400.0,
-  "stockReturn": 4.7
+  "stockReturn": 5.7
  },
  "priceSetup": {
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-17",
   "atrState": "通常",
-  "distFrom52wHigh": 0.04,
+  "distFrom52wHigh": 0.03,
   "labels": [
    "20日線の上",
-   "60日レンジ上位13%",
+   "60日レンジ上位8%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 3415.5,
-  "ma200": 3200.7,
-  "ma60": 3171.1,
-  "rangePos60": 0.87,
-  "rel20": 17.4,
-  "rel60": 21.4,
-  "volumeRatio20": 0.74
+  "ma20": 3395.5,
+  "ma200": 3199.9,
+  "ma60": 3162.2,
+  "rangePos60": 0.92,
+  "rel20": 20.1,
+  "rel60": 26.0,
+  "volumeRatio20": 1.2
  },
  "reasons": [
   "新規大量保有 5.1%（株式会社シティインデックスイレブンス）",
-  "60日レンジ上位13%",
+  "60日レンジ上位8%",
   "20日線上向き",
-  "TOPIX連動ETF比 +17.4pt（20日）"
+  "TOPIX連動ETF比 +20.1pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -152,5 +153,5 @@
    "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-18T21:14:20+09:00"
+ "updatedAt": "2026-11-19T01:04:48+09:00"
 }

@@ -10,7 +10,9 @@
   "id": "4324-2026-06-19",
   "overextended": true,
   "setupType": "TREND",
-  "setups": [],
+  "setups": [
+   "TREND"
+  ],
   "startedAt": "2026-06-19",
   "status": "REACTED",
   "statusHistory": [
@@ -92,7 +94,7 @@
   },
   {
    "d1": -1.4,
-   "d20": -1.1,
+   "d20": null,
    "d5": -2.2,
    "eventId": "edinet:S100Z8PR",
    "excess5": -1.9
@@ -116,8 +118,8 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -3.9,
-  "currentPrice": 3786.0,
+  "benchReturn": -3.3,
+  "currentPrice": 3862.0,
   "d20": {
    "benchReturn": -0.3,
    "excessReturn": 14.5,
@@ -136,35 +138,43 @@
    "pendingDays": 0,
    "stockReturn": 14.8
   },
-  "excessReturn": 25.8,
+  "excessReturn": 27.7,
   "initialDate": "2026-07-02",
   "initialPrice": 3105.0,
-  "stockReturn": 21.9
+  "stockReturn": 24.4
  },
  "priceSetup": {
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-17",
   "atrState": "通常",
-  "distFrom52wHigh": 0.08,
+  "distFrom52wHigh": 0.06,
   "labels": [
+   "20日線の上",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 3843.3,
-  "ma200": 3269.5,
-  "ma60": 3697.7,
-  "rangePos60": 0.48,
-  "rel20": 3.6,
-  "rel60": 12.7,
-  "volumeRatio20": 1.37
+  "ma20": 3845.5,
+  "ma200": 3265.9,
+  "ma60": 3692.5,
+  "rangePos60": 0.63,
+  "rel20": 6.4,
+  "rel60": 16.4,
+  "volumeRatio20": 2.56
  },
  "reasons": [
   "0.1pt買い増し 7.7%→7.8%",
   "30日以内に2回買い増し",
-  "TOPIX連動ETF比 +3.6pt（20日）",
-  "52週高値まで8%"
+  "20日線上向き",
+  "TOPIX連動ETF比 +6.4pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
+  {
+   "date": "2026-07-02",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
   {
    "date": "2026-07-03",
    "detail": "RECOVERY → TREND",
@@ -577,14 +587,7 @@
    "kind": "SETUP",
    "label": "Price Setup変化",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-11-18",
-   "detail": "TREND → なし",
-   "kind": "SETUP",
-   "label": "Price Setup解消",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-18T21:14:20+09:00"
+ "updatedAt": "2026-11-19T01:04:48+09:00"
 }
