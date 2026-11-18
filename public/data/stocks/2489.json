@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T03:10:58+09:00",
+  "updatedAt": "2026-11-18T16:55:06+09:00",
   "company": {
     "securityCode": "2489",
     "ticker": "2489.T",
@@ -19,23 +19,24 @@
       "holdingChange": 3.47,
       "purpose": "提出者と発行者との間の2026年11月4日付資本業務提携契約（以下「本資本業務提携契約」といいます。）に基づく資本提携及び業務提携を目的として保有するものです。提出者は、本資本業務提携契約に基づく指名権を有する間、必要に応じて随時、発行者に対し、取締役候補者1名及び当該取締役候補者の補欠取締役候補者1名を、発行者の定時株主総会において選任されるよう指名する予定です。なお、提出者は、本資本業務提携契約に基づく資本提携及び業務提携の一環として、発行者との間の2026年11月4日付出資契約（以下「本出資契約」といいます。）に基づき、第三者割当の方法により発行者の普通株式を引き受けることを予定しています。取得予定株式数は合計3,123,800株（新規発行株式：200,000株、処分自己株式：2,923,800株）、取得価格は1株当たり352円、払込期日は2026年11月20日であり、本取得により提出者の株券等保有割合を5％超増加させる予定です。",
       "importantProposal": true,
-      "priceChange": null,
-      "volumeRatio": 0.39,
-      "marketExcessReturn": null,
-      "signalScore": 50,
+      "priceChange": -6.08,
+      "volumeRatio": 0.38,
+      "marketExcessReturn": -3.98,
+      "signalScore": 60,
       "signalReasons": [
         "1pt以上買い増し",
         "2pt以上買い増し",
-        "重要提案行為あり"
+        "重要提案行為あり",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": 1.52,
-        "return5d": null,
+        "return5d": -6.08,
         "return20d": null,
-        "returnCurrent": -3.34,
-        "volumeRatio": 0.39,
-        "marketExcessReturn": null
+        "returnCurrent": -6.08,
+        "volumeRatio": 0.38,
+        "marketExcessReturn": -3.98
       }
     },
     {
@@ -63,7 +64,7 @@
         "return1d": -7.1,
         "return5d": -2.96,
         "return20d": null,
-        "returnCurrent": -5.92,
+        "returnCurrent": -8.58,
         "volumeRatio": 0.55,
         "marketExcessReturn": -2.94
       }
@@ -2796,9 +2797,19 @@
       "open": 313.0,
       "high": 316.0,
       "low": 310.0,
-      "close": null,
-      "adj_close": null,
+      "close": 316.0,
+      "adj_close": 316.0,
       "volume": 163800
+    },
+    {
+      "ticker": "2489.T",
+      "trade_date": "2026-11-18",
+      "open": 316.0,
+      "high": 316.0,
+      "low": 304.0,
+      "close": 309.0,
+      "adj_close": 309.0,
+      "volume": 179600
     }
   ],
   "benchmark": [
@@ -6868,9 +6879,19 @@
       "open": 408.0,
       "high": 408.1000061035156,
       "low": 403.5,
-      "close": null,
-      "adj_close": null,
+      "close": 404.5,
+      "adj_close": 404.5,
       "volume": 37763290
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-18",
+      "open": 404.8999938964844,
+      "high": 405.8999938964844,
+      "low": 399.20001220703125,
+      "close": 401.8999938964844,
+      "adj_close": 401.8999938964844,
+      "volume": 22289870
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

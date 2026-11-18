@@ -33,34 +33,38 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-16",
-  "buyBalance": 475100,
-  "buyChangePct": 0.4,
+  "asOf": "2026-11-17",
+  "buyBalance": 475800,
+  "buyChangePct": 1.1,
   "labels": [
    "信用倍率改善",
    "売残増加"
   ],
-  "ratio": 13.05,
-  "sellBalance": 36400,
-  "sellChangePct": 59.0
+  "ratio": 12.52,
+  "sellBalance": 38000,
+  "sellChangePct": 59.7
  },
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-16",
+  "asOf": "2026-11-18",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.31,
-  "labels": [],
-  "ma20": 4333.2,
-  "ma200": 4634.0,
-  "ma60": 4422.7,
-  "rangePos60": 0.44,
-  "rel20": -9.8,
-  "rel60": -8.5,
-  "volumeRatio20": 1.43
+  "distFrom52wHigh": 0.29,
+  "labels": [
+   "20日線の上"
+  ],
+  "ma20": 4285.2,
+  "ma200": 4637.0,
+  "ma60": 4408.6,
+  "rangePos60": 0.49,
+  "rel20": 0.6,
+  "rel60": 0.8,
+  "volumeRatio20": 1.87
  },
  "reasons": [
-  "新規大量保有 5.1%（エフィッシモ　キャピタル　マネージメント　ピーティーイー　エルティーディー（Ｅｆｆｉｓｓｉｍｏ　Ｃａｐｉｔａｌ　Ｍａｎａｇｅｍｅｎｔ　Ｐｔｅ　Ｌｔｄ））"
+  "新規大量保有 5.1%（エフィッシモ　キャピタル　マネージメント　ピーティーイー　エルティーディー（Ｅｆｆｉｓｓｉｍｏ　Ｃａｐｉｔａｌ　Ｍａｎａｇｅｍｅｎｔ　Ｐｔｅ　Ｌｔｄ））",
+  "20日線を回復",
+  "TOPIX連動ETF比 +0.6pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -70,7 +74,21 @@
    "kind": "EVENT",
    "label": "新規大量保有",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDNG"
+  },
+  {
+   "date": "2026-11-18",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-18",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-18T03:12:09+09:00"
+ "updatedAt": "2026-11-18T16:56:12+09:00"
 }

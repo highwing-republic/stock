@@ -72,38 +72,46 @@
    "d5": 12.0,
    "eventId": "edinet:S100ZB5R",
    "excess5": 12.0
+  },
+  {
+   "d1": -0.5,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZIIS",
+   "excess5": null
   }
  ],
  "margin": {
-  "asOf": "2026-11-16",
-  "buyBalance": 1095700,
-  "buyChangePct": -17.1,
+  "asOf": "2026-11-17",
+  "buyBalance": 1081100,
+  "buyChangePct": -12.5,
   "labels": [
    "信用買残減少",
    "信用倍率改善"
   ],
-  "ratio": 1.07,
-  "sellBalance": 1019900,
-  "sellChangePct": 5.1
+  "ratio": 1.05,
+  "sellBalance": 1025800,
+  "sellChangePct": 5.0
  },
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-16",
+  "asOf": "2026-11-18",
   "atrState": "低ボラ",
-  "distFrom52wHigh": 0.38,
+  "distFrom52wHigh": 0.39,
   "labels": [],
-  "ma20": 2165.2,
-  "ma200": 2597.0,
-  "ma60": 2424.8,
+  "ma20": 2156.1,
+  "ma200": 2595.1,
+  "ma60": 2398.9,
   "rangePos60": 0.15,
-  "rel20": -4.6,
-  "rel60": -26.9,
-  "volumeRatio20": 0.76
+  "rel20": 2.7,
+  "rel60": -20.6,
+  "volumeRatio20": 0.49
  },
  "reasons": [
   "1.2pt買い増し 12.4%→13.6%",
-  "信用買残 -17%"
+  "TOPIX連動ETF比 +2.7pt（20日）",
+  "信用買残 -12%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -176,7 +184,21 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-18",
+   "detail": "8.7% → 7.62%（マラソン・アセット・マネジメント・リミテッド）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIIS"
+  },
+  {
+   "date": "2026-11-18",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-18T03:12:09+09:00"
+ "updatedAt": "2026-11-18T16:56:12+09:00"
 }

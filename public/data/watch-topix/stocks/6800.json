@@ -5,20 +5,26 @@
   "tradingViewSymbol": "TSE:6800"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "NO_SETUP",
+  "closedAt": "2026-11-18",
   "id": "6800-2026-10-20",
   "overextended": false,
   "setupType": null,
   "setups": [],
   "startedAt": "2026-10-20",
-  "status": "CANDIDATE",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-10-20",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-11-18",
+    "from": "CANDIDATE",
+    "reason_code": "NO_SETUP",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": null
@@ -26,35 +32,38 @@
  "eventReactions": [
   {
    "d1": -5.6,
-   "d20": null,
+   "d20": -42.2,
    "d5": -16.7,
    "eventId": "edinet:S100Z8UE",
    "excess5": -14.7
   }
  ],
  "margin": {
-  "asOf": "2026-11-16",
-  "buyBalance": 437900,
-  "buyChangePct": 11.2,
-  "labels": [],
-  "ratio": 33.43,
-  "sellBalance": 13100,
-  "sellChangePct": 3.1
+  "asOf": "2026-11-17",
+  "buyBalance": 439500,
+  "buyChangePct": 4.3,
+  "labels": [
+   "信用倍率改善",
+   "売残増加"
+  ],
+  "ratio": 30.95,
+  "sellBalance": 14200,
+  "sellChangePct": 31.5
  },
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-16",
+  "asOf": "2026-11-18",
   "atrState": "高ボラ",
   "distFrom52wHigh": 0.64,
   "labels": [],
-  "ma20": 3129.2,
-  "ma200": 4007.6,
-  "ma60": 3815.6,
-  "rangePos60": 0.01,
-  "rel20": -37.7,
-  "rel60": -41.4,
-  "volumeRatio20": 1.88
+  "ma20": 2976.4,
+  "ma200": 4008.4,
+  "ma60": 3759.3,
+  "rangePos60": 0.04,
+  "rel20": -32.5,
+  "rel60": -34.8,
+  "volumeRatio20": 1.25
  },
  "reasons": [
   "新規大量保有 5.1%（ＳｉｌｖｅｒＣａｐｅ　Ｉｎｖｅｓｔｍｅｎｔｓ　Ｌｉｍｉｔｅｄ）"
@@ -67,7 +76,14 @@
    "kind": "EVENT",
    "label": "新規大量保有",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8UE"
+  },
+  {
+   "date": "2026-11-18",
+   "detail": "期限内にPrice Setupが成立しなかった",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-18T03:12:09+09:00"
+ "updatedAt": "2026-11-18T16:56:12+09:00"
 }

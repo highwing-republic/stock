@@ -1,11 +1,72 @@
 {
-  "updatedAt": "2026-11-18T03:10:58+09:00",
+  "updatedAt": "2026-11-18T16:55:06+09:00",
   "company": {
     "securityCode": "8066",
     "ticker": "8066.T",
     "name": "三谷商事株式会社"
   },
   "events": [
+    {
+      "docId": "S100ZIKG",
+      "ticker": "8066.T",
+      "securityCode": "8066",
+      "companyName": "三谷商事株式会社",
+      "submitDatetime": "2026-11-18 10:38",
+      "filerName": "三谷　滋子",
+      "reportType": "change",
+      "holdingRatio": 2.64,
+      "previousHoldingRatio": 5.13,
+      "holdingChange": -2.49,
+      "purpose": "相続による株式保有",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少",
+        "大幅売却"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 0.75,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
+    {
+      "docId": "S100ZIKD",
+      "ticker": "8066.T",
+      "securityCode": "8066",
+      "companyName": "三谷商事株式会社",
+      "submitDatetime": "2026-11-18 10:33",
+      "filerName": "三谷聡",
+      "reportType": "change",
+      "holdingRatio": 10.06,
+      "previousHoldingRatio": 11.98,
+      "holdingChange": -1.92,
+      "purpose": "・株式の配当金を三親会運営資金に充当するため（三親会理事長としての保有目的）・発行会社の代表取締役であり、安定株主として保有（三谷聡個人としての保有目的）",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 0.75,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YG90",
       "ticker": "8066.T",
@@ -33,7 +94,7 @@
         "return1d": -1.83,
         "return5d": 1.63,
         "return20d": 12.51,
-        "returnCurrent": 11.92,
+        "returnCurrent": 12.67,
         "volumeRatio": 0.7,
         "marketExcessReturn": 3.49
       }
@@ -63,7 +124,7 @@
         "return1d": -1.83,
         "return5d": 1.63,
         "return20d": 12.51,
-        "returnCurrent": 11.92,
+        "returnCurrent": 12.67,
         "volumeRatio": 0.7,
         "marketExcessReturn": 3.49
       }
@@ -91,7 +152,7 @@
         "return1d": -1.83,
         "return5d": 1.63,
         "return20d": 12.51,
-        "returnCurrent": 11.92,
+        "returnCurrent": 12.67,
         "volumeRatio": 0.7,
         "marketExcessReturn": 3.49
       }
@@ -123,7 +184,7 @@
         "return1d": -1.83,
         "return5d": 1.63,
         "return20d": 12.51,
-        "returnCurrent": 11.92,
+        "returnCurrent": 12.67,
         "volumeRatio": 0.7,
         "marketExcessReturn": 3.49
       }
@@ -3206,9 +3267,19 @@
       "open": 2794.0,
       "high": 2838.0,
       "low": 2724.0,
-      "close": null,
-      "adj_close": null,
+      "close": 2806.0,
+      "adj_close": 2806.0,
       "volume": 7600
+    },
+    {
+      "ticker": "8066.T",
+      "trade_date": "2026-11-18",
+      "open": 2800.0,
+      "high": 2855.0,
+      "low": 2780.0,
+      "close": 2827.0,
+      "adj_close": 2827.0,
+      "volume": 6500
     }
   ],
   "benchmark": [
@@ -7278,9 +7349,19 @@
       "open": 408.0,
       "high": 408.1000061035156,
       "low": 403.5,
-      "close": null,
-      "adj_close": null,
+      "close": 404.5,
+      "adj_close": 404.5,
       "volume": 37763290
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-18",
+      "open": 404.8999938964844,
+      "high": 405.8999938964844,
+      "low": 399.20001220703125,
+      "close": 401.8999938964844,
+      "adj_close": 401.8999938964844,
+      "volume": 22289870
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

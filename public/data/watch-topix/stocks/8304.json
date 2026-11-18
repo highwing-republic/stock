@@ -9,8 +9,10 @@
   "closedAt": null,
   "id": "8304-2026-07-07",
   "overextended": true,
-  "setupType": "TREND",
-  "setups": [],
+  "setupType": "RECOVERY",
+  "setups": [
+   "RECOVERY"
+  ],
   "startedAt": "2026-07-07",
   "status": "REACTED",
   "statusHistory": [
@@ -71,28 +73,28 @@
   },
   {
    "d1": 2.0,
-   "d20": null,
+   "d20": 3.7,
    "d5": -1.2,
    "eventId": "edinet:S100Z8Q1",
    "excess5": -0.9
   }
  ],
  "margin": {
-  "asOf": "2026-11-16",
-  "buyBalance": 2416800,
-  "buyChangePct": -8.8,
+  "asOf": "2026-11-17",
+  "buyBalance": 2519700,
+  "buyChangePct": -3.7,
   "labels": [
    "信用倍率改善",
    "売残増加"
   ],
-  "ratio": 6.56,
-  "sellBalance": 368200,
-  "sellChangePct": 1201.1
+  "ratio": 6.8,
+  "sellBalance": 370500,
+  "sellChangePct": 1036.5
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -3.0,
-  "currentPrice": 3230.0,
+  "benchReturn": -5.1,
+  "currentPrice": 3156.0,
   "d20": {
    "benchReturn": -0.6,
    "excessReturn": 10.8,
@@ -111,30 +113,32 @@
    "pendingDays": 0,
    "stockReturn": 17.9
   },
-  "excessReturn": 13.5,
+  "excessReturn": 13.1,
   "initialDate": "2026-07-07",
   "initialPrice": 2923.0,
-  "stockReturn": 10.5
+  "stockReturn": 8.0
  },
  "priceSetup": {
-  "asOf": "2026-11-16",
+  "asOf": "2026-11-18",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.1,
+  "distFrom52wHigh": 0.12,
   "labels": [
-   "20日線の上"
+   "20日線の上",
+   "20日線が上向き"
   ],
-  "ma20": 3067.6,
-  "ma200": 2892.7,
-  "ma60": 3285.6,
-  "rangePos60": 0.5,
-  "rel20": 5.0,
-  "rel60": -0.0,
-  "volumeRatio20": 0.88
+  "ma20": 3072.8,
+  "ma200": 2899.7,
+  "ma60": 3279.0,
+  "rangePos60": 0.4,
+  "rel20": 8.5,
+  "rel60": -1.9,
+  "volumeRatio20": 0.74
  },
  "reasons": [
   "新規大量保有 5%（三井住友トラスト・アセットマネジメント株式会社）",
-  "TOPIX連動ETF比 +5pt（20日）",
-  "信用買残 -9%"
+  "20日線上向き",
+  "TOPIX連動ETF比 +8.5pt（20日）",
+  "信用買残 -4%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -361,7 +365,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-18",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-18T03:12:09+09:00"
+ "updatedAt": "2026-11-18T16:56:12+09:00"
 }

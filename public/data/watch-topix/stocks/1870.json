@@ -9,9 +9,8 @@
   "closedAt": null,
   "id": "1870-2026-11-10",
   "overextended": false,
-  "setupType": "TREND",
+  "setupType": "RECOVERY",
   "setups": [
-   "TREND",
    "RECOVERY"
   ],
   "startedAt": "2026-11-10",
@@ -55,67 +54,66 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-16",
-  "buyBalance": 154400,
-  "buyChangePct": -3.4,
+  "asOf": "2026-11-17",
+  "buyBalance": 149100,
+  "buyChangePct": -7.3,
   "labels": [
    "信用倍率改善",
    "売残増加"
   ],
-  "ratio": 5.76,
-  "sellBalance": 26800,
-  "sellChangePct": 42.6
+  "ratio": 5.38,
+  "sellBalance": 27700,
+  "sellChangePct": 44.3
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -0.7,
-  "currentPrice": 2188.0,
+  "benchReturn": -2.9,
+  "currentPrice": 2123.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 17,
+   "pendingDays": 15,
    "stockReturn": null
   },
   "d5": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 2,
-   "stockReturn": null
+   "benchReturn": -2.9,
+   "excessReturn": 4.3,
+   "pendingDays": 0,
+   "stockReturn": 1.4
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 57,
+   "pendingDays": 55,
    "stockReturn": null
   },
-  "excessReturn": 5.2,
+  "excessReturn": 4.3,
   "initialDate": "2026-11-11",
   "initialPrice": 2094.0,
-  "stockReturn": 4.5
+  "stockReturn": 1.4
  },
  "priceSetup": {
-  "asOf": "2026-11-16",
+  "asOf": "2026-11-18",
   "atrState": "通常",
-  "distFrom52wHigh": 0.09,
+  "distFrom52wHigh": 0.12,
   "labels": [
    "20日線の上",
-   "60日レンジ上位12%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2099.3,
-  "ma200": 2025.8,
-  "ma60": 2093.6,
-  "rangePos60": 0.88,
-  "rel20": 8.3,
-  "rel60": 11.9,
-  "volumeRatio20": 1.06
+  "ma20": 2105.7,
+  "ma200": 2024.1,
+  "ma60": 2096.7,
+  "rangePos60": 0.57,
+  "rel20": 7.7,
+  "rel60": 8.2,
+  "volumeRatio20": 0.68
  },
  "reasons": [
   "新規大量保有 6.9%（佐藤　弘信）",
-  "60日レンジ上位12%",
   "20日線上向き",
-  "TOPIX連動ETF比 +8.3pt（20日）"
+  "TOPIX連動ETF比 +7.7pt（20日）",
+  "信用買残 -7%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -174,7 +172,14 @@
    "kind": "STATUS",
    "label": "STRENGTHENING",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-18",
+   "detail": "TREND → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup変化",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-18T03:12:09+09:00"
+ "updatedAt": "2026-11-18T16:56:12+09:00"
 }

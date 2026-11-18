@@ -10,9 +10,7 @@
   "id": "9987-2026-09-10",
   "overextended": false,
   "setupType": "TREND",
-  "setups": [
-   "TREND"
-  ],
+  "setups": [],
   "startedAt": "2026-09-10",
   "status": "REACTED",
   "statusHistory": [
@@ -59,21 +57,18 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-16",
-  "buyBalance": 14900,
-  "buyChangePct": -3.9,
-  "labels": [
-   "信用倍率改善",
-   "売残増加"
-  ],
-  "ratio": 0.62,
-  "sellBalance": 23900,
-  "sellChangePct": 23.2
+  "asOf": "2026-11-17",
+  "buyBalance": 16700,
+  "buyChangePct": 9.9,
+  "labels": [],
+  "ratio": 0.81,
+  "sellBalance": 20700,
+  "sellChangePct": 7.8
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -2.8,
-  "currentPrice": 2915.0,
+  "benchReturn": -4.9,
+  "currentPrice": 2878.0,
   "d20": {
    "benchReturn": 2.0,
    "excessReturn": 1.6,
@@ -89,37 +84,33 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 18,
+   "pendingDays": 16,
    "stockReturn": null
   },
-  "excessReturn": 17.6,
+  "excessReturn": 18.2,
   "initialDate": "2026-09-10",
   "initialPrice": 2539.6,
-  "stockReturn": 14.8
+  "stockReturn": 13.3
  },
  "priceSetup": {
-  "asOf": "2026-11-16",
+  "asOf": "2026-11-18",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.1,
+  "distFrom52wHigh": 0.11,
   "labels": [
-   "20日線の上",
-   "60日レンジ上位23%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2878.2,
-  "ma200": 2710.8,
-  "ma60": 2666.0,
-  "rangePos60": 0.77,
-  "rel20": 11.9,
-  "rel60": 25.4,
-  "volumeRatio20": 0.86
+  "ma20": 2889.0,
+  "ma200": 2708.8,
+  "ma60": 2679.9,
+  "rangePos60": 0.69,
+  "rel20": 7.7,
+  "rel60": 19.4,
+  "volumeRatio20": 0.73
  },
  "reasons": [
   "1pt買い増し 8.2%→9.3%",
-  "60日レンジ上位23%",
-  "20日線上向き",
-  "TOPIX連動ETF比 +11.9pt（20日）"
+  "TOPIX連動ETF比 +7.7pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -346,7 +337,14 @@
    "kind": "SETUP",
    "label": "Price Setup改善",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-17",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-18T03:12:09+09:00"
+ "updatedAt": "2026-11-18T16:56:12+09:00"
 }

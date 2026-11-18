@@ -1,11 +1,39 @@
 {
-  "updatedAt": "2026-11-18T03:10:58+09:00",
+  "updatedAt": "2026-11-18T16:55:06+09:00",
   "company": {
     "securityCode": "660A",
     "ticker": "660A.T",
     "name": "株式会社ＲＥＣＥＰＴＩＯＮＩＳＴ"
   },
   "events": [
+    {
+      "docId": "S100ZIOJ",
+      "ticker": "660A.T",
+      "securityCode": "660A",
+      "companyName": "株式会社ＲＥＣＥＰＴＩＯＮＩＳＴ",
+      "submitDatetime": "2026-11-18 16:17",
+      "filerName": "大宮　真里子",
+      "reportType": "correction",
+      "holdingRatio": 17.92,
+      "previousHoldingRatio": null,
+      "holdingChange": null,
+      "purpose": "発行会社の創業者であり、安定株主として長期保有するためであります。法第27条の23第3項第2号に記載した100,000株は、子の親権者として保有しております。 / 発行会社の代表取締役CEOの資産管理会社であり、安定株主として保有しております。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 7.77,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100ZHMR",
       "ticker": "660A.T",
@@ -20,17 +48,17 @@
       "purpose": "発行会社の創業者であり、安定株主として長期保有するためであります。法第27条の23第3項第2号に記載した100,000株は、子の親権者として保有しております。 / 安定株主として長期保有を目的としております。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.26,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": -12.86,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 1.61,
-        "volumeRatio": null,
+        "returnCurrent": -6.08,
+        "volumeRatio": 0.26,
         "marketExcessReturn": null
       }
     },
@@ -48,7 +76,7 @@
       "purpose": "発行会社の創業者であり、安定株主として長期保有するためであります。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": 0.74,
+      "volumeRatio": 0.43,
       "marketExcessReturn": null,
       "signalScore": 30,
       "signalReasons": [
@@ -59,8 +87,8 @@
         "return1d": -13.24,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -13.24,
-        "volumeRatio": 0.74,
+        "returnCurrent": -19.8,
+        "volumeRatio": 0.43,
         "marketExcessReturn": null
       }
     },
@@ -77,21 +105,22 @@
       "holdingChange": null,
       "purpose": "純投資",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.82,
-      "marketExcessReturn": null,
-      "signalScore": 30,
+      "priceChange": -5.98,
+      "volumeRatio": 0.6,
+      "marketExcessReturn": -3.88,
+      "signalScore": 40,
       "signalReasons": [
-        "新規大量保有"
+        "新規大量保有",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": 17.24,
-        "return5d": null,
+        "return5d": -5.98,
         "return20d": null,
-        "returnCurrent": 1.72,
-        "volumeRatio": 0.82,
-        "marketExcessReturn": null
+        "returnCurrent": -5.98,
+        "volumeRatio": 0.6,
+        "marketExcessReturn": -3.88
       }
     }
   ],
@@ -152,9 +181,19 @@
       "open": 871.0,
       "high": 876.0,
       "low": 754.0,
-      "close": null,
-      "adj_close": null,
+      "close": 759.0,
+      "adj_close": 759.0,
       "volume": 1272400
+    },
+    {
+      "ticker": "660A.T",
+      "trade_date": "2026-11-18",
+      "open": 774.0,
+      "high": 838.0,
+      "low": 768.0,
+      "close": 818.0,
+      "adj_close": 818.0,
+      "volume": 875200
     }
   ],
   "benchmark": [
@@ -4224,9 +4263,19 @@
       "open": 408.0,
       "high": 408.1000061035156,
       "low": 403.5,
-      "close": null,
-      "adj_close": null,
+      "close": 404.5,
+      "adj_close": 404.5,
       "volume": 37763290
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-18",
+      "open": 404.8999938964844,
+      "high": 405.8999938964844,
+      "low": 399.20001220703125,
+      "close": 401.8999938964844,
+      "adj_close": 401.8999938964844,
+      "volume": 22289870
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

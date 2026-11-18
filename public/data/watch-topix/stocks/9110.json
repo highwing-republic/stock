@@ -83,14 +83,14 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-16",
-  "buyBalance": 107400,
-  "buyChangePct": 204.2,
+  "asOf": "2026-11-17",
+  "buyBalance": 99700,
+  "buyChangePct": 782.3,
   "labels": [
    "信用買残急増",
    "信用倍率悪化"
   ],
-  "ratio": 48.82,
+  "ratio": 45.32,
   "sellBalance": 2200,
   "sellChangePct": 0.0
  },
@@ -122,25 +122,28 @@
   "stockReturn": 0.8
  },
  "priceSetup": {
-  "asOf": "2026-11-16",
+  "asOf": "2026-11-18",
   "atrState": "低ボラ",
   "distFrom52wHigh": 0.0,
   "labels": [
+   "20日線の上",
+   "60日レンジ上位15%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 10534.5,
-  "ma200": 8389.7,
-  "ma60": 10506.7,
-  "rangePos60": 0.69,
-  "rel20": 4.2,
-  "rel60": 6.6,
-  "volumeRatio20": 1.55
+  "ma20": 10537.0,
+  "ma200": 8428.2,
+  "ma60": 10510.0,
+  "rangePos60": 0.85,
+  "rel20": 5.0,
+  "rel60": 4.8,
+  "volumeRatio20": 1.16
  },
  "reasons": [
   "新規大量保有 26.9%（内海曳船株式会社）",
-  "TOPIX連動ETF比 +4.2pt（20日）",
-  "52週高値まで0%"
+  "60日レンジ上位15%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +5pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -269,7 +272,21 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-17",
+   "detail": "なし → BREAKOUT",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-17",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-18T03:12:09+09:00"
+ "updatedAt": "2026-11-18T16:56:12+09:00"
 }

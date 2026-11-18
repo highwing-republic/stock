@@ -1,11 +1,42 @@
 {
-  "updatedAt": "2026-11-18T03:10:58+09:00",
+  "updatedAt": "2026-11-18T16:55:06+09:00",
   "company": {
     "securityCode": "6036",
     "ticker": "6036.T",
     "name": "ＫｅｅＰｅｒ技研株式会社"
   },
   "events": [
+    {
+      "docId": "S100ZGSD",
+      "ticker": "6036.T",
+      "securityCode": "6036",
+      "companyName": "ＫｅｅＰｅｒ技研株式会社",
+      "submitDatetime": "2026-11-18 11:23",
+      "filerName": "ＶＴホールディングス株式会社",
+      "reportType": "change",
+      "holdingRatio": 0.0,
+      "previousHoldingRatio": 16.47,
+      "holdingChange": -16.47,
+      "purpose": "政策投資",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少",
+        "大幅売却"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -2.34,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100ZI0R",
       "ticker": "6036.T",
@@ -20,19 +51,21 @@
       "purpose": "発行者との資本業務提携契約に基づく協力関係の構築及び当該協力関係を通じた企業価値の向上を目的とする保有。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 3.58,
       "marketExcessReturn": null,
-      "signalScore": 30,
+      "signalScore": 45,
       "signalReasons": [
-        "新規大量保有"
+        "新規大量保有",
+        "出来高2倍以上",
+        "出来高3倍以上"
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": -3.61,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -0.23,
-        "volumeRatio": null,
+        "returnCurrent": -5.87,
+        "volumeRatio": 3.58,
         "marketExcessReturn": null
       }
     }
@@ -2694,9 +2727,19 @@
       "open": 1829.0,
       "high": 1857.0,
       "low": 1701.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1708.0,
+      "adj_close": 1708.0,
       "volume": 1372700
+    },
+    {
+      "ticker": "6036.T",
+      "trade_date": "2026-11-18",
+      "open": 1677.0,
+      "high": 1695.0,
+      "low": 1642.0,
+      "close": 1668.0,
+      "adj_close": 1668.0,
+      "volume": 395000
     }
   ],
   "benchmark": [
@@ -6766,9 +6809,19 @@
       "open": 408.0,
       "high": 408.1000061035156,
       "low": 403.5,
-      "close": null,
-      "adj_close": null,
+      "close": 404.5,
+      "adj_close": 404.5,
       "volume": 37763290
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-18",
+      "open": 404.8999938964844,
+      "high": 405.8999938964844,
+      "low": 399.20001220703125,
+      "close": 401.8999938964844,
+      "adj_close": 401.8999938964844,
+      "volume": 22289870
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

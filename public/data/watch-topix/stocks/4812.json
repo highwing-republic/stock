@@ -5,8 +5,8 @@
   "tradingViewSymbol": "TSE:4812"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "EXPIRED",
+  "closedAt": "2026-11-17",
   "id": "4812-2026-08-18",
   "overextended": false,
   "setupType": "BREAKOUT",
@@ -15,7 +15,7 @@
    "TREND"
   ],
   "startedAt": "2026-08-18",
-  "status": "REACTED",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-08-18",
@@ -46,6 +46,12 @@
     "from": "CONFIRMED",
     "reason_code": "EXCESS_THRESHOLD",
     "to": "REACTED"
+   },
+   {
+    "date": "2026-11-17",
+    "from": "REACTED",
+    "reason_code": "EXPIRED",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-08-18"
@@ -74,22 +80,22 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-16",
-  "buyBalance": 76400,
-  "buyChangePct": -40.0,
+  "asOf": "2026-11-17",
+  "buyBalance": 111600,
+  "buyChangePct": -10.4,
   "labels": [
    "信用買残減少",
    "信用倍率改善",
    "売残増加"
   ],
-  "ratio": 22.47,
+  "ratio": 32.82,
   "sellBalance": 3400,
-  "sellChangePct": 142.9
+  "sellChangePct": 126.7
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -4.7,
-  "currentPrice": 2878.0,
+  "benchReturn": -6.1,
+  "currentPrice": 2876.0,
   "d20": {
    "benchReturn": -2.3,
    "excessReturn": 6.5,
@@ -103,39 +109,39 @@
    "stockReturn": -0.8
   },
   "d60": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 1,
-   "stockReturn": null
+   "benchReturn": -6.1,
+   "excessReturn": 10.7,
+   "pendingDays": 0,
+   "stockReturn": 4.6
   },
-  "excessReturn": 9.4,
+  "excessReturn": 10.7,
   "initialDate": "2026-08-18",
   "initialPrice": 2749.0,
-  "stockReturn": 4.7
+  "stockReturn": 4.6
  },
  "priceSetup": {
-  "asOf": "2026-11-16",
+  "asOf": "2026-11-18",
   "atrState": "低ボラ",
   "distFrom52wHigh": 0.02,
   "labels": [
    "20日線の上",
-   "60日レンジ上位23%",
+   "60日レンジ上位25%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2871.7,
-  "ma200": 2394.5,
-  "ma60": 2848.2,
-  "rangePos60": 0.77,
-  "rel20": 4.4,
-  "rel60": 14.1,
-  "volumeRatio20": 0.5
+  "ma20": 2872.2,
+  "ma200": 2398.1,
+  "ma60": 2853.2,
+  "rangePos60": 0.75,
+  "rel20": 4.8,
+  "rel60": 10.0,
+  "volumeRatio20": 0.57
  },
  "reasons": [
   "新規大量保有 5%（Ｏａｓｉｓ　Ｍａｎａｇｅｍｅｎｔ　Ｃｏｍｐａｎｙ　Ｌｔｄ．）",
-  "60日レンジ上位23%",
+  "60日レンジ上位25%",
   "20日線上向き",
-  "TOPIX連動ETF比 +4.4pt（20日）"
+  "TOPIX連動ETF比 +4.8pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -264,7 +270,14 @@
    "kind": "STATUS",
    "label": "REACTED",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-17",
+   "detail": "観察期限に到達",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-18T03:12:09+09:00"
+ "updatedAt": "2026-11-18T16:56:12+09:00"
 }

@@ -79,18 +79,33 @@
    "d5": null,
    "eventId": "edinet:S100ZDQI",
    "excess5": null
+  },
+  {
+   "d1": -6.9,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZEGN",
+   "excess5": null
+  },
+  {
+   "d1": 8.0,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZEWG",
+   "excess5": null
   }
  ],
  "margin": {
-  "asOf": "2026-11-16",
-  "buyBalance": 611600,
-  "buyChangePct": -10.2,
+  "asOf": "2026-11-17",
+  "buyBalance": 585500,
+  "buyChangePct": -11.7,
   "labels": [
-   "信用買残減少"
+   "信用買残減少",
+   "信用倍率悪化"
   ],
-  "ratio": 32.36,
-  "sellBalance": 18900,
-  "sellChangePct": -3.1
+  "ratio": 29.72,
+  "sellBalance": 19700,
+  "sellChangePct": -39.0
  },
  "pastEpisodes": [
   {
@@ -103,21 +118,22 @@
  ],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-16",
+  "asOf": "2026-11-18",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.43,
+  "distFrom52wHigh": 0.42,
   "labels": [],
-  "ma20": 6026.5,
-  "ma200": 6811.9,
-  "ma60": 6736.5,
-  "rangePos60": 0.33,
-  "rel20": -14.8,
-  "rel60": -17.4,
-  "volumeRatio20": 1.33
+  "ma20": 5900.5,
+  "ma200": 6822.9,
+  "ma60": 6691.5,
+  "rangePos60": 0.34,
+  "rel20": -7.2,
+  "rel60": -9.4,
+  "volumeRatio20": 1.28
  },
  "reasons": [
-  "新規大量保有 9.9%（エフィッシモ　キャピタル　マネージメント　ピーティーイー　エルティーディー（Ｅｆｆｉｓｓｉｍｏ　Ｃａｐｉｔａｌ　Ｍａｎａｇｅｍｅｎｔ　Ｐｔｅ　Ｌｔｄ））",
-  "信用買残 -10%"
+  "1.1pt買い増し 11.4%→12.6%",
+  "30日以内に2回買い増し",
+  "信用買残 -12%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -192,5 +208,5 @@
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZEWG"
   }
  ],
- "updatedAt": "2026-11-18T03:12:09+09:00"
+ "updatedAt": "2026-11-18T16:56:12+09:00"
 }

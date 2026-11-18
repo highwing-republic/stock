@@ -5,47 +5,23 @@
   "tradingViewSymbol": "TSE:8056"
  },
  "episode": {
-  "closeReason": "BROKEN",
-  "closedAt": "2026-11-09",
-  "id": "8056-2026-10-22",
+  "closeReason": null,
+  "closedAt": null,
+  "id": "8056-2026-11-18",
   "overextended": false,
-  "setupType": "RECOVERY",
+  "setupType": null,
   "setups": [],
-  "startedAt": "2026-10-22",
-  "status": "CLOSED",
+  "startedAt": "2026-11-18",
+  "status": "CANDIDATE",
   "statusHistory": [
    {
-    "date": "2026-10-22",
+    "date": "2026-11-18",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
-   },
-   {
-    "date": "2026-10-22",
-    "from": "CANDIDATE",
-    "reason_code": "SETUP_OK",
-    "to": "WATCH"
-   },
-   {
-    "date": "2026-11-05",
-    "from": "WATCH",
-    "reason_code": "SETUP_IMPROVED",
-    "to": "STRENGTHENING"
-   },
-   {
-    "date": "2026-11-06",
-    "from": "STRENGTHENING",
-    "reason_code": "BELOW_MA60",
-    "to": "BROKEN"
-   },
-   {
-    "date": "2026-11-09",
-    "from": "BROKEN",
-    "reason_code": "BROKEN",
-    "to": "CLOSED"
    }
   ],
-  "watchStartedAt": "2026-10-22"
+  "watchStartedAt": null
  },
  "eventReactions": [
   {
@@ -75,68 +51,53 @@
    "d5": -0.2,
    "eventId": "edinet:S100Z9HR",
    "excess5": 1.1
+  },
+  {
+   "d1": -0.7,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZI94",
+   "excess5": null
   }
  ],
  "margin": {
-  "asOf": "2026-11-16",
+  "asOf": "2026-11-17",
   "buyBalance": 31200,
-  "buyChangePct": -19.8,
+  "buyChangePct": -12.8,
   "labels": [
    "信用買残減少",
-   "信用倍率改善"
+   "信用倍率悪化"
   ],
-  "ratio": 1.32,
-  "sellBalance": 23700,
-  "sellChangePct": -3.3
+  "ratio": 4.52,
+  "sellBalance": 6900,
+  "sellChangePct": -72.1
  },
- "pastEpisodes": [],
- "performance": {
-  "benchReturn": -4.4,
-  "currentPrice": 4514.0,
-  "d20": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 4,
-   "stockReturn": null
-  },
-  "d5": {
-   "benchReturn": 0.2,
-   "excessReturn": -4.7,
-   "pendingDays": 0,
-   "stockReturn": -4.5
-  },
-  "d60": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 44,
-   "stockReturn": null
-  },
-  "excessReturn": -8.3,
-  "initialDate": "2026-10-22",
-  "initialPrice": 5168.0,
-  "stockReturn": -12.7
- },
+ "pastEpisodes": [
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-11-09",
+   "id": "8056-2026-10-22",
+   "setupType": "RECOVERY",
+   "startedAt": "2026-10-22"
+  }
+ ],
+ "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-16",
-  "atrState": "通常",
-  "distFrom52wHigh": 0.19,
-  "labels": [
-   "20日線の上",
-   "60日線の上"
-  ],
-  "ma20": 4899.1,
-  "ma200": 4608.0,
-  "ma60": 4753.0,
-  "rangePos60": 0.66,
-  "rel20": 1.4,
-  "rel60": 17.7,
-  "volumeRatio20": 0.69
+  "asOf": "2026-11-18",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.22,
+  "labels": [],
+  "ma20": 4867.0,
+  "ma200": 4604.4,
+  "ma60": 4763.9,
+  "rangePos60": 0.43,
+  "rel20": -2.1,
+  "rel60": 10.3,
+  "volumeRatio20": 0.78
  },
  "reasons": [
-  "新規大量保有 5.1%（野村證券株式会社）",
-  "20日線を回復",
-  "TOPIX連動ETF比 +1.4pt（20日）",
-  "信用買残 -20%"
+  "1.5pt買い増し 5%→6.5%",
+  "信用買残 -13%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -169,82 +130,12 @@
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9HR"
   },
   {
-   "date": "2026-10-22",
-   "detail": "60日高値を更新",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-10-22",
-   "detail": "Price Setupが成立",
-   "kind": "STATUS",
-   "label": "WATCH",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-02",
-   "detail": "BREAKOUT → なし",
-   "kind": "SETUP",
-   "label": "Price Setup解消",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-05",
-   "detail": "なし → RECOVERY",
-   "kind": "SETUP",
-   "label": "Price Setup改善",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-05",
-   "detail": "20日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-05",
-   "detail": "Price Setupが改善",
-   "kind": "STATUS",
-   "label": "STRENGTHENING",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-06",
-   "detail": "RECOVERY → なし",
-   "kind": "SETUP",
-   "label": "Price Setup解消",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-06",
-   "detail": "60日線を下回った",
-   "kind": "STATUS",
-   "label": "BROKEN",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-09",
-   "detail": "Price Setupが崩れた",
-   "kind": "STATUS",
-   "label": "CLOSED",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-12",
-   "detail": "60日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-16",
-   "detail": "20日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
+   "date": "2026-11-18",
+   "detail": "5.03% → 6.51%（ウエリントン・マネージメント・カンパニー・エルエルピー）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI94"
   }
  ],
- "updatedAt": "2026-11-18T03:11:12+09:00"
+ "updatedAt": "2026-11-18T16:55:20+09:00"
 }

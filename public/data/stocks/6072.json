@@ -1,11 +1,42 @@
 {
-  "updatedAt": "2026-11-18T03:10:58+09:00",
+  "updatedAt": "2026-11-18T16:55:06+09:00",
   "company": {
     "securityCode": "6072",
     "ticker": "6072.T",
     "name": "株式会社ＥＲＴＨ　Ｇｒｏｕｐ"
   },
   "events": [
+    {
+      "docId": "S100ZILU",
+      "ticker": "6072.T",
+      "securityCode": "6072",
+      "companyName": "株式会社ＥＲＴＨ　Ｇｒｏｕｐ",
+      "submitDatetime": "2026-11-18 13:04",
+      "filerName": "Ｅｖｏ　Ｆｕｎｄ",
+      "reportType": "change",
+      "holdingRatio": 4.66,
+      "previousHoldingRatio": 8.64,
+      "holdingChange": -3.98,
+      "purpose": "純投資。特定の状況は想定されていないが、第１提出者は発行者に対しその時々の状況に応じて適切な助言を行う場合がある。第１提出者は、発行者による第三者割当を通じて新株予約権証券（第５回）20,000個（対価総額8,060,000円）及び新株予約権証券（第６回）20,000個（対価総額1,500,000円）を2026年11月18日付で取得することを決定している。新株予約権証券（第５回）及び新株予約権証券（第６回）１個当たりの目的である株式数は、それぞれ普通株式100株である。新株予約権証券（第５回）及び新株予約権証券（第６回）の取得目的は、純投資である。 / 純投資（投資一任契約に基づく運用を目的としている。）",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少",
+        "大幅売却"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 0.74,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100ZCXV",
       "ticker": "6072.T",
@@ -20,7 +51,7 @@
       "purpose": "純投資目的以外の目的で保有する特定投資株式であり、発行会社と友好的に長期保有する方針。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": 1.74,
+      "volumeRatio": 1.41,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [],
@@ -29,8 +60,8 @@
         "return1d": 5.76,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.09,
-        "volumeRatio": 1.74,
+        "returnCurrent": -6.62,
+        "volumeRatio": 1.41,
         "marketExcessReturn": null
       }
     },
@@ -59,7 +90,7 @@
         "return1d": 13.68,
         "return5d": 19.86,
         "return20d": null,
-        "returnCurrent": 19.86,
+        "returnCurrent": 11.83,
         "volumeRatio": 1.35,
         "marketExcessReturn": 14.12
       }
@@ -90,7 +121,7 @@
         "return1d": 13.68,
         "return5d": 19.86,
         "return20d": null,
-        "returnCurrent": 19.86,
+        "returnCurrent": 11.83,
         "volumeRatio": 1.35,
         "marketExcessReturn": 14.12
       }
@@ -2803,9 +2834,19 @@
       "open": 1139.0,
       "high": 1165.0,
       "low": 1065.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1079.0,
+      "adj_close": 1079.0,
       "volume": 1275200
+    },
+    {
+      "ticker": "6072.T",
+      "trade_date": "2026-11-18",
+      "open": 1090.0,
+      "high": 1107.0,
+      "low": 1020.0,
+      "close": 1087.0,
+      "adj_close": 1087.0,
+      "volume": 1260900
     }
   ],
   "benchmark": [
@@ -6875,9 +6916,19 @@
       "open": 408.0,
       "high": 408.1000061035156,
       "low": 403.5,
-      "close": null,
-      "adj_close": null,
+      "close": 404.5,
+      "adj_close": 404.5,
       "volume": 37763290
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-18",
+      "open": 404.8999938964844,
+      "high": 405.8999938964844,
+      "low": 399.20001220703125,
+      "close": 401.8999938964844,
+      "adj_close": 401.8999938964844,
+      "volume": 22289870
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

@@ -54,13 +54,15 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-16",
-  "buyBalance": 3536300,
-  "buyChangePct": -3.6,
-  "labels": [],
-  "ratio": 8.37,
-  "sellBalance": 422400,
-  "sellChangePct": -12.6
+  "asOf": "2026-11-17",
+  "buyBalance": 3550400,
+  "buyChangePct": 2.9,
+  "labels": [
+   "信用倍率悪化"
+  ],
+  "ratio": 9.79,
+  "sellBalance": 362700,
+  "sellChangePct": -29.3
  },
  "pastEpisodes": [
   {
@@ -73,24 +75,24 @@
  ],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-16",
+  "asOf": "2026-11-18",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.43,
+  "distFrom52wHigh": 0.41,
   "labels": [
    "20日線の上"
   ],
-  "ma20": 2100.9,
-  "ma200": 2648.8,
-  "ma60": 2228.3,
-  "rangePos60": 0.48,
-  "rel20": 2.2,
-  "rel60": -11.0,
-  "volumeRatio20": 1.03
+  "ma20": 2101.3,
+  "ma200": 2639.8,
+  "ma60": 2220.9,
+  "rangePos60": 0.55,
+  "rel20": 11.2,
+  "rel60": 1.1,
+  "volumeRatio20": 1.23
  },
  "reasons": [
   "新規大量保有 6.1%（エフィッシモ　キャピタル　マネージメント　ピーティーイー　エルティーディー（Ｅｆｆｉｓｓｉｍｏ　Ｃａｐｉｔａｌ　Ｍａｎａｇｅｍｅｎｔ　Ｐｔｅ　Ｌｔｄ））",
-  "TOPIX連動ETF比 +2.2pt（20日）",
-  "信用買残 -4%"
+  "20日線を回復",
+  "TOPIX連動ETF比 +11.2pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -142,7 +144,21 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-18",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-18",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-18T03:12:09+09:00"
+ "updatedAt": "2026-11-18T16:56:12+09:00"
 }
