@@ -9,11 +9,8 @@
   "closedAt": null,
   "id": "1870-2026-11-10",
   "overextended": false,
-  "setupType": "TREND",
-  "setups": [
-   "TREND",
-   "RECOVERY"
-  ],
+  "setupType": "RECOVERY",
+  "setups": [],
   "startedAt": "2026-11-10",
   "status": "STRENGTHENING",
   "statusHistory": [
@@ -55,67 +52,66 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-17",
-  "buyBalance": 149100,
-  "buyChangePct": -7.3,
+  "asOf": "2026-11-18",
+  "buyBalance": 148300,
+  "buyChangePct": -6.8,
   "labels": [
    "信用倍率改善",
    "売残増加"
   ],
-  "ratio": 5.38,
-  "sellBalance": 27700,
-  "sellChangePct": 44.3
+  "ratio": 5.47,
+  "sellBalance": 27100,
+  "sellChangePct": 41.9
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -2.3,
-  "currentPrice": 2166.0,
+  "benchReturn": -2.8,
+  "currentPrice": 2109.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 16,
+   "pendingDays": 14,
    "stockReturn": null
   },
   "d5": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 1,
-   "stockReturn": null
+   "benchReturn": -2.9,
+   "excessReturn": 4.3,
+   "pendingDays": 0,
+   "stockReturn": 1.4
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 56,
+   "pendingDays": 54,
    "stockReturn": null
   },
-  "excessReturn": 5.7,
+  "excessReturn": 3.5,
   "initialDate": "2026-11-11",
   "initialPrice": 2094.0,
-  "stockReturn": 3.4
+  "stockReturn": 0.7
  },
  "priceSetup": {
-  "asOf": "2026-11-17",
+  "asOf": "2026-11-19",
   "atrState": "通常",
-  "distFrom52wHigh": 0.1,
+  "distFrom52wHigh": 0.12,
   "labels": [
    "20日線の上",
-   "60日レンジ上位22%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2102.6,
-  "ma200": 2025.1,
-  "ma60": 2095.2,
-  "rangePos60": 0.78,
-  "rel20": 8.4,
-  "rel60": 10.7,
-  "volumeRatio20": 0.8
+  "ma20": 2107.3,
+  "ma200": 2023.0,
+  "ma60": 2097.6,
+  "rangePos60": 0.5,
+  "rel20": 7.0,
+  "rel60": 7.6,
+  "volumeRatio20": 0.6
  },
  "reasons": [
   "新規大量保有 6.9%（佐藤　弘信）",
-  "60日レンジ上位22%",
   "20日線上向き",
-  "TOPIX連動ETF比 +8.4pt（20日）"
+  "TOPIX連動ETF比 +7pt（20日）",
+  "信用買残 -7%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -174,7 +170,21 @@
    "kind": "STATUS",
    "label": "STRENGTHENING",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-18",
+   "detail": "TREND → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup変化",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-19",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-19T02:55:55+09:00"
+ "updatedAt": "2026-11-19T16:55:31+09:00"
 }

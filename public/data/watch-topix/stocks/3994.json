@@ -10,9 +10,7 @@
   "id": "3994-2026-11-09",
   "overextended": false,
   "setupType": "TREND",
-  "setups": [
-   "TREND"
-  ],
+  "setups": [],
   "startedAt": "2026-11-09",
   "status": "WATCH",
   "statusHistory": [
@@ -90,7 +88,7 @@
   },
   {
    "d1": 0.7,
-   "d20": null,
+   "d20": 2.3,
    "d5": 0.3,
    "eventId": "edinet:S100Z9F1",
    "excess5": 1.6
@@ -111,13 +109,15 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-17",
-  "buyBalance": 79900,
-  "buyChangePct": -0.4,
-  "labels": [],
-  "ratio": 0.14,
-  "sellBalance": 562100,
-  "sellChangePct": -12.0
+  "asOf": "2026-11-18",
+  "buyBalance": 86300,
+  "buyChangePct": 6.2,
+  "labels": [
+   "信用倍率悪化"
+  ],
+  "ratio": 0.16,
+  "sellBalance": 544000,
+  "sellChangePct": -12.9
  },
  "pastEpisodes": [
   {
@@ -129,12 +129,12 @@
   }
  ],
  "performance": {
-  "benchReturn": 0.6,
-  "currentPrice": 7260.0,
+  "benchReturn": 0.0,
+  "currentPrice": 6853.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 14,
+   "pendingDays": 12,
    "stockReturn": null
   },
   "d5": {
@@ -146,36 +146,33 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 54,
+   "pendingDays": 52,
    "stockReturn": null
   },
-  "excessReturn": -7.9,
+  "excessReturn": -12.5,
   "initialDate": "2026-11-09",
   "initialPrice": 7835.0,
-  "stockReturn": -7.3
+  "stockReturn": -12.5
  },
  "priceSetup": {
-  "asOf": "2026-11-17",
-  "atrState": "低ボラ",
-  "distFrom52wHigh": 0.1,
+  "asOf": "2026-11-19",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.15,
   "labels": [
-   "20日線の上",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 7088.1,
-  "ma200": 4914.7,
-  "ma60": 6493.5,
-  "rangePos60": 0.69,
-  "rel20": 17.8,
-  "rel60": 34.5,
-  "volumeRatio20": 0.77
+  "ma20": 7106.9,
+  "ma200": 4941.4,
+  "ma60": 6520.6,
+  "rangePos60": 0.52,
+  "rel20": 7.8,
+  "rel60": 14.0,
+  "volumeRatio20": 0.67
  },
  "reasons": [
   "新規大量保有 5.1%（みずほ証券株式会社）",
-  "20日線上向き",
-  "TOPIX連動ETF比 +17.8pt（20日）",
-  "52週高値まで10%"
+  "TOPIX連動ETF比 +7.8pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -297,7 +294,14 @@
    "kind": "SETUP",
    "label": "Price Setup変化",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-18",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-19T02:55:55+09:00"
+ "updatedAt": "2026-11-19T16:55:31+09:00"
 }

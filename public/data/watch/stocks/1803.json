@@ -5,20 +5,26 @@
   "tradingViewSymbol": "TSE:1803"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "NO_SETUP",
+  "closedAt": "2026-11-19",
   "id": "1803-2026-10-21",
   "overextended": false,
   "setupType": null,
   "setups": [],
   "startedAt": "2026-10-21",
-  "status": "CANDIDATE",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-10-21",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-11-19",
+    "from": "CANDIDATE",
+    "reason_code": "NO_SETUP",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": null
@@ -26,44 +32,46 @@
  "eventReactions": [
   {
    "d1": 1.6,
-   "d20": null,
+   "d20": 7.2,
    "d5": 4.9,
    "eventId": "edinet:S100Z8Y6",
    "excess5": 5.2
   }
  ],
  "margin": {
-  "asOf": "2026-11-17",
-  "buyBalance": 2756400,
-  "buyChangePct": -1.9,
-  "labels": [],
-  "ratio": 46.09,
-  "sellBalance": 59800,
-  "sellChangePct": -11.3
+  "asOf": "2026-11-18",
+  "buyBalance": 2729700,
+  "buyChangePct": -3.7,
+  "labels": [
+   "信用倍率悪化"
+  ],
+  "ratio": 44.75,
+  "sellBalance": 61000,
+  "sellChangePct": -43.9
  },
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-17",
+  "asOf": "2026-11-19",
   "atrState": "通常",
-  "distFrom52wHigh": 0.37,
+  "distFrom52wHigh": 0.39,
   "labels": [
    "20日線の上",
    "20日線が上向き"
   ],
-  "ma20": 2098.0,
-  "ma200": 2569.7,
-  "ma60": 2190.5,
-  "rangePos60": 0.44,
-  "rel20": 13.2,
-  "rel60": -0.7,
-  "volumeRatio20": 0.97
+  "ma20": 2110.8,
+  "ma200": 2564.2,
+  "ma60": 2186.0,
+  "rangePos60": 0.37,
+  "rel20": 11.0,
+  "rel60": -2.1,
+  "volumeRatio20": 0.8
  },
  "reasons": [
   "新規大量保有 5.4%（野村證券株式会社）",
   "20日線上向き",
-  "TOPIX連動ETF比 +13.2pt（20日）",
-  "信用買残 -2%"
+  "TOPIX連動ETF比 +11pt（20日）",
+  "信用買残 -4%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -108,7 +116,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-19",
+   "detail": "期限内にPrice Setupが成立しなかった",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-19T02:54:54+09:00"
+ "updatedAt": "2026-11-19T16:54:25+09:00"
 }

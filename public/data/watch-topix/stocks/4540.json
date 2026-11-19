@@ -56,22 +56,25 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-17",
-  "buyBalance": 172600,
-  "buyChangePct": -2.7,
-  "labels": [],
-  "ratio": 6.01,
-  "sellBalance": 28700,
-  "sellChangePct": -2.4
+  "asOf": "2026-11-18",
+  "buyBalance": 165100,
+  "buyChangePct": -10.3,
+  "labels": [
+   "信用買残減少",
+   "信用倍率改善"
+  ],
+  "ratio": 5.71,
+  "sellBalance": 28900,
+  "sellChangePct": 2.8
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 0.6,
-  "currentPrice": 3965.0,
+  "benchReturn": 0.0,
+  "currentPrice": 4075.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 14,
+   "pendingDays": 12,
    "stockReturn": null
   },
   "d5": {
@@ -83,37 +86,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 54,
+   "pendingDays": 52,
    "stockReturn": null
   },
-  "excessReturn": 1.0,
+  "excessReturn": 4.5,
   "initialDate": "2026-11-09",
   "initialPrice": 3901.0,
-  "stockReturn": 1.6
+  "stockReturn": 4.5
  },
  "priceSetup": {
-  "asOf": "2026-11-17",
-  "atrState": "通常",
-  "distFrom52wHigh": 0.06,
+  "asOf": "2026-11-19",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.04,
   "labels": [
    "20日線の上",
-   "60日レンジ上位10%",
+   "60日レンジ上位0%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 3826.7,
-  "ma200": 3744.3,
-  "ma60": 3758.9,
-  "rangePos60": 0.9,
-  "rel20": 9.1,
-  "rel60": 14.4,
-  "volumeRatio20": 0.65
+  "ma20": 3852.2,
+  "ma200": 3744.8,
+  "ma60": 3771.6,
+  "rangePos60": 1.0,
+  "rel20": 13.9,
+  "rel60": 15.9,
+  "volumeRatio20": 1.07
  },
  "reasons": [
   "新規大量保有 5%（野村證券株式会社）",
-  "60日レンジ上位10%",
+  "60日レンジ上位0%",
   "20日線上向き",
-  "TOPIX連動ETF比 +9.1pt（20日）"
+  "TOPIX連動ETF比 +13.9pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -165,7 +168,14 @@
    "kind": "STATUS",
    "label": "WATCH",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-19",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-19T02:55:55+09:00"
+ "updatedAt": "2026-11-19T16:55:31+09:00"
 }

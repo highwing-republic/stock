@@ -12,7 +12,7 @@
   "setupType": "BREAKOUT",
   "setups": [],
   "startedAt": "2026-11-06",
-  "status": "STRENGTHENING",
+  "status": "BROKEN",
   "statusHistory": [
    {
     "date": "2026-11-06",
@@ -31,6 +31,12 @@
     "from": "WATCH",
     "reason_code": "SETUP_IMPROVED",
     "to": "STRENGTHENING"
+   },
+   {
+    "date": "2026-11-19",
+    "from": "STRENGTHENING",
+    "reason_code": "BELOW_MA20",
+    "to": "BROKEN"
    }
   ],
   "watchStartedAt": "2026-11-10"
@@ -73,22 +79,22 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-17",
-  "buyBalance": 3450000,
-  "buyChangePct": -0.8,
+  "asOf": "2026-11-18",
+  "buyBalance": 3398300,
+  "buyChangePct": -0.4,
   "labels": [],
-  "ratio": 1.28,
-  "sellBalance": 2694100,
-  "sellChangePct": 0.5
+  "ratio": 1.26,
+  "sellBalance": 2693700,
+  "sellChangePct": -0.5
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -1.5,
-  "currentPrice": 1093.5,
+  "benchReturn": -2.0,
+  "currentPrice": 1083.5,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 15,
+   "pendingDays": 13,
    "stockReturn": null
   },
   "d5": {
@@ -100,33 +106,33 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 55,
+   "pendingDays": 53,
    "stockReturn": null
   },
-  "excessReturn": 0.1,
+  "excessReturn": -0.3,
   "initialDate": "2026-11-10",
   "initialPrice": 1109.5,
-  "stockReturn": -1.4
+  "stockReturn": -2.3
  },
  "priceSetup": {
-  "asOf": "2026-11-17",
+  "asOf": "2026-11-19",
   "atrState": "通常",
-  "distFrom52wHigh": 0.13,
+  "distFrom52wHigh": 0.14,
   "labels": [
    "20日線が上向き"
   ],
-  "ma20": 1100.2,
-  "ma200": 1032.5,
-  "ma60": 1099.1,
-  "rangePos60": 0.5,
-  "rel20": 5.2,
-  "rel60": 10.1,
-  "volumeRatio20": 0.95
+  "ma20": 1099.8,
+  "ma200": 1032.4,
+  "ma60": 1100.6,
+  "rangePos60": 0.37,
+  "rel20": 4.1,
+  "rel60": 7.0,
+  "volumeRatio20": 0.65
  },
  "reasons": [
   "新規大量保有 5.1%（ブラックロック・ジャパン株式会社）",
-  "TOPIX連動ETF比 +5.2pt（20日）",
-  "信用買残 -1%"
+  "TOPIX連動ETF比 +4.1pt（20日）",
+  "信用買残 -0%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -213,7 +219,14 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-19",
+   "detail": "20日線を連続で下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-19T02:54:54+09:00"
+ "updatedAt": "2026-11-19T16:54:25+09:00"
 }

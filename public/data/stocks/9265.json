@@ -1,11 +1,39 @@
 {
-  "updatedAt": "2026-11-19T02:54:41+09:00",
+  "updatedAt": "2026-11-19T16:54:11+09:00",
   "company": {
     "securityCode": "9265",
     "ticker": "9265.T",
     "name": "ヤマシタヘルスケアホールディングス株式会社"
   },
   "events": [
+    {
+      "docId": "S100ZIQB",
+      "ticker": "9265.T",
+      "securityCode": "9265",
+      "companyName": "ヤマシタヘルスケアホールディングス株式会社",
+      "submitDatetime": "2026-11-19 13:44",
+      "filerName": "株式会社ＣＡＲＰＥ　ＤＩＥＭ",
+      "reportType": "correction",
+      "holdingRatio": 18.75,
+      "previousHoldingRatio": 18.43,
+      "holdingChange": 0.32,
+      "purpose": "純投資。特定の状況は想定されていないが、発行者に対しその時々の状況に応じて適切な助言（重要提案行為等を含む）を行う場合がある。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -11.01,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100ZGKI",
       "ticker": "9265.T",
@@ -19,19 +47,21 @@
       "holdingChange": 0.32,
       "purpose": "純投資。必要に応じて適宜の助言、提案（重要提案行為等を含む）を行うこと。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 1.63,
-      "marketExcessReturn": null,
-      "signalScore": 0,
-      "signalReasons": [],
+      "priceChange": -7.16,
+      "volumeRatio": 2.04,
+      "marketExcessReturn": -4.33,
+      "signalScore": 10,
+      "signalReasons": [
+        "出来高2倍以上"
+      ],
       "stockUnreacted": false,
       "metrics": {
         "return1d": 0.0,
-        "return5d": null,
+        "return5d": -7.16,
         "return20d": null,
-        "returnCurrent": 1.22,
-        "volumeRatio": 1.63,
-        "marketExcessReturn": null
+        "returnCurrent": -7.16,
+        "volumeRatio": 2.04,
+        "marketExcessReturn": -4.33
       }
     },
     {
@@ -59,7 +89,7 @@
         "return1d": 1.33,
         "return5d": 9.83,
         "return20d": 16.67,
-        "returnCurrent": 24.83,
+        "returnCurrent": 14.5,
         "volumeRatio": 1.19,
         "marketExcessReturn": 9.74
       }
@@ -3152,9 +3182,19 @@
       "open": 3715.0,
       "high": 3860.0,
       "low": 3715.0,
-      "close": null,
-      "adj_close": null,
+      "close": 3860.0,
+      "adj_close": 3860.0,
       "volume": 1000
+    },
+    {
+      "ticker": "9265.T",
+      "trade_date": "2026-11-19",
+      "open": 3860.0,
+      "high": 3860.0,
+      "low": 3415.0,
+      "close": 3435.0,
+      "adj_close": 3435.0,
+      "volume": 2600
     }
   ],
   "benchmark": [
@@ -7234,9 +7274,19 @@
       "open": 404.8999938964844,
       "high": 405.8999938964844,
       "low": 399.20001220703125,
-      "close": null,
-      "adj_close": null,
+      "close": 401.8999938964844,
+      "adj_close": 401.8999938964844,
       "volume": 22289870
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-19",
+      "open": 400.29998779296875,
+      "high": 403.1000061035156,
+      "low": 399.1000061035156,
+      "close": 402.20001220703125,
+      "adj_close": 402.20001220703125,
+      "volume": 28124150
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

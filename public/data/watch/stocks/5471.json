@@ -1,0 +1,76 @@
+{
+ "company": {
+  "name": "大同特殊鋼",
+  "securityCode": "5471",
+  "tradingViewSymbol": "TSE:5471"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "5471-2026-11-19",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-11-19",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-11-19",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": -2.2,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZIK6",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-11-18",
+  "buyBalance": 591800,
+  "buyChangePct": -4.6,
+  "labels": [
+   "信用倍率改善"
+  ],
+  "ratio": 8.2,
+  "sellBalance": 72200,
+  "sellChangePct": 17.4
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-11-19",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.39,
+  "labels": [],
+  "ma20": 2004.0,
+  "ma200": 2167.4,
+  "ma60": 2244.5,
+  "rangePos60": 0.13,
+  "rel20": -16.6,
+  "rel60": -16.0,
+  "volumeRatio20": 0.53
+ },
+ "reasons": [
+  "新規大量保有 5.1%（野村アセットマネジメント株式会社）",
+  "信用買残 -5%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-11-19",
+   "detail": "保有割合 5.14%（野村アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIK6"
+  }
+ ],
+ "updatedAt": "2026-11-19T16:54:25+09:00"
+}

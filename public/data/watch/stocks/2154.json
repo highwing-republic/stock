@@ -1,0 +1,109 @@
+{
+ "company": {
+  "name": "オープンアップグループ",
+  "securityCode": "2154",
+  "tradingViewSymbol": "TSE:2154"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "2154-2026-11-19",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-11-19",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-11-19",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": -0.0,
+   "d20": 0.1,
+   "d5": 0.8,
+   "eventId": "edinet:S100YXCO",
+   "excess5": -0.8
+  },
+  {
+   "d1": 0.9,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZIJF",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-11-18",
+  "buyBalance": 34800,
+  "buyChangePct": -5.7,
+  "labels": [
+   "信用倍率悪化"
+  ],
+  "ratio": 1.91,
+  "sellBalance": 18200,
+  "sellChangePct": -32.3
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-11-19",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.04,
+  "labels": [
+   "20日線の上",
+   "60日線の上"
+  ],
+  "ma20": 2019.8,
+  "ma200": 1890.7,
+  "ma60": 2013.6,
+  "rangePos60": 0.65,
+  "rel20": 5.9,
+  "rel60": 4.2,
+  "volumeRatio20": 0.88
+ },
+ "reasons": [
+  "新規大量保有 5%（野村證券株式会社）",
+  "20日線を回復",
+  "TOPIX連動ETF比 +5.9pt（20日）",
+  "52週高値まで4%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-08-21",
+   "detail": "9.9% → 8.9%（Ｍ＆Ｇインベストメント・マネジメント・リミテッド）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YXCO"
+  },
+  {
+   "date": "2026-11-19",
+   "detail": "保有割合 5%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIJF"
+  },
+  {
+   "date": "2026-11-19",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-19",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-11-19T16:54:25+09:00"
+}

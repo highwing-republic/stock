@@ -10,9 +10,7 @@
   "id": "6080-2026-11-16",
   "overextended": false,
   "setupType": "TREND",
-  "setups": [
-   "TREND"
-  ],
+  "setups": [],
   "startedAt": "2026-11-16",
   "status": "WATCH",
   "statusHistory": [
@@ -55,67 +53,64 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-17",
-  "buyBalance": 157500,
-  "buyChangePct": -4.4,
+  "asOf": "2026-11-18",
+  "buyBalance": 144300,
+  "buyChangePct": -10.6,
   "labels": [
+   "信用買残減少",
    "信用倍率改善",
    "売残増加"
   ],
-  "ratio": 3.87,
-  "sellBalance": 40700,
-  "sellChangePct": 32.1
+  "ratio": 3.06,
+  "sellBalance": 47100,
+  "sellChangePct": 50.5
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -1.6,
-  "currentPrice": 4490.0,
+  "benchReturn": -2.1,
+  "currentPrice": 4225.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 19,
+   "pendingDays": 17,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 4,
+   "pendingDays": 2,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 59,
+   "pendingDays": 57,
    "stockReturn": null
   },
-  "excessReturn": 0.9,
+  "excessReturn": -4.4,
   "initialDate": "2026-11-16",
   "initialPrice": 4520.0,
-  "stockReturn": -0.7
+  "stockReturn": -6.5
  },
  "priceSetup": {
-  "asOf": "2026-11-17",
+  "asOf": "2026-11-19",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.05,
+  "distFrom52wHigh": 0.11,
   "labels": [
-   "20日線の上",
-   "60日レンジ上位28%",
-   "20日線が上向き",
-   "60日線の上"
+   "20日線が上向き"
   ],
-  "ma20": 4317.5,
-  "ma200": 3654.2,
-  "ma60": 4232.2,
-  "rangePos60": 0.72,
-  "rel20": 7.3,
-  "rel60": 18.7,
-  "volumeRatio20": 1.02
+  "ma20": 4314.8,
+  "ma200": 3663.4,
+  "ma60": 4240.2,
+  "rangePos60": 0.39,
+  "rel20": 3.8,
+  "rel60": 8.2,
+  "volumeRatio20": 0.78
  },
  "reasons": [
   "新規大量保有 5.8%（株式会社　りそなホールディングス）",
-  "60日レンジ上位28%",
-  "20日線上向き",
-  "TOPIX連動ETF比 +7.3pt（20日）"
+  "TOPIX連動ETF比 +3.8pt（20日）",
+  "信用買残 -11%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -146,7 +141,14 @@
    "kind": "STATUS",
    "label": "WATCH",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-18",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-19T02:55:55+09:00"
+ "updatedAt": "2026-11-19T16:55:31+09:00"
 }

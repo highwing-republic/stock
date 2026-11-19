@@ -10,9 +10,7 @@
   "id": "5411-2026-10-06",
   "overextended": false,
   "setupType": "RECOVERY",
-  "setups": [
-   "RECOVERY"
-  ],
+  "setups": [],
   "startedAt": "2026-10-06",
   "status": "WATCH",
   "statusHistory": [
@@ -69,13 +67,13 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-17",
-  "buyBalance": 3588100,
-  "buyChangePct": -0.2,
+  "asOf": "2026-11-18",
+  "buyBalance": 3592500,
+  "buyChangePct": 0.8,
   "labels": [],
-  "ratio": 3.15,
-  "sellBalance": 1137400,
-  "sellChangePct": -1.4
+  "ratio": 3.16,
+  "sellBalance": 1136900,
+  "sellChangePct": -2.6
  },
  "pastEpisodes": [
   {
@@ -87,12 +85,12 @@
   }
  ],
  "performance": {
-  "benchReturn": -2.9,
-  "currentPrice": 1813.0,
+  "benchReturn": -3.4,
+  "currentPrice": 1787.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 9,
+   "pendingDays": 7,
    "stockReturn": null
   },
   "d5": {
@@ -104,36 +102,33 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 49,
+   "pendingDays": 47,
    "stockReturn": null
   },
-  "excessReturn": 5.1,
+  "excessReturn": 4.1,
   "initialDate": "2026-10-30",
   "initialPrice": 1774.0,
-  "stockReturn": 2.2
+  "stockReturn": 0.7
  },
  "priceSetup": {
-  "asOf": "2026-11-17",
+  "asOf": "2026-11-19",
   "atrState": "通常",
-  "distFrom52wHigh": 0.2,
+  "distFrom52wHigh": 0.21,
   "labels": [
-   "20日線の上",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 1783.3,
-  "ma200": 1774.5,
-  "ma60": 1777.7,
-  "rangePos60": 0.64,
-  "rel20": 10.9,
-  "rel60": 7.4,
-  "volumeRatio20": 0.72
+  "ma20": 1788.7,
+  "ma200": 1771.8,
+  "ma60": 1777.9,
+  "rangePos60": 0.53,
+  "rel20": 8.2,
+  "rel60": 3.8,
+  "volumeRatio20": 0.65
  },
  "reasons": [
   "新規大量保有 5%（ブラックロック・ジャパン株式会社）",
-  "20日線上向き",
-  "TOPIX連動ETF比 +10.9pt（20日）",
-  "信用買残 -0%"
+  "TOPIX連動ETF比 +8.2pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -227,7 +222,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-18",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-19T02:55:55+09:00"
+ "updatedAt": "2026-11-19T16:55:31+09:00"
 }

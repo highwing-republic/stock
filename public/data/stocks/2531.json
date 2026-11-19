@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T02:54:41+09:00",
+  "updatedAt": "2026-11-19T16:54:11+09:00",
   "company": {
     "securityCode": "2531",
     "ticker": "2531.T",
@@ -19,22 +19,23 @@
       "holdingChange": 1.5,
       "purpose": "提出者は、発行者の中長期的な企業価値に関連すると考える事項、主には発行者の資本配分方針について、発行者との対話を現に行っている。提出者による提案の目的は、発行者の経営陣との間で、コーポレートガバナンス上の重大な瑕疵の是正などを通じて、発行者の中長期的な企業価値を向上させることにある。提出者は、金融商品取引法施行令（以下「施行令」という。）第14条の8の2第1項第7号（事業の一部の譲渡）に関する事項について、発行者に対して提案を行っている。提出者は、今後12か月の間に、施行令第14条の8の2第1項第7号（事業の一部の譲渡）に関する事項について、発行者に対して提案を行う予定である。提出者は報告義務の発生日時点において、ポートフォリオ投資の一環として、市場内外の取引を通じて発行者の普通株式の株券等保有割合を100分の5を超える割合増加させる行為（以下「5%超取得行為」という。）を予定している。ただし、5%超取得行為は、発行者の普通株式の市場価格が割安と判断される水準にあること及びその他の条件に左右され、それらの条件を勘案して行う予定である。なお、取得価格、数量、時期などの具体的な条件については引き続き検討中である。5%超取得行為の実行には当局への届出又は当局による承認が必要となる場合がある。5%超取得行為は報告義務の発生日から3か月以内に行うことを予定しているが、上述の要因により当該3か月の期間以降に行われる可能性もある。",
       "importantProposal": true,
-      "priceChange": null,
-      "volumeRatio": 0.84,
-      "marketExcessReturn": null,
-      "signalScore": 40,
+      "priceChange": -0.58,
+      "volumeRatio": 0.6,
+      "marketExcessReturn": 2.25,
+      "signalScore": 50,
       "signalReasons": [
         "1pt以上買い増し",
-        "重要提案行為あり"
+        "重要提案行為あり",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": 0.72,
-        "return5d": null,
+        "return5d": -0.58,
         "return20d": null,
-        "returnCurrent": -1.95,
-        "volumeRatio": 0.84,
-        "marketExcessReturn": null
+        "returnCurrent": -0.58,
+        "volumeRatio": 0.6,
+        "marketExcessReturn": 2.25
       }
     },
     {
@@ -63,7 +64,7 @@
         "return1d": -6.31,
         "return5d": -3.95,
         "return20d": null,
-        "returnCurrent": -5.36,
+        "returnCurrent": -4.03,
         "volumeRatio": 0.96,
         "marketExcessReturn": -2.94
       }
@@ -95,7 +96,7 @@
         "return1d": 17.45,
         "return5d": 6.73,
         "return20d": 4.78,
-        "returnCurrent": 2.01,
+        "returnCurrent": 3.43,
         "volumeRatio": 1.33,
         "marketExcessReturn": 9.21
       }
@@ -126,7 +127,7 @@
         "return1d": -0.92,
         "return5d": -0.62,
         "return20d": 0.09,
-        "returnCurrent": 24.82,
+        "returnCurrent": 26.56,
         "volumeRatio": 0.81,
         "marketExcessReturn": 1.19
       }
@@ -4209,9 +4210,19 @@
       "open": 2776.0,
       "high": 2792.5,
       "low": 2730.5,
-      "close": null,
-      "adj_close": null,
+      "close": 2748.0,
+      "adj_close": 2748.0,
       "volume": 359300
+    },
+    {
+      "ticker": "2531.T",
+      "trade_date": "2026-11-19",
+      "open": 2700.5,
+      "high": 2759.0,
+      "low": 2640.0,
+      "close": 2759.0,
+      "adj_close": 2759.0,
+      "volume": 244200
     }
   ],
   "benchmark": [
@@ -8291,9 +8302,19 @@
       "open": 404.8999938964844,
       "high": 405.8999938964844,
       "low": 399.20001220703125,
-      "close": null,
-      "adj_close": null,
+      "close": 401.8999938964844,
+      "adj_close": 401.8999938964844,
       "volume": 22289870
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-19",
+      "open": 400.29998779296875,
+      "high": 403.1000061035156,
+      "low": 399.1000061035156,
+      "close": 402.20001220703125,
+      "adj_close": 402.20001220703125,
+      "volume": 28124150
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

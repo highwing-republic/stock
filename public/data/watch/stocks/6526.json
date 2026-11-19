@@ -96,21 +96,21 @@
   },
   {
    "d1": 1.9,
-   "d20": null,
+   "d20": -2.8,
    "d5": 3.9,
    "eventId": "edinet:S100Z7SI",
    "excess5": 4.2
   },
   {
    "d1": 1.9,
-   "d20": null,
+   "d20": -2.8,
    "d5": 3.9,
    "eventId": "edinet:S100Z8PX",
    "excess5": 4.2
   },
   {
    "d1": 1.9,
-   "d20": null,
+   "d20": -2.8,
    "d5": 3.9,
    "eventId": "edinet:S100Z994",
    "excess5": 4.2
@@ -128,20 +128,25 @@
    "d5": null,
    "eventId": "edinet:S100ZI59",
    "excess5": null
+  },
+  {
+   "d1": -2.5,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZI84",
+   "excess5": null
   }
  ],
  "margin": {
-  "asOf": "2026-11-17",
-  "buyBalance": 6062800,
-  "buyChangePct": -12.2,
+  "asOf": "2026-11-18",
+  "buyBalance": 5979800,
+  "buyChangePct": -8.4,
   "labels": [
-   "信用買残減少",
-   "信用倍率改善",
-   "売残増加"
+   "信用倍率改善"
   ],
-  "ratio": 4.92,
-  "sellBalance": 1232000,
-  "sellChangePct": 25.5
+  "ratio": 5.17,
+  "sellBalance": 1156900,
+  "sellChangePct": 7.1
  },
  "pastEpisodes": [
   {
@@ -154,22 +159,22 @@
  ],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-17",
+  "asOf": "2026-11-19",
   "atrState": "通常",
   "distFrom52wHigh": 0.45,
   "labels": [],
-  "ma20": 1780.8,
-  "ma200": 2095.8,
-  "ma60": 1926.0,
+  "ma20": 1771.7,
+  "ma200": 2090.2,
+  "ma60": 1921.3,
   "rangePos60": 0.32,
-  "rel20": -2.6,
-  "rel60": -7.2,
-  "volumeRatio20": 0.7
+  "rel20": -1.5,
+  "rel60": -4.7,
+  "volumeRatio20": 0.99
  },
  "reasons": [
   "0.1pt買い増し 10.2%→10.3%",
   "30日以内に2回買い増し",
-  "信用買残 -12%"
+  "信用買残 -8%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -291,7 +296,21 @@
    "kind": "EVENT",
    "label": "保有割合の減少",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI59"
+  },
+  {
+   "date": "2026-11-18",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-19",
+   "detail": "6.94% → 7.17%（三井住友トラスト・アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI84"
   }
  ],
- "updatedAt": "2026-11-19T02:54:54+09:00"
+ "updatedAt": "2026-11-19T16:54:25+09:00"
 }

@@ -1,0 +1,98 @@
+{
+ "company": {
+  "name": "アマノ",
+  "securityCode": "6436",
+  "tradingViewSymbol": "TSE:6436"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "6436-2026-11-18",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-11-18",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-11-18",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": -0.9,
+   "d20": null,
+   "d5": -12.8,
+   "eventId": "edinet:S100Z8WF",
+   "excess5": -13.0
+  },
+  {
+   "d1": -0.8,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZI60",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-11-18",
+  "buyBalance": 49100,
+  "buyChangePct": -20.0,
+  "labels": [
+   "信用買残減少"
+  ],
+  "ratio": 2.22,
+  "sellBalance": 22100,
+  "sellChangePct": -29.2
+ },
+ "pastEpisodes": [
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-10-29",
+   "id": "6436-2026-10-23",
+   "setupType": "BREAKOUT",
+   "startedAt": "2026-10-23"
+  }
+ ],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-11-19",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.14,
+  "labels": [],
+  "ma20": 3639.5,
+  "ma200": 3740.1,
+  "ma60": 3792.9,
+  "rangePos60": 0.24,
+  "rel20": -6.3,
+  "rel60": -0.7,
+  "volumeRatio20": 0.94
+ },
+ "reasons": [
+  "新規大量保有 5%（ブラックロック・ジャパン株式会社）",
+  "信用買残 -20%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-10-22",
+   "detail": "5.56% → 6.58%（日本生命保険相互会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8WF"
+  },
+  {
+   "date": "2026-11-17",
+   "detail": "保有割合 5.05%（ブラックロック・ジャパン株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI60"
+  }
+ ],
+ "updatedAt": "2026-11-19T16:54:25+09:00"
+}

@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-11-19T02:54:41+09:00",
+  "updatedAt": "2026-11-19T16:54:11+09:00",
   "company": {
     "securityCode": "7600",
     "ticker": "7600.T",
     "name": "株式会社　日本エム・ディ・エム"
   },
   "events": [
+    {
+      "docId": "S100ZITX",
+      "ticker": "7600.T",
+      "securityCode": "7600",
+      "companyName": "株式会社　日本エム・ディ・エム",
+      "submitDatetime": "2026-11-19 10:22",
+      "filerName": "モルガン・スタンレーＭＵＦＧ証券株式会社",
+      "reportType": "change",
+      "holdingRatio": 4.75,
+      "previousHoldingRatio": 5.16,
+      "holdingChange": -0.41,
+      "purpose": "証券業務等にかかる保有",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -3.59,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100ZCH0",
       "ticker": "7600.T",
@@ -32,7 +62,7 @@
         "return1d": -32.52,
         "return5d": -29.2,
         "return20d": null,
-        "returnCurrent": -32.3,
+        "returnCurrent": -34.73,
         "volumeRatio": 5.33,
         "marketExcessReturn": -29.18
       }
@@ -63,7 +93,7 @@
         "return1d": -2.28,
         "return5d": -4.4,
         "return20d": null,
-        "returnCurrent": -50.16,
+        "returnCurrent": -51.95,
         "volumeRatio": 1.79,
         "marketExcessReturn": -3.39
       }
@@ -94,8 +124,8 @@
       "metrics": {
         "return1d": 1.32,
         "return5d": -2.98,
-        "return20d": null,
-        "returnCurrent": -49.42,
+        "return20d": -51.24,
+        "returnCurrent": -51.24,
         "volumeRatio": 2.09,
         "marketExcessReturn": -2.55
       }
@@ -123,7 +153,7 @@
         "return1d": -0.35,
         "return5d": -2.24,
         "return20d": -22.17,
-        "returnCurrent": -63.92,
+        "returnCurrent": -65.21,
         "volumeRatio": 0.84,
         "marketExcessReturn": -1.59
       }
@@ -154,7 +184,7 @@
         "return1d": -1.79,
         "return5d": 10.51,
         "return20d": 1.01,
-        "returnCurrent": -65.77,
+        "returnCurrent": -67.0,
         "volumeRatio": 0.87,
         "marketExcessReturn": 11.89
       }
@@ -3247,9 +3277,19 @@
       "open": 310.0,
       "high": 313.0,
       "low": 295.0,
-      "close": null,
-      "adj_close": null,
+      "close": 306.0,
+      "adj_close": 306.0,
       "volume": 474700
+    },
+    {
+      "ticker": "7600.T",
+      "trade_date": "2026-11-19",
+      "open": 301.0,
+      "high": 301.0,
+      "low": 289.0,
+      "close": 295.0,
+      "adj_close": 295.0,
+      "volume": 515700
     }
   ],
   "benchmark": [
@@ -7329,9 +7369,19 @@
       "open": 404.8999938964844,
       "high": 405.8999938964844,
       "low": 399.20001220703125,
-      "close": null,
-      "adj_close": null,
+      "close": 401.8999938964844,
+      "adj_close": 401.8999938964844,
       "volume": 22289870
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-19",
+      "open": 400.29998779296875,
+      "high": 403.1000061035156,
+      "low": 399.1000061035156,
+      "close": 402.20001220703125,
+      "adj_close": 402.20001220703125,
+      "volume": 28124150
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

@@ -5,20 +5,26 @@
   "tradingViewSymbol": "TSE:6800"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "NO_SETUP",
+  "closedAt": "2026-11-18",
   "id": "6800-2026-10-20",
   "overextended": false,
   "setupType": null,
   "setups": [],
   "startedAt": "2026-10-20",
-  "status": "CANDIDATE",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-10-20",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-11-18",
+    "from": "CANDIDATE",
+    "reason_code": "NO_SETUP",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": null
@@ -33,31 +39,28 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-17",
-  "buyBalance": 439500,
-  "buyChangePct": 4.3,
-  "labels": [
-   "信用倍率改善",
-   "売残増加"
-  ],
-  "ratio": 30.95,
-  "sellBalance": 14200,
-  "sellChangePct": 31.5
+  "asOf": "2026-11-18",
+  "buyBalance": 442300,
+  "buyChangePct": 4.7,
+  "labels": [],
+  "ratio": 29.68,
+  "sellBalance": 14900,
+  "sellChangePct": -2.0
  },
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-17",
+  "asOf": "2026-11-19",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.65,
+  "distFrom52wHigh": 0.64,
   "labels": [],
-  "ma20": 3045.9,
-  "ma200": 4008.0,
-  "ma60": 3783.7,
-  "rangePos60": 0.02,
-  "rel20": -36.9,
-  "rel60": -39.4,
-  "volumeRatio20": 1.11
+  "ma20": 2903.4,
+  "ma200": 4008.8,
+  "ma60": 3733.1,
+  "rangePos60": 0.03,
+  "rel20": -33.0,
+  "rel60": -35.4,
+  "volumeRatio20": 1.25
  },
  "reasons": [
   "新規大量保有 5.1%（ＳｉｌｖｅｒＣａｐｅ　Ｉｎｖｅｓｔｍｅｎｔｓ　Ｌｉｍｉｔｅｄ）"
@@ -70,7 +73,14 @@
    "kind": "EVENT",
    "label": "新規大量保有",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8UE"
+  },
+  {
+   "date": "2026-11-18",
+   "detail": "期限内にPrice Setupが成立しなかった",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-19T02:55:55+09:00"
+ "updatedAt": "2026-11-19T16:55:31+09:00"
 }

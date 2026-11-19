@@ -51,7 +51,7 @@
   },
   {
    "d1": -1.0,
-   "d20": null,
+   "d20": -4.0,
    "d5": -5.1,
    "eventId": "edinet:S100Z2JF",
    "excess5": -3.8
@@ -66,19 +66,21 @@
   {
    "d1": 1.0,
    "d20": null,
-   "d5": null,
+   "d5": -0.3,
    "eventId": "edinet:S100ZD8Y",
-   "excess5": null
+   "excess5": 2.6
   }
  ],
  "margin": {
-  "asOf": "2026-11-17",
-  "buyBalance": 109700,
-  "buyChangePct": -2.9,
-  "labels": [],
-  "ratio": 0.24,
-  "sellBalance": 449800,
-  "sellChangePct": -6.7
+  "asOf": "2026-11-18",
+  "buyBalance": 101300,
+  "buyChangePct": -14.4,
+  "labels": [
+   "信用買残減少"
+  ],
+  "ratio": 0.23,
+  "sellBalance": 449400,
+  "sellChangePct": -4.6
  },
  "pastEpisodes": [
   {
@@ -90,8 +92,8 @@
   }
  ],
  "performance": {
-  "benchReturn": -5.3,
-  "currentPrice": 2721.0,
+  "benchReturn": -5.8,
+  "currentPrice": 2759.0,
   "d20": {
    "benchReturn": -5.3,
    "excessReturn": -2.9,
@@ -107,32 +109,33 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 40,
+   "pendingDays": 38,
    "stockReturn": null
   },
-  "excessReturn": -2.9,
+  "excessReturn": -1.1,
   "initialDate": "2026-10-19",
   "initialPrice": 2962.5,
-  "stockReturn": -8.2
+  "stockReturn": -6.9
  },
  "priceSetup": {
-  "asOf": "2026-11-17",
+  "asOf": "2026-11-19",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.23,
+  "distFrom52wHigh": 0.22,
   "labels": [
    "60日線の上"
   ],
-  "ma20": 2870.8,
-  "ma200": 2086.0,
-  "ma60": 2597.4,
-  "rangePos60": 0.45,
-  "rel20": -2.9,
-  "rel60": 35.3,
-  "volumeRatio20": 0.44
+  "ma20": 2860.7,
+  "ma200": 2097.4,
+  "ma60": 2617.4,
+  "rangePos60": 0.47,
+  "rel20": 1.5,
+  "rel60": 30.6,
+  "volumeRatio20": 0.23
  },
  "reasons": [
   "1.5pt買い増し 5.1%→6.6%",
-  "信用買残 -3%"
+  "TOPIX連動ETF比 +1.5pt（20日）",
+  "信用買残 -14%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -254,7 +257,14 @@
    "kind": "EVENT",
    "label": "大幅な買い増し",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZD8Y"
+  },
+  {
+   "date": "2026-11-18",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-19T02:55:55+09:00"
+ "updatedAt": "2026-11-19T16:55:31+09:00"
 }

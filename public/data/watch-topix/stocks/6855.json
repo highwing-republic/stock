@@ -86,19 +86,39 @@
    "d5": null,
    "eventId": "edinet:S100ZEGN",
    "excess5": null
+  },
+  {
+   "d1": 8.0,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZEWG",
+   "excess5": null
+  },
+  {
+   "d1": 0.3,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZI85",
+   "excess5": null
+  },
+  {
+   "d1": 0.3,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZIUJ",
+   "excess5": null
   }
  ],
  "margin": {
-  "asOf": "2026-11-17",
-  "buyBalance": 585500,
-  "buyChangePct": -11.7,
+  "asOf": "2026-11-18",
+  "buyBalance": 642800,
+  "buyChangePct": 3.6,
   "labels": [
-   "信用買残減少",
    "信用倍率悪化"
   ],
-  "ratio": 29.72,
-  "sellBalance": 19700,
-  "sellChangePct": -39.0
+  "ratio": 42.29,
+  "sellBalance": 15200,
+  "sellChangePct": -26.2
  },
  "pastEpisodes": [
   {
@@ -111,21 +131,21 @@
  ],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-17",
+  "asOf": "2026-11-19",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.47,
+  "distFrom52wHigh": 0.42,
   "labels": [],
-  "ma20": 5940.0,
-  "ma200": 6817.2,
-  "ma60": 6706.1,
-  "rangePos60": 0.25,
-  "rel20": -19.0,
-  "rel60": -19.1,
-  "volumeRatio20": 1.1
+  "ma20": 5853.0,
+  "ma200": 6828.4,
+  "ma60": 6678.8,
+  "rangePos60": 0.34,
+  "rel20": -8.5,
+  "rel60": -6.7,
+  "volumeRatio20": 1.04
  },
  "reasons": [
-  "1.5pt買い増し 9.9%→11.4%",
-  "信用買残 -12%"
+  "1.1pt買い増し 11.4%→12.6%",
+  "30日以内に2回買い増し"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -198,7 +218,28 @@
    "kind": "EVENT",
    "label": "連続の買い増し",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZEWG"
+  },
+  {
+   "date": "2026-11-19",
+   "detail": "5.32% → 4.61%（三井住友トラスト・アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI85"
+  },
+  {
+   "date": "2026-11-19",
+   "detail": "5.96% → 6.01%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUJ"
+  },
+  {
+   "date": "2026-11-19",
+   "detail": "12.56% → 15.79%（エフィッシモ　キャピタル　マネージメント　ピーティーイー　エルティーディー（Ｅｆｆｉｓｓｉｍｏ　Ｃａｐｉｔａｌ　Ｍａｎａｇｅｍｅｎｔ　Ｐｔｅ　Ｌｔｄ））",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHWZ"
   }
  ],
- "updatedAt": "2026-11-19T02:55:55+09:00"
+ "updatedAt": "2026-11-19T16:55:31+09:00"
 }

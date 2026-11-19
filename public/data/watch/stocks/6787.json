@@ -66,18 +66,18 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-17",
-  "buyBalance": 1575000,
-  "buyChangePct": 4.4,
+  "asOf": "2026-11-18",
+  "buyBalance": 1539900,
+  "buyChangePct": -4.1,
   "labels": [],
-  "ratio": 62.75,
-  "sellBalance": 25100,
-  "sellChangePct": 3.3
+  "ratio": 56.41,
+  "sellBalance": 27300,
+  "sellChangePct": -8.1
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -6.0,
-  "currentPrice": 7440.0,
+  "benchReturn": -6.5,
+  "currentPrice": 8370.0,
   "d20": {
    "benchReturn": -2.8,
    "excessReturn": -18.9,
@@ -93,29 +93,33 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 25,
+   "pendingDays": 23,
    "stockReturn": null
   },
-  "excessReturn": -31.4,
+  "excessReturn": -23.1,
   "initialDate": "2026-09-25",
   "initialPrice": 11893.8,
-  "stockReturn": -37.4
+  "stockReturn": -29.6
  },
  "priceSetup": {
-  "asOf": "2026-11-17",
+  "asOf": "2026-11-19",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.67,
-  "labels": [],
-  "ma20": 8494.2,
-  "ma200": 12163.9,
-  "ma60": 9917.8,
-  "rangePos60": 0.22,
-  "rel20": -26.6,
-  "rel60": -14.5,
-  "volumeRatio20": 0.89
+  "distFrom52wHigh": 0.63,
+  "labels": [
+   "20日線の上"
+  ],
+  "ma20": 8276.0,
+  "ma200": 12193.7,
+  "ma60": 9899.2,
+  "rangePos60": 0.33,
+  "rel20": -14.6,
+  "rel60": 0.6,
+  "volumeRatio20": 1.46
  },
  "reasons": [
-  "新規大量保有 5.8%（株式会社みずほ銀行）"
+  "新規大量保有 5.8%（株式会社みずほ銀行）",
+  "20日線を回復",
+  "信用買残 -4%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -195,7 +199,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-19",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-19T02:54:54+09:00"
+ "updatedAt": "2026-11-19T16:54:25+09:00"
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T02:54:41+09:00",
+  "updatedAt": "2026-11-19T16:54:11+09:00",
   "company": {
     "securityCode": "3405",
     "ticker": "3405.T",
@@ -28,8 +28,8 @@
       "metrics": {
         "return1d": -1.31,
         "return5d": 0.44,
-        "return20d": null,
-        "returnCurrent": 1.93,
+        "return20d": -1.47,
+        "returnCurrent": -1.47,
         "volumeRatio": 0.68,
         "marketExcessReturn": 0.87
       }
@@ -58,8 +58,8 @@
       "metrics": {
         "return1d": -1.31,
         "return5d": 0.44,
-        "return20d": null,
-        "returnCurrent": 1.93,
+        "return20d": -1.47,
+        "returnCurrent": -1.47,
         "volumeRatio": 0.68,
         "marketExcessReturn": 0.87
       }
@@ -90,7 +90,7 @@
         "return1d": 2.41,
         "return5d": 1.82,
         "return20d": 3.46,
-        "returnCurrent": 6.21,
+        "returnCurrent": 2.67,
         "volumeRatio": 1.0,
         "marketExcessReturn": -0.08
       }
@@ -120,7 +120,7 @@
         "return1d": 2.41,
         "return5d": 1.82,
         "return20d": 3.46,
-        "returnCurrent": 6.21,
+        "returnCurrent": 2.67,
         "volumeRatio": 1.0,
         "marketExcessReturn": -0.08
       }
@@ -150,7 +150,7 @@
         "return1d": 1.72,
         "return5d": 4.26,
         "return20d": 2.31,
-        "returnCurrent": 5.55,
+        "returnCurrent": 2.03,
         "volumeRatio": 0.88,
         "marketExcessReturn": 3.03
       }
@@ -178,7 +178,7 @@
         "return1d": -1.3,
         "return5d": -1.8,
         "return20d": 5.36,
-        "returnCurrent": 8.43,
+        "returnCurrent": 4.81,
         "volumeRatio": 0.61,
         "marketExcessReturn": -0.44
       }
@@ -4261,9 +4261,19 @@
       "open": 1878.0,
       "high": 1883.0,
       "low": 1822.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1829.0,
+      "adj_close": 1829.0,
       "volume": 1501600
+    },
+    {
+      "ticker": "3405.T",
+      "trade_date": "2026-11-19",
+      "open": 1836.0,
+      "high": 1850.0,
+      "low": 1793.5,
+      "close": 1810.0,
+      "adj_close": 1810.0,
+      "volume": 1710200
     }
   ],
   "benchmark": [
@@ -8343,9 +8353,19 @@
       "open": 404.8999938964844,
       "high": 405.8999938964844,
       "low": 399.20001220703125,
-      "close": null,
-      "adj_close": null,
+      "close": 401.8999938964844,
+      "adj_close": 401.8999938964844,
       "volume": 22289870
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-19",
+      "open": 400.29998779296875,
+      "high": 403.1000061035156,
+      "low": 399.1000061035156,
+      "close": 402.20001220703125,
+      "adj_close": 402.20001220703125,
+      "volume": 28124150
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

@@ -5,20 +5,26 @@
   "tradingViewSymbol": "TSE:7189"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "NO_SETUP",
+  "closedAt": "2026-11-19",
   "id": "7189-2026-10-21",
   "overextended": false,
   "setupType": null,
   "setups": [],
   "startedAt": "2026-10-21",
-  "status": "CANDIDATE",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-10-21",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-11-19",
+    "from": "CANDIDATE",
+    "reason_code": "NO_SETUP",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": null
@@ -26,43 +32,41 @@
  "eventReactions": [
   {
    "d1": 2.4,
-   "d20": null,
+   "d20": -0.0,
    "d5": 0.3,
    "eventId": "edinet:S100Z92U",
    "excess5": 0.6
   }
  ],
  "margin": {
-  "asOf": "2026-11-17",
-  "buyBalance": 501900,
-  "buyChangePct": 4.1,
+  "asOf": "2026-11-18",
+  "buyBalance": 500100,
+  "buyChangePct": 5.4,
   "labels": [
    "信用倍率悪化"
   ],
-  "ratio": 39.52,
-  "sellBalance": 12700,
-  "sellChangePct": -31.0
+  "ratio": 38.47,
+  "sellBalance": 13000,
+  "sellChangePct": -12.8
  },
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-17",
+  "asOf": "2026-11-19",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.13,
-  "labels": [
-   "20日線の上"
-  ],
-  "ma20": 4416.0,
-  "ma200": 4234.7,
-  "ma60": 4675.4,
-  "rangePos60": 0.42,
-  "rel20": 1.5,
-  "rel60": -1.4,
-  "volumeRatio20": 0.7
+  "distFrom52wHigh": 0.15,
+  "labels": [],
+  "ma20": 4409.1,
+  "ma200": 4242.7,
+  "ma60": 4668.9,
+  "rangePos60": 0.33,
+  "rel20": 2.4,
+  "rel60": 0.2,
+  "volumeRatio20": 1.05
  },
  "reasons": [
   "新規大量保有 5%（三井住友ＤＳアセットマネジメント株式会社）",
-  "TOPIX連動ETF比 +1.5pt（20日）"
+  "TOPIX連動ETF比 +2.4pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -93,7 +97,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-19",
+   "detail": "期限内にPrice Setupが成立しなかった",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-19T02:55:55+09:00"
+ "updatedAt": "2026-11-19T16:55:31+09:00"
 }

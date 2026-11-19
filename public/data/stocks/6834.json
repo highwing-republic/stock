@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-11-19T02:54:41+09:00",
+  "updatedAt": "2026-11-19T16:54:11+09:00",
   "company": {
     "securityCode": "6834",
     "ticker": "6834.T",
     "name": "株式会社　精工技研"
   },
   "events": [
+    {
+      "docId": "S100ZIT0",
+      "ticker": "6834.T",
+      "securityCode": "6834",
+      "companyName": "株式会社　精工技研",
+      "submitDatetime": "2026-11-19 10:43",
+      "filerName": "野村證券株式会社",
+      "reportType": "change",
+      "holdingRatio": 7.61,
+      "previousHoldingRatio": 8.67,
+      "holdingChange": -1.06,
+      "purpose": "証券業務に係る商品在庫として保有している。 / － / 信託財産の運用として保有している。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -1.81,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100ZD7T",
       "ticker": "6834.T",
@@ -32,7 +62,7 @@
         "return1d": 20.0,
         "return5d": 1.8,
         "return20d": null,
-        "returnCurrent": -13.17,
+        "returnCurrent": -9.22,
         "volumeRatio": 0.86,
         "marketExcessReturn": -3.94
       }
@@ -62,7 +92,7 @@
         "return1d": -7.87,
         "return5d": 9.79,
         "return20d": null,
-        "returnCurrent": -36.63,
+        "returnCurrent": -33.74,
         "volumeRatio": 1.57,
         "marketExcessReturn": 10.8
       }
@@ -90,7 +120,7 @@
         "return1d": -13.25,
         "return5d": -12.22,
         "return20d": 18.19,
-        "returnCurrent": -37.45,
+        "returnCurrent": -34.61,
         "volumeRatio": 0.76,
         "marketExcessReturn": -9.61
       }
@@ -4093,9 +4123,19 @@
       "open": 3905.0,
       "high": 3925.0,
       "low": 3555.0,
-      "close": null,
-      "adj_close": null,
+      "close": 3860.0,
+      "adj_close": 3860.0,
       "volume": 1736600
+    },
+    {
+      "ticker": "6834.T",
+      "trade_date": "2026-11-19",
+      "open": 3750.0,
+      "high": 3805.0,
+      "low": 3535.0,
+      "close": 3790.0,
+      "adj_close": 3790.0,
+      "volume": 1048700
     }
   ],
   "benchmark": [
@@ -8175,9 +8215,19 @@
       "open": 404.8999938964844,
       "high": 405.8999938964844,
       "low": 399.20001220703125,
-      "close": null,
-      "adj_close": null,
+      "close": 401.8999938964844,
+      "adj_close": 401.8999938964844,
       "volume": 22289870
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-19",
+      "open": 400.29998779296875,
+      "high": 403.1000061035156,
+      "low": 399.1000061035156,
+      "close": 402.20001220703125,
+      "adj_close": 402.20001220703125,
+      "volume": 28124150
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

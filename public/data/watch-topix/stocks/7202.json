@@ -9,10 +9,10 @@
   "closedAt": null,
   "id": "7202-2026-11-05",
   "overextended": false,
-  "setupType": "BREAKOUT",
+  "setupType": "RECOVERY",
   "setups": [],
   "startedAt": "2026-11-05",
-  "status": "WATCH",
+  "status": "STRENGTHENING",
   "statusHistory": [
    {
     "date": "2026-11-05",
@@ -25,6 +25,12 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
+   },
+   {
+    "date": "2026-11-18",
+    "from": "WATCH",
+    "reason_code": "SETUP_IMPROVED",
+    "to": "STRENGTHENING"
    }
   ],
   "watchStartedAt": "2026-11-05"
@@ -53,16 +59,15 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-17",
-  "buyBalance": 454600,
-  "buyChangePct": -26.9,
+  "asOf": "2026-11-18",
+  "buyBalance": 469600,
+  "buyChangePct": -17.4,
   "labels": [
-   "信用買残減少",
-   "信用倍率改善"
+   "信用買残減少"
   ],
-  "ratio": 13.57,
-  "sellBalance": 33500,
-  "sellChangePct": -14.3
+  "ratio": 13.98,
+  "sellBalance": 33600,
+  "sellChangePct": -20.0
  },
  "pastEpisodes": [
   {
@@ -74,12 +79,12 @@
   }
  ],
  "performance": {
-  "benchReturn": -2.7,
-  "currentPrice": 2232.5,
+  "benchReturn": -3.2,
+  "currentPrice": 2140.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 12,
+   "pendingDays": 10,
    "stockReturn": null
   },
   "d5": {
@@ -91,37 +96,33 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 52,
+   "pendingDays": 50,
    "stockReturn": null
   },
-  "excessReturn": 3.4,
+  "excessReturn": -0.3,
   "initialDate": "2026-11-05",
   "initialPrice": 2217.5,
-  "stockReturn": 0.7
+  "stockReturn": -3.5
  },
  "priceSetup": {
-  "asOf": "2026-11-17",
+  "asOf": "2026-11-19",
   "atrState": "通常",
-  "distFrom52wHigh": 0.21,
+  "distFrom52wHigh": 0.24,
   "labels": [
-   "20日線の上",
-   "60日レンジ上位21%",
-   "20日線が上向き",
-   "60日線の上"
+   "20日線が上向き"
   ],
-  "ma20": 2142.7,
-  "ma200": 2259.4,
-  "ma60": 2141.9,
-  "rangePos60": 0.79,
-  "rel20": 9.2,
-  "rel60": 7.9,
-  "volumeRatio20": 0.77
+  "ma20": 2146.4,
+  "ma200": 2256.3,
+  "ma60": 2142.0,
+  "rangePos60": 0.47,
+  "rel20": 6.8,
+  "rel60": 3.0,
+  "volumeRatio20": 1.03
  },
  "reasons": [
   "新規大量保有 5%（ウエリントン・マネージメント・ジャパン・ピーティーイー・リミテッド）",
-  "60日レンジ上位21%",
-  "20日線上向き",
-  "TOPIX連動ETF比 +9.2pt（20日）"
+  "TOPIX連動ETF比 +6.8pt（20日）",
+  "信用買残 -17%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -187,7 +188,28 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-18",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-18",
+   "detail": "Price Setupが改善",
+   "kind": "STATUS",
+   "label": "STRENGTHENING",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-19",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-19T02:55:55+09:00"
+ "updatedAt": "2026-11-19T16:55:31+09:00"
 }
