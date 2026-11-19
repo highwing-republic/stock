@@ -10,7 +10,9 @@
   "id": "4613-2026-09-25",
   "overextended": false,
   "setupType": "TREND",
-  "setups": [],
+  "setups": [
+   "TREND"
+  ],
   "startedAt": "2026-09-25",
   "status": "REACTED",
   "statusHistory": [
@@ -78,7 +80,7 @@
   },
   {
    "d1": 1.4,
-   "d20": 1.5,
+   "d20": null,
    "d5": -0.7,
    "eventId": "edinet:S100Z961",
    "excess5": 0.6
@@ -113,8 +115,8 @@
   }
  ],
  "performance": {
-  "benchReturn": -6.5,
-  "currentPrice": 2946.0,
+  "benchReturn": -6.6,
+  "currentPrice": 2964.0,
   "d20": {
    "benchReturn": -2.8,
    "excessReturn": 7.5,
@@ -130,34 +132,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 23,
+   "pendingDays": 24,
    "stockReturn": null
   },
-  "excessReturn": 11.4,
+  "excessReturn": 12.1,
   "initialDate": "2026-09-25",
   "initialPrice": 2808.8,
-  "stockReturn": 4.9
+  "stockReturn": 5.5
  },
  "priceSetup": {
-  "asOf": "2026-11-19",
+  "asOf": "2026-11-18",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.04,
+  "distFrom52wHigh": 0.03,
   "labels": [
+   "20日線の上",
+   "60日レンジ上位29%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2955.8,
-  "ma200": 2611.7,
-  "ma60": 2864.3,
-  "rangePos60": 0.66,
-  "rel20": 7.0,
-  "rel60": 8.6,
-  "volumeRatio20": 0.67
+  "ma20": 2953.7,
+  "ma200": 2609.2,
+  "ma60": 2862.6,
+  "rangePos60": 0.71,
+  "rel20": 7.3,
+  "rel60": 9.7,
+  "volumeRatio20": 0.55
  },
  "reasons": [
   "新規大量保有 5.1%（キャピタル・リサーチ・アンド・マネージメント・カンパニー）",
-  "TOPIX連動ETF比 +7pt（20日）",
-  "52週高値まで4%"
+  "60日レンジ上位29%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +7.3pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -391,14 +396,7 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-11-19",
-   "detail": "TREND → なし",
-   "kind": "SETUP",
-   "label": "Price Setup解消",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-19T21:11:55+09:00"
+ "updatedAt": "2026-11-20T01:12:29+09:00"
 }

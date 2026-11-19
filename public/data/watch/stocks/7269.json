@@ -10,9 +10,7 @@
   "id": "7269-2026-10-22",
   "overextended": false,
   "setupType": "TREND",
-  "setups": [
-   "TREND"
-  ],
+  "setups": [],
   "startedAt": "2026-10-22",
   "status": "REACTED",
   "statusHistory": [
@@ -46,7 +44,7 @@
  "eventReactions": [
   {
    "d1": -0.4,
-   "d20": 8.0,
+   "d20": null,
    "d5": 2.0,
    "eventId": "edinet:S100Z8ZY",
    "excess5": 3.3
@@ -66,11 +64,11 @@
  "pastEpisodes": [],
  "performance": {
   "benchReturn": -4.4,
-  "currentPrice": 2211.5,
+  "currentPrice": 2124.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 1,
+   "pendingDays": 2,
    "stockReturn": null
   },
   "d5": {
@@ -82,37 +80,33 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 41,
+   "pendingDays": 42,
    "stockReturn": null
   },
-  "excessReturn": 12.8,
+  "excessReturn": 8.5,
   "initialDate": "2026-10-22",
   "initialPrice": 2040.5,
-  "stockReturn": 8.4
+  "stockReturn": 4.1
  },
  "priceSetup": {
-  "asOf": "2026-11-19",
+  "asOf": "2026-11-18",
   "atrState": "通常",
-  "distFrom52wHigh": 0.08,
+  "distFrom52wHigh": 0.12,
   "labels": [
-   "20日線の上",
-   "60日レンジ上位28%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2146.8,
+  "ma20": 2138.6,
   "ma200": 1992.2,
-  "ma60": 2075.7,
-  "rangePos60": 0.72,
-  "rel20": 13.5,
-  "rel60": 12.2,
-  "volumeRatio20": 1.03
+  "ma60": 2073.2,
+  "rangePos60": 0.5,
+  "rel20": 8.1,
+  "rel60": 10.1,
+  "volumeRatio20": 0.75
  },
  "reasons": [
   "1pt買い増し 6.2%→7.2%",
-  "60日レンジ上位28%",
-  "20日線を回復",
-  "TOPIX連動ETF比 +13.5pt（20日）"
+  "TOPIX連動ETF比 +8.1pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -178,21 +172,7 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-11-19",
-   "detail": "なし → TREND",
-   "kind": "SETUP",
-   "label": "Price Setup改善",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-19",
-   "detail": "20日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-19T21:11:11+09:00"
+ "updatedAt": "2026-11-20T01:11:23+09:00"
 }

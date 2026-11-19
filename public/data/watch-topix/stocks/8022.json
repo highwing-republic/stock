@@ -10,9 +10,7 @@
   "id": "8022-2026-09-24",
   "overextended": false,
   "setupType": "TREND",
-  "setups": [
-   "TREND"
-  ],
+  "setups": [],
   "startedAt": "2026-09-24",
   "status": "REACTED",
   "statusHistory": [
@@ -103,8 +101,8 @@
   }
  ],
  "performance": {
-  "benchReturn": -5.3,
-  "currentPrice": 4295.0,
+  "benchReturn": -5.4,
+  "currentPrice": 4080.0,
   "d20": {
    "benchReturn": -2.0,
    "excessReturn": 9.7,
@@ -120,35 +118,29 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 22,
+   "pendingDays": 23,
    "stockReturn": null
   },
-  "excessReturn": 10.8,
+  "excessReturn": 5.6,
   "initialDate": "2026-09-24",
   "initialPrice": 4072.4,
-  "stockReturn": 5.5
+  "stockReturn": 0.2
  },
  "priceSetup": {
-  "asOf": "2026-11-19",
+  "asOf": "2026-11-18",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.08,
-  "labels": [
-   "20日線の上",
-   "60日線の上"
-  ],
-  "ma20": 4272.8,
-  "ma200": 3712.9,
-  "ma60": 4189.2,
-  "rangePos60": 0.59,
-  "rel20": 2.5,
-  "rel60": 9.4,
-  "volumeRatio20": 2.49
+  "distFrom52wHigh": 0.12,
+  "labels": [],
+  "ma20": 4279.5,
+  "ma200": 3707.5,
+  "ma60": 4186.0,
+  "rangePos60": 0.35,
+  "rel20": -4.1,
+  "rel60": 7.0,
+  "volumeRatio20": 1.64
  },
  "reasons": [
-  "新規大量保有 5.2%（三井住友信託銀行株式会社）",
-  "20日線を回復",
-  "TOPIX連動ETF比 +2.5pt（20日）",
-  "52週高値まで8%"
+  "新規大量保有 5.2%（三井住友信託銀行株式会社）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -298,35 +290,7 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-11-19",
-   "detail": "なし → TREND",
-   "kind": "SETUP",
-   "label": "Price Setup改善",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-19",
-   "detail": "20日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-19",
-   "detail": "60日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-19",
-   "detail": "TOPIX連動ETFを上回りに転換",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-19T21:11:55+09:00"
+ "updatedAt": "2026-11-20T01:12:29+09:00"
 }

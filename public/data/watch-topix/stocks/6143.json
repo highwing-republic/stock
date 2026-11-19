@@ -5,26 +5,20 @@
   "tradingViewSymbol": "TSE:6143"
  },
  "episode": {
-  "closeReason": "NO_SETUP",
-  "closedAt": "2026-11-19",
+  "closeReason": null,
+  "closedAt": null,
   "id": "6143-2026-10-21",
   "overextended": false,
   "setupType": null,
   "setups": [],
   "startedAt": "2026-10-21",
-  "status": "CLOSED",
+  "status": "CANDIDATE",
   "statusHistory": [
    {
     "date": "2026-10-21",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
-   },
-   {
-    "date": "2026-11-19",
-    "from": "CANDIDATE",
-    "reason_code": "NO_SETUP",
-    "to": "CLOSED"
    }
   ],
   "watchStartedAt": null
@@ -85,17 +79,17 @@
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-19",
+  "asOf": "2026-11-18",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.39,
+  "distFrom52wHigh": 0.38,
   "labels": [],
-  "ma20": 1398.4,
-  "ma200": 1587.6,
-  "ma60": 1585.8,
-  "rangePos60": 0.17,
-  "rel20": -9.4,
-  "rel60": -20.8,
-  "volumeRatio20": 0.43
+  "ma20": 1409.7,
+  "ma200": 1586.7,
+  "ma60": 1593.1,
+  "rangePos60": 0.2,
+  "rel20": -6.6,
+  "rel60": -20.3,
+  "volumeRatio20": 0.42
  },
  "reasons": [
   "新規大量保有 5.2%（三井住友トラスト・アセットマネジメント株式会社）"
@@ -150,14 +144,7 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-11-19",
-   "detail": "期限内にPrice Setupが成立しなかった",
-   "kind": "STATUS",
-   "label": "CLOSED",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-19T21:11:55+09:00"
+ "updatedAt": "2026-11-20T01:12:29+09:00"
 }

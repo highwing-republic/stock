@@ -5,8 +5,8 @@
   "tradingViewSymbol": "TSE:8304"
  },
  "episode": {
-  "closeReason": "EXPIRED",
-  "closedAt": "2026-11-19",
+  "closeReason": null,
+  "closedAt": null,
   "id": "8304-2026-07-07",
   "overextended": true,
   "setupType": "RECOVERY",
@@ -14,7 +14,7 @@
    "RECOVERY"
   ],
   "startedAt": "2026-07-07",
-  "status": "CLOSED",
+  "status": "REACTED",
   "statusHistory": [
    {
     "date": "2026-07-07",
@@ -45,12 +45,6 @@
     "from": "CONFIRMED",
     "reason_code": "EXCESS_THRESHOLD",
     "to": "REACTED"
-   },
-   {
-    "date": "2026-11-19",
-    "from": "REACTED",
-    "reason_code": "EXPIRED",
-    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-07-07"
@@ -100,7 +94,7 @@
  "pastEpisodes": [],
  "performance": {
   "benchReturn": -5.1,
-  "currentPrice": 3117.0,
+  "currentPrice": 3156.0,
   "d20": {
    "benchReturn": -0.6,
    "excessReturn": 10.8,
@@ -119,31 +113,31 @@
    "pendingDays": 0,
    "stockReturn": 17.9
   },
-  "excessReturn": 11.7,
+  "excessReturn": 13.1,
   "initialDate": "2026-07-07",
   "initialPrice": 2923.0,
-  "stockReturn": 6.6
+  "stockReturn": 8.0
  },
  "priceSetup": {
-  "asOf": "2026-11-19",
+  "asOf": "2026-11-18",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.13,
+  "distFrom52wHigh": 0.12,
   "labels": [
    "20日線の上",
    "20日線が上向き"
   ],
-  "ma20": 3073.6,
-  "ma200": 2902.9,
-  "ma60": 3276.9,
-  "rangePos60": 0.34,
-  "rel20": 5.9,
-  "rel60": 1.1,
-  "volumeRatio20": 0.68
+  "ma20": 3072.8,
+  "ma200": 2899.7,
+  "ma60": 3279.0,
+  "rangePos60": 0.4,
+  "rel20": 8.5,
+  "rel60": -1.9,
+  "volumeRatio20": 0.74
  },
  "reasons": [
   "新規大量保有 5%（三井住友トラスト・アセットマネジメント株式会社）",
   "20日線上向き",
-  "TOPIX連動ETF比 +5.9pt（20日）",
+  "TOPIX連動ETF比 +8.5pt（20日）",
   "信用買残 -2%"
  ],
  "schemaVersion": 1,
@@ -378,14 +372,7 @@
    "kind": "SETUP",
    "label": "Price Setup改善",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-11-19",
-   "detail": "観察期限に到達",
-   "kind": "STATUS",
-   "label": "CLOSED",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-19T21:11:55+09:00"
+ "updatedAt": "2026-11-20T01:12:29+09:00"
 }

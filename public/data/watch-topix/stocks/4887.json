@@ -64,7 +64,7 @@
   },
   {
    "d1": 1.5,
-   "d20": -4.5,
+   "d20": null,
    "d5": 0.6,
    "eventId": "edinet:S100Z9DN",
    "excess5": 1.9
@@ -114,7 +114,7 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 24,
+   "pendingDays": 25,
    "stockReturn": null
   },
   "excessReturn": 3.1,
@@ -123,22 +123,24 @@
   "stockReturn": -0.9
  },
  "priceSetup": {
-  "asOf": "2026-11-19",
+  "asOf": "2026-11-18",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.32,
-  "labels": [],
-  "ma20": 1679.4,
-  "ma200": 1841.9,
-  "ma60": 1631.2,
-  "rangePos60": 0.41,
-  "rel20": 1.0,
-  "rel60": 5.3,
-  "volumeRatio20": 1.19
+  "distFrom52wHigh": 0.3,
+  "labels": [
+   "60日線の上"
+  ],
+  "ma20": 1683.2,
+  "ma200": 1845.5,
+  "ma60": 1631.1,
+  "rangePos60": 0.61,
+  "rel20": 4.4,
+  "rel60": 9.1,
+  "volumeRatio20": 1.36
  },
  "reasons": [
   "1pt買い増し 7.9%→8.9%",
   "30日以内に2回買い増し",
-  "TOPIX連動ETF比 +1pt（20日）",
+  "TOPIX連動ETF比 +4.4pt（20日）",
   "信用買残 -15%"
  ],
  "schemaVersion": 1,
@@ -326,5 +328,5 @@
    "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-19T21:11:55+09:00"
+ "updatedAt": "2026-11-20T01:12:29+09:00"
 }

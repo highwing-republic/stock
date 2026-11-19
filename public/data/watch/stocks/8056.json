@@ -47,7 +47,7 @@
   },
   {
    "d1": 2.6,
-   "d20": -5.2,
+   "d20": null,
    "d5": -0.2,
    "eventId": "edinet:S100Z9HR",
    "excess5": 1.1
@@ -83,23 +83,20 @@
  ],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-19",
+  "asOf": "2026-11-18",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.21,
-  "labels": [
-   "60日線の上"
-  ],
-  "ma20": 4853.8,
-  "ma200": 4602.5,
-  "ma60": 4768.6,
-  "rangePos60": 0.51,
-  "rel20": 0.3,
-  "rel60": 11.0,
-  "volumeRatio20": 0.55
+  "distFrom52wHigh": 0.22,
+  "labels": [],
+  "ma20": 4867.0,
+  "ma200": 4604.4,
+  "ma60": 4763.9,
+  "rangePos60": 0.43,
+  "rel20": -2.1,
+  "rel60": 10.3,
+  "volumeRatio20": 0.78
  },
  "reasons": [
   "1.5pt買い増し 5%→6.5%",
-  "TOPIX連動ETF比 +0.3pt（20日）",
   "信用買残 -13%"
  ],
  "schemaVersion": 1,
@@ -138,21 +135,7 @@
    "kind": "EVENT",
    "label": "大幅な買い増し",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI94"
-  },
-  {
-   "date": "2026-11-19",
-   "detail": "60日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-19",
-   "detail": "TOPIX連動ETFを上回りに転換",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-19T21:11:11+09:00"
+ "updatedAt": "2026-11-20T01:11:23+09:00"
 }

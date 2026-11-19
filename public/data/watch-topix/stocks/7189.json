@@ -5,26 +5,20 @@
   "tradingViewSymbol": "TSE:7189"
  },
  "episode": {
-  "closeReason": "NO_SETUP",
-  "closedAt": "2026-11-19",
+  "closeReason": null,
+  "closedAt": null,
   "id": "7189-2026-10-21",
   "overextended": false,
   "setupType": null,
   "setups": [],
   "startedAt": "2026-10-21",
-  "status": "CLOSED",
+  "status": "CANDIDATE",
   "statusHistory": [
    {
     "date": "2026-10-21",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
-   },
-   {
-    "date": "2026-11-19",
-    "from": "CANDIDATE",
-    "reason_code": "NO_SETUP",
-    "to": "CLOSED"
    }
   ],
   "watchStartedAt": null
@@ -52,21 +46,21 @@
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-19",
+  "asOf": "2026-11-18",
   "atrState": "高ボラ",
   "distFrom52wHigh": 0.15,
   "labels": [],
-  "ma20": 4409.1,
-  "ma200": 4242.7,
-  "ma60": 4668.9,
-  "rangePos60": 0.33,
-  "rel20": 2.4,
-  "rel60": 0.2,
-  "volumeRatio20": 1.05
+  "ma20": 4415.9,
+  "ma200": 4239.0,
+  "ma60": 4672.5,
+  "rangePos60": 0.35,
+  "rel20": 4.7,
+  "rel60": -0.1,
+  "volumeRatio20": 0.77
  },
  "reasons": [
   "新規大量保有 5%（三井住友ＤＳアセットマネジメント株式会社）",
-  "TOPIX連動ETF比 +2.4pt（20日）"
+  "TOPIX連動ETF比 +4.7pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -97,14 +91,7 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-11-19",
-   "detail": "期限内にPrice Setupが成立しなかった",
-   "kind": "STATUS",
-   "label": "CLOSED",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-19T21:11:55+09:00"
+ "updatedAt": "2026-11-20T01:12:29+09:00"
 }

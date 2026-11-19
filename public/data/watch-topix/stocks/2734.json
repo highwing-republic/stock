@@ -5,14 +5,14 @@
   "tradingViewSymbol": "TSE:2734"
  },
  "episode": {
-  "closeReason": "BROKEN",
-  "closedAt": "2026-11-19",
+  "closeReason": null,
+  "closedAt": null,
   "id": "2734-2026-11-12",
   "overextended": false,
   "setupType": "RECOVERY",
   "setups": [],
   "startedAt": "2026-11-12",
-  "status": "CLOSED",
+  "status": "BROKEN",
   "statusHistory": [
    {
     "date": "2026-11-12",
@@ -31,12 +31,6 @@
     "from": "WATCH",
     "reason_code": "BELOW_MA60",
     "to": "BROKEN"
-   },
-   {
-    "date": "2026-11-19",
-    "from": "BROKEN",
-    "reason_code": "BROKEN",
-    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-11-12"
@@ -80,49 +74,49 @@
   }
  ],
  "performance": {
-  "benchReturn": -2.9,
-  "currentPrice": 1119.0,
+  "benchReturn": -3.0,
+  "currentPrice": 1115.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 15,
+   "pendingDays": 16,
    "stockReturn": null
   },
   "d5": {
-   "benchReturn": -2.9,
-   "excessReturn": 0.2,
-   "pendingDays": 0,
-   "stockReturn": -2.7
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 1,
+   "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 55,
+   "pendingDays": 56,
    "stockReturn": null
   },
-  "excessReturn": 0.2,
+  "excessReturn": 0.0,
   "initialDate": "2026-11-12",
   "initialPrice": 1150.0,
-  "stockReturn": -2.7
+  "stockReturn": -3.0
  },
  "priceSetup": {
-  "asOf": "2026-11-19",
+  "asOf": "2026-11-18",
   "atrState": "通常",
-  "distFrom52wHigh": 0.11,
+  "distFrom52wHigh": 0.12,
   "labels": [
    "20日線が上向き"
   ],
-  "ma20": 1145.2,
-  "ma200": 1106.8,
-  "ma60": 1174.6,
-  "rangePos60": 0.18,
-  "rel20": 6.4,
-  "rel60": -4.0,
-  "volumeRatio20": 1.48
+  "ma20": 1144.7,
+  "ma200": 1106.7,
+  "ma60": 1176.5,
+  "rangePos60": 0.16,
+  "rel20": 6.6,
+  "rel60": -5.6,
+  "volumeRatio20": 0.69
  },
  "reasons": [
   "1pt買い増し 5%→6%",
-  "TOPIX連動ETF比 +6.4pt（20日）"
+  "TOPIX連動ETF比 +6.6pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -160,14 +154,7 @@
    "kind": "STATUS",
    "label": "BROKEN",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-11-19",
-   "detail": "Price Setupが崩れた",
-   "kind": "STATUS",
-   "label": "CLOSED",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-19T21:11:55+09:00"
+ "updatedAt": "2026-11-20T01:12:29+09:00"
 }
