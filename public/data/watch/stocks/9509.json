@@ -5,14 +5,14 @@
   "tradingViewSymbol": "TSE:9509"
  },
  "episode": {
-  "closeReason": "BROKEN",
-  "closedAt": "2026-11-20",
+  "closeReason": null,
+  "closedAt": null,
   "id": "9509-2026-11-06",
   "overextended": false,
   "setupType": "BREAKOUT",
   "setups": [],
   "startedAt": "2026-11-06",
-  "status": "CLOSED",
+  "status": "BROKEN",
   "statusHistory": [
    {
     "date": "2026-11-06",
@@ -37,12 +37,6 @@
     "from": "STRENGTHENING",
     "reason_code": "BELOW_MA20",
     "to": "BROKEN"
-   },
-   {
-    "date": "2026-11-20",
-    "from": "BROKEN",
-    "reason_code": "BROKEN",
-    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-11-10"
@@ -71,7 +65,7 @@
   },
   {
    "d1": -0.6,
-   "d20": -3.3,
+   "d20": null,
    "d5": 1.8,
    "eventId": "edinet:S100Z9GZ",
    "excess5": 1.6
@@ -95,12 +89,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -5.9,
-  "currentPrice": 1054.5,
+  "benchReturn": -2.0,
+  "currentPrice": 1083.5,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 12,
+   "pendingDays": 13,
    "stockReturn": null
   },
   "d5": {
@@ -112,32 +106,32 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 52,
+   "pendingDays": 53,
    "stockReturn": null
   },
-  "excessReturn": 0.9,
+  "excessReturn": -0.3,
   "initialDate": "2026-11-10",
   "initialPrice": 1109.5,
-  "stockReturn": -5.0
+  "stockReturn": -2.3
  },
  "priceSetup": {
-  "asOf": "2026-11-20",
+  "asOf": "2026-11-19",
   "atrState": "通常",
-  "distFrom52wHigh": 0.16,
+  "distFrom52wHigh": 0.14,
   "labels": [
    "20日線が上向き"
   ],
-  "ma20": 1098.0,
+  "ma20": 1099.8,
   "ma200": 1032.4,
-  "ma60": 1100.3,
-  "rangePos60": 0.13,
-  "rel20": 4.9,
-  "rel60": 7.3,
-  "volumeRatio20": 1.08
+  "ma60": 1100.6,
+  "rangePos60": 0.37,
+  "rel20": 4.1,
+  "rel60": 7.0,
+  "volumeRatio20": 0.65
  },
  "reasons": [
   "新規大量保有 5.1%（ブラックロック・ジャパン株式会社）",
-  "TOPIX連動ETF比 +4.9pt（20日）",
+  "TOPIX連動ETF比 +4.1pt（20日）",
   "信用買残 -3%"
  ],
  "schemaVersion": 1,
@@ -232,14 +226,7 @@
    "kind": "STATUS",
    "label": "BROKEN",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-11-20",
-   "detail": "Price Setupが崩れた",
-   "kind": "STATUS",
-   "label": "CLOSED",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-20T21:09:37+09:00"
+ "updatedAt": "2026-11-21T00:47:56+09:00"
 }

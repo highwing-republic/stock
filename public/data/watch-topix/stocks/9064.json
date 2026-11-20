@@ -14,7 +14,7 @@
    "TREND"
   ],
   "startedAt": "2026-11-04",
-  "status": "REACTED",
+  "status": "CONFIRMED",
   "statusHistory": [
    {
     "date": "2026-11-04",
@@ -33,12 +33,6 @@
     "from": "WATCH",
     "reason_code": "NEW_HIGH60_VOLUME",
     "to": "CONFIRMED"
-   },
-   {
-    "date": "2026-11-20",
-    "from": "CONFIRMED",
-    "reason_code": "EXCESS_THRESHOLD",
-    "to": "REACTED"
    }
   ],
   "watchStartedAt": "2026-11-04"
@@ -70,12 +64,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -6.7,
-  "currentPrice": 2315.0,
+  "benchReturn": -2.9,
+  "currentPrice": 2348.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 8,
+   "pendingDays": 9,
    "stockReturn": null
   },
   "d5": {
@@ -87,37 +81,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 48,
+   "pendingDays": 49,
    "stockReturn": null
   },
-  "excessReturn": 12.2,
+  "excessReturn": 9.9,
   "initialDate": "2026-11-04",
   "initialPrice": 2194.5,
-  "stockReturn": 5.5
+  "stockReturn": 7.0
  },
  "priceSetup": {
-  "asOf": "2026-11-20",
+  "asOf": "2026-11-19",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.03,
+  "distFrom52wHigh": 0.02,
   "labels": [
    "20日線の上",
-   "60日レンジ上位14%",
+   "60日レンジ上位7%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2198.0,
-  "ma200": 1897.3,
-  "ma60": 2053.9,
-  "rangePos60": 0.86,
-  "rel20": 20.0,
-  "rel60": 30.2,
-  "volumeRatio20": 0.88
+  "ma20": 2185.7,
+  "ma200": 1895.9,
+  "ma60": 2047.1,
+  "rangePos60": 0.93,
+  "rel20": 19.7,
+  "rel60": 28.6,
+  "volumeRatio20": 0.46
  },
  "reasons": [
   "新規大量保有 5%（Ｆａｒａｌｌｏｎ　Ｃａｐｉｔａｌ　Ｍａｎａｇｅｍｅｎｔ，　Ｌ．Ｌ．Ｃ．）",
-  "60日レンジ上位14%",
+  "60日レンジ上位7%",
   "20日線上向き",
-  "TOPIX連動ETF比 +20pt（20日）"
+  "TOPIX連動ETF比 +19.7pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -197,14 +191,7 @@
    "kind": "SETUP",
    "label": "Price Setup改善",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-11-20",
-   "detail": "TOPIX連動ETFとの差が大きくなった",
-   "kind": "STATUS",
-   "label": "REACTED",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-20T21:10:32+09:00"
+ "updatedAt": "2026-11-21T00:48:34+09:00"
 }

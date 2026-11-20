@@ -5,26 +5,20 @@
   "tradingViewSymbol": "TSE:7013"
  },
  "episode": {
-  "closeReason": "NO_SETUP",
-  "closedAt": "2026-11-20",
+  "closeReason": null,
+  "closedAt": null,
   "id": "7013-2026-10-22",
   "overextended": false,
   "setupType": null,
   "setups": [],
   "startedAt": "2026-10-22",
-  "status": "CLOSED",
+  "status": "CANDIDATE",
   "statusHistory": [
    {
     "date": "2026-10-22",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
-   },
-   {
-    "date": "2026-11-20",
-    "from": "CANDIDATE",
-    "reason_code": "NO_SETUP",
-    "to": "CLOSED"
    }
   ],
   "watchStartedAt": null
@@ -66,17 +60,17 @@
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-20",
+  "asOf": "2026-11-19",
   "atrState": "通常",
-  "distFrom52wHigh": 0.53,
+  "distFrom52wHigh": 0.5,
   "labels": [],
-  "ma20": 2361.5,
-  "ma200": 2970.0,
-  "ma60": 2562.7,
-  "rangePos60": 0.08,
-  "rel20": -2.9,
-  "rel60": -9.1,
-  "volumeRatio20": 1.09
+  "ma20": 2375.0,
+  "ma200": 2976.9,
+  "ma60": 2570.7,
+  "rangePos60": 0.24,
+  "rel20": -2.2,
+  "rel60": -11.2,
+  "volumeRatio20": 0.58
  },
  "reasons": [
   "1.8pt買い増し 7.8%→9.6%",
@@ -119,14 +113,7 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-11-20",
-   "detail": "期限内にPrice Setupが成立しなかった",
-   "kind": "STATUS",
-   "label": "CLOSED",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-20T21:09:37+09:00"
+ "updatedAt": "2026-11-21T00:47:56+09:00"
 }

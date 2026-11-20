@@ -14,7 +14,7 @@
    "TREND"
   ],
   "startedAt": "2026-10-23",
-  "status": "REACTED",
+  "status": "WATCH",
   "statusHistory": [
    {
     "date": "2026-10-23",
@@ -27,12 +27,6 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
-   },
-   {
-    "date": "2026-11-20",
-    "from": "WATCH",
-    "reason_code": "EXCESS_THRESHOLD",
-    "to": "REACTED"
    }
   ],
   "watchStartedAt": "2026-10-23"
@@ -40,7 +34,7 @@
  "eventReactions": [
   {
    "d1": 1.2,
-   "d20": 5.8,
+   "d20": null,
    "d5": 0.6,
    "eventId": "edinet:S100Z9CV",
    "excess5": 0.4
@@ -59,12 +53,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -7.2,
-  "currentPrice": 3555.0,
+  "benchReturn": -3.4,
+  "currentPrice": 3615.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 1,
+   "pendingDays": 2,
    "stockReturn": null
   },
   "d5": {
@@ -76,37 +70,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 41,
+   "pendingDays": 42,
    "stockReturn": null
   },
-  "excessReturn": 11.8,
+  "excessReturn": 9.7,
   "initialDate": "2026-10-23",
   "initialPrice": 3400.0,
-  "stockReturn": 4.6
+  "stockReturn": 6.3
  },
  "priceSetup": {
-  "asOf": "2026-11-20",
+  "asOf": "2026-11-19",
   "atrState": "通常",
-  "distFrom52wHigh": 0.04,
+  "distFrom52wHigh": 0.02,
   "labels": [
    "20日線の上",
-   "60日レンジ上位13%",
+   "60日レンジ上位5%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 3442.8,
-  "ma200": 3201.7,
-  "ma60": 3189.3,
-  "rangePos60": 0.87,
-  "rel20": 14.0,
-  "rel60": 26.5,
-  "volumeRatio20": 1.5
+  "ma20": 3433.0,
+  "ma200": 3201.2,
+  "ma60": 3180.5,
+  "rangePos60": 0.95,
+  "rel20": 16.2,
+  "rel60": 23.4,
+  "volumeRatio20": 0.67
  },
  "reasons": [
   "新規大量保有 5.1%（株式会社シティインデックスイレブンス）",
-  "60日レンジ上位13%",
+  "60日レンジ上位5%",
   "20日線上向き",
-  "TOPIX連動ETF比 +14pt（20日）"
+  "TOPIX連動ETF比 +16.2pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -158,14 +152,7 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-11-20",
-   "detail": "TOPIX連動ETFとの差が大きくなった",
-   "kind": "STATUS",
-   "label": "REACTED",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-20T21:10:32+09:00"
+ "updatedAt": "2026-11-21T00:48:34+09:00"
 }

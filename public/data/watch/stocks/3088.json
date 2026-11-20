@@ -11,7 +11,8 @@
   "overextended": false,
   "setupType": "TREND",
   "setups": [
-   "TREND"
+   "TREND",
+   "RECOVERY"
   ],
   "startedAt": "2026-11-06",
   "status": "WATCH",
@@ -54,12 +55,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -0.6,
-  "currentPrice": 2924.0,
+  "benchReturn": 3.5,
+  "currentPrice": 2990.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 10,
+   "pendingDays": 11,
    "stockReturn": null
   },
   "d5": {
@@ -71,37 +72,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 50,
+   "pendingDays": 51,
    "stockReturn": null
   },
-  "excessReturn": 9.6,
+  "excessReturn": 7.9,
   "initialDate": "2026-11-06",
   "initialPrice": 2683.0,
-  "stockReturn": 9.0
+  "stockReturn": 11.4
  },
  "priceSetup": {
-  "asOf": "2026-11-20",
+  "asOf": "2026-11-19",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.04,
+  "distFrom52wHigh": 0.02,
   "labels": [
    "20日線の上",
-   "60日レンジ上位19%",
+   "60日レンジ上位9%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2739.7,
-  "ma200": 2460.0,
-  "ma60": 2588.6,
-  "rangePos60": 0.81,
-  "rel20": 19.5,
-  "rel60": 23.9,
-  "volumeRatio20": 0.83
+  "ma20": 2724.8,
+  "ma200": 2457.9,
+  "ma60": 2582.3,
+  "rangePos60": 0.91,
+  "rel20": 21.6,
+  "rel60": 23.0,
+  "volumeRatio20": 0.97
  },
  "reasons": [
   "新規大量保有 5%（Ｃｏｌｕｍｂｉａ　Ｍａｎａｇｅｍｅｎｔ　Ｉｎｖｅｓｔｍｅｎｔ　Ａｄｖｉｓｅｒｓ，　ＬＬＣ）",
-  "60日レンジ上位19%",
+  "60日レンジ上位9%",
   "20日線上向き",
-  "TOPIX連動ETF比 +19.5pt（20日）"
+  "TOPIX連動ETF比 +21.6pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -141,5 +142,5 @@
    "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-20T21:09:37+09:00"
+ "updatedAt": "2026-11-21T00:47:56+09:00"
 }

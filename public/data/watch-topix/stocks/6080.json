@@ -12,7 +12,7 @@
   "setupType": "TREND",
   "setups": [],
   "startedAt": "2026-11-16",
-  "status": "BROKEN",
+  "status": "WATCH",
   "statusHistory": [
    {
     "date": "2026-11-16",
@@ -25,12 +25,6 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
-   },
-   {
-    "date": "2026-11-20",
-    "from": "WATCH",
-    "reason_code": "BELOW_MA20",
-    "to": "BROKEN"
    }
   ],
   "watchStartedAt": "2026-11-16"
@@ -46,16 +40,16 @@
   {
    "d1": -1.5,
    "d20": null,
-   "d5": -9.6,
+   "d5": null,
    "eventId": "edinet:S100ZB3E",
-   "excess5": -2.5
+   "excess5": null
   },
   {
    "d1": -1.5,
    "d20": null,
-   "d5": -9.6,
+   "d5": null,
    "eventId": "edinet:S100ZFNT",
-   "excess5": -2.5
+   "excess5": null
   }
  ],
  "margin": {
@@ -73,49 +67,49 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -6.0,
-  "currentPrice": 4150.0,
+  "benchReturn": -2.1,
+  "currentPrice": 4225.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 16,
+   "pendingDays": 17,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 1,
+   "pendingDays": 2,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 56,
+   "pendingDays": 57,
    "stockReturn": null
   },
-  "excessReturn": -2.2,
+  "excessReturn": -4.4,
   "initialDate": "2026-11-16",
   "initialPrice": 4520.0,
-  "stockReturn": -8.2
+  "stockReturn": -6.5
  },
  "priceSetup": {
-  "asOf": "2026-11-20",
+  "asOf": "2026-11-19",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.12,
+  "distFrom52wHigh": 0.11,
   "labels": [
    "20日線が上向き"
   ],
-  "ma20": 4309.2,
-  "ma200": 3667.8,
-  "ma60": 4241.7,
-  "rangePos60": 0.3,
-  "rel20": 5.6,
-  "rel60": 11.2,
-  "volumeRatio20": 0.67
+  "ma20": 4314.8,
+  "ma200": 3663.4,
+  "ma60": 4240.2,
+  "rangePos60": 0.39,
+  "rel20": 3.8,
+  "rel60": 8.2,
+  "volumeRatio20": 0.78
  },
  "reasons": [
   "新規大量保有 5.8%（株式会社　りそなホールディングス）",
-  "TOPIX連動ETF比 +5.6pt（20日）",
+  "TOPIX連動ETF比 +3.8pt（20日）",
   "信用買残 -11%"
  ],
  "schemaVersion": 1,
@@ -154,14 +148,7 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-11-20",
-   "detail": "20日線を連続で下回った",
-   "kind": "STATUS",
-   "label": "BROKEN",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-20T21:10:32+09:00"
+ "updatedAt": "2026-11-21T00:48:34+09:00"
 }

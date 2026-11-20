@@ -10,7 +10,9 @@
   "id": "2121-2026-11-17",
   "overextended": false,
   "setupType": "TREND",
-  "setups": [],
+  "setups": [
+   "TREND"
+  ],
   "startedAt": "2026-11-17",
   "status": "WATCH",
   "statusHistory": [
@@ -36,13 +38,6 @@
    "d5": null,
    "eventId": "edinet:S100ZIA9",
    "excess5": null
-  },
-  {
-   "d1": -2.5,
-   "d20": null,
-   "d5": null,
-   "eventId": "edinet:S100ZJ4V",
-   "excess5": null
   }
  ],
  "margin": {
@@ -56,53 +51,54 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -4.5,
-  "currentPrice": 3965.0,
+  "benchReturn": -0.6,
+  "currentPrice": 4065.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 17,
+   "pendingDays": 18,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 2,
+   "pendingDays": 3,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 57,
+   "pendingDays": 58,
    "stockReturn": null
   },
-  "excessReturn": 2.2,
+  "excessReturn": 0.7,
   "initialDate": "2026-11-17",
   "initialPrice": 4060.0,
-  "stockReturn": -2.3
+  "stockReturn": 0.1
  },
  "priceSetup": {
-  "asOf": "2026-11-20",
+  "asOf": "2026-11-19",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.05,
+  "distFrom52wHigh": 0.02,
   "labels": [
-   "60日レンジ上位25%",
+   "20日線の上",
+   "60日レンジ上位12%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 3974.0,
-  "ma200": 3014.7,
-  "ma60": 3794.8,
-  "rangePos60": 0.75,
-  "rel20": 7.3,
-  "rel60": 23.1,
-  "volumeRatio20": 1.06
+  "ma20": 3975.8,
+  "ma200": 3008.1,
+  "ma60": 3786.7,
+  "rangePos60": 0.88,
+  "rel20": 7.5,
+  "rel60": 22.5,
+  "volumeRatio20": 0.84
  },
  "reasons": [
   "2.4pt買い増し 44.1%→46.5%",
-  "60日レンジ上位25%",
-  "TOPIX連動ETF比 +7.3pt（20日）",
-  "52週高値まで5%"
+  "60日レンジ上位12%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +7.5pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -126,14 +122,7 @@
    "kind": "EVENT",
    "label": "訂正報告",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ4V"
-  },
-  {
-   "date": "2026-11-20",
-   "detail": "TREND → なし",
-   "kind": "SETUP",
-   "label": "Price Setup解消",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-20T21:10:32+09:00"
+ "updatedAt": "2026-11-21T00:48:34+09:00"
 }

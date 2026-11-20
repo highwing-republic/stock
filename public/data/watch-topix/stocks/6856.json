@@ -5,26 +5,20 @@
   "tradingViewSymbol": "TSE:6856"
  },
  "episode": {
-  "closeReason": "NO_SETUP",
-  "closedAt": "2026-11-20",
+  "closeReason": null,
+  "closedAt": null,
   "id": "6856-2026-10-22",
   "overextended": false,
   "setupType": null,
   "setups": [],
   "startedAt": "2026-10-22",
-  "status": "CLOSED",
+  "status": "CANDIDATE",
   "statusHistory": [
    {
     "date": "2026-10-22",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
-   },
-   {
-    "date": "2026-11-20",
-    "from": "CANDIDATE",
-    "reason_code": "NO_SETUP",
-    "to": "CLOSED"
    }
   ],
   "watchStartedAt": null
@@ -68,17 +62,17 @@
  ],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-20",
+  "asOf": "2026-11-19",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.42,
+  "distFrom52wHigh": 0.38,
   "labels": [],
-  "ma20": 20238.2,
-  "ma200": 22844.1,
-  "ma60": 22480.8,
-  "rangePos60": 0.06,
-  "rel20": -14.3,
-  "rel60": -16.6,
-  "volumeRatio20": 1.21
+  "ma20": 20489.8,
+  "ma200": 22846.5,
+  "ma60": 22579.9,
+  "rangePos60": 0.19,
+  "rel20": -14.4,
+  "rel60": -16.3,
+  "volumeRatio20": 0.5
  },
  "reasons": [
   "1.1pt買い増し 5.3%→6.4%"
@@ -98,14 +92,7 @@
    "kind": "EVENT",
    "label": "大幅な買い増し",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8ZV"
-  },
-  {
-   "date": "2026-11-20",
-   "detail": "期限内にPrice Setupが成立しなかった",
-   "kind": "STATUS",
-   "label": "CLOSED",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-20T21:10:32+09:00"
+ "updatedAt": "2026-11-21T00:48:34+09:00"
 }
