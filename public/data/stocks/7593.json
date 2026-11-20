@@ -1,11 +1,42 @@
 {
-  "updatedAt": "2026-11-20T03:04:15+09:00",
+  "updatedAt": "2026-11-20T16:45:00+09:00",
   "company": {
     "securityCode": "7593",
     "ticker": "7593.T",
     "name": "ＶＴホールディングス株式会社"
   },
   "events": [
+    {
+      "docId": "S100ZJ23",
+      "ticker": "7593.T",
+      "securityCode": "7593",
+      "companyName": "ＶＴホールディングス株式会社",
+      "submitDatetime": "2026-11-20 15:20",
+      "filerName": "三井住友ＤＳアセットマネジメント株式会社",
+      "reportType": "change",
+      "holdingRatio": 2.98,
+      "previousHoldingRatio": 5.13,
+      "holdingChange": -2.15,
+      "purpose": "純投資（投資収益性を重視して行う投資） / 証券業務に係る一時保有のため（共同保有者から除外）",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少",
+        "大幅売却"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -2.13,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z3W6",
       "ticker": "7593.T",
@@ -32,7 +63,7 @@
         "return1d": -0.19,
         "return5d": -0.77,
         "return20d": -1.55,
-        "returnCurrent": 0.2,
+        "returnCurrent": -1.75,
         "volumeRatio": 1.23,
         "marketExcessReturn": -2.04
       }
@@ -3065,9 +3096,19 @@
       "open": 515.0,
       "high": 518.0,
       "low": 509.0,
-      "close": null,
-      "adj_close": null,
+      "close": 516.0,
+      "adj_close": 516.0,
       "volume": 367700
+    },
+    {
+      "ticker": "7593.T",
+      "trade_date": "2026-11-20",
+      "open": 511.0,
+      "high": 513.0,
+      "low": 503.0,
+      "close": 505.0,
+      "adj_close": 505.0,
+      "volume": 411600
     }
   ],
   "benchmark": [
@@ -7157,9 +7198,19 @@
       "open": 400.29998779296875,
       "high": 403.1000061035156,
       "low": 399.1000061035156,
-      "close": null,
-      "adj_close": null,
+      "close": 402.20001220703125,
+      "adj_close": 402.20001220703125,
       "volume": 28124150
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-20",
+      "open": 394.20001220703125,
+      "high": 395.70001220703125,
+      "low": 386.20001220703125,
+      "close": 386.20001220703125,
+      "adj_close": 386.20001220703125,
+      "volume": 39389070
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

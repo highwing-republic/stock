@@ -1,11 +1,39 @@
 {
-  "updatedAt": "2026-11-20T03:04:15+09:00",
+  "updatedAt": "2026-11-20T16:45:00+09:00",
   "company": {
     "securityCode": "5891",
     "ticker": "5891.T",
     "name": "株式会社ＳＡＫＩＧＡＫＥホールディングス"
   },
   "events": [
+    {
+      "docId": "S100ZCTB",
+      "ticker": "5891.T",
+      "securityCode": "5891",
+      "companyName": "株式会社ＳＡＫＩＧＡＫＥホールディングス",
+      "submitDatetime": "2026-11-20 13:30",
+      "filerName": "藤田　宗",
+      "reportType": "change",
+      "holdingRatio": 65.66,
+      "previousHoldingRatio": 65.66,
+      "holdingChange": 0.0,
+      "purpose": "発行会社の代表取締役社長であり、安定株主として長期保有を目的としております。 / 発行会社の代表取締役社長の資産管理会社であり、安定株主として長期保有を目的としております。 / 発行会社の代表取締役社長の親族の資産管理会社であり、安定株主として長期保有を目的としております。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -0.6,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100ZES4",
       "ticker": "5891.T",
@@ -19,21 +47,22 @@
       "holdingChange": -0.1,
       "purpose": "発行会社の代表取締役社長であり、安定株主として長期保有を目的としております。 / 発行会社の代表取締役社長の資産管理会社であり、安定株主として長期保有を目的としております。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.62,
-      "marketExcessReturn": null,
+      "priceChange": -0.06,
+      "volumeRatio": 0.6,
+      "marketExcessReturn": 6.72,
       "signalScore": 0,
       "signalReasons": [
+        "市場超過5%以上",
         "保有割合減少"
       ],
       "stockUnreacted": false,
       "metrics": {
         "return1d": 0.54,
-        "return5d": null,
+        "return5d": -0.06,
         "return20d": null,
         "returnCurrent": -0.06,
-        "volumeRatio": 0.62,
-        "marketExcessReturn": null
+        "volumeRatio": 0.6,
+        "marketExcessReturn": 6.72
       }
     }
   ],
@@ -2734,9 +2763,19 @@
       "open": 1670.0,
       "high": 1680.0,
       "low": 1665.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1680.0,
+      "adj_close": 1680.0,
       "volume": 2800
+    },
+    {
+      "ticker": "5891.T",
+      "trade_date": "2026-11-20",
+      "open": 1680.0,
+      "high": 1688.0,
+      "low": 1665.0,
+      "close": 1670.0,
+      "adj_close": 1670.0,
+      "volume": 3300
     }
   ],
   "benchmark": [
@@ -6826,9 +6865,19 @@
       "open": 400.29998779296875,
       "high": 403.1000061035156,
       "low": 399.1000061035156,
-      "close": null,
-      "adj_close": null,
+      "close": 402.20001220703125,
+      "adj_close": 402.20001220703125,
       "volume": 28124150
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-20",
+      "open": 394.20001220703125,
+      "high": 395.70001220703125,
+      "low": 386.20001220703125,
+      "close": 386.20001220703125,
+      "adj_close": 386.20001220703125,
+      "volume": 39389070
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

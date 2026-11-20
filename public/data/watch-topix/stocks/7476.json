@@ -115,20 +115,18 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-18",
-  "buyBalance": 9600,
-  "buyChangePct": 20.0,
-  "labels": [
-   "信用買残急増"
-  ],
-  "ratio": 0.21,
-  "sellBalance": 46600,
-  "sellChangePct": 8.6
+  "asOf": "2026-11-19",
+  "buyBalance": 9500,
+  "buyChangePct": 13.1,
+  "labels": [],
+  "ratio": 0.2,
+  "sellBalance": 48300,
+  "sellChangePct": 12.3
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -5.1,
-  "currentPrice": 2517.0,
+  "benchReturn": -8.8,
+  "currentPrice": 2542.0,
   "d20": {
    "benchReturn": -0.6,
    "excessReturn": -1.9,
@@ -147,30 +145,30 @@
    "pendingDays": 0,
    "stockReturn": 6.2
   },
-  "excessReturn": 12.3,
+  "excessReturn": 17.1,
   "initialDate": "2026-07-07",
   "initialPrice": 2347.3,
-  "stockReturn": 7.2
+  "stockReturn": 8.3
  },
  "priceSetup": {
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-20",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.06,
+  "distFrom52wHigh": 0.05,
   "labels": [
    "60日線の上"
   ],
-  "ma20": 2551.5,
-  "ma200": 2304.2,
-  "ma60": 2502.8,
-  "rangePos60": 0.51,
-  "rel20": 1.7,
-  "rel60": 11.1,
-  "volumeRatio20": 0.64
+  "ma20": 2547.7,
+  "ma200": 2306.2,
+  "ma60": 2508.3,
+  "rangePos60": 0.56,
+  "rel20": 5.8,
+  "rel60": 15.3,
+  "volumeRatio20": 0.69
  },
  "reasons": [
   "1.1pt買い増し 8.9%→10%",
-  "TOPIX連動ETF比 +1.7pt（20日）",
-  "52週高値まで6%"
+  "TOPIX連動ETF比 +5.8pt（20日）",
+  "52週高値まで5%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -544,7 +542,28 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-19",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-19",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-20",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-20T03:05:29+09:00"
+ "updatedAt": "2026-11-20T16:46:03+09:00"
 }

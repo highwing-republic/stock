@@ -10,9 +10,7 @@
   "id": "3099-2026-09-18",
   "overextended": false,
   "setupType": "RECOVERY",
-  "setups": [
-   "RECOVERY"
-  ],
+  "setups": [],
   "startedAt": "2026-09-18",
   "status": "REACTED",
   "statusHistory": [
@@ -54,21 +52,21 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-18",
-  "buyBalance": 536500,
-  "buyChangePct": -8.2,
+  "asOf": "2026-11-19",
+  "buyBalance": 543400,
+  "buyChangePct": -6.2,
   "labels": [
    "信用倍率改善",
    "売残増加"
   ],
-  "ratio": 0.89,
-  "sellBalance": 601300,
-  "sellChangePct": 22.1
+  "ratio": 0.7,
+  "sellBalance": 777100,
+  "sellChangePct": 45.0
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -8.0,
-  "currentPrice": 1841.5,
+  "benchReturn": -11.6,
+  "currentPrice": 1751.0,
   "d20": {
    "benchReturn": -11.1,
    "excessReturn": 4.4,
@@ -84,37 +82,34 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 32,
+   "pendingDays": 30,
    "stockReturn": null
   },
-  "excessReturn": 13.4,
+  "excessReturn": 11.8,
   "initialDate": "2026-10-07",
   "initialPrice": 1747.0,
-  "stockReturn": 5.4
+  "stockReturn": 0.2
  },
  "priceSetup": {
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-20",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.11,
+  "distFrom52wHigh": 0.15,
   "labels": [
-   "20日線の上",
-   "60日レンジ上位25%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 1775.6,
-  "ma200": 1648.0,
-  "ma60": 1704.5,
-  "rangePos60": 0.75,
-  "rel20": 9.7,
-  "rel60": 12.0,
-  "volumeRatio20": 1.14
+  "ma20": 1779.7,
+  "ma200": 1653.2,
+  "ma60": 1706.9,
+  "rangePos60": 0.55,
+  "rel20": 6.8,
+  "rel60": 11.0,
+  "volumeRatio20": 1.25
  },
  "reasons": [
   "新規大量保有 5.2%（ブラックロック・ジャパン株式会社）",
-  "60日レンジ上位25%",
-  "20日線上向き",
-  "TOPIX連動ETF比 +9.7pt（20日）"
+  "TOPIX連動ETF比 +6.8pt（20日）",
+  "信用買残 -6%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -250,7 +245,14 @@
    "kind": "SETUP",
    "label": "Price Setup改善",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-20",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-20T03:05:29+09:00"
+ "updatedAt": "2026-11-20T16:46:03+09:00"
 }

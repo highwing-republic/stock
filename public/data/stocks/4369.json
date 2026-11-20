@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T03:04:15+09:00",
+  "updatedAt": "2026-11-20T16:45:00+09:00",
   "company": {
     "securityCode": "4369",
     "ticker": "4369.T",
@@ -31,8 +31,8 @@
       "metrics": {
         "return1d": -5.23,
         "return5d": 1.93,
-        "return20d": null,
-        "returnCurrent": -16.28,
+        "return20d": -22.66,
+        "returnCurrent": -22.66,
         "volumeRatio": 1.11,
         "marketExcessReturn": 2.94
       }
@@ -62,7 +62,7 @@
         "return1d": -5.32,
         "return5d": -9.33,
         "return20d": -18.62,
-        "returnCurrent": -18.37,
+        "returnCurrent": -24.6,
         "volumeRatio": 0.88,
         "marketExcessReturn": -7.0
       }
@@ -94,7 +94,7 @@
         "return1d": -4.79,
         "return5d": -5.26,
         "return20d": -3.4,
-        "returnCurrent": -19.38,
+        "returnCurrent": -25.53,
         "volumeRatio": 2.19,
         "marketExcessReturn": -4.82
       }
@@ -124,7 +124,7 @@
         "return1d": 1.12,
         "return5d": 3.19,
         "return20d": -7.21,
-        "returnCurrent": -16.81,
+        "returnCurrent": -23.16,
         "volumeRatio": 0.67,
         "marketExcessReturn": 0.32
       }
@@ -155,7 +155,7 @@
         "return1d": -0.3,
         "return5d": 0.0,
         "return20d": -9.48,
-        "returnCurrent": -22.73,
+        "returnCurrent": -28.62,
         "volumeRatio": 0.56,
         "marketExcessReturn": -1.39
       }
@@ -186,7 +186,7 @@
         "return1d": 1.78,
         "return5d": 0.89,
         "return20d": -12.18,
-        "returnCurrent": -22.73,
+        "returnCurrent": -28.62,
         "volumeRatio": 0.95,
         "marketExcessReturn": -4.69
       }
@@ -217,7 +217,7 @@
         "return1d": 2.9,
         "return5d": -12.43,
         "return20d": -1.53,
-        "returnCurrent": -20.37,
+        "returnCurrent": -26.44,
         "volumeRatio": 0.97,
         "marketExcessReturn": -11.62
       }
@@ -248,7 +248,7 @@
         "return1d": 4.7,
         "return5d": -4.23,
         "return20d": -1.72,
-        "returnCurrent": -18.24,
+        "returnCurrent": -24.48,
         "volumeRatio": 0.77,
         "marketExcessReturn": -5.46
       }
@@ -279,7 +279,7 @@
         "return1d": 3.28,
         "return5d": -0.31,
         "return20d": 4.22,
-        "returnCurrent": -18.5,
+        "returnCurrent": -24.72,
         "volumeRatio": 1.01,
         "marketExcessReturn": 0.49
       }
@@ -309,7 +309,7 @@
         "return1d": -10.18,
         "return5d": -9.08,
         "return20d": -7.15,
-        "returnCurrent": -28.25,
+        "returnCurrent": -33.73,
         "volumeRatio": 0.86,
         "marketExcessReturn": -7.72
       }
@@ -339,7 +339,7 @@
         "return1d": -11.17,
         "return5d": -11.55,
         "return20d": -15.23,
-        "returnCurrent": -33.81,
+        "returnCurrent": -38.86,
         "volumeRatio": 0.56,
         "marketExcessReturn": -9.04
       }
@@ -4350,11 +4350,21 @@
       "ticker": "4369.T",
       "trade_date": "2026-11-19",
       "open": 2583.0,
-      "high": 2614.0,
+      "high": 2613.0,
       "low": 2524.0,
-      "close": null,
-      "adj_close": null,
+      "close": 2572.0,
+      "adj_close": 2572.0,
       "volume": 401900
+    },
+    {
+      "ticker": "4369.T",
+      "trade_date": "2026-11-20",
+      "open": 2433.0,
+      "high": 2435.0,
+      "low": 2312.0,
+      "close": 2409.0,
+      "adj_close": 2409.0,
+      "volume": 1138400
     }
   ],
   "benchmark": [
@@ -8444,9 +8454,19 @@
       "open": 400.29998779296875,
       "high": 403.1000061035156,
       "low": 399.1000061035156,
-      "close": null,
-      "adj_close": null,
+      "close": 402.20001220703125,
+      "adj_close": 402.20001220703125,
       "volume": 28124150
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-20",
+      "open": 394.20001220703125,
+      "high": 395.70001220703125,
+      "low": 386.20001220703125,
+      "close": 386.20001220703125,
+      "adj_close": 386.20001220703125,
+      "volume": 39389070
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

@@ -1,11 +1,42 @@
 {
-  "updatedAt": "2026-11-20T03:04:15+09:00",
+  "updatedAt": "2026-11-20T16:45:00+09:00",
   "company": {
     "securityCode": "262A",
     "ticker": "262A.T",
     "name": "株式会社インターメスティック"
   },
   "events": [
+    {
+      "docId": "S100ZIY5",
+      "ticker": "262A.T",
+      "securityCode": "262A",
+      "companyName": "株式会社インターメスティック",
+      "submitDatetime": "2026-11-20 15:09",
+      "filerName": "三井住友ＤＳアセットマネジメント株式会社",
+      "reportType": "change",
+      "holdingRatio": 1.95,
+      "previousHoldingRatio": 5.13,
+      "holdingChange": -3.18,
+      "purpose": "純投資（投資収益性を重視して行う投資） / 該当事項なし（共同保有者から除外） / 証券業務に係る一時保有のため",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少",
+        "大幅売却"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -3.12,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YXOV",
       "ticker": "262A.T",
@@ -29,7 +60,7 @@
         "return1d": -0.16,
         "return5d": -3.2,
         "return20d": -7.15,
-        "returnCurrent": -18.51,
+        "returnCurrent": -22.29,
         "volumeRatio": 0.51,
         "marketExcessReturn": -5.38
       }
@@ -57,7 +88,7 @@
         "return1d": -5.5,
         "return5d": -11.6,
         "return20d": -4.42,
-        "returnCurrent": -28.23,
+        "returnCurrent": -31.56,
         "volumeRatio": 0.98,
         "marketExcessReturn": -10.22
       }
@@ -88,7 +119,7 @@
         "return1d": -2.74,
         "return5d": -12.69,
         "return20d": -5.9,
-        "returnCurrent": -27.89,
+        "returnCurrent": -31.24,
         "volumeRatio": 1.17,
         "marketExcessReturn": -11.33
       }
@@ -3101,9 +3132,19 @@
       "open": 1533.0,
       "high": 1533.0,
       "low": 1503.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1504.0,
+      "adj_close": 1504.0,
       "volume": 218000
+    },
+    {
+      "ticker": "262A.T",
+      "trade_date": "2026-11-20",
+      "open": 1487.0,
+      "high": 1493.0,
+      "low": 1452.0,
+      "close": 1457.0,
+      "adj_close": 1457.0,
+      "volume": 255600
     }
   ],
   "benchmark": [
@@ -7193,9 +7234,19 @@
       "open": 400.29998779296875,
       "high": 403.1000061035156,
       "low": 399.1000061035156,
-      "close": null,
-      "adj_close": null,
+      "close": 402.20001220703125,
+      "adj_close": 402.20001220703125,
       "volume": 28124150
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-20",
+      "open": 394.20001220703125,
+      "high": 395.70001220703125,
+      "low": 386.20001220703125,
+      "close": 386.20001220703125,
+      "adj_close": 386.20001220703125,
+      "volume": 39389070
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

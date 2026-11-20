@@ -1,0 +1,143 @@
+{
+ "company": {
+  "name": "シスメックス",
+  "securityCode": "6869",
+  "tradingViewSymbol": "TSE:6869"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "6869-2026-11-19",
+  "overextended": false,
+  "setupType": "TREND",
+  "setups": [
+   "TREND"
+  ],
+  "startedAt": "2026-11-19",
+  "status": "WATCH",
+  "statusHistory": [
+   {
+    "date": "2026-11-19",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-11-19",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   }
+  ],
+  "watchStartedAt": "2026-11-19"
+ },
+ "eventReactions": [
+  {
+   "d1": 3.5,
+   "d20": 6.2,
+   "d5": 2.1,
+   "eventId": "edinet:S100Z5XU",
+   "excess5": 3.0
+  },
+  {
+   "d1": 2.1,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZI86",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-11-19",
+  "buyBalance": 557100,
+  "buyChangePct": -0.6,
+  "labels": [],
+  "ratio": 3.38,
+  "sellBalance": 164600,
+  "sellChangePct": -9.0
+ },
+ "pastEpisodes": [
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-10-19",
+   "id": "6869-2026-10-06",
+   "setupType": "BREAKOUT",
+   "startedAt": "2026-10-06"
+  }
+ ],
+ "performance": {
+  "benchReturn": -4.0,
+  "currentPrice": 2128.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 19,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 4,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 59,
+   "stockReturn": null
+  },
+  "excessReturn": 2.5,
+  "initialDate": "2026-11-19",
+  "initialPrice": 2159.5,
+  "stockReturn": -1.5
+ },
+ "priceSetup": {
+  "asOf": "2026-11-20",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.04,
+  "labels": [
+   "20日線の上",
+   "60日レンジ上位20%",
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 2041.3,
+  "ma200": 1597.3,
+  "ma60": 1926.9,
+  "rangePos60": 0.8,
+  "rel20": 16.5,
+  "rel60": 17.7,
+  "volumeRatio20": 0.58
+ },
+ "reasons": [
+  "新規大量保有 5%（三井住友トラスト・アセットマネジメント株式会社）",
+  "60日レンジ上位20%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +16.5pt（20日）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-10-05",
+   "detail": "保有割合 5.03%（ブラックロック・ジャパン株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z5XU"
+  },
+  {
+   "date": "2026-11-19",
+   "detail": "保有割合 5.02%（三井住友トラスト・アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI86"
+  },
+  {
+   "date": "2026-11-19",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-11-20T16:45:14+09:00"
+}

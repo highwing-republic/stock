@@ -5,20 +5,26 @@
   "tradingViewSymbol": "TSE:7189"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "NO_SETUP",
+  "closedAt": "2026-11-19",
   "id": "7189-2026-10-21",
   "overextended": false,
   "setupType": null,
   "setups": [],
   "startedAt": "2026-10-21",
-  "status": "CANDIDATE",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-10-21",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-11-19",
+    "from": "CANDIDATE",
+    "reason_code": "NO_SETUP",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": null
@@ -33,34 +39,35 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-18",
-  "buyBalance": 500100,
-  "buyChangePct": 5.4,
+  "asOf": "2026-11-19",
+  "buyBalance": 632700,
+  "buyChangePct": 33.2,
   "labels": [
+   "信用買残急増",
    "信用倍率悪化"
   ],
-  "ratio": 38.47,
-  "sellBalance": 13000,
-  "sellChangePct": -12.8
+  "ratio": 47.22,
+  "sellBalance": 13400,
+  "sellChangePct": -13.0
  },
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-20",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.15,
+  "distFrom52wHigh": 0.19,
   "labels": [],
-  "ma20": 4415.9,
-  "ma200": 4239.0,
-  "ma60": 4672.5,
-  "rangePos60": 0.35,
-  "rel20": 4.7,
-  "rel60": -0.1,
-  "volumeRatio20": 0.77
+  "ma20": 4397.9,
+  "ma200": 4245.9,
+  "ma60": 4661.0,
+  "rangePos60": 0.14,
+  "rel20": 3.0,
+  "rel60": -1.4,
+  "volumeRatio20": 1.02
  },
  "reasons": [
   "新規大量保有 5%（三井住友ＤＳアセットマネジメント株式会社）",
-  "TOPIX連動ETF比 +4.7pt（20日）"
+  "TOPIX連動ETF比 +3pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -91,7 +98,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-19",
+   "detail": "期限内にPrice Setupが成立しなかった",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-20T03:05:29+09:00"
+ "updatedAt": "2026-11-20T16:46:03+09:00"
 }

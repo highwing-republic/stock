@@ -51,7 +51,7 @@
   },
   {
    "d1": -1.0,
-   "d20": null,
+   "d20": -4.0,
    "d5": -5.1,
    "eventId": "edinet:S100Z2JF",
    "excess5": -3.8
@@ -66,21 +66,29 @@
   {
    "d1": 1.0,
    "d20": null,
-   "d5": null,
+   "d5": -0.3,
    "eventId": "edinet:S100ZD8Y",
+   "excess5": 2.6
+  },
+  {
+   "d1": -6.3,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZIW7",
    "excess5": null
   }
  ],
  "margin": {
-  "asOf": "2026-11-18",
-  "buyBalance": 101300,
-  "buyChangePct": -14.4,
+  "asOf": "2026-11-19",
+  "buyBalance": 95400,
+  "buyChangePct": -20.2,
   "labels": [
-   "信用買残減少"
+   "信用買残減少",
+   "信用倍率改善"
   ],
-  "ratio": 0.23,
-  "sellBalance": 449400,
-  "sellChangePct": -4.6
+  "ratio": 0.21,
+  "sellBalance": 449300,
+  "sellChangePct": -2.6
  },
  "pastEpisodes": [
   {
@@ -92,8 +100,8 @@
   }
  ],
  "performance": {
-  "benchReturn": -5.9,
-  "currentPrice": 2748.0,
+  "benchReturn": -9.6,
+  "currentPrice": 2584.5,
   "d20": {
    "benchReturn": -5.3,
    "excessReturn": -2.9,
@@ -109,33 +117,30 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 39,
+   "pendingDays": 37,
    "stockReturn": null
   },
-  "excessReturn": -1.3,
+  "excessReturn": -3.2,
   "initialDate": "2026-10-19",
   "initialPrice": 2962.5,
-  "stockReturn": -7.2
+  "stockReturn": -12.8
  },
  "priceSetup": {
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-20",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.22,
-  "labels": [
-   "60日線の上"
-  ],
-  "ma20": 2866.5,
-  "ma200": 2091.7,
-  "ma60": 2608.0,
-  "rangePos60": 0.46,
-  "rel20": 1.6,
-  "rel60": 33.8,
-  "volumeRatio20": 0.34
+  "distFrom52wHigh": 0.27,
+  "labels": [],
+  "ma20": 2847.6,
+  "ma200": 2102.4,
+  "ma60": 2624.2,
+  "rangePos60": 0.35,
+  "rel20": -1.0,
+  "rel60": 27.4,
+  "volumeRatio20": 0.49
  },
  "reasons": [
   "1.5pt買い増し 5.1%→6.6%",
-  "TOPIX連動ETF比 +1.6pt（20日）",
-  "信用買残 -14%"
+  "信用買残 -20%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -264,7 +269,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-20",
+   "detail": "8.68% → 8.31%（株式会社みずほ銀行）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIW7"
   }
  ],
- "updatedAt": "2026-11-20T03:05:29+09:00"
+ "updatedAt": "2026-11-20T16:46:03+09:00"
 }

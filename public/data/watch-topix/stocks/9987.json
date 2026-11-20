@@ -57,20 +57,21 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-18",
-  "buyBalance": 15300,
-  "buyChangePct": -8.4,
+  "asOf": "2026-11-19",
+  "buyBalance": 14300,
+  "buyChangePct": -19.2,
   "labels": [
+   "信用買残減少",
    "信用倍率改善"
   ],
   "ratio": 0.65,
-  "sellBalance": 23700,
-  "sellChangePct": 10.7
+  "sellBalance": 22000,
+  "sellChangePct": 11.7
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -4.9,
-  "currentPrice": 2878.0,
+  "benchReturn": -8.6,
+  "currentPrice": 2893.0,
   "d20": {
    "benchReturn": 2.0,
    "excessReturn": 1.6,
@@ -86,34 +87,36 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 16,
+   "pendingDays": 14,
    "stockReturn": null
   },
-  "excessReturn": 18.2,
+  "excessReturn": 22.5,
   "initialDate": "2026-09-10",
   "initialPrice": 2539.6,
-  "stockReturn": 13.3
+  "stockReturn": 13.9
  },
  "priceSetup": {
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-20",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.11,
+  "distFrom52wHigh": 0.1,
   "labels": [
+   "60日レンジ上位28%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2889.0,
-  "ma200": 2708.8,
-  "ma60": 2679.9,
-  "rangePos60": 0.69,
-  "rel20": 7.7,
-  "rel60": 19.4,
-  "volumeRatio20": 0.73
+  "ma20": 2899.5,
+  "ma200": 2707.1,
+  "ma60": 2693.3,
+  "rangePos60": 0.72,
+  "rel20": 11.0,
+  "rel60": 24.5,
+  "volumeRatio20": 0.71
  },
  "reasons": [
   "1pt買い増し 8.2%→9.3%",
-  "TOPIX連動ETF比 +7.7pt（20日）",
-  "信用買残 -8%"
+  "60日レンジ上位28%",
+  "TOPIX連動ETF比 +11pt（20日）",
+  "信用買残 -19%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -347,7 +350,28 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-19",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-19",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-20",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-20T03:05:29+09:00"
+ "updatedAt": "2026-11-20T16:46:03+09:00"
 }

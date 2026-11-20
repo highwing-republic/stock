@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-11-20T03:04:15+09:00",
+  "updatedAt": "2026-11-20T16:45:00+09:00",
   "company": {
     "securityCode": "5985",
     "ticker": "5985.T",
     "name": "サンコール株式会社"
   },
   "events": [
+    {
+      "docId": "S100ZJ12",
+      "ticker": "5985.T",
+      "securityCode": "5985",
+      "companyName": "サンコール株式会社",
+      "submitDatetime": "2026-11-20 15:07",
+      "filerName": "三井住友ＤＳアセットマネジメント株式会社",
+      "reportType": "change",
+      "holdingRatio": 6.63,
+      "previousHoldingRatio": 5.59,
+      "holdingChange": 1.04,
+      "purpose": "純投資（投資収益性を重視して行う投資） / 証券業務に係る一時保有のため（共同保有者から除外）",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 20,
+      "signalReasons": [
+        "1pt以上買い増し"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -8.32,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YDPJ",
       "ticker": "5985.T",
@@ -31,7 +61,7 @@
         "return1d": 13.94,
         "return5d": 9.09,
         "return20d": -25.45,
-        "returnCurrent": -5.27,
+        "returnCurrent": -12.55,
         "volumeRatio": 1.13,
         "marketExcessReturn": 11.84
       }
@@ -3134,9 +3164,19 @@
       "open": 1529.0,
       "high": 1598.0,
       "low": 1478.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1574.0,
+      "adj_close": 1574.0,
       "volume": 1158300
+    },
+    {
+      "ticker": "5985.T",
+      "trade_date": "2026-11-20",
+      "open": 1480.0,
+      "high": 1536.0,
+      "low": 1426.0,
+      "close": 1443.0,
+      "adj_close": 1443.0,
+      "volume": 1473300
     }
   ],
   "benchmark": [
@@ -7226,9 +7266,19 @@
       "open": 400.29998779296875,
       "high": 403.1000061035156,
       "low": 399.1000061035156,
-      "close": null,
-      "adj_close": null,
+      "close": 402.20001220703125,
+      "adj_close": 402.20001220703125,
       "volume": 28124150
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-20",
+      "open": 394.20001220703125,
+      "high": 395.70001220703125,
+      "low": 386.20001220703125,
+      "close": 386.20001220703125,
+      "adj_close": 386.20001220703125,
+      "volume": 39389070
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

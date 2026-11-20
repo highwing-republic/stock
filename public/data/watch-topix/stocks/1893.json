@@ -1,0 +1,126 @@
+{
+ "company": {
+  "name": "五洋建設",
+  "securityCode": "1893",
+  "tradingViewSymbol": "TSE:1893"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "1893-2026-11-20",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-11-20",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-11-20",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": -1.5,
+   "d20": -13.7,
+   "d5": -5.2,
+   "eventId": "edinet:S100Z3AG",
+   "excess5": -6.4
+  },
+  {
+   "d1": 1.1,
+   "d20": null,
+   "d5": 7.2,
+   "eventId": "edinet:S100ZBNF",
+   "excess5": 7.2
+  },
+  {
+   "d1": -1.7,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZIF0",
+   "excess5": null
+  },
+  {
+   "d1": -5.6,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZIW5",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-11-19",
+  "buyBalance": 1403400,
+  "buyChangePct": 2.2,
+  "labels": [
+   "信用倍率悪化"
+  ],
+  "ratio": 34.65,
+  "sellBalance": 40500,
+  "sellChangePct": -22.4
+ },
+ "pastEpisodes": [
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-10-02",
+   "id": "1893-2026-09-24",
+   "setupType": "RECOVERY",
+   "startedAt": "2026-09-24"
+  }
+ ],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-11-20",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.43,
+  "labels": [],
+  "ma20": 1360.6,
+  "ma200": 1612.8,
+  "ma60": 1409.9,
+  "rangePos60": 0.05,
+  "rel20": 1.0,
+  "rel60": -2.7,
+  "volumeRatio20": 0.98
+ },
+ "reasons": [
+  "1pt買い増し 5.5%→6.6%",
+  "TOPIX連動ETF比 +1pt（20日）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-09-18",
+   "detail": "保有割合 5.82%（ＪＰモルガン・アセット・マネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z3AG"
+  },
+  {
+   "date": "2026-11-05",
+   "detail": "5.82% → 5.8%（ＪＰモルガン・アセット・マネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBNF"
+  },
+  {
+   "date": "2026-11-18",
+   "detail": "5.8% → 5.16%（ＪＰモルガン・アセット・マネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIF0"
+  },
+  {
+   "date": "2026-11-20",
+   "detail": "5.55% → 6.59%（株式会社みずほ銀行）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIW5"
+  }
+ ],
+ "updatedAt": "2026-11-20T16:46:03+09:00"
+}

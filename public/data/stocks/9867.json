@@ -1,11 +1,42 @@
 {
-  "updatedAt": "2026-11-20T03:04:15+09:00",
+  "updatedAt": "2026-11-20T16:45:00+09:00",
   "company": {
     "securityCode": "9867",
     "ticker": "9867.T",
     "name": "ソレキア株式会社"
   },
   "events": [
+    {
+      "docId": "S100ZIJJ",
+      "ticker": "9867.T",
+      "securityCode": "9867",
+      "companyName": "ソレキア株式会社",
+      "submitDatetime": "2026-11-20 15:54",
+      "filerName": "株式会社ＳＢＩ証券",
+      "reportType": "change",
+      "holdingRatio": 5.82,
+      "previousHoldingRatio": 7.9,
+      "holdingChange": -2.08,
+      "purpose": "証券業務に係る商品在庫として保有している。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少",
+        "大幅売却"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -5.38,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z8XR",
       "ticker": "9867.T",
@@ -33,8 +64,8 @@
       "metrics": {
         "return1d": -0.68,
         "return5d": -2.03,
-        "return20d": null,
-        "returnCurrent": -24.71,
+        "return20d": -28.28,
+        "returnCurrent": -32.14,
         "volumeRatio": 2.27,
         "marketExcessReturn": -1.6
       }
@@ -65,7 +96,7 @@
         "return1d": -0.09,
         "return5d": -0.94,
         "return20d": -3.3,
-        "returnCurrent": -26.42,
+        "returnCurrent": -33.68,
         "volumeRatio": 0.62,
         "marketExcessReturn": -2.21
       }
@@ -3098,9 +3129,19 @@
       "open": 7860.0,
       "high": 7860.0,
       "low": 7360.0,
-      "close": null,
-      "adj_close": null,
+      "close": 7430.0,
+      "adj_close": 7430.0,
       "volume": 57000
+    },
+    {
+      "ticker": "9867.T",
+      "trade_date": "2026-11-20",
+      "open": 7380.0,
+      "high": 7380.0,
+      "low": 6990.0,
+      "close": 7030.0,
+      "adj_close": 7030.0,
+      "volume": 40300
     }
   ],
   "benchmark": [
@@ -7190,9 +7231,19 @@
       "open": 400.29998779296875,
       "high": 403.1000061035156,
       "low": 399.1000061035156,
-      "close": null,
-      "adj_close": null,
+      "close": 402.20001220703125,
+      "adj_close": 402.20001220703125,
       "volume": 28124150
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-20",
+      "open": 394.20001220703125,
+      "high": 395.70001220703125,
+      "low": 386.20001220703125,
+      "close": 386.20001220703125,
+      "adj_close": 386.20001220703125,
+      "volume": 39389070
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

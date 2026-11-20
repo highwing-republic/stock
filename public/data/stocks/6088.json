@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T03:04:15+09:00",
+  "updatedAt": "2026-11-20T16:45:00+09:00",
   "company": {
     "securityCode": "6088",
     "ticker": "6088.T",
@@ -19,19 +19,19 @@
       "holdingChange": 0.0,
       "purpose": "ITサービス領域における事業連携のため",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.63,
-      "marketExcessReturn": null,
+      "priceChange": -2.66,
+      "volumeRatio": 0.61,
+      "marketExcessReturn": 4.12,
       "signalScore": 0,
       "signalReasons": [],
       "stockUnreacted": false,
       "metrics": {
         "return1d": 2.82,
-        "return5d": null,
+        "return5d": -2.66,
         "return20d": null,
-        "returnCurrent": 0.31,
-        "volumeRatio": 0.63,
-        "marketExcessReturn": null
+        "returnCurrent": -2.66,
+        "volumeRatio": 0.61,
+        "marketExcessReturn": 4.12
       }
     },
     {
@@ -47,23 +47,24 @@
       "holdingChange": 8.35,
       "purpose": "1. 提出者が発行者との間で締結した2026年11月6日付資本・業務提携契約（以下「本資本・業務提携契約」といいます。）に基づく資本・業務提携の強化、および発行者を提出者の持分法適用会社とすることを目的とした株式の保有です。2. 提出者および発行者は、本資本・業務提携契約において、提出者の発行者に対する議決権保有割合が20％以上である場合、提出者が、発行者の監査等委員でない非常勤取締役候補者を1名指名することができること等を合意しており、提出者は、かかる指名権に基づき、発行者の監査等委員でない非常勤取締役候補者の指名を行う予定です。3. 提出者は、2026年11月6日付で、以下の方法により発行者の普通株式合計9,000,000株（株券等保有割合10.47％）を取得することを決定しております。(1) 提出者は、2026年11月6日付で、TISI株式会社との間で、提出者が同社から市場外取引により普通株式6,585,000株を1株あたり580円で譲り受けることを内容とする株式譲渡契約を締結しており、2026年12月15日（または同社との間で別途合意する日）に株式の引渡しを受ける予定です。(2) 提出者は、本資本・業務提携契約に基づき、第三者割当ての方法による自己株式処分により、2026年12月15日に発行者から普通株式2,415,000株を1株あたり580円で取得する予定です。",
       "importantProposal": true,
-      "priceChange": null,
-      "volumeRatio": 0.63,
-      "marketExcessReturn": null,
-      "signalScore": 50,
+      "priceChange": -2.66,
+      "volumeRatio": 0.61,
+      "marketExcessReturn": 4.12,
+      "signalScore": 60,
       "signalReasons": [
         "1pt以上買い増し",
         "2pt以上買い増し",
-        "重要提案行為あり"
+        "重要提案行為あり",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": 2.82,
-        "return5d": null,
+        "return5d": -2.66,
         "return20d": null,
-        "returnCurrent": 0.31,
-        "volumeRatio": 0.63,
-        "marketExcessReturn": null
+        "returnCurrent": -2.66,
+        "volumeRatio": 0.61,
+        "marketExcessReturn": 4.12
       }
     },
     {
@@ -91,7 +92,7 @@
         "return1d": 7.63,
         "return5d": 8.96,
         "return20d": null,
-        "returnCurrent": 6.3,
+        "returnCurrent": 3.15,
         "volumeRatio": 0.66,
         "marketExcessReturn": 3.22
       }
@@ -2824,9 +2825,19 @@
       "open": 632.0,
       "high": 642.0,
       "low": 631.0,
-      "close": null,
-      "adj_close": null,
+      "close": 640.0,
+      "adj_close": 640.0,
       "volume": 353000
+    },
+    {
+      "ticker": "6088.T",
+      "trade_date": "2026-11-20",
+      "open": 630.0,
+      "high": 636.0,
+      "low": 621.0,
+      "close": 622.0,
+      "adj_close": 622.0,
+      "volume": 296100
     }
   ],
   "benchmark": [
@@ -6916,9 +6927,19 @@
       "open": 400.29998779296875,
       "high": 403.1000061035156,
       "low": 399.1000061035156,
-      "close": null,
-      "adj_close": null,
+      "close": 402.20001220703125,
+      "adj_close": 402.20001220703125,
       "volume": 28124150
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-20",
+      "open": 394.20001220703125,
+      "high": 395.70001220703125,
+      "low": 386.20001220703125,
+      "close": 386.20001220703125,
+      "adj_close": 386.20001220703125,
+      "volume": 39389070
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

@@ -10,9 +10,7 @@
   "id": "2121-2026-11-17",
   "overextended": false,
   "setupType": "TREND",
-  "setups": [
-   "TREND"
-  ],
+  "setups": [],
   "startedAt": "2026-11-17",
   "status": "WATCH",
   "statusHistory": [
@@ -38,67 +36,73 @@
    "d5": null,
    "eventId": "edinet:S100ZIA9",
    "excess5": null
+  },
+  {
+   "d1": -2.5,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZJ4V",
+   "excess5": null
   }
  ],
  "margin": {
-  "asOf": "2026-11-18",
-  "buyBalance": 195800,
-  "buyChangePct": 0.4,
+  "asOf": "2026-11-19",
+  "buyBalance": 196800,
+  "buyChangePct": -3.2,
   "labels": [],
-  "ratio": 7.25,
-  "sellBalance": 27000,
-  "sellChangePct": -4.3
+  "ratio": 7.34,
+  "sellBalance": 26800,
+  "sellChangePct": -13.8
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -0.6,
-  "currentPrice": 4025.0,
+  "benchReturn": -4.5,
+  "currentPrice": 3965.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 19,
+   "pendingDays": 17,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 4,
+   "pendingDays": 2,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 59,
+   "pendingDays": 57,
    "stockReturn": null
   },
-  "excessReturn": -0.3,
+  "excessReturn": 2.2,
   "initialDate": "2026-11-17",
   "initialPrice": 4060.0,
-  "stockReturn": -0.9
+  "stockReturn": -2.3
  },
  "priceSetup": {
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-20",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.03,
+  "distFrom52wHigh": 0.05,
   "labels": [
-   "20日線の上",
-   "60日レンジ上位17%",
+   "60日レンジ上位25%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 3971.8,
-  "ma200": 3001.1,
-  "ma60": 3776.5,
-  "rangePos60": 0.83,
-  "rel20": 5.3,
-  "rel60": 22.6,
-  "volumeRatio20": 0.7
+  "ma20": 3974.0,
+  "ma200": 3014.7,
+  "ma60": 3794.8,
+  "rangePos60": 0.75,
+  "rel20": 7.3,
+  "rel60": 23.1,
+  "volumeRatio20": 1.06
  },
  "reasons": [
   "2.4pt買い増し 44.1%→46.5%",
-  "60日レンジ上位17%",
-  "20日線上向き",
-  "TOPIX連動ETF比 +5.3pt（20日）"
+  "60日レンジ上位25%",
+  "TOPIX連動ETF比 +7.3pt（20日）",
+  "52週高値まで5%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -115,7 +119,21 @@
    "kind": "STATUS",
    "label": "WATCH",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-20",
+   "detail": "44.11% → 46.49%（笠原　健治）",
+   "kind": "EVENT",
+   "label": "訂正報告",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ4V"
+  },
+  {
+   "date": "2026-11-20",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-20T03:05:29+09:00"
+ "updatedAt": "2026-11-20T16:46:03+09:00"
 }

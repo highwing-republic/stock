@@ -115,7 +115,7 @@
   },
   {
    "d1": -6.1,
-   "d20": null,
+   "d20": -17.6,
    "d5": -1.2,
    "eventId": "edinet:S100Z9JJ",
    "excess5": 0.1
@@ -137,9 +137,9 @@
   {
    "d1": -2.5,
    "d20": null,
-   "d5": null,
+   "d5": -20.0,
    "eventId": "edinet:S100ZEY0",
-   "excess5": null
+   "excess5": -12.9
   },
   {
    "d1": -2.3,
@@ -147,21 +147,28 @@
    "d5": null,
    "eventId": "edinet:S100ZIFH",
    "excess5": null
+  },
+  {
+   "d1": -11.0,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZJ7B",
+   "excess5": null
   }
  ],
  "margin": {
-  "asOf": "2026-11-18",
-  "buyBalance": 1237100,
-  "buyChangePct": -7.5,
+  "asOf": "2026-11-19",
+  "buyBalance": 1228000,
+  "buyChangePct": -6.7,
   "labels": [],
-  "ratio": 39.65,
-  "sellBalance": 31200,
-  "sellChangePct": -22.4
+  "ratio": 41.35,
+  "sellBalance": 29700,
+  "sellChangePct": -18.6
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -2.4,
-  "currentPrice": 1444.0,
+  "benchReturn": -6.3,
+  "currentPrice": 1268.0,
   "d20": {
    "benchReturn": 2.5,
    "excessReturn": -41.1,
@@ -180,27 +187,27 @@
    "pendingDays": 0,
    "stockReturn": -48.0
   },
-  "excessReturn": -70.7,
+  "excessReturn": -70.0,
   "initialDate": "2026-06-24",
   "initialPrice": 5360.0,
-  "stockReturn": -73.1
+  "stockReturn": -76.3
  },
  "priceSetup": {
-  "asOf": "2026-11-18",
-  "atrState": "通常",
-  "distFrom52wHigh": 0.77,
+  "asOf": "2026-11-20",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.8,
   "labels": [],
-  "ma20": 1559.3,
-  "ma200": 2687.9,
-  "ma60": 2206.4,
-  "rangePos60": 0.1,
-  "rel20": -9.0,
-  "rel60": -43.8,
-  "volumeRatio20": 0.75
+  "ma20": 1526.3,
+  "ma200": 2686.3,
+  "ma60": 2159.1,
+  "rangePos60": 0.01,
+  "rel20": -13.7,
+  "rel60": -44.9,
+  "volumeRatio20": 0.94
  },
  "reasons": [
   "1.7pt買い増し 5.1%→6.8%",
-  "信用買残 -8%"
+  "信用買残 -7%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -441,7 +448,14 @@
    "kind": "EVENT",
    "label": "保有割合の減少",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIFH"
+  },
+  {
+   "date": "2026-11-20",
+   "detail": "6.81% → 5.36%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ7B"
   }
  ],
- "updatedAt": "2026-11-20T03:05:29+09:00"
+ "updatedAt": "2026-11-20T16:46:03+09:00"
 }

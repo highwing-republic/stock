@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-11-20T03:04:15+09:00",
+  "updatedAt": "2026-11-20T16:45:00+09:00",
   "company": {
     "securityCode": "8804",
     "ticker": "8804.T",
     "name": "東京建物株式会社"
   },
   "events": [
+    {
+      "docId": "S100ZJ1S",
+      "ticker": "8804.T",
+      "securityCode": "8804",
+      "companyName": "東京建物株式会社",
+      "submitDatetime": "2026-11-20 15:15",
+      "filerName": "三井住友ＤＳアセットマネジメント株式会社",
+      "reportType": "change",
+      "holdingRatio": 8.02,
+      "previousHoldingRatio": 9.03,
+      "holdingChange": -1.01,
+      "purpose": "純投資（投資収益性を重視して行う投資） / 証券業務に係る一時保有のため（共同保有者から除外）",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -4.11,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z0TW",
       "ticker": "8804.T",
@@ -32,7 +62,7 @@
         "return1d": -0.95,
         "return5d": -1.13,
         "return20d": -6.49,
-        "returnCurrent": 0.53,
+        "returnCurrent": -3.23,
         "volumeRatio": 1.03,
         "marketExcessReturn": -0.15
       }
@@ -4125,9 +4155,19 @@
       "open": 3389.0,
       "high": 3432.0,
       "low": 3381.0,
-      "close": null,
-      "adj_close": null,
+      "close": 3407.0,
+      "adj_close": 3407.0,
       "volume": 722500
+    },
+    {
+      "ticker": "8804.T",
+      "trade_date": "2026-11-20",
+      "open": 3337.0,
+      "high": 3375.0,
+      "low": 3264.0,
+      "close": 3267.0,
+      "adj_close": 3267.0,
+      "volume": 1105700
     }
   ],
   "benchmark": [
@@ -8217,9 +8257,19 @@
       "open": 400.29998779296875,
       "high": 403.1000061035156,
       "low": 399.1000061035156,
-      "close": null,
-      "adj_close": null,
+      "close": 402.20001220703125,
+      "adj_close": 402.20001220703125,
       "volume": 28124150
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-20",
+      "open": 394.20001220703125,
+      "high": 395.70001220703125,
+      "low": 386.20001220703125,
+      "close": 386.20001220703125,
+      "adj_close": 386.20001220703125,
+      "volume": 39389070
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

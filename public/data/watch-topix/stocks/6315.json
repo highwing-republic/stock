@@ -9,8 +9,10 @@
   "closedAt": null,
   "id": "6315-2026-11-09",
   "overextended": true,
-  "setupType": null,
-  "setups": [],
+  "setupType": "RECOVERY",
+  "setups": [
+   "RECOVERY"
+  ],
   "startedAt": "2026-11-09",
   "status": "CANDIDATE",
   "statusHistory": [
@@ -48,21 +50,19 @@
   {
    "d1": -3.7,
    "d20": null,
-   "d5": null,
+   "d5": 6.6,
    "eventId": "edinet:S100ZDQ2",
-   "excess5": null
+   "excess5": 13.7
   }
  ],
  "margin": {
-  "asOf": "2026-11-18",
-  "buyBalance": 3497000,
-  "buyChangePct": 3.5,
-  "labels": [
-   "信用倍率悪化"
-  ],
-  "ratio": 9.08,
-  "sellBalance": 385200,
-  "sellChangePct": -31.7
+  "asOf": "2026-11-19",
+  "buyBalance": 3404800,
+  "buyChangePct": -1.5,
+  "labels": [],
+  "ratio": 6.88,
+  "sellBalance": 495200,
+  "sellChangePct": -2.0
  },
  "pastEpisodes": [
   {
@@ -75,24 +75,28 @@
  ],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-18",
-  "atrState": "高ボラ",
-  "distFrom52wHigh": 0.41,
+  "asOf": "2026-11-20",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.37,
   "labels": [
-   "20日線の上"
+   "20日線の上",
+   "60日レンジ上位29%",
+   "20日線が上向き",
+   "60日線の上"
   ],
-  "ma20": 2101.3,
-  "ma200": 2639.8,
-  "ma60": 2220.9,
-  "rangePos60": 0.55,
-  "rel20": 11.2,
-  "rel60": 1.1,
-  "volumeRatio20": 1.23
+  "ma20": 2134.7,
+  "ma200": 2633.8,
+  "ma60": 2223.6,
+  "rangePos60": 0.71,
+  "rel20": 27.8,
+  "rel60": 12.4,
+  "volumeRatio20": 1.89
  },
  "reasons": [
   "新規大量保有 6.1%（エフィッシモ　キャピタル　マネージメント　ピーティーイー　エルティーディー（Ｅｆｆｉｓｓｉｍｏ　Ｃａｐｉｔａｌ　Ｍａｎａｇｅｍｅｎｔ　Ｐｔｅ　Ｌｔｄ））",
-  "20日線を回復",
-  "TOPIX連動ETF比 +11.2pt（20日）"
+  "60日レンジ上位29%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +27.8pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -158,7 +162,21 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-19",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-20",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-20T03:05:29+09:00"
+ "updatedAt": "2026-11-20T16:46:03+09:00"
 }

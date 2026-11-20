@@ -51,18 +51,21 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-18",
-  "buyBalance": 108700,
-  "buyChangePct": 0.8,
-  "labels": [],
-  "ratio": 8.91,
-  "sellBalance": 12200,
-  "sellChangePct": -3.2
+  "asOf": "2026-11-19",
+  "buyBalance": 106100,
+  "buyChangePct": -4.0,
+  "labels": [
+   "信用倍率改善",
+   "売残増加"
+  ],
+  "ratio": 7.07,
+  "sellBalance": 15000,
+  "sellChangePct": 29.3
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -4.2,
-  "currentPrice": 4171.0,
+  "benchReturn": -8.0,
+  "currentPrice": 4251.0,
   "d20": {
    "benchReturn": 0.3,
    "excessReturn": 11.1,
@@ -78,31 +81,33 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 17,
+   "pendingDays": 15,
    "stockReturn": null
   },
-  "excessReturn": 12.9,
+  "excessReturn": 18.8,
   "initialDate": "2026-09-11",
   "initialPrice": 3837.8,
-  "stockReturn": 8.7
+  "stockReturn": 10.8
  },
  "priceSetup": {
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-20",
   "atrState": "通常",
-  "distFrom52wHigh": 0.21,
+  "distFrom52wHigh": 0.19,
   "labels": [
    "60日線の上"
   ],
-  "ma20": 4332.0,
-  "ma200": 3631.2,
-  "ma60": 4100.0,
-  "rangePos60": 0.54,
-  "rel20": -0.3,
-  "rel60": 16.5,
-  "volumeRatio20": 0.54
+  "ma20": 4316.1,
+  "ma200": 3627.4,
+  "ma60": 4115.7,
+  "rangePos60": 0.63,
+  "rel20": 3.5,
+  "rel60": 21.5,
+  "volumeRatio20": 1.08
  },
  "reasons": [
-  "新規大量保有 5.2%（ファースト・イーグル・インベストメント・マネジメント・エルエルシー）"
+  "新規大量保有 5.2%（ファースト・イーグル・インベストメント・マネジメント・エルエルシー）",
+  "TOPIX連動ETF比 +3.5pt（20日）",
+  "信用買残 -4%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -245,7 +250,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-19",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-20T03:04:29+09:00"
+ "updatedAt": "2026-11-20T16:45:14+09:00"
 }

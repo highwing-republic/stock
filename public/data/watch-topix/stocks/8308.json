@@ -26,42 +26,47 @@
  "eventReactions": [
   {
    "d1": -2.5,
-   "d20": null,
+   "d20": -8.1,
    "d5": -1.6,
    "eventId": "edinet:S100Z8Y1",
    "excess5": -0.3
+  },
+  {
+   "d1": -5.5,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZJ7L",
+   "excess5": null
   }
  ],
  "margin": {
-  "asOf": "2026-11-18",
-  "buyBalance": 4954900,
-  "buyChangePct": 0.6,
+  "asOf": "2026-11-19",
+  "buyBalance": 4945400,
+  "buyChangePct": 1.2,
   "labels": [
-   "信用倍率改善",
-   "売残増加"
+   "信用倍率改善"
   ],
-  "ratio": 7.8,
-  "sellBalance": 635000,
-  "sellChangePct": 26.6
+  "ratio": 7.03,
+  "sellBalance": 703900,
+  "sellChangePct": 14.7
  },
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-20",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.19,
+  "distFrom52wHigh": 0.25,
   "labels": [],
-  "ma20": 2219.9,
-  "ma200": 2124.7,
-  "ma60": 2372.2,
-  "rangePos60": 0.15,
-  "rel20": 1.1,
-  "rel60": -5.4,
-  "volumeRatio20": 0.89
+  "ma20": 2198.6,
+  "ma200": 2127.3,
+  "ma60": 2361.5,
+  "rangePos60": 0.01,
+  "rel20": -2.8,
+  "rel60": -7.7,
+  "volumeRatio20": 1.21
  },
  "reasons": [
-  "4.8pt買い増し 5.2%→10%",
-  "TOPIX連動ETF比 +1.1pt（20日）"
+  "新規大量保有 5.1%（野村證券株式会社）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -99,7 +104,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-20",
+   "detail": "保有割合 5.09%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ7L"
   }
  ],
- "updatedAt": "2026-11-20T03:05:29+09:00"
+ "updatedAt": "2026-11-20T16:46:03+09:00"
 }

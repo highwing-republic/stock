@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-11-20T03:04:15+09:00",
+  "updatedAt": "2026-11-20T16:45:00+09:00",
   "company": {
     "securityCode": "7717",
     "ticker": "7717.T",
     "name": "株式会社ブイ・テクノロジー"
   },
   "events": [
+    {
+      "docId": "S100ZISF",
+      "ticker": "7717.T",
+      "securityCode": "7717",
+      "companyName": "株式会社ブイ・テクノロジー",
+      "submitDatetime": "2026-11-20 15:08",
+      "filerName": "ゴールドマン・サックス証券株式会社",
+      "reportType": "initial",
+      "holdingRatio": 5.04,
+      "previousHoldingRatio": null,
+      "holdingChange": null,
+      "purpose": "有価証券関連業務の一部としてのトレーディング・有価証券の借入等 / 運用を目的とした証券投資信託による保有及び投資一任契約に基づく運用を目的とした保有",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 30,
+      "signalReasons": [
+        "新規大量保有"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -8.51,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z96T",
       "ticker": "7717.T",
@@ -30,8 +60,8 @@
       "metrics": {
         "return1d": -11.64,
         "return5d": -5.77,
-        "return20d": null,
-        "returnCurrent": -17.69,
+        "return20d": -22.91,
+        "returnCurrent": -22.91,
         "volumeRatio": 1.54,
         "marketExcessReturn": -4.76
       }
@@ -62,7 +92,7 @@
         "return1d": 0.18,
         "return5d": -4.26,
         "return20d": 19.72,
-        "returnCurrent": -21.49,
+        "returnCurrent": -26.47,
         "volumeRatio": 0.8,
         "marketExcessReturn": -3.28
       }
@@ -3165,9 +3195,19 @@
       "open": 4370.0,
       "high": 4540.0,
       "low": 4275.0,
-      "close": null,
-      "adj_close": null,
+      "close": 4525.0,
+      "adj_close": 4525.0,
       "volume": 330700
+    },
+    {
+      "ticker": "7717.T",
+      "trade_date": "2026-11-20",
+      "open": 4245.0,
+      "high": 4335.0,
+      "low": 4055.0,
+      "close": 4140.0,
+      "adj_close": 4140.0,
+      "volume": 270000
     }
   ],
   "benchmark": [
@@ -7257,9 +7297,19 @@
       "open": 400.29998779296875,
       "high": 403.1000061035156,
       "low": 399.1000061035156,
-      "close": null,
-      "adj_close": null,
+      "close": 402.20001220703125,
+      "adj_close": 402.20001220703125,
       "volume": 28124150
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-20",
+      "open": 394.20001220703125,
+      "high": 395.70001220703125,
+      "low": 386.20001220703125,
+      "close": 386.20001220703125,
+      "adj_close": 386.20001220703125,
+      "volume": 39389070
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

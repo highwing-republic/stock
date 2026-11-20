@@ -14,7 +14,7 @@
    "TREND"
   ],
   "startedAt": "2026-10-23",
-  "status": "WATCH",
+  "status": "REACTED",
   "statusHistory": [
    {
     "date": "2026-10-23",
@@ -27,6 +27,12 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
+   },
+   {
+    "date": "2026-11-20",
+    "from": "WATCH",
+    "reason_code": "EXCESS_THRESHOLD",
+    "to": "REACTED"
    }
   ],
   "watchStartedAt": "2026-10-23"
@@ -34,29 +40,31 @@
  "eventReactions": [
   {
    "d1": 1.2,
-   "d20": null,
+   "d20": 5.8,
    "d5": 0.6,
    "eventId": "edinet:S100Z9CV",
    "excess5": 0.4
   }
  ],
  "margin": {
-  "asOf": "2026-11-18",
-  "buyBalance": 410900,
-  "buyChangePct": -0.8,
-  "labels": [],
-  "ratio": 20.14,
-  "sellBalance": 20400,
-  "sellChangePct": 8.5
+  "asOf": "2026-11-19",
+  "buyBalance": 391100,
+  "buyChangePct": -5.9,
+  "labels": [
+   "信用倍率改善"
+  ],
+  "ratio": 18.89,
+  "sellBalance": 20700,
+  "sellChangePct": 8.9
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -3.5,
-  "currentPrice": 3560.0,
+  "benchReturn": -7.2,
+  "currentPrice": 3555.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 3,
+   "pendingDays": 1,
    "stockReturn": null
   },
   "d5": {
@@ -68,16 +76,16 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 43,
+   "pendingDays": 41,
    "stockReturn": null
   },
-  "excessReturn": 8.2,
+  "excessReturn": 11.8,
   "initialDate": "2026-10-23",
   "initialPrice": 3400.0,
-  "stockReturn": 4.7
+  "stockReturn": 4.6
  },
  "priceSetup": {
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-20",
   "atrState": "通常",
   "distFrom52wHigh": 0.04,
   "labels": [
@@ -86,19 +94,19 @@
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 3415.5,
-  "ma200": 3200.7,
-  "ma60": 3171.1,
+  "ma20": 3442.8,
+  "ma200": 3201.7,
+  "ma60": 3189.3,
   "rangePos60": 0.87,
-  "rel20": 17.4,
-  "rel60": 21.4,
-  "volumeRatio20": 0.74
+  "rel20": 14.0,
+  "rel60": 26.5,
+  "volumeRatio20": 1.5
  },
  "reasons": [
   "新規大量保有 5.1%（株式会社シティインデックスイレブンス）",
   "60日レンジ上位13%",
   "20日線上向き",
-  "TOPIX連動ETF比 +17.4pt（20日）"
+  "TOPIX連動ETF比 +14pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -150,7 +158,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-20",
+   "detail": "TOPIX連動ETFとの差が大きくなった",
+   "kind": "STATUS",
+   "label": "REACTED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-20T03:05:29+09:00"
+ "updatedAt": "2026-11-20T16:46:03+09:00"
 }

@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-11-20T03:04:15+09:00",
+  "updatedAt": "2026-11-20T16:45:00+09:00",
   "company": {
     "securityCode": "3563",
     "ticker": "3563.T",
     "name": "株式会社ＦＯＯＤ　＆　ＬＩＦＥ　ＣＯＭＰＡＮＩＥＳ"
   },
   "events": [
+    {
+      "docId": "S100ZISC",
+      "ticker": "3563.T",
+      "securityCode": "3563",
+      "companyName": "株式会社ＦＯＯＤ　＆　ＬＩＦＥ　ＣＯＭＰＡＮＩＥＳ",
+      "submitDatetime": "2026-11-20 14:52",
+      "filerName": "ゴールドマン・サックス証券株式会社",
+      "reportType": "initial",
+      "holdingRatio": 5.0,
+      "previousHoldingRatio": null,
+      "holdingChange": null,
+      "purpose": "有価証券関連業務の一部としてのトレーディング・有価証券の借入等 / 運用を目的とした証券投資信託による保有及び投資一任契約に基づく運用を目的とした保有",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 30,
+      "signalReasons": [
+        "新規大量保有"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -5.81,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YU80",
       "ticker": "3563.T",
@@ -31,7 +61,7 @@
         "return1d": -3.88,
         "return5d": -0.68,
         "return20d": 2.05,
-        "returnCurrent": 6.2,
+        "returnCurrent": 1.25,
         "volumeRatio": 1.61,
         "marketExcessReturn": -4.6
       }
@@ -4124,9 +4154,19 @@
       "open": 6261.0,
       "high": 6361.0,
       "low": 6220.0,
-      "close": null,
-      "adj_close": null,
+      "close": 6318.0,
+      "adj_close": 6318.0,
       "volume": 1706600
+    },
+    {
+      "ticker": "3563.T",
+      "trade_date": "2026-11-20",
+      "open": 6218.0,
+      "high": 6262.0,
+      "low": 5908.0,
+      "close": 5951.0,
+      "adj_close": 5951.0,
+      "volume": 3434600
     }
   ],
   "benchmark": [
@@ -8216,9 +8256,19 @@
       "open": 400.29998779296875,
       "high": 403.1000061035156,
       "low": 399.1000061035156,
-      "close": null,
-      "adj_close": null,
+      "close": 402.20001220703125,
+      "adj_close": 402.20001220703125,
       "volume": 28124150
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-20",
+      "open": 394.20001220703125,
+      "high": 395.70001220703125,
+      "low": 386.20001220703125,
+      "close": 386.20001220703125,
+      "adj_close": 386.20001220703125,
+      "volume": 39389070
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

@@ -5,20 +5,26 @@
   "tradingViewSymbol": "TSE:6856"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "NO_SETUP",
+  "closedAt": "2026-11-20",
   "id": "6856-2026-10-22",
   "overextended": false,
   "setupType": null,
   "setups": [],
   "startedAt": "2026-10-22",
-  "status": "CANDIDATE",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-10-22",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-11-20",
+    "from": "CANDIDATE",
+    "reason_code": "NO_SETUP",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": null
@@ -33,38 +39,38 @@
   },
   {
    "d1": -3.8,
-   "d20": null,
+   "d20": -19.9,
    "d5": -1.8,
    "eventId": "edinet:S100Z8ZV",
    "excess5": -0.5
   }
  ],
  "margin": {
-  "asOf": "2026-11-18",
-  "buyBalance": 71200,
-  "buyChangePct": 29.0,
+  "asOf": "2026-11-19",
+  "buyBalance": 71700,
+  "buyChangePct": 32.5,
   "labels": [
    "信用買残急増",
    "信用倍率悪化"
   ],
-  "ratio": 23.73,
-  "sellBalance": 3000,
-  "sellChangePct": -65.1
+  "ratio": 24.72,
+  "sellBalance": 2900,
+  "sellChangePct": -67.4
  },
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-20",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.38,
+  "distFrom52wHigh": 0.42,
   "labels": [],
-  "ma20": 20721.2,
-  "ma200": 22844.2,
-  "ma60": 22663.5,
-  "rangePos60": 0.18,
-  "rel20": -14.4,
+  "ma20": 20238.2,
+  "ma200": 22844.1,
+  "ma60": 22480.8,
+  "rangePos60": 0.06,
+  "rel20": -14.3,
   "rel60": -16.6,
-  "volumeRatio20": 1.11
+  "volumeRatio20": 1.21
  },
  "reasons": [
   "1.1pt買い増し 5.3%→6.4%"
@@ -84,7 +90,14 @@
    "kind": "EVENT",
    "label": "大幅な買い増し",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8ZV"
+  },
+  {
+   "date": "2026-11-20",
+   "detail": "期限内にPrice Setupが成立しなかった",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-20T03:04:29+09:00"
+ "updatedAt": "2026-11-20T16:45:14+09:00"
 }

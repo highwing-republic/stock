@@ -1,11 +1,42 @@
 {
-  "updatedAt": "2026-11-20T03:04:15+09:00",
+  "updatedAt": "2026-11-20T16:45:00+09:00",
   "company": {
     "securityCode": "7033",
     "ticker": "7033.T",
     "name": "株式会社マネジメントソリューションズ"
   },
   "events": [
+    {
+      "docId": "S100ZIXP",
+      "ticker": "7033.T",
+      "securityCode": "7033",
+      "companyName": "株式会社マネジメントソリューションズ",
+      "submitDatetime": "2026-11-20 15:06",
+      "filerName": "三井住友ＤＳアセットマネジメント株式会社",
+      "reportType": "change",
+      "holdingRatio": 5.47,
+      "previousHoldingRatio": 7.89,
+      "holdingChange": -2.42,
+      "purpose": "純投資（投資収益性を重視して行う投資） / 証券業務に係る一時保有のため",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少",
+        "大幅売却"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -4.91,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100Z3C0",
       "ticker": "7033.T",
@@ -31,7 +62,7 @@
         "return1d": -1.08,
         "return5d": -2.92,
         "return20d": 7.49,
-        "returnCurrent": -2.86,
+        "returnCurrent": -9.08,
         "volumeRatio": 0.69,
         "marketExcessReturn": -4.19
       }
@@ -61,7 +92,7 @@
         "return1d": 2.09,
         "return5d": 5.42,
         "return20d": 12.78,
-        "returnCurrent": 10.47,
+        "returnCurrent": 3.39,
         "volumeRatio": 1.06,
         "marketExcessReturn": 0.54
       }
@@ -91,7 +122,7 @@
         "return1d": 0.88,
         "return5d": 0.37,
         "return20d": 4.12,
-        "returnCurrent": 12.67,
+        "returnCurrent": 5.45,
         "volumeRatio": 0.41,
         "marketExcessReturn": 1.75
       }
@@ -3194,9 +3225,19 @@
       "open": 1540.0,
       "high": 1543.0,
       "low": 1498.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1506.0,
+      "adj_close": 1506.0,
       "volume": 89200
+    },
+    {
+      "ticker": "7033.T",
+      "trade_date": "2026-11-20",
+      "open": 1466.0,
+      "high": 1483.0,
+      "low": 1431.0,
+      "close": 1432.0,
+      "adj_close": 1432.0,
+      "volume": 118300
     }
   ],
   "benchmark": [
@@ -7286,9 +7327,19 @@
       "open": 400.29998779296875,
       "high": 403.1000061035156,
       "low": 399.1000061035156,
-      "close": null,
-      "adj_close": null,
+      "close": 402.20001220703125,
+      "adj_close": 402.20001220703125,
       "volume": 28124150
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-20",
+      "open": 394.20001220703125,
+      "high": 395.70001220703125,
+      "low": 386.20001220703125,
+      "close": 386.20001220703125,
+      "adj_close": 386.20001220703125,
+      "volume": 39389070
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

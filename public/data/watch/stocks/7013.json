@@ -5,20 +5,26 @@
   "tradingViewSymbol": "TSE:7013"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "NO_SETUP",
+  "closedAt": "2026-11-20",
   "id": "7013-2026-10-22",
   "overextended": false,
   "setupType": null,
   "setups": [],
   "startedAt": "2026-10-22",
-  "status": "CANDIDATE",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-10-22",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-11-20",
+    "from": "CANDIDATE",
+    "reason_code": "NO_SETUP",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": null
@@ -33,50 +39,49 @@
   },
   {
    "d1": -2.1,
-   "d20": null,
+   "d20": -7.7,
    "d5": -4.8,
    "eventId": "edinet:S100Z8ZX",
    "excess5": -3.5
   },
   {
    "d1": -2.1,
-   "d20": null,
+   "d20": -7.7,
    "d5": -4.8,
    "eventId": "edinet:S100Z966",
    "excess5": -3.5
   }
  ],
  "margin": {
-  "asOf": "2026-11-18",
-  "buyBalance": 11273100,
-  "buyChangePct": -6.9,
+  "asOf": "2026-11-19",
+  "buyBalance": 11107900,
+  "buyChangePct": -7.5,
   "labels": [
-   "信用倍率改善",
-   "売残増加"
+   "信用倍率改善"
   ],
-  "ratio": 27.3,
-  "sellBalance": 412900,
-  "sellChangePct": 31.8
+  "ratio": 26.54,
+  "sellBalance": 418600,
+  "sellChangePct": 4.0
  },
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-20",
   "atrState": "通常",
-  "distFrom52wHigh": 0.51,
+  "distFrom52wHigh": 0.53,
   "labels": [],
-  "ma20": 2384.6,
-  "ma200": 2982.7,
-  "ma60": 2578.1,
-  "rangePos60": 0.22,
-  "rel20": -2.3,
-  "rel60": -13.0,
-  "volumeRatio20": 0.54
+  "ma20": 2361.5,
+  "ma200": 2970.0,
+  "ma60": 2562.7,
+  "rangePos60": 0.08,
+  "rel20": -2.9,
+  "rel60": -9.1,
+  "volumeRatio20": 1.09
  },
  "reasons": [
   "1.8pt買い増し 7.8%→9.6%",
   "30日以内に2回買い増し",
-  "信用買残 -7%"
+  "信用買残 -8%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -114,7 +119,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-20",
+   "detail": "期限内にPrice Setupが成立しなかった",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-20T03:04:29+09:00"
+ "updatedAt": "2026-11-20T16:45:14+09:00"
 }

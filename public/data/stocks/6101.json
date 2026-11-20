@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-11-20T03:04:15+09:00",
+  "updatedAt": "2026-11-20T16:45:00+09:00",
   "company": {
     "securityCode": "6101",
     "ticker": "6101.T",
     "name": "株式会社ツガミ"
   },
   "events": [
+    {
+      "docId": "S100ZIX8",
+      "ticker": "6101.T",
+      "securityCode": "6101",
+      "companyName": "株式会社ツガミ",
+      "submitDatetime": "2026-11-20 15:02",
+      "filerName": "三井住友ＤＳアセットマネジメント株式会社",
+      "reportType": "change",
+      "holdingRatio": 8.91,
+      "previousHoldingRatio": 7.66,
+      "holdingChange": 1.25,
+      "purpose": "純投資（投資収益性を重視して行う投資） / 政策保有目的",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 20,
+      "signalReasons": [
+        "1pt以上買い増し"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -8.14,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YXU0",
       "ticker": "6101.T",
@@ -32,7 +62,7 @@
         "return1d": -3.94,
         "return5d": -6.26,
         "return20d": -8.41,
-        "returnCurrent": -35.8,
+        "returnCurrent": -41.94,
         "volumeRatio": 0.48,
         "marketExcessReturn": -8.44
       }
@@ -62,7 +92,7 @@
         "return1d": -2.65,
         "return5d": 3.31,
         "return20d": -12.42,
-        "returnCurrent": -40.58,
+        "returnCurrent": -46.27,
         "volumeRatio": 0.69,
         "marketExcessReturn": 0.43
       }
@@ -4155,9 +4185,19 @@
       "open": 3525.0,
       "high": 3525.0,
       "low": 3395.0,
-      "close": null,
-      "adj_close": null,
+      "close": 3500.0,
+      "adj_close": 3500.0,
       "volume": 214700
+    },
+    {
+      "ticker": "6101.T",
+      "trade_date": "2026-11-20",
+      "open": 3335.0,
+      "high": 3370.0,
+      "low": 3170.0,
+      "close": 3215.0,
+      "adj_close": 3215.0,
+      "volume": 508000
     }
   ],
   "benchmark": [
@@ -8247,9 +8287,19 @@
       "open": 400.29998779296875,
       "high": 403.1000061035156,
       "low": 399.1000061035156,
-      "close": null,
-      "adj_close": null,
+      "close": 402.20001220703125,
+      "adj_close": 402.20001220703125,
       "volume": 28124150
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-20",
+      "open": 394.20001220703125,
+      "high": 395.70001220703125,
+      "low": 386.20001220703125,
+      "close": 386.20001220703125,
+      "adj_close": 386.20001220703125,
+      "volume": 39389070
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

@@ -10,7 +10,9 @@
   "id": "7269-2026-10-22",
   "overextended": false,
   "setupType": "TREND",
-  "setups": [],
+  "setups": [
+   "TREND"
+  ],
   "startedAt": "2026-10-22",
   "status": "REACTED",
   "statusHistory": [
@@ -44,32 +46,30 @@
  "eventReactions": [
   {
    "d1": -0.4,
-   "d20": null,
+   "d20": 8.0,
    "d5": 2.0,
    "eventId": "edinet:S100Z8ZY",
    "excess5": 3.3
   }
  ],
  "margin": {
-  "asOf": "2026-11-18",
-  "buyBalance": 2180500,
-  "buyChangePct": 1.4,
-  "labels": [
-   "信用倍率悪化"
-  ],
-  "ratio": 21.8,
-  "sellBalance": 100000,
-  "sellChangePct": -23.8
+  "asOf": "2026-11-19",
+  "buyBalance": 2167400,
+  "buyChangePct": -2.0,
+  "labels": [],
+  "ratio": 17.71,
+  "sellBalance": 122400,
+  "sellChangePct": -6.5
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -4.4,
-  "currentPrice": 2124.0,
+  "benchReturn": -8.2,
+  "currentPrice": 2204.0,
   "d20": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 2,
-   "stockReturn": null
+   "benchReturn": -8.2,
+   "excessReturn": 16.2,
+   "pendingDays": 0,
+   "stockReturn": 8.0
   },
   "d5": {
    "benchReturn": 0.2,
@@ -80,33 +80,36 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 42,
+   "pendingDays": 40,
    "stockReturn": null
   },
-  "excessReturn": 8.5,
+  "excessReturn": 16.2,
   "initialDate": "2026-10-22",
   "initialPrice": 2040.5,
-  "stockReturn": 4.1
+  "stockReturn": 8.0
  },
  "priceSetup": {
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-20",
   "atrState": "通常",
-  "distFrom52wHigh": 0.12,
+  "distFrom52wHigh": 0.09,
   "labels": [
+   "20日線の上",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2138.6,
-  "ma200": 1992.2,
-  "ma60": 2073.2,
-  "rangePos60": 0.5,
-  "rel20": 8.1,
-  "rel60": 10.1,
-  "volumeRatio20": 0.75
+  "ma20": 2154.9,
+  "ma200": 1992.6,
+  "ma60": 2077.8,
+  "rangePos60": 0.7,
+  "rel20": 16.2,
+  "rel60": 15.1,
+  "volumeRatio20": 0.96
  },
  "reasons": [
   "1pt買い増し 6.2%→7.2%",
-  "TOPIX連動ETF比 +8.1pt（20日）"
+  "20日線上向き",
+  "TOPIX連動ETF比 +16.2pt（20日）",
+  "52週高値まで9%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -172,7 +175,21 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-19",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-19",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-20T03:05:29+09:00"
+ "updatedAt": "2026-11-20T16:46:03+09:00"
 }

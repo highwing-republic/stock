@@ -40,7 +40,7 @@
   },
   {
    "d1": 0.1,
-   "d20": null,
+   "d20": -22.2,
    "d5": 7.1,
    "eventId": "edinet:S100Z8P8",
    "excess5": 6.9
@@ -65,16 +65,25 @@
    "d5": 9.5,
    "eventId": "edinet:S100ZBB4",
    "excess5": 9.8
+  },
+  {
+   "d1": -5.0,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZHVY",
+   "excess5": null
   }
  ],
  "margin": {
-  "asOf": "2026-11-18",
-  "buyBalance": 122800,
-  "buyChangePct": -7.0,
-  "labels": [],
-  "ratio": 18.61,
-  "sellBalance": 6600,
-  "sellChangePct": 3.1
+  "asOf": "2026-11-19",
+  "buyBalance": 124000,
+  "buyChangePct": -1.5,
+  "labels": [
+   "信用倍率悪化"
+  ],
+  "ratio": 19.68,
+  "sellBalance": 6300,
+  "sellChangePct": -55.3
  },
  "pastEpisodes": [
   {
@@ -94,22 +103,22 @@
  ],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-20",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.39,
+  "distFrom52wHigh": 0.42,
   "labels": [],
-  "ma20": 3113.7,
-  "ma200": 3581.3,
-  "ma60": 3300.1,
-  "rangePos60": 0.25,
-  "rel20": -15.3,
-  "rel60": -13.8,
-  "volumeRatio20": 0.37
+  "ma20": 3039.2,
+  "ma200": 3578.5,
+  "ma60": 3276.1,
+  "rangePos60": 0.14,
+  "rel20": -14.1,
+  "rel60": -13.4,
+  "volumeRatio20": 0.76
  },
  "reasons": [
-  "1.1pt買い増し 23.2%→24.3%",
+  "1.2pt買い増し 24.3%→25.5%",
   "30日以内に2回買い増し",
-  "信用買残 -7%"
+  "信用買残 -2%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -170,5 +179,5 @@
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHVY"
   }
  ],
- "updatedAt": "2026-11-20T03:05:29+09:00"
+ "updatedAt": "2026-11-20T16:46:03+09:00"
 }

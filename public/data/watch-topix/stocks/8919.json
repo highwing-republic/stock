@@ -1,0 +1,91 @@
+{
+ "company": {
+  "name": "カチタス",
+  "securityCode": "8919",
+  "tradingViewSymbol": "TSE:8919"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "8919-2026-11-20",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-11-20",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-11-20",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": 0.0,
+   "d20": -4.2,
+   "d5": -0.8,
+   "eventId": "edinet:S100Z349",
+   "excess5": -3.1
+  },
+  {
+   "d1": -3.5,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZIGN",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-11-19",
+  "buyBalance": 55900,
+  "buyChangePct": -52.8,
+  "labels": [
+   "信用買残減少",
+   "信用倍率改善"
+  ],
+  "ratio": 1.67,
+  "sellBalance": 33400,
+  "sellChangePct": -20.3
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-11-20",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.23,
+  "labels": [],
+  "ma20": 3316.4,
+  "ma200": 3319.0,
+  "ma60": 3439.6,
+  "rangePos60": 0.06,
+  "rel20": -3.8,
+  "rel60": -12.8,
+  "volumeRatio20": 1.24
+ },
+ "reasons": [
+  "1.6pt買い増し 5.2%→6.9%",
+  "信用買残 -53%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-09-25",
+   "detail": "5.24% → 5.24%（キャピタル・リサーチ・アンド・マネージメント・カンパニー）",
+   "kind": "EVENT",
+   "label": "変更報告（増減不明）",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z349"
+  },
+  {
+   "date": "2026-11-20",
+   "detail": "5.24% → 6.89%（キャピタル・リサーチ・アンド・マネージメント・カンパニー）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIGN"
+  }
+ ],
+ "updatedAt": "2026-11-20T16:46:03+09:00"
+}

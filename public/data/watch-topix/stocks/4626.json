@@ -1,0 +1,77 @@
+{
+ "company": {
+  "name": "太陽ホールディングス",
+  "securityCode": "4626",
+  "tradingViewSymbol": "TSE:4626"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "4626-2026-11-19",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-11-19",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-11-19",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": -0.3,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZITW",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-11-19",
+  "buyBalance": 331200,
+  "buyChangePct": 23.7,
+  "labels": [
+   "信用買残急増",
+   "信用倍率悪化"
+  ],
+  "ratio": 414.0,
+  "sellBalance": 800,
+  "sellChangePct": 0.0
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-11-20",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.27,
+  "labels": [],
+  "ma20": 4656.1,
+  "ma200": 4921.4,
+  "ma60": 4720.1,
+  "rangePos60": 0.02,
+  "rel20": 5.1,
+  "rel60": 4.8,
+  "volumeRatio20": 0.65
+ },
+ "reasons": [
+  "新規大量保有 5.3%（モルガン・スタンレーＭＵＦＧ証券株式会社）",
+  "TOPIX連動ETF比 +5.1pt（20日）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-11-19",
+   "detail": "保有割合 5.35%（モルガン・スタンレーＭＵＦＧ証券株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZITW"
+  }
+ ],
+ "updatedAt": "2026-11-20T16:46:03+09:00"
+}

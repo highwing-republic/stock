@@ -1,11 +1,42 @@
 {
-  "updatedAt": "2026-11-20T03:04:15+09:00",
+  "updatedAt": "2026-11-20T16:45:00+09:00",
   "company": {
     "securityCode": "6470",
     "ticker": "6470.T",
     "name": "大豊工業株式会社"
   },
   "events": [
+    {
+      "docId": "S100ZI0D",
+      "ticker": "6470.T",
+      "securityCode": "6470",
+      "companyName": "大豊工業株式会社",
+      "submitDatetime": "2026-11-20 16:10",
+      "filerName": "ｆｕｎｄｎｏｔｅ株式会社",
+      "reportType": "change",
+      "holdingRatio": 7.72,
+      "previousHoldingRatio": 9.91,
+      "holdingChange": -2.19,
+      "purpose": "株式会社Kaihouの投資助言に基づき投資信託の信託財産の運用のため保有。スチュワードシップ・コードに則り建設的な対話により、IR・資本効率・ガバナンスの高度化と企業価値向上を促す。但し、受益者の利益を保全する為に、保有目的を「重要提案行為を行う」に変更する場合がある。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少",
+        "大幅売却"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -3.6,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100ZD3Z",
       "ticker": "6470.T",
@@ -31,7 +62,7 @@
         "return1d": 3.56,
         "return5d": 0.11,
         "return20d": null,
-        "returnCurrent": 0.11,
+        "returnCurrent": -4.93,
         "volumeRatio": 0.35,
         "marketExcessReturn": 2.21
       }
@@ -62,7 +93,7 @@
         "return1d": -9.83,
         "return5d": 1.56,
         "return20d": null,
-        "returnCurrent": -2.46,
+        "returnCurrent": -7.37,
         "volumeRatio": 1.44,
         "marketExcessReturn": 1.58
       }
@@ -95,7 +126,7 @@
         "return1d": -2.64,
         "return5d": -18.64,
         "return20d": null,
-        "returnCurrent": -20.64,
+        "returnCurrent": -24.64,
         "volumeRatio": 4.84,
         "marketExcessReturn": -17.45
       }
@@ -126,7 +157,7 @@
         "return1d": 1.75,
         "return5d": 2.19,
         "return20d": -6.38,
-        "returnCurrent": -23.69,
+        "returnCurrent": -27.53,
         "volumeRatio": 0.62,
         "marketExcessReturn": -0.54
       }
@@ -157,7 +188,7 @@
         "return1d": 5.93,
         "return5d": 5.13,
         "return20d": -6.9,
-        "returnCurrent": -22.74,
+        "returnCurrent": -26.64,
         "volumeRatio": 0.8,
         "marketExcessReturn": 7.24
       }
@@ -188,7 +219,7 @@
         "return1d": 0.93,
         "return5d": 1.78,
         "return20d": 11.03,
-        "returnCurrent": -18.41,
+        "returnCurrent": -22.52,
         "volumeRatio": 1.43,
         "marketExcessReturn": 2.59
       }
@@ -3289,11 +3320,21 @@
       "ticker": "6470.T",
       "trade_date": "2026-11-19",
       "open": 865.0,
-      "high": 870.0,
+      "high": 867.0,
       "low": 853.0,
-      "close": null,
-      "adj_close": null,
+      "close": 860.0,
+      "adj_close": 860.0,
       "volume": 60900
+    },
+    {
+      "ticker": "6470.T",
+      "trade_date": "2026-11-20",
+      "open": 839.0,
+      "high": 844.0,
+      "low": 815.0,
+      "close": 829.0,
+      "adj_close": 829.0,
+      "volume": 98000
     }
   ],
   "benchmark": [
@@ -7383,9 +7424,19 @@
       "open": 400.29998779296875,
       "high": 403.1000061035156,
       "low": 399.1000061035156,
-      "close": null,
-      "adj_close": null,
+      "close": 402.20001220703125,
+      "adj_close": 402.20001220703125,
       "volume": 28124150
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-20",
+      "open": 394.20001220703125,
+      "high": 395.70001220703125,
+      "low": 386.20001220703125,
+      "close": 386.20001220703125,
+      "adj_close": 386.20001220703125,
+      "volume": 39389070
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

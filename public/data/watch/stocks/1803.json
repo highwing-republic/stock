@@ -5,20 +5,26 @@
   "tradingViewSymbol": "TSE:1803"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "NO_SETUP",
+  "closedAt": "2026-11-19",
   "id": "1803-2026-10-21",
   "overextended": false,
   "setupType": null,
   "setups": [],
   "startedAt": "2026-10-21",
-  "status": "CANDIDATE",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-10-21",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-11-19",
+    "from": "CANDIDATE",
+    "reason_code": "NO_SETUP",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": null
@@ -33,38 +39,36 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-18",
-  "buyBalance": 2729700,
-  "buyChangePct": -3.7,
+  "asOf": "2026-11-19",
+  "buyBalance": 2719500,
+  "buyChangePct": -4.1,
   "labels": [
    "信用倍率悪化"
   ],
-  "ratio": 44.75,
-  "sellBalance": 61000,
-  "sellChangePct": -43.9
+  "ratio": 43.1,
+  "sellBalance": 63100,
+  "sellChangePct": -21.7
  },
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-20",
   "atrState": "通常",
-  "distFrom52wHigh": 0.39,
+  "distFrom52wHigh": 0.41,
   "labels": [
-   "20日線の上",
    "20日線が上向き"
   ],
-  "ma20": 2105.2,
-  "ma200": 2567.0,
-  "ma60": 2188.7,
-  "rangePos60": 0.37,
-  "rel20": 11.9,
-  "rel60": -1.2,
-  "volumeRatio20": 0.67
+  "ma20": 2113.1,
+  "ma200": 2561.4,
+  "ma60": 2182.0,
+  "rangePos60": 0.22,
+  "rel20": 10.4,
+  "rel60": -1.5,
+  "volumeRatio20": 0.87
  },
  "reasons": [
   "新規大量保有 5.4%（野村證券株式会社）",
-  "20日線上向き",
-  "TOPIX連動ETF比 +11.9pt（20日）",
+  "TOPIX連動ETF比 +10.4pt（20日）",
   "信用買残 -4%"
  ],
  "schemaVersion": 1,
@@ -110,7 +114,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-19",
+   "detail": "期限内にPrice Setupが成立しなかった",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-20T03:04:29+09:00"
+ "updatedAt": "2026-11-20T16:45:14+09:00"
 }

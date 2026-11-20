@@ -5,20 +5,26 @@
   "tradingViewSymbol": "TSE:6503"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "NO_SETUP",
+  "closedAt": "2026-11-20",
   "id": "6503-2026-10-22",
   "overextended": false,
   "setupType": null,
   "setups": [],
   "startedAt": "2026-10-22",
-  "status": "CANDIDATE",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-10-22",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-11-20",
+    "from": "CANDIDATE",
+    "reason_code": "NO_SETUP",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": null
@@ -26,36 +32,36 @@
  "eventReactions": [
   {
    "d1": -1.3,
-   "d20": null,
+   "d20": -7.0,
    "d5": -2.7,
    "eventId": "edinet:S100Z8ZU",
    "excess5": -1.4
   }
  ],
  "margin": {
-  "asOf": "2026-11-18",
-  "buyBalance": 3358600,
-  "buyChangePct": 3.9,
+  "asOf": "2026-11-19",
+  "buyBalance": 3333800,
+  "buyChangePct": 5.4,
   "labels": [
    "信用倍率悪化"
   ],
-  "ratio": 36.0,
-  "sellBalance": 93300,
-  "sellChangePct": -17.8
+  "ratio": 36.36,
+  "sellBalance": 91700,
+  "sellChangePct": -21.3
  },
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-20",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.31,
+  "distFrom52wHigh": 0.34,
   "labels": [],
-  "ma20": 4764.2,
-  "ma200": 5520.0,
-  "ma60": 5083.9,
-  "rangePos60": 0.19,
-  "rel20": -0.9,
-  "rel60": -14.6,
+  "ma20": 4721.1,
+  "ma200": 5516.3,
+  "ma60": 5046.8,
+  "rangePos60": 0.03,
+  "rel20": -2.4,
+  "rel60": -12.7,
   "volumeRatio20": 0.81
  },
  "reasons": [
@@ -83,7 +89,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-20",
+   "detail": "期限内にPrice Setupが成立しなかった",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-20T03:04:29+09:00"
+ "updatedAt": "2026-11-20T16:45:14+09:00"
 }
