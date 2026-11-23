@@ -12,7 +12,7 @@
   "setupType": "RECOVERY",
   "setups": [],
   "startedAt": "2026-11-05",
-  "status": "STRENGTHENING",
+  "status": "BROKEN",
   "statusHistory": [
    {
     "date": "2026-11-05",
@@ -31,6 +31,12 @@
     "from": "WATCH",
     "reason_code": "SETUP_IMPROVED",
     "to": "STRENGTHENING"
+   },
+   {
+    "date": "2026-11-20",
+    "from": "STRENGTHENING",
+    "reason_code": "BELOW_MA60",
+    "to": "BROKEN"
    }
   ],
   "watchStartedAt": "2026-11-05"
@@ -79,12 +85,12 @@
   }
  ],
  "performance": {
-  "benchReturn": -3.2,
-  "currentPrice": 2140.0,
+  "benchReturn": -7.1,
+  "currentPrice": 2020.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 10,
+   "pendingDays": 9,
    "stockReturn": null
   },
   "d5": {
@@ -96,32 +102,32 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 50,
+   "pendingDays": 49,
    "stockReturn": null
   },
-  "excessReturn": -0.3,
+  "excessReturn": -1.8,
   "initialDate": "2026-11-05",
   "initialPrice": 2217.5,
-  "stockReturn": -3.5
+  "stockReturn": -8.9
  },
  "priceSetup": {
-  "asOf": "2026-11-19",
+  "asOf": "2026-11-20",
   "atrState": "通常",
-  "distFrom52wHigh": 0.24,
+  "distFrom52wHigh": 0.28,
   "labels": [
    "20日線が上向き"
   ],
-  "ma20": 2146.4,
-  "ma200": 2256.3,
-  "ma60": 2142.0,
-  "rangePos60": 0.47,
-  "rel20": 6.8,
-  "rel60": 3.0,
-  "volumeRatio20": 1.03
+  "ma20": 2142.5,
+  "ma200": 2254.5,
+  "ma60": 2139.4,
+  "rangePos60": 0.04,
+  "rel20": 4.4,
+  "rel60": 1.6,
+  "volumeRatio20": 1.52
  },
  "reasons": [
   "新規大量保有 5%（ウエリントン・マネージメント・ジャパン・ピーティーイー・リミテッド）",
-  "TOPIX連動ETF比 +6.8pt（20日）"
+  "TOPIX連動ETF比 +4.4pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -208,7 +214,14 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-20",
+   "detail": "60日線を下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-21T02:37:27+09:00"
+ "updatedAt": "2026-11-23T17:05:35+09:00"
 }

@@ -5,20 +5,26 @@
   "tradingViewSymbol": "TSE:4369"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "NO_SETUP",
+  "closedAt": "2026-11-20",
   "id": "4369-2026-10-22",
   "overextended": false,
   "setupType": null,
   "setups": [],
   "startedAt": "2026-10-22",
-  "status": "CANDIDATE",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-10-22",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-11-20",
+    "from": "CANDIDATE",
+    "reason_code": "NO_SETUP",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": null
@@ -124,17 +130,17 @@
  ],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-19",
+  "asOf": "2026-11-20",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.42,
+  "distFrom52wHigh": 0.46,
   "labels": [],
-  "ma20": 2841.3,
-  "ma200": 3242.0,
-  "ma60": 3037.7,
-  "rangePos60": 0.22,
-  "rel20": -11.9,
-  "rel60": -15.4,
-  "volumeRatio20": 0.74
+  "ma20": 2812.7,
+  "ma200": 3237.9,
+  "ma60": 3025.0,
+  "rangePos60": 0.08,
+  "rel20": -11.0,
+  "rel60": -15.1,
+  "volumeRatio20": 2.05
  },
  "reasons": [
   "新規大量保有 5.2%（アセットマネジメントＯｎｅ株式会社）"
@@ -231,7 +237,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-20",
+   "detail": "期限内にPrice Setupが成立しなかった",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-21T02:38:28+09:00"
+ "updatedAt": "2026-11-23T17:06:23+09:00"
 }

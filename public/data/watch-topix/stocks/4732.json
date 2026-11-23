@@ -1,0 +1,91 @@
+{
+ "company": {
+  "name": "ユー・エス・エス",
+  "securityCode": "4732",
+  "tradingViewSymbol": "TSE:4732"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "4732-2026-11-20",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-11-20",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-11-20",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": -1.1,
+   "d20": 0.1,
+   "d5": 4.6,
+   "eventId": "edinet:S100YRCO",
+   "excess5": 5.9
+  },
+  {
+   "d1": -1.3,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZIQY",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-11-19",
+  "buyBalance": 173700,
+  "buyChangePct": -2.3,
+  "labels": [],
+  "ratio": 2.28,
+  "sellBalance": 76200,
+  "sellChangePct": -0.7
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-11-20",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.14,
+  "labels": [
+   "20日線が上向き"
+  ],
+  "ma20": 1824.5,
+  "ma200": 1810.3,
+  "ma60": 1852.3,
+  "rangePos60": 0.25,
+  "rel20": 8.7,
+  "rel60": 2.5,
+  "volumeRatio20": 0.68
+ },
+ "reasons": [
+  "新規大量保有 5.1%（Ｆｉｄｅｌｉｔｙ　Ｍａｎａｇｅｍｅｎｔ　＆　Ｒｅｓｅａｒｃｈ　Ｃｏｍｐａｎｙ　ＬＬＣ）",
+  "TOPIX連動ETF比 +8.7pt（20日）",
+  "信用買残 -2%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-07-23",
+   "detail": "5.02% → 4.7%（Ｆｉｄｅｌｉｔｙ　Ｍａｎａｇｅｍｅｎｔ　＆　Ｒｅｓｅａｒｃｈ　Ｃｏｍｐａｎｙ　ＬＬＣ）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YRCO"
+  },
+  {
+   "date": "2026-11-20",
+   "detail": "保有割合 5.1%（Ｆｉｄｅｌｉｔｙ　Ｍａｎａｇｅｍｅｎｔ　＆　Ｒｅｓｅａｒｃｈ　Ｃｏｍｐａｎｙ　ＬＬＣ）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIQY"
+  }
+ ],
+ "updatedAt": "2026-11-23T17:06:23+09:00"
+}

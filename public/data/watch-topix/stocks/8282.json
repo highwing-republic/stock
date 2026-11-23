@@ -5,43 +5,23 @@
   "tradingViewSymbol": "TSE:8282"
  },
  "episode": {
-  "closeReason": "BROKEN",
-  "closedAt": "2026-11-09",
-  "id": "8282-2026-10-21",
+  "closeReason": null,
+  "closedAt": null,
+  "id": "8282-2026-11-20",
   "overextended": false,
-  "setupType": "RECOVERY",
-  "setups": [
-   "RECOVERY"
-  ],
-  "startedAt": "2026-10-21",
-  "status": "CLOSED",
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-11-20",
+  "status": "CANDIDATE",
   "statusHistory": [
    {
-    "date": "2026-10-21",
+    "date": "2026-11-20",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
-   },
-   {
-    "date": "2026-11-05",
-    "from": "CANDIDATE",
-    "reason_code": "SETUP_OK",
-    "to": "WATCH"
-   },
-   {
-    "date": "2026-11-06",
-    "from": "WATCH",
-    "reason_code": "BELOW_MA60",
-    "to": "BROKEN"
-   },
-   {
-    "date": "2026-11-09",
-    "from": "BROKEN",
-    "reason_code": "BROKEN",
-    "to": "CLOSED"
    }
   ],
-  "watchStartedAt": "2026-11-05"
+  "watchStartedAt": null
  },
  "eventReactions": [
   {
@@ -57,6 +37,13 @@
    "d5": -1.5,
    "eventId": "edinet:S100Z8Q0",
    "excess5": -1.2
+  },
+  {
+   "d1": -1.0,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZISG",
+   "excess5": null
   }
  ],
  "margin": {
@@ -68,54 +55,36 @@
   "sellBalance": 19500,
   "sellChangePct": -1.5
  },
- "pastEpisodes": [],
- "performance": {
-  "benchReturn": -3.2,
-  "currentPrice": 1786.0,
-  "d20": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 10,
-   "stockReturn": null
-  },
-  "d5": {
-   "benchReturn": -0.3,
-   "excessReturn": -4.5,
-   "pendingDays": 0,
-   "stockReturn": -4.8
-  },
-  "d60": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 50,
-   "stockReturn": null
-  },
-  "excessReturn": 1.9,
-  "initialDate": "2026-11-05",
-  "initialPrice": 1810.0,
-  "stockReturn": -1.3
- },
+ "pastEpisodes": [
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-11-09",
+   "id": "8282-2026-10-21",
+   "setupType": "RECOVERY",
+   "startedAt": "2026-10-21"
+  }
+ ],
+ "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-19",
+  "asOf": "2026-11-20",
   "atrState": "通常",
   "distFrom52wHigh": 0.18,
   "labels": [
    "20日線の上",
-   "20日線が上向き",
-   "60日線の上"
+   "20日線が上向き"
   ],
-  "ma20": 1741.1,
-  "ma200": 1793.0,
-  "ma60": 1788.6,
-  "rangePos60": 0.47,
-  "rel20": 10.4,
-  "rel60": -3.0,
-  "volumeRatio20": 0.89
+  "ma20": 1744.0,
+  "ma200": 1793.9,
+  "ma60": 1785.7,
+  "rangePos60": 0.42,
+  "rel20": 11.5,
+  "rel60": 0.1,
+  "volumeRatio20": 0.77
  },
  "reasons": [
-  "新規大量保有 5%（三井住友トラスト・アセットマネジメント株式会社）",
+  "新規大量保有 5%（ゴールドマン・サックス証券株式会社）",
   "20日線上向き",
-  "TOPIX連動ETF比 +10.4pt（20日）",
+  "TOPIX連動ETF比 +11.5pt（20日）",
   "信用買残 -2%"
  ],
  "schemaVersion": 1,
@@ -135,90 +104,6 @@
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8Q0"
   },
   {
-   "date": "2026-10-23",
-   "detail": "20日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-10-30",
-   "detail": "TOPIX連動ETFを上回りに転換",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-02",
-   "detail": "20日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-05",
-   "detail": "なし → RECOVERY",
-   "kind": "SETUP",
-   "label": "Price Setup改善",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-05",
-   "detail": "Price Setupが成立",
-   "kind": "STATUS",
-   "label": "WATCH",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-06",
-   "detail": "60日線を下回った",
-   "kind": "STATUS",
-   "label": "BROKEN",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-09",
-   "detail": "Price Setupが崩れた",
-   "kind": "STATUS",
-   "label": "CLOSED",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-12",
-   "detail": "RECOVERY → なし",
-   "kind": "SETUP",
-   "label": "Price Setup解消",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-16",
-   "detail": "なし → RECOVERY",
-   "kind": "SETUP",
-   "label": "Price Setup改善",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-16",
-   "detail": "20日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-18",
-   "detail": "RECOVERY → なし",
-   "kind": "SETUP",
-   "label": "Price Setup解消",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-19",
-   "detail": "60日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
    "date": "2026-11-20",
    "detail": "保有割合 5.03%（ゴールドマン・サックス証券株式会社）",
    "kind": "EVENT",
@@ -226,5 +111,5 @@
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZISG"
   }
  ],
- "updatedAt": "2026-11-21T02:38:28+09:00"
+ "updatedAt": "2026-11-23T17:06:23+09:00"
 }

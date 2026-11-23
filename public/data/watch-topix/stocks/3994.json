@@ -12,7 +12,7 @@
   "setupType": "TREND",
   "setups": [],
   "startedAt": "2026-11-09",
-  "status": "WATCH",
+  "status": "BROKEN",
   "statusHistory": [
    {
     "date": "2026-11-09",
@@ -25,6 +25,12 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
+   },
+   {
+    "date": "2026-11-20",
+    "from": "WATCH",
+    "reason_code": "BELOW_MA60",
+    "to": "BROKEN"
    }
   ],
   "watchStartedAt": "2026-11-09"
@@ -106,6 +112,13 @@
    "d5": 4.3,
    "eventId": "edinet:S100ZCK0",
    "excess5": -2.6
+  },
+  {
+   "d1": -7.9,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZIWS",
+   "excess5": null
   }
  ],
  "margin": {
@@ -127,12 +140,12 @@
   }
  ],
  "performance": {
-  "benchReturn": 0.0,
-  "currentPrice": 6853.0,
+  "benchReturn": -4.0,
+  "currentPrice": 6314.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 12,
+   "pendingDays": 11,
    "stockReturn": null
   },
   "d5": {
@@ -144,33 +157,32 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 52,
+   "pendingDays": 51,
    "stockReturn": null
   },
-  "excessReturn": -12.5,
+  "excessReturn": -15.4,
   "initialDate": "2026-11-09",
   "initialPrice": 7835.0,
-  "stockReturn": -12.5
+  "stockReturn": -19.4
  },
  "priceSetup": {
-  "asOf": "2026-11-19",
+  "asOf": "2026-11-20",
   "atrState": "通常",
-  "distFrom52wHigh": 0.15,
+  "distFrom52wHigh": 0.21,
   "labels": [
-   "20日線が上向き",
-   "60日線の上"
+   "20日線が上向き"
   ],
-  "ma20": 7106.9,
-  "ma200": 4941.4,
-  "ma60": 6520.6,
-  "rangePos60": 0.52,
-  "rel20": 7.8,
-  "rel60": 14.0,
-  "volumeRatio20": 0.67
+  "ma20": 7085.2,
+  "ma200": 4952.4,
+  "ma60": 6524.2,
+  "rangePos60": 0.31,
+  "rel20": 1.8,
+  "rel60": 12.4,
+  "volumeRatio20": 0.72
  },
  "reasons": [
-  "新規大量保有 5.1%（みずほ証券株式会社）",
-  "TOPIX連動ETF比 +7.8pt（20日）"
+  "1pt買い増し 5.1%→6.1%",
+  "TOPIX連動ETF比 +1.8pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -306,7 +318,14 @@
    "kind": "EVENT",
    "label": "大幅な買い増し",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIWS"
+  },
+  {
+   "date": "2026-11-20",
+   "detail": "60日線を下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-21T02:38:28+09:00"
+ "updatedAt": "2026-11-23T17:06:23+09:00"
 }

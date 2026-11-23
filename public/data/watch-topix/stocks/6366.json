@@ -10,11 +10,9 @@
   "id": "6366-2026-11-16",
   "overextended": false,
   "setupType": "RECOVERY",
-  "setups": [
-   "RECOVERY"
-  ],
+  "setups": [],
   "startedAt": "2026-11-16",
-  "status": "WATCH",
+  "status": "BROKEN",
   "statusHistory": [
    {
     "date": "2026-11-16",
@@ -27,6 +25,12 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
+   },
+   {
+    "date": "2026-11-20",
+    "from": "WATCH",
+    "reason_code": "BELOW_MA60",
+    "to": "BROKEN"
    }
   ],
   "watchStartedAt": "2026-11-16"
@@ -42,9 +46,9 @@
   {
    "d1": -3.9,
    "d20": null,
-   "d5": null,
+   "d5": -17.3,
    "eventId": "edinet:S100ZEXD",
-   "excess5": null
+   "excess5": -10.2
   }
  ],
  "margin": {
@@ -60,51 +64,49 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -2.1,
-  "currentPrice": 660.0,
+  "benchReturn": -6.0,
+  "currentPrice": 596.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 17,
+   "pendingDays": 16,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 2,
+   "pendingDays": 1,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 57,
+   "pendingDays": 56,
    "stockReturn": null
   },
-  "excessReturn": -2.7,
+  "excessReturn": -8.0,
   "initialDate": "2026-11-16",
   "initialPrice": 693.0,
-  "stockReturn": -4.8
+  "stockReturn": -14.0
  },
  "priceSetup": {
-  "asOf": "2026-11-19",
+  "asOf": "2026-11-20",
   "atrState": "通常",
-  "distFrom52wHigh": 0.64,
+  "distFrom52wHigh": 0.67,
   "labels": [
-   "20日線の上",
    "20日線が上向き"
   ],
-  "ma20": 655.7,
-  "ma200": 854.8,
-  "ma60": 671.4,
-  "rangePos60": 0.47,
-  "rel20": 17.2,
-  "rel60": -1.9,
+  "ma20": 656.4,
+  "ma200": 853.4,
+  "ma60": 669.8,
+  "rangePos60": 0.19,
+  "rel20": 10.4,
+  "rel60": -5.4,
   "volumeRatio20": 1.01
  },
  "reasons": [
   "新規大量保有 5.5%（株式会社三菱ＵＦＪフィナンシャル・グループ）",
-  "20日線上向き",
-  "TOPIX連動ETF比 +17.2pt（20日）"
+  "TOPIX連動ETF比 +10.4pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -135,7 +137,21 @@
    "kind": "STATUS",
    "label": "WATCH",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-20",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-20",
+   "detail": "60日線を下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-21T02:38:28+09:00"
+ "updatedAt": "2026-11-23T17:06:23+09:00"
 }

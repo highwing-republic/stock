@@ -1,0 +1,78 @@
+{
+ "company": {
+  "name": "NANKAI",
+  "securityCode": "9044",
+  "tradingViewSymbol": "TSE:9044"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "9044-2026-11-20",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-11-20",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-11-20",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": -1.8,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZJ9C",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-11-19",
+  "buyBalance": 22300,
+  "buyChangePct": -3.0,
+  "labels": [],
+  "ratio": 0.27,
+  "sellBalance": 81900,
+  "sellChangePct": -5.6
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-11-20",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.08,
+  "labels": [
+   "20日線が上向き"
+  ],
+  "ma20": 3056.8,
+  "ma200": 2961.4,
+  "ma60": 3064.9,
+  "rangePos60": 0.33,
+  "rel20": 8.6,
+  "rel60": 9.3,
+  "volumeRatio20": 0.51
+ },
+ "reasons": [
+  "新規大量保有 5.1%（野村證券株式会社）",
+  "TOPIX連動ETF比 +8.6pt（20日）",
+  "52週高値まで8%",
+  "信用買残 -3%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-11-20",
+   "detail": "保有割合 5.06%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ9C"
+  }
+ ],
+ "updatedAt": "2026-11-23T17:06:23+09:00"
+}

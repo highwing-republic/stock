@@ -5,20 +5,26 @@
   "tradingViewSymbol": "TSE:8570"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "NO_SETUP",
+  "closedAt": "2026-11-20",
   "id": "8570-2026-10-22",
   "overextended": false,
   "setupType": null,
   "setups": [],
   "startedAt": "2026-10-22",
-  "status": "CANDIDATE",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-10-22",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-11-20",
+    "from": "CANDIDATE",
+    "reason_code": "NO_SETUP",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": null
@@ -62,23 +68,21 @@
  ],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-19",
+  "asOf": "2026-11-20",
   "atrState": "通常",
-  "distFrom52wHigh": 0.19,
-  "labels": [
-   "20日線が上向き"
-  ],
-  "ma20": 1457.0,
-  "ma200": 1553.1,
-  "ma60": 1540.8,
-  "rangePos60": 0.12,
-  "rel20": 7.6,
-  "rel60": -8.1,
-  "volumeRatio20": 0.59
+  "distFrom52wHigh": 0.22,
+  "labels": [],
+  "ma20": 1453.8,
+  "ma200": 1552.1,
+  "ma60": 1536.0,
+  "rangePos60": 0.0,
+  "rel20": 4.0,
+  "rel60": -7.8,
+  "volumeRatio20": 1.29
  },
  "reasons": [
   "1pt買い増し 10.8%→11.8%",
-  "TOPIX連動ETF比 +7.6pt（20日）",
+  "TOPIX連動ETF比 +4pt（20日）",
   "信用買残 -0%"
  ],
  "schemaVersion": 1,
@@ -117,7 +121,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-20",
+   "detail": "期限内にPrice Setupが成立しなかった",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-21T02:38:28+09:00"
+ "updatedAt": "2026-11-23T17:06:23+09:00"
 }

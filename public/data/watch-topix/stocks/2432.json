@@ -10,9 +10,7 @@
   "id": "2432-2026-10-21",
   "overextended": false,
   "setupType": "TREND",
-  "setups": [
-   "TREND"
-  ],
+  "setups": [],
   "startedAt": "2026-10-21",
   "status": "REACTED",
   "statusHistory": [
@@ -114,8 +112,8 @@
   }
  ],
  "performance": {
-  "benchReturn": -5.5,
-  "currentPrice": 2638.0,
+  "benchReturn": -9.3,
+  "currentPrice": 2554.0,
   "d20": {
    "benchReturn": -5.5,
    "excessReturn": 9.1,
@@ -131,37 +129,34 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 40,
+   "pendingDays": 39,
    "stockReturn": null
   },
-  "excessReturn": 9.1,
+  "excessReturn": 9.6,
   "initialDate": "2026-10-21",
   "initialPrice": 2547.0,
-  "stockReturn": 3.6
+  "stockReturn": 0.3
  },
  "priceSetup": {
-  "asOf": "2026-11-19",
+  "asOf": "2026-11-20",
   "atrState": "通常",
-  "distFrom52wHigh": 0.06,
+  "distFrom52wHigh": 0.09,
   "labels": [
-   "20日線の上",
-   "60日レンジ上位29%",
-   "20日線が上向き",
-   "60日線の上"
+   "20日線が上向き"
   ],
   "ma20": 2600.1,
-  "ma200": 2558.0,
-  "ma60": 2560.6,
-  "rangePos60": 0.71,
-  "rel20": 9.1,
-  "rel60": 10.3,
-  "volumeRatio20": 0.76
+  "ma200": 2558.4,
+  "ma60": 2561.6,
+  "rangePos60": 0.39,
+  "rel20": 8.2,
+  "rel60": 11.2,
+  "volumeRatio20": 0.65
  },
  "reasons": [
   "新規大量保有 5.4%（野村アセットマネジメント株式会社）",
-  "60日レンジ上位29%",
-  "20日線上向き",
-  "TOPIX連動ETF比 +9.1pt（20日）"
+  "TOPIX連動ETF比 +8.2pt（20日）",
+  "52週高値まで9%",
+  "信用買残 -4%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -311,7 +306,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-20",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-21T02:38:28+09:00"
+ "updatedAt": "2026-11-23T17:06:23+09:00"
 }

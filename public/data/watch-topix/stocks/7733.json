@@ -1,0 +1,143 @@
+{
+ "company": {
+  "name": "オリンパス",
+  "securityCode": "7733",
+  "tradingViewSymbol": "TSE:7733"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "7733-2026-11-20",
+  "overextended": false,
+  "setupType": "RECOVERY",
+  "setups": [
+   "RECOVERY"
+  ],
+  "startedAt": "2026-11-20",
+  "status": "WATCH",
+  "statusHistory": [
+   {
+    "date": "2026-11-20",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-11-20",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   }
+  ],
+  "watchStartedAt": "2026-11-20"
+ },
+ "eventReactions": [
+  {
+   "d1": 1.5,
+   "d20": 2.8,
+   "d5": 0.7,
+   "eventId": "edinet:S100YP7N",
+   "excess5": 2.9
+  },
+  {
+   "d1": -0.8,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZJ94",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-11-19",
+  "buyBalance": 656700,
+  "buyChangePct": -7.4,
+  "labels": [
+   "信用倍率改善"
+  ],
+  "ratio": 4.36,
+  "sellBalance": 150500,
+  "sellChangePct": 10.8
+ },
+ "pastEpisodes": [
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-07-27",
+   "id": "7733-2026-07-07",
+   "setupType": "RECOVERY",
+   "startedAt": "2026-07-07"
+  }
+ ],
+ "performance": {
+  "benchReturn": 0.0,
+  "currentPrice": 1833.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 20,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 5,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 60,
+   "stockReturn": null
+  },
+  "excessReturn": 0.0,
+  "initialDate": "2026-11-20",
+  "initialPrice": 1833.0,
+  "stockReturn": 0.0
+ },
+ "priceSetup": {
+  "asOf": "2026-11-20",
+  "atrState": "低ボラ",
+  "distFrom52wHigh": 0.17,
+  "labels": [
+   "20日線の上",
+   "20日線が上向き"
+  ],
+  "ma20": 1773.9,
+  "ma200": 1750.0,
+  "ma60": 1907.6,
+  "rangePos60": 0.31,
+  "rel20": 17.1,
+  "rel60": -6.5,
+  "volumeRatio20": 0.94
+ },
+ "reasons": [
+  "1.2pt買い増し 5.6%→6.9%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +17.1pt（20日）",
+  "信用買残 -7%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-07-07",
+   "detail": "保有割合 5.63%（アーチザン・インベストメンツ・ジーピー・エルエルシー）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YP7N"
+  },
+  {
+   "date": "2026-11-20",
+   "detail": "5.63% → 6.87%（アーチザン・インベストメンツ・ジーピー・エルエルシー）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ94"
+  },
+  {
+   "date": "2026-11-20",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-11-23T17:06:23+09:00"
+}
