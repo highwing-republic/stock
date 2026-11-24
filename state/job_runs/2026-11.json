@@ -3166,5 +3166,53 @@
   "source": "watch",
   "started_at": "2026-11-24T23:19:50+09:00",
   "status": "ok"
+ },
+ {
+  "detail": {
+   "adjustments": {
+    "applied": [],
+    "error": null,
+    "member_count": 401,
+    "status": "unchanged",
+    "warnings": []
+   },
+   "snapshot": {
+    "added": [],
+    "error": null,
+    "member_count": 400,
+    "removed": [],
+    "status": "unchanged"
+   }
+  },
+  "error": null,
+  "finished_at": "2026-11-25T03:17:50+09:00",
+  "records": 400,
+  "source": "jpx400",
+  "started_at": "2026-11-25T03:17:49+09:00",
+  "status": "ok"
+ },
+ {
+  "error": null,
+  "finished_at": "2026-11-25T03:18:17+09:00",
+  "records": 2957,
+  "source": "prices",
+  "started_at": "2026-11-25T03:17:49+09:00",
+  "status": "ok"
+ },
+ {
+  "error": null,
+  "finished_at": "2026-11-25T03:18:45+09:00",
+  "records": 440,
+  "source": "margin",
+  "started_at": "2026-11-25T03:17:49+09:00",
+  "status": "ok"
+ },
+ {
+  "error": "price coverage 0.342 < 0.8",
+  "finished_at": "2026-11-25T03:18:47+09:00",
+  "records": null,
+  "source": "watch",
+  "started_at": "2026-11-25T03:17:49+09:00",
+  "status": "failed"
  }
 ]
