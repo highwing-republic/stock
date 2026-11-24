@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T05:58:19+09:00",
+  "updatedAt": "2026-11-24T19:19:46+09:00",
   "company": {
     "securityCode": "280A",
     "ticker": "280A.T",
@@ -19,22 +19,23 @@
       "holdingChange": 1.12,
       "purpose": "純投資（発行者の中長期的な企業価値向上及び株式価値の最大化を通じたキャピタルゲインの獲得を目的とするものであり、重要提案行為等を行うことを目的とするものではありません。）",
       "importantProposal": true,
-      "priceChange": null,
-      "volumeRatio": 0.64,
-      "marketExcessReturn": null,
-      "signalScore": 40,
+      "priceChange": -16.85,
+      "volumeRatio": 0.6,
+      "marketExcessReturn": -12.13,
+      "signalScore": 50,
       "signalReasons": [
         "1pt以上買い増し",
-        "重要提案行為あり"
+        "重要提案行為あり",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": -2.35,
-        "return5d": null,
+        "return5d": -16.85,
         "return20d": null,
-        "returnCurrent": -19.71,
-        "volumeRatio": 0.64,
-        "marketExcessReturn": null
+        "returnCurrent": -16.85,
+        "volumeRatio": 0.6,
+        "marketExcessReturn": -12.13
       }
     },
     {
@@ -63,7 +64,7 @@
         "return1d": 0.39,
         "return5d": -7.63,
         "return20d": null,
-        "returnCurrent": -24.06,
+        "returnCurrent": -21.35,
         "volumeRatio": 0.66,
         "marketExcessReturn": -8.23
       }
@@ -93,7 +94,7 @@
         "return1d": 2.45,
         "return5d": 5.93,
         "return20d": -5.56,
-        "returnCurrent": -25.99,
+        "returnCurrent": -23.35,
         "volumeRatio": 0.52,
         "marketExcessReturn": 4.28
       }
@@ -124,7 +125,7 @@
         "return1d": -12.75,
         "return5d": 6.22,
         "return20d": 14.44,
-        "returnCurrent": -17.18,
+        "returnCurrent": -14.23,
         "volumeRatio": 1.11,
         "marketExcessReturn": 9.02
       }
@@ -155,7 +156,7 @@
         "return1d": -12.75,
         "return5d": 6.22,
         "return20d": 14.44,
-        "returnCurrent": -17.18,
+        "returnCurrent": -14.23,
         "volumeRatio": 1.11,
         "marketExcessReturn": 9.02
       }
@@ -3181,6 +3182,16 @@
       "close": 786.0,
       "adj_close": 786.0,
       "volume": 58800
+    },
+    {
+      "ticker": "280A.T",
+      "trade_date": "2026-11-24",
+      "open": 815.0,
+      "high": 846.0,
+      "low": 812.0,
+      "close": 814.0,
+      "adj_close": 814.0,
+      "volume": 19100
     }
   ],
   "benchmark": [
@@ -7283,6 +7294,16 @@
       "close": 386.20001220703125,
       "adj_close": 386.20001220703125,
       "volume": 39389070
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-24",
+      "open": 392.0,
+      "high": 398.20001220703125,
+      "low": 391.20001220703125,
+      "close": 395.8999938964844,
+      "adj_close": 395.8999938964844,
+      "volume": 27614150
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

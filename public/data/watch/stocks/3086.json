@@ -10,9 +10,7 @@
   "id": "3086-2026-10-27",
   "overextended": false,
   "setupType": "RECOVERY",
-  "setups": [
-   "RECOVERY"
-  ],
+  "setups": [],
   "startedAt": "2026-10-27",
   "status": "REACTED",
   "statusHistory": [
@@ -167,21 +165,21 @@
   {
    "d1": 1.3,
    "d20": null,
-   "d5": null,
+   "d5": -3.7,
    "eventId": "edinet:S100ZI5C",
-   "excess5": null
+   "excess5": 0.0
   }
  ],
  "margin": {
-  "asOf": "2026-11-19",
-  "buyBalance": 108000,
-  "buyChangePct": -12.2,
+  "asOf": "2026-11-20",
+  "buyBalance": 106500,
+  "buyChangePct": -16.1,
   "labels": [
    "信用買残減少"
   ],
-  "ratio": 0.58,
-  "sellBalance": 187200,
-  "sellChangePct": -13.4
+  "ratio": 0.59,
+  "sellBalance": 180600,
+  "sellChangePct": -17.7
  },
  "pastEpisodes": [
   {
@@ -193,12 +191,12 @@
   }
  ],
  "performance": {
-  "benchReturn": -8.2,
-  "currentPrice": 3078.0,
+  "benchReturn": -5.9,
+  "currentPrice": 3028.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 3,
+   "pendingDays": 2,
    "stockReturn": null
   },
   "d5": {
@@ -210,36 +208,36 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 43,
+   "pendingDays": 42,
    "stockReturn": null
   },
-  "excessReturn": 18.8,
+  "excessReturn": 14.7,
   "initialDate": "2026-10-27",
   "initialPrice": 2784.0,
-  "stockReturn": 10.6
+  "stockReturn": 8.8
  },
  "priceSetup": {
-  "asOf": "2026-11-20",
+  "asOf": "2026-11-24",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.14,
+  "distFrom52wHigh": 0.16,
   "labels": [
    "20日線の上",
-   "60日レンジ上位21%",
+   "60日レンジ上位28%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2965.9,
-  "ma200": 2659.5,
+  "ma20": 2978.5,
+  "ma200": 2663.4,
   "ma60": 2816.2,
-  "rangePos60": 0.79,
-  "rel20": 19.7,
-  "rel60": 11.7,
-  "volumeRatio20": 0.95
+  "rangePos60": 0.72,
+  "rel20": 14.0,
+  "rel60": 6.8,
+  "volumeRatio20": 0.71
  },
  "reasons": [
   "1.1pt買い増し 13.8%→15%",
   "30日以内に2回買い増し",
-  "60日レンジ上位21%",
+  "60日レンジ上位28%",
   "20日線上向き"
  ],
  "schemaVersion": 1,
@@ -404,7 +402,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-24",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-24T05:58:30+09:00"
+ "updatedAt": "2026-11-24T19:20:01+09:00"
 }

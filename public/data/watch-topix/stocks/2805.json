@@ -12,7 +12,7 @@
   "setupType": "RECOVERY",
   "setups": [],
   "startedAt": "2026-11-16",
-  "status": "WATCH",
+  "status": "BROKEN",
   "statusHistory": [
    {
     "date": "2026-11-16",
@@ -25,6 +25,12 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
+   },
+   {
+    "date": "2026-11-24",
+    "from": "WATCH",
+    "reason_code": "BELOW_MA20",
+    "to": "BROKEN"
    }
   ],
   "watchStartedAt": "2026-11-16"
@@ -39,63 +45,63 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-19",
-  "buyBalance": 10700,
-  "buyChangePct": -35.2,
+  "asOf": "2026-11-20",
+  "buyBalance": 10200,
+  "buyChangePct": -42.4,
   "labels": [
    "信用買残減少"
   ],
-  "ratio": 53.5,
-  "sellBalance": 200,
+  "ratio": null,
+  "sellBalance": 0,
   "sellChangePct": null
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -6.0,
+  "benchReturn": -3.7,
   "currentPrice": 7050.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 16,
+   "pendingDays": 15,
    "stockReturn": null
   },
   "d5": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 1,
-   "stockReturn": null
+   "benchReturn": -3.7,
+   "excessReturn": 1.5,
+   "pendingDays": 0,
+   "stockReturn": -2.2
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 56,
+   "pendingDays": 55,
    "stockReturn": null
   },
-  "excessReturn": 3.8,
+  "excessReturn": 1.5,
   "initialDate": "2026-11-16",
   "initialPrice": 7210.0,
   "stockReturn": -2.2
  },
  "priceSetup": {
-  "asOf": "2026-11-20",
+  "asOf": "2026-11-24",
   "atrState": "高ボラ",
   "distFrom52wHigh": 0.11,
   "labels": [
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 7072.0,
-  "ma200": 5708.9,
-  "ma60": 7017.4,
+  "ma20": 7099.5,
+  "ma200": 5721.9,
+  "ma60": 7023.2,
   "rangePos60": 0.55,
-  "rel20": 25.3,
-  "rel60": 13.0,
-  "volumeRatio20": 0.51
+  "rel20": 13.4,
+  "rel60": 12.0,
+  "volumeRatio20": 0.53
  },
  "reasons": [
   "新規大量保有 5.6%（株式会社三菱ＵＦＪフィナンシャル・グループ）",
-  "TOPIX連動ETF比 +25.3pt（20日）",
-  "信用買残 -35%"
+  "TOPIX連動ETF比 +13.4pt（20日）",
+  "信用買残 -42%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -126,7 +132,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-24",
+   "detail": "20日線を連続で下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-24T05:59:27+09:00"
+ "updatedAt": "2026-11-24T19:20:55+09:00"
 }

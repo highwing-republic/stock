@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-11-24T05:58:19+09:00",
+  "updatedAt": "2026-11-24T19:19:46+09:00",
   "company": {
     "securityCode": "6490",
     "ticker": "6490.T",
     "name": "株式会社ＰＩＬＬＡＲ"
   },
   "events": [
+    {
+      "docId": "S100ZICG",
+      "ticker": "6490.T",
+      "securityCode": "6490",
+      "companyName": "株式会社ＰＩＬＬＡＲ",
+      "submitDatetime": "2026-11-24 16:03",
+      "filerName": "エフィッシモ　キャピタル　マネージメント　ピーティーイー　エルティーディー（Ｅｆｆｉｓｓｉｍｏ　Ｃａｐｉｔａｌ　Ｍａｎａｇｅｍｅｎｔ　Ｐｔｅ　Ｌｔｄ）",
+      "reportType": "change",
+      "holdingRatio": 6.7,
+      "previousHoldingRatio": 5.61,
+      "holdingChange": 1.09,
+      "purpose": "純投資（投資一任契約に基づく顧客資産運用のため）。中長期的な企業価値の向上に伴う株価の値上がり益や配当を享受することを目的として、株式市場内外における発行者株式の価格や流動性等の動向、発行者の経営状況などを勘案し、今後3か月以内に、株式市場内外の取引を通じて株券等保有割合を5％超増加させる予定がある。なお、株式市場内外における発行者株式の価格や流動性等の動向、発行者の経営状況によっては予定通り取得が行われないこともある。また、株券等保有割合が10%を超えることとなる株券等の取得を行う目的を直接的に有しているわけではないが、結果的に、株券等保有割合が10%を超えることとなる可能性がある。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 20,
+      "signalReasons": [
+        "1pt以上買い増し"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 7.27,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100ZE2P",
       "ticker": "6490.T",
@@ -19,22 +49,23 @@
       "holdingChange": null,
       "purpose": "純投資。中長期的な企業価値の向上に伴う株価の値上がり益や配当を享受することを目的として、株式市場内外における発行者株式の価格や流動性等の動向、発行者の経営状況などを勘案し、今後3か月以内に、株式市場内外の取引を通じて株券等保有割合を5％超増加させる予定がある。なお、株式市場内外における発行者株式の価格や流動性等の動向、発行者の経営状況によっては予定通り取得が行われないこともある。また、株券等保有割合が10%を超えることとなる株券等の取得を行う目的を直接的に有しているわけではないが、結果的に、株券等保有割合が10%を超えることとなる可能性がある。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 2.24,
-      "marketExcessReturn": null,
-      "signalScore": 40,
+      "priceChange": 4.58,
+      "volumeRatio": 2.1,
+      "marketExcessReturn": 9.3,
+      "signalScore": 50,
       "signalReasons": [
         "新規大量保有",
-        "出来高2倍以上"
+        "出来高2倍以上",
+        "市場超過5%以上"
       ],
       "stockUnreacted": false,
       "metrics": {
         "return1d": -6.32,
-        "return5d": null,
+        "return5d": 4.58,
         "return20d": null,
-        "returnCurrent": -2.51,
-        "volumeRatio": 2.24,
-        "marketExcessReturn": null
+        "returnCurrent": 4.58,
+        "volumeRatio": 2.1,
+        "marketExcessReturn": 9.3
       }
     },
     {
@@ -60,7 +91,7 @@
         "return1d": -14.26,
         "return5d": -4.12,
         "return20d": null,
-        "returnCurrent": -10.24,
+        "returnCurrent": -3.71,
         "volumeRatio": 1.69,
         "marketExcessReturn": -4.34
       }
@@ -90,7 +121,7 @@
         "return1d": -6.0,
         "return5d": -2.62,
         "return20d": -11.34,
-        "returnCurrent": -16.21,
+        "returnCurrent": -10.12,
         "volumeRatio": 0.97,
         "marketExcessReturn": -2.19
       }
@@ -4116,6 +4147,16 @@
       "close": 8940.0,
       "adj_close": 8940.0,
       "volume": 484700
+    },
+    {
+      "ticker": "6490.T",
+      "trade_date": "2026-11-24",
+      "open": 9510.0,
+      "high": 10050.0,
+      "low": 9490.0,
+      "close": 9590.0,
+      "adj_close": 9590.0,
+      "volume": 252100
     }
   ],
   "benchmark": [
@@ -8218,6 +8259,16 @@
       "close": 386.20001220703125,
       "adj_close": 386.20001220703125,
       "volume": 39389070
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-24",
+      "open": 392.0,
+      "high": 398.20001220703125,
+      "low": 391.20001220703125,
+      "close": 395.8999938964844,
+      "adj_close": 395.8999938964844,
+      "volume": 27614150
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

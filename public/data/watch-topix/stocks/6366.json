@@ -5,14 +5,14 @@
   "tradingViewSymbol": "TSE:6366"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "BROKEN",
+  "closedAt": "2026-11-24",
   "id": "6366-2026-11-16",
   "overextended": false,
   "setupType": "RECOVERY",
   "setups": [],
   "startedAt": "2026-11-16",
-  "status": "BROKEN",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-11-16",
@@ -31,6 +31,12 @@
     "from": "WATCH",
     "reason_code": "BELOW_MA60",
     "to": "BROKEN"
+   },
+   {
+    "date": "2026-11-24",
+    "from": "BROKEN",
+    "reason_code": "BROKEN",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-11-16"
@@ -52,61 +58,60 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-19",
-  "buyBalance": 7829700,
-  "buyChangePct": 2.0,
-  "labels": [
-   "信用倍率悪化"
-  ],
-  "ratio": 20.33,
-  "sellBalance": 385200,
-  "sellChangePct": -21.8
+  "asOf": "2026-11-20",
+  "buyBalance": 7528200,
+  "buyChangePct": -1.0,
+  "labels": [],
+  "ratio": 19.47,
+  "sellBalance": 386700,
+  "sellChangePct": -13.9
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -6.0,
-  "currentPrice": 596.0,
+  "benchReturn": -3.7,
+  "currentPrice": 601.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 16,
+   "pendingDays": 15,
    "stockReturn": null
   },
   "d5": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 1,
-   "stockReturn": null
+   "benchReturn": -3.7,
+   "excessReturn": -9.6,
+   "pendingDays": 0,
+   "stockReturn": -13.3
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 56,
+   "pendingDays": 55,
    "stockReturn": null
   },
-  "excessReturn": -8.0,
+  "excessReturn": -9.6,
   "initialDate": "2026-11-16",
   "initialPrice": 693.0,
-  "stockReturn": -14.0
+  "stockReturn": -13.3
  },
  "priceSetup": {
-  "asOf": "2026-11-20",
+  "asOf": "2026-11-24",
   "atrState": "通常",
   "distFrom52wHigh": 0.67,
   "labels": [
    "20日線が上向き"
   ],
-  "ma20": 656.4,
-  "ma200": 853.4,
-  "ma60": 669.8,
-  "rangePos60": 0.19,
-  "rel20": 10.4,
-  "rel60": -5.4,
-  "volumeRatio20": 1.01
+  "ma20": 657.8,
+  "ma200": 852.0,
+  "ma60": 667.9,
+  "rangePos60": 0.21,
+  "rel20": 9.8,
+  "rel60": -8.7,
+  "volumeRatio20": 0.55
  },
  "reasons": [
   "新規大量保有 5.5%（株式会社三菱ＵＦＪフィナンシャル・グループ）",
-  "TOPIX連動ETF比 +10.4pt（20日）"
+  "TOPIX連動ETF比 +9.8pt（20日）",
+  "信用買残 -1%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -151,7 +156,14 @@
    "kind": "STATUS",
    "label": "BROKEN",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-24",
+   "detail": "Price Setupが崩れた",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-24T05:59:27+09:00"
+ "updatedAt": "2026-11-24T19:20:55+09:00"
 }

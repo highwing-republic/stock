@@ -1,0 +1,74 @@
+{
+ "company": {
+  "name": "メック",
+  "securityCode": "4971",
+  "tradingViewSymbol": "TSE:4971"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "4971-2026-11-24",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-11-24",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-11-24",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": 7.5,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZIKI",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-11-20",
+  "buyBalance": 396600,
+  "buyChangePct": -7.1,
+  "labels": [],
+  "ratio": 38.13,
+  "sellBalance": 10400,
+  "sellChangePct": -9.6
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-11-24",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.58,
+  "labels": [],
+  "ma20": 5457.5,
+  "ma200": 7781.4,
+  "ma60": 6222.8,
+  "rangePos60": 0.18,
+  "rel20": -10.3,
+  "rel60": -17.2,
+  "volumeRatio20": 0.82
+ },
+ "reasons": [
+  "新規大量保有 6.3%（ティー・ロウ・プライス・ジャパン株式会社）",
+  "信用買残 -7%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-11-20",
+   "detail": "保有割合 6.28%（ティー・ロウ・プライス・ジャパン株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIKI"
+  }
+ ],
+ "updatedAt": "2026-11-24T19:20:55+09:00"
+}

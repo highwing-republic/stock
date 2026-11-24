@@ -1,0 +1,80 @@
+{
+ "company": {
+  "name": "artience",
+  "securityCode": "4634",
+  "tradingViewSymbol": "TSE:4634"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "4634-2026-11-24",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-11-24",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-11-24",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": 1.5,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZI2Q",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-11-20",
+  "buyBalance": 19600,
+  "buyChangePct": -30.5,
+  "labels": [
+   "信用買残減少",
+   "信用倍率改善",
+   "売残増加"
+  ],
+  "ratio": 0.56,
+  "sellBalance": 35300,
+  "sellChangePct": 320.2
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-11-24",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.07,
+  "labels": [],
+  "ma20": 4902.0,
+  "ma200": 4398.7,
+  "ma60": 5019.4,
+  "rangePos60": 0.48,
+  "rel20": 1.0,
+  "rel60": 3.3,
+  "volumeRatio20": 1.05
+ },
+ "reasons": [
+  "4.2pt買い増し 17.9%→22.1%",
+  "TOPIX連動ETF比 +1pt（20日）",
+  "52週高値まで7%",
+  "信用買残 -30%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-11-20",
+   "detail": "17.92% → 22.09%（ＴＯＰＰＡＮホールディングス株式会社）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI2Q"
+  }
+ ],
+ "updatedAt": "2026-11-24T19:20:55+09:00"
+}

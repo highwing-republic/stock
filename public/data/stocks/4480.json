@@ -1,11 +1,42 @@
 {
-  "updatedAt": "2026-11-24T05:58:19+09:00",
+  "updatedAt": "2026-11-24T19:19:46+09:00",
   "company": {
     "securityCode": "4480",
     "ticker": "4480.T",
     "name": "株式会社メドレー"
   },
   "events": [
+    {
+      "docId": "S100ZJMV",
+      "ticker": "4480.T",
+      "securityCode": "4480",
+      "companyName": "株式会社メドレー",
+      "submitDatetime": "2026-11-24 17:06",
+      "filerName": "ポーラー・キャピタル・エル・エル・ピー",
+      "reportType": "change",
+      "holdingRatio": 5.19,
+      "previousHoldingRatio": 8.81,
+      "holdingChange": -3.62,
+      "purpose": "純投資",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少",
+        "大幅売却"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -0.56,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100ZIGP",
       "ticker": "4480.T",
@@ -20,7 +51,7 @@
       "purpose": "投資一任契約に基づく純投資",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 1.02,
       "marketExcessReturn": null,
       "signalScore": 30,
       "signalReasons": [
@@ -28,11 +59,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": -0.39,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.17,
-        "volumeRatio": null,
+        "returnCurrent": -0.39,
+        "volumeRatio": 1.02,
         "marketExcessReturn": null
       }
     },
@@ -50,7 +81,7 @@
       "purpose": "・投資信託または投資一任契約に基づき投資権限を有するもの",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 1.02,
       "marketExcessReturn": null,
       "signalScore": 20,
       "signalReasons": [
@@ -58,11 +89,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": -0.39,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.17,
-        "volumeRatio": null,
+        "returnCurrent": -0.39,
+        "volumeRatio": 1.02,
         "marketExcessReturn": null
       }
     },
@@ -92,7 +123,7 @@
         "return1d": 5.14,
         "return5d": -3.23,
         "return20d": 0.04,
-        "returnCurrent": -22.41,
+        "returnCurrent": -22.84,
         "volumeRatio": 1.13,
         "marketExcessReturn": 1.18
       }
@@ -3058,6 +3089,16 @@
       "close": 1780.0,
       "adj_close": 1780.0,
       "volume": 647100
+    },
+    {
+      "ticker": "4480.T",
+      "trade_date": "2026-11-24",
+      "open": 1780.0,
+      "high": 1837.0,
+      "low": 1760.0,
+      "close": 1770.0,
+      "adj_close": 1770.0,
+      "volume": 468100
     }
   ],
   "benchmark": [
@@ -7160,6 +7201,16 @@
       "close": 386.20001220703125,
       "adj_close": 386.20001220703125,
       "volume": 39389070
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-24",
+      "open": 392.0,
+      "high": 398.20001220703125,
+      "low": 391.20001220703125,
+      "close": 395.8999938964844,
+      "adj_close": 395.8999938964844,
+      "volume": 27614150
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

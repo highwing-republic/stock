@@ -99,20 +99,20 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-19",
-  "buyBalance": 8876800,
-  "buyChangePct": -2.0,
+  "asOf": "2026-11-20",
+  "buyBalance": 8570900,
+  "buyChangePct": -4.6,
   "labels": [
-   "信用倍率悪化"
+   "信用倍率改善"
   ],
-  "ratio": 65.41,
-  "sellBalance": 135700,
-  "sellChangePct": -19.7
+  "ratio": 56.09,
+  "sellBalance": 152800,
+  "sellChangePct": 14.5
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -8.9,
-  "currentPrice": 1600.0,
+  "benchReturn": -6.6,
+  "currentPrice": 1674.0,
   "d20": {
    "benchReturn": 0.5,
    "excessReturn": 17.3,
@@ -131,31 +131,34 @@
    "pendingDays": 0,
    "stockReturn": 45.1
   },
-  "excessReturn": 54.0,
+  "excessReturn": 58.4,
   "initialDate": "2026-08-21",
   "initialPrice": 1103.0,
-  "stockReturn": 45.1
+  "stockReturn": 51.8
  },
  "priceSetup": {
-  "asOf": "2026-11-20",
+  "asOf": "2026-11-24",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.15,
+  "distFrom52wHigh": 0.11,
   "labels": [
+   "20日線の上",
+   "60日レンジ上位26%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 1609.5,
-  "ma200": 1077.3,
-  "ma60": 1341.0,
-  "rangePos60": 0.65,
-  "rel20": 31.4,
-  "rel60": 54.0,
-  "volumeRatio20": 1.05
+  "ma20": 1626.1,
+  "ma200": 1081.6,
+  "ma60": 1350.6,
+  "rangePos60": 0.74,
+  "rel20": 29.5,
+  "rel60": 59.2,
+  "volumeRatio20": 0.75
  },
  "reasons": [
   "新規大量保有 5.3%（野村證券株式会社）",
-  "TOPIX連動ETF比 +31.4pt（20日）",
-  "信用買残 -2%"
+  "60日レンジ上位26%",
+  "20日線を回復",
+  "TOPIX連動ETF比 +29.5pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -466,7 +469,14 @@
    "kind": "EVENT",
    "label": "保有割合の減少",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIWU"
+  },
+  {
+   "date": "2026-11-24",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-24T05:59:27+09:00"
+ "updatedAt": "2026-11-24T19:20:55+09:00"
 }

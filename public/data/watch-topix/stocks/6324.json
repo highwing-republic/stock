@@ -5,20 +5,26 @@
   "tradingViewSymbol": "TSE:6324"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "NO_SETUP",
+  "closedAt": "2026-11-24",
   "id": "6324-2026-10-23",
   "overextended": false,
   "setupType": null,
   "setups": [],
   "startedAt": "2026-10-23",
-  "status": "CANDIDATE",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-10-23",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-11-24",
+    "from": "CANDIDATE",
+    "reason_code": "NO_SETUP",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": null
@@ -33,32 +39,34 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-19",
-  "buyBalance": 898200,
-  "buyChangePct": -0.8,
-  "labels": [],
-  "ratio": 18.26,
-  "sellBalance": 49200,
-  "sellChangePct": -10.2
+  "asOf": "2026-11-20",
+  "buyBalance": 872600,
+  "buyChangePct": -1.5,
+  "labels": [
+   "信用倍率悪化"
+  ],
+  "ratio": 18.49,
+  "sellBalance": 47200,
+  "sellChangePct": -23.0
  },
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-20",
+  "asOf": "2026-11-24",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.59,
+  "distFrom52wHigh": 0.54,
   "labels": [],
-  "ma20": 4747.6,
-  "ma200": 5596.2,
-  "ma60": 5515.8,
-  "rangePos60": 0.02,
-  "rel20": -15.5,
-  "rel60": -25.7,
-  "volumeRatio20": 1.26
+  "ma20": 4713.6,
+  "ma200": 5599.4,
+  "ma60": 5491.5,
+  "rangePos60": 0.18,
+  "rel20": -9.0,
+  "rel60": -18.9,
+  "volumeRatio20": 1.03
  },
  "reasons": [
   "新規大量保有 5.3%（トライヴィスタ・キャピタル株式会社）",
-  "信用買残 -1%"
+  "信用買残 -2%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -68,7 +76,14 @@
    "kind": "EVENT",
    "label": "新規大量保有",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8K5"
+  },
+  {
+   "date": "2026-11-24",
+   "detail": "期限内にPrice Setupが成立しなかった",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-24T05:59:27+09:00"
+ "updatedAt": "2026-11-24T19:20:55+09:00"
 }

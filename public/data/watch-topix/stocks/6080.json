@@ -5,14 +5,14 @@
   "tradingViewSymbol": "TSE:6080"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "BROKEN",
+  "closedAt": "2026-11-24",
   "id": "6080-2026-11-16",
   "overextended": false,
   "setupType": "TREND",
   "setups": [],
   "startedAt": "2026-11-16",
-  "status": "BROKEN",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-11-16",
@@ -31,6 +31,12 @@
     "from": "WATCH",
     "reason_code": "BELOW_MA20",
     "to": "BROKEN"
+   },
+   {
+    "date": "2026-11-24",
+    "from": "BROKEN",
+    "reason_code": "BROKEN",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": "2026-11-16"
@@ -59,64 +65,61 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-19",
+  "asOf": "2026-11-20",
   "buyBalance": 146300,
-  "buyChangePct": -11.0,
+  "buyChangePct": -8.8,
   "labels": [
-   "信用買残減少",
    "信用倍率改善",
    "売残増加"
   ],
-  "ratio": 2.96,
-  "sellBalance": 49400,
-  "sellChangePct": 68.0
+  "ratio": 2.85,
+  "sellBalance": 51300,
+  "sellChangePct": 69.9
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -6.0,
-  "currentPrice": 4150.0,
+  "benchReturn": -3.7,
+  "currentPrice": 4200.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 16,
+   "pendingDays": 15,
    "stockReturn": null
   },
   "d5": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 1,
-   "stockReturn": null
+   "benchReturn": -3.7,
+   "excessReturn": -3.4,
+   "pendingDays": 0,
+   "stockReturn": -7.1
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 56,
+   "pendingDays": 55,
    "stockReturn": null
   },
-  "excessReturn": -2.2,
+  "excessReturn": -3.4,
   "initialDate": "2026-11-16",
   "initialPrice": 4520.0,
-  "stockReturn": -8.2
+  "stockReturn": -7.1
  },
  "priceSetup": {
-  "asOf": "2026-11-20",
+  "asOf": "2026-11-24",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.12,
-  "labels": [
-   "20日線が上向き"
-  ],
-  "ma20": 4309.2,
-  "ma200": 3667.8,
-  "ma60": 4241.7,
-  "rangePos60": 0.3,
-  "rel20": 5.6,
-  "rel60": 11.2,
-  "volumeRatio20": 0.67
+  "distFrom52wHigh": 0.11,
+  "labels": [],
+  "ma20": 4308.0,
+  "ma200": 3673.1,
+  "ma60": 4243.5,
+  "rangePos60": 0.36,
+  "rel20": 4.3,
+  "rel60": 9.4,
+  "volumeRatio20": 0.61
  },
  "reasons": [
   "新規大量保有 5.8%（株式会社　りそなホールディングス）",
-  "TOPIX連動ETF比 +5.6pt（20日）",
-  "信用買残 -11%"
+  "TOPIX連動ETF比 +4.3pt（20日）",
+  "信用買残 -9%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -161,7 +164,14 @@
    "kind": "STATUS",
    "label": "BROKEN",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-24",
+   "detail": "Price Setupが崩れた",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-24T05:59:27+09:00"
+ "updatedAt": "2026-11-24T19:20:55+09:00"
 }

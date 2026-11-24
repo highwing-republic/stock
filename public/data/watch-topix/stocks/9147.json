@@ -12,7 +12,7 @@
   "setupType": "TREND",
   "setups": [],
   "startedAt": "2026-11-06",
-  "status": "WATCH",
+  "status": "BROKEN",
   "statusHistory": [
    {
     "date": "2026-11-06",
@@ -25,6 +25,12 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
+   },
+   {
+    "date": "2026-11-24",
+    "from": "WATCH",
+    "reason_code": "BELOW_MA20",
+    "to": "BROKEN"
    }
   ],
   "watchStartedAt": "2026-11-12"
@@ -46,25 +52,24 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-19",
-  "buyBalance": 53700,
-  "buyChangePct": -21.4,
+  "asOf": "2026-11-20",
+  "buyBalance": 54700,
+  "buyChangePct": 4.2,
   "labels": [
-   "信用買残減少",
-   "信用倍率改善"
+   "信用倍率悪化"
   ],
-  "ratio": 2.22,
-  "sellBalance": 24200,
-  "sellChangePct": -1.6
+  "ratio": 3.07,
+  "sellBalance": 17800,
+  "sellChangePct": -35.7
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -6.8,
-  "currentPrice": 5693.0,
+  "benchReturn": -4.4,
+  "currentPrice": 5778.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 14,
+   "pendingDays": 13,
    "stockReturn": null
   },
   "d5": {
@@ -76,32 +81,33 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 54,
+   "pendingDays": 53,
    "stockReturn": null
   },
-  "excessReturn": 2.4,
+  "excessReturn": 1.4,
   "initialDate": "2026-11-12",
   "initialPrice": 5954.0,
-  "stockReturn": -4.4
+  "stockReturn": -3.0
  },
  "priceSetup": {
-  "asOf": "2026-11-20",
+  "asOf": "2026-11-24",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.07,
-  "labels": [],
-  "ma20": 5818.4,
-  "ma200": 4846.9,
-  "ma60": 5722.9,
-  "rangePos60": 0.51,
-  "rel20": 4.3,
-  "rel60": 11.3,
-  "volumeRatio20": 0.75
+  "distFrom52wHigh": 0.06,
+  "labels": [
+   "60日線の上"
+  ],
+  "ma20": 5815.9,
+  "ma200": 4858.8,
+  "ma60": 5724.0,
+  "rangePos60": 0.6,
+  "rel20": 4.0,
+  "rel60": 7.9,
+  "volumeRatio20": 0.56
  },
  "reasons": [
   "新規大量保有 5.1%（ブラックロック・ジャパン株式会社）",
-  "TOPIX連動ETF比 +4.3pt（20日）",
-  "52週高値まで7%",
-  "信用買残 -21%"
+  "TOPIX連動ETF比 +4pt（20日）",
+  "52週高値まで6%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -167,7 +173,21 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-24",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-24",
+   "detail": "20日線を連続で下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-24T05:59:27+09:00"
+ "updatedAt": "2026-11-24T19:20:55+09:00"
 }

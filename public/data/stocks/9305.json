@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T05:58:19+09:00",
+  "updatedAt": "2026-11-24T19:19:46+09:00",
   "company": {
     "securityCode": "9305",
     "ticker": "9305.T",
@@ -19,21 +19,22 @@
       "holdingChange": 1.09,
       "purpose": "純投資および中長期的な企業価値の向上を期待して保有しております。現時点で具体的な重要提案行為等の予定はありませんが、今後の業績や対話の状況等に応じて、株主還元や役員選任などの提案を検討する可能性があります。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.64,
-      "marketExcessReturn": null,
-      "signalScore": 20,
+      "priceChange": -2.1,
+      "volumeRatio": 0.66,
+      "marketExcessReturn": 2.62,
+      "signalScore": 30,
       "signalReasons": [
-        "1pt以上買い増し"
+        "1pt以上買い増し",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": -1.85,
-        "return5d": null,
+        "return5d": -2.1,
         "return20d": null,
-        "returnCurrent": -2.72,
-        "volumeRatio": 0.64,
-        "marketExcessReturn": null
+        "returnCurrent": -2.1,
+        "volumeRatio": 0.66,
+        "marketExcessReturn": 2.62
       }
     }
   ],
@@ -2727,6 +2728,16 @@
       "close": 1898.0,
       "adj_close": 1898.0,
       "volume": 71000
+    },
+    {
+      "ticker": "9305.T",
+      "trade_date": "2026-11-24",
+      "open": 1912.0,
+      "high": 1923.0,
+      "low": 1896.0,
+      "close": 1910.0,
+      "adj_close": 1910.0,
+      "volume": 74900
     }
   ],
   "benchmark": [
@@ -6829,6 +6840,16 @@
       "close": 386.20001220703125,
       "adj_close": 386.20001220703125,
       "volume": 39389070
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-24",
+      "open": 392.0,
+      "high": 398.20001220703125,
+      "low": 391.20001220703125,
+      "close": 395.8999938964844,
+      "adj_close": 395.8999938964844,
+      "volume": 27614150
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

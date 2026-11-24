@@ -33,32 +33,34 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-19",
-  "buyBalance": 388500,
-  "buyChangePct": -1.1,
-  "labels": [],
-  "ratio": 11.7,
-  "sellBalance": 33200,
-  "sellChangePct": 2.2
+  "asOf": "2026-11-20",
+  "buyBalance": 386500,
+  "buyChangePct": 0.3,
+  "labels": [
+   "信用倍率悪化"
+  ],
+  "ratio": 14.98,
+  "sellBalance": 25800,
+  "sellChangePct": -25.0
  },
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-20",
+  "asOf": "2026-11-24",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.47,
+  "distFrom52wHigh": 0.44,
   "labels": [],
-  "ma20": 4642.4,
-  "ma200": 5205.9,
-  "ma60": 5073.7,
-  "rangePos60": 0.03,
-  "rel20": -3.2,
-  "rel60": -14.0,
-  "volumeRatio20": 0.89
+  "ma20": 4634.5,
+  "ma200": 5209.4,
+  "ma60": 5058.0,
+  "rangePos60": 0.16,
+  "rel20": 1.4,
+  "rel60": -10.8,
+  "volumeRatio20": 0.57
  },
  "reasons": [
   "新規大量保有 5.2%（三井住友トラスト・アセットマネジメント株式会社）",
-  "信用買残 -1%"
+  "TOPIX連動ETF比 +1.4pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -75,7 +77,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-24",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-24T05:58:30+09:00"
+ "updatedAt": "2026-11-24T19:20:01+09:00"
 }

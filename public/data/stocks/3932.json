@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-11-24T05:58:19+09:00",
+  "updatedAt": "2026-11-24T19:19:46+09:00",
   "company": {
     "securityCode": "3932",
     "ticker": "3932.T",
     "name": "株式会社アカツキ"
   },
   "events": [
+    {
+      "docId": "S100ZJFI",
+      "ticker": "3932.T",
+      "securityCode": "3932",
+      "companyName": "株式会社アカツキ",
+      "submitDatetime": "2026-11-24 10:46",
+      "filerName": "塩田元規",
+      "reportType": "change",
+      "holdingRatio": 9.65,
+      "previousHoldingRatio": 9.65,
+      "holdingChange": 0.0,
+      "purpose": "発行会社の創業者であり、安定株主として株式を保有しております。 / 発行会社の創業者の出資会社であり、安定株主として株式を保有しております。",
+      "importantProposal": true,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 20,
+      "signalReasons": [
+        "重要提案行為あり"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 4.0,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100ZCOA",
       "ticker": "3932.T",
@@ -20,7 +50,7 @@
       "purpose": "発行会社の創業者であり、安定株主として株式を保有しております。 / 発行会社の創業者の出資会社であり、安定株主として株式を保有しております。",
       "importantProposal": true,
       "priceChange": null,
-      "volumeRatio": 0.98,
+      "volumeRatio": 1.21,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [
@@ -32,8 +62,8 @@
         "return1d": -3.71,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -3.71,
-        "volumeRatio": 0.98,
+        "returnCurrent": 0.14,
+        "volumeRatio": 1.21,
         "marketExcessReturn": null
       }
     },
@@ -63,7 +93,7 @@
         "return1d": 2.27,
         "return5d": 7.9,
         "return20d": 3.46,
-        "returnCurrent": -51.91,
+        "returnCurrent": -49.98,
         "volumeRatio": 1.11,
         "marketExcessReturn": 6.54
       }
@@ -3179,6 +3209,16 @@
       "close": 1375.0,
       "adj_close": 1375.0,
       "volume": 355400
+    },
+    {
+      "ticker": "3932.T",
+      "trade_date": "2026-11-24",
+      "open": 1382.0,
+      "high": 1435.0,
+      "low": 1340.0,
+      "close": 1430.0,
+      "adj_close": 1430.0,
+      "volume": 520400
     }
   ],
   "benchmark": [
@@ -7281,6 +7321,16 @@
       "close": 386.20001220703125,
       "adj_close": 386.20001220703125,
       "volume": 39389070
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-24",
+      "open": 392.0,
+      "high": 398.20001220703125,
+      "low": 391.20001220703125,
+      "close": 395.8999938964844,
+      "adj_close": 395.8999938964844,
+      "volume": 27614150
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

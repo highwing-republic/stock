@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T05:58:19+09:00",
+  "updatedAt": "2026-11-24T19:19:46+09:00",
   "company": {
     "securityCode": "6484",
     "ticker": "6484.T",
@@ -19,21 +19,22 @@
       "holdingChange": 1.01,
       "purpose": "株式会社ＫＶＫとの取引関係のある企業が、株式会社ＫＶＫ株式の取得により、相互の親睦関係の増進に寄与する。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 1.56,
-      "marketExcessReturn": null,
-      "signalScore": 20,
+      "priceChange": 0.05,
+      "volumeRatio": 1.42,
+      "marketExcessReturn": 4.77,
+      "signalScore": 30,
       "signalReasons": [
-        "1pt以上買い増し"
+        "1pt以上買い増し",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": 1.05,
-        "return5d": null,
+        "return5d": 0.05,
         "return20d": null,
-        "returnCurrent": -1.33,
-        "volumeRatio": 1.56,
-        "marketExcessReturn": null
+        "returnCurrent": 0.05,
+        "volumeRatio": 1.42,
+        "marketExcessReturn": 4.77
       }
     }
   ],
@@ -2727,6 +2728,16 @@
       "close": 2070.0,
       "adj_close": 2070.0,
       "volume": 3200
+    },
+    {
+      "ticker": "6484.T",
+      "trade_date": "2026-11-24",
+      "open": 2070.0,
+      "high": 2099.0,
+      "low": 2070.0,
+      "close": 2099.0,
+      "adj_close": 2099.0,
+      "volume": 1300
     }
   ],
   "benchmark": [
@@ -6829,6 +6840,16 @@
       "close": 386.20001220703125,
       "adj_close": 386.20001220703125,
       "volume": 39389070
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-24",
+      "open": 392.0,
+      "high": 398.20001220703125,
+      "low": 391.20001220703125,
+      "close": 395.8999938964844,
+      "adj_close": 395.8999938964844,
+      "volume": 27614150
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

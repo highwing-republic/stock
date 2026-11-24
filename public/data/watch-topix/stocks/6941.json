@@ -55,19 +55,28 @@
   {
    "d1": -2.3,
    "d20": null,
-   "d5": null,
+   "d5": 7.0,
    "eventId": "edinet:S100ZECP",
+   "excess5": 10.7
+  },
+  {
+   "d1": 12.0,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZI1W",
    "excess5": null
   }
  ],
  "margin": {
-  "asOf": "2026-11-19",
-  "buyBalance": 581500,
-  "buyChangePct": 0.8,
-  "labels": [],
-  "ratio": 24.43,
-  "sellBalance": 23800,
-  "sellChangePct": 5.3
+  "asOf": "2026-11-20",
+  "buyBalance": 548300,
+  "buyChangePct": -6.3,
+  "labels": [
+   "信用倍率改善"
+  ],
+  "ratio": 24.7,
+  "sellBalance": 22200,
+  "sellChangePct": 7.2
  },
  "pastEpisodes": [
   {
@@ -80,20 +89,24 @@
  ],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-20",
-  "atrState": "高ボラ",
-  "distFrom52wHigh": 0.46,
-  "labels": [],
-  "ma20": 6791.0,
-  "ma200": 8544.8,
-  "ma60": 7853.5,
-  "rangePos60": 0.2,
-  "rel20": -10.9,
-  "rel60": -12.2,
-  "volumeRatio20": 2.01
+  "asOf": "2026-11-24",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.39,
+  "labels": [
+   "20日線の上"
+  ],
+  "ma20": 6759.0,
+  "ma200": 8549.7,
+  "ma60": 7839.9,
+  "rangePos60": 0.33,
+  "rel20": -3.6,
+  "rel60": -3.9,
+  "volumeRatio20": 1.18
  },
  "reasons": [
-  "新規大量保有 5.4%（エフィッシモ　キャピタル　マネージメント　ピーティーイー　エルティーディー（Ｅｆｆｉｓｓｉｍｏ　Ｃａｐｉｔａｌ　Ｍａｎａｇｅｍｅｎｔ　Ｐｔｅ　Ｌｔｄ））"
+  "1.2pt買い増し 5.4%→6.6%",
+  "20日線を回復",
+  "信用買残 -6%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -138,7 +151,21 @@
    "kind": "EVENT",
    "label": "大幅な買い増し",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI1W"
+  },
+  {
+   "date": "2026-11-24",
+   "detail": "6.57% → 8.04%（エフィッシモ　キャピタル　マネージメント　ピーティーイー　エルティーディー（Ｅｆｆｉｓｓｉｍｏ　Ｃａｐｉｔａｌ　Ｍａｎａｇｅｍｅｎｔ　Ｐｔｅ　Ｌｔｄ））",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIGM"
+  },
+  {
+   "date": "2026-11-24",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-24T05:59:27+09:00"
+ "updatedAt": "2026-11-24T19:20:55+09:00"
 }

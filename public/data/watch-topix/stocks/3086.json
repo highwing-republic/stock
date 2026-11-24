@@ -10,9 +10,7 @@
   "id": "3086-2026-06-22",
   "overextended": true,
   "setupType": "RECOVERY",
-  "setups": [
-   "RECOVERY"
-  ],
+  "setups": [],
   "startedAt": "2026-06-22",
   "status": "REACTED",
   "statusHistory": [
@@ -173,26 +171,26 @@
   {
    "d1": 1.3,
    "d20": null,
-   "d5": null,
+   "d5": -3.7,
    "eventId": "edinet:S100ZI5C",
-   "excess5": null
+   "excess5": 0.0
   }
  ],
  "margin": {
-  "asOf": "2026-11-19",
-  "buyBalance": 108000,
-  "buyChangePct": -12.2,
+  "asOf": "2026-11-20",
+  "buyBalance": 106500,
+  "buyChangePct": -16.1,
   "labels": [
    "信用買残減少"
   ],
-  "ratio": 0.58,
-  "sellBalance": 187200,
-  "sellChangePct": -13.4
+  "ratio": 0.59,
+  "sellBalance": 180600,
+  "sellChangePct": -17.7
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -9.4,
-  "currentPrice": 3078.0,
+  "benchReturn": -7.1,
+  "currentPrice": 3028.0,
   "d20": {
    "benchReturn": -1.9,
    "excessReturn": 15.7,
@@ -211,33 +209,33 @@
    "pendingDays": 0,
    "stockReturn": -7.2
   },
-  "excessReturn": 16.3,
+  "excessReturn": 12.3,
   "initialDate": "2026-06-22",
   "initialPrice": 2879.1,
-  "stockReturn": 6.9
+  "stockReturn": 5.2
  },
  "priceSetup": {
-  "asOf": "2026-11-20",
+  "asOf": "2026-11-24",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.14,
+  "distFrom52wHigh": 0.16,
   "labels": [
    "20日線の上",
-   "60日レンジ上位21%",
+   "60日レンジ上位28%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2965.9,
-  "ma200": 2659.5,
+  "ma20": 2978.5,
+  "ma200": 2663.4,
   "ma60": 2816.2,
-  "rangePos60": 0.79,
-  "rel20": 19.7,
-  "rel60": 11.7,
-  "volumeRatio20": 0.95
+  "rangePos60": 0.72,
+  "rel20": 14.0,
+  "rel60": 6.8,
+  "volumeRatio20": 0.71
  },
  "reasons": [
   "1.1pt買い増し 13.8%→15%",
   "30日以内に2回買い増し",
-  "60日レンジ上位21%",
+  "60日レンジ上位28%",
   "20日線上向き"
  ],
  "schemaVersion": 1,
@@ -556,7 +554,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-24",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-24T05:59:27+09:00"
+ "updatedAt": "2026-11-24T19:20:55+09:00"
 }
