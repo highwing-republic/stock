@@ -2477,6 +2477,10 @@
    "event_id": "edinet:S100ZE2P"
   },
   {
+   "episode_id": "6490-2026-11-17",
+   "event_id": "edinet:S100ZICG"
+  },
+  {
    "episode_id": "6503-2026-10-22",
    "event_id": "edinet:S100Z8ZU"
   },
@@ -2882,6 +2886,10 @@
   },
   {
    "episode_id": "6855-2026-11-16",
+   "event_id": "edinet:S100ZIE6"
+  },
+  {
+   "episode_id": "6855-2026-11-16",
    "event_id": "edinet:S100ZIUJ"
   },
   {
@@ -2927,6 +2935,10 @@
   {
    "episode_id": "6941-2026-11-17",
    "event_id": "edinet:S100ZI1W"
+  },
+  {
+   "episode_id": "6941-2026-11-17",
+   "event_id": "edinet:S100ZIGM"
   },
   {
    "episode_id": "6951-2026-07-08",
@@ -4614,8 +4626,10 @@
    "overextended": true,
    "primary_trigger_event_id": "edinet:S100YC86",
    "security_code": "9759",
-   "setup_type": "RECOVERY",
-   "setups": [],
+   "setup_type": "TREND",
+   "setups": [
+    "TREND"
+   ],
    "started_at": "2026-06-17",
    "status": "REACTED",
    "status_history": [
@@ -5703,7 +5717,9 @@
    "primary_trigger_event_id": "edinet:S100YFL5",
    "security_code": "3086",
    "setup_type": "RECOVERY",
-   "setups": [],
+   "setups": [
+    "RECOVERY"
+   ],
    "started_at": "2026-06-22",
    "status": "REACTED",
    "status_history": [
@@ -8153,7 +8169,9 @@
    "primary_trigger_event_id": "edinet:S100YMTO",
    "security_code": "2492",
    "setup_type": "TREND",
-   "setups": [],
+   "setups": [
+    "TREND"
+   ],
    "started_at": "2026-07-03",
    "status": "REACTED",
    "status_history": [
@@ -10558,7 +10576,9 @@
    "primary_trigger_event_id": "edinet:S100YOO0",
    "security_code": "7476",
    "setup_type": "TREND",
-   "setups": [],
+   "setups": [
+    "TREND"
+   ],
    "started_at": "2026-07-07",
    "status": "REACTED",
    "status_history": [
@@ -16665,7 +16685,9 @@
    "primary_trigger_event_id": "edinet:S100YXTZ",
    "security_code": "4565",
    "setup_type": "TREND",
-   "setups": [],
+   "setups": [
+    "TREND"
+   ],
    "started_at": "2026-08-21",
    "status": "REACTED",
    "status_history": [
@@ -19470,7 +19492,9 @@
    "primary_trigger_event_id": "edinet:S100Z184",
    "security_code": "9987",
    "setup_type": "TREND",
-   "setups": [],
+   "setups": [
+    "TREND"
+   ],
    "started_at": "2026-09-10",
    "status": "REACTED",
    "status_history": [
@@ -19838,8 +19862,10 @@
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z2IK",
    "security_code": "8252",
-   "setup_type": "TREND",
-   "setups": [],
+   "setup_type": "RECOVERY",
+   "setups": [
+    "RECOVERY"
+   ],
    "started_at": "2026-09-16",
    "status": "STRENGTHENING",
    "status_history": [
@@ -20182,7 +20208,9 @@
    "primary_trigger_event_id": "edinet:S100Z1LN",
    "security_code": "4722",
    "setup_type": "RECOVERY",
-   "setups": [],
+   "setups": [
+    "RECOVERY"
+   ],
    "started_at": "2026-09-18",
    "status": "REACTED",
    "status_history": [
@@ -20905,7 +20933,9 @@
    "primary_trigger_event_id": "edinet:S100Z2OP",
    "security_code": "8022",
    "setup_type": "TREND",
-   "setups": [],
+   "setups": [
+    "TREND"
+   ],
    "started_at": "2026-09-24",
    "status": "REACTED",
    "status_history": [
@@ -22529,7 +22559,8 @@
    "security_code": "5108",
    "setup_type": "TREND",
    "setups": [
-    "TREND"
+    "TREND",
+    "RECOVERY"
    ],
    "started_at": "2026-10-06",
    "status": "REACTED",
@@ -23293,7 +23324,9 @@
    "primary_trigger_event_id": "edinet:S100Z5ZR",
    "security_code": "9682",
    "setup_type": "TREND",
-   "setups": [],
+   "setups": [
+    "TREND"
+   ],
    "started_at": "2026-10-07",
    "status": "REACTED",
    "status_history": [
@@ -23723,8 +23756,8 @@
   },
   {
    "base_close": 13875.0,
-   "close_reason": null,
-   "closed_at": null,
+   "close_reason": "NO_SETUP",
+   "closed_at": "2026-11-25",
    "company_name": "レゾナック・ホールディングス",
    "episode_id": "4004-2026-10-21",
    "event_ids": [
@@ -23740,13 +23773,19 @@
    "setup_type": null,
    "setups": [],
    "started_at": "2026-10-21",
-   "status": "CANDIDATE",
+   "status": "CLOSED",
    "status_history": [
     {
      "date": "2026-10-21",
      "from": null,
      "reason_code": "TRIGGER_EVENT",
      "to": "CANDIDATE"
+    },
+    {
+     "date": "2026-11-25",
+     "from": "CANDIDATE",
+     "reason_code": "NO_SETUP",
+     "to": "CLOSED"
     }
    ],
    "watch_started_at": null
@@ -24824,8 +24863,10 @@
    "overextended": true,
    "primary_trigger_event_id": "edinet:S100Z9VH",
    "security_code": "4536",
-   "setup_type": "RECOVERY",
-   "setups": [],
+   "setup_type": "TREND",
+   "setups": [
+    "TREND"
+   ],
    "started_at": "2026-10-26",
    "status": "REACTED",
    "status_history": [
@@ -25341,7 +25382,8 @@
    "security_code": "9064",
    "setup_type": "TREND",
    "setups": [
-    "TREND"
+    "TREND",
+    "RECOVERY"
    ],
    "started_at": "2026-11-04",
    "status": "REACTED",
@@ -25612,9 +25654,11 @@
    "primary_trigger_event_id": "edinet:S100ZC5W",
    "security_code": "2602",
    "setup_type": "TREND",
-   "setups": [],
+   "setups": [
+    "TREND"
+   ],
    "started_at": "2026-11-06",
-   "status": "WATCH",
+   "status": "STRENGTHENING",
    "status_history": [
     {
      "date": "2026-11-06",
@@ -25627,6 +25671,12 @@
      "from": "CANDIDATE",
      "reason_code": "SETUP_OK",
      "to": "WATCH"
+    },
+    {
+     "date": "2026-11-25",
+     "from": "WATCH",
+     "reason_code": "SETUP_IMPROVED",
+     "to": "STRENGTHENING"
     }
    ],
    "watch_started_at": "2026-11-09"
@@ -25697,10 +25747,11 @@
    "security_code": "3088",
    "setup_type": "TREND",
    "setups": [
-    "TREND"
+    "TREND",
+    "RECOVERY"
    ],
    "started_at": "2026-11-06",
-   "status": "WATCH",
+   "status": "REACTED",
    "status_history": [
     {
      "date": "2026-11-06",
@@ -25713,6 +25764,12 @@
      "from": "CANDIDATE",
      "reason_code": "SETUP_OK",
      "to": "WATCH"
+    },
+    {
+     "date": "2026-11-25",
+     "from": "WATCH",
+     "reason_code": "EXCESS_THRESHOLD",
+     "to": "REACTED"
     }
    ],
    "watch_started_at": "2026-11-06"
@@ -25930,7 +25987,8 @@
    "security_code": "4540",
    "setup_type": "TREND",
    "setups": [
-    "TREND"
+    "TREND",
+    "RECOVERY"
    ],
    "started_at": "2026-11-06",
    "status": "WATCH",
@@ -26261,8 +26319,8 @@
   },
   {
    "base_close": 5854.0,
-   "close_reason": null,
-   "closed_at": null,
+   "close_reason": "BROKEN",
+   "closed_at": "2026-11-25",
    "company_name": "NIPPON EXPRESSホールディングス",
    "episode_id": "9147-2026-11-06",
    "event_ids": [
@@ -26277,7 +26335,7 @@
    "setup_type": "TREND",
    "setups": [],
    "started_at": "2026-11-06",
-   "status": "BROKEN",
+   "status": "CLOSED",
    "status_history": [
     {
      "date": "2026-11-06",
@@ -26296,6 +26354,12 @@
      "from": "WATCH",
      "reason_code": "BELOW_MA20",
      "to": "BROKEN"
+    },
+    {
+     "date": "2026-11-25",
+     "from": "BROKEN",
+     "reason_code": "BROKEN",
+     "to": "CLOSED"
     }
    ],
    "watch_started_at": "2026-11-12"
@@ -26684,7 +26748,9 @@
    "primary_trigger_event_id": "edinet:S100ZBFH",
    "security_code": "1870",
    "setup_type": "RECOVERY",
-   "setups": [],
+   "setups": [
+    "RECOVERY"
+   ],
    "started_at": "2026-11-10",
    "status": "STRENGTHENING",
    "status_history": [
@@ -26876,8 +26942,8 @@
   },
   {
    "base_close": 7440.0,
-   "close_reason": null,
-   "closed_at": null,
+   "close_reason": "BROKEN",
+   "closed_at": "2026-11-25",
    "company_name": "ヱスビー食品株式会社",
    "episode_id": "2805-2026-11-16",
    "event_ids": [
@@ -26892,7 +26958,7 @@
    "setup_type": "RECOVERY",
    "setups": [],
    "started_at": "2026-11-16",
-   "status": "BROKEN",
+   "status": "CLOSED",
    "status_history": [
     {
      "date": "2026-11-16",
@@ -26911,6 +26977,12 @@
      "from": "WATCH",
      "reason_code": "BELOW_MA20",
      "to": "BROKEN"
+    },
+    {
+     "date": "2026-11-25",
+     "from": "BROKEN",
+     "reason_code": "BROKEN",
+     "to": "CLOSED"
     }
    ],
    "watch_started_at": "2026-11-16"
@@ -27139,11 +27211,12 @@
     "edinet:S100ZEWG",
     "edinet:S100ZI85",
     "edinet:S100ZIUJ",
-    "edinet:S100ZHWZ"
+    "edinet:S100ZHWZ",
+    "edinet:S100ZIE6"
    ],
    "initial_bench": null,
    "initial_price": null,
-   "last_trigger_at": "2026-11-20",
+   "last_trigger_at": "2026-11-25",
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100ZDQI",
    "security_code": "6855",
@@ -27238,7 +27311,7 @@
    "setup_type": "TREND",
    "setups": [],
    "started_at": "2026-11-17",
-   "status": "WATCH",
+   "status": "BROKEN",
    "status_history": [
     {
      "date": "2026-11-17",
@@ -27251,6 +27324,12 @@
      "from": "CANDIDATE",
      "reason_code": "SETUP_OK",
      "to": "WATCH"
+    },
+    {
+     "date": "2026-11-25",
+     "from": "WATCH",
+     "reason_code": "BELOW_MA20",
+     "to": "BROKEN"
     }
    ],
    "watch_started_at": "2026-11-17"
@@ -27262,11 +27341,12 @@
    "company_name": "PILLAR",
    "episode_id": "6490-2026-11-17",
    "event_ids": [
-    "edinet:S100ZE2P"
+    "edinet:S100ZE2P",
+    "edinet:S100ZICG"
    ],
    "initial_bench": null,
    "initial_price": null,
-   "last_trigger_at": "2026-11-17",
+   "last_trigger_at": "2026-11-25",
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100ZE2P",
    "security_code": "6490",
@@ -27292,11 +27372,12 @@
    "episode_id": "6941-2026-11-17",
    "event_ids": [
     "edinet:S100ZECP",
-    "edinet:S100ZI1W"
+    "edinet:S100ZI1W",
+    "edinet:S100ZIGM"
    ],
    "initial_bench": null,
    "initial_price": null,
-   "last_trigger_at": "2026-11-24",
+   "last_trigger_at": "2026-11-25",
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100ZECP",
    "security_code": "6941",
@@ -27811,7 +27892,8 @@
    "security_code": "3563",
    "setup_type": "TREND",
    "setups": [
-    "TREND"
+    "TREND",
+    "RECOVERY"
    ],
    "started_at": "2026-11-20",
    "status": "WATCH",

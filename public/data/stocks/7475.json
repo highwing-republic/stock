@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T05:02:30+09:00",
+  "updatedAt": "2026-11-25T18:03:57+09:00",
   "company": {
     "securityCode": "7475",
     "ticker": "7475.T",
@@ -20,7 +20,7 @@
       "purpose": "証券業務に係る商品在庫、及び累積投資業務の運営目的として保有している。 / 証券業務に係わる商品在庫として保有している。 / 信託財産の運用として保有している。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.23,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [
@@ -29,11 +29,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": -0.53,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.0,
-        "volumeRatio": null,
+        "returnCurrent": 0.53,
+        "volumeRatio": 0.23,
         "marketExcessReturn": null
       }
     },
@@ -50,22 +50,24 @@
       "holdingChange": 63.8,
       "purpose": "主として企業価値向上を目的に保有しております。但し、提出者1は、（6）「当該株券等に関する担保契約等重要な契約」に記載のとおり、2026年9月8日付で、提出者3との間で、①提出者3が発行者の普通株式（以下「発行者株式」といいます。）に対する公開買付け（以下「本件公開買付け」といいます。）を実施するにあたり、提出者1は、提出者1が所有する発行者株式の全てについて本件公開買付けに応募しないこと、②本件公開買付けが成立した場合には、発行者の株主総会において、発行者の株主を提出者3及び提出者1のみとするための株式併合の方法によるスクイーズアウト（以下「本件スクイーズアウト」といいます。）に関連する各議案に賛成すること、等の一連の取引（以下「本取引」といいます。）に関する公開買付不応募契約（以下「本不応募契約」といいます。）を締結しております。また、本取引に関連して、提出者1は、2026年9月8日付で、提出者3との間で、本取引後における発行者の運営等に関する株主間契約（以下「本株主間契約」といいます。）を締結しております。 / 該当事項なし / 発行者の非公開化を目的とした重要提案行為等を行うことを予定しております。具体的には、提出者3は、本公開買付けの決済完了後速やかに、発行者の株主を提出者3及び提出者1のみとするための株式併合の方法による本件スクイーズアウトに関連する議案含む臨時株主総会の開催を発行者に要請する予定であり、提出者3及び提出者1は、当該株主総会において上記各議案に賛成する予定です。また、本取引に関連して、提出者3は、2026年9月8日付で、提出者1との間で、本取引後における発行者の運営等に関する本株主間契約を締結しております。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.34,
-      "marketExcessReturn": null,
-      "signalScore": 30,
+      "priceChange": 0.4,
+      "volumeRatio": 0.29,
+      "marketExcessReturn": 5.12,
+      "signalScore": 50,
       "signalReasons": [
         "1pt以上買い増し",
-        "2pt以上買い増し"
+        "2pt以上買い増し",
+        "株価未反応",
+        "市場超過5%以上"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": 0.0,
-        "return5d": null,
+        "return5d": 0.4,
         "return20d": null,
-        "returnCurrent": 0.94,
-        "volumeRatio": 0.34,
-        "marketExcessReturn": null
+        "returnCurrent": 1.47,
+        "volumeRatio": 0.29,
+        "marketExcessReturn": 5.12
       }
     },
     {
@@ -91,7 +93,7 @@
         "return1d": -0.53,
         "return5d": -0.93,
         "return20d": null,
-        "returnCurrent": 0.0,
+        "returnCurrent": 0.53,
         "volumeRatio": 0.22,
         "marketExcessReturn": -6.67
       }
@@ -121,7 +123,7 @@
         "return1d": -0.13,
         "return5d": -0.13,
         "return20d": -0.13,
-        "returnCurrent": -0.13,
+        "returnCurrent": 0.4,
         "volumeRatio": 0.91,
         "marketExcessReturn": 0.88
       }
@@ -152,7 +154,7 @@
         "return1d": 0.0,
         "return5d": 0.0,
         "return20d": 0.0,
-        "returnCurrent": 0.0,
+        "returnCurrent": 0.53,
         "volumeRatio": 0.3,
         "marketExcessReturn": 4.41
       }
@@ -180,7 +182,7 @@
         "return1d": -0.26,
         "return5d": -0.26,
         "return20d": -0.13,
-        "returnCurrent": -0.13,
+        "returnCurrent": 0.4,
         "volumeRatio": 1.57,
         "marketExcessReturn": -1.48
       }
@@ -3303,9 +3305,19 @@
       "open": 3770.0,
       "high": 3770.0,
       "low": 3745.0,
-      "close": null,
-      "adj_close": null,
+      "close": 3750.0,
+      "adj_close": 3750.0,
       "volume": 2500
+    },
+    {
+      "ticker": "7475.T",
+      "trade_date": "2026-11-25",
+      "open": 3755.0,
+      "high": 3795.0,
+      "low": 3750.0,
+      "close": 3790.0,
+      "adj_close": 3790.0,
+      "volume": 13600
     }
   ],
   "benchmark": [
@@ -7418,6 +7430,16 @@
       "close": 395.8999938964844,
       "adj_close": 395.8999938964844,
       "volume": 27614150
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-25",
+      "open": 392.5,
+      "high": 395.79998779296875,
+      "low": 390.8999938964844,
+      "close": 394.70001220703125,
+      "adj_close": 394.70001220703125,
+      "volume": 15855710
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

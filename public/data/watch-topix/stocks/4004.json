@@ -5,20 +5,26 @@
   "tradingViewSymbol": "TSE:4004"
  },
  "episode": {
-  "closeReason": null,
-  "closedAt": null,
+  "closeReason": "NO_SETUP",
+  "closedAt": "2026-11-25",
   "id": "4004-2026-10-21",
   "overextended": false,
   "setupType": null,
   "setups": [],
   "startedAt": "2026-10-21",
-  "status": "CANDIDATE",
+  "status": "CLOSED",
   "statusHistory": [
    {
     "date": "2026-10-21",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-11-25",
+    "from": "CANDIDATE",
+    "reason_code": "NO_SETUP",
+    "to": "CLOSED"
    }
   ],
   "watchStartedAt": null
@@ -124,13 +130,15 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-20",
-  "buyBalance": 823400,
-  "buyChangePct": 0.5,
-  "labels": [],
-  "ratio": 7.74,
-  "sellBalance": 106400,
-  "sellChangePct": -9.6
+  "asOf": "2026-11-24",
+  "buyBalance": 748800,
+  "buyChangePct": -5.5,
+  "labels": [
+   "信用倍率改善"
+  ],
+  "ratio": 6.04,
+  "sellBalance": 124000,
+  "sellChangePct": 12.7
  },
  "pastEpisodes": [
   {
@@ -157,22 +165,22 @@
  ],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.4,
+  "distFrom52wHigh": 0.47,
   "labels": [],
-  "ma20": 12529.5,
-  "ma200": 14317.3,
-  "ma60": 14474.1,
-  "rangePos60": 0.34,
-  "rel20": 0.6,
-  "rel60": -15.5,
-  "volumeRatio20": 1.12
+  "ma20": 12455.5,
+  "ma200": 14327.2,
+  "ma60": 14386.1,
+  "rangePos60": 0.2,
+  "rel20": -6.3,
+  "rel60": -25.1,
+  "volumeRatio20": 0.82
  },
  "reasons": [
   "1.2pt買い増し 14.8%→16%",
   "30日以内に2回買い増し",
-  "TOPIX連動ETF比 +0.6pt（20日）"
+  "信用買残 -6%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -294,7 +302,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-25",
+   "detail": "期限内にPrice Setupが成立しなかった",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-24T23:20:48+09:00"
+ "updatedAt": "2026-11-25T18:05:07+09:00"
 }

@@ -11,7 +11,8 @@
   "overextended": true,
   "setupType": "TREND",
   "setups": [
-   "TREND"
+   "TREND",
+   "RECOVERY"
   ],
   "startedAt": "2026-11-04",
   "status": "REACTED",
@@ -60,25 +61,25 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-20",
-  "buyBalance": 98400,
-  "buyChangePct": 27.3,
+  "asOf": "2026-11-24",
+  "buyBalance": 111500,
+  "buyChangePct": 38.9,
   "labels": [
    "信用買残急増",
    "信用倍率悪化"
   ],
-  "ratio": 1.11,
-  "sellBalance": 88900,
-  "sellChangePct": -7.4
+  "ratio": 1.22,
+  "sellBalance": 91700,
+  "sellChangePct": -0.8
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -4.4,
-  "currentPrice": 2298.0,
+  "benchReturn": -4.7,
+  "currentPrice": 2343.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 7,
+   "pendingDays": 6,
    "stockReturn": null
   },
   "d5": {
@@ -90,37 +91,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 47,
+   "pendingDays": 46,
    "stockReturn": null
   },
-  "excessReturn": 9.1,
+  "excessReturn": 11.5,
   "initialDate": "2026-11-04",
   "initialPrice": 2194.5,
-  "stockReturn": 4.7
+  "stockReturn": 6.8
  },
  "priceSetup": {
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.04,
+  "distFrom52wHigh": 0.02,
   "labels": [
    "20日線の上",
-   "60日レンジ上位17%",
+   "60日レンジ上位8%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2210.4,
-  "ma200": 1898.9,
-  "ma60": 2060.3,
-  "rangePos60": 0.83,
-  "rel20": 17.0,
-  "rel60": 26.8,
-  "volumeRatio20": 0.78
+  "ma20": 2224.5,
+  "ma200": 1900.7,
+  "ma60": 2067.2,
+  "rangePos60": 0.92,
+  "rel20": 19.4,
+  "rel60": 29.1,
+  "volumeRatio20": 0.89
  },
  "reasons": [
   "新規大量保有 5%（Ｆａｒａｌｌｏｎ　Ｃａｐｉｔａｌ　Ｍａｎａｇｅｍｅｎｔ，　Ｌ．Ｌ．Ｃ．）",
-  "60日レンジ上位17%",
+  "60日レンジ上位8%",
   "20日線上向き",
-  "TOPIX連動ETF比 +17pt（20日）"
+  "TOPIX連動ETF比 +19.4pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -209,5 +210,5 @@
    "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-24T23:20:48+09:00"
+ "updatedAt": "2026-11-25T18:05:07+09:00"
 }

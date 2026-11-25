@@ -11,10 +11,11 @@
   "overextended": false,
   "setupType": "TREND",
   "setups": [
-   "TREND"
+   "TREND",
+   "RECOVERY"
   ],
   "startedAt": "2026-11-06",
-  "status": "WATCH",
+  "status": "REACTED",
   "statusHistory": [
    {
     "date": "2026-11-06",
@@ -27,6 +28,12 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
+   },
+   {
+    "date": "2026-11-25",
+    "from": "WATCH",
+    "reason_code": "EXCESS_THRESHOLD",
+    "to": "REACTED"
    }
   ],
   "watchStartedAt": "2026-11-06"
@@ -41,24 +48,24 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-20",
-  "buyBalance": 89300,
-  "buyChangePct": -5.6,
+  "asOf": "2026-11-24",
+  "buyBalance": 91400,
+  "buyChangePct": -1.9,
   "labels": [
    "信用倍率悪化"
   ],
-  "ratio": 2.64,
-  "sellBalance": 33800,
-  "sellChangePct": -24.2
+  "ratio": 2.46,
+  "sellBalance": 37200,
+  "sellChangePct": -31.7
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 1.9,
-  "currentPrice": 2919.5,
+  "benchReturn": 1.6,
+  "currentPrice": 2995.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 9,
+   "pendingDays": 8,
    "stockReturn": null
   },
   "d5": {
@@ -70,37 +77,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 49,
+   "pendingDays": 48,
    "stockReturn": null
   },
-  "excessReturn": 6.9,
+  "excessReturn": 10.0,
   "initialDate": "2026-11-06",
   "initialPrice": 2683.0,
-  "stockReturn": 8.8
+  "stockReturn": 11.6
  },
  "priceSetup": {
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.04,
+  "distFrom52wHigh": 0.02,
   "labels": [
    "20日線の上",
-   "60日レンジ上位19%",
+   "60日レンジ上位8%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2754.5,
-  "ma200": 2462.3,
-  "ma60": 2594.7,
-  "rangePos60": 0.81,
-  "rel20": 16.2,
-  "rel60": 21.1,
-  "volumeRatio20": 0.99
+  "ma20": 2771.4,
+  "ma200": 2465.1,
+  "ma60": 2601.8,
+  "rangePos60": 0.92,
+  "rel20": 18.4,
+  "rel60": 24.0,
+  "volumeRatio20": 0.98
  },
  "reasons": [
   "新規大量保有 5%（Ｃｏｌｕｍｂｉａ　Ｍａｎａｇｅｍｅｎｔ　Ｉｎｖｅｓｔｍｅｎｔ　Ａｄｖｉｓｅｒｓ，　ＬＬＣ）",
-  "60日レンジ上位19%",
+  "60日レンジ上位8%",
   "20日線上向き",
-  "TOPIX連動ETF比 +16.2pt（20日）"
+  "TOPIX連動ETF比 +18.4pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -138,7 +145,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-25",
+   "detail": "TOPIX連動ETFとの差が大きくなった",
+   "kind": "STATUS",
+   "label": "REACTED",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-24T23:20:48+09:00"
+ "updatedAt": "2026-11-25T18:05:07+09:00"
 }

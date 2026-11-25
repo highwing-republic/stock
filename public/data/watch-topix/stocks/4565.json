@@ -10,7 +10,9 @@
   "id": "4565-2026-08-21",
   "overextended": true,
   "setupType": "TREND",
-  "setups": [],
+  "setups": [
+   "TREND"
+  ],
   "startedAt": "2026-08-21",
   "status": "REACTED",
   "statusHistory": [
@@ -99,20 +101,20 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-20",
-  "buyBalance": 8570900,
-  "buyChangePct": -4.6,
+  "asOf": "2026-11-24",
+  "buyBalance": 8610400,
+  "buyChangePct": -3.8,
   "labels": [
    "信用倍率改善"
   ],
-  "ratio": 56.09,
-  "sellBalance": 152800,
-  "sellChangePct": 14.5
+  "ratio": 64.64,
+  "sellBalance": 133200,
+  "sellChangePct": 9.8
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -6.6,
-  "currentPrice": 1674.0,
+  "benchReturn": -6.9,
+  "currentPrice": 1864.0,
   "d20": {
    "benchReturn": 0.5,
    "excessReturn": 17.3,
@@ -131,34 +133,34 @@
    "pendingDays": 0,
    "stockReturn": 45.1
   },
-  "excessReturn": 58.4,
+  "excessReturn": 75.9,
   "initialDate": "2026-08-21",
   "initialPrice": 1103.0,
-  "stockReturn": 51.8
+  "stockReturn": 69.0
  },
  "priceSetup": {
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.11,
+  "distFrom52wHigh": 0.01,
   "labels": [
    "20日線の上",
-   "60日レンジ上位26%",
+   "60日レンジ上位3%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 1626.1,
-  "ma200": 1081.6,
-  "ma60": 1350.6,
-  "rangePos60": 0.74,
-  "rel20": 29.5,
-  "rel60": 59.2,
-  "volumeRatio20": 0.75
+  "ma20": 1651.2,
+  "ma200": 1086.9,
+  "ma60": 1363.2,
+  "rangePos60": 0.97,
+  "rel20": 42.4,
+  "rel60": 75.7,
+  "volumeRatio20": 1.67
  },
  "reasons": [
   "新規大量保有 5.3%（野村證券株式会社）",
-  "60日レンジ上位26%",
-  "20日線を回復",
-  "TOPIX連動ETF比 +29.5pt（20日）"
+  "60日レンジ上位3%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +42.4pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -476,7 +478,21 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-25",
+   "detail": "保有割合 5.3%（Ｃｈｒｉｓｔｏｐｈｅｒ　Ｒｏｂｅｒｔ　Ｃａｒｇｉｌｌ）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJYB"
+  },
+  {
+   "date": "2026-11-25",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-24T23:20:48+09:00"
+ "updatedAt": "2026-11-25T18:05:07+09:00"
 }

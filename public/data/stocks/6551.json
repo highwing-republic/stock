@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T05:02:30+09:00",
+  "updatedAt": "2026-11-25T18:03:57+09:00",
   "company": {
     "securityCode": "6551",
     "ticker": "6551.T",
@@ -7,13 +7,13 @@
   },
   "events": [
     {
-      "docId": "S100ZJF5",
+      "docId": "S100ZJPV",
       "ticker": "6551.T",
       "securityCode": "6551",
       "companyName": "株式会社ツナググループ・ホールディングス",
-      "submitDatetime": "2026-11-24 12:33",
+      "submitDatetime": "2026-11-25 16:07",
       "filerName": "大谷　寛",
-      "reportType": "change",
+      "reportType": "correction",
       "holdingRatio": 6.22,
       "previousHoldingRatio": 5.35,
       "holdingChange": 0.87,
@@ -29,8 +29,36 @@
         "return1d": null,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.0,
+        "returnCurrent": 0.32,
         "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
+    {
+      "docId": "S100ZJF5",
+      "ticker": "6551.T",
+      "securityCode": "6551",
+      "companyName": "株式会社ツナググループ・ホールディングス",
+      "submitDatetime": "2026-11-24 12:33",
+      "filerName": "大谷　寛",
+      "reportType": "change",
+      "holdingRatio": 6.22,
+      "previousHoldingRatio": 5.35,
+      "holdingChange": 0.87,
+      "purpose": "純投資",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": 0.8,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": 1.14,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 1.14,
+        "volumeRatio": 0.8,
         "marketExcessReturn": null
       }
     },
@@ -47,21 +75,22 @@
       "holdingChange": null,
       "purpose": "純投資",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 1.27,
-      "marketExcessReturn": null,
-      "signalScore": 30,
+      "priceChange": -0.16,
+      "volumeRatio": 1.22,
+      "marketExcessReturn": 4.56,
+      "signalScore": 40,
       "signalReasons": [
-        "新規大量保有"
+        "新規大量保有",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": 0.81,
-        "return5d": null,
+        "return5d": -0.16,
         "return20d": null,
-        "returnCurrent": -0.97,
-        "volumeRatio": 1.27,
-        "marketExcessReturn": null
+        "returnCurrent": 0.16,
+        "volumeRatio": 1.22,
+        "marketExcessReturn": 4.56
       }
     },
     {
@@ -89,7 +118,7 @@
         "return1d": 2.45,
         "return5d": 5.85,
         "return20d": 11.32,
-        "returnCurrent": 15.47,
+        "returnCurrent": 16.79,
         "volumeRatio": 0.5,
         "marketExcessReturn": 2.28
       }
@@ -3212,9 +3241,19 @@
       "open": 613.0,
       "high": 625.0,
       "low": 613.0,
-      "close": null,
-      "adj_close": null,
+      "close": 617.0,
+      "adj_close": 617.0,
       "volume": 20400
+    },
+    {
+      "ticker": "6551.T",
+      "trade_date": "2026-11-25",
+      "open": 619.0,
+      "high": 623.0,
+      "low": 613.0,
+      "close": 619.0,
+      "adj_close": 619.0,
+      "volume": 17700
     }
   ],
   "benchmark": [
@@ -7327,6 +7366,16 @@
       "close": 395.8999938964844,
       "adj_close": 395.8999938964844,
       "volume": 27614150
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-25",
+      "open": 392.5,
+      "high": 395.79998779296875,
+      "low": 390.8999938964844,
+      "close": 394.70001220703125,
+      "adj_close": 394.70001220703125,
+      "volume": 15855710
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

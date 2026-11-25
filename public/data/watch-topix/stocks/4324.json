@@ -113,18 +113,18 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-20",
-  "buyBalance": 124600,
-  "buyChangePct": -4.4,
+  "asOf": "2026-11-24",
+  "buyBalance": 121900,
+  "buyChangePct": -3.0,
   "labels": [],
   "ratio": 0.21,
-  "sellBalance": 587900,
-  "sellChangePct": 0.4
+  "sellBalance": 578300,
+  "sellChangePct": -5.1
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -5.4,
-  "currentPrice": 3644.0,
+  "benchReturn": -5.7,
+  "currentPrice": 3721.0,
   "d20": {
    "benchReturn": -0.3,
    "excessReturn": 14.5,
@@ -143,39 +143,34 @@
    "pendingDays": 0,
    "stockReturn": 14.8
   },
-  "excessReturn": 22.8,
+  "excessReturn": 25.5,
   "initialDate": "2026-07-02",
   "initialPrice": 3105.0,
-  "stockReturn": 17.4
+  "stockReturn": 19.8
  },
  "priceSetup": {
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.11,
-  "labels": [],
-  "ma20": 3830.8,
-  "ma200": 3278.8,
-  "ma60": 3704.8,
-  "rangePos60": 0.26,
-  "rel20": 1.0,
-  "rel60": 8.5,
-  "volumeRatio20": 1.23
+  "distFrom52wHigh": 0.09,
+  "labels": [
+   "60日線の上"
+  ],
+  "ma20": 3827.3,
+  "ma200": 3282.4,
+  "ma60": 3706.1,
+  "rangePos60": 0.38,
+  "rel20": 3.9,
+  "rel60": 9.7,
+  "volumeRatio20": 0.84
  },
  "reasons": [
   "0.1pt買い増し 7.7%→7.8%",
   "30日以内に2回買い増し",
-  "TOPIX連動ETF比 +1pt（20日）",
-  "信用買残 -4%"
+  "TOPIX連動ETF比 +3.9pt（20日）",
+  "52週高値まで9%"
  ],
  "schemaVersion": 1,
  "timeline": [
-  {
-   "date": "2026-07-03",
-   "detail": "60日高値を更新",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
   {
    "date": "2026-07-03",
    "detail": "TOPIX連動ETFを上回りに転換",
@@ -588,7 +583,14 @@
    "kind": "EVENT",
    "label": "保有割合の減少",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI83"
+  },
+  {
+   "date": "2026-11-25",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-24T23:20:48+09:00"
+ "updatedAt": "2026-11-25T18:05:07+09:00"
 }

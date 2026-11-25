@@ -40,34 +40,36 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-20",
-  "buyBalance": 175800,
-  "buyChangePct": 0.8,
+  "asOf": "2026-11-24",
+  "buyBalance": 177200,
+  "buyChangePct": 2.4,
   "labels": [],
-  "ratio": 2.26,
-  "sellBalance": 77900,
-  "sellChangePct": -3.7
+  "ratio": 2.2,
+  "sellBalance": 80400,
+  "sellChangePct": 6.8
  },
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.15,
+  "distFrom52wHigh": 0.13,
   "labels": [
+   "20日線の上",
    "20日線が上向き"
   ],
-  "ma20": 1823.8,
-  "ma200": 1810.9,
-  "ma60": 1849.7,
-  "rangePos60": 0.16,
-  "rel20": 4.1,
-  "rel60": -1.4,
-  "volumeRatio20": 0.59
+  "ma20": 1825.0,
+  "ma200": 1811.8,
+  "ma60": 1847.8,
+  "rangePos60": 0.37,
+  "rel20": 7.0,
+  "rel60": 1.8,
+  "volumeRatio20": 0.61
  },
  "reasons": [
   "新規大量保有 5.1%（Ｆｉｄｅｌｉｔｙ　Ｍａｎａｇｅｍｅｎｔ　＆　Ｒｅｓｅａｒｃｈ　Ｃｏｍｐａｎｙ　ＬＬＣ）",
-  "TOPIX連動ETF比 +4.1pt（20日）"
+  "20日線を回復",
+  "TOPIX連動ETF比 +7pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -84,7 +86,14 @@
    "kind": "EVENT",
    "label": "新規大量保有",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIQY"
+  },
+  {
+   "date": "2026-11-25",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-24T23:20:48+09:00"
+ "updatedAt": "2026-11-25T18:05:07+09:00"
 }

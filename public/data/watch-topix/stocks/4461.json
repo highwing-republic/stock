@@ -117,15 +117,16 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-20",
-  "buyBalance": 1267400,
-  "buyChangePct": -3.1,
+  "asOf": "2026-11-24",
+  "buyBalance": 1329100,
+  "buyChangePct": 15.0,
   "labels": [
-   "信用倍率悪化"
+   "信用倍率改善",
+   "売残増加"
   ],
-  "ratio": 125.49,
-  "sellBalance": 10100,
-  "sellChangePct": -32.7
+  "ratio": 73.43,
+  "sellBalance": 18100,
+  "sellChangePct": 58.8
  },
  "pastEpisodes": [
   {
@@ -145,22 +146,21 @@
  ],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.52,
+  "distFrom52wHigh": 0.58,
   "labels": [],
-  "ma20": 9742.0,
-  "ma200": 11094.0,
-  "ma60": 12508.8,
-  "rangePos60": 0.1,
-  "rel20": -28.5,
-  "rel60": -30.1,
-  "volumeRatio20": 1.05
+  "ma20": 9495.5,
+  "ma200": 11078.0,
+  "ma60": 12406.5,
+  "rangePos60": 0.02,
+  "rel20": -34.7,
+  "rel60": -38.2,
+  "volumeRatio20": 1.41
  },
  "reasons": [
   "1.8pt買い増し 11.9%→13.7%",
-  "30日以内に2回買い増し",
-  "信用買残 -3%"
+  "30日以内に2回買い増し"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -254,7 +254,28 @@
    "kind": "EVENT",
    "label": "保有割合の減少",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIJZ"
+  },
+  {
+   "date": "2026-11-25",
+   "detail": "10.36% → 11.93%（片山晃）",
+   "kind": "EVENT",
+   "label": "訂正報告",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJLM"
+  },
+  {
+   "date": "2026-11-25",
+   "detail": "11.93% → 13.7%（片山晃）",
+   "kind": "EVENT",
+   "label": "訂正報告",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJLL"
+  },
+  {
+   "date": "2026-11-25",
+   "detail": "7.73% → 10.36%（片山晃）",
+   "kind": "EVENT",
+   "label": "訂正報告",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJLP"
   }
  ],
- "updatedAt": "2026-11-24T23:20:48+09:00"
+ "updatedAt": "2026-11-25T18:05:07+09:00"
 }

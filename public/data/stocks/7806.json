@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T05:02:30+09:00",
+  "updatedAt": "2026-11-25T18:03:57+09:00",
   "company": {
     "securityCode": "7806",
     "ticker": "7806.T",
@@ -7,13 +7,13 @@
   },
   "events": [
     {
-      "docId": "S100ZJ1Z",
+      "docId": "S100ZJYL",
       "ticker": "7806.T",
       "securityCode": "7806",
       "companyName": "株式会社ＭＴＧ",
-      "submitDatetime": "2026-11-20 09:22",
+      "submitDatetime": "2026-11-25 16:59",
       "filerName": "松下　剛",
-      "reportType": "change",
+      "reportType": "correction",
       "holdingRatio": 61.18,
       "previousHoldingRatio": 62.59,
       "holdingChange": -1.41,
@@ -31,8 +31,38 @@
         "return1d": null,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -6.38,
+        "returnCurrent": -0.32,
         "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
+    {
+      "docId": "S100ZJ1Z",
+      "ticker": "7806.T",
+      "securityCode": "7806",
+      "companyName": "株式会社ＭＴＧ",
+      "submitDatetime": "2026-11-20 09:22",
+      "filerName": "松下　剛",
+      "reportType": "change",
+      "holdingRatio": 61.18,
+      "previousHoldingRatio": 62.59,
+      "holdingChange": -1.41,
+      "purpose": "発行会社の創業者かつ代表取締役社長であり、経営への参加及び安定株主として保有 / 安定株主として保有しております。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": 0.78,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": -4.1,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -4.41,
+        "volumeRatio": 0.78,
         "marketExcessReturn": null
       }
     }
@@ -4064,9 +4094,19 @@
       "open": 6460.0,
       "high": 6510.0,
       "low": 6100.0,
-      "close": null,
-      "adj_close": null,
+      "close": 6310.0,
+      "adj_close": 6310.0,
       "volume": 334400
+    },
+    {
+      "ticker": "7806.T",
+      "trade_date": "2026-11-25",
+      "open": 6240.0,
+      "high": 6400.0,
+      "low": 6130.0,
+      "close": 6290.0,
+      "adj_close": 6290.0,
+      "volume": 229800
     }
   ],
   "benchmark": [
@@ -8179,6 +8219,16 @@
       "close": 395.8999938964844,
       "adj_close": 395.8999938964844,
       "volume": 27614150
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-25",
+      "open": 392.5,
+      "high": 395.79998779296875,
+      "low": 390.8999938964844,
+      "close": 394.70001220703125,
+      "adj_close": 394.70001220703125,
+      "volume": 15855710
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"
