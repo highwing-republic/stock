@@ -10,9 +10,7 @@
   "id": "1870-2026-11-10",
   "overextended": false,
   "setupType": "RECOVERY",
-  "setups": [
-   "RECOVERY"
-  ],
+  "setups": [],
   "startedAt": "2026-11-10",
   "status": "STRENGTHENING",
   "statusHistory": [
@@ -64,12 +62,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -4.6,
-  "currentPrice": 2123.0,
+  "benchReturn": -4.3,
+  "currentPrice": 2071.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 11,
+   "pendingDays": 12,
    "stockReturn": null
   },
   "d5": {
@@ -81,35 +79,32 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 51,
+   "pendingDays": 52,
    "stockReturn": null
   },
-  "excessReturn": 6.0,
+  "excessReturn": 3.2,
   "initialDate": "2026-11-11",
   "initialPrice": 2094.0,
-  "stockReturn": 1.4
+  "stockReturn": -1.1
  },
  "priceSetup": {
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-24",
   "atrState": "通常",
-  "distFrom52wHigh": 0.12,
+  "distFrom52wHigh": 0.14,
   "labels": [
-   "20日線の上",
-   "20日線が上向き",
-   "60日線の上"
+   "20日線が上向き"
   ],
-  "ma20": 2106.4,
-  "ma200": 2020.5,
-  "ma60": 2097.5,
-  "rangePos60": 0.57,
-  "rel20": 6.2,
-  "rel60": 8.7,
-  "volumeRatio20": 0.73
+  "ma20": 2105.8,
+  "ma200": 2021.0,
+  "ma60": 2097.1,
+  "rangePos60": 0.32,
+  "rel20": 4.3,
+  "rel60": 5.6,
+  "volumeRatio20": 0.85
  },
  "reasons": [
   "新規大量保有 6.9%（佐藤　弘信）",
-  "20日線を回復",
-  "TOPIX連動ETF比 +6.2pt（20日）"
+  "TOPIX連動ETF比 +4.3pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -182,28 +177,7 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-11-25",
-   "detail": "なし → RECOVERY",
-   "kind": "SETUP",
-   "label": "Price Setup改善",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-25",
-   "detail": "20日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-25",
-   "detail": "60日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-25T22:33:36+09:00"
+ "updatedAt": "2026-11-26T02:44:02+09:00"
 }

@@ -12,7 +12,7 @@
   "setupType": "TREND",
   "setups": [],
   "startedAt": "2026-11-17",
-  "status": "BROKEN",
+  "status": "WATCH",
   "statusHistory": [
    {
     "date": "2026-11-17",
@@ -25,12 +25,6 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
-   },
-   {
-    "date": "2026-11-25",
-    "from": "WATCH",
-    "reason_code": "BELOW_MA20",
-    "to": "BROKEN"
    }
   ],
   "watchStartedAt": "2026-11-17"
@@ -65,51 +59,51 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -2.4,
-  "currentPrice": 3915.0,
+  "benchReturn": -2.1,
+  "currentPrice": 3870.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 15,
+   "pendingDays": 16,
    "stockReturn": null
   },
   "d5": {
-   "benchReturn": -2.4,
-   "excessReturn": -1.2,
-   "pendingDays": 0,
-   "stockReturn": -3.6
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 1,
+   "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 55,
+   "pendingDays": 56,
    "stockReturn": null
   },
-  "excessReturn": -1.2,
+  "excessReturn": -2.6,
   "initialDate": "2026-11-17",
   "initialPrice": 4060.0,
-  "stockReturn": -3.6
+  "stockReturn": -4.7
  },
  "priceSetup": {
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-24",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.06,
+  "distFrom52wHigh": 0.07,
   "labels": [
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 3971.2,
-  "ma200": 3027.3,
-  "ma60": 3807.7,
-  "rangePos60": 0.68,
-  "rel20": 6.0,
-  "rel60": 19.1,
-  "volumeRatio20": 0.99
+  "ma20": 3970.5,
+  "ma200": 3020.9,
+  "ma60": 3801.0,
+  "rangePos60": 0.63,
+  "rel20": 3.1,
+  "rel60": 17.2,
+  "volumeRatio20": 1.22
  },
  "reasons": [
   "2.4pt買い増し 44.1%→46.5%",
-  "TOPIX連動ETF比 +6pt（20日）",
-  "52週高値まで6%"
+  "TOPIX連動ETF比 +3.1pt（20日）",
+  "52週高値まで7%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -140,14 +134,7 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-11-25",
-   "detail": "20日線を連続で下回った",
-   "kind": "STATUS",
-   "label": "BROKEN",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-25T22:33:36+09:00"
+ "updatedAt": "2026-11-26T02:44:02+09:00"
 }
