@@ -1,0 +1,134 @@
+{
+ "company": {
+  "name": "清水建設",
+  "securityCode": "1803",
+  "tradingViewSymbol": "TSE:1803"
+ },
+ "episode": {
+  "closeReason": "NO_SETUP",
+  "closedAt": "2026-11-19",
+  "id": "1803-2026-10-21",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-10-21",
+  "status": "CLOSED",
+  "statusHistory": [
+   {
+    "date": "2026-10-21",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-11-19",
+    "from": "CANDIDATE",
+    "reason_code": "NO_SETUP",
+    "to": "CLOSED"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": 1.6,
+   "d20": 7.2,
+   "d5": 4.9,
+   "eventId": "edinet:S100Z8Y6",
+   "excess5": 5.2
+  }
+ ],
+ "margin": {
+  "asOf": "2026-11-25",
+  "buyBalance": 2603600,
+  "buyChangePct": -4.6,
+  "labels": [],
+  "ratio": 41.72,
+  "sellBalance": 62400,
+  "sellChangePct": 2.3
+ },
+ "pastEpisodes": [],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-11-25",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.39,
+  "labels": [
+   "20日線の上",
+   "20日線が上向き"
+  ],
+  "ma20": 2120.5,
+  "ma200": 2556.3,
+  "ma60": 2175.0,
+  "rangePos60": 0.38,
+  "rel20": 8.9,
+  "rel60": -0.9,
+  "volumeRatio20": 0.73
+ },
+ "reasons": [
+  "新規大量保有 5.4%（野村證券株式会社）",
+  "20日線を回復",
+  "TOPIX連動ETF比 +8.9pt（20日）",
+  "信用買残 -5%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-10-21",
+   "detail": "保有割合 5.41%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8Y6"
+  },
+  {
+   "date": "2026-10-26",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-10-28",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-05",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-12",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-19",
+   "detail": "期限内にPrice Setupが成立しなかった",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-25",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-11-27T02:22:04+09:00"
+}

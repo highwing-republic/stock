@@ -3544,9 +3544,7 @@
    "primary_trigger_event_id": "edinet:S100Z3M6",
    "security_code": "4613",
    "setup_type": "TREND",
-   "setups": [
-    "TREND"
-   ],
+   "setups": [],
    "started_at": "2026-09-25",
    "status": "REACTED",
    "status_history": [
@@ -4232,8 +4230,7 @@
    "security_code": "4307",
    "setup_type": "TREND",
    "setups": [
-    "TREND",
-    "RECOVERY"
+    "TREND"
    ],
    "started_at": "2026-10-05",
    "status": "REACTED",
@@ -5551,8 +5548,7 @@
    "security_code": "7269",
    "setup_type": "TREND",
    "setups": [
-    "TREND",
-    "RECOVERY"
+    "TREND"
    ],
    "started_at": "2026-10-22",
    "status": "REACTED",
@@ -5853,7 +5849,9 @@
    "primary_trigger_event_id": "edinet:S100Z9VH",
    "security_code": "4536",
    "setup_type": "TREND",
-   "setups": [],
+   "setups": [
+    "TREND"
+   ],
    "started_at": "2026-10-26",
    "status": "REACTED",
    "status_history": [
@@ -6340,11 +6338,9 @@
    "primary_trigger_event_id": "edinet:S100ZBQS",
    "security_code": "4507",
    "setup_type": "RECOVERY",
-   "setups": [
-    "RECOVERY"
-   ],
+   "setups": [],
    "started_at": "2026-11-06",
-   "status": "STRENGTHENING",
+   "status": "WATCH",
    "status_history": [
     {
      "date": "2026-11-06",
@@ -6357,12 +6353,6 @@
      "from": "CANDIDATE",
      "reason_code": "SETUP_OK",
      "to": "WATCH"
-    },
-    {
-     "date": "2026-11-26",
-     "from": "WATCH",
-     "reason_code": "SETUP_IMPROVED",
-     "to": "STRENGTHENING"
     }
    ],
    "watch_started_at": "2026-11-06"
@@ -6912,8 +6902,7 @@
    "security_code": "6869",
    "setup_type": "TREND",
    "setups": [
-    "TREND",
-    "RECOVERY"
+    "TREND"
    ],
    "started_at": "2026-11-19",
    "status": "WATCH",
@@ -7009,33 +6998,25 @@
    "event_ids": [
     "edinet:S100ZIQY"
    ],
-   "initial_bench": 394.6000061035156,
-   "initial_price": 1835.0,
+   "initial_bench": null,
+   "initial_price": null,
    "last_trigger_at": "2026-11-20",
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100ZIQY",
    "security_code": "4732",
-   "setup_type": "RECOVERY",
-   "setups": [
-    "RECOVERY"
-   ],
+   "setup_type": null,
+   "setups": [],
    "started_at": "2026-11-20",
-   "status": "WATCH",
+   "status": "CANDIDATE",
    "status_history": [
     {
      "date": "2026-11-20",
      "from": null,
      "reason_code": "TRIGGER_EVENT",
      "to": "CANDIDATE"
-    },
-    {
-     "date": "2026-11-26",
-     "from": "CANDIDATE",
-     "reason_code": "SETUP_OK",
-     "to": "WATCH"
     }
    ],
-   "watch_started_at": "2026-11-26"
+   "watch_started_at": null
   },
   {
    "base_close": 3500.0,

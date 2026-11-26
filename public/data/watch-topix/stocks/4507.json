@@ -10,11 +10,9 @@
   "id": "4507-2026-11-06",
   "overextended": false,
   "setupType": "RECOVERY",
-  "setups": [
-   "RECOVERY"
-  ],
+  "setups": [],
   "startedAt": "2026-11-06",
-  "status": "STRENGTHENING",
+  "status": "WATCH",
   "statusHistory": [
    {
     "date": "2026-11-06",
@@ -27,12 +25,6 @@
     "from": "CANDIDATE",
     "reason_code": "SETUP_OK",
     "to": "WATCH"
-   },
-   {
-    "date": "2026-11-26",
-    "from": "WATCH",
-    "reason_code": "SETUP_IMPROVED",
-    "to": "STRENGTHENING"
    }
   ],
   "watchStartedAt": "2026-11-06"
@@ -61,12 +53,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 1.5,
-  "currentPrice": 3248.0,
+  "benchReturn": 1.6,
+  "currentPrice": 3276.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 7,
+   "pendingDays": 8,
    "stockReturn": null
   },
   "d5": {
@@ -78,37 +70,37 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 47,
+   "pendingDays": 48,
    "stockReturn": null
   },
-  "excessReturn": 7.4,
+  "excessReturn": 8.3,
   "initialDate": "2026-11-06",
   "initialPrice": 2981.5,
-  "stockReturn": 8.9
+  "stockReturn": 9.9
  },
  "priceSetup": {
-  "asOf": "2026-11-26",
+  "asOf": "2026-11-25",
   "atrState": "高ボラ",
   "distFrom52wHigh": 0.12,
   "labels": [
    "20日線の上",
-   "60日レンジ上位8%",
+   "60日レンジ上位4%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 3110.0,
-  "ma200": 3036.3,
-  "ma60": 2954.7,
-  "rangePos60": 0.92,
-  "rel20": 13.1,
-  "rel60": 20.4,
-  "volumeRatio20": 0.73
+  "ma20": 3099.4,
+  "ma200": 3035.3,
+  "ma60": 2948.7,
+  "rangePos60": 0.96,
+  "rel20": 13.0,
+  "rel60": 21.5,
+  "volumeRatio20": 1.27
  },
  "reasons": [
   "1.1pt買い増し 7.2%→8.3%",
-  "60日レンジ上位8%",
+  "60日レンジ上位4%",
   "20日線上向き",
-  "TOPIX連動ETF比 +13.1pt（20日）"
+  "TOPIX連動ETF比 +13pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -153,21 +145,7 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-11-26",
-   "detail": "なし → RECOVERY",
-   "kind": "SETUP",
-   "label": "Price Setup改善",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-26",
-   "detail": "Price Setupが改善",
-   "kind": "STATUS",
-   "label": "STRENGTHENING",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-26T22:11:34+09:00"
+ "updatedAt": "2026-11-27T02:22:04+09:00"
 }

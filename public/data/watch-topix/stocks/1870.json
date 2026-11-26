@@ -9,9 +9,8 @@
   "closedAt": null,
   "id": "1870-2026-11-10",
   "overextended": false,
-  "setupType": "TREND",
+  "setupType": "RECOVERY",
   "setups": [
-   "TREND",
    "RECOVERY"
   ],
   "startedAt": "2026-11-10",
@@ -65,12 +64,12 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -4.7,
-  "currentPrice": 2170.0,
+  "benchReturn": -4.6,
+  "currentPrice": 2123.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 10,
+   "pendingDays": 11,
    "stockReturn": null
   },
   "d5": {
@@ -82,37 +81,35 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 50,
+   "pendingDays": 51,
    "stockReturn": null
   },
-  "excessReturn": 8.3,
+  "excessReturn": 6.0,
   "initialDate": "2026-11-11",
   "initialPrice": 2094.0,
-  "stockReturn": 3.6
+  "stockReturn": 1.4
  },
  "priceSetup": {
-  "asOf": "2026-11-26",
+  "asOf": "2026-11-25",
   "atrState": "通常",
-  "distFrom52wHigh": 0.1,
+  "distFrom52wHigh": 0.12,
   "labels": [
    "20日線の上",
-   "60日レンジ上位20%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2109.3,
-  "ma200": 2020.4,
-  "ma60": 2098.2,
-  "rangePos60": 0.8,
-  "rel20": 9.0,
-  "rel60": 9.9,
-  "volumeRatio20": 0.87
+  "ma20": 2106.4,
+  "ma200": 2020.5,
+  "ma60": 2097.5,
+  "rangePos60": 0.57,
+  "rel20": 6.2,
+  "rel60": 8.7,
+  "volumeRatio20": 0.73
  },
  "reasons": [
   "新規大量保有 6.9%（佐藤　弘信）",
-  "60日レンジ上位20%",
-  "20日線上向き",
-  "TOPIX連動ETF比 +9pt（20日）"
+  "20日線を回復",
+  "TOPIX連動ETF比 +6.2pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -206,14 +203,7 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-11-26",
-   "detail": "RECOVERY → TREND",
-   "kind": "SETUP",
-   "label": "Price Setup改善",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-26T22:11:34+09:00"
+ "updatedAt": "2026-11-27T02:22:04+09:00"
 }

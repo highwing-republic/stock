@@ -1,0 +1,197 @@
+{
+ "company": {
+  "name": "JMDC",
+  "securityCode": "4483",
+  "tradingViewSymbol": "TSE:4483"
+ },
+ "episode": {
+  "closeReason": "BROKEN",
+  "closedAt": "2026-11-18",
+  "id": "4483-2026-11-06",
+  "overextended": false,
+  "setupType": "RECOVERY",
+  "setups": [],
+  "startedAt": "2026-11-06",
+  "status": "CLOSED",
+  "statusHistory": [
+   {
+    "date": "2026-11-06",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-11-09",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
+   },
+   {
+    "date": "2026-11-10",
+    "from": "WATCH",
+    "reason_code": "NEW_HIGH60_VOLUME",
+    "to": "CONFIRMED"
+   },
+   {
+    "date": "2026-11-17",
+    "from": "CONFIRMED",
+    "reason_code": "BELOW_MA20",
+    "to": "BROKEN"
+   },
+   {
+    "date": "2026-11-18",
+    "from": "BROKEN",
+    "reason_code": "BROKEN",
+    "to": "CLOSED"
+   }
+  ],
+  "watchStartedAt": "2026-11-09"
+ },
+ "eventReactions": [
+  {
+   "d1": -5.2,
+   "d20": null,
+   "d5": -0.1,
+   "eventId": "edinet:S100ZBVD",
+   "excess5": 0.2
+  }
+ ],
+ "margin": {
+  "asOf": "2026-11-25",
+  "buyBalance": 89300,
+  "buyChangePct": -10.8,
+  "labels": [
+   "信用買残減少",
+   "信用倍率改善"
+  ],
+  "ratio": 1.42,
+  "sellBalance": 62700,
+  "sellChangePct": 9.0
+ },
+ "pastEpisodes": [],
+ "performance": {
+  "benchReturn": -0.0,
+  "currentPrice": 3410.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 9,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": 2.2,
+   "excessReturn": -7.8,
+   "pendingDays": 0,
+   "stockReturn": -5.6
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 49,
+   "stockReturn": null
+  },
+  "excessReturn": -13.2,
+  "initialDate": "2026-11-09",
+  "initialPrice": 3930.0,
+  "stockReturn": -13.2
+ },
+ "priceSetup": {
+  "asOf": "2026-11-25",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.21,
+  "labels": [],
+  "ma20": 3683.5,
+  "ma200": 3364.3,
+  "ma60": 3635.2,
+  "rangePos60": 0.32,
+  "rel20": 2.9,
+  "rel60": 11.4,
+  "volumeRatio20": 0.65
+ },
+ "reasons": [
+  "新規大量保有 5.3%（野村證券株式会社）",
+  "TOPIX連動ETF比 +2.9pt（20日）",
+  "信用買残 -11%"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-11-06",
+   "detail": "保有割合 5.28%（野村證券株式会社）",
+   "kind": "EVENT",
+   "label": "新規大量保有",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBVD"
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-10",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-10",
+   "detail": "60日高値を出来高増で更新",
+   "kind": "STATUS",
+   "label": "CONFIRMED",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-12",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-17",
+   "detail": "20日線を連続で下回った",
+   "kind": "STATUS",
+   "label": "BROKEN",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-18",
+   "detail": "Price Setupが崩れた",
+   "kind": "STATUS",
+   "label": "CLOSED",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-19",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-25",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  }
+ ],
+ "updatedAt": "2026-11-27T02:22:04+09:00"
+}

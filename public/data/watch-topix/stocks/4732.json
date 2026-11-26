@@ -9,27 +9,19 @@
   "closedAt": null,
   "id": "4732-2026-11-20",
   "overextended": false,
-  "setupType": "RECOVERY",
-  "setups": [
-   "RECOVERY"
-  ],
+  "setupType": null,
+  "setups": [],
   "startedAt": "2026-11-20",
-  "status": "WATCH",
+  "status": "CANDIDATE",
   "statusHistory": [
    {
     "date": "2026-11-20",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
-   },
-   {
-    "date": "2026-11-26",
-    "from": "CANDIDATE",
-    "reason_code": "SETUP_OK",
-    "to": "WATCH"
    }
   ],
-  "watchStartedAt": "2026-11-26"
+  "watchStartedAt": null
  },
  "eventReactions": [
   {
@@ -57,52 +49,27 @@
   "sellChangePct": 4.0
  },
  "pastEpisodes": [],
- "performance": {
-  "benchReturn": 0.0,
-  "currentPrice": 1835.0,
-  "d20": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 20,
-   "stockReturn": null
-  },
-  "d5": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 5,
-   "stockReturn": null
-  },
-  "d60": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 60,
-   "stockReturn": null
-  },
-  "excessReturn": 0.0,
-  "initialDate": "2026-11-26",
-  "initialPrice": 1835.0,
-  "stockReturn": 0.0
- },
+ "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-26",
+  "asOf": "2026-11-25",
   "atrState": "高ボラ",
   "distFrom52wHigh": 0.13,
   "labels": [
    "20日線の上",
    "20日線が上向き"
   ],
-  "ma20": 1826.1,
-  "ma200": 1812.7,
-  "ma60": 1845.6,
+  "ma20": 1825.0,
+  "ma200": 1811.8,
+  "ma60": 1847.8,
   "rangePos60": 0.37,
-  "rel20": 7.5,
-  "rel60": 1.2,
-  "volumeRatio20": 0.39
+  "rel20": 7.0,
+  "rel60": 1.8,
+  "volumeRatio20": 0.61
  },
  "reasons": [
   "新規大量保有 5.1%（Ｆｉｄｅｌｉｔｙ　Ｍａｎａｇｅｍｅｎｔ　＆　Ｒｅｓｅａｒｃｈ　Ｃｏｍｐａｎｙ　ＬＬＣ）",
-  "20日線上向き",
-  "TOPIX連動ETF比 +7.5pt（20日）"
+  "20日線を回復",
+  "TOPIX連動ETF比 +7pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -126,21 +93,7 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-11-26",
-   "detail": "なし → RECOVERY",
-   "kind": "SETUP",
-   "label": "Price Setup改善",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-26",
-   "detail": "Price Setupが成立",
-   "kind": "STATUS",
-   "label": "WATCH",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-26T22:11:34+09:00"
+ "updatedAt": "2026-11-27T02:22:04+09:00"
 }

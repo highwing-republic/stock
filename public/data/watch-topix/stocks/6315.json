@@ -10,7 +10,9 @@
   "id": "6315-2026-11-09",
   "overextended": true,
   "setupType": "RECOVERY",
-  "setups": [],
+  "setups": [
+   "RECOVERY"
+  ],
   "startedAt": "2026-11-09",
   "status": "CANDIDATE",
   "statusHistory": [
@@ -77,23 +79,25 @@
  ],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-26",
+  "asOf": "2026-11-25",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.43,
+  "distFrom52wHigh": 0.41,
   "labels": [
+   "20日線の上",
    "20日線が上向き"
   ],
-  "ma20": 2169.8,
-  "ma200": 2621.4,
-  "ma60": 2218.3,
-  "rangePos60": 0.48,
-  "rel20": 9.5,
-  "rel60": -0.6,
-  "volumeRatio20": 1.43
+  "ma20": 2166.3,
+  "ma200": 2626.0,
+  "ma60": 2221.6,
+  "rangePos60": 0.56,
+  "rel20": 19.2,
+  "rel60": 1.7,
+  "volumeRatio20": 1.12
  },
  "reasons": [
   "新規大量保有 6.1%（エフィッシモ　キャピタル　マネージメント　ピーティーイー　エルティーディー（Ｅｆｆｉｓｓｉｍｏ　Ｃａｐｉｔａｌ　Ｍａｎａｇｅｍｅｎｔ　Ｐｔｅ　Ｌｔｄ））",
-  "TOPIX連動ETF比 +9.5pt（20日）",
+  "20日線上向き",
+  "TOPIX連動ETF比 +19.2pt（20日）",
   "信用買残 -12%"
  ],
  "schemaVersion": 1,
@@ -181,14 +185,7 @@
    "kind": "EVENT",
    "label": "大幅な買い増し",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIZ0"
-  },
-  {
-   "date": "2026-11-26",
-   "detail": "RECOVERY → なし",
-   "kind": "SETUP",
-   "label": "Price Setup解消",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-26T22:11:34+09:00"
+ "updatedAt": "2026-11-27T02:22:04+09:00"
 }
