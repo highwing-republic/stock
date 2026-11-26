@@ -86,27 +86,25 @@
   },
   {
    "d1": -0.2,
-   "d20": null,
+   "d20": -6.5,
    "d5": -0.5,
    "eventId": "edinet:S100Z9T5",
    "excess5": 0.8
   }
  ],
  "margin": {
-  "asOf": "2026-11-24",
-  "buyBalance": 53300,
-  "buyChangePct": -2.0,
-  "labels": [
-   "信用倍率改善"
-  ],
-  "ratio": 0.53,
-  "sellBalance": 100200,
-  "sellChangePct": 8.8
+  "asOf": "2026-11-25",
+  "buyBalance": 54000,
+  "buyChangePct": -2.9,
+  "labels": [],
+  "ratio": 0.56,
+  "sellBalance": 97200,
+  "sellChangePct": 5.3
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -5.2,
-  "currentPrice": 1490.0,
+  "benchReturn": -5.5,
+  "currentPrice": 1510.0,
   "d20": {
    "benchReturn": -1.2,
    "excessReturn": 17.2,
@@ -125,28 +123,28 @@
    "pendingDays": 0,
    "stockReturn": 14.0
   },
-  "excessReturn": 11.3,
+  "excessReturn": 13.0,
   "initialDate": "2026-07-01",
   "initialPrice": 1404.5,
-  "stockReturn": 6.1
+  "stockReturn": 7.5
  },
  "priceSetup": {
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-26",
   "atrState": "通常",
-  "distFrom52wHigh": 0.19,
+  "distFrom52wHigh": 0.18,
   "labels": [],
-  "ma20": 1561.5,
-  "ma200": 1520.8,
-  "ma60": 1565.9,
-  "rangePos60": 0.25,
-  "rel20": 0.8,
-  "rel60": 6.0,
-  "volumeRatio20": 1.93
+  "ma20": 1552.0,
+  "ma200": 1519.1,
+  "ma60": 1565.8,
+  "rangePos60": 0.33,
+  "rel20": 0.9,
+  "rel60": 7.7,
+  "volumeRatio20": 2.7
  },
  "reasons": [
   "新規大量保有 5.1%（ブラックロック・ジャパン株式会社）",
-  "TOPIX連動ETF比 +0.8pt（20日）",
-  "信用買残 -2%"
+  "TOPIX連動ETF比 +0.9pt（20日）",
+  "信用買残 -3%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -436,7 +434,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-26",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-26T04:04:29+09:00"
+ "updatedAt": "2026-11-26T17:53:49+09:00"
 }

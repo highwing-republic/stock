@@ -34,39 +34,46 @@
   {
    "d1": 0.9,
    "d20": null,
-   "d5": null,
+   "d5": 0.3,
    "eventId": "edinet:S100ZIJF",
-   "excess5": null
+   "excess5": 2.1
   }
  ],
  "margin": {
-  "asOf": "2026-11-24",
-  "buyBalance": 34300,
-  "buyChangePct": 3.6,
-  "labels": [],
-  "ratio": 1.94,
-  "sellBalance": 17700,
-  "sellChangePct": -11.5
+  "asOf": "2026-11-25",
+  "buyBalance": 31200,
+  "buyChangePct": -10.3,
+  "labels": [
+   "信用買残減少",
+   "信用倍率改善"
+  ],
+  "ratio": 1.68,
+  "sellBalance": 18600,
+  "sellChangePct": 2.2
  },
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-26",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.05,
-  "labels": [],
-  "ma20": 2012.3,
-  "ma200": 1892.2,
-  "ma60": 2012.0,
-  "rangePos60": 0.47,
-  "rel20": 1.4,
-  "rel60": 4.5,
-  "volumeRatio20": 0.8
+  "distFrom52wHigh": 0.04,
+  "labels": [
+   "20日線の上",
+   "60日線の上"
+  ],
+  "ma20": 2009.4,
+  "ma200": 1894.3,
+  "ma60": 2011.5,
+  "rangePos60": 0.59,
+  "rel20": 4.6,
+  "rel60": 6.5,
+  "volumeRatio20": 0.85
  },
  "reasons": [
   "新規大量保有 5%（野村證券株式会社）",
-  "TOPIX連動ETF比 +1.4pt（20日）",
-  "52週高値まで5%"
+  "TOPIX連動ETF比 +4.6pt（20日）",
+  "52週高値まで4%",
+  "信用買残 -10%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -97,7 +104,21 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-25",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-25",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-26T04:03:43+09:00"
+ "updatedAt": "2026-11-26T17:53:03+09:00"
 }

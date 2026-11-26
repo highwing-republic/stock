@@ -107,24 +107,24 @@
   {
    "d1": 0.0,
    "d20": null,
-   "d5": null,
+   "d5": -2.2,
    "eventId": "edinet:S100ZI83",
-   "excess5": null
+   "excess5": -0.4
   }
  ],
  "margin": {
-  "asOf": "2026-11-24",
-  "buyBalance": 121900,
-  "buyChangePct": -3.0,
+  "asOf": "2026-11-25",
+  "buyBalance": 119900,
+  "buyChangePct": -5.5,
   "labels": [],
-  "ratio": 0.21,
-  "sellBalance": 578300,
-  "sellChangePct": -5.1
+  "ratio": 0.22,
+  "sellBalance": 552300,
+  "sellChangePct": -7.6
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -5.4,
-  "currentPrice": 3644.0,
+  "benchReturn": -5.7,
+  "currentPrice": 3703.0,
   "d20": {
    "benchReturn": -0.3,
    "excessReturn": 14.5,
@@ -143,39 +143,32 @@
    "pendingDays": 0,
    "stockReturn": 14.8
   },
-  "excessReturn": 22.8,
+  "excessReturn": 25.0,
   "initialDate": "2026-07-02",
   "initialPrice": 3105.0,
-  "stockReturn": 17.4
+  "stockReturn": 19.3
  },
  "priceSetup": {
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-26",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.11,
+  "distFrom52wHigh": 0.1,
   "labels": [],
-  "ma20": 3830.8,
-  "ma200": 3278.8,
-  "ma60": 3704.8,
-  "rangePos60": 0.26,
-  "rel20": 1.0,
-  "rel60": 8.5,
-  "volumeRatio20": 1.23
+  "ma20": 3825.2,
+  "ma200": 3286.1,
+  "ma60": 3707.6,
+  "rangePos60": 0.35,
+  "rel20": 5.0,
+  "rel60": 10.2,
+  "volumeRatio20": 0.73
  },
  "reasons": [
   "0.1pt買い増し 7.7%→7.8%",
   "30日以内に2回買い増し",
-  "TOPIX連動ETF比 +1pt（20日）",
-  "信用買残 -3%"
+  "TOPIX連動ETF比 +5pt（20日）",
+  "52週高値まで10%"
  ],
  "schemaVersion": 1,
  "timeline": [
-  {
-   "date": "2026-07-03",
-   "detail": "60日高値を更新",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
   {
    "date": "2026-07-03",
    "detail": "TOPIX連動ETFを上回りに転換",
@@ -588,7 +581,14 @@
    "kind": "EVENT",
    "label": "保有割合の減少",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI83"
+  },
+  {
+   "date": "2026-11-25",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-26T04:04:29+09:00"
+ "updatedAt": "2026-11-26T17:53:49+09:00"
 }

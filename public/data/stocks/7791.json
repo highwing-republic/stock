@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T04:03:30+09:00",
+  "updatedAt": "2026-11-26T17:52:52+09:00",
   "company": {
     "securityCode": "7791",
     "ticker": "7791.T",
@@ -19,9 +19,9 @@
       "holdingChange": -1.44,
       "purpose": "株式会社広島ベンチャーキャピタルが無限責任組合員になっているブルーインベストメント投資事業有限責任からの純投資として保有",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.37,
-      "marketExcessReturn": null,
+      "priceChange": -3.05,
+      "volumeRatio": 0.46,
+      "marketExcessReturn": 0.89,
       "signalScore": 0,
       "signalReasons": [
         "保有割合減少"
@@ -29,11 +29,11 @@
       "stockUnreacted": false,
       "metrics": {
         "return1d": -1.1,
-        "return5d": null,
+        "return5d": -3.05,
         "return20d": null,
-        "returnCurrent": -1.47,
-        "volumeRatio": 0.37,
-        "marketExcessReturn": null
+        "returnCurrent": -1.95,
+        "volumeRatio": 0.46,
+        "marketExcessReturn": 0.89
       }
     }
   ],
@@ -2744,9 +2744,19 @@
       "open": 805.0,
       "high": 810.0,
       "low": 794.0,
-      "close": null,
-      "adj_close": null,
+      "close": 794.0,
+      "adj_close": 794.0,
       "volume": 3400
+    },
+    {
+      "ticker": "7791.T",
+      "trade_date": "2026-11-26",
+      "open": 801.0,
+      "high": 803.0,
+      "low": 797.0,
+      "close": 803.0,
+      "adj_close": 803.0,
+      "volume": 1000
     }
   ],
   "benchmark": [
@@ -6866,9 +6876,19 @@
       "open": 392.5,
       "high": 395.79998779296875,
       "low": 390.8999938964844,
-      "close": null,
-      "adj_close": null,
+      "close": 394.70001220703125,
+      "adj_close": 394.70001220703125,
       "volume": 15855710
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-26",
+      "open": 396.8999938964844,
+      "high": 398.70001220703125,
+      "low": 393.6000061035156,
+      "close": 394.6000061035156,
+      "adj_close": 394.6000061035156,
+      "volume": 17100680
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

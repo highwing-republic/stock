@@ -1,11 +1,39 @@
 {
-  "updatedAt": "2026-11-26T04:03:30+09:00",
+  "updatedAt": "2026-11-26T17:52:52+09:00",
   "company": {
     "securityCode": "2303",
     "ticker": "2303.T",
     "name": "株式会社ドーン"
   },
   "events": [
+    {
+      "docId": "S100ZJZ2",
+      "ticker": "2303.T",
+      "securityCode": "2303",
+      "companyName": "株式会社ドーン",
+      "submitDatetime": "2026-11-26 13:55",
+      "filerName": "光通信株式会社",
+      "reportType": "change",
+      "holdingRatio": 14.32,
+      "previousHoldingRatio": 14.25,
+      "holdingChange": 0.07,
+      "purpose": "純投資",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 0.37,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100ZJD2",
       "ticker": "2303.T",
@@ -20,7 +48,7 @@
       "purpose": "純投資",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.33,
       "marketExcessReturn": null,
       "signalScore": 20,
       "signalReasons": [
@@ -28,11 +56,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": -1.16,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.0,
-        "volumeRatio": null,
+        "returnCurrent": -1.16,
+        "volumeRatio": 0.33,
         "marketExcessReturn": null
       }
     },
@@ -62,7 +90,7 @@
         "return1d": -0.59,
         "return5d": -0.22,
         "return20d": null,
-        "returnCurrent": 2.0,
+        "returnCurrent": 0.82,
         "volumeRatio": 0.71,
         "marketExcessReturn": 1.88
       }
@@ -92,8 +120,8 @@
       "metrics": {
         "return1d": 0.67,
         "return5d": -2.68,
-        "return20d": null,
-        "returnCurrent": 2.53,
+        "return20d": 1.34,
+        "returnCurrent": 1.34,
         "volumeRatio": 1.66,
         "marketExcessReturn": -1.63
       }
@@ -125,7 +153,7 @@
         "return1d": -0.07,
         "return5d": -1.57,
         "return20d": -4.05,
-        "returnCurrent": 3.15,
+        "returnCurrent": 1.95,
         "volumeRatio": 2.79,
         "marketExcessReturn": 2.84
       }
@@ -156,7 +184,7 @@
         "return1d": -1.12,
         "return5d": 1.57,
         "return20d": 0.22,
-        "returnCurrent": 2.84,
+        "returnCurrent": 1.64,
         "volumeRatio": 1.34,
         "marketExcessReturn": -1.02
       }
@@ -3289,9 +3317,19 @@
       "open": 1365.0,
       "high": 1368.0,
       "low": 1347.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1355.0,
+      "adj_close": 1355.0,
       "volume": 15300
+    },
+    {
+      "ticker": "2303.T",
+      "trade_date": "2026-11-26",
+      "open": 1348.0,
+      "high": 1368.0,
+      "low": 1348.0,
+      "close": 1360.0,
+      "adj_close": 1360.0,
+      "volume": 7700
     }
   ],
   "benchmark": [
@@ -7411,9 +7449,19 @@
       "open": 392.5,
       "high": 395.79998779296875,
       "low": 390.8999938964844,
-      "close": null,
-      "adj_close": null,
+      "close": 394.70001220703125,
+      "adj_close": 394.70001220703125,
       "volume": 15855710
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-26",
+      "open": 396.8999938964844,
+      "high": 398.70001220703125,
+      "low": 393.6000061035156,
+      "close": 394.6000061035156,
+      "adj_close": 394.6000061035156,
+      "volume": 17100680
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

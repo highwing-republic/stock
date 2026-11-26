@@ -65,18 +65,25 @@
    "d5": null,
    "eventId": "edinet:S100ZI1W",
    "excess5": null
+  },
+  {
+   "d1": -4.4,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZIGM",
+   "excess5": null
   }
  ],
  "margin": {
-  "asOf": "2026-11-24",
-  "buyBalance": 556100,
-  "buyChangePct": -0.5,
+  "asOf": "2026-11-25",
+  "buyBalance": 553100,
+  "buyChangePct": -4.9,
   "labels": [
    "信用倍率改善"
   ],
-  "ratio": 22.98,
-  "sellBalance": 24200,
-  "sellChangePct": 11.5
+  "ratio": 21.03,
+  "sellBalance": 26300,
+  "sellChangePct": 11.0
  },
  "pastEpisodes": [
   {
@@ -89,24 +96,25 @@
  ],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-24",
-  "atrState": "通常",
+  "asOf": "2026-11-26",
+  "atrState": "高ボラ",
   "distFrom52wHigh": 0.39,
   "labels": [
    "20日線の上"
   ],
-  "ma20": 6759.0,
-  "ma200": 8549.7,
-  "ma60": 7839.9,
+  "ma20": 6686.0,
+  "ma200": 8559.1,
+  "ma60": 7802.7,
   "rangePos60": 0.33,
-  "rel20": -3.6,
-  "rel60": -3.9,
-  "volumeRatio20": 1.18
+  "rel20": -3.7,
+  "rel60": -4.1,
+  "volumeRatio20": 0.81
  },
  "reasons": [
-  "1.2pt買い増し 5.4%→6.6%",
+  "1.5pt買い増し 6.6%→8%",
+  "30日以内に2回買い増し",
   "20日線を回復",
-  "信用買残 -0%"
+  "信用買残 -5%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -165,7 +173,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-26",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-26T04:04:29+09:00"
+ "updatedAt": "2026-11-26T17:53:49+09:00"
 }

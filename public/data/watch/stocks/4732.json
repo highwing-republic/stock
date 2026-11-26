@@ -9,19 +9,27 @@
   "closedAt": null,
   "id": "4732-2026-11-20",
   "overextended": false,
-  "setupType": null,
-  "setups": [],
+  "setupType": "RECOVERY",
+  "setups": [
+   "RECOVERY"
+  ],
   "startedAt": "2026-11-20",
-  "status": "CANDIDATE",
+  "status": "WATCH",
   "statusHistory": [
    {
     "date": "2026-11-20",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-11-26",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
    }
   ],
-  "watchStartedAt": null
+  "watchStartedAt": "2026-11-26"
  },
  "eventReactions": [
   {
@@ -40,34 +48,61 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-24",
-  "buyBalance": 177200,
-  "buyChangePct": 2.4,
+  "asOf": "2026-11-25",
+  "buyBalance": 176600,
+  "buyChangePct": 3.6,
   "labels": [],
-  "ratio": 2.2,
-  "sellBalance": 80400,
-  "sellChangePct": 6.8
+  "ratio": 2.21,
+  "sellBalance": 79900,
+  "sellChangePct": 4.0
  },
  "pastEpisodes": [],
- "performance": null,
+ "performance": {
+  "benchReturn": 0.0,
+  "currentPrice": 1835.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 20,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 5,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 60,
+   "stockReturn": null
+  },
+  "excessReturn": 0.0,
+  "initialDate": "2026-11-26",
+  "initialPrice": 1835.0,
+  "stockReturn": 0.0
+ },
  "priceSetup": {
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-26",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.15,
+  "distFrom52wHigh": 0.13,
   "labels": [
+   "20日線の上",
    "20日線が上向き"
   ],
-  "ma20": 1823.8,
-  "ma200": 1810.9,
-  "ma60": 1849.7,
-  "rangePos60": 0.16,
-  "rel20": 4.1,
-  "rel60": -1.4,
-  "volumeRatio20": 0.59
+  "ma20": 1826.1,
+  "ma200": 1812.7,
+  "ma60": 1845.6,
+  "rangePos60": 0.37,
+  "rel20": 7.5,
+  "rel60": 1.2,
+  "volumeRatio20": 0.39
  },
  "reasons": [
   "新規大量保有 5.1%（Ｆｉｄｅｌｉｔｙ　Ｍａｎａｇｅｍｅｎｔ　＆　Ｒｅｓｅａｒｃｈ　Ｃｏｍｐａｎｙ　ＬＬＣ）",
-  "TOPIX連動ETF比 +4.1pt（20日）"
+  "20日線上向き",
+  "TOPIX連動ETF比 +7.5pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -84,7 +119,28 @@
    "kind": "EVENT",
    "label": "新規大量保有",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIQY"
+  },
+  {
+   "date": "2026-11-25",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-26",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-26",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-26T04:03:43+09:00"
+ "updatedAt": "2026-11-26T17:53:03+09:00"
 }

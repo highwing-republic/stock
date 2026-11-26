@@ -90,9 +90,9 @@
   {
    "d1": 8.0,
    "d20": null,
-   "d5": null,
+   "d5": -4.1,
    "eventId": "edinet:S100ZEWG",
-   "excess5": null
+   "excess5": -1.7
   },
   {
    "d1": -8.6,
@@ -104,28 +104,33 @@
   {
    "d1": 0.3,
    "d20": null,
-   "d5": null,
+   "d5": -5.8,
    "eventId": "edinet:S100ZI85",
+   "excess5": -4.0
+  },
+  {
+   "d1": -11.0,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZIE6",
    "excess5": null
   },
   {
    "d1": 0.3,
    "d20": null,
-   "d5": null,
+   "d5": -5.8,
    "eventId": "edinet:S100ZIUJ",
-   "excess5": null
+   "excess5": -4.0
   }
  ],
  "margin": {
-  "asOf": "2026-11-24",
-  "buyBalance": 560900,
-  "buyChangePct": -4.2,
-  "labels": [
-   "信用倍率悪化"
-  ],
-  "ratio": 41.55,
-  "sellBalance": 13500,
-  "sellChangePct": -31.5
+  "asOf": "2026-11-25",
+  "buyBalance": 599700,
+  "buyChangePct": -6.7,
+  "labels": [],
+  "ratio": 49.98,
+  "sellBalance": 12000,
+  "sellChangePct": -21.1
  },
  "pastEpisodes": [
   {
@@ -138,25 +143,22 @@
  ],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-26",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.42,
-  "labels": [
-   "20日線の上"
-  ],
-  "ma20": 5798.0,
-  "ma200": 6837.0,
-  "ma60": 6652.2,
-  "rangePos60": 0.33,
-  "rel20": 1.1,
-  "rel60": -0.8,
-  "volumeRatio20": 0.86
+  "distFrom52wHigh": 0.46,
+  "labels": [],
+  "ma20": 5729.0,
+  "ma200": 6841.4,
+  "ma60": 6614.6,
+  "rangePos60": 0.27,
+  "rel20": -4.7,
+  "rel60": -5.7,
+  "volumeRatio20": 0.62
  },
  "reasons": [
-  "3.2pt買い増し 12.6%→15.8%",
+  "2.9pt買い増し 15.8%→18.6%",
   "30日以内に2回買い増し",
-  "20日線を回復",
-  "TOPIX連動ETF比 +1.1pt（20日）"
+  "信用買残 -7%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -271,7 +273,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-26",
+   "detail": "18.65% → 21.3%（エフィッシモ　キャピタル　マネージメント　ピーティーイー　エルティーディー（Ｅｆｆｉｓｓｉｍｏ　Ｃａｐｉｔａｌ　Ｍａｎａｇｅｍｅｎｔ　Ｐｔｅ　Ｌｔｄ））",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ0Y"
   }
  ],
- "updatedAt": "2026-11-26T04:04:29+09:00"
+ "updatedAt": "2026-11-26T17:53:49+09:00"
 }

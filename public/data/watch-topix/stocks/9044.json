@@ -9,19 +9,27 @@
   "closedAt": null,
   "id": "9044-2026-11-20",
   "overextended": false,
-  "setupType": null,
-  "setups": [],
+  "setupType": "RECOVERY",
+  "setups": [
+   "RECOVERY"
+  ],
   "startedAt": "2026-11-20",
-  "status": "CANDIDATE",
+  "status": "WATCH",
   "statusHistory": [
    {
     "date": "2026-11-20",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
+   },
+   {
+    "date": "2026-11-26",
+    "from": "CANDIDATE",
+    "reason_code": "SETUP_OK",
+    "to": "WATCH"
    }
   ],
-  "watchStartedAt": null
+  "watchStartedAt": "2026-11-26"
  },
  "eventReactions": [
   {
@@ -33,36 +41,62 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-24",
-  "buyBalance": 22200,
-  "buyChangePct": -5.9,
+  "asOf": "2026-11-25",
+  "buyBalance": 22600,
+  "buyChangePct": -3.8,
   "labels": [],
   "ratio": 0.28,
-  "sellBalance": 80400,
-  "sellChangePct": -3.5
+  "sellBalance": 82000,
+  "sellChangePct": 0.5
  },
  "pastEpisodes": [],
- "performance": null,
+ "performance": {
+  "benchReturn": 0.0,
+  "currentPrice": 3054.0,
+  "d20": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 20,
+   "stockReturn": null
+  },
+  "d5": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 5,
+   "stockReturn": null
+  },
+  "d60": {
+   "benchReturn": null,
+   "excessReturn": null,
+   "pendingDays": 60,
+   "stockReturn": null
+  },
+  "excessReturn": 0.0,
+  "initialDate": "2026-11-26",
+  "initialPrice": 3054.0,
+  "stockReturn": 0.0
+ },
  "priceSetup": {
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-26",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.09,
+  "distFrom52wHigh": 0.07,
   "labels": [
+   "20日線の上",
    "20日線が上向き"
   ],
-  "ma20": 3056.2,
-  "ma200": 2961.7,
-  "ma60": 3064.9,
-  "rangePos60": 0.27,
-  "rel20": 4.5,
-  "rel60": 6.8,
-  "volumeRatio20": 0.55
+  "ma20": 3053.7,
+  "ma200": 2963.8,
+  "ma60": 3066.2,
+  "rangePos60": 0.4,
+  "rel20": 5.7,
+  "rel60": 8.6,
+  "volumeRatio20": 0.4
  },
  "reasons": [
   "新規大量保有 5.1%（野村證券株式会社）",
-  "TOPIX連動ETF比 +4.5pt（20日）",
-  "52週高値まで9%",
-  "信用買残 -6%"
+  "20日線上向き",
+  "TOPIX連動ETF比 +5.7pt（20日）",
+  "52週高値まで7%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -72,7 +106,35 @@
    "kind": "EVENT",
    "label": "新規大量保有",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ9C"
+  },
+  {
+   "date": "2026-11-25",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-25",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-26",
+   "detail": "なし → RECOVERY",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-26",
+   "detail": "Price Setupが成立",
+   "kind": "STATUS",
+   "label": "WATCH",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-26T04:04:29+09:00"
+ "updatedAt": "2026-11-26T17:53:49+09:00"
 }

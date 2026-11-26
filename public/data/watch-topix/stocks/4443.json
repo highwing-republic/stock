@@ -79,20 +79,20 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-24",
-  "buyBalance": 345600,
-  "buyChangePct": 5.8,
+  "asOf": "2026-11-25",
+  "buyBalance": 358600,
+  "buyChangePct": 3.3,
   "labels": [
    "信用倍率悪化"
   ],
-  "ratio": 2.9,
-  "sellBalance": 119000,
-  "sellChangePct": -33.2
+  "ratio": 2.98,
+  "sellBalance": 120200,
+  "sellChangePct": -37.8
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -7.3,
-  "currentPrice": 1971.0,
+  "benchReturn": -7.6,
+  "currentPrice": 2122.0,
   "d20": {
    "benchReturn": -3.5,
    "excessReturn": 13.2,
@@ -111,27 +111,30 @@
    "pendingDays": 0,
    "stockReturn": 21.8
   },
-  "excessReturn": 22.0,
+  "excessReturn": 31.1,
   "initialDate": "2026-07-06",
   "initialPrice": 1718.0,
-  "stockReturn": 14.7
+  "stockReturn": 23.5
  },
  "priceSetup": {
-  "asOf": "2026-11-24",
-  "atrState": "高ボラ",
-  "distFrom52wHigh": 0.18,
-  "labels": [],
-  "ma20": 2140.2,
-  "ma200": 1658.8,
-  "ma60": 2108.2,
-  "rangePos60": 0.2,
-  "rel20": -2.0,
-  "rel60": -5.5,
-  "volumeRatio20": 0.69
+  "asOf": "2026-11-26",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.12,
+  "labels": [
+   "60日線の上"
+  ],
+  "ma20": 2129.7,
+  "ma200": 1664.3,
+  "ma60": 2105.8,
+  "rangePos60": 0.48,
+  "rel20": 3.8,
+  "rel60": 8.8,
+  "volumeRatio20": 0.75
  },
  "reasons": [
   "1pt買い増し 12.6%→13.7%",
-  "30日以内に2回買い増し"
+  "30日以内に2回買い増し",
+  "TOPIX連動ETF比 +3.8pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -449,7 +452,21 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-26",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-26",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-26T04:04:29+09:00"
+ "updatedAt": "2026-11-26T17:53:49+09:00"
 }

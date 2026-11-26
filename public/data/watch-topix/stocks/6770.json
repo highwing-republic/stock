@@ -61,36 +61,39 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-24",
-  "buyBalance": 290800,
-  "buyChangePct": -55.7,
+  "asOf": "2026-11-25",
+  "buyBalance": 289000,
+  "buyChangePct": -64.8,
   "labels": [
    "信用買残減少",
    "信用倍率改善"
   ],
-  "ratio": 2.7,
-  "sellBalance": 107900,
-  "sellChangePct": 10.8
+  "ratio": 2.9,
+  "sellBalance": 99800,
+  "sellChangePct": -7.5
  },
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-26",
   "atrState": "高ボラ",
   "distFrom52wHigh": 0.17,
-  "labels": [],
-  "ma20": 1947.4,
-  "ma200": 2112.8,
-  "ma60": 2102.2,
+  "labels": [
+   "20日線の上"
+  ],
+  "ma20": 1934.0,
+  "ma200": 2113.2,
+  "ma60": 2095.0,
   "rangePos60": 0.33,
   "rel20": -0.4,
-  "rel60": -3.7,
-  "volumeRatio20": 0.77
+  "rel60": -2.1,
+  "volumeRatio20": 0.48
  },
  "reasons": [
   "1.1pt買い増し 10.1%→11.2%",
   "30日以内に2回買い増し",
-  "信用買残 -56%"
+  "20日線を回復",
+  "信用買残 -65%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -128,7 +131,14 @@
    "kind": "EVENT",
    "label": "連続の買い増し",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIQK"
+  },
+  {
+   "date": "2026-11-26",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-26T04:04:29+09:00"
+ "updatedAt": "2026-11-26T17:53:49+09:00"
 }

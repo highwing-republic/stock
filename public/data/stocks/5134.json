@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-11-26T04:03:30+09:00",
+  "updatedAt": "2026-11-26T17:52:52+09:00",
   "company": {
     "securityCode": "5134",
     "ticker": "5134.T",
     "name": "株式会社ＰＯＰＥＲ"
   },
   "events": [
+    {
+      "docId": "S100ZJDE",
+      "ticker": "5134.T",
+      "securityCode": "5134",
+      "companyName": "株式会社ＰＯＰＥＲ",
+      "submitDatetime": "2026-11-26 16:16",
+      "filerName": "光通信株式会社",
+      "reportType": "change",
+      "holdingRatio": 12.74,
+      "previousHoldingRatio": 11.73,
+      "holdingChange": 1.01,
+      "purpose": "純投資",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 20,
+      "signalReasons": [
+        "1pt以上買い増し"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 0.0,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YE33",
       "ticker": "5134.T",
@@ -32,7 +62,7 @@
         "return1d": 1.28,
         "return5d": 4.48,
         "return20d": 12.79,
-        "returnCurrent": -27.93,
+        "returnCurrent": -27.51,
         "volumeRatio": 0.98,
         "marketExcessReturn": 7.23
       }
@@ -3165,9 +3195,19 @@
       "open": 338.0,
       "high": 346.0,
       "low": 338.0,
-      "close": null,
-      "adj_close": null,
+      "close": 340.0,
+      "adj_close": 340.0,
       "volume": 1300
+    },
+    {
+      "ticker": "5134.T",
+      "trade_date": "2026-11-26",
+      "open": 345.0,
+      "high": 345.0,
+      "low": 340.0,
+      "close": 340.0,
+      "adj_close": 340.0,
+      "volume": 2700
     }
   ],
   "benchmark": [
@@ -7287,9 +7327,19 @@
       "open": 392.5,
       "high": 395.79998779296875,
       "low": 390.8999938964844,
-      "close": null,
-      "adj_close": null,
+      "close": 394.70001220703125,
+      "adj_close": 394.70001220703125,
       "volume": 15855710
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-26",
+      "open": 396.8999938964844,
+      "high": 398.70001220703125,
+      "low": 393.6000061035156,
+      "close": 394.6000061035156,
+      "adj_close": 394.6000061035156,
+      "volume": 17100680
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

@@ -11,7 +11,8 @@
   "overextended": false,
   "setupType": "TREND",
   "setups": [
-   "TREND"
+   "TREND",
+   "RECOVERY"
   ],
   "startedAt": "2026-11-19",
   "status": "WATCH",
@@ -42,21 +43,21 @@
   {
    "d1": 2.1,
    "d20": null,
-   "d5": null,
+   "d5": 2.6,
    "eventId": "edinet:S100ZI86",
-   "excess5": null
+   "excess5": 4.4
   }
  ],
  "margin": {
-  "asOf": "2026-11-24",
-  "buyBalance": 540700,
-  "buyChangePct": -4.7,
+  "asOf": "2026-11-25",
+  "buyBalance": 516900,
+  "buyChangePct": -6.7,
   "labels": [
    "信用倍率悪化"
   ],
-  "ratio": 4.4,
-  "sellBalance": 123000,
-  "sellChangePct": -27.6
+  "ratio": 4.34,
+  "sellBalance": 119200,
+  "sellChangePct": -31.3
  },
  "pastEpisodes": [
   {
@@ -68,54 +69,54 @@
   }
  ],
  "performance": {
-  "benchReturn": -1.6,
-  "currentPrice": 2120.0,
+  "benchReturn": -1.9,
+  "currentPrice": 2169.5,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 18,
+   "pendingDays": 16,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 3,
+   "pendingDays": 1,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 58,
+   "pendingDays": 56,
    "stockReturn": null
   },
-  "excessReturn": -0.2,
+  "excessReturn": 2.4,
   "initialDate": "2026-11-19",
   "initialPrice": 2159.5,
-  "stockReturn": -1.8
+  "stockReturn": 0.5
  },
  "priceSetup": {
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-26",
   "atrState": "通常",
-  "distFrom52wHigh": 0.05,
+  "distFrom52wHigh": 0.03,
   "labels": [
    "20日線の上",
-   "60日レンジ上位21%",
+   "60日レンジ上位11%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2050.4,
-  "ma200": 1600.6,
-  "ma60": 1930.0,
-  "rangePos60": 0.79,
-  "rel20": 14.2,
-  "rel60": 16.5,
-  "volumeRatio20": 0.71
+  "ma20": 2071.4,
+  "ma200": 1608.2,
+  "ma60": 1937.9,
+  "rangePos60": 0.89,
+  "rel20": 17.0,
+  "rel60": 20.9,
+  "volumeRatio20": 0.58
  },
  "reasons": [
   "新規大量保有 5%（三井住友トラスト・アセットマネジメント株式会社）",
-  "60日レンジ上位21%",
+  "60日レンジ上位11%",
   "20日線上向き",
-  "TOPIX連動ETF比 +14.2pt（20日）"
+  "TOPIX連動ETF比 +17pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -141,5 +142,5 @@
    "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-26T04:03:43+09:00"
+ "updatedAt": "2026-11-26T17:53:03+09:00"
 }

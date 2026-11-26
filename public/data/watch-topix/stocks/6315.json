@@ -10,9 +10,7 @@
   "id": "6315-2026-11-09",
   "overextended": true,
   "setupType": "RECOVERY",
-  "setups": [
-   "RECOVERY"
-  ],
+  "setups": [],
   "startedAt": "2026-11-09",
   "status": "CANDIDATE",
   "statusHistory": [
@@ -56,16 +54,17 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-24",
-  "buyBalance": 3142200,
-  "buyChangePct": -11.5,
+  "asOf": "2026-11-25",
+  "buyBalance": 3086700,
+  "buyChangePct": -11.7,
   "labels": [
    "信用買残減少",
-   "信用倍率改善"
+   "信用倍率改善",
+   "売残増加"
   ],
-  "ratio": 7.43,
-  "sellBalance": 423000,
-  "sellChangePct": 16.6
+  "ratio": 5.46,
+  "sellBalance": 565100,
+  "sellChangePct": 46.7
  },
  "pastEpisodes": [
   {
@@ -78,26 +77,23 @@
  ],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-26",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.37,
+  "distFrom52wHigh": 0.43,
   "labels": [
-   "20日線の上",
-   "20日線が上向き",
-   "60日線の上"
+   "20日線が上向き"
   ],
-  "ma20": 2153.2,
-  "ma200": 2630.2,
-  "ma60": 2223.8,
-  "rangePos60": 0.69,
-  "rel20": 23.7,
-  "rel60": 7.3,
-  "volumeRatio20": 1.61
+  "ma20": 2169.8,
+  "ma200": 2621.4,
+  "ma60": 2218.3,
+  "rangePos60": 0.48,
+  "rel20": 9.5,
+  "rel60": -0.6,
+  "volumeRatio20": 1.43
  },
  "reasons": [
   "新規大量保有 6.1%（エフィッシモ　キャピタル　マネージメント　ピーティーイー　エルティーディー（Ｅｆｆｉｓｓｉｍｏ　Ｃａｐｉｔａｌ　Ｍａｎａｇｅｍｅｎｔ　Ｐｔｅ　Ｌｔｄ））",
-  "20日線上向き",
-  "TOPIX連動ETF比 +23.7pt（20日）",
+  "TOPIX連動ETF比 +9.5pt（20日）",
   "信用買残 -12%"
  ],
  "schemaVersion": 1,
@@ -178,7 +174,21 @@
    "kind": "SETUP",
    "label": "Price Setup改善",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-26",
+   "detail": "6.14% → 7.18%（エフィッシモ　キャピタル　マネージメント　ピーティーイー　エルティーディー（Ｅｆｆｉｓｓｉｍｏ　Ｃａｐｉｔａｌ　Ｍａｎａｇｅｍｅｎｔ　Ｐｔｅ　Ｌｔｄ））",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIZ0"
+  },
+  {
+   "date": "2026-11-26",
+   "detail": "RECOVERY → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-26T04:04:29+09:00"
+ "updatedAt": "2026-11-26T17:53:49+09:00"
 }

@@ -10,7 +10,9 @@
   "id": "2492-2026-07-03",
   "overextended": true,
   "setupType": "TREND",
-  "setups": [],
+  "setups": [
+   "TREND"
+  ],
   "startedAt": "2026-07-03",
   "status": "REACTED",
   "statusHistory": [
@@ -212,21 +214,21 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-24",
-  "buyBalance": 1037100,
-  "buyChangePct": -16.8,
+  "asOf": "2026-11-25",
+  "buyBalance": 988600,
+  "buyChangePct": -21.6,
   "labels": [
    "信用買残減少",
    "信用倍率改善"
   ],
-  "ratio": 1.75,
-  "sellBalance": 592600,
-  "sellChangePct": -3.5
+  "ratio": 1.55,
+  "sellBalance": 636700,
+  "sellChangePct": 7.0
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -6.5,
-  "currentPrice": 723.0,
+  "benchReturn": -6.8,
+  "currentPrice": 770.0,
   "d20": {
    "benchReturn": -2.8,
    "excessReturn": 11.8,
@@ -245,30 +247,33 @@
    "pendingDays": 0,
    "stockReturn": 54.1
   },
-  "excessReturn": 57.4,
+  "excessReturn": 67.6,
   "initialDate": "2026-07-03",
   "initialPrice": 479.0,
-  "stockReturn": 50.9
+  "stockReturn": 60.8
  },
  "priceSetup": {
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-26",
   "atrState": "通常",
-  "distFrom52wHigh": 0.11,
+  "distFrom52wHigh": 0.05,
   "labels": [
+   "20日線の上",
+   "60日レンジ上位18%",
    "60日線の上"
   ],
-  "ma20": 741.1,
-  "ma200": 522.2,
-  "ma60": 719.8,
-  "rangePos60": 0.62,
-  "rel20": -3.5,
-  "rel60": 25.3,
-  "volumeRatio20": 1.02
+  "ma20": 738.2,
+  "ma200": 525.2,
+  "ma60": 725.0,
+  "rangePos60": 0.82,
+  "rel20": 3.6,
+  "rel60": 37.0,
+  "volumeRatio20": 0.78
  },
  "reasons": [
   "1.1pt買い増し 23.6%→24.7%",
   "30日以内に2回買い増し",
-  "信用買残 -17%"
+  "60日レンジ上位18%",
+  "TOPIX連動ETF比 +3.6pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -628,7 +633,28 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-25",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-25",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-25",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-26T04:04:29+09:00"
+ "updatedAt": "2026-11-26T17:53:49+09:00"
 }

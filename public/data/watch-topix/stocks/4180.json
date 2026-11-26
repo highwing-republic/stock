@@ -54,35 +54,39 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-24",
-  "buyBalance": 930300,
-  "buyChangePct": -5.0,
-  "labels": [],
-  "ratio": 17.96,
-  "sellBalance": 51800,
-  "sellChangePct": -14.1
+  "asOf": "2026-11-25",
+  "buyBalance": 905800,
+  "buyChangePct": -9.6,
+  "labels": [
+   "信用倍率悪化"
+  ],
+  "ratio": 24.22,
+  "sellBalance": 37400,
+  "sellChangePct": -31.5
  },
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-24",
-  "atrState": "高ボラ",
-  "distFrom52wHigh": 0.17,
+  "asOf": "2026-11-26",
+  "atrState": "通常",
+  "distFrom52wHigh": 0.15,
   "labels": [
-   "20日線が上向き"
+   "20日線の上",
+   "60日線の上"
   ],
-  "ma20": 1447.2,
-  "ma200": 1056.8,
-  "ma60": 1423.2,
-  "rangePos60": 0.32,
-  "rel20": 3.7,
-  "rel60": 11.2,
-  "volumeRatio20": 0.75
+  "ma20": 1446.0,
+  "ma200": 1060.8,
+  "ma60": 1428.2,
+  "rangePos60": 0.43,
+  "rel20": 6.7,
+  "rel60": 21.7,
+  "volumeRatio20": 0.51
  },
  "reasons": [
   "新規大量保有 5.5%（ベイリー・ギフォード・アンド・カンパニー）",
-  "TOPIX連動ETF比 +3.7pt（20日）",
-  "信用買残 -5%"
+  "20日線を回復",
+  "TOPIX連動ETF比 +6.7pt（20日）",
+  "信用買残 -10%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -113,7 +117,21 @@
    "kind": "EVENT",
    "label": "新規大量保有",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIBU"
+  },
+  {
+   "date": "2026-11-26",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-26",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-26T04:04:29+09:00"
+ "updatedAt": "2026-11-26T17:53:49+09:00"
 }

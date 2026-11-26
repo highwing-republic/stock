@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-11-26T04:03:30+09:00",
+  "updatedAt": "2026-11-26T17:52:52+09:00",
   "company": {
     "securityCode": "7047",
     "ticker": "7047.T",
     "name": "ポート株式会社"
   },
   "events": [
+    {
+      "docId": "S100ZIVQ",
+      "ticker": "7047.T",
+      "securityCode": "7047",
+      "companyName": "ポート株式会社",
+      "submitDatetime": "2026-11-26 16:00",
+      "filerName": "春日　博文",
+      "reportType": "change",
+      "holdingRatio": 31.89,
+      "previousHoldingRatio": 33.19,
+      "holdingChange": -1.3,
+      "purpose": "発行会社の代表取締役であり、安定株主として株式を保有しております。 / 発行会社の代表取締役である春日博文が株式を保有する資産管理会社であり、安定株主として保有しております。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 2.75,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100ZJQ6",
       "ticker": "7047.T",
@@ -20,7 +50,7 @@
       "purpose": "純投資",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 1.05,
       "marketExcessReturn": null,
       "signalScore": 30,
       "signalReasons": [
@@ -28,11 +58,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": -1.99,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.0,
-        "volumeRatio": null,
+        "returnCurrent": -1.99,
+        "volumeRatio": 1.05,
         "marketExcessReturn": null
       }
     }
@@ -2694,9 +2724,19 @@
       "open": 1086.0,
       "high": 1089.0,
       "low": 1040.0,
-      "close": null,
-      "adj_close": null,
+      "close": 1054.0,
+      "adj_close": 1054.0,
       "volume": 585300
+    },
+    {
+      "ticker": "7047.T",
+      "trade_date": "2026-11-26",
+      "open": 1062.0,
+      "high": 1115.0,
+      "low": 1052.0,
+      "close": 1083.0,
+      "adj_close": 1083.0,
+      "volume": 395900
     }
   ],
   "benchmark": [
@@ -6816,9 +6856,19 @@
       "open": 392.5,
       "high": 395.79998779296875,
       "low": 390.8999938964844,
-      "close": null,
-      "adj_close": null,
+      "close": 394.70001220703125,
+      "adj_close": 394.70001220703125,
       "volume": 15855710
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-26",
+      "open": 396.8999938964844,
+      "high": 398.70001220703125,
+      "low": 393.6000061035156,
+      "close": 394.6000061035156,
+      "adj_close": 394.6000061035156,
+      "volume": 17100680
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

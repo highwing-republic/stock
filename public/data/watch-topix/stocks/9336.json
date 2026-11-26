@@ -52,20 +52,20 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-24",
-  "buyBalance": 38900,
-  "buyChangePct": -41.1,
+  "asOf": "2026-11-25",
+  "buyBalance": 35300,
+  "buyChangePct": -47.9,
   "labels": [
    "信用買残減少",
    "信用倍率改善"
   ],
-  "ratio": 2.33,
-  "sellBalance": 16700,
-  "sellChangePct": -18.1
+  "ratio": 2.18,
+  "sellBalance": 16200,
+  "sellChangePct": -3.6
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -8.2,
+  "benchReturn": -8.5,
   "currentPrice": 3735.0,
   "d20": {
    "benchReturn": -3.9,
@@ -82,30 +82,31 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 33,
+   "pendingDays": 31,
    "stockReturn": null
   },
-  "excessReturn": 5.6,
+  "excessReturn": 5.9,
   "initialDate": "2026-10-14",
   "initialPrice": 3835.0,
   "stockReturn": -2.6
  },
  "priceSetup": {
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-26",
   "atrState": "高ボラ",
   "distFrom52wHigh": 0.15,
   "labels": [],
-  "ma20": 4014.0,
-  "ma200": 3830.9,
-  "ma60": 3852.0,
+  "ma20": 3994.8,
+  "ma200": 3828.4,
+  "ma60": 3850.7,
   "rangePos60": 0.29,
-  "rel20": -2.8,
-  "rel60": 5.5,
-  "volumeRatio20": 1.13
+  "rel20": 1.5,
+  "rel60": 5.6,
+  "volumeRatio20": 0.88
  },
  "reasons": [
   "新規大量保有 5.1%（ＦＩＡＭ　ＬＬＣ）",
-  "信用買残 -41%"
+  "TOPIX連動ETF比 +1.5pt（20日）",
+  "信用買残 -48%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -241,7 +242,14 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-25",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-26T04:04:29+09:00"
+ "updatedAt": "2026-11-26T17:53:49+09:00"
 }

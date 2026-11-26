@@ -71,16 +71,16 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-24",
-  "buyBalance": 714600,
-  "buyChangePct": 57.2,
+  "asOf": "2026-11-25",
+  "buyBalance": 692600,
+  "buyChangePct": 47.5,
   "labels": [
    "信用買残急増",
    "信用倍率悪化"
   ],
-  "ratio": 35.91,
-  "sellBalance": 19900,
-  "sellChangePct": -40.6
+  "ratio": 29.85,
+  "sellBalance": 23200,
+  "sellChangePct": -31.0
  },
  "pastEpisodes": [
   {
@@ -97,7 +97,7 @@
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 8,
+   "pendingDays": 6,
    "stockReturn": null
   },
   "d5": {
@@ -109,7 +109,7 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 48,
+   "pendingDays": 46,
    "stockReturn": null
   },
   "excessReturn": -5.0,
@@ -118,20 +118,21 @@
   "stockReturn": -9.7
  },
  "priceSetup": {
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-26",
   "atrState": "通常",
-  "distFrom52wHigh": 0.29,
+  "distFrom52wHigh": 0.28,
   "labels": [],
-  "ma20": 2136.9,
-  "ma200": 2252.5,
-  "ma60": 2136.2,
-  "rangePos60": 0.04,
-  "rel20": -0.4,
-  "rel60": -1.8,
-  "volumeRatio20": 1.37
+  "ma20": 2127.6,
+  "ma200": 2249.4,
+  "ma60": 2130.8,
+  "rangePos60": 0.12,
+  "rel20": 2.4,
+  "rel60": 0.1,
+  "volumeRatio20": 0.63
  },
  "reasons": [
-  "新規大量保有 5%（ウエリントン・マネージメント・ジャパン・ピーティーイー・リミテッド）"
+  "新規大量保有 5%（ウエリントン・マネージメント・ジャパン・ピーティーイー・リミテッド）",
+  "TOPIX連動ETF比 +2.4pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -232,7 +233,14 @@
    "kind": "STATUS",
    "label": "CLOSED",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-25",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-26T04:03:43+09:00"
+ "updatedAt": "2026-11-26T17:53:03+09:00"
 }

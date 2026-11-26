@@ -44,41 +44,49 @@
    "d5": 5.0,
    "eventId": "edinet:S100ZE2P",
    "excess5": 8.7
+  },
+  {
+   "d1": -4.0,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZICG",
+   "excess5": null
   }
  ],
  "margin": {
-  "asOf": "2026-11-24",
-  "buyBalance": 47500,
-  "buyChangePct": 12.3,
+  "asOf": "2026-11-25",
+  "buyBalance": 50700,
+  "buyChangePct": -16.3,
   "labels": [
-   "信用倍率改善",
-   "売残増加"
+   "信用買残減少",
+   "信用倍率改善"
   ],
-  "ratio": 4.75,
-  "sellBalance": 10000,
-  "sellChangePct": 37.0
+  "ratio": 3.9,
+  "sellBalance": 13000,
+  "sellChangePct": 9.2
  },
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-26",
   "atrState": "高ボラ",
   "distFrom52wHigh": 0.27,
   "labels": [
    "20日線の上"
   ],
-  "ma20": 9397.0,
-  "ma200": 9293.0,
-  "ma60": 10132.0,
-  "rangePos60": 0.4,
-  "rel20": 3.1,
-  "rel60": 4.3,
-  "volumeRatio20": 1.11
+  "ma20": 9350.0,
+  "ma200": 9324.3,
+  "ma60": 10105.3,
+  "rangePos60": 0.38,
+  "rel20": 0.9,
+  "rel60": 2.7,
+  "volumeRatio20": 0.96
  },
  "reasons": [
-  "新規大量保有 5.6%（エフィッシモ　キャピタル　マネージメント　ピーティーイー　エルティーディー（Ｅｆｆｉｓｓｉｍｏ　Ｃａｐｉｔａｌ　Ｍａｎａｇｅｍｅｎｔ　Ｐｔｅ　Ｌｔｄ））",
+  "1.1pt買い増し 5.6%→6.7%",
   "20日線を回復",
-  "TOPIX連動ETF比 +3.1pt（20日）"
+  "TOPIX連動ETF比 +0.9pt（20日）",
+  "信用買残 -16%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -123,7 +131,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-26",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-26T04:04:29+09:00"
+ "updatedAt": "2026-11-26T17:53:49+09:00"
 }

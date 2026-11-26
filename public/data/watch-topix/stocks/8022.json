@@ -10,7 +10,9 @@
   "id": "8022-2026-09-24",
   "overextended": false,
   "setupType": "TREND",
-  "setups": [],
+  "setups": [
+   "TREND"
+  ],
   "startedAt": "2026-09-24",
   "status": "REACTED",
   "statusHistory": [
@@ -72,17 +74,17 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-24",
-  "buyBalance": 31600,
-  "buyChangePct": -51.3,
+  "asOf": "2026-11-25",
+  "buyBalance": 33000,
+  "buyChangePct": -27.0,
   "labels": [
    "信用買残減少",
    "信用倍率改善",
    "売残増加"
   ],
-  "ratio": 1.06,
-  "sellBalance": 29700,
-  "sellChangePct": 39.4
+  "ratio": 0.95,
+  "sellBalance": 34600,
+  "sellChangePct": 34.1
  },
  "pastEpisodes": [
   {
@@ -101,8 +103,8 @@
   }
  ],
  "performance": {
-  "benchReturn": -6.8,
-  "currentPrice": 4170.0,
+  "benchReturn": -7.1,
+  "currentPrice": 4450.0,
   "d20": {
    "benchReturn": -2.0,
    "excessReturn": 9.7,
@@ -118,30 +120,36 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 20,
+   "pendingDays": 18,
    "stockReturn": null
   },
-  "excessReturn": 9.2,
+  "excessReturn": 16.4,
   "initialDate": "2026-09-24",
   "initialPrice": 4072.4,
-  "stockReturn": 2.4
+  "stockReturn": 9.3
  },
  "priceSetup": {
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-26",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.11,
-  "labels": [],
-  "ma20": 4250.2,
-  "ma200": 3723.2,
-  "ma60": 4193.0,
-  "rangePos60": 0.45,
-  "rel20": -0.0,
-  "rel60": 9.7,
-  "volumeRatio20": 0.44
+  "distFrom52wHigh": 0.05,
+  "labels": [
+   "20日線の上",
+   "60日レンジ上位23%",
+   "60日線の上"
+  ],
+  "ma20": 4255.2,
+  "ma200": 3736.6,
+  "ma60": 4204.3,
+  "rangePos60": 0.77,
+  "rel20": 8.1,
+  "rel60": 17.9,
+  "volumeRatio20": 1.19
  },
  "reasons": [
   "新規大量保有 5.2%（三井住友信託銀行株式会社）",
-  "信用買残 -51%"
+  "60日レンジ上位23%",
+  "TOPIX連動ETF比 +8.1pt（20日）",
+  "52週高値まで5%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -326,7 +334,35 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-25",
+   "detail": "なし → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-25",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-25",
+   "detail": "60日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-25",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-26T04:04:29+09:00"
+ "updatedAt": "2026-11-26T17:53:49+09:00"
 }

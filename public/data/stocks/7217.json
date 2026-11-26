@@ -1,11 +1,42 @@
 {
-  "updatedAt": "2026-11-26T04:03:30+09:00",
+  "updatedAt": "2026-11-26T17:52:52+09:00",
   "company": {
     "securityCode": "7217",
     "ticker": "7217.T",
     "name": "株式会社テイン"
   },
   "events": [
+    {
+      "docId": "S100ZKAQ",
+      "ticker": "7217.T",
+      "securityCode": "7217",
+      "companyName": "株式会社テイン",
+      "submitDatetime": "2026-11-26 15:45",
+      "filerName": "市野　諮",
+      "reportType": "change",
+      "holdingRatio": 47.29,
+      "previousHoldingRatio": 51.37,
+      "holdingChange": -4.08,
+      "purpose": "発行会社の創業者、代表取締役であり、経営参画を目的とした安定株主として保有しております。 / 安定株主として長期保有することを目的としております。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少",
+        "大幅売却"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 1.05,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100ZICN",
       "ticker": "7217.T",
@@ -19,9 +50,9 @@
       "holdingChange": 0.0,
       "purpose": "発行会社の創業者、代表取締役であり、経営参画を目的とした安定株主として保有しております。 / 安定株主として長期保有することを目的としております。",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 14.63,
-      "marketExcessReturn": null,
+      "priceChange": -10.02,
+      "volumeRatio": 24.44,
+      "marketExcessReturn": -7.57,
       "signalScore": 15,
       "signalReasons": [
         "出来高2倍以上",
@@ -30,11 +61,11 @@
       "stockUnreacted": false,
       "metrics": {
         "return1d": -6.76,
-        "return5d": null,
+        "return5d": -10.02,
         "return20d": null,
-        "returnCurrent": -6.29,
-        "volumeRatio": 14.63,
-        "marketExcessReturn": null
+        "returnCurrent": -10.02,
+        "volumeRatio": 24.44,
+        "marketExcessReturn": -7.57
       }
     },
     {
@@ -62,7 +93,7 @@
         "return1d": 0.44,
         "return5d": -1.32,
         "return20d": null,
-        "returnCurrent": -11.65,
+        "returnCurrent": -15.16,
         "volumeRatio": 1.73,
         "marketExcessReturn": 3.24
       }
@@ -2895,9 +2926,19 @@
       "open": 391.0,
       "high": 391.0,
       "low": 382.0,
-      "close": null,
-      "adj_close": null,
+      "close": 382.0,
+      "adj_close": 382.0,
       "volume": 318600
+    },
+    {
+      "ticker": "7217.T",
+      "trade_date": "2026-11-26",
+      "open": 382.0,
+      "high": 389.0,
+      "low": 382.0,
+      "close": 386.0,
+      "adj_close": 386.0,
+      "volume": 71000
     }
   ],
   "benchmark": [
@@ -7017,9 +7058,19 @@
       "open": 392.5,
       "high": 395.79998779296875,
       "low": 390.8999938964844,
-      "close": null,
-      "adj_close": null,
+      "close": 394.70001220703125,
+      "adj_close": 394.70001220703125,
       "volume": 15855710
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-26",
+      "open": 396.8999938964844,
+      "high": 398.70001220703125,
+      "low": 393.6000061035156,
+      "close": 394.6000061035156,
+      "adj_close": 394.6000061035156,
+      "volume": 17100680
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"
