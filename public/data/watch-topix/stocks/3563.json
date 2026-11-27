@@ -10,7 +10,10 @@
   "id": "3563-2026-11-20",
   "overextended": false,
   "setupType": "TREND",
-  "setups": [],
+  "setups": [
+   "TREND",
+   "RECOVERY"
+  ],
   "startedAt": "2026-11-20",
   "status": "WATCH",
   "statusHistory": [
@@ -40,9 +43,9 @@
   {
    "d1": -5.8,
    "d20": null,
-   "d5": -6.8,
+   "d5": null,
    "eventId": "edinet:S100ZISC",
-   "excess5": -6.6
+   "excess5": null
   }
  ],
  "margin": {
@@ -59,53 +62,54 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": 3.9,
-  "currentPrice": 5890.0,
+  "benchReturn": 2.2,
+  "currentPrice": 6040.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 16,
+   "pendingDays": 17,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 1,
+   "pendingDays": 2,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 56,
+   "pendingDays": 57,
    "stockReturn": null
   },
-  "excessReturn": -4.9,
+  "excessReturn": -0.7,
   "initialDate": "2026-11-20",
   "initialPrice": 5951.0,
-  "stockReturn": -1.0
+  "stockReturn": 1.5
  },
  "priceSetup": {
-  "asOf": "2026-11-27",
+  "asOf": "2026-11-26",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.08,
+  "distFrom52wHigh": 0.06,
   "labels": [
-   "60日レンジ上位30%",
+   "20日線の上",
+   "60日レンジ上位21%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 5918.9,
-  "ma200": 5177.3,
-  "ma60": 5608.3,
-  "rangePos60": 0.7,
-  "rel20": 11.8,
-  "rel60": 8.4,
-  "volumeRatio20": 0.64
+  "ma20": 5898.8,
+  "ma200": 5169.0,
+  "ma60": 5606.5,
+  "rangePos60": 0.79,
+  "rel20": 17.6,
+  "rel60": 13.9,
+  "volumeRatio20": 0.61
  },
  "reasons": [
   "新規大量保有 5%（ゴールドマン・サックス証券株式会社）",
-  "60日レンジ上位30%",
-  "TOPIX連動ETF比 +11.8pt（20日）",
-  "52週高値まで8%"
+  "60日レンジ上位21%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +17.6pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -129,14 +133,7 @@
    "kind": "STATUS",
    "label": "WATCH",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-11-27",
-   "detail": "TREND → なし",
-   "kind": "SETUP",
-   "label": "Price Setup解消",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-27T22:06:04+09:00"
+ "updatedAt": "2026-11-28T02:04:45+09:00"
 }

@@ -9,9 +9,8 @@
   "closedAt": null,
   "id": "3086-2026-06-22",
   "overextended": true,
-  "setupType": "TREND",
+  "setupType": "RECOVERY",
   "setups": [
-   "TREND",
    "RECOVERY"
   ],
   "startedAt": "2026-06-22",
@@ -177,13 +176,6 @@
    "d5": -3.7,
    "eventId": "edinet:S100ZI5C",
    "excess5": 0.0
-  },
-  {
-   "d1": 0.4,
-   "d20": null,
-   "d5": null,
-   "eventId": "edinet:S100ZKB2",
-   "excess5": null
   }
  ],
  "margin": {
@@ -200,8 +192,8 @@
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -5.8,
-  "currentPrice": 3234.0,
+  "benchReturn": -7.4,
+  "currentPrice": 3220.0,
   "d20": {
    "benchReturn": -1.9,
    "excessReturn": 15.7,
@@ -220,33 +212,33 @@
    "pendingDays": 0,
    "stockReturn": -7.2
   },
-  "excessReturn": 18.1,
+  "excessReturn": 19.2,
   "initialDate": "2026-06-22",
   "initialPrice": 2879.1,
-  "stockReturn": 12.3
+  "stockReturn": 11.8
  },
  "priceSetup": {
-  "asOf": "2026-11-27",
+  "asOf": "2026-11-26",
   "atrState": "高ボラ",
   "distFrom52wHigh": 0.1,
   "labels": [
    "20日線の上",
-   "60日レンジ上位5%",
+   "60日レンジ上位2%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 3043.3,
-  "ma200": 2678.7,
-  "ma60": 2822.3,
-  "rangePos60": 0.95,
-  "rel20": 22.2,
-  "rel60": 10.5,
-  "volumeRatio20": 0.62
+  "ma20": 3018.9,
+  "ma200": 2673.6,
+  "ma60": 2820.3,
+  "rangePos60": 0.98,
+  "rel20": 21.8,
+  "rel60": 11.6,
+  "volumeRatio20": 0.57
  },
  "reasons": [
-  "1pt買い増し 15%→16%",
+  "1.1pt買い増し 13.8%→15%",
   "30日以内に2回買い増し",
-  "60日レンジ上位5%",
+  "60日レンジ上位2%",
   "20日線上向き"
  ],
  "schemaVersion": 1,
@@ -586,14 +578,7 @@
    "kind": "EVENT",
    "label": "連続の買い増し",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKB2"
-  },
-  {
-   "date": "2026-11-27",
-   "detail": "RECOVERY → TREND",
-   "kind": "SETUP",
-   "label": "Price Setup改善",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-27T22:06:04+09:00"
+ "updatedAt": "2026-11-28T02:04:45+09:00"
 }

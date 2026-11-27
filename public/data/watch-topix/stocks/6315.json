@@ -10,9 +10,7 @@
   "id": "6315-2026-11-09",
   "overextended": true,
   "setupType": "RECOVERY",
-  "setups": [
-   "RECOVERY"
-  ],
+  "setups": [],
   "startedAt": "2026-11-09",
   "status": "CANDIDATE",
   "statusHistory": [
@@ -53,13 +51,6 @@
    "d5": 6.6,
    "eventId": "edinet:S100ZDQ2",
    "excess5": 13.7
-  },
-  {
-   "d1": 9.8,
-   "d20": null,
-   "d5": null,
-   "eventId": "edinet:S100ZIZ0",
-   "excess5": null
   }
  ],
  "margin": {
@@ -84,26 +75,23 @@
  ],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-27",
+  "asOf": "2026-11-26",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.38,
+  "distFrom52wHigh": 0.43,
   "labels": [
-   "20日線の上",
-   "20日線が上向き",
-   "60日線の上"
+   "20日線が上向き"
   ],
-  "ma20": 2172.9,
-  "ma200": 2618.2,
-  "ma60": 2218.2,
-  "rangePos60": 0.68,
-  "rel20": 7.2,
-  "rel60": 6.3,
-  "volumeRatio20": 0.91
+  "ma20": 2169.8,
+  "ma200": 2621.4,
+  "ma60": 2218.3,
+  "rangePos60": 0.48,
+  "rel20": 9.5,
+  "rel60": -0.6,
+  "volumeRatio20": 1.43
  },
  "reasons": [
-  "1pt買い増し 6.1%→7.2%",
-  "20日線を回復",
-  "TOPIX連動ETF比 +7.2pt（20日）",
+  "新規大量保有 6.1%（エフィッシモ　キャピタル　マネージメント　ピーティーイー　エルティーディー（Ｅｆｆｉｓｓｉｍｏ　Ｃａｐｉｔａｌ　Ｍａｎａｇｅｍｅｎｔ　Ｐｔｅ　Ｌｔｄ））",
+  "TOPIX連動ETF比 +9.5pt（20日）",
   "信用買残 -6%"
  ],
  "schemaVersion": 1,
@@ -198,28 +186,7 @@
    "kind": "SETUP",
    "label": "Price Setup解消",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-11-27",
-   "detail": "なし → RECOVERY",
-   "kind": "SETUP",
-   "label": "Price Setup改善",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-27",
-   "detail": "20日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-27",
-   "detail": "60日線を回復",
-   "kind": "SETUP",
-   "label": "Price Setup更新",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-27T22:06:04+09:00"
+ "updatedAt": "2026-11-28T02:04:45+09:00"
 }

@@ -9,27 +9,19 @@
   "closedAt": null,
   "id": "4187-2026-11-16",
   "overextended": false,
-  "setupType": "RECOVERY",
-  "setups": [
-   "RECOVERY"
-  ],
+  "setupType": null,
+  "setups": [],
   "startedAt": "2026-11-16",
-  "status": "WATCH",
+  "status": "CANDIDATE",
   "statusHistory": [
    {
     "date": "2026-11-16",
     "from": null,
     "reason_code": "TRIGGER_EVENT",
     "to": "CANDIDATE"
-   },
-   {
-    "date": "2026-11-27",
-    "from": "CANDIDATE",
-    "reason_code": "SETUP_OK",
-    "to": "WATCH"
    }
   ],
-  "watchStartedAt": "2026-11-27"
+  "watchStartedAt": null
  },
  "eventReactions": [
   {
@@ -38,13 +30,6 @@
    "d5": -1.8,
    "eventId": "edinet:S100ZDNG",
    "excess5": 5.3
-  },
-  {
-   "d1": 8.6,
-   "d20": null,
-   "d5": null,
-   "eventId": "edinet:S100ZIX7",
-   "excess5": null
   }
  ],
  "margin": {
@@ -60,55 +45,27 @@
   "sellChangePct": 107.8
  },
  "pastEpisodes": [],
- "performance": {
-  "benchReturn": 0.0,
-  "currentPrice": 4865.0,
-  "d20": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 20,
-   "stockReturn": null
-  },
-  "d5": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 5,
-   "stockReturn": null
-  },
-  "d60": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 60,
-   "stockReturn": null
-  },
-  "excessReturn": 0.0,
-  "initialDate": "2026-11-27",
-  "initialPrice": 4865.0,
-  "stockReturn": 0.0
- },
+ "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-27",
+  "asOf": "2026-11-26",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.21,
+  "distFrom52wHigh": 0.27,
   "labels": [
    "20日線の上",
-   "60日レンジ上位24%",
-   "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 4254.0,
-  "ma200": 4599.1,
-  "ma60": 4346.2,
-  "rangePos60": 0.76,
-  "rel20": 11.7,
-  "rel60": 13.3,
-  "volumeRatio20": 1.0
+  "ma20": 4237.5,
+  "ma200": 4594.7,
+  "ma60": 4341.1,
+  "rangePos60": 0.56,
+  "rel20": 9.0,
+  "rel60": 5.5,
+  "volumeRatio20": 1.16
  },
  "reasons": [
-  "1.3pt買い増し 5.1%→6.4%",
-  "60日レンジ上位24%",
-  "20日線上向き",
-  "TOPIX連動ETF比 +11.7pt（20日）"
+  "新規大量保有 5.1%（エフィッシモ　キャピタル　マネージメント　ピーティーイー　エルティーディー（Ｅｆｆｉｓｓｉｍｏ　Ｃａｐｉｔａｌ　Ｍａｎａｇｅｍｅｎｔ　Ｐｔｅ　Ｌｔｄ））",
+  "TOPIX連動ETF比 +9pt（20日）",
+  "信用買残 -6%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -160,21 +117,7 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
-  },
-  {
-   "date": "2026-11-27",
-   "detail": "なし → RECOVERY",
-   "kind": "SETUP",
-   "label": "Price Setup改善",
-   "sourceUrl": null
-  },
-  {
-   "date": "2026-11-27",
-   "detail": "Price Setupが成立",
-   "kind": "STATUS",
-   "label": "WATCH",
-   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-27T22:06:04+09:00"
+ "updatedAt": "2026-11-28T02:04:45+09:00"
 }
