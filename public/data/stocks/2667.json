@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-11-27T03:54:02+09:00",
+  "updatedAt": "2026-11-27T18:03:41+09:00",
   "company": {
     "securityCode": "2667",
     "ticker": "2667.T",
     "name": "株式会社イメージワン"
   },
   "events": [
+    {
+      "docId": "S100ZJDY",
+      "ticker": "2667.T",
+      "securityCode": "2667",
+      "companyName": "株式会社イメージワン",
+      "submitDatetime": "2026-11-27 09:39",
+      "filerName": "ＫＡＹ　ＬＥＯ　ＢＲＯＴＨＥＲＳ　ＬＩＭＩＴＥＤ",
+      "reportType": "initial",
+      "holdingRatio": 24.41,
+      "previousHoldingRatio": null,
+      "holdingChange": null,
+      "purpose": "純投資",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 30,
+      "signalReasons": [
+        "新規大量保有"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 1.61,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100ZKDN",
       "ticker": "2667.T",
@@ -20,17 +50,17 @@
       "purpose": "純投資",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.07,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": 5.0,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.0,
-        "volumeRatio": null,
+        "returnCurrent": 5.0,
+        "volumeRatio": 0.07,
         "marketExcessReturn": null
       }
     },
@@ -48,7 +78,7 @@
       "purpose": "純投資",
       "importantProposal": true,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 0.07,
       "marketExcessReturn": null,
       "signalScore": 80,
       "signalReasons": [
@@ -59,11 +89,11 @@
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": 5.0,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": 0.0,
-        "volumeRatio": null,
+        "returnCurrent": 5.0,
+        "volumeRatio": 0.07,
         "marketExcessReturn": null
       }
     },
@@ -92,7 +122,7 @@
         "return1d": -4.55,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -9.09,
+        "returnCurrent": -4.55,
         "volumeRatio": 0.07,
         "marketExcessReturn": null
       }
@@ -124,7 +154,7 @@
         "return1d": -7.02,
         "return5d": -8.77,
         "return20d": -1.75,
-        "returnCurrent": -47.37,
+        "returnCurrent": -44.74,
         "volumeRatio": 1.38,
         "marketExcessReturn": -6.38
       }
@@ -155,7 +185,7 @@
         "return1d": -0.87,
         "return5d": -6.96,
         "return20d": -12.17,
-        "returnCurrent": -47.83,
+        "returnCurrent": -45.22,
         "volumeRatio": 1.43,
         "marketExcessReturn": -9.84
       }
@@ -187,7 +217,7 @@
         "return1d": -1.71,
         "return5d": 0.85,
         "return20d": -11.97,
-        "returnCurrent": -48.72,
+        "returnCurrent": -46.15,
         "volumeRatio": 0.84,
         "marketExcessReturn": -4.03
       }
@@ -218,7 +248,7 @@
         "return1d": -1.71,
         "return5d": 0.85,
         "return20d": -11.97,
-        "returnCurrent": -48.72,
+        "returnCurrent": -46.15,
         "volumeRatio": 0.84,
         "marketExcessReturn": -4.03
       }
@@ -3361,9 +3391,19 @@
       "open": 61.0,
       "high": 64.0,
       "low": 61.0,
-      "close": null,
-      "adj_close": null,
+      "close": 62.0,
+      "adj_close": 62.0,
       "volume": 126200
+    },
+    {
+      "ticker": "2667.T",
+      "trade_date": "2026-11-27",
+      "open": 63.0,
+      "high": 64.0,
+      "low": 63.0,
+      "close": 63.0,
+      "adj_close": 63.0,
+      "volume": 131200
     }
   ],
   "benchmark": [
@@ -7493,9 +7533,19 @@
       "open": 396.8999938964844,
       "high": 398.70001220703125,
       "low": 393.6000061035156,
-      "close": null,
-      "adj_close": null,
+      "close": 394.6000061035156,
+      "adj_close": 394.6000061035156,
       "volume": 17100680
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-27",
+      "open": 397.0,
+      "high": 402.3999938964844,
+      "low": 397.0,
+      "close": 401.3999938964844,
+      "adj_close": 401.3999938964844,
+      "volume": 14016470
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

@@ -1,0 +1,218 @@
+{
+ "company": {
+  "name": "ワコム",
+  "securityCode": "6727",
+  "tradingViewSymbol": "TSE:6727"
+ },
+ "episode": {
+  "closeReason": null,
+  "closedAt": null,
+  "id": "6727-2026-11-27",
+  "overextended": false,
+  "setupType": null,
+  "setups": [],
+  "startedAt": "2026-11-27",
+  "status": "CANDIDATE",
+  "statusHistory": [
+   {
+    "date": "2026-11-27",
+    "from": null,
+    "reason_code": "TRIGGER_EVENT",
+    "to": "CANDIDATE"
+   }
+  ],
+  "watchStartedAt": null
+ },
+ "eventReactions": [
+  {
+   "d1": 0.8,
+   "d20": 4.1,
+   "d5": 3.8,
+   "eventId": "edinet:S100YJB9",
+   "excess5": 1.1
+  },
+  {
+   "d1": 1.5,
+   "d20": 3.6,
+   "d5": 4.3,
+   "eventId": "edinet:S100YR17",
+   "excess5": 5.6
+  },
+  {
+   "d1": 1.9,
+   "d20": 3.3,
+   "d5": 1.5,
+   "eventId": "edinet:S100YS6X",
+   "excess5": 1.6
+  },
+  {
+   "d1": 1.7,
+   "d20": 7.6,
+   "d5": 4.8,
+   "eventId": "edinet:S100YTXH",
+   "excess5": 1.5
+  },
+  {
+   "d1": 0.8,
+   "d20": 6.0,
+   "d5": 4.6,
+   "eventId": "edinet:S100YUCL",
+   "excess5": 2.1
+  },
+  {
+   "d1": 1.5,
+   "d20": 11.1,
+   "d5": 4.9,
+   "eventId": "edinet:S100YY3V",
+   "excess5": 5.8
+  },
+  {
+   "d1": 3.4,
+   "d20": 2.1,
+   "d5": 4.2,
+   "eventId": "edinet:S100Z2KJ",
+   "excess5": 1.9
+  },
+  {
+   "d1": -0.5,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZK57",
+   "excess5": null
+  }
+ ],
+ "margin": {
+  "asOf": "2026-11-26",
+  "buyBalance": 634800,
+  "buyChangePct": -47.4,
+  "labels": [
+   "信用買残減少",
+   "信用倍率改善"
+  ],
+  "ratio": 6.86,
+  "sellBalance": 92500,
+  "sellChangePct": 6.2
+ },
+ "pastEpisodes": [
+  {
+   "closeReason": "NO_SETUP",
+   "closedAt": "2026-07-28",
+   "id": "6727-2026-06-29",
+   "setupType": null,
+   "startedAt": "2026-06-29"
+  },
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-08-03",
+   "id": "6727-2026-07-29",
+   "setupType": "RECOVERY",
+   "startedAt": "2026-07-29"
+  },
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-08-20",
+   "id": "6727-2026-08-10",
+   "setupType": "RECOVERY",
+   "startedAt": "2026-08-10"
+  },
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-09-11",
+   "id": "6727-2026-08-27",
+   "setupType": "RECOVERY",
+   "startedAt": "2026-08-27"
+  },
+  {
+   "closeReason": "BROKEN",
+   "closedAt": "2026-10-20",
+   "id": "6727-2026-09-25",
+   "setupType": "TREND",
+   "startedAt": "2026-09-25"
+  }
+ ],
+ "performance": null,
+ "priceSetup": {
+  "asOf": "2026-11-27",
+  "atrState": "高ボラ",
+  "distFrom52wHigh": 0.0,
+  "labels": [
+   "20日線の上",
+   "60日レンジ上位1%",
+   "20日線が上向き",
+   "60日線の上"
+  ],
+  "ma20": 760.3,
+  "ma200": 794.1,
+  "ma60": 815.0,
+  "rangePos60": 0.99,
+  "rel20": 21.4,
+  "rel60": 32.8,
+  "volumeRatio20": 3.06
+ },
+ "reasons": [
+  "1.2pt買い増し 5%→6.2%",
+  "60日レンジ上位1%",
+  "20日線上向き",
+  "TOPIX連動ETF比 +21.4pt（20日）"
+ ],
+ "schemaVersion": 1,
+ "timeline": [
+  {
+   "date": "2026-06-26",
+   "detail": "13.74% → 14.83%（アセット・バリュー・インベスターズ・リミテッド）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJB9"
+  },
+  {
+   "date": "2026-07-22",
+   "detail": "6.51% → 5.26%（三井住友トラスト・アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YR17"
+  },
+  {
+   "date": "2026-07-28",
+   "detail": "14.83% → 15.91%（アセット・バリュー・インベスターズ・リミテッド）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YS6X"
+  },
+  {
+   "date": "2026-08-06",
+   "detail": "5.26% → 3.98%（三井住友トラスト・アセットマネジメント株式会社）",
+   "kind": "EVENT",
+   "label": "保有割合の減少",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YTXH"
+  },
+  {
+   "date": "2026-08-07",
+   "detail": "15.91% → 17.05%（アセット・バリュー・インベスターズ・リミテッド）",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YUCL"
+  },
+  {
+   "date": "2026-08-26",
+   "detail": "17.05% → 18.11%（アセット・バリュー・インベスターズ・リミテッド）",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YY3V"
+  },
+  {
+   "date": "2026-09-24",
+   "detail": "18.11% → 19.16%（アセット・バリュー・インベスターズ・リミテッド）",
+   "kind": "EVENT",
+   "label": "連続の買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z2KJ"
+  },
+  {
+   "date": "2026-11-27",
+   "detail": "5.04% → 6.22%（サムスン・エレクトロニクス・シンガポール・ピーティーイー・リミテッド）",
+   "kind": "EVENT",
+   "label": "大幅な買い増し",
+   "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK57"
+  }
+ ],
+ "updatedAt": "2026-11-27T18:04:47+09:00"
+}

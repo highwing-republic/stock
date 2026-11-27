@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-11-27T03:54:02+09:00",
+  "updatedAt": "2026-11-27T18:03:41+09:00",
   "company": {
     "securityCode": "3267",
     "ticker": "3267.T",
     "name": "株式会社フィル・カンパニー"
   },
   "events": [
+    {
+      "docId": "S100ZJ7T",
+      "ticker": "3267.T",
+      "securityCode": "3267",
+      "companyName": "株式会社フィル・カンパニー",
+      "submitDatetime": "2026-11-27 15:30",
+      "filerName": "髙橋　伸彰",
+      "reportType": "change",
+      "holdingRatio": 26.66,
+      "previousHoldingRatio": 26.64,
+      "holdingChange": 0.02,
+      "purpose": "発行会社の創業者であり、安定株主として保有しております。 必要に応じて重要提案行為等を行います。 / 発行会社の創業者の資産管理会社であり、安定株主として保有しております。",
+      "importantProposal": true,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 20,
+      "signalReasons": [
+        "重要提案行為あり"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -1.63,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100ZFI7",
       "ticker": "3267.T",
@@ -33,7 +63,7 @@
         "return1d": -2.47,
         "return5d": -7.25,
         "return20d": null,
-        "returnCurrent": -5.27,
+        "returnCurrent": -10.54,
         "volumeRatio": 0.99,
         "marketExcessReturn": -0.47
       }
@@ -2757,7 +2787,7 @@
       "high": 580.0,
       "low": 561.0,
       "close": 571.0,
-      "adj_close": 571.0,
+      "adj_close": 546.2599487304688,
       "volume": 42000
     },
     {
@@ -2767,7 +2797,7 @@
       "high": 579.0,
       "low": 570.0,
       "close": 575.0,
-      "adj_close": 575.0,
+      "adj_close": 550.086669921875,
       "volume": 12000
     },
     {
@@ -2776,9 +2806,19 @@
       "open": 575.0,
       "high": 588.0,
       "low": 571.0,
-      "close": null,
-      "adj_close": null,
+      "close": 577.0,
+      "adj_close": 552.0,
       "volume": 40200
+    },
+    {
+      "ticker": "3267.T",
+      "trade_date": "2026-11-27",
+      "open": 545.0,
+      "high": 549.0,
+      "low": 536.0,
+      "close": 543.0,
+      "adj_close": 543.0,
+      "volume": 81400
     }
   ],
   "benchmark": [
@@ -6908,9 +6948,19 @@
       "open": 396.8999938964844,
       "high": 398.70001220703125,
       "low": 393.6000061035156,
-      "close": null,
-      "adj_close": null,
+      "close": 394.6000061035156,
+      "adj_close": 394.6000061035156,
       "volume": 17100680
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-27",
+      "open": 397.0,
+      "high": 402.3999938964844,
+      "low": 397.0,
+      "close": 401.3999938964844,
+      "adj_close": 401.3999938964844,
+      "volume": 14016470
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

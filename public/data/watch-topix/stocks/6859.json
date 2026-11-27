@@ -47,15 +47,16 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-25",
-  "buyBalance": 47500,
-  "buyChangePct": -6.7,
+  "asOf": "2026-11-26",
+  "buyBalance": 78300,
+  "buyChangePct": 53.5,
   "labels": [
-   "信用倍率改善"
+   "信用買残急増",
+   "信用倍率悪化"
   ],
-  "ratio": 1.9,
-  "sellBalance": 25000,
-  "sellChangePct": 15.7
+  "ratio": 3.06,
+  "sellBalance": 25600,
+  "sellChangePct": -3.4
  },
  "pastEpisodes": [
   {
@@ -68,21 +69,23 @@
  ],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-27",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.26,
-  "labels": [],
-  "ma20": 3831.8,
-  "ma200": 3789.5,
-  "ma60": 4013.7,
-  "rangePos60": 0.12,
-  "rel20": -15.1,
-  "rel60": -3.5,
-  "volumeRatio20": 0.81
+  "distFrom52wHigh": 0.21,
+  "labels": [
+   "20日線の上"
+  ],
+  "ma20": 3746.0,
+  "ma200": 3793.2,
+  "ma60": 4005.5,
+  "rangePos60": 0.3,
+  "rel20": -12.8,
+  "rel60": 2.9,
+  "volumeRatio20": 0.92
  },
  "reasons": [
   "新規大量保有 6.9%（杉山　友紀）",
-  "信用買残 -7%"
+  "20日線を回復"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -106,7 +109,14 @@
    "kind": "EVENT",
    "label": "新規大量保有",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9O7"
+  },
+  {
+   "date": "2026-11-27",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-27T03:55:18+09:00"
+ "updatedAt": "2026-11-27T18:04:47+09:00"
 }

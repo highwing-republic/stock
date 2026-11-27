@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T03:54:02+09:00",
+  "updatedAt": "2026-11-27T18:03:41+09:00",
   "company": {
     "securityCode": "3237",
     "ticker": "3237.T",
@@ -20,19 +20,21 @@
       "purpose": "当社が無限責任組合員となっているZUUターゲットファンド for INT投資事業有限責任組合の保有目的は、純投資となります。 / 当社が無限責任組合員になっているZUUターゲットファンド for INT投資事業有限責任組合の保有目的は、純投資となります。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 5.29,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [
+        "出来高2倍以上",
+        "出来高3倍以上",
         "保有割合減少"
       ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": -25.68,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -17.57,
-        "volumeRatio": null,
+        "returnCurrent": -16.22,
+        "volumeRatio": 5.29,
         "marketExcessReturn": null
       }
     },
@@ -50,17 +52,20 @@
       "purpose": "当社が無限責任組合員となっているZUUターゲットファンド for INT投資事業有限責任組合の保有目的は、純投資となります。 / 当社が無限責任組合員になっているZUUターゲットファンド for INT投資事業有限責任組合の保有目的は、純投資となります。",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": null,
+      "volumeRatio": 5.29,
       "marketExcessReturn": null,
-      "signalScore": 0,
-      "signalReasons": [],
+      "signalScore": 15,
+      "signalReasons": [
+        "出来高2倍以上",
+        "出来高3倍以上"
+      ],
       "stockUnreacted": false,
       "metrics": {
-        "return1d": null,
+        "return1d": -25.68,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -17.57,
-        "volumeRatio": null,
+        "returnCurrent": -16.22,
+        "volumeRatio": 5.29,
         "marketExcessReturn": null
       }
     },
@@ -89,8 +94,8 @@
       "metrics": {
         "return1d": 1.45,
         "return5d": -2.9,
-        "return20d": null,
-        "returnCurrent": -11.59,
+        "return20d": -20.29,
+        "returnCurrent": -10.14,
         "volumeRatio": 0.31,
         "marketExcessReturn": -1.85
       }
@@ -121,7 +126,7 @@
         "return1d": 0.0,
         "return5d": -1.37,
         "return20d": -28.77,
-        "returnCurrent": -16.44,
+        "returnCurrent": -15.07,
         "volumeRatio": 0.17,
         "marketExcessReturn": -0.36
       }
@@ -151,7 +156,7 @@
         "return1d": -2.86,
         "return5d": -1.43,
         "return20d": -10.0,
-        "returnCurrent": -12.86,
+        "returnCurrent": -11.43,
         "volumeRatio": 0.67,
         "marketExcessReturn": 0.9
       }
@@ -181,7 +186,7 @@
         "return1d": -2.86,
         "return5d": -1.43,
         "return20d": -10.0,
-        "returnCurrent": -12.86,
+        "returnCurrent": -11.43,
         "volumeRatio": 0.67,
         "marketExcessReturn": 0.9
       }
@@ -211,7 +216,7 @@
         "return1d": -2.13,
         "return5d": -5.32,
         "return20d": -22.34,
-        "returnCurrent": -35.11,
+        "returnCurrent": -34.04,
         "volumeRatio": 1.44,
         "marketExcessReturn": -7.22
       }
@@ -242,7 +247,7 @@
         "return1d": -1.03,
         "return5d": -6.19,
         "return20d": 7.22,
-        "returnCurrent": -37.11,
+        "returnCurrent": -36.08,
         "volumeRatio": 0.25,
         "marketExcessReturn": -7.42
       }
@@ -3385,9 +3390,19 @@
       "open": 58.0,
       "high": 60.0,
       "low": 55.0,
-      "close": null,
-      "adj_close": null,
+      "close": 55.0,
+      "adj_close": 55.0,
       "volume": 2092900
+    },
+    {
+      "ticker": "3237.T",
+      "trade_date": "2026-11-27",
+      "open": 58.0,
+      "high": 79.0,
+      "low": 56.0,
+      "close": 62.0,
+      "adj_close": 62.0,
+      "volume": 23743600
     }
   ],
   "benchmark": [
@@ -7517,9 +7532,19 @@
       "open": 396.8999938964844,
       "high": 398.70001220703125,
       "low": 393.6000061035156,
-      "close": null,
-      "adj_close": null,
+      "close": 394.6000061035156,
+      "adj_close": 394.6000061035156,
       "volume": 17100680
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-27",
+      "open": 397.0,
+      "high": 402.3999938964844,
+      "low": 397.0,
+      "close": 401.3999938964844,
+      "adj_close": 401.3999938964844,
+      "volume": 14016470
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

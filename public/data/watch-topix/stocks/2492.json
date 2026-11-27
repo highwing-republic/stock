@@ -10,9 +10,7 @@
   "id": "2492-2026-07-03",
   "overextended": true,
   "setupType": "TREND",
-  "setups": [
-   "TREND"
-  ],
+  "setups": [],
   "startedAt": "2026-07-03",
   "status": "REACTED",
   "statusHistory": [
@@ -214,21 +212,21 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-25",
-  "buyBalance": 988600,
-  "buyChangePct": -21.6,
+  "asOf": "2026-11-26",
+  "buyBalance": 981400,
+  "buyChangePct": -12.1,
   "labels": [
    "信用買残減少",
    "信用倍率改善"
   ],
-  "ratio": 1.55,
-  "sellBalance": 636700,
-  "sellChangePct": 7.0
+  "ratio": 1.5,
+  "sellBalance": 654900,
+  "sellChangePct": 11.3
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -6.8,
-  "currentPrice": 741.0,
+  "benchReturn": -5.2,
+  "currentPrice": 804.0,
   "d20": {
    "benchReturn": -2.8,
    "excessReturn": 11.8,
@@ -247,32 +245,33 @@
    "pendingDays": 0,
    "stockReturn": 54.1
   },
-  "excessReturn": 61.5,
+  "excessReturn": 73.0,
   "initialDate": "2026-07-03",
   "initialPrice": 479.0,
-  "stockReturn": 54.7
+  "stockReturn": 67.8
  },
  "priceSetup": {
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-27",
   "atrState": "通常",
-  "distFrom52wHigh": 0.08,
+  "distFrom52wHigh": 0.0,
   "labels": [
    "20日線の上",
+   "60日レンジ上位2%",
    "60日線の上"
   ],
-  "ma20": 739.2,
-  "ma200": 523.6,
-  "ma60": 722.1,
-  "rangePos60": 0.7,
-  "rel20": 0.8,
-  "rel60": 30.6,
-  "volumeRatio20": 0.84
+  "ma20": 738.6,
+  "ma200": 527.0,
+  "ma60": 728.4,
+  "rangePos60": 0.98,
+  "rel20": 5.3,
+  "rel60": 39.4,
+  "volumeRatio20": 1.14
  },
  "reasons": [
   "1.1pt買い増し 23.6%→24.7%",
   "30日以内に2回買い増し",
-  "20日線を回復",
-  "TOPIX連動ETF比 +0.8pt（20日）"
+  "60日レンジ上位2%",
+  "TOPIX連動ETF比 +5.3pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -653,7 +652,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-27",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-27T03:55:18+09:00"
+ "updatedAt": "2026-11-27T18:04:47+09:00"
 }

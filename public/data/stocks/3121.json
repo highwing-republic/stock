@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-11-27T03:54:02+09:00",
+  "updatedAt": "2026-11-27T18:03:41+09:00",
   "company": {
     "securityCode": "3121",
     "ticker": "3121.T",
     "name": "マーチャント・バンカーズ株式会社"
   },
   "events": [
+    {
+      "docId": "S100ZITS",
+      "ticker": "3121.T",
+      "securityCode": "3121",
+      "companyName": "マーチャント・バンカーズ株式会社",
+      "submitDatetime": "2026-11-27 17:10",
+      "filerName": "株式会社ぽると",
+      "reportType": "change",
+      "holdingRatio": 11.12,
+      "previousHoldingRatio": 12.13,
+      "holdingChange": -1.01,
+      "purpose": "純投資",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": -0.88,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100YMGR",
       "ticker": "3121.T",
@@ -32,7 +62,7 @@
         "return1d": 0.0,
         "return5d": 0.93,
         "return20d": 1.87,
-        "returnCurrent": 0.93,
+        "returnCurrent": 5.61,
         "volumeRatio": 0.22,
         "marketExcessReturn": -2.64
       }
@@ -63,7 +93,7 @@
         "return1d": -1.38,
         "return5d": 0.0,
         "return20d": 0.46,
-        "returnCurrent": -0.46,
+        "returnCurrent": 4.15,
         "volumeRatio": 0.36,
         "marketExcessReturn": -1.55
       }
@@ -94,7 +124,7 @@
         "return1d": 0.0,
         "return5d": 0.47,
         "return20d": 0.93,
-        "returnCurrent": 0.47,
+        "returnCurrent": 5.12,
         "volumeRatio": 0.31,
         "marketExcessReturn": -0.24
       }
@@ -125,7 +155,7 @@
         "return1d": 2.84,
         "return5d": 1.42,
         "return20d": 3.79,
-        "returnCurrent": 2.37,
+        "returnCurrent": 7.11,
         "volumeRatio": 0.58,
         "marketExcessReturn": 3.93
       }
@@ -156,7 +186,7 @@
         "return1d": -0.47,
         "return5d": 0.47,
         "return20d": 4.67,
-        "returnCurrent": 0.93,
+        "returnCurrent": 5.61,
         "volumeRatio": 0.63,
         "marketExcessReturn": 0.38
       }
@@ -187,7 +217,7 @@
         "return1d": -0.47,
         "return5d": 0.47,
         "return20d": 4.67,
-        "returnCurrent": 0.93,
+        "returnCurrent": 5.61,
         "volumeRatio": 0.63,
         "marketExcessReturn": 0.38
       }
@@ -3330,9 +3360,19 @@
       "open": 220.0,
       "high": 232.0,
       "low": 214.0,
-      "close": null,
-      "adj_close": null,
+      "close": 228.0,
+      "adj_close": 228.0,
       "volume": 61100
+    },
+    {
+      "ticker": "3121.T",
+      "trade_date": "2026-11-27",
+      "open": 230.0,
+      "high": 230.0,
+      "low": 221.0,
+      "close": 226.0,
+      "adj_close": 226.0,
+      "volume": 21500
     }
   ],
   "benchmark": [
@@ -7462,9 +7502,19 @@
       "open": 396.8999938964844,
       "high": 398.70001220703125,
       "low": 393.6000061035156,
-      "close": null,
-      "adj_close": null,
+      "close": 394.6000061035156,
+      "adj_close": 394.6000061035156,
       "volume": 17100680
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-27",
+      "open": 397.0,
+      "high": 402.3999938964844,
+      "low": 397.0,
+      "close": 401.3999938964844,
+      "adj_close": 401.3999938964844,
+      "volume": 14016470
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

@@ -119,19 +119,19 @@
   {
    "d1": -1.8,
    "d20": null,
-   "d5": null,
+   "d5": 5.5,
    "eventId": "edinet:S100ZIC7",
-   "excess5": null
+   "excess5": 5.7
   }
  ],
  "margin": {
-  "asOf": "2026-11-25",
-  "buyBalance": 247700,
-  "buyChangePct": 5.1,
+  "asOf": "2026-11-26",
+  "buyBalance": 246200,
+  "buyChangePct": 3.2,
   "labels": [],
-  "ratio": 0.84,
-  "sellBalance": 295600,
-  "sellChangePct": 0.9
+  "ratio": 0.72,
+  "sellBalance": 341600,
+  "sellChangePct": 10.7
  },
  "pastEpisodes": [
   {
@@ -143,54 +143,54 @@
   }
  ],
  "performance": {
-  "benchReturn": 2.2,
-  "currentPrice": 13315.0,
+  "benchReturn": 3.9,
+  "currentPrice": 13725.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 18,
+   "pendingDays": 16,
    "stockReturn": null
   },
   "d5": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 3,
+   "pendingDays": 1,
    "stockReturn": null
   },
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 58,
+   "pendingDays": 56,
    "stockReturn": null
   },
-  "excessReturn": 2.0,
+  "excessReturn": 3.5,
   "initialDate": "2026-11-20",
   "initialPrice": 12780.0,
-  "stockReturn": 4.2
+  "stockReturn": 7.4
  },
  "priceSetup": {
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-27",
   "atrState": "通常",
-  "distFrom52wHigh": 0.01,
+  "distFrom52wHigh": 0.03,
   "labels": [
    "20日線の上",
-   "60日レンジ上位2%",
+   "60日レンジ上位5%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 12262.0,
-  "ma200": 6809.5,
-  "ma60": 9716.6,
-  "rangePos60": 0.98,
-  "rel20": 21.4,
-  "rel60": 79.4,
-  "volumeRatio20": 1.09
+  "ma20": 12490.0,
+  "ma200": 6892.0,
+  "ma60": 9915.2,
+  "rangePos60": 0.95,
+  "rel20": 25.6,
+  "rel60": 80.4,
+  "volumeRatio20": 0.65
  },
  "reasons": [
   "4.9pt買い増し 5.1%→10%",
-  "60日レンジ上位2%",
+  "60日レンジ上位5%",
   "20日線上向き",
-  "TOPIX連動ETF比 +21.4pt（20日）"
+  "TOPIX連動ETF比 +25.6pt（20日）"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -305,7 +305,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-26",
+   "detail": "60日高値を更新",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-27T03:54:17+09:00"
+ "updatedAt": "2026-11-27T18:03:53+09:00"
 }

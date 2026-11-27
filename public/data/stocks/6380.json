@@ -1,11 +1,42 @@
 {
-  "updatedAt": "2026-11-27T03:54:02+09:00",
+  "updatedAt": "2026-11-27T18:03:41+09:00",
   "company": {
     "securityCode": "6380",
     "ticker": "6380.T",
     "name": "オリエンタルチエン工業株式会社"
   },
   "events": [
+    {
+      "docId": "S100ZJDX",
+      "ticker": "6380.T",
+      "securityCode": "6380",
+      "companyName": "オリエンタルチエン工業株式会社",
+      "submitDatetime": "2026-11-27 09:39",
+      "filerName": "ＫＡＹ　ＬＥＯ　ＢＲＯＴＨＥＲＳ　ＬＩＭＩＴＥＤ",
+      "reportType": "change",
+      "holdingRatio": 38.01,
+      "previousHoldingRatio": 25.95,
+      "holdingChange": 12.06,
+      "purpose": "当社は、中長期的な投資を目的として保有しておりますが、必要に応じて株主権を行使し、または発行会社に対して経営に関する提案を行う可能性もあります。",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 30,
+      "signalReasons": [
+        "1pt以上買い増し",
+        "2pt以上買い増し"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 0.15,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100ZICA",
       "ticker": "6380.T",
@@ -19,21 +50,22 @@
       "holdingChange": null,
       "purpose": "資金運用の一環",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 0.43,
-      "marketExcessReturn": null,
-      "signalScore": 30,
+      "priceChange": -2.7,
+      "volumeRatio": 0.52,
+      "marketExcessReturn": -0.25,
+      "signalScore": 40,
       "signalReasons": [
-        "新規大量保有"
+        "新規大量保有",
+        "株価未反応"
       ],
-      "stockUnreacted": false,
+      "stockUnreacted": true,
       "metrics": {
         "return1d": -1.05,
-        "return5d": null,
+        "return5d": -2.7,
         "return20d": null,
-        "returnCurrent": -2.25,
-        "volumeRatio": 0.43,
-        "marketExcessReturn": null
+        "returnCurrent": -2.55,
+        "volumeRatio": 0.52,
+        "marketExcessReturn": -0.25
       }
     },
     {
@@ -59,7 +91,7 @@
         "return1d": -0.32,
         "return5d": 0.32,
         "return20d": -16.95,
-        "returnCurrent": -31.47,
+        "returnCurrent": -31.68,
         "volumeRatio": 0.48,
         "marketExcessReturn": 1.08
       }
@@ -3202,9 +3234,19 @@
       "open": 3240.0,
       "high": 3280.0,
       "low": 3215.0,
-      "close": null,
-      "adj_close": null,
+      "close": 3240.0,
+      "adj_close": 3240.0,
       "volume": 12700
+    },
+    {
+      "ticker": "6380.T",
+      "trade_date": "2026-11-27",
+      "open": 3265.0,
+      "high": 3265.0,
+      "low": 3205.0,
+      "close": 3245.0,
+      "adj_close": 3245.0,
+      "volume": 8600
     }
   ],
   "benchmark": [
@@ -7334,9 +7376,19 @@
       "open": 396.8999938964844,
       "high": 398.70001220703125,
       "low": 393.6000061035156,
-      "close": null,
-      "adj_close": null,
+      "close": 394.6000061035156,
+      "adj_close": 394.6000061035156,
       "volume": 17100680
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-27",
+      "open": 397.0,
+      "high": 402.3999938964844,
+      "low": 397.0,
+      "close": 401.3999938964844,
+      "adj_close": 401.3999938964844,
+      "volume": 14016470
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

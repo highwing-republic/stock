@@ -9,8 +9,9 @@
   "closedAt": null,
   "id": "3086-2026-10-27",
   "overextended": false,
-  "setupType": "RECOVERY",
+  "setupType": "TREND",
   "setups": [
+   "TREND",
    "RECOVERY"
   ],
   "startedAt": "2026-10-27",
@@ -170,18 +171,26 @@
    "d5": -3.7,
    "eventId": "edinet:S100ZI5C",
    "excess5": 0.0
+  },
+  {
+   "d1": 0.4,
+   "d20": null,
+   "d5": null,
+   "eventId": "edinet:S100ZKB2",
+   "excess5": null
   }
  ],
  "margin": {
-  "asOf": "2026-11-25",
-  "buyBalance": 96000,
-  "buyChangePct": -8.5,
+  "asOf": "2026-11-26",
+  "buyBalance": 94500,
+  "buyChangePct": -12.5,
   "labels": [
+   "信用買残減少",
    "信用倍率悪化"
   ],
-  "ratio": 0.78,
-  "sellBalance": 123600,
-  "sellChangePct": -31.3
+  "ratio": 0.84,
+  "sellBalance": 112500,
+  "sellChangePct": -39.9
  },
  "pastEpisodes": [
   {
@@ -193,13 +202,13 @@
   }
  ],
  "performance": {
-  "benchReturn": -6.2,
-  "currentPrice": 3193.0,
+  "benchReturn": -4.6,
+  "currentPrice": 3234.0,
   "d20": {
-   "benchReturn": null,
-   "excessReturn": null,
-   "pendingDays": 1,
-   "stockReturn": null
+   "benchReturn": -6.2,
+   "excessReturn": 21.9,
+   "pendingDays": 0,
+   "stockReturn": 15.7
   },
   "d5": {
    "benchReturn": -1.6,
@@ -210,36 +219,36 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 41,
+   "pendingDays": 39,
    "stockReturn": null
   },
-  "excessReturn": 20.9,
+  "excessReturn": 20.8,
   "initialDate": "2026-10-27",
   "initialPrice": 2784.0,
-  "stockReturn": 14.7
+  "stockReturn": 16.2
  },
  "priceSetup": {
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-27",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.11,
+  "distFrom52wHigh": 0.1,
   "labels": [
    "20日線の上",
-   "60日レンジ上位4%",
+   "60日レンジ上位5%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2997.2,
-  "ma200": 2668.4,
-  "ma60": 2818.3,
-  "rangePos60": 0.96,
-  "rel20": 18.9,
-  "rel60": 11.5,
-  "volumeRatio20": 1.0
+  "ma20": 3043.3,
+  "ma200": 2678.7,
+  "ma60": 2822.3,
+  "rangePos60": 0.95,
+  "rel20": 22.2,
+  "rel60": 10.5,
+  "volumeRatio20": 0.62
  },
  "reasons": [
-  "1.1pt買い増し 13.8%→15%",
+  "1pt買い増し 15%→16%",
   "30日以内に2回買い増し",
-  "60日レンジ上位4%",
+  "60日レンジ上位5%",
   "20日線上向き"
  ],
  "schemaVersion": 1,
@@ -425,7 +434,14 @@
    "kind": "EVENT",
    "label": "連続の買い増し",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKB2"
+  },
+  {
+   "date": "2026-11-27",
+   "detail": "RECOVERY → TREND",
+   "kind": "SETUP",
+   "label": "Price Setup改善",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-27T03:54:17+09:00"
+ "updatedAt": "2026-11-27T18:03:53+09:00"
 }

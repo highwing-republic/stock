@@ -10,9 +10,7 @@
   "id": "9682-2026-10-07",
   "overextended": false,
   "setupType": "TREND",
-  "setups": [
-   "TREND"
-  ],
+  "setups": [],
   "startedAt": "2026-10-07",
   "status": "REACTED",
   "statusHistory": [
@@ -74,20 +72,20 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-25",
-  "buyBalance": 65000,
-  "buyChangePct": 0.2,
+  "asOf": "2026-11-26",
+  "buyBalance": 61600,
+  "buyChangePct": -0.8,
   "labels": [
    "信用倍率悪化"
   ],
-  "ratio": 2.0,
-  "sellBalance": 32500,
-  "sellChangePct": -31.1
+  "ratio": 2.26,
+  "sellBalance": 27300,
+  "sellChangePct": -24.2
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -8.7,
-  "currentPrice": 1185.0,
+  "benchReturn": -7.2,
+  "currentPrice": 1167.0,
   "d20": {
    "benchReturn": -4.3,
    "excessReturn": 6.6,
@@ -103,35 +101,34 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 31,
+   "pendingDays": 29,
    "stockReturn": null
   },
-  "excessReturn": 12.3,
+  "excessReturn": 9.2,
   "initialDate": "2026-10-13",
   "initialPrice": 1144.0,
-  "stockReturn": 3.6
+  "stockReturn": 2.0
  },
  "priceSetup": {
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-27",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.06,
+  "distFrom52wHigh": 0.07,
   "labels": [
-   "20日線の上",
    "60日線の上"
   ],
-  "ma20": 1178.7,
-  "ma200": 1076.2,
-  "ma60": 1143.8,
-  "rangePos60": 0.68,
-  "rel20": 1.7,
-  "rel60": 14.7,
-  "volumeRatio20": 0.59
+  "ma20": 1175.0,
+  "ma200": 1075.8,
+  "ma60": 1146.0,
+  "rangePos60": 0.59,
+  "rel20": 1.6,
+  "rel60": 12.0,
+  "volumeRatio20": 0.72
  },
  "reasons": [
   "新規大量保有 5.1%（株式会社みずほ銀行）",
-  "20日線を回復",
-  "TOPIX連動ETF比 +1.7pt（20日）",
-  "52週高値まで6%"
+  "TOPIX連動ETF比 +1.6pt（20日）",
+  "52週高値まで7%",
+  "信用買残 -1%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -323,7 +320,14 @@
    "kind": "SETUP",
    "label": "Price Setup更新",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-27",
+   "detail": "TREND → なし",
+   "kind": "SETUP",
+   "label": "Price Setup解消",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-27T03:54:17+09:00"
+ "updatedAt": "2026-11-27T18:03:53+09:00"
 }

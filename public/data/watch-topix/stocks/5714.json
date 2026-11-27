@@ -33,34 +33,39 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-25",
-  "buyBalance": 826600,
-  "buyChangePct": 3.9,
+  "asOf": "2026-11-26",
+  "buyBalance": 790100,
+  "buyChangePct": -4.5,
   "labels": [
    "信用倍率改善",
    "売残増加"
   ],
-  "ratio": 69.46,
-  "sellBalance": 11900,
-  "sellChangePct": 25.3
+  "ratio": 60.78,
+  "sellBalance": 13000,
+  "sellChangePct": 31.3
  },
  "pastEpisodes": [],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-27",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.43,
-  "labels": [],
-  "ma20": 7812.7,
-  "ma200": 9156.1,
-  "ma60": 8560.6,
-  "rangePos60": 0.02,
-  "rel20": -3.5,
-  "rel60": -22.0,
+  "distFrom52wHigh": 0.37,
+  "labels": [
+   "20日線の上"
+  ],
+  "ma20": 7765.9,
+  "ma200": 9141.6,
+  "ma60": 8465.7,
+  "rangePos60": 0.22,
+  "rel20": 1.2,
+  "rel60": -18.4,
   "volumeRatio20": 0.93
  },
  "reasons": [
-  "新規大量保有 5%（ブラックロック・ジャパン株式会社）"
+  "新規大量保有 5%（ブラックロック・ジャパン株式会社）",
+  "20日線を回復",
+  "TOPIX連動ETF比 +1.2pt（20日）",
+  "信用買残 -4%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -70,7 +75,21 @@
    "kind": "EVENT",
    "label": "新規大量保有",
    "sourceUrl": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI5Y"
+  },
+  {
+   "date": "2026-11-27",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
+  },
+  {
+   "date": "2026-11-27",
+   "detail": "TOPIX連動ETFを上回りに転換",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-27T03:55:18+09:00"
+ "updatedAt": "2026-11-27T18:04:47+09:00"
 }

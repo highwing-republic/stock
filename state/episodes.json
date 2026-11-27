@@ -149,6 +149,10 @@
    "event_id": "edinet:S100ZI5C"
   },
   {
+   "episode_id": "3086-2026-10-27",
+   "event_id": "edinet:S100ZKB2"
+  },
+  {
    "episode_id": "3088-2026-11-06",
    "event_id": "edinet:S100ZCBD"
   },
@@ -2991,8 +2995,9 @@
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z2IK",
    "security_code": "8252",
-   "setup_type": "RECOVERY",
+   "setup_type": "TREND",
    "setups": [
+    "TREND",
     "RECOVERY"
    ],
    "started_at": "2026-09-16",
@@ -3035,9 +3040,7 @@
    "primary_trigger_event_id": "edinet:S100Z2D9",
    "security_code": "3549",
    "setup_type": "TREND",
-   "setups": [
-    "TREND"
-   ],
+   "setups": [],
    "started_at": "2026-09-17",
    "status": "REACTED",
    "status_history": [
@@ -3083,8 +3086,9 @@
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z2WD",
    "security_code": "3099",
-   "setup_type": "RECOVERY",
+   "setup_type": "TREND",
    "setups": [
+    "TREND",
     "RECOVERY"
    ],
    "started_at": "2026-09-18",
@@ -3544,7 +3548,9 @@
    "primary_trigger_event_id": "edinet:S100Z3M6",
    "security_code": "4613",
    "setup_type": "TREND",
-   "setups": [],
+   "setups": [
+    "TREND"
+   ],
    "started_at": "2026-09-25",
    "status": "REACTED",
    "status_history": [
@@ -4230,7 +4236,8 @@
    "security_code": "4307",
    "setup_type": "TREND",
    "setups": [
-    "TREND"
+    "TREND",
+    "RECOVERY"
    ],
    "started_at": "2026-10-05",
    "status": "REACTED",
@@ -5057,9 +5064,7 @@
    "primary_trigger_event_id": "edinet:S100Z5ZR",
    "security_code": "9682",
    "setup_type": "TREND",
-   "setups": [
-    "TREND"
-   ],
+   "setups": [],
    "started_at": "2026-10-07",
    "status": "REACTED",
    "status_history": [
@@ -5548,7 +5553,8 @@
    "security_code": "7269",
    "setup_type": "TREND",
    "setups": [
-    "TREND"
+    "TREND",
+    "RECOVERY"
    ],
    "started_at": "2026-10-22",
    "status": "REACTED",
@@ -5849,9 +5855,7 @@
    "primary_trigger_event_id": "edinet:S100Z9VH",
    "security_code": "4536",
    "setup_type": "TREND",
-   "setups": [
-    "TREND"
-   ],
+   "setups": [],
    "started_at": "2026-10-26",
    "status": "REACTED",
    "status_history": [
@@ -5892,16 +5896,18 @@
     "edinet:S100Z9ZZ",
     "edinet:S100ZBSF",
     "edinet:S100ZCT3",
-    "edinet:S100ZI5C"
+    "edinet:S100ZI5C",
+    "edinet:S100ZKB2"
    ],
    "initial_bench": 420.6000061035156,
    "initial_price": 2784.0,
-   "last_trigger_at": "2026-11-17",
+   "last_trigger_at": "2026-11-27",
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z9ZZ",
    "security_code": "3086",
-   "setup_type": "RECOVERY",
+   "setup_type": "TREND",
    "setups": [
+    "TREND",
     "RECOVERY"
    ],
    "started_at": "2026-10-27",
@@ -6029,7 +6035,7 @@
    "watch_started_at": "2026-10-29"
   },
   {
-   "base_close": 1782.0,
+   "base_close": 1728.6688232421875,
    "close_reason": null,
    "closed_at": null,
    "company_name": "トーセイ",
@@ -6038,7 +6044,7 @@
     "edinet:S100Z9OF"
    ],
    "initial_bench": 421.29998779296875,
-   "initial_price": 1838.0,
+   "initial_price": 1782.9927978515625,
    "last_trigger_at": "2026-10-29",
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100Z9OF",
@@ -6289,9 +6295,7 @@
    "primary_trigger_event_id": "edinet:S100ZBRN",
    "security_code": "3774",
    "setup_type": "TREND",
-   "setups": [
-    "TREND"
-   ],
+   "setups": [],
    "started_at": "2026-11-06",
    "status": "REACTED",
    "status_history": [
@@ -6340,7 +6344,7 @@
    "setup_type": "RECOVERY",
    "setups": [],
    "started_at": "2026-11-06",
-   "status": "WATCH",
+   "status": "STRENGTHENING",
    "status_history": [
     {
      "date": "2026-11-06",
@@ -6353,6 +6357,12 @@
      "from": "CANDIDATE",
      "reason_code": "SETUP_OK",
      "to": "WATCH"
+    },
+    {
+     "date": "2026-11-26",
+     "from": "WATCH",
+     "reason_code": "SETUP_IMPROVED",
+     "to": "STRENGTHENING"
     }
    ],
    "watch_started_at": "2026-11-06"
@@ -6902,7 +6912,8 @@
    "security_code": "6869",
    "setup_type": "TREND",
    "setups": [
-    "TREND"
+    "TREND",
+    "RECOVERY"
    ],
    "started_at": "2026-11-19",
    "status": "WATCH",
@@ -6967,10 +6978,7 @@
    "primary_trigger_event_id": "edinet:S100ZISC",
    "security_code": "3563",
    "setup_type": "TREND",
-   "setups": [
-    "TREND",
-    "RECOVERY"
-   ],
+   "setups": [],
    "started_at": "2026-11-20",
    "status": "WATCH",
    "status_history": [
@@ -6998,25 +7006,31 @@
    "event_ids": [
     "edinet:S100ZIQY"
    ],
-   "initial_bench": null,
-   "initial_price": null,
+   "initial_bench": 394.6000061035156,
+   "initial_price": 1835.0,
    "last_trigger_at": "2026-11-20",
    "overextended": false,
    "primary_trigger_event_id": "edinet:S100ZIQY",
    "security_code": "4732",
-   "setup_type": null,
+   "setup_type": "RECOVERY",
    "setups": [],
    "started_at": "2026-11-20",
-   "status": "CANDIDATE",
+   "status": "WATCH",
    "status_history": [
     {
      "date": "2026-11-20",
      "from": null,
      "reason_code": "TRIGGER_EVENT",
      "to": "CANDIDATE"
+    },
+    {
+     "date": "2026-11-26",
+     "from": "CANDIDATE",
+     "reason_code": "SETUP_OK",
+     "to": "WATCH"
     }
    ],
-   "watch_started_at": null
+   "watch_started_at": "2026-11-26"
   },
   {
    "base_close": 3500.0,

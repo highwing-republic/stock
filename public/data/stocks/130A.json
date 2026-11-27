@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T03:54:02+09:00",
+  "updatedAt": "2026-11-27T18:03:41+09:00",
   "company": {
     "securityCode": "130A",
     "ticker": "130A.T",
@@ -20,11 +20,10 @@
       "purpose": "純投資（提出者は投資一任契約に基づき投資権限を有する）",
       "importantProposal": false,
       "priceChange": null,
-      "volumeRatio": 2.35,
+      "volumeRatio": 1.85,
       "marketExcessReturn": null,
       "signalScore": 0,
       "signalReasons": [
-        "出来高2倍以上",
         "保有割合減少"
       ],
       "stockUnreacted": false,
@@ -32,8 +31,8 @@
         "return1d": -15.82,
         "return5d": null,
         "return20d": null,
-        "returnCurrent": -15.82,
-        "volumeRatio": 2.35,
+        "returnCurrent": -8.08,
+        "volumeRatio": 1.85,
         "marketExcessReturn": null
       }
     },
@@ -50,24 +49,25 @@
       "holdingChange": -2.66,
       "purpose": "純投資（提出者は投資一任契約に基づき投資権限を有する）",
       "importantProposal": false,
-      "priceChange": null,
-      "volumeRatio": 4.63,
-      "marketExcessReturn": null,
+      "priceChange": 14.22,
+      "volumeRatio": 4.16,
+      "marketExcessReturn": 16.67,
       "signalScore": 0,
       "signalReasons": [
         "出来高2倍以上",
         "出来高3倍以上",
+        "市場超過5%以上",
         "保有割合減少",
         "大幅売却"
       ],
       "stockUnreacted": false,
       "metrics": {
         "return1d": 62.22,
-        "return5d": null,
+        "return5d": 14.22,
         "return20d": null,
-        "returnCurrent": 11.11,
-        "volumeRatio": 4.63,
-        "marketExcessReturn": null
+        "returnCurrent": 21.33,
+        "volumeRatio": 4.16,
+        "marketExcessReturn": 16.67
       }
     },
     {
@@ -98,7 +98,7 @@
         "return1d": 23.91,
         "return5d": 8.7,
         "return20d": null,
-        "returnCurrent": 8.7,
+        "returnCurrent": 18.7,
         "volumeRatio": 16.8,
         "marketExcessReturn": 12.64
       }
@@ -126,7 +126,7 @@
         "return1d": -3.38,
         "return5d": -13.53,
         "return20d": null,
-        "returnCurrent": -6.02,
+        "returnCurrent": 2.63,
         "volumeRatio": 0.47,
         "marketExcessReturn": -19.27
       }
@@ -157,7 +157,7 @@
         "return1d": -10.74,
         "return5d": -13.76,
         "return20d": null,
-        "returnCurrent": -16.11,
+        "returnCurrent": -8.39,
         "volumeRatio": 1.02,
         "marketExcessReturn": -13.83
       }
@@ -2960,9 +2960,19 @@
       "open": 243.0,
       "high": 280.0,
       "low": 243.0,
-      "close": null,
-      "adj_close": null,
+      "close": 257.0,
+      "adj_close": 257.0,
       "volume": 719900
+    },
+    {
+      "ticker": "130A.T",
+      "trade_date": "2026-11-27",
+      "open": 259.0,
+      "high": 305.0,
+      "low": 258.0,
+      "close": 273.0,
+      "adj_close": 273.0,
+      "volume": 1256100
     }
   ],
   "benchmark": [
@@ -7092,9 +7102,19 @@
       "open": 396.8999938964844,
       "high": 398.70001220703125,
       "low": 393.6000061035156,
-      "close": null,
-      "adj_close": null,
+      "close": 394.6000061035156,
+      "adj_close": 394.6000061035156,
       "volume": 17100680
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-27",
+      "open": 397.0,
+      "high": 402.3999938964844,
+      "low": 397.0,
+      "close": 401.3999938964844,
+      "adj_close": 401.3999938964844,
+      "volume": 14016470
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

@@ -1,11 +1,72 @@
 {
-  "updatedAt": "2026-11-27T03:54:02+09:00",
+  "updatedAt": "2026-11-27T18:03:41+09:00",
   "company": {
     "securityCode": "7292",
     "ticker": "7292.T",
     "name": "株式会社村上開明堂"
   },
   "events": [
+    {
+      "docId": "S100ZKC6",
+      "ticker": "7292.T",
+      "securityCode": "7292",
+      "companyName": "株式会社村上開明堂",
+      "submitDatetime": "2026-11-27 10:43",
+      "filerName": "村上　太郎",
+      "reportType": "change",
+      "holdingRatio": 9.09,
+      "previousHoldingRatio": 10.87,
+      "holdingChange": -1.78,
+      "purpose": "－",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 0,
+      "signalReasons": [
+        "保有割合減少"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 0.16,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
+    {
+      "docId": "S100ZK7C",
+      "ticker": "7292.T",
+      "securityCode": "7292",
+      "companyName": "株式会社村上開明堂",
+      "submitDatetime": "2026-11-27 10:39",
+      "filerName": "株式会社豊英社",
+      "reportType": "change",
+      "holdingRatio": 18.39,
+      "previousHoldingRatio": 14.2,
+      "holdingChange": 4.19,
+      "purpose": "政策投資",
+      "importantProposal": false,
+      "priceChange": null,
+      "volumeRatio": null,
+      "marketExcessReturn": null,
+      "signalScore": 30,
+      "signalReasons": [
+        "1pt以上買い増し",
+        "2pt以上買い増し"
+      ],
+      "stockUnreacted": false,
+      "metrics": {
+        "return1d": null,
+        "return5d": null,
+        "return20d": null,
+        "returnCurrent": 0.16,
+        "volumeRatio": null,
+        "marketExcessReturn": null
+      }
+    },
     {
       "docId": "S100ZAEE",
       "ticker": "7292.T",
@@ -33,7 +94,7 @@
         "return1d": -5.58,
         "return5d": -3.63,
         "return20d": null,
-        "returnCurrent": -14.23,
+        "returnCurrent": -11.72,
         "volumeRatio": 1.45,
         "marketExcessReturn": 0.93
       }
@@ -2876,9 +2937,19 @@
       "open": 6150.0,
       "high": 6330.0,
       "low": 6120.0,
-      "close": null,
-      "adj_close": null,
+      "close": 6320.0,
+      "adj_close": 6320.0,
       "volume": 5300
+    },
+    {
+      "ticker": "7292.T",
+      "trade_date": "2026-11-27",
+      "open": 6320.0,
+      "high": 6450.0,
+      "low": 6230.0,
+      "close": 6330.0,
+      "adj_close": 6330.0,
+      "volume": 13000
     }
   ],
   "benchmark": [
@@ -7008,9 +7079,19 @@
       "open": 396.8999938964844,
       "high": 398.70001220703125,
       "low": 393.6000061035156,
-      "close": null,
-      "adj_close": null,
+      "close": 394.6000061035156,
+      "adj_close": 394.6000061035156,
       "volume": 17100680
+    },
+    {
+      "ticker": "1306.T",
+      "trade_date": "2026-11-27",
+      "open": 397.0,
+      "high": 402.3999938964844,
+      "low": 397.0,
+      "close": 401.3999938964844,
+      "adj_close": 401.3999938964844,
+      "volume": 14016470
     }
   ],
   "benchmarkLabel": "TOPIX連動ETF（1306）"

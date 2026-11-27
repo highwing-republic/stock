@@ -130,16 +130,16 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-25",
-  "buyBalance": 753300,
-  "buyChangePct": -10.1,
+  "asOf": "2026-11-26",
+  "buyBalance": 716800,
+  "buyChangePct": -15.0,
   "labels": [
    "信用買残減少",
    "信用倍率改善"
   ],
-  "ratio": 6.64,
-  "sellBalance": 113400,
-  "sellChangePct": 3.1
+  "ratio": 5.9,
+  "sellBalance": 121500,
+  "sellChangePct": 8.7
  },
  "pastEpisodes": [
   {
@@ -152,22 +152,25 @@
  ],
  "performance": null,
  "priceSetup": {
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-27",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.47,
-  "labels": [],
-  "ma20": 12455.5,
-  "ma200": 14327.2,
-  "ma60": 14386.1,
-  "rangePos60": 0.2,
-  "rel20": -6.3,
-  "rel60": -25.1,
+  "distFrom52wHigh": 0.38,
+  "labels": [
+   "20日線の上"
+  ],
+  "ma20": 12347.5,
+  "ma200": 14358.6,
+  "ma60": 14251.2,
+  "rangePos60": 0.39,
+  "rel20": -2.0,
+  "rel60": -16.2,
   "volumeRatio20": 0.82
  },
  "reasons": [
   "1.2pt買い増し 14.8%→16%",
   "30日以内に2回買い増し",
-  "信用買残 -10%"
+  "20日線を回復",
+  "信用買残 -15%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -296,7 +299,14 @@
    "kind": "STATUS",
    "label": "CLOSED",
    "sourceUrl": null
+  },
+  {
+   "date": "2026-11-27",
+   "detail": "20日線を回復",
+   "kind": "SETUP",
+   "label": "Price Setup更新",
+   "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-27T03:54:17+09:00"
+ "updatedAt": "2026-11-27T18:03:53+09:00"
 }

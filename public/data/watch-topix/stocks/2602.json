@@ -11,7 +11,8 @@
   "overextended": false,
   "setupType": "TREND",
   "setups": [
-   "TREND"
+   "TREND",
+   "RECOVERY"
   ],
   "startedAt": "2026-11-06",
   "status": "STRENGTHENING",
@@ -47,22 +48,25 @@
   }
  ],
  "margin": {
-  "asOf": "2026-11-25",
-  "buyBalance": 39700,
-  "buyChangePct": -8.9,
-  "labels": [],
-  "ratio": 3.34,
-  "sellBalance": 11900,
-  "sellChangePct": -3.3
+  "asOf": "2026-11-26",
+  "buyBalance": 40800,
+  "buyChangePct": -4.4,
+  "labels": [
+   "信用倍率改善",
+   "売残増加"
+  ],
+  "ratio": 2.7,
+  "sellBalance": 15100,
+  "sellChangePct": 26.9
  },
  "pastEpisodes": [],
  "performance": {
-  "benchReturn": -1.8,
-  "currentPrice": 2145.0,
+  "benchReturn": -0.2,
+  "currentPrice": 2130.0,
   "d20": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 9,
+   "pendingDays": 7,
    "stockReturn": null
   },
   "d5": {
@@ -74,37 +78,36 @@
   "d60": {
    "benchReturn": null,
    "excessReturn": null,
-   "pendingDays": 49,
+   "pendingDays": 47,
    "stockReturn": null
   },
-  "excessReturn": 0.5,
+  "excessReturn": -1.8,
   "initialDate": "2026-11-09",
   "initialPrice": 2173.0,
-  "stockReturn": -1.3
+  "stockReturn": -2.0
  },
  "priceSetup": {
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-27",
   "atrState": "高ボラ",
-  "distFrom52wHigh": 0.03,
+  "distFrom52wHigh": 0.04,
   "labels": [
    "20日線の上",
-   "60日レンジ上位27%",
    "20日線が上向き",
    "60日線の上"
   ],
-  "ma20": 2107.9,
-  "ma200": 1913.9,
-  "ma60": 2061.7,
-  "rangePos60": 0.73,
-  "rel20": 7.9,
-  "rel60": 13.6,
-  "volumeRatio20": 0.92
+  "ma20": 2116.3,
+  "ma200": 1917.2,
+  "ma60": 2065.4,
+  "rangePos60": 0.67,
+  "rel20": 10.0,
+  "rel60": 12.0,
+  "volumeRatio20": 0.77
  },
  "reasons": [
   "1pt買い増し 6.5%→7.6%",
-  "60日レンジ上位27%",
-  "20日線を回復",
-  "TOPIX連動ETF比 +7.9pt（20日）"
+  "20日線上向き",
+  "TOPIX連動ETF比 +10pt（20日）",
+  "52週高値まで4%"
  ],
  "schemaVersion": 1,
  "timeline": [
@@ -179,5 +182,5 @@
    "sourceUrl": null
   }
  ],
- "updatedAt": "2026-11-27T03:55:18+09:00"
+ "updatedAt": "2026-11-27T18:04:47+09:00"
 }
